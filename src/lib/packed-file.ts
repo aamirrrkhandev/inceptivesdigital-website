@@ -2,11 +2,13 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import mapping from "../../content/file-parts.json";
+const contentDirectory = path.join(process.cwd(), "content");
+const resolvePart = (part: string) => path.join(contentDirectory, part.replace(/^content\//, ""));
 
 // Large source files are split for deployment transport; served bytes stay identical.
 export function readPackedFile(file: string, offset = 0, size?: number): Buffer {
   const parts = (mapping as Record<string, string[]>)[file] || [file];
-  const lengths = parts.map((part) => fs.statSync(path.join(process.cwd(), part)).size);
+  const lengths = parts.map((part) => fs.statSync(resolvePart(part)).size);
   const total = lengths.reduce((sum, length) => sum + length, 0);
   const count = size ?? total - offset;
   if (offset < 0 || count < 0 || offset + count > total) throw new Error("Invalid packed file range");
@@ -17,7 +19,7 @@ export function readPackedFile(file: string, offset = 0, size?: number): Buffer 
     const localOffset = Math.max(0, offset - start);
     const length = Math.min(lengths[i] - localOffset, count - written);
     if (length > 0) {
-      const fd = fs.openSync(path.join(process.cwd(), parts[i]), "r");
+      const fd = fs.openSync(resolvePart(parts[i]), "r");
       try {
         let read = 0;
         while (read < length) {
