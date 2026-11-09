@@ -3,7 +3,7 @@ export const dynamic = "force-static";
 export const dynamicParams = false;
 export function generateStaticParams() {
   return Object.keys(mediaIndex)
-    .filter((k) => k.startsWith("/wp-content/uploads/"))
+    .filter((k) => k.startsWith("/wp-content/uploads/") && mediaIndex[k].size <= 20_000_000)
     .map((k) => ({
       asset: k
         .slice("/wp-content/uploads/".length)
