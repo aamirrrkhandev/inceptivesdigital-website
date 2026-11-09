@@ -15,7 +15,7 @@ Project inceptives (prj_fQpnhPrg9tfKeRbUial9CDKvlqAH), team team_3cCCrG0KiZODE4S
 Hello Elementor 3.4.9, Elementor 4.3.6, Elementor Pro 4.3.2, ElementsKit and Yoast Premium 28.8 identified in public HTML. SF Pro custom fonts, Swiper, nested tabs/accordions/carousels, embedded video, Calendly, Elementor form. GTM-5BV286F5, Google site verification and Leadsy are visible. WordPress dashboard also lists FluentSMTP and anti-spam integrations; destinations and private configuration have not been read. Analytics deliberately do not execute on review staging.
 
 ## Homepage assets
-120 source asset mappings downloaded, including four MP4 videos. Original-byte SHA256 hashes and source URLs: audit/ASSET_MANIFEST.json. Responsive image derivatives generated from those originals. No replacement stock assets or placeholders. Source HTML/CSS retained under audit/raw for engineering reference, not served as page blobs or Elementor runtime.
+121 source asset mappings downloaded, including four MP4 videos. Original-byte SHA256 hashes and source URLs: audit/ASSET_MANIFEST.json. Responsive image derivatives generated from those originals. No replacement stock assets or placeholders. Source HTML/CSS retained under audit/raw for engineering reference, not served as page blobs or Elementor runtime.
 
 ## Limitations
 Full-site crawl, plugin/configuration audit, redirect export, functional lead delivery, comprehensive visual regression and independent Lighthouse runs are pending. Some source FAQ questions and answers appear semantically mismatched; their exact copy is retained pending editorial approval. Source mobile and desktop hero copy differs and is preserved.

@@ -14,6 +14,15 @@ const check = async (name, run) => {
 const r = await fetch(base);
 const html = await r.text();
 const $ = cheerio.load(html);
+if (
+  new URL(r.url).hostname !== new URL(base).hostname ||
+  $("title").text().includes("Login – Vercel")
+) {
+  console.error(
+    "BLOCKED: Vercel authentication returned a login page. No app assertions were run. Use authenticated browser checks or an approved authenticated HTTP session.",
+  );
+  process.exit(2);
+}
 const source = JSON.parse(fs.readFileSync("src/content/source.json"));
 await check("Homepage status", () => assert.equal(r.status, 200));
 await check("Server-rendered title", () =>

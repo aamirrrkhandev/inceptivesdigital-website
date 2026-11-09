@@ -1,0 +1,4 @@
+{
+  "status": "BLOCKED_UNAUTHENTICATED_HTTP",
+  "reason": "Vercel authentication redirects fetches to a login page. Authenticated Chrome rendering verified separately. Do not interpret prior login-document assertions as application results."
+}

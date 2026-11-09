@@ -25,3 +25,9 @@ This is a staging review candidate, not a completed full migration or a declarat
 Known review differences: carousel currently advances through explicit controls; original automatic timing is not yet replicated. Testimonial list supports manual scrolling; original continuous auto-scroll remains to be matched. Header service groups retain source labels and links with accessible React controls, but exact hover dimensions still need visual review. Some FAQ source copy is inconsistent with its questions and has been preserved.
 
 All other routes remain unimplemented and are explicitly on hold for the homepage quality gate. Navigation links to those routes intentionally stay on the live website for this review. No DNS, live WordPress, existing Vercel project or production routing changes were made.
+
+## Deployment verification
+
+Vercel deployment dpl_CYN9VBeZ5DTtbTCR9BdTJGkU5mBN reached READY. Its build log reports successful static prerendering and deployment. The actual staging URL opened in authenticated Chrome, with the correct homepage title, canonical host, noindex metadata, no horizontal overflow, no completed broken images and readyState 4 for all four unique original videos. Screenshot: audit/staging-hero.png.
+
+Unauthenticated terminal fetches follow Vercel Authentication to its login page. The first attempted HTTP suite therefore tested the login document and produced misleading failures; its raw results are retained as audit/http-staging-unauthenticated-diagnostic.json and are not application parity results. The suite now aborts when authentication redirects away from the requested host. Deployed HTTP headers, robots endpoint and complete remote HTTP parity remain unverified through that access path. The 233 passing checks apply to the local production build. The local SEO comparison covers 16 fields with no unexpected differences.

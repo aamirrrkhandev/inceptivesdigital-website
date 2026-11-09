@@ -16,4 +16,4 @@
 | Contact | Exact fields and consent copy, browser validation | Staging-only; no external lead submission |
 | Footer | Menus, review images, addresses and links | QA pending |
 
-Remaining parity: exact megamenu group hierarchy, source autoplay carousel timings, testimonial auto-scroll, conversion popup behavior and full keyboard/accessibility audit.
+Remaining parity: exact megamenu hover dimensions, source autoplay carousel timings, testimonial auto-scroll, conversion popup behavior and full keyboard/accessibility audit.
