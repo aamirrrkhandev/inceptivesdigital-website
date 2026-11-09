@@ -1,5 +1,6 @@
 import { asset, type Asset } from "@/lib/assets";
 import dimensions from "@/content/dimensions.json";
+import DeferredVideo from "./DeferredVideo";
 export function Picture({
   image,
   className = "",
@@ -42,17 +43,11 @@ export function Video({
   controls?: boolean;
 }) {
   return (
-    <video
+    <DeferredVideo
       className={className}
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="metadata"
+      src={"/assets/" + name}
       poster={poster ? "/assets/" + poster : undefined}
       controls={controls}
-    >
-      <source src={"/assets/" + name} type="video/mp4" />
-    </video>
+    />
   );
 }

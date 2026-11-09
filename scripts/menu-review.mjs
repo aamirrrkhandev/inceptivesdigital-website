@@ -1,0 +1,5 @@
+import {chromium} from 'playwright';import fs from 'node:fs';
+const browser=await chromium.launch();const results=[];
+for(const base of ['http://localhost:3101','https://inceptivesdigital.com']){const p=await browser.newPage({viewport:{width:1440,height:1000}});await p.goto(base,{waitUntil:'domcontentloaded'});await p.waitForTimeout(1500);await p.getByRole('link',{name:'Services',exact:true}).first().hover();await p.waitForTimeout(400);results.push({base,panels:await p.locator('[class*="megamenu-panel"]').evaluateAll(es=>es.map(e=>({cls:e.className,rect:e.getBoundingClientRect().toJSON(),css:['position','width','left','right','transform','display','visibility'].map(k=>[k,getComputedStyle(e)[k]]),parent:e.parentElement.outerHTML.slice(0,1100),offsetParent:e.offsetParent?.className}))) });await p.screenshot({path:'audit/browser/menu-'+(base.includes('localhost')?'target':'source')+'.png'});await p.close()}
+await browser.close();fs.writeFileSync('audit/browser/menu-review.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));
+

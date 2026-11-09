@@ -19,7 +19,13 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "cheerio": "latest",
+    "postcss": "^8.5.32",
+    "postcss-safe-parser": "^7.1.0",
     "prettier": "^3.9.10",
-    "typescript": "latest"
+    "typescript": "latest",
+    "wawoff2": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "@ffmpeg-installer/win32-x64": "^4.1.0"
   }
 }

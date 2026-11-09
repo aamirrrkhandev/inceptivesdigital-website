@@ -1,0 +1,36 @@
+import fs from "node:fs";
+import path from "node:path";
+import index from "../../content/media-index.json";
+type Entry = {
+  pack: number;
+  offset: number;
+  size: number;
+  type: string;
+  width?: number;
+  height?: number;
+  optimized?: string;
+  poster?: string;
+  mobileVideo?: string;
+};
+export const mediaIndex = index as Record<string, Entry>;
+export function mediaResponse(key: string) {
+  const entry = mediaIndex[key] || mediaIndex[encodeURI(key)];
+  if (!entry) return new Response("Not found", { status: 404 });
+  const fd = fs.openSync(
+    path.join(process.cwd(), "content/media", entry.pack + ".pack"),
+    "r",
+  );
+  const bytes = Buffer.alloc(entry.size);
+  try {
+    fs.readSync(fd, bytes, 0, entry.size, entry.offset);
+  } finally {
+    fs.closeSync(fd);
+  }
+  return new Response(new Uint8Array(bytes), {
+    headers: {
+      "Content-Type": entry.type,
+      "Cache-Control": "public, max-age=31536000, immutable",
+      "X-Content-Type-Options": "nosniff",
+    },
+  });
+}

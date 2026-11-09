@@ -1,0 +1,112 @@
+[
+  {
+    "source": "/family-entertainment-group",
+    "destination": "/portfolio/family-entertainment-group",
+    "statusCode": 301
+  },
+  {
+    "source": "/mobile-app",
+    "destination": "/blog/mobile-app-branding-guide",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/10-aso-strategies-to-increase-your-app-store-rankings",
+    "destination": "/blog/aso-strategies-to-increase-your-app-store-rankings/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/aso-strategies-to-increase-your-app-store-rankings/",
+    "destination": "/blog/aso-strategies-to-increase-your-app-store-rankings",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/5-cross-platform-frameworks-for-mobile-app-development",
+    "destination": "/blog/cross-platform-frameworks-for-mobile-app-development/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/cross-platform-frameworks-for-mobile-app-development/",
+    "destination": "/blog/cross-platform-frameworks-for-mobile-app-development",
+    "statusCode": 301
+  },
+  {
+    "source": "/state-of-the-art-chiropractic",
+    "destination": "/portfolio/state-of-the-art-chiropractic",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/10-healthcare-app-trends",
+    "destination": "/blog/healthcare-app-trends/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/healthcare-app-trends/",
+    "destination": "/blog/healthcare-app-trends",
+    "statusCode": 301
+  },
+  {
+    "source": "/mobile-game-development",
+    "destination": "/blog/mobile-game-development-cost",
+    "statusCode": 301
+  },
+  {
+    "source": "/web-app-development",
+    "destination": "/web-app-development-company",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/10-healthcare-app-startup-ideas",
+    "destination": "/blog/healthcare-app-startup-ideas/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/healthcare-app-startup-ideas/",
+    "destination": "/blog/healthcare-app-startup-ideas",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/10-common-mobile-app-development-mistakes",
+    "destination": "/blog/common-mobile-app-development-mistakes/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/common-mobile-app-development-mistakes/",
+    "destination": "/blog/common-mobile-app-development-mistakes",
+    "statusCode": 301
+  },
+  {
+    "source": "/mobile-app-development-cost",
+    "destination": "/blog/mobile-app-development-cost/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/mobile-app-development-cost/",
+    "destination": "/blog/mobile-app-development-cost",
+    "statusCode": 301
+  },
+  {
+    "source": "/contact",
+    "destination": "/contact-us",
+    "statusCode": 301
+  },
+  {
+    "source": "/machine-learning-development",
+    "destination": "/machine-learning-development-services",
+    "statusCode": 301
+  },
+  {
+    "source": "/nlp-development",
+    "destination": "/nlp-development-services",
+    "statusCode": 301
+  },
+  {
+    "source": "/generative-ai-development",
+    "destination": "/generative-ai-development-company",
+    "statusCode": 301
+  },
+  {
+    "source": "/ai-chatbot-development",
+    "destination": "/ai-chatbot-development-services",
+    "statusCode": 301
+  }
+]
