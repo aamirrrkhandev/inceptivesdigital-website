@@ -1,6 +1,5 @@
 import "server-only";
-import fs from "node:fs";
-import path from "node:path";
+import { readPackedFile } from "./packed-file";
 import zlib from "node:zlib";
 import { cache } from "react";
 export type LayoutNode =
@@ -29,9 +28,7 @@ export const readCatalog = cache((): Record<string, { data: string }> =>
   JSON.parse(
     zlib
       .brotliDecompressSync(
-        fs.readFileSync(
-          path.join(process.cwd(), "content/site-catalog.json.br"),
-        ),
+        readPackedFile("content/site-catalog.json.br"),
       )
       .toString("utf8"),
   ),

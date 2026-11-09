@@ -9,3 +9,7 @@ Mobile expansion now targets the actual `sitekit-megamenu-has` markup and explic
 Verification: `node scripts/verify-navigation.mjs <base-url>` runs 27 checks at 1920, 1440, 1280, 1024, 820, and 390px on the iOS service page. All passed against the corrected development build. Assertions include nonzero panel height, visible content, viewport boundaries, mobile toggles, and desktop keyboard navigation. Evidence is in `audit/browser/navigation-verification.json` and `audit/browser/menu-fixed-*.png`. The homepage comparison is recorded in `audit/browser/banner-review.json` and banner screenshots. TypeScript checks passed. Deployment verification remains separate from local verification.
 
 These changes do not modify WordPress, DNS, the production domain, or the original Vercel project. The wider migration and missing original-media recovery remain incomplete.
+
+The tablet source also obscures its heading behind the fixed header. An 80px homepage-only top inset at 768–1024px corrects that overlap. Four banner checks (1920, 1440, 820, 390px) pass after this correction.
+
+The deployment uploader stalled on source files larger than roughly 20MB of encoded transport data. The page catalog and original 24.5MB video pack are therefore supplied as 8MiB parts, listed in `content/file-parts.json`. `readPackedFile` reconstructs the same byte ranges at build time. This does not change media bytes or introduce a runtime WordPress dependency. When regenerating either logical source file, regenerate its parts before building. The original local files remain available.
