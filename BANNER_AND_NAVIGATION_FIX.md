@@ -13,3 +13,9 @@ These changes do not modify WordPress, DNS, the production domain, or the origin
 The tablet source also obscures its heading behind the fixed header. An 80px homepage-only top inset at 768–1024px corrects that overlap. Four banner checks (1920, 1440, 820, 390px) pass after this correction.
 
 The deployment uploader stalled on source files larger than roughly 20MB of encoded transport data. The page catalog and original 24.5MB video pack are therefore supplied as 8MiB parts, listed in `content/file-parts.json`. `readPackedFile` reconstructs the same byte ranges at build time. This does not change media bytes or introduce a runtime WordPress dependency. When regenerating either logical source file, regenerate its parts before building. The original local files remain available.
+
+## Deployment verification
+
+Published preview: https://inceptives-homepage-review-i1treiv08.vercel.app/ (`dpl_7wqe8Dgq7Ryv9YmnP3PbEedc7nrU`). Vercel reports READY. All 27 navigation checks and four banner checks passed against this remote deployment. Homepage and iOS service page return HTTP 200. Preview noindex headers remain present.
+
+The original client-grey.mp4 exceeds Vercel's 20MB generated-response limit. The build now materializes it as a public static file, preserving `/wp-content/uploads/2026/10/client-grey.mp4` and all 24,507,461 bytes. SHA-256 reconstruction checks match the original. The deployed video returns HTTP 200 with video/mp4 and the expected length. No limit-bypass setting was enabled.
