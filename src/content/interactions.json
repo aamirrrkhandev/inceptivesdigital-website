@@ -1,0 +1,1021 @@
+{
+  "nav": [
+    {
+      "text": "Services",
+      "href": "https://inceptivesdigital.com/services",
+      "links": [
+        {
+          "text": "Services",
+          "href": "https://inceptivesdigital.com/services"
+        },
+        {
+          "text": "Mobile App Development",
+          "href": "https://inceptivesdigital.com/mobile-app-development"
+        },
+        {
+          "text": "Blockchain Development",
+          "href": "https://inceptivesdigital.com/blockchain-development"
+        },
+        {
+          "text": "iOS App",
+          "href": "https://inceptivesdigital.com/ios-app-development"
+        },
+        {
+          "text": "Android App",
+          "href": "https://inceptivesdigital.com/android-app-development"
+        },
+        {
+          "text": "React Native App",
+          "href": "https://inceptivesdigital.com/react-native-app-development"
+        },
+        {
+          "text": "Flutter",
+          "href": "https://inceptivesdigital.com/flutter-app-development"
+        },
+        {
+          "text": "Kotlin Multiplatform",
+          "href": "https://inceptivesdigital.com/kotlin-multiplatform-app-development"
+        },
+        {
+          "text": "Web App Development",
+          "href": "https://inceptivesdigital.com/web-app-development-company"
+        },
+        {
+          "text": "Backend and API",
+          "href": "https://inceptivesdigital.com/backend-api-development"
+        },
+        {
+          "text": "Cross-Platform Development",
+          "href": "https://inceptivesdigital.com/cross-platform-app-development"
+        },
+        {
+          "text": "App Store Optimization",
+          "href": "https://inceptivesdigital.com/app-store-optimization"
+        },
+        {
+          "text": "Product Launch Strategy",
+          "href": "https://inceptivesdigital.com/product-launch-strategy"
+        },
+        {
+          "text": "Post Launch Analytics and Iteration",
+          "href": "https://inceptivesdigital.com/post-launch-analytics-iteration"
+        },
+        {
+          "text": "AI Development",
+          "href": "https://inceptivesdigital.com/ai-development"
+        },
+        {
+          "text": "AI App Development",
+          "href": "https://inceptivesdigital.com/ai-app-development-services"
+        },
+        {
+          "text": "AI Chatbot Development",
+          "href": "https://inceptivesdigital.com/ai-chatbot-development-services"
+        },
+        {
+          "text": "AI Agent Development",
+          "href": "https://inceptivesdigital.com/ai-agent-development"
+        },
+        {
+          "text": "Generative AI Development",
+          "href": "https://inceptivesdigital.com/generative-ai-development-company"
+        },
+        {
+          "text": "Machine Learning Development",
+          "href": "https://inceptivesdigital.com/machine-learning-development-services"
+        },
+        {
+          "text": "NLP Development",
+          "href": "https://inceptivesdigital.com/nlp-development-services"
+        },
+        {
+          "text": "AI MVP Development",
+          "href": "https://inceptivesdigital.com/ai-mvp-development"
+        },
+        {
+          "text": "AI Automation",
+          "href": "https://inceptivesdigital.com/ai-automation-services"
+        },
+        {
+          "text": "System Integration & API Automation Services",
+          "href": "https://inceptivesdigital.com/system-integration-api-automation"
+        },
+        {
+          "text": "Business Process Automation Services",
+          "href": "https://inceptivesdigital.com/business-process-automation"
+        },
+        {
+          "text": "RPA Development",
+          "href": "https://inceptivesdigital.com/rpa-development-services"
+        },
+        {
+          "text": "Digital Product Development",
+          "href": "https://inceptivesdigital.com/digital-product-development"
+        },
+        {
+          "text": "Discovery Sprint",
+          "href": "https://inceptivesdigital.com/discovery-sprint"
+        },
+        {
+          "text": "MVP Development",
+          "href": "https://inceptivesdigital.com/mvp-development"
+        },
+        {
+          "text": "Product Rescue & Scaling",
+          "href": "https://inceptivesdigital.com/product-rescue-scaling"
+        },
+        {
+          "text": "Product Strategy & Consulting",
+          "href": "https://inceptivesdigital.com/product-strategy-consulting"
+        },
+        {
+          "text": "Custom Software Development",
+          "href": "https://inceptivesdigital.com/custom-software-development"
+        },
+        {
+          "text": "UI/UX Design",
+          "href": "https://inceptivesdigital.com/ui-ux-design"
+        },
+        {
+          "text": "Interactive Prototyping",
+          "href": "https://inceptivesdigital.com/interactive-prototyping"
+        }
+      ]
+    },
+    {
+      "text": "Industries",
+      "href": "#!",
+      "links": [
+        { "text": "Industries", "href": "#!" },
+        {
+          "text": "Healthcare App Development",
+          "href": "https://inceptivesdigital.com/healthcare-app-development"
+        },
+        {
+          "text": "Fitness App Development",
+          "href": "https://inceptivesdigital.com/fitness-app-development"
+        },
+        {
+          "text": "Fintech App Development",
+          "href": "https://inceptivesdigital.com/fintech-app-development"
+        },
+        {
+          "text": "Education App Development",
+          "href": "https://inceptivesdigital.com/education-app-development-company"
+        },
+        {
+          "text": "Real Estate App Development",
+          "href": "https://inceptivesdigital.com/real-estate-app-development-company"
+        },
+        {
+          "text": "Travel App Development",
+          "href": "https://inceptivesdigital.com/travel-app-development-company"
+        },
+        {
+          "text": "Food Delivery App Development",
+          "href": "https://inceptivesdigital.com/food-delivery-app-development"
+        },
+        {
+          "text": "Dating App Development",
+          "href": "https://inceptivesdigital.com/dating-app-development-company"
+        }
+      ]
+    },
+    {
+      "text": "Locations",
+      "href": "#",
+      "links": [
+        { "text": "Locations", "href": "#" },
+        {
+          "text": "San Francisco",
+          "href": "https://inceptivesdigital.com/mobile-app-development-san-francisco"
+        },
+        {
+          "text": "New York",
+          "href": "https://inceptivesdigital.com/mobile-app-development-new-york"
+        },
+        {
+          "text": "Austin",
+          "href": "https://inceptivesdigital.com/mobile-app-development-austin"
+        },
+        {
+          "text": "Toronto",
+          "href": "https://inceptivesdigital.com/mobile-app-development-company-in-toronto-canada"
+        },
+        {
+          "text": "London",
+          "href": "https://inceptivesdigital.com/mobile-app-development-company-london-uk"
+        },
+        {
+          "text": "Dubai",
+          "href": "https://inceptivesdigital.com/mobile-app-development-company-dubai-uae"
+        },
+        {
+          "text": "Singapore",
+          "href": "https://inceptivesdigital.com/mobile-app-development-company-singapore"
+        }
+      ]
+    },
+    {
+      "text": "Case Studies",
+      "href": "https://inceptivesdigital.com/portfolio",
+      "links": [
+        {
+          "text": "Case Studies",
+          "href": "https://inceptivesdigital.com/portfolio"
+        }
+      ]
+    },
+    {
+      "text": "Company",
+      "href": "#",
+      "links": [
+        { "text": "Company", "href": "#" },
+        { "text": "About", "href": "https://inceptivesdigital.com/about-us" },
+        { "text": "Blogs", "href": "https://inceptivesdigital.com/blog" },
+        {
+          "text": "Press & Media",
+          "href": "https://inceptivesdigital.com/press-release"
+        },
+        {
+          "text": "Partnership",
+          "href": "https://inceptivesdigital.com/partnership"
+        },
+        {
+          "text": "Life At Inceptives Digital",
+          "href": "https://inceptivesdigital.com/life-at-inceptives-digital"
+        },
+        {
+          "text": "Leadership",
+          "href": "https://inceptivesdigital.com/leadership"
+        },
+        {
+          "text": "Founder's Letter",
+          "href": "https://inceptivesdigital.com/founders-letter"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://inceptivesdigital.com/contact-us"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "title": "DPS Airem",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/carousel1.png",
+              "alt": "DPS Airem logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "DPS Airem",
+          "title": "DPS Airem",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "Modernizing Security Workforce Operations",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "image-box.default",
+          "text": "The ChallengeDPS Airem wanted live visibility over security personnel spread across multiple locations, without the paper-based attendance and reporting that slowed every shift.",
+          "title": "The Challenge",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "image-box.default",
+          "text": "How We HelpedWe developed an Android app with geofenced GPS attendance and offline synchronization, built to give managers reliable oversight at every site.",
+          "title": "How We Helped",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "The Outcome",
+          "title": "The Outcome",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "icon-list.default",
+          "text": "90% reduction in manual paperwork 1,000+ security personnel supported Better visibility across field operations",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "Read Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "Read Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/dps-airem"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/play-store.png",
+              "alt": ""
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/dps--1024x636.png",
+              "alt": "Pets B4 Profit App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/dps-image.svg",
+              "alt": "DPS Airem App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "Pulse Check",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/carousel2.png",
+              "alt": "Pulse Check Timer Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Pulse Check",
+          "title": "Pulse Check",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Emergency CPR Timing and Resuscitation Support Platform",
+          "title": "Emergency CPR Timing and Resuscitation Support Platform",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "A precision-built mobile application that guides CPR cycles, automates pulse check timing, records critical events, and simplifies emergency documentation.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/pulse-check-timer"
+            }
+          ]
+        },
+        {
+          "type": "heading.default",
+          "text": "The Results",
+          "title": "The Results",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "image-box.default",
+          "text": "90%Less manual paperwork",
+          "title": "90%",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "image-box.default",
+          "text": "1,000+Security personnel managed",
+          "title": "1,000+",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "Read Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "Read Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/dps-airem"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/app-store.png",
+              "alt": ""
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/pulse-1024x637.png",
+              "alt": "Pulse Check Timer App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/pulseimage.svg",
+              "alt": "Pulse Check Timer App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "WordSmith",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/carousel3.png",
+              "alt": "WordSmith Pro Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "WordSmith",
+          "title": "WordSmith",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "AI Writing Improvement Platform",
+          "title": "AI Writing Improvement Platform",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "Writing intelligence platform analyzing grammar, tone, clarity, and structure with personalized, actionable feedback.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/wordsmith-pro"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/wordsmith.png",
+              "alt": "WordSmith Pro App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/WordSmith_-1.png",
+              "alt": "WordSmith Pro App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "State of the art chiropractic",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/carousel4.png",
+              "alt": "State of the Art Chiropratic Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "State of the art chiropractic",
+          "title": "State of the art chiropractic",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Connected Chiropractic Care and Telehealth Platform",
+          "title": "Connected Chiropractic Care and Telehealth Platform",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "A secure digital healthcare platform combining appointment scheduling, telehealth consultations, patient communication, online payments, and practice management.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/state-of-the-art-chiropractic"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/stateofart-1024x637.png",
+              "alt": "State of the Art Chiropratic App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/State-of-the-Art-Chiropractic-1.png",
+              "alt": "State of the Art Chiropratic App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "Family Entertainment Group",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/FEG-Logo.png",
+              "alt": "Family Entertainment Group (FEG) Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Family Entertainment Group",
+          "title": "Family Entertainment Group",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Automated Experience Capture and Delivery",
+          "title": "Automated Experience Capture and Delivery",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "IoT-powered video platform using synchronized cameras, automated processing, and instant memory delivery.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/family-entertainment-group/"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/feg-1024x637.png",
+              "alt": "Family Entertainment Group (FEG) App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/FEG-1.png",
+              "alt": "Family Entertainment Group (FEG) App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "StakBread",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/carousel5.png",
+              "alt": "StakBread Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "StakBread",
+          "title": "StakBread",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Real-Time Workforce Operations Platform",
+          "title": "Real-Time Workforce Operations Platform",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "A creator commerce platform that enables creators to grow audiences, sell digital products, and monetize content through a scalable, production-ready architecture.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/stakbread"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/stakbread.png",
+              "alt": "StakBread App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/StakBread-1.png",
+              "alt": "StakBread App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "My Tango Event",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/DPS-Airem-Copy-1.png",
+              "alt": "MY TANGO EVENT"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "My Tango Event",
+          "title": "My Tango Event",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Global Event Discovery and Community Engagement Platform",
+          "title": "Global Event Discovery and Community Engagement Platform",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "A real-time workforce management platform that cut manual paperwork by 90%, streamlining operations and improving accuracy.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/my-tango-event"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/tango-1024x637.png",
+              "alt": "My Tango Event App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/TANGO-EVENT-1.png",
+              "alt": "My Tango Event App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "Pets B4 Profit",
+      "blocks": [
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/pets.png",
+              "alt": "Pets B4 Profit Logo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Pets B4 Profit",
+          "title": "Pets B4 Profit",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "heading.default",
+          "text": "Automated Experience Capture and Delivery",
+          "title": "Automated Experience Capture and Delivery",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "text-editor.default",
+          "text": "An AI-assisted veterinary intelligence platform that analyzes pet medical bills, explains treatment costs, and provides healthcare insights to improve pricing transparency for pet owners.",
+          "title": "",
+          "images": [],
+          "links": []
+        },
+        {
+          "type": "button.default",
+          "text": "View Case Study",
+          "title": "",
+          "images": [],
+          "links": [
+            {
+              "text": "View Case Study",
+              "href": "https://inceptivesdigital.com/portfolio/pets-b4-profit"
+            }
+          ]
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/09/pets-before.png",
+              "alt": "Pets B4 Profit App Screens"
+            }
+          ],
+          "links": []
+        },
+        {
+          "type": "image.default",
+          "text": "",
+          "title": "",
+          "images": [
+            {
+              "src": "https://inceptivesdigital.com/wp-content/uploads/2026/07/Pets-B4-Profit-1.png",
+              "alt": "Pets B4 Profit App Screens"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "585ad8fa",
+      "type": "image-box.default",
+      "text": "Product IntelligenceCTO-led analysis of your business model, user psychology, and market landscape before anything else. Where AI can solve a problem better than conventional logic, we identify that early. The output is a roadmap with real opinions, grounded in evidence.",
+      "title": "Product Intelligence",
+      "description": "CTO-led analysis of your business model, user psychology, and market landscape before anything else. Where AI can solve a problem better than conventional logic, we identify that early. The output is a roadmap with real opinions,  grounded in evidence.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/dis.png",
+          "alt": "Discovery and AI Opportunity"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "2e036b69",
+      "type": "image-box.default",
+      "text": "Design with IntentEvery screen is stress-tested against real user behaviour before development begins. Designed for clarity, the person using it for the first time should never have to think twice.",
+      "title": "Design with Intent",
+      "description": "Every screen is stress-tested against real user behaviour before development begins. Designed for clarity,  the person using it for the first time should never have to think twice.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/presstwo.png",
+          "alt": "UI/UX Design"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "582dc8ce",
+      "type": "image-box.default",
+      "text": "Precision EngineeringSenior engineers own the core. Architecture decisions made on day one are the ones your product lives with for years. Clean, documented, built to be handed over.",
+      "title": "Precision Engineering",
+      "description": "Senior engineers own the core. Architecture decisions made on day one are the ones your product lives with for years. Clean, documented, built to be handed over.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/proess3.png",
+          "alt": "AI Model"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "4b3462a3",
+      "type": "image-box.default",
+      "text": "Adversarial TestingEdge cases, stress loads, and unexpected inputs are tested before your users encounter them. Every failure mode we can anticipate gets found in our environment, not yours.",
+      "title": "Adversarial Testing",
+      "description": "Edge cases, stress loads, and unexpected inputs are tested before your users encounter them. Every failure mode we can anticipate gets found in our environment, not yours.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/process-testing.svg",
+          "alt": "QA and Testing"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "7f72e357",
+      "type": "image-box.default",
+      "text": "Precision LaunchLaunch day is an engineering event, managed with the same rigour as the build itself. Infrastructure, configuration, and production stability were handed over cleanly and stably.",
+      "title": "Precision Launch",
+      "description": "Launch day is an engineering event, managed with the same rigour as the build itself. Infrastructure, configuration, and production stability were handed over cleanly and stably.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/process04.svg",
+          "alt": "Product Launch"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "6159c7ce",
+      "type": "image-box.default",
+      "text": "Continuous PartnershipThe most important version of your product is the one shaped by real users after launch. We stay in, monitoring, refining, and evolving as the business changes.",
+      "title": "Continuous Partnership",
+      "description": "The most important version of your product is the one shaped by real users after launch. We stay in,  monitoring, refining, and evolving as the business changes.",
+      "images": [
+        {
+          "src": "https://inceptivesdigital.com/wp-content/uploads/2026/08/process-last.svg",
+          "alt": "App Maintenance"
+        }
+      ],
+      "links": []
+    }
+  ]
+}

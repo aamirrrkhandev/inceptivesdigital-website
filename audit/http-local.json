@@ -1,0 +1,937 @@
+{
+  "base": "http://localhost:3100",
+  "results": [
+    {
+      "name": "Homepage status",
+      "status": "PASS"
+    },
+    {
+      "name": "Server-rendered title",
+      "status": "PASS"
+    },
+    {
+      "name": "Description parity",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical parity",
+      "status": "PASS"
+    },
+    {
+      "name": "Noindex HTML",
+      "status": "PASS"
+    },
+    {
+      "name": "Noindex response header",
+      "status": "PASS"
+    },
+    {
+      "name": "Single H1",
+      "status": "PASS"
+    },
+    {
+      "name": "No Elementor runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "JSON-LD parses",
+      "status": "PASS"
+    },
+    {
+      "name": "No fake page routes",
+      "status": "PASS"
+    },
+    {
+      "name": "Robots blocks staging",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/update-logo.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/review-img1-1.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/review-img2-1.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/review-img3-1.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-08-clutch.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-08-bark.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-08-trustpilot.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/comp-bannerhero.mp4",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/brandlogo-01sec.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/trustpilotslider.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/googleslider.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/brandlogo-04sec.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/brandlogo-06sec.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/brandlogo-07sec.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homesection.avif",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/home-video-con.mp4",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/cropped-big-logo.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/brsk-logo.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/fanverse.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/mtv-logo-1024x669.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/mobile-appicon.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/mobile-appicon2.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/mobile-appicon3.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/dps-process.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/kaefer-logo-transparent.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/gda-capital.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/family-entertainment-group-logo.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/eng-ar-logo-orange-hor-e1724280425584.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/carousel1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/dps--1024x636.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homesection-video.mp4",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/dps-image.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/carousel2.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/carousel3.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/carousel4.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/State-of-the-Art-Chiropractic-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/pulse-1024x637.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/WordSmith_-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/wordsmith.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/pulseimage.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/FEG-Logo.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/carousel5.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/StakBread-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/DPS-Airem-Copy-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/stateofart-1024x637.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/stakbread.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/FEG-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/feg-1024x637.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/pets.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new-review-icon-add2.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Pets-B4-Profit-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/badge-top-mobile-app-developers-2025.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/TANGO-EVENT-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new-review-icon-add6.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/tango-1024x637.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/pets-before.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/rightfirms-badge-company.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new-review-icon-add4.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homereview1-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homereview2-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homereview3-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-healthcare.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-fitness.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-hearts.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/dis.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-fintech.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-education.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-realstate.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-traveling1.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Food-Delivery.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-cart.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/industries-startup.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/proess3.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/presstwo.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/counterbadges-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/mvp-badge-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/success-icon-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/process-testing.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/process04.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/process-last.svg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/sparkle.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-07-clutch.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/success02-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Image-1-1024x474.jpg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Image-1-3-1024x474.jpg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Image-1-2-1024x474.jpg",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/footer-locations.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/Blog-01-1-1024x475.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-07-bark.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/2026-07-trustpilot.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/united-states-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/canda.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/uk-icon.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/uae-flag.webp",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/singa.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/pakistan.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/logo.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new2.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new5.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new4.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/dmca-badge.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/new3.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/footer.mp4",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/play-store.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/app-store.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/tabs-compressor2.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/progress-icons.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/tabs-compressor1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/exam-compressor.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/handshake-compress.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/rocket-compressor.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/top-rated-logo.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/starticon.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/container-green-layer-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/homecta.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/videopost-1.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/SFPRODISPLAYREGULAR-2.ttf",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/SFPRODISPLAYMEDIUM.ttf",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/FontsFree-Net-SFProDisplay-Black.ttf",
+      "status": "PASS"
+    },
+    {
+      "name": "Asset /assets/last-cta.png",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Your Idea Deserves Better Than Average Execution.",
+      "status": "PASS"
+    },
+    {
+      "name": "Content DPS Airem",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Modernizing Security Workforce Operations",
+      "status": "PASS"
+    },
+    {
+      "name": "Content The Outcome",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Pulse Check",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Emergency CPR Timing and Resuscitation Support Platform",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A precision-built mobile application that guides CPR cycles, automates",
+      "status": "PASS"
+    },
+    {
+      "name": "Content The Results",
+      "status": "PASS"
+    },
+    {
+      "name": "Content WordSmith",
+      "status": "PASS"
+    },
+    {
+      "name": "Content AI Writing Improvement Platform",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Writing intelligence platform analyzing grammar, tone, clarity, and st",
+      "status": "PASS"
+    },
+    {
+      "name": "Content State of the art chiropractic",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Connected Chiropractic Care and Telehealth Platform",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A secure digital healthcare platform combining appointment scheduling,",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Family Entertainment Group",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Automated Experience Capture and Delivery",
+      "status": "PASS"
+    },
+    {
+      "name": "Content IoT-powered video platform using synchronized cameras, automated proce",
+      "status": "PASS"
+    },
+    {
+      "name": "Content StakBread",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Real-Time Workforce Operations Platform",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A creator commerce platform that enables creators to grow audiences, s",
+      "status": "PASS"
+    },
+    {
+      "name": "Content My Tango Event",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Global Event Discovery and Community Engagement Platform",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A real-time workforce management platform that cut manual paperwork by",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Pets B4 Profit",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Automated Experience Capture and Delivery",
+      "status": "PASS"
+    },
+    {
+      "name": "Content An AI-assisted veterinary intelligence platform that analyzes pet medi",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Engineering AI-Powered Digital Systems for Scalable Businesses",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Inceptives Digital helps businesses define, design, and build mobile a",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Engineering AI-Powered Digital Systems for Scalable Businesses",
+      "status": "PASS"
+    },
+    {
+      "name": "Content From strategy to launch, we create custom apps for iOS, Android, and b",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Core Capabilities Behind Modern Digital Products",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Successful digital products begin with understanding the problem, user",
+      "status": "PASS"
+    },
+    {
+      "name": "Content We build what your business runs on",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Inceptives Digital starts with strategy, design for real users while e",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Mobile App Development",
+      "status": "PASS"
+    },
+    {
+      "name": "Content User expectations define successful mobile experiences. Our mobile app",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Digital Product Development",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Great products require more than code. From early validation to comple",
+      "status": "PASS"
+    },
+    {
+      "name": "Content AI-Powered Systems",
+      "status": "PASS"
+    },
+    {
+      "name": "Content AI creates value when it improves how people work, decide, and interac",
+      "status": "PASS"
+    },
+    {
+      "name": "Content From Startups to Growing Enterprises",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Awards And Recognitions",
+      "status": "PASS"
+    },
+    {
+      "name": "Content What Our Clients Say About Building With Us",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Every successful product starts with alignment between the people buil",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Inceptives Digital excels at translating complex, abstract product req",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Collis Maddox",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Owner/Designer, MaddTech",
+      "status": "PASS"
+    },
+    {
+      "name": "Content From initial product strategy to deployment, Inceptives Digital demons",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Kirk Flaming",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Owner, Pulse Check Timer",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Inceptives Digital did not just execute a brief; they aligned perfectl",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Dorrin Rosenfeld",
+      "status": "PASS"
+    },
+    {
+      "name": "Content DC & Owner, State of the Art Chiropractic",
+      "status": "PASS"
+    },
+    {
+      "name": "Content We needed an engineering partner capable of architecting a highly scal",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Gary Dixon",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Founder, StakBread",
+      "status": "PASS"
+    },
+    {
+      "name": "Content The engineering rigor at Inceptives Digital is outstanding. They manag",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Ariel Rodriguez",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Founder, Dropryde",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Digital Products Designed Around Industry Realities",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Healthcare",
+      "status": "PASS"
+    },
+    {
+      "name": "Content HIPAA-compliant platforms for telemedicine, patient engagement, clinic",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Fitness",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Wearable-integrated apps for workout tracking, AI coaching, nutrition ",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Dating",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Secure matchmaking platforms with AI-powered recommendations, real-tim",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Fintech",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Payment systems, digital wallets, lending platforms, and investment to",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Education",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Adaptive learning platforms, LMS systems, and AI-powered tutoring tool",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Real Estate",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Property search platforms, CRM-integrated listing tools, virtual tours",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Travel",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Booking platforms, itinerary management tools, and AI-driven personali",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Food Delivery",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Real-time ordering, driver dispatch, multi-vendor management, and secu",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Ecommerce",
+      "status": "PASS"
+    },
+    {
+      "name": "Content High-converting storefronts, multi-vendor marketplaces, and AI-powered",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Startup",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Lean MVPs, scalable architecture, and investor-ready products built fo",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Discovery sprint",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Before Development Comes Product Clarity",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A focused 2-week engagement that produces a validated product roadmap,",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Senior minds on your product. Every stage. Every decision.",
+      "status": "PASS"
+    },
+    {
+      "name": "Content See how our team solves complex business problems with innovative web,",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Schedule Your Strategy Session",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Our Success In Numbers!",
+      "status": "PASS"
+    },
+    {
+      "name": "Content recognition from industry leader!",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Your Go-To Business Growth Blog!",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Explore expert tips, tools, and stories to help your business grow—whe",
+      "status": "PASS"
+    },
+    {
+      "name": "Content No-Code MVP vs Custom MVP: Cost, Speed, and When to Switch",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Mobile App Development Cost in Austin (2027 Pricing)",
+      "status": "PASS"
+    },
+    {
+      "name": "Content How Much Does It Cost to Build a Real Estate App Like Dubai REST in 20",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Mobile App Development Cost in San Francisco: 2027 Pricing Guide",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Frequently Asked Questions.",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Every project starts with a structured discovery phase. Goals, industr",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Yes. The full iOS application development lifecycle is managed in-hous",
+      "status": "PASS"
+    },
+    {
+      "name": "Content The difference between iOS app development companies that deliver and ",
+      "status": "PASS"
+    },
+    {
+      "name": "Content Yes. Development runs on two-week Agile sprints with a working build s",
+      "status": "PASS"
+    },
+    {
+      "name": "Content While others are busy selling code, Inceptives Digital is busy enginee",
+      "status": "PASS"
+    },
+    {
+      "name": "Content A focused 2-week engagement that produces a validated product roadmap,",
+      "status": "PASS"
+    }
+  ]
+}
