@@ -22,6 +22,7 @@ Project: `inceptives-homepage-review` (`prj_LjTmsq5OcdsUnkV4tEKe2n4U6r0b`). Depl
 - `verify-responsive-media.mjs`: 12 passes. Original video range request returned 206 with the exact requested 1,000 bytes; three homepage hover videos actually played; complete blockchain image fitting passed at 320, 390, 519, 768, 820, 1024, 1440 and 1920 pixels.
 - `verify-responsive-scroll.mjs`: 22 passes across mobile/tablet expanded menus and representative desktop templates, including actual wheel scrolling and background locking.
 - Stable alias was checked after assignment: HTTP 200, one correct iOS head title, preserved production canonical, preview noindex metadata/header, and video range status 206.
+- All ten deployed video assets returned the exact requested byte range and original total file size. Both deployed form APIs correctly rejected incomplete same-origin payloads before contacting the WordPress submission handler; no additional real enquiry was sent.
 
 Evidence: `audit/refresh-2026-11-10/http-verification.json`, `SEO_COMPARISON.csv`, `audit/browser/responsive-media-verification.json`, `audit/browser/responsive-scroll-verification.json`, and screenshots in `audit/browser`.
 
