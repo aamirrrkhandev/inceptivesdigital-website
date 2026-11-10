@@ -8,6 +8,7 @@ import { mediaIndex } from "@/lib/static-media";
 import backgroundFitRules from "../../content/background-fit-rules.json";
 import { normalizeRootSelectors } from "@/lib/selector-scope";
 import CaseStudySliderComponent from "./casestudy-slider-component";
+import ScheduleMeetingSection from "./ScheduleMeetingSection";
 const voidElements = new Set([
   "area",
   "base",
@@ -33,6 +34,13 @@ function renderNode(
   if (typeof node === "string") return node;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (homepageCaseStudySlider && props["data-id"] === "6b826671") {
+    return (
+      <div id="schedule" key={index}>
+        <ScheduleMeetingSection />
+      </div>
+    );
+  }
   if (homepageCaseStudySlider && props["data-id"] === "151f972") {
     const elements = children.filter(
       (child): child is Exclude<LayoutNode, string> =>
