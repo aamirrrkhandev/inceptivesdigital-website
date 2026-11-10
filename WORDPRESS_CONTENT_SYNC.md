@@ -38,3 +38,5 @@ The latest implementation renders the listing as a client-owned React island and
 Old category/search query URLs still render their requested content for compatibility, then clean the browser address. Their server metadata is noindex with a canonical to https://inceptivesdigital.com/blog. The data endpoint always returns X-Robots-Tag: noindex. Unfiltered numbered pagination links remain crawlable; no category query links are generated. Directly sharing /blog starts with the normal listing rather than exposing a category query URL.
 
 Local verification: 16 no-reload/category/history/viewport groups and the legacy URL, canonical/noindex, API noindex and error/retry checks passed.
+
+Clean-URL deployment verified and released: dpl_DiEQSg2E2oJUKMjJ9SPXkMCmUDi5, source commit 8040848. All 16 no-reload/history/viewport groups passed with the address remaining /blog; legacy canonical/noindex, API noindex, no category-query pagination links and a simulated failure/retry also passed. The same release passed all 16 homepage shell widths with separate social icon touch targets.
