@@ -26,7 +26,7 @@ No WordPress administrator credentials are required. Public WordPress content an
 
 - App Router, React, TypeScript and reusable native interactions are under src/.
 - Structured layouts are in content/site-catalog.json.br and its deployment parts. Media are stored in content/media/ with their index in content/media-index.json. Keep these files in the checkout.
-- The build materializes original large media and video files into public/ at their preserved URLs. Generated files, node_modules and Next.js caches are ignored by Git.
+- The build materializes original large media and video files into public/ at their preserved URLs. Generated files, node_modules and Next.js caches are ignored by Git. Raw audit exports stay local; curated baselines and verification reports are versioned.
 - WordPress remains the read-only publishing source for new/updated posts, blog filtering and sitemap blog entries. Revalidation is request driven at 30 seconds; allow roughly 30–60 seconds for updates.
 - Unused loose images are retained in draft/images with reversible hash-verified mappings.
 
