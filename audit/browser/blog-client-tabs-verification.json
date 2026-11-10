@@ -1,0 +1,96 @@
+{
+  "base": "https://inceptives-homepage-review-k5zgsc3ai.vercel.app",
+  "results": [
+    {
+      "category": "mobile-app-development",
+      "cards": 15,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "software-development",
+      "cards": 8,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "ios-app-development",
+      "cards": 6,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "android-app-development",
+      "cards": 5,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "mobile-game-development",
+      "cards": 12,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "fintech-app-development",
+      "cards": 5,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "fitness-app-development",
+      "cards": 7,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "web-development",
+      "cards": 1,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "blockchain-development",
+      "cards": 9,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "healthcare-app-development",
+      "cards": 12,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "dating-app-development",
+      "cards": 1,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "digital-products",
+      "cards": 10,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "category": "artificial-intelligence",
+      "cards": 13,
+      "noReload": true,
+      "scrollPreserved": true
+    },
+    {
+      "paginationAndBackNoReload": true
+    },
+    {
+      "width": 375,
+      "view": "mobile",
+      "categoryNoReload": true
+    },
+    {
+      "width": 820,
+      "view": "tablet",
+      "categoryNoReload": true
+    }
+  ]
+}
