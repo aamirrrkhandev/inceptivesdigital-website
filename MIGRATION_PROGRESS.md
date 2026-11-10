@@ -1,10 +1,14 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_2aqkhGXypjspwjuszXwQ1maAvu9t, source commit d5afb45).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_61mWbeTHqJtU7Y8gbL6vpToRNKHy, source commit 2a0a701).
 
 The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
 
-## Current staging batch — calendar and automatic blog updates
+## Current staging batch — green calendar accents
+
+Changed the homepage calendar primary colour, glow, icons, eyebrow, links and fallback controls from blue to brand green (#00ce44). Actual embedded calendar date accents and section colours passed browser checks at 375px and 1366px without horizontal overflow. See `audit/browser/calendar-green-verification.json`. Published to the separate staging project; rollback is dpl_2aqkhGXypjspwjuszXwQ1maAvu9t.
+
+## Previous staging batch — calendar and automatic blog updates
 
 Published the requested homepage-only black meeting section with automatically lazy-mounted Calendly at 580/640/660px heights. Seven responsive layout checks and keyboard fallback passed; real calendar date grids were verified at all seven widths (desktop uses a different calendar heading, accounted for in QA).
 

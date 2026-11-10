@@ -1,0 +1,24 @@
+[
+  {
+    "width": 375,
+    "eyebrow": "rgb(0, 206, 68)",
+    "glow": "rgba(0, 206, 68, 0.25)",
+    "icon": "rgba(0, 206, 68, 0.15)",
+    "link": "rgb(0, 206, 68)",
+    "url": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=00ce44&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+    "overflow": false,
+    "calendarGreenDateAccents": true,
+    "pass": true
+  },
+  {
+    "width": 1366,
+    "eyebrow": "rgb(0, 206, 68)",
+    "glow": "rgba(0, 206, 68, 0.25)",
+    "icon": "rgba(0, 206, 68, 0.15)",
+    "link": "rgb(0, 206, 68)",
+    "url": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=00ce44&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+    "overflow": false,
+    "calendarGreenDateAccents": true,
+    "pass": true
+  }
+]
