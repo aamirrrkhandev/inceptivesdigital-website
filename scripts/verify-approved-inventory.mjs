@@ -45,7 +45,9 @@ await Promise.all(
           item.source.robots.includes("noindex")
             ? ""
             : approvedCanonical(item.source.canonical) || "";
-        if (($("link[rel=canonical]").attr("href") || "") !== expected)
+        const actualCanonical = $("link[rel=canonical]").attr("href") || "";
+        const rootEquivalent = item.path === "/" && actualCanonical && expected && new URL(actualCanonical).href === new URL(expected).href;
+        if (actualCanonical !== expected && !rootEquivalent)
           errors.push("canonical");
         if ($('meta[name="twitter:card"]').length !== 1)
           errors.push("Twitter card count");
@@ -89,7 +91,8 @@ await Promise.all(
         rows.push({
           path: item.path,
           status: response.status,
-          canonical: expected,
+          canonical: actualCanonical,
+          expectedCanonical: expected,
           result: errors.length ? "FAIL" : "PASS",
           errors,
         });
@@ -114,7 +117,8 @@ await Promise.all(
       });
       const $ = cheerio.load(await r.text());
       const canonical = $('link[rel="canonical"]').attr("href");
-      if (r.status !== 200 || canonical !== url)
+      const rootEquivalent = new URL(url).pathname === "/" && canonical && new URL(canonical).href === new URL(url).href;
+      if (r.status !== 200 || (canonical !== url && !rootEquivalent))
         sitemapFailures.push({ url, status: r.status, canonical });
     }
   }),
@@ -149,10 +153,11 @@ fs.writeFileSync(
 fs.writeFileSync(
   "SEO_COMPARISON.csv",
   csv([
-    ["path", "http_status", "expected_canonical", "result", "differences"],
+    ["path", "http_status", "expected_canonical", "staging_canonical", "result", "differences"],
     ...rows.map((r) => [
       r.path,
       r.status,
+      r.expectedCanonical,
       r.canonical,
       r.result,
       r.errors.join("; "),

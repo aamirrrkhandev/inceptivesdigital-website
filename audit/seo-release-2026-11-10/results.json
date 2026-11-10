@@ -1,0 +1,1993 @@
+{
+  "base": "https://inceptives-homepage-review-7u1wf2iog.vercel.app",
+  "checkedAt": "2026-11-10T17:01:13.745Z",
+  "rows": [
+    {
+      "path": "/blog/app-store-optimization-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-store-optimization-mistakes",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/app-store-optimization-mistakes",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-app-builders-vs-human-developers",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-app-builders-vs-human-developers",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-app-builders-vs-human-developers",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/android-app-development-tools",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-app-development-tools",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/android-app-development-tools",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/singapore-businesses-mobile-apps-user-experience",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/singapore-businesses-mobile-apps-user-experience",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/singapore-businesses-mobile-apps-user-experience",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/in-house-development-vs-app-development-partner",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/in-house-development-vs-app-development-partner",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/in-house-development-vs-app-development-partner",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/custom-fitness-app-development-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-fitness-app-development-startups",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/custom-fitness-app-development-startups",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-testing-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-testing-strategies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-testing-strategies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/common-reasons-digital-products-fail",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-reasons-digital-products-fail",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/common-reasons-digital-products-fail",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-app-monetization-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-monetization-strategies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-app-monetization-strategies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/cost-to-build-fitness-app-like-myfitnesspal",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-fitness-app-like-myfitnesspal",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/cost-to-build-fitness-app-like-myfitnesspal",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-validate-your-game-idea",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-validate-your-game-idea",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-validate-your-game-idea",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/top-mobile-app-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-app-development-companies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/top-mobile-app-development-companies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/signs-startup-needs-custom-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/signs-startup-needs-custom-software-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/signs-startup-needs-custom-software-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-performance-optimization",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-performance-optimization",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-performance-optimization",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/website-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/website-development-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/website-development-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/telemedicine-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/telemedicine-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/telemedicine-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/why-invest-in-custom-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/why-invest-in-custom-mobile-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/why-invest-in-custom-mobile-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/must-have-features-healthcare-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/must-have-features-healthcare-app",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/must-have-features-healthcare-app",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-marketing-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-marketing-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-marketing-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-make-a-mobile-game-with-unity",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-make-a-mobile-game-with-unity",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-make-a-mobile-game-with-unity",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/fitness-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/fitness-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/fitness-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/android-ar-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-ar-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/android-ar-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-validate-your-mobile-app-idea",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-validate-your-mobile-app-idea",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-validate-your-mobile-app-idea",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-in-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-in-software-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-in-software-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-build-a-fintech-mvp",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-a-fintech-mvp",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-build-a-fintech-mvp",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/best-mobile-banking-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-mobile-banking-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/best-mobile-banking-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/software-development-for-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/software-development-for-startups",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/software-development-for-startups",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-tech-stack",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-tech-stack",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-tech-stack",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/guide-to-custom-ios-app-development-for-businesses",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/guide-to-custom-ios-app-development-for-businesses",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/guide-to-custom-ios-app-development-for-businesses",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/common-ui-ux-design-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-ui-ux-design-mistakes",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/common-ui-ux-design-mistakes",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-game-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-game-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-app-development-in-business",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-app-development-in-business",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-app-development-in-business",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/geopolitical-impact-software-development-rising-cost-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/geopolitical-impact-software-development-rising-cost-2026",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/geopolitical-impact-software-development-rising-cost-2026",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-for-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-for-startups",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-for-startups",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/best-android-emulators",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-android-emulators",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/best-android-emulators",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-mobile-app-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-mobile-app-development-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-mobile-app-development-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/custom-workout-and-training-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-workout-and-training-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/custom-workout-and-training-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-game-development-process",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-development-process",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-game-development-process",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/augmented-reality-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/augmented-reality-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/augmented-reality-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-build-cross-platform-mobile-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-cross-platform-mobile-app",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-build-cross-platform-mobile-app",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/john-wick-aaa-game-features-combat-mechanics",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/john-wick-aaa-game-features-combat-mechanics",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/john-wick-aaa-game-features-combat-mechanics",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-create-a-blockchain-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-create-a-blockchain-app",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-create-a-blockchain-app",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-android-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-android-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/what-is-android-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-fintech-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-fintech-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/what-is-fintech-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/cost-to-build-a-fintech-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-a-fintech-app",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/cost-to-build-a-fintech-app",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-long-does-it-take-to-make-a-mobile-game",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-long-does-it-take-to-make-a-mobile-game",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-long-does-it-take-to-make-a-mobile-game",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-hire-a-mobile-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-hire-a-mobile-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-hire-a-mobile-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-choose-the-right-healthcare-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-healthcare-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-healthcare-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/accurate-weather-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/accurate-weather-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/accurate-weather-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/will-ai-really-replace-app-developers",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/will-ai-really-replace-app-developers",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/will-ai-really-replace-app-developers",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ar-vr-in-fitness-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ar-vr-in-fitness-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ar-vr-in-fitness-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/factors-affecting-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/factors-affecting-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/factors-affecting-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/2d-vs-3d-game-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/2d-vs-3d-game-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/2d-vs-3d-game-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/top-mobile-game-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-game-development-companies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/top-mobile-game-development-companies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/best-game-development-engines",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-game-development-engines",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/best-game-development-engines",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/gta-6-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/gta-6-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/gta-6-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/best-dating-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-dating-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/best-dating-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/the-role-of-ui-ux-design-in-mobile-app-success",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/the-role-of-ui-ux-design-in-mobile-app-success",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/the-role-of-ui-ux-design-in-mobile-app-success",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/why-choose-flutter",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/why-choose-flutter",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/why-choose-flutter",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/effective-marketing-strategies-for-mobile-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/effective-marketing-strategies-for-mobile-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/effective-marketing-strategies-for-mobile-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-digital-product-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/what-is-digital-product-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/food-delivery-app-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/food-delivery-app-development-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/food-delivery-app-development-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/clutch-top-user-experience-company-plano-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/clutch-top-user-experience-company-plano-2026",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/clutch-top-user-experience-company-plano-2026",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/common-mobile-app-development-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-mobile-app-development-mistakes",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/common-mobile-app-development-mistakes",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/native-vs-hybrid-vs-cross-platform-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/native-vs-hybrid-vs-cross-platform-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/native-vs-hybrid-vs-cross-platform-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/aso-strategies-to-increase-your-app-store-rankings",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/aso-strategies-to-increase-your-app-store-rankings",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/aso-strategies-to-increase-your-app-store-rankings",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-powered-mobile-apps-uae-business-operations",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-powered-mobile-apps-uae-business-operations",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-powered-mobile-apps-uae-business-operations",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/android-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/android-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/clutch-top-app-development-company-plano-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/clutch-top-app-development-company-plano-2026",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/clutch-top-app-development-company-plano-2026",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-native-digital-product-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-native-digital-product-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-native-digital-product-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/hl7-fhir-healthcare-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hl7-fhir-healthcare-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/hl7-fhir-healthcare-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/wearable-fitness-app-integration",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/wearable-fitness-app-integration",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/wearable-fitness-app-integration",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/hidden-costs-custom-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hidden-costs-custom-software-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/hidden-costs-custom-software-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/digital-product-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-product-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/digital-product-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/your-business-ready-for-ai-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/your-business-ready-for-ai-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/your-business-ready-for-ai-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/custom-software-development-vs-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-software-development-vs-digital-product-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/custom-software-development-vs-digital-product-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-integration-mobile-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-integration-mobile-apps",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-integration-mobile-apps",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-security-best-practices",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-security-best-practices",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-security-best-practices",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/app-development-risk-management",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-development-risk-management",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/app-development-risk-management",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ps5-emulators-pc",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ps5-emulators-pc",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ps5-emulators-pc",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-mvp-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-mvp-development-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-mvp-development-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-technology-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-technology-trends",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-technology-trends",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/questions-to-ask-before-starting-an-ai-project",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/questions-to-ask-before-starting-an-ai-project",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/questions-to-ask-before-starting-an-ai-project",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/rightfirms-top-mobile-app-development-company-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/rightfirms-top-mobile-app-development-company-2026",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/rightfirms-top-mobile-app-development-company-2026",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/digital-transformation-challenges-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-transformation-challenges-startups",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/digital-transformation-challenges-startups",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-mvp-vs-full-ai-product-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-mvp-vs-full-ai-product-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-mvp-vs-full-ai-product-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/custom-ai-development-vs-off-the-shelf-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-ai-development-vs-off-the-shelf-ai",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/custom-ai-development-vs-off-the-shelf-ai",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/inceptives-digital-top-software-developers-uk-2026-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-software-developers-uk-2026-techreviewer",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-software-developers-uk-2026-techreviewer",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-app-startup-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-startup-ideas",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-app-startup-ideas",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/inceptives-digital-top-machine-learning-companies-2026-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-machine-learning-companies-2026-techreviewer",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-machine-learning-companies-2026-techreviewer",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/cross-platform-frameworks-for-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cross-platform-frameworks-for-mobile-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/cross-platform-frameworks-for-mobile-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/inceptives-digital-earns-a-place-among-the-top-web-development-companies-on-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-earns-a-place-among-the-top-web-development-companies-on-techreviewer",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/inceptives-digital-earns-a-place-among-the-top-web-development-companies-on-techreviewer",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/custom-mobile-app-vs-saas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-mobile-app-vs-saas",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/custom-mobile-app-vs-saas",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/types-of-blockchain",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/types-of-blockchain",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/types-of-blockchain",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-tutor-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-tutor-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-tutor-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-mobile-app-development-a-beginners-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-mobile-app-development-a-beginners-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/what-is-mobile-app-development-a-beginners-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/main-benefits-of-blockchain-technology",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/main-benefits-of-blockchain-technology",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/main-benefits-of-blockchain-technology",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/top-mobile-app-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-app-ideas",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/top-mobile-app-ideas",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-maintenance-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-maintenance-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-maintenance-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-app-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-development-companies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-app-development-companies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-choose-the-right-mobile-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-mobile-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-mobile-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-dubai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-dubai",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-dubai",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/healthcare-app-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-trends",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/healthcare-app-trends",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/common-mistakes-when-building-apps-with-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-mistakes-when-building-apps-with-ai",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/common-mistakes-when-building-apps-with-ai",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ios-app-development-frameworks",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-frameworks",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ios-app-development-frameworks",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/app-store-optimization-aso",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-store-optimization-aso",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/app-store-optimization-aso",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-build-a-profitable-app-using-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-a-profitable-app-using-ai",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-build-a-profitable-app-using-ai",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-game-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-ideas",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-game-ideas",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/iot-in-healthcare-applications-benefits-and-future-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/iot-in-healthcare-applications-benefits-and-future-trends",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/iot-in-healthcare-applications-benefits-and-future-trends",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/hipaa-compliant-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hipaa-compliant-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/hipaa-compliant-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-make-an-app-like-tiktok",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-make-an-app-like-tiktok",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-make-an-app-like-tiktok",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-reduce-mobile-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-reduce-mobile-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-reduce-mobile-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ios-app-development-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-trends",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ios-app-development-trends",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/flutter-vs-react-native-android-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/flutter-vs-react-native-android-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/flutter-vs-react-native-android-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/inceptives-digital-vs-dify",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/inceptives-digital-vs-dify",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/inceptives-digital-vs-dify",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/accelerate-digital-product-development-with-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/accelerate-digital-product-development-with-ai",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/accelerate-digital-product-development-with-ai",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ai-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ai-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/php-security-checklist-php2shell-fixes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/php-security-checklist-php2shell-fixes",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/php-security-checklist-php2shell-fixes",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-san-francisco",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-san-francisco",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-san-francisco",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/software-development-cost-uk",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/software-development-cost-uk",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/software-development-cost-uk",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/app-development-timeline",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-development-timeline",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/app-development-timeline",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-create-a-fitness-application",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-create-a-fitness-application",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/how-to-create-a-fitness-application",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mvp-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mvp-mobile-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mvp-mobile-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mvp-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mvp-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mvp-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/ios-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/ios-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/top-ios-emulators",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-ios-emulators",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/top-ios-emulators",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/swiftui-vs-uikit",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/swiftui-vs-uikit",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/swiftui-vs-uikit",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/digital-product-development-process",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-product-development-process",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/digital-product-development-process",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/texas-business-growth-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/texas-business-growth-digital-product-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/texas-business-growth-digital-product-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-austin",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-austin",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-austin",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/blockchain-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-app-development-cost",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/blockchain-app-development-cost",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/cost-to-build-real-estate-app-like-dubai-rest",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-real-estate-app-like-dubai-rest",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/cost-to-build-real-estate-app-like-dubai-rest",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/fintech-startup-app-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/fintech-startup-app-ideas",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/fintech-startup-app-ideas",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-branding-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-branding-guide",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-branding-guide",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/no-code-mvp-vs-custom-mvp",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/no-code-mvp-vs-custom-mvp",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/no-code-mvp-vs-custom-mvp",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/publish-update-an-app-on-app-store-google-play",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/publish-update-an-app-on-app-store-google-play",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/publish-update-an-app-on-app-store-google-play",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com",
+      "expectedCanonical": "https://inceptivesdigital.com/",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/mobile-app-monetization-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-monetization-strategies",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/mobile-app-monetization-strategies",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/services",
+      "expectedCanonical": "https://inceptivesdigital.com/services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/founders-letter",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/founders-letter",
+      "expectedCanonical": "https://inceptivesdigital.com/founders-letter",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-chatbot-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-chatbot-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-chatbot-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/dating-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/dating-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/dating-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/dropryde",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/dropryde",
+      "expectedCanonical": "https://inceptivesdigital.com/dropryde",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/computer-vision-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/computer-vision-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/computer-vision-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/partnership",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/partnership",
+      "expectedCanonical": "https://inceptivesdigital.com/partnership",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-new-york",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-new-york",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-new-york",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-company-in-toronto-canada",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-company-in-toronto-canada",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-company-in-toronto-canada",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/food-delivery-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/food-delivery-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/food-delivery-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-company-london-uk",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-company-london-uk",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-company-london-uk",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/life-at-inceptives-digital",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/life-at-inceptives-digital",
+      "expectedCanonical": "https://inceptivesdigital.com/life-at-inceptives-digital",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-san-francisco",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-san-francisco",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-san-francisco",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/travel-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/travel-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/travel-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-austin",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-austin",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-austin",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ui-ux-design",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ui-ux-design",
+      "expectedCanonical": "https://inceptivesdigital.com/ui-ux-design",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/healthcare-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/healthcare-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/healthcare-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/digital-product-development",
+      "expectedCanonical": "https://inceptivesdigital.com/digital-product-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/product-strategy-consulting",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/product-strategy-consulting",
+      "expectedCanonical": "https://inceptivesdigital.com/product-strategy-consulting",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/product-rescue-scaling",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/product-rescue-scaling",
+      "expectedCanonical": "https://inceptivesdigital.com/product-rescue-scaling",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/custom-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/custom-software-development",
+      "expectedCanonical": "https://inceptivesdigital.com/custom-software-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/discovery-sprint",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/discovery-sprint",
+      "expectedCanonical": "https://inceptivesdigital.com/discovery-sprint",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/interactive-prototyping",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/interactive-prototyping",
+      "expectedCanonical": "https://inceptivesdigital.com/interactive-prototyping",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/rpa-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/rpa-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/rpa-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-app-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-app-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-app-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mvp-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mvp-development",
+      "expectedCanonical": "https://inceptivesdigital.com/mvp-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/post-launch-analytics-iteration",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/post-launch-analytics-iteration",
+      "expectedCanonical": "https://inceptivesdigital.com/post-launch-analytics-iteration",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/system-integration-api-automation",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/system-integration-api-automation",
+      "expectedCanonical": "https://inceptivesdigital.com/system-integration-api-automation",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-agent-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-agent-development",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-agent-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/about-us",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/about-us",
+      "expectedCanonical": "https://inceptivesdigital.com/about-us",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/nlp-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/nlp-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/nlp-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/generative-ai-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/generative-ai-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/generative-ai-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/machine-learning-development-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/machine-learning-development-services",
+      "expectedCanonical": "https://inceptivesdigital.com/machine-learning-development-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/terms-and-conditions",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/terms-and-conditions",
+      "expectedCanonical": "https://inceptivesdigital.com/terms-and-conditions",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-company-singapore",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-company-singapore",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-company-singapore",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/privacy-policy",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/privacy-policy",
+      "expectedCanonical": "https://inceptivesdigital.com/privacy-policy",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development-company-dubai-uae",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development-company-dubai-uae",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development-company-dubai-uae",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blockchain-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blockchain-development",
+      "expectedCanonical": "https://inceptivesdigital.com/blockchain-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-development",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/fintech-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/fintech-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/fintech-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/state-of-the-art-chiropractic",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/state-of-the-art-chiropractic",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/state-of-the-art-chiropractic",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/real-estate-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/real-estate-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/real-estate-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/education-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/education-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/education-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/flutter-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/flutter-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/flutter-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/family-entertainment-group",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/family-entertainment-group",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/family-entertainment-group",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/pulse-check-timer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/pulse-check-timer",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/pulse-check-timer",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/dps-airem",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/dps-airem",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/dps-airem",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/react-native-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/react-native-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/react-native-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/zoom-read",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/zoom-read",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/zoom-read",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/stakbread",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/stakbread",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/stakbread",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/wordsmith-pro",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/wordsmith-pro",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/wordsmith-pro",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/pets-b4-profit",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/pets-b4-profit",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/pets-b4-profit",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/my-tango-event",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/my-tango-event",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/my-tango-event",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/portfolio/halwar-connect",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/portfolio/halwar-connect",
+      "expectedCanonical": "https://inceptivesdigital.com/portfolio/halwar-connect",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/testimonial",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/testimonial",
+      "expectedCanonical": "https://inceptivesdigital.com/testimonial",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/leadership",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/leadership",
+      "expectedCanonical": "https://inceptivesdigital.com/leadership",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ecommerce-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ecommerce-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/ecommerce-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/contact-us",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/contact-us",
+      "expectedCanonical": "https://inceptivesdigital.com/contact-us",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/app-store-optimization",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/app-store-optimization",
+      "expectedCanonical": "https://inceptivesdigital.com/app-store-optimization",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/backend-api-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/backend-api-development",
+      "expectedCanonical": "https://inceptivesdigital.com/backend-api-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-automation-services",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-automation-services",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-automation-services",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/product-launch-strategy",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/product-launch-strategy",
+      "expectedCanonical": "https://inceptivesdigital.com/product-launch-strategy",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/fitness-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/fitness-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/fitness-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-development/ai-cost-estimator",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-development/ai-cost-estimator",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-development/ai-cost-estimator",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/mobile-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/mobile-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/business-process-automation",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/business-process-automation",
+      "expectedCanonical": "https://inceptivesdigital.com/business-process-automation",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/cross-platform-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/cross-platform-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/cross-platform-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/kotlin-multiplatform-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/kotlin-multiplatform-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/kotlin-multiplatform-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/shahzaib_khan",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/shahzaib_khan",
+      "expectedCanonical": "https://inceptivesdigital.com/author/shahzaib_khan",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog",
+      "expectedCanonical": "https://inceptivesdigital.com/blog",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/atif_zaidy",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/atif_zaidy",
+      "expectedCanonical": "https://inceptivesdigital.com/author/atif_zaidy",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/inceptivesdigital",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/inceptivesdigital",
+      "expectedCanonical": "https://inceptivesdigital.com/author/inceptivesdigital",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ai-mvp-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ai-mvp-development",
+      "expectedCanonical": "https://inceptivesdigital.com/ai-mvp-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/android-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/android-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/android-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/web-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/web-app-development-company",
+      "expectedCanonical": "https://inceptivesdigital.com/web-app-development-company",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/amna_rashid",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/amna_rashid",
+      "expectedCanonical": "https://inceptivesdigital.com/author/amna_rashid",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/muhammad_usman",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/muhammad_usman",
+      "expectedCanonical": "https://inceptivesdigital.com/author/muhammad_usman",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/digital-products",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/noshaba_noor",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/noshaba_noor",
+      "expectedCanonical": "https://inceptivesdigital.com/author/noshaba_noor",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/fitness-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/arwa_najaf",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/arwa_najaf",
+      "expectedCanonical": "https://inceptivesdigital.com/author/arwa_najaf",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/android-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ios-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ios-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/ios-app-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "expectedCanonical": "https://inceptivesdigital.com/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/software-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/author/soha_shakeel",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/author/soha_shakeel",
+      "expectedCanonical": "https://inceptivesdigital.com/author/soha_shakeel",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/mobile-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/mobile-game-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/healthcare-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/blockchain-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/fintech-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/2026/09/14",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/dating-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/ios-app-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/web-development",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/2026/10/02",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/2026/09/18",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/press-release",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/category/artificial-intelligence",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/thank-you",
+      "status": 200,
+      "canonical": "",
+      "expectedCanonical": "",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/blog/test",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/test",
+      "expectedCanonical": "https://inceptivesdigital.com/blog/test",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/web-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/web-development",
+      "expectedCanonical": "https://inceptivesdigital.com/web-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/staff-augmentation",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/staff-augmentation",
+      "expectedCanonical": "https://inceptivesdigital.com/staff-augmentation",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/iot-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/iot-development",
+      "expectedCanonical": "https://inceptivesdigital.com/iot-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/virtual-reality-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/virtual-reality-development",
+      "expectedCanonical": "https://inceptivesdigital.com/virtual-reality-development",
+      "result": "PASS",
+      "errors": []
+    },
+    {
+      "path": "/ar-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/ar-app-development",
+      "expectedCanonical": "https://inceptivesdigital.com/ar-app-development",
+      "result": "PASS",
+      "errors": []
+    }
+  ],
+  "sitemapCount": 230,
+  "sitemapFailures": [],
+  "startupStatus": 404
+}

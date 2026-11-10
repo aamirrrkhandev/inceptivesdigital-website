@@ -1,6 +1,23 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_DiEQSg2E2oJUKMjJ9SPXkMCmUDi5, source commit 8040848).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_HnSXFGYZA7fzyGc8WkLGJDScbs2x, source commit cde84500b9e11653cead8e9c44ef4685b880daef).
+
+## Approved SEO / blog synchronization release — 10 November 2026
+
+248 current page paths passed deployed HTTP/title/description/canonical/heading/schema/preview checks. All 230 sitemap destinations passed HTTP/canonical checks; all 28 redirects are single-hop 301s to 200 pages. Browser checks passed: 16 header/footer widths, 16 no-reload blog filter/history/view groups, 20 restored-page viewport/tab/FAQ groups plus one staff assessment flow, three mocked contact redirects. All form responses in this release QA were mocked; real inbox delivery is not certified. See SEO_FIXES_AND_BLOG_SYNC.md and audit/seo-release-2026-11-10.
+
+| Path | Status | Verification / remaining work |
+| --- | --- | --- |
+| /web-development | Restored from user-approved older Vercel reference | Original assets/copy; four viewport/tab/FAQ checks passed; full pixel acceptance pending |
+| /staff-augmentation | Restored from user-approved older Vercel reference | Four viewports, technology/process tabs, FAQs and two-step role questionnaire passed; full pixel acceptance pending |
+| /iot-development | Restored from user-approved older Vercel reference | Original assets/copy; four viewport/tab/FAQ checks passed; full pixel acceptance pending |
+| /virtual-reality-development | Restored from user-approved older Vercel reference | Original assets/copy; four viewport/tab/FAQ checks passed; full pixel acceptance pending |
+| /ar-app-development | Restored from user-approved older Vercel reference | Original assets/copy; four viewport/tab/FAQ checks passed; full pixel acceptance pending |
+| /startup-product-development | Deferred by explicit user instruction | Remains 404; no page/redirect/sitemap entry added |
+| /blog/test | Dynamic published WordPress post | Deployed 200; content/metadata included in inventory checks |
+| /thank-you | Confirmation route | Source metadata/schema/H2 restored; three responsive sizes and native enquiry redirects passed |
+
+Next authorized batch: connect all ten enquiry/assessment form types to the logged-in GHL location, preserve their designs, remove consent fields without asserting opt-in, and verify actual GHL Forms Submissions/attribution. Calendly inclusion is pending user clarification. No WordPress/original Vercel/DNS changes are authorized.
 
 The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
 
