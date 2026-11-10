@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import { isGhlReplay, recordGhlSubmission } from "@/lib/ghl-tracking";
 
 type Turnstile = {
   render: (container: HTMLElement, options: Record<string, unknown>) => string;
@@ -81,10 +82,13 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
       .querySelectorAll<HTMLElement>("[data-contact-verification]")
       .forEach((container) => observer.observe(container));
     const controllers = new Set<AbortController>();
+    const delivered = new WeakMap<HTMLFormElement, string>();
     const submit = async (event: SubmitEvent) => {
       const form = event.target as HTMLFormElement;
       if (!form.matches("[data-contact-form]")) return;
       event.preventDefault();
+      if (isGhlReplay(form)) return;
+      event.stopPropagation();
       if (!form.reportValidity() || form.dataset.sending === "true") return;
       let status = form.querySelector<HTMLElement>("[data-form-status]");
       if (!status) {
@@ -95,6 +99,11 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         form.append(status);
       }
       const payload = new FormData(form);
+      const signature = JSON.stringify(
+        [...payload.entries()].filter(
+          ([key]) => key !== "cf-turnstile-response",
+        ),
+      );
       if (!payload.get("cf-turnstile-response")) {
         status.className = "migrated-message migrated-message-danger";
         status.textContent =
@@ -118,17 +127,27 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
       const controller = new AbortController();
       controllers.add(controller);
       try {
-        const response = await fetch("/api/forms", {
-          method: "POST",
-          body: payload,
-          signal: controller.signal,
-        });
-        const result = await response.json();
-        if (!response.ok || result.success !== true)
-          throw new Error(
-            text(result.data?.message) ||
-              "Your message could not be sent. Please try again.",
-          );
+        let result = {
+          success: true,
+          data: { message: "Your submission was successful." },
+        };
+        if (delivered.get(form) !== signature) {
+          const response = await fetch("/api/forms", {
+            method: "POST",
+            body: payload,
+            signal: controller.signal,
+          });
+          result = await response.json();
+          if (!response.ok || result.success !== true)
+            throw new Error(
+              text(result.data?.message) ||
+                "Your message could not be sent. Please try again.",
+            );
+          delivered.set(form, signature);
+        }
+        status.textContent = "Recording your enquiry…";
+        await recordGhlSubmission(form);
+        delivered.delete(form);
         status.className = "migrated-message migrated-message-success";
         status.textContent =
           text(result.data?.message) || "Your submission was successful.";
@@ -157,11 +176,11 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         }
       }
     };
-    root.addEventListener("submit", submit);
+    root.addEventListener("submit", submit, true);
     return () => {
       disposed = true;
       observer.disconnect();
-      root.removeEventListener("submit", submit);
+      root.removeEventListener("submit", submit, true);
       controllers.forEach((controller) => controller.abort());
       widgets.forEach((id) => window.turnstile?.remove(id));
     };

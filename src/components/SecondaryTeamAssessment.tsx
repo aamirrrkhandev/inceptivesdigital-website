@@ -45,11 +45,15 @@ export default function SecondaryTeamAssessment() {
     2,
   );
   function field(role: string, label: string, choices?: Choice[]) {
+    const name = ("team_" + role + "_" + label)
+      .replace(/[^a-z0-9]+/gi, "_")
+      .toLowerCase();
     return (
       <label key={label} className="block mt-[2vh] text-white">
         {label}
         {choices ? (
           <select
+            name={name}
             required
             aria-label={role + " " + label}
             className={inputClass}
@@ -70,6 +74,7 @@ export default function SecondaryTeamAssessment() {
           </select>
         ) : (
           <textarea
+            name={name}
             required
             aria-label={role + " " + label}
             className={inputClass}
@@ -95,6 +100,7 @@ export default function SecondaryTeamAssessment() {
           Design Your Ultimate Tech Team
         </h2>
         <form
+          id="website-staff-assessment"
           ref={formRef}
           data-contact-form="true"
           data-source-path="/contact-us"
@@ -102,26 +108,37 @@ export default function SecondaryTeamAssessment() {
           <div className="flex lg:flex-row flex-col gap-[4vh]">
             <div className="lg:w-[55%] w-full flex flex-wrap gap-[2vh] content-start">
               {[...Object.keys(roles), "others"].map((role) => (
-                <button
+                <label
                   key={role}
-                  type="button"
-                  aria-pressed={selected.includes(role)}
-                  onClick={() => {
-                    setSelected((s) =>
-                      s.includes(role)
-                        ? s.filter((r) => r !== role)
-                        : [...s, role],
-                    );
-                    setStep(1);
-                  }}
-                  className="px-[3vh] py-[2vh] rounded-[2vh] capitalize border-2 border-[#00CE44]"
+                  className="team-role-choice inline-flex items-center justify-center cursor-pointer px-[3vh] py-[2vh] rounded-[2vh] capitalize border-2 border-[#00CE44]"
                   style={{
                     background: selected.includes(role) ? "#00ce44" : "#171717",
                     color: selected.includes(role) ? "#111" : "white",
                   }}
                 >
+                  <input
+                    type="checkbox"
+                    name="team_roles"
+                    value={role}
+                    checked={selected.includes(role)}
+                    onChange={() => {
+                      setSelected((s) =>
+                        s.includes(role)
+                          ? s.filter((r) => r !== role)
+                          : [...s, role],
+                      );
+                      setStep(1);
+                    }}
+                    style={{
+                      position: "absolute",
+                      width: 1,
+                      height: 1,
+                      clipPath: "inset(50%)",
+                      overflow: "hidden",
+                    }}
+                  />
                   {role}
-                </button>
+                </label>
               ))}
             </div>
             <div className="lg:w-[44%] w-full">
@@ -129,7 +146,7 @@ export default function SecondaryTeamAssessment() {
                 className="bg-[#2A2A2A] h-[50vh] mb-[2vh] border-2 sm:p-[3vh] p-[2vh] border-[#4C4C4C] rounded-[3vh]"
                 style={{ overflowY: "auto" }}
               >
-                <fieldset disabled={step !== 1} hidden={step !== 1}>
+                <fieldset hidden={step !== 1}>
                   {!selected.length && <p role="alert">No Selected Roles</p>}
                   {selected.map((role) => (
                     <div
@@ -165,8 +182,14 @@ export default function SecondaryTeamAssessment() {
                         type={type}
                         required={key !== "notes"}
                         inputMode={key === "phone" ? "numeric" : undefined}
-                        pattern={key === "phone" ? "[0-9]{10,11}" : key === "fullName" || key === "company" ? ".*\\S.*" : undefined}
-                        name={name ? `form_fields[${name}]` : undefined}
+                        pattern={
+                          key === "phone"
+                            ? "[0-9]{10,11}"
+                            : key === "fullName" || key === "company"
+                              ? ".*\\S.*"
+                              : undefined
+                        }
+                        name={name ? `form_fields[${name}]` : key}
                         value={details[key]}
                         onChange={(e) =>
                           setDetails((d) => ({ ...d, [key]: e.target.value }))
@@ -174,7 +197,6 @@ export default function SecondaryTeamAssessment() {
                       />
                     </label>
                   ))}
-                  {(contract.consent as LayoutNode[]).map(contractNode)}
                   {contractNode(contract.verification as LayoutNode, 100)}
                 </fieldset>
               </div>
@@ -220,6 +242,11 @@ export default function SecondaryTeamAssessment() {
             </div>
           </div>
         </form>
+        <style>
+          {
+            ".secondary-service-page .team-role-choice:focus-within{outline:2px solid #00ce44;outline-offset:3px}"
+          }
+        </style>
       </div>
     </section>
   );

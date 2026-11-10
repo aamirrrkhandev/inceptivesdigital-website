@@ -1,4 +1,5 @@
 // Adapted from the current public iOS assessment; server scoring stays authoritative.
+import { isGhlReplay, recordGhlSubmission } from "../lib/ghl-tracking";
 export function mountIOSAssessment() {
   const controller = new AbortController();
   let redirectTimer;
@@ -12,6 +13,7 @@ export function mountIOSAssessment() {
     result = root.querySelector(".id-ios-result"),
     error = root.querySelector(".id-ios-error");
   let step = 0;
+  let accepted;
   const questions = {
     platform: [
       "What platforms are you launching first?",
@@ -85,12 +87,15 @@ export function mountIOSAssessment() {
           "'": "&#39;",
         })[ch],
     );
-  form.addEventListener(
+  root.addEventListener(
     "submit",
     async (e) => {
       e.preventDefault();
+      if (isGhlReplay(form)) return;
+      e.stopImmediatePropagation();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
+      const signature = JSON.stringify([...data.entries()]);
       for (const key of ["platform", "hardware", "performance", "timeline"])
         if (!data.get(key)) {
           error.textContent = "Please complete all questions.";
@@ -100,14 +105,20 @@ export function mountIOSAssessment() {
       send.textContent = "Sending...";
       error.textContent = "";
       try {
-        const response = await fetch("/api/ios-assessment", {
-          method: "POST",
-          body: data,
-          signal: controller.signal,
-        });
-        const out = await response.json();
-        if (!out.success)
-          throw Error(out.data?.message || "Submission failed.");
+        let out = accepted?.signature === signature ? accepted.out : undefined;
+        if (!out) {
+          const response = await fetch("/api/ios-assessment", {
+            method: "POST",
+            body: data,
+            signal: controller.signal,
+          });
+          out = await response.json();
+          if (!out.success)
+            throw Error(out.data?.message || "Submission failed.");
+          accepted = { signature, out };
+        }
+        await recordGhlSubmission(form);
+        accepted = undefined;
         show(out.data);
       } catch (err) {
         error.textContent = err.message || "Submission failed. Please retry.";
@@ -115,7 +126,7 @@ export function mountIOSAssessment() {
         send.textContent = "Send & View Result";
       }
     },
-    { signal: controller.signal },
+    { signal: controller.signal, capture: true },
   );
   function show(data) {
     const r = {

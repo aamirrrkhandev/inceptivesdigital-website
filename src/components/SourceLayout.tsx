@@ -13,6 +13,11 @@ import BlogInteractions from "./BlogInteractions";
 import { prepareBlogListing } from "@/lib/blog-listing";
 import linkFixes from "../../content/approved-link-fixes.json";
 import { correctedSchema } from "@/lib/seo-policy";
+import {
+  isConsentControl,
+  contactFormIdentifier,
+  contactTrackingIds,
+} from "@/lib/form-policy";
 const voidElements = new Set([
   "area",
   "base",
@@ -40,10 +45,18 @@ export function renderNode(
   ) => ReactNode | undefined,
 ): ReactNode {
   if (typeof node === "string") return node;
+  if (isConsentControl(node)) return null;
   const custom = customRender?.(node, index);
   if (custom !== undefined) return custom;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (tag === "form" && !safeProps.id) {
+    if (String(props.className || "").split(/\s+/).includes("id-ios-form"))
+      safeProps.id = "id-ios-form";
+    const identifier = contactFormIdentifier(node);
+    if (identifier && contactTrackingIds[identifier])
+      safeProps.id = contactTrackingIds[identifier];
+  }
   if (tag === "a" && typeof safeProps.href === "string") {
     try {
       const url = new URL(safeProps.href, "https://inceptivesdigital.com");

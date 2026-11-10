@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./site.css";
 import { indexingAllowed } from "@/lib/seo-policy";
+import GhlTracking from "@/components/GhlTracking";
 export const metadata: Metadata = {
   metadataBase: new URL("https://inceptivesdigital.com"),
   robots: indexingAllowed
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-US">
-      <body>{children}</body>
+      <body>
+        {children}
+        <GhlTracking />
+      </body>
     </html>
   );
 }

@@ -9,12 +9,23 @@ export const secondaryPages = pages as unknown as Record<
   string,
   { sourceUrl: string; meta: SitePage["meta"]; sections: LayoutNode[] }
 >;
-function section(node: LayoutNode, key: number): React.ReactNode {
-  return renderNode(node, key, undefined, false, false, (child, index) =>
-    child.props["data-secondary-team"] ? (
-      <SecondaryTeamAssessment key={index} />
-    ) : undefined,
-  );
+function section(node: LayoutNode, key: number, path: string): React.ReactNode {
+  return renderNode(node, key, undefined, false, false, (child, index) => {
+    if (child.props["data-secondary-team"])
+      return <SecondaryTeamAssessment key={index} />;
+    if (child.tag === "form")
+      return renderNode(
+        {
+          ...child,
+          props: {
+            ...child.props,
+            id: "website-" + path.slice(1) + "-enquiry",
+          },
+        },
+        index,
+      );
+    return undefined;
+  });
 }
 export default function SecondaryServicePage({ path }: { path: string }) {
   const data = secondaryPages[path];
@@ -33,7 +44,7 @@ export default function SecondaryServicePage({ path }: { path: string }) {
       mainContent={
         <main className="secondary-service-page" data-secondary-path={path}>
           <style>{css}</style>
-          {data.sections.map(section)}
+          {data.sections.map((node, index) => section(node, index, path))}
           <SecondaryServiceInteractions path={path} />
         </main>
       }
