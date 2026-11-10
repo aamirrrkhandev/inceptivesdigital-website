@@ -106,13 +106,14 @@ export default function SecondaryTeamAssessment() {
                   key={role}
                   type="button"
                   aria-pressed={selected.includes(role)}
-                  onClick={() =>
+                  onClick={() => {
                     setSelected((s) =>
                       s.includes(role)
                         ? s.filter((r) => r !== role)
                         : [...s, role],
-                    )
-                  }
+                    );
+                    setStep(1);
+                  }}
                   className="px-[3vh] py-[2vh] rounded-[2vh] capitalize border-2 border-[#00CE44]"
                   style={{
                     background: selected.includes(role) ? "#00ce44" : "#171717",
@@ -163,6 +164,8 @@ export default function SecondaryTeamAssessment() {
                         className={inputClass}
                         type={type}
                         required={key !== "notes"}
+                        inputMode={key === "phone" ? "numeric" : undefined}
+                        pattern={key === "phone" ? "[0-9]{10,11}" : key === "fullName" || key === "company" ? ".*\\S.*" : undefined}
                         name={name ? `form_fields[${name}]` : undefined}
                         value={details[key]}
                         onChange={(e) =>
