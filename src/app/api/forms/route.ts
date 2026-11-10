@@ -4,6 +4,7 @@ import { loadFormContract, sendElementorForm } from "@/lib/wordpress-forms";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 const paths = new Set(routes.map((route) => route.path));
+paths.add("/thank-you");
 const reply = (message: string, status: number) =>
   Response.json(
     { success: false, data: { message } },

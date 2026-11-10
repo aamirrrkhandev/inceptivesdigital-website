@@ -127,18 +127,9 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         status.textContent =
           text(result.data?.message) || "Your submission was successful.";
         form.reset();
-        const redirect = result.data?.data?.redirect_url;
-        if (redirect) {
-          const destination = new URL(redirect, location.origin);
-          if (
-            [location.origin, "https://inceptivesdigital.com"].includes(
-              destination.origin,
-            )
-          )
-            location.assign(
-              destination.pathname + destination.search + destination.hash,
-            );
-        }
+        // All enquiry forms share the local completion page. Only confirmed
+        // handler success reaches this branch; failures retain the entered data.
+        location.assign("/thank-you");
       } catch (error) {
         if (disposed) return;
         status.className = "migrated-message migrated-message-danger";

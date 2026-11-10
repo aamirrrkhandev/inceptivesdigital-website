@@ -292,3 +292,10 @@ The green banner panel position, desktop submenu overflow, mobile submenu expans
 | /2026/09/18 | Staging implementation present | Full visual, content, functionality, accessibility, and performance acceptance pending. |
 
 Source URL status and classification: URL_INVENTORY.csv. SEO checks: SEO_COMPARISON.csv. Known source errors remain documented; no unrelated homepage redirects were introduced.
+
+## 2026-11-10: Image alt-text library and enquiry completion
+
+- Local `image-library/index.html`: 4,560 copied images (510,193,291 bytes), SHA-256 verified; 18,331 page-specific img occurrences with existing and editable proposed alt text. Source assets, filenames, URLs and current website alt text remain unchanged. Library output is ignored by Git; reproducible with `node scripts/export-image-library.mjs`. Future live posts and unavailable external originals are outside this snapshot.
+- Offline Chrome QA passed: thumbnails decode, search, alt editing and JSON download; no page errors. Save edited JSON before closing; changes do not automatically update the website.
+- Successful native enquiries now navigate to `/thank-you`; failures retain the form. Added noindex completion route with the live WordPress thank-you copy and shared header/footer. Visual parity of this new completion layout remains pending.
+- TypeScript passed. Existing form validation, failed-response handling, five-step quiz and PDF tests passed. Three distinct contact form success redirects plus 375/768/1440 completion route checks passed using intercepted responses; no real emails were sent and inbox delivery is unverified. These changes are local until a new staging deployment is verified.

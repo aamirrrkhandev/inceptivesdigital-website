@@ -13,3 +13,4 @@ audit/raw/npm.tgz
 
 # Generated crawls, exports and screenshots stay local; tracked QA fixtures remain versioned.
 audit/
+image-library/
