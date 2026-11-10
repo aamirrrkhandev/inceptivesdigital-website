@@ -96,6 +96,7 @@ function makePage(row) {
   let firstImage = true,
     firstMainImage = true;
   function convert(e) {
+    if (e.name === "title" && !$(e).closest("svg").length) return null;
     if (e.type === "text") {
       if (!/\S/.test(e.data))
         return /^(p|h[1-6]|span|a|strong|em|li|button|summary)$/.test(

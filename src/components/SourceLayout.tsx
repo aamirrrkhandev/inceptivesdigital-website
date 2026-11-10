@@ -31,7 +31,8 @@ function renderNode(
   if (typeof node === "string") return node;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
-  if (svgContext && tag === "title") {
+  if (tag === "title") {
+    if (!svgContext) return null; // Embedded HTML widgets must not create a second page title.
     // React hoists title elements into document metadata; keep diagram text in SVG.
     return createElement(
       "desc",
