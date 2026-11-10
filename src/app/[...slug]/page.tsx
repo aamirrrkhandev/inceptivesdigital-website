@@ -6,7 +6,7 @@ import SourceLayout from "@/components/SourceLayout";
 export const dynamicParams = false;
 export function generateStaticParams() {
   return routes
-    .filter((r) => r.path !== "/")
+    .filter((r) => r.path !== "/" && !/^\/blog(?:\/[^/]+)?$/.test(r.path))
     .map((r) => ({ slug: r.path.split("/").filter(Boolean) }));
 }
 export async function generateMetadata({

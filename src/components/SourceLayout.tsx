@@ -9,6 +9,7 @@ import backgroundFitRules from "../../content/background-fit-rules.json";
 import { normalizeRootSelectors } from "@/lib/selector-scope";
 import CaseStudySliderComponent from "./casestudy-slider-component";
 import ScheduleMeetingSection from "./ScheduleMeetingSection";
+import BlogInteractions from "./BlogInteractions";
 const voidElements = new Set([
   "area",
   "base",
@@ -221,6 +222,7 @@ export default function SourceLayout({
       )}
       <SiteInteractions pageKey={page.key} />
       <ContactForms pageKey={page.key} />
+      {page.path === "/blog" && <BlogInteractions />}
       {page.path === "/ios-app-development" && <IOSAssessment />}
       {page.articleInteractions && (
         <ArticleInteractions

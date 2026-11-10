@@ -5,6 +5,11 @@ import { Resolver } from "node:dns/promises";
 import { lookup as systemLookup } from "node:dns";
 
 const origin = "https://inceptivesdigital.com";
+export async function readWordPressPublicPage(path: string) {
+  if (!path.startsWith("/") || path.startsWith("//"))
+    throw new Error("Invalid source path");
+  return sourceRequest(origin + path);
+}
 // Keep TLS/SNI verification on the hostname, even when the local OS resolver fails.
 async function sourceRequest(url: string, body?: URLSearchParams) {
   const resolver = new Resolver();
