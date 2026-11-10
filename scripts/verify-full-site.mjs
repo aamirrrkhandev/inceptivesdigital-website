@@ -1,9 +1,11 @@
 import fs from 'node:fs';
+import zlib from 'node:zlib';
 import * as cheerio from 'cheerio';
 const base=process.argv[2]||'http://localhost:3100';
 const auditRoot=process.env.MIGRATION_AUDIT_DIR||'audit/full';
 const routes=JSON.parse(fs.readFileSync('content/routes.json'));
-const crawl=JSON.parse(fs.readFileSync(auditRoot+'/crawl.json'));
+fs.mkdirSync(auditRoot,{recursive:true});
+const crawl=JSON.parse(fs.existsSync(auditRoot+'/crawl.json')?fs.readFileSync(auditRoot+'/crawl.json'):zlib.brotliDecompressSync(fs.readFileSync('audit/seo-baseline.json.br')));
 const csv=rows=>rows.map(row=>row.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\n')+'\n';
 // A failed disk write must not truncate an existing report.
 function write(file,value){const temporary=file+'.tmp';fs.writeFileSync(temporary,value);fs.renameSync(temporary,file)}
