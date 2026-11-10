@@ -22,8 +22,21 @@ const query = (params: Awaited<Props["searchParams"]>) =>
       .map(([key, value]) => [key, value!.slice(0, 200)]),
   ).toString();
 export async function generateMetadata({ searchParams }: Props) {
-  const page = await getWordPressPage("/blog", query(await searchParams));
-  return page ? pageMetadata(page) : {};
+  const params = await searchParams;
+  const page = await getWordPressPage("/blog", query(params));
+  if (!page) return {};
+  const metadata = pageMetadata(page);
+  if (params.blog_cat || params.blog_search) {
+    metadata.robots = {
+      index: false,
+      follow: process.env.ALLOW_INDEXING === "true",
+    };
+    metadata.alternates = {
+      ...metadata.alternates,
+      canonical: "https://inceptivesdigital.com/blog",
+    };
+  }
+  return metadata;
 }
 export default async function Blog({ searchParams }: Props) {
   const page = await getWordPressPage("/blog", query(await searchParams));

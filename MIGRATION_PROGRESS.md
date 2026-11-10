@@ -1,10 +1,18 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_gh9UBzkQcZUHoeUVAybVh5BecXwh, source commit d251dbc).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_5wrposTAupwBb6u7iCevgPbu9Htw, source commit 84aca2a).
 
 The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
 
-## Current staging batch — same-page blog tabs
+## Current staging batch — homepage header/footer and social icons
+
+Homepage-only containers, header columns, footer links/address grids and copyright wrapping were adjusted. Main/footer content is bounded at 1600px, header at 1760px, with 16–48px gutters. Social icons have 44px touch targets and 12px gaps. The deployed candidate passed 16 widths (320–2560px), mobile menu checks and desktop submenu bounds. The header/footer candidate also passed 28 banner and eight slider groups. Homepage metadata, 148 headings, 164 footer links and 22 form fields were unchanged. See `HOMEPAGE_HEADER_FOOTER_REVIEW.md`.
+
+## Pending next staging batch — clean blog URLs
+
+Local tests pass for an AJAX listing island that keeps the address bar at /blog. Category/search/view/page state moves into browser history; old category/search URLs receive noindex metadata and a canonical to the clean blog URL. API responses are noindex, and unfiltered pagination remains crawlable. Category/filter history, resize, missing-data retry and API error handling are verified before publication.
+
+## Previous staging batch — same-page blog tabs
 
 Category tabs, pagination, search and responsive view changes now use client-side Next.js navigation with scroll preservation. Browser verification passed 16 groups: all 13 categories, pagination/back history, and mobile/tablet categories. A document nonce and top-level navigation request counter confirmed no page reloads; category clicks preserved scroll position. See `audit/browser/blog-client-tabs-verification.json`. Rollback: dpl_61mWbeTHqJtU7Y8gbL6vpToRNKHy.
 

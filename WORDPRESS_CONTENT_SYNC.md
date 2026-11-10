@@ -30,3 +30,11 @@ The 241-route baseline comparison has 239 exact passes. The two heading differen
 ## Same-page tabs update
 
 At the user’s request, category selection, search, pagination and responsive view changes now use Next.js client navigation rather than full document navigation. Scroll position is preserved and the grid exposes its pending state through aria-busy. Back/forward history restores the selected URL state. Sixteen deployed browser verification groups passed with a preserved document nonce and zero top-level navigation requests. Released commit d251dbc; deployment dpl_gh9UBzkQcZUHoeUVAybVh5BecXwh.
+
+## Clean category URLs
+
+The latest implementation renders the listing as a client-owned React island and requests structured listing nodes from /api/blog-listing. Category, search, responsive view and page state are kept in browser history; the visible address stays at /blog. Back/forward state is retained without document reloads. A short browser-memory cache reuses recent results; request cancellation prevents stale responses replacing the last selection. Failed requests retain the last applied results and expose Retry.
+
+Old category/search query URLs still render their requested content for compatibility, then clean the browser address. Their server metadata is noindex with a canonical to https://inceptivesdigital.com/blog. The data endpoint always returns X-Robots-Tag: noindex. Unfiltered numbered pagination links remain crawlable; no category query links are generated. Directly sharing /blog starts with the normal listing rather than exposing a category query URL.
+
+Local verification: 16 no-reload/category/history/viewport groups and the legacy URL, canonical/noindex, API noindex and error/retry checks passed.

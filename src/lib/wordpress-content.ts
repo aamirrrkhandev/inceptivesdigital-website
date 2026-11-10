@@ -326,6 +326,7 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
     "data-view": options.view,
     "data-category": options.category || "all",
     "data-search": options.search,
+    "data-page": String(options.page),
   });
   $(".btn-tabs").each((_, el) => {
     const active =

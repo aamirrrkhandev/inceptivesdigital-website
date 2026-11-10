@@ -1,19 +1,51 @@
-# Inceptives Digital — isolated homepage review
+# inceptivesdigital-web
 
-Next.js 16.4.5, React 19, TypeScript, App Router. The live WordPress homepage is the content/design reference. This batch implements the homepage only; all other navigation destinations stay on the existing public website until their approved migration batch.
+Next.js migration of Inceptives Digital. The current WordPress website is the design/content reference. The project contains 241 migrated page/archive paths plus newly published WordPress blog posts loaded on demand.
 
-## Setup
+Staging: https://inceptives-homepage-review.vercel.app/
 
-Use Node 22.10+ or 24 and npm. Run `npm ci`, then `npm run build` and `npm start`. For development use `npm run dev`. No credentials or environment variables are required for the homepage review.
+## Run locally
 
-`node scripts/verify-http.mjs http://localhost:3000` verifies HTTP behavior, metadata, exact extracted text and every original asset mapping. Browser specs are in `tests/homepage.spec.ts`; run `npx playwright test --update-snapshots` to establish local screenshot baselines, then `npx playwright test` for later comparisons. Tests require installed Playwright browsers. The current session's browser evidence is recorded separately in `audit/` and `QA_REPORT.md`; unrun tests must not be represented as passing.
+Install Node.js 24 and Git. Allow at least 5 GB free for dependencies and generated build files.
 
-## Content and assets
+```sh
+npm ci
+npm run dev
+```
 
-`src/content/source.json` contains structured source text and modules, not HTML blobs. `assets.json` maps original source URLs to local downloads, and `dimensions.json` supplies intrinsic sizes and responsive derivatives. The original image/video bytes are retained in `public/assets`. `audit/ASSET_MANIFEST.json` records SHA256 hashes. Audit scripts retain source snapshots but are not required at runtime.
+Open http://localhost:3000. To run a production build:
 
-## Staging safety
+```sh
+npm run build
+npm start
+```
 
-This project is permanently non-indexable in this review: HTML robots metadata, X-Robots-Tag headers and robots.txt block indexing. Canonical URL points to the authoritative live homepage. Analytics scripts are inventoried but do not execute on staging. Contact form validates and explicitly reports that it did not send a message. Calendly uses the original public scheduling destination; no booking has been submitted by this migration.
+No WordPress administrator credentials are required. Public WordPress content and the existing form handlers must remain reachable for live blog updates and form delivery. Do not put credentials in source files.
 
-Do not promote this build or attach a live domain. Production indexing, analytics and verified form delivery require a later explicitly authorized cutover batch. The existing Vercel project and WordPress installation are not linked as deployment targets.
+## Content and media
+
+- App Router, React, TypeScript and reusable native interactions are under src/.
+- Structured layouts are in content/site-catalog.json.br and its deployment parts. Media are stored in content/media/ with their index in content/media-index.json. Keep these files in the checkout.
+- The build materializes original large media and video files into public/ at their preserved URLs. Generated files, node_modules and Next.js caches are ignored by Git.
+- WordPress remains the read-only publishing source for new/updated posts, blog filtering and sitemap blog entries. Revalidation is request driven at 30 seconds; allow roughly 30–60 seconds for updates.
+- Unused loose images are retained in draft/images with reversible hash-verified mappings.
+
+## Verification
+
+Run npm run typecheck. Browser checks use Playwright; install its Chromium browser with npx playwright install chromium if needed. Verification scripts accept a local or staging base URL, for example:
+
+```sh
+node scripts/verify-homepage-shell.mjs http://localhost:3000
+node scripts/verify-homepage-slider.mjs http://localhost:3000
+node scripts/verify-blog-client-tabs.mjs http://localhost:3000
+```
+
+See MIGRATION_PROGRESS.md, WORDPRESS_CONTENT_SYNC.md, HOMEPAGE_HEADER_FOOTER_REVIEW.md and the audit/browser reports for actual results and remaining acceptance work. Some integration checks use mocked responses; do not send real test enquiries without authorization.
+
+## Staging and cutover
+
+The separate staging project is non-indexable. Source canonicals point to https://inceptivesdigital.com/. Do not connect the live domain, change DNS or overwrite WordPress/the original Vercel project without explicit cutover approval.
+
+The existing WordPress PHP handlers still provide form delivery. One previously authorized iOS assessment test succeeded; general CAPTCHA/inbox verification remains incomplete. Ten legacy originals in three blog posts remain unavailable. Performance acceptance and full visual acceptance are ongoing; a 1.5-second load guarantee has not been established.
+
+Before any production cutover, configure a distinct WordPress backend origin and review indexing, analytics, forms, redirects and rollback. The current WordPress source domain cannot point back at Next.js while also serving as its backend.

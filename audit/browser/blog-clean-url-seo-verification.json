@@ -1,0 +1,9 @@
+{
+  "base": "http://localhost:3103",
+  "legacyUrlCleans": true,
+  "filteredNoindex": true,
+  "canonicalBlog": true,
+  "failedRequestRetry": true,
+  "apiNoindex": true,
+  "noCategoryLinks": true
+}

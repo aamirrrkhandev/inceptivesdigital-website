@@ -1,0 +1,10 @@
+{
+  "bases": [
+    "https://inceptives-homepage-review.vercel.app",
+    "https://inceptives-homepage-review-hceifavr6.vercel.app"
+  ],
+  "pass": true,
+  "headingCount": 148,
+  "footerLinks": 164,
+  "formFields": 22
+}

@@ -22,7 +22,7 @@ try {
   const ready = async (category) => {
     await page
       .locator(
-        `[data-id-blog-listing][data-category="${category}"][data-blog-interactions-ready=true]`,
+        `[data-id-blog-listing][data-category="${category}"][data-blog-interactions-ready=true][aria-busy=false]`,
       )
       .waitFor();
     await page.locator("[data-blog-grid][aria-busy=false]").waitFor();
@@ -32,6 +32,8 @@ try {
       "Document was reloaded",
     );
     assert.equal(documents, 0, "A top-level document request occurred");
+    assert.equal(new URL(page.url()).pathname, "/blog");
+    assert.equal(new URL(page.url()).search, "");
   };
   const categories = await page
     .locator(".btn-tabs")
@@ -43,10 +45,6 @@ try {
     await tab.scrollIntoViewIfNeeded();
     const before = await page.evaluate(() => scrollY);
     await tab.click();
-    await page.waitForURL(
-      (url) => url.searchParams.get("blog_cat") === category,
-      { waitUntil: "domcontentloaded" },
-    );
     await ready(category);
     assert.equal(await tab.getAttribute("aria-pressed"), "true");
     const values = await page
@@ -74,16 +72,16 @@ try {
     .locator(".id-blog-pagination a")
     .filter({ hasText: /^2$/ })
     .click();
-  await page.waitForURL(
-    (url) => url.searchParams.get("pagination_page") === "2",
-    { waitUntil: "domcontentloaded" },
-  );
+  await page.locator('[data-id-blog-listing][data-page="2"]').waitFor();
   await ready("all");
   assert.notEqual(
     await page.locator("[data-blog-grid] .post-title").first().innerText(),
     firstTitle,
   );
   await page.goBack({ waitUntil: "domcontentloaded" });
+  await page
+    .locator('[data-id-blog-listing][data-page="1"][aria-busy=false]')
+    .waitFor();
   await ready("all");
   assert.equal(
     await page.locator("[data-blog-grid] .post-title").first().innerText(),

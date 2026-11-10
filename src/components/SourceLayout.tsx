@@ -10,6 +10,7 @@ import { normalizeRootSelectors } from "@/lib/selector-scope";
 import CaseStudySliderComponent from "./casestudy-slider-component";
 import ScheduleMeetingSection from "./ScheduleMeetingSection";
 import BlogInteractions from "./BlogInteractions";
+import { prepareBlogListing } from "@/lib/blog-listing";
 const voidElements = new Set([
   "area",
   "base",
@@ -35,6 +36,17 @@ function renderNode(
   if (typeof node === "string") return node;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (String(props["data-id-blog-listing"]) === "1") {
+    return (
+      <BlogInteractions
+        key={index}
+        wrapperProps={props}
+        initialContent={prepareBlogListing(children).map((child, i) =>
+          renderNode(child, i),
+        )}
+      />
+    );
+  }
   if (homepageCaseStudySlider && props["data-id"] === "6b826671") {
     return (
       <div id="schedule" key={index}>
@@ -222,7 +234,6 @@ export default function SourceLayout({
       )}
       <SiteInteractions pageKey={page.key} />
       <ContactForms pageKey={page.key} />
-      {page.path === "/blog" && <BlogInteractions />}
       {page.path === "/ios-app-development" && <IOSAssessment />}
       {page.articleInteractions && (
         <ArticleInteractions

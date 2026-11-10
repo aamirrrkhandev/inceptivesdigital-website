@@ -1,5 +1,5 @@
 {
-  "base": "https://inceptives-homepage-review-k5zgsc3ai.vercel.app",
+  "base": "http://localhost:3103",
   "results": [
     {
       "category": "mobile-app-development",
