@@ -91,9 +91,7 @@ assert.ok(
     "https://inceptivesdigital.com/press-release/rightfirms-top-artificial-intelligence-company-2026",
   ),
 );
-assert.ok(
-  urls.every((u) => u === "https://inceptivesdigital.com/" || !u.endsWith("/")),
-);
+assert.equal(new Set(urls.map((u) => u.replace(/\/$/, ""))).size, urls.length);
 const robots = await (await fetch(base + "/robots.txt")).text();
 assert.match(robots, /Disallow: \//);
 const missing = await fetch(base + "/seo-approved-missing-page", {

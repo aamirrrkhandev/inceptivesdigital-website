@@ -112,7 +112,10 @@ await Promise.all(
       const r = await fetch(base + new URL(url).pathname, {
         redirect: "manual",
       });
-      if (r.status !== 200) sitemapFailures.push({ url, status: r.status });
+      const $ = cheerio.load(await r.text());
+      const canonical = $('link[rel="canonical"]').attr("href");
+      if (r.status !== 200 || canonical !== url)
+        sitemapFailures.push({ url, status: r.status, canonical });
     }
   }),
 );

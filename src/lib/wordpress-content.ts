@@ -9,6 +9,7 @@ import { mediaIndex } from "./static-media";
 import { readWordPressPublicPage } from "./wordpress-forms";
 import { prepareSourceDom } from "./source-enhancements";
 import { approvedCanonical } from "./seo-policy";
+import savedRoutes from "../../content/routes.json";
 
 const origin = "https://inceptivesdigital.com";
 const rename = (value: string) =>
@@ -103,7 +104,29 @@ export const getWordPressSitemapURLs = cache(async () => {
   await visit("/sitemap_index.xml");
   urls.push(...(await getWordPressSitemapPosts()));
   if (!urls.length) throw new Error("Empty WordPress sitemap");
-  return [...new Set(urls)];
+  const canonicals = new Map(
+    savedRoutes.map((route) => [
+      route.path,
+      approvedCanonical(route.canonical)!,
+    ]),
+  );
+  for (const post of await getPublishedPosts()) {
+    canonicals.set(
+      new URL(post.link).pathname.replace(/\/$/, ""),
+      approvedCanonical(post.yoast_head_json?.canonical || post.link)!,
+    );
+  }
+  // Preserve existing Yoast canonical URLs, including their slash convention.
+  // Align sitemap entries to those destinations rather than changing public canonicals.
+  return [
+    ...new Set(
+      urls.map(
+        (url) =>
+          canonicals.get(new URL(url).pathname.replace(/\/$/, "") || "/") ||
+          url,
+      ),
+    ),
+  ];
 });
 
 function media(value: string) {
