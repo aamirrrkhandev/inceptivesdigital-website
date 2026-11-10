@@ -1,0 +1,97 @@
+{
+  "base": "https://inceptives-homepage-review-ldes0h6e5.vercel.app",
+  "results": [
+    {
+      "latestPost": "/blog/test",
+      "status": 200,
+      "titleCanonicalContentSchema": true
+    },
+    {
+      "sitemapIncludesLatest": true,
+      "missingPost404": true
+    },
+    {
+      "category": "mobile-app-development",
+      "cards": 15,
+      "pass": true
+    },
+    {
+      "category": "software-development",
+      "cards": 8,
+      "pass": true
+    },
+    {
+      "category": "ios-app-development",
+      "cards": 6,
+      "pass": true
+    },
+    {
+      "category": "android-app-development",
+      "cards": 5,
+      "pass": true
+    },
+    {
+      "category": "mobile-game-development",
+      "cards": 12,
+      "pass": true
+    },
+    {
+      "category": "fintech-app-development",
+      "cards": 5,
+      "pass": true
+    },
+    {
+      "category": "fitness-app-development",
+      "cards": 7,
+      "pass": true
+    },
+    {
+      "category": "web-development",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "category": "blockchain-development",
+      "cards": 9,
+      "pass": true
+    },
+    {
+      "category": "healthcare-app-development",
+      "cards": 12,
+      "pass": true
+    },
+    {
+      "category": "dating-app-development",
+      "cards": 1,
+      "pass": true
+    },
+    {
+      "category": "digital-products",
+      "cards": 10,
+      "pass": true
+    },
+    {
+      "category": "artificial-intelligence",
+      "cards": 13,
+      "pass": true
+    },
+    {
+      "searchFindsLatestAndClearsCategory": true
+    },
+    {
+      "secondPage": true
+    },
+    {
+      "width": 375,
+      "view": "mobile",
+      "count": 6,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "view": "tablet",
+      "count": 9,
+      "pass": true
+    }
+  ]
+}

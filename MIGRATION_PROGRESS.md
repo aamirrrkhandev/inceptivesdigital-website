@@ -1,10 +1,22 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_Fz2H7wpiUm6VmJ792fspYz2rq2H4, source commit 2991be5).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_2aqkhGXypjspwjuszXwQ1maAvu9t, source commit d5afb45).
 
 The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
 
-## Current staging batch — responsive media
+## Current staging batch — calendar and automatic blog updates
+
+Published the requested homepage-only black meeting section with automatically lazy-mounted Calendly at 580/640/660px heights. Seven responsive layout checks and keyboard fallback passed; real calendar date grids were verified at all seven widths (desktop uses a different calendar heading, accounted for in QA).
+
+WordPress is now the read-only source for newly published/updated blog posts, blog listings, category/search queries and sitemap entries. The actual new `/blog/test` post is visible. All 13 category tabs, pagination, the source-hidden search handler, current post metadata/schema, sitemap, real 404 and responsive 6/9/15 counts passed on Vercel (19 verification groups). Cache revalidation is request driven at 30 seconds; allow roughly 30–60 seconds and refresh an already-open tab. See `WORDPRESS_CONTENT_SYNC.md`.
+
+The 241-route baseline has 239 exact passes and two expected heading changes: the approved homepage redesign and the latest blog card. The sitemap now has 225 entries. No source WordPress, original Vercel project or DNS change was made.
+
+## Previous staging batch — image sizing and banners
+
+Published the banner fitting correction, homepage-only `casestudy-slider-component` and native smooth scrolling to the separate staging project. Authored custom background sizes/positions are preserved; the homepage decorative panel fills its text container. Deployed checks: 28 banner checks, eight slider verification groups, 12 media checks, 22 navigation/scroll checks and 241 SEO/status checks passed. All-route browser/image geometry review remains tracked separately. 168 unused loose images were moved with verified unchanged hashes into `draft/images`; no packed image was removed. See `IMAGE_LAYOUT_REVIEW_2026-11-10.md`.
+
+## Previous staging batch — responsive media
 
 Published only to the separate migration project on 10 November 2026. Desktop/tablet/mobile navigation fixes, expanded-menu scroll handling, image-fit overrides for 516 captured background rules across 241 routes, and the uncropped blockchain CTA layout are included. Original video files are now materialized as static assets at their preserved URLs, providing correct HTTP byte ranges and working hover playback on all three homepage cards. Exact body-class matching fixes the shared CSS prefix collision. Embedded HTML widget titles no longer create duplicate SEO titles; the iOS title matches the current live head title.
 
@@ -21,6 +33,7 @@ The green banner panel position, desktop submenu overflow, mobile submenu expans
 | Path | Implementation | Latest verification / remaining work |
 | --- | --- | --- |
 | / | Staging implementation present | Banner: four widths passed on deployed preview. Remaining full-page and integration acceptance pending. |
+| /blog/test | Dynamic WordPress post on staging | HTTP/content/title/canonical/schema, sitemap inclusion and listing verified; full responsive visual acceptance pending. |
 | /services | Staging implementation present | Full visual, content, functionality, accessibility, and performance acceptance pending. |
 | /computer-vision-development-services | Staging implementation present | Full visual, content, functionality, accessibility, and performance acceptance pending. |
 | /ai-chatbot-development-services | Staging implementation present | Full visual, content, functionality, accessibility, and performance acceptance pending. |

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "deployment": "dpl_2aqkhGXypjspwjuszXwQ1maAvu9t",
+    "schedule": 1,
+    "latestLink": 0,
+    "title": "Inceptives Digital | Digital Product Studio",
+    "newPostInSitemap": false
+  },
+  {
+    "path": "/blog",
+    "status": 200,
+    "deployment": "dpl_2aqkhGXypjspwjuszXwQ1maAvu9t",
+    "schedule": 0,
+    "latestLink": 2,
+    "title": "Tech Blog & Insights | Inceptives Digital",
+    "newPostInSitemap": false
+  },
+  {
+    "path": "/blog/test",
+    "status": 200,
+    "deployment": "dpl_2aqkhGXypjspwjuszXwQ1maAvu9t",
+    "schedule": 0,
+    "latestLink": 0,
+    "title": "test - Inceptives Digital",
+    "newPostInSitemap": false
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "schedule": 0,
+    "latestLink": 0,
+    "title": "",
+    "newPostInSitemap": true
+  }
+]

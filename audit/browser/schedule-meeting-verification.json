@@ -1,0 +1,294 @@
+{
+  "base": "https://inceptives-homepage-review.vercel.app/",
+  "results": [
+    {
+      "width": 320,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 17,
+        "y": -62.78125,
+        "width": 286,
+        "height": 501.453125,
+        "top": -62.78125,
+        "right": 303,
+        "bottom": 438.671875,
+        "left": 17
+      },
+      "right": {
+        "x": 17,
+        "y": 438.671875,
+        "width": 286,
+        "height": 623.5,
+        "top": 438.671875,
+        "right": 303,
+        "bottom": 1062.171875,
+        "left": 17
+      },
+      "iframe": {
+        "x": 17,
+        "y": 438.671875,
+        "width": 286,
+        "height": 580,
+        "top": 438.671875,
+        "right": 303,
+        "bottom": 1018.671875,
+        "left": 17
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 17,
+        "y": -44.375,
+        "width": 341,
+        "height": 465.546875,
+        "top": -44.375,
+        "right": 358,
+        "bottom": 421.171875,
+        "left": 17
+      },
+      "right": {
+        "x": 17,
+        "y": 421.171875,
+        "width": 341,
+        "height": 623.5,
+        "top": 421.171875,
+        "right": 358,
+        "bottom": 1044.671875,
+        "left": 17
+      },
+      "iframe": {
+        "x": 17,
+        "y": 421.171875,
+        "width": 341,
+        "height": 580,
+        "top": 421.171875,
+        "right": 358,
+        "bottom": 1001.171875,
+        "left": 17
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 640,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 25,
+        "y": -58.828125,
+        "width": 590,
+        "height": 435.09375,
+        "top": -58.828125,
+        "right": 615,
+        "bottom": 376.265625,
+        "left": 25
+      },
+      "right": {
+        "x": 25,
+        "y": 376.265625,
+        "width": 590,
+        "height": 683.5,
+        "top": 376.265625,
+        "right": 615,
+        "bottom": 1059.765625,
+        "left": 25
+      },
+      "iframe": {
+        "x": 25,
+        "y": 376.265625,
+        "width": 590,
+        "height": 640,
+        "top": 376.265625,
+        "right": 615,
+        "bottom": 1016.265625,
+        "left": 25
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 33,
+        "y": -59.296875,
+        "width": 754,
+        "height": 435.09375,
+        "top": -59.296875,
+        "right": 787,
+        "bottom": 375.796875,
+        "left": 33
+      },
+      "right": {
+        "x": 33,
+        "y": 375.796875,
+        "width": 754,
+        "height": 683.5,
+        "top": 375.796875,
+        "right": 787,
+        "bottom": 1059.296875,
+        "left": 33
+      },
+      "iframe": {
+        "x": 33,
+        "y": 375.796875,
+        "width": 754,
+        "height": 640,
+        "top": 375.796875,
+        "right": 787,
+        "bottom": 1015.796875,
+        "left": 33
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 41,
+        "y": 148.640625,
+        "width": 314,
+        "height": 703.5,
+        "top": 148.640625,
+        "right": 355,
+        "bottom": 852.140625,
+        "left": 41
+      },
+      "right": {
+        "x": 355,
+        "y": 148.640625,
+        "width": 628,
+        "height": 703.5,
+        "top": 148.640625,
+        "right": 983,
+        "bottom": 852.140625,
+        "left": 355
+      },
+      "iframe": {
+        "x": 355,
+        "y": 148.640625,
+        "width": 628,
+        "height": 660,
+        "top": 148.640625,
+        "right": 983,
+        "bottom": 808.640625,
+        "left": 355
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 49,
+        "y": 148.53125,
+        "width": 422.65625,
+        "height": 703.5,
+        "top": 148.53125,
+        "right": 471.65625,
+        "bottom": 852.03125,
+        "left": 49
+      },
+      "right": {
+        "x": 471.65625,
+        "y": 148.53125,
+        "width": 845.34375,
+        "height": 703.5,
+        "top": 148.53125,
+        "right": 1317,
+        "bottom": 852.03125,
+        "left": 471.65625
+      },
+      "iframe": {
+        "x": 471.65625,
+        "y": 148.53125,
+        "width": 845.34375,
+        "height": 660,
+        "top": 148.53125,
+        "right": 1317,
+        "bottom": 808.53125,
+        "left": 471.65625
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "background": "rgb(0, 0, 0)",
+      "left": {
+        "x": 209,
+        "y": 147.90625,
+        "width": 500.65625,
+        "height": 703.5,
+        "top": 147.90625,
+        "right": 709.65625,
+        "bottom": 851.40625,
+        "left": 209
+      },
+      "right": {
+        "x": 709.65625,
+        "y": 147.90625,
+        "width": 1001.34375,
+        "height": 703.5,
+        "top": 147.90625,
+        "right": 1711,
+        "bottom": 851.40625,
+        "left": 709.65625
+      },
+      "iframe": {
+        "x": 709.65625,
+        "y": 147.90625,
+        "width": 1001.34375,
+        "height": 660,
+        "top": 147.90625,
+        "right": 1711,
+        "bottom": 807.90625,
+        "left": 709.65625
+      },
+      "source": "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline",
+      "overflow": false,
+      "pass": true
+    },
+    {
+      "actualThirdParty": true,
+      "width": 1024,
+      "calendarDates": 30,
+      "loaded": true,
+      "headings": [
+        "30 Minute Discovery Call",
+        "Select a Day",
+        "Privacy Preference Center",
+        " Manage Consent Preferences",
+        "Cookie List"
+      ]
+    },
+    {
+      "actualThirdParty": true,
+      "width": 1920,
+      "calendarDates": 30,
+      "loaded": true,
+      "headings": [
+        "30 Minute Discovery Call",
+        "Select a Date & Time",
+        "Privacy Preference Center",
+        " Manage Consent Preferences",
+        "Cookie List"
+      ]
+    },
+    {
+      "keyboardLoadFallback": true,
+      "pass": true
+    }
+  ]
+}

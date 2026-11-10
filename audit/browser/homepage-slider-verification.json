@@ -1,0 +1,96 @@
+{
+  "base": "https://inceptives-homepage-review-ldes0h6e5.vercel.app",
+  "results": [
+    {
+      "width": 375,
+      "slides": 8,
+      "uniqueTitles": [
+        "DPS Airem",
+        "Pulse Check",
+        "WordSmith",
+        "State of the art chiropractic",
+        "Family Entertainment Group",
+        "StakBread",
+        "My Tango Event",
+        "Pets B4 Profit"
+      ],
+      "imagesLoaded": true,
+      "navigationWraps": true,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "slides": 8,
+      "uniqueTitles": [
+        "DPS Airem",
+        "Pulse Check",
+        "WordSmith",
+        "State of the art chiropractic",
+        "Family Entertainment Group",
+        "StakBread",
+        "My Tango Event",
+        "Pets B4 Profit"
+      ],
+      "imagesLoaded": true,
+      "navigationWraps": true,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "slides": 8,
+      "uniqueTitles": [
+        "DPS Airem",
+        "Pulse Check",
+        "WordSmith",
+        "State of the art chiropractic",
+        "Family Entertainment Group",
+        "StakBread",
+        "My Tango Event",
+        "Pets B4 Profit"
+      ],
+      "imagesLoaded": true,
+      "navigationWraps": true,
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "slides": 8,
+      "uniqueTitles": [
+        "DPS Airem",
+        "Pulse Check",
+        "WordSmith",
+        "State of the art chiropractic",
+        "Family Entertainment Group",
+        "StakBread",
+        "My Tango Event",
+        "Pets B4 Profit"
+      ],
+      "imagesLoaded": true,
+      "navigationWraps": true,
+      "pass": true
+    },
+    {
+      "path": "/blockchain-development",
+      "otherPageContentUnchanged": true,
+      "homepageComponentAbsent": true,
+      "pass": true
+    },
+    {
+      "path": "/ios-app-development",
+      "otherPageContentUnchanged": true,
+      "homepageComponentAbsent": true,
+      "pass": true
+    },
+    {
+      "path": "/blog",
+      "outsideLivePostListingUnchanged": true,
+      "homepageComponentAbsent": true,
+      "pass": true
+    },
+    {
+      "smoothScroll": true,
+      "reducedMotionRespected": true,
+      "pass": true
+    }
+  ]
+}
