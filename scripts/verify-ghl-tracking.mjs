@@ -3,7 +3,13 @@ import assert from 'node:assert/strict';
 import {chromium} from '@playwright/test';
 const local=process.argv[2]||'http://localhost:3100';
 const host='https://inceptives-homepage-review.vercel.app';
-const sdk=fs.readFileSync('audit/ghl-external-tracking.js','utf8');
+const sdkPath='audit/ghl-external-tracking.js';
+if(!fs.existsSync(sdkPath)){
+ const response=await fetch('https://clients.inceptivesdigital.com/js/external-tracking.js',{signal:AbortSignal.timeout(20000)});
+ assert.equal(response.status,200,'Official public GHL SDK available');
+ fs.mkdirSync('audit',{recursive:true});fs.writeFileSync(sdkPath,await response.text());
+}
+const sdk=fs.readFileSync(sdkPath,'utf8');
 const browser=await chromium.launch();
 const evidence=[];
 try{
@@ -44,7 +50,7 @@ try{
  assert.ok(JSON.stringify(submission).includes('utm_source=migration-qa'));assert.ok(JSON.stringify(submission).includes('qa-not-a-real-ad-click'));
  assert.ok(!Object.keys(submission.formData).some(k=>/consent|terms|field_37e8e1c|field_6c96fc9/.test(k)));
  assert.ok(submission.sessionId,'Native attribution session');assert.equal(errors.length,0,errors.join('\n'));
- evidence.push({check:'Real vendor SDK; invalid and backend-failed attempts excluded; one confirmed capture before thank-you; native attribution and no opt-in fields',formId:submission.formId,sessionPresent:true,pass:true,transport:'WordPress and GHL POST endpoints mocked; no real CRM record/email'});
+ evidence.push({check:'Real vendor SDK; invalid/backend-failed attempts excluded; GHL outage retains fields; CRM-only retry avoids duplicate WordPress delivery; acknowledgement precedes thank-you; attribution and no opt-in',formId:submission.formId,sessionPresent:true,pass:true,transport:'WordPress and GHL POST endpoints mocked; no real CRM record/email'});
  fs.mkdirSync('audit/ghl-tests',{recursive:true});fs.writeFileSync('audit/ghl-tests/native-payload.json',JSON.stringify(submission,null,2));
  await context.unrouteAll({behavior:"wait"});await context.close();
  for(const [path,id] of [
@@ -59,7 +65,7 @@ try{
   await ctx.route('https://challenges.cloudflare.com/**',r=>r.abort());
   await ctx.route('https://clients.inceptivesdigital.com/js/external-tracking.js',r=>r.fulfill({body:sdk,contentType:'text/javascript'}));
   await ctx.route('https://backend.leadconnectorhq.com/**',async r=>{if(r.request().method()==='POST')captured.push(JSON.parse(r.request().postData()));await r.fulfill({json:{success:true},headers:{'access-control-allow-origin':'*','access-control-allow-methods':'POST,OPTIONS','access-control-allow-headers':'content-type'}})});
-  await ctx.route(host+'/**',async r=>{const u=new URL(r.request().url());if(u.pathname==='/api/forms'){deliveries++;return r.fulfill({json:{success:true,data:{message:'Accepted'}}})}if(u.pathname==='/api/ios-assessment'){deliveries++;return r.fulfill({json:{success:true,data:{result:{title:'Isolated QA result',body:'Test only',native:90,cross:60,reasons:['Test']},answers:{platform:'iPhone only',hardware:'No',performance:'High',timeline:'6+ months'},contact:{name:'Isolated QA',email:'migration-qa@example.invalid'}}}})}return r.fulfill({response:await r.fetch({url:local+u.pathname+u.search})})});
+  await ctx.route(host+'/**',async r=>{const u=new URL(r.request().url());if(u.pathname==='/api/forms'){deliveries++;return r.fulfill({json:{success:true,data:{message:'Accepted'}}})}if(u.pathname==='/api/ios-assessment'){deliveries++;return r.fulfill({json:{success:true,data:{result:{title:'Isolated QA result',body:'Test only',native:90,cross:60,reasons:['Test']},answers:{platform:'iPhone only',hardware:'No',performance:'High',timeline:'6+ months'},contact:{name:'Isolated QA',email:'migration-qa@example.invalid'}}}})}try{return await r.fulfill({response:await r.fetch({url:local+u.pathname+u.search,maxRetries:2})})}catch{await r.abort().catch(()=>{})}});
   const p=await ctx.newPage();await p.goto(host+path+'?utm_source=isolated-all-forms');await p.locator('html[data-ghl-tracking=ready]').waitFor();await p.locator('[data-interactions-ready=true]').waitFor();
   const f=p.locator('form#'+id);assert.equal(await f.count(),1,id+' unique');assert.equal(await f.getByText(/I consent to receive/).count(),0,id+' no consent');
   if(id==='website-staff-assessment'){
@@ -75,9 +81,10 @@ try{
    await f.locator('input[name=full_name]').fill('Isolated QA');await f.locator('input[name=email]').fill('migration-qa@example.invalid');await q.locator('.id-ios-send').click();
   }else await f.evaluate(el=>{for(const field of el.querySelectorAll('input,textarea')){if(field.type==='email')field.value='migration-qa@example.invalid';else if(field.type==='tel')field.value='2025550123';else if(['text','textarea'].includes(field.type))field.value='Isolated QA'}const t=document.createElement('input');t.type='hidden';t.name='cf-turnstile-response';t.value='isolated';el.append(t);el.dispatchEvent(new SubmitEvent('submit',{bubbles:true,cancelable:true}))});
   await p.waitForURL(host+'/thank-you');const submissions=captured.filter(e=>e.type==='external_form_submission');assert.equal(submissions.length,1,id);assert.equal(submissions[0].formId,id);assert.equal(deliveries,1);assert.ok(submissions[0].url.includes('utm_source=isolated-all-forms'));
+  if(id==='website-staff-assessment'){assert.equal(submissions[0].formData.team_developer_duration,'1-2');assert.ok(JSON.stringify(submissions[0].formData.team_roles).includes('developer'))}
+  if(id==='id-ios-form')for(const key of ['platform','hardware','performance','timeline','full_name','email'])assert.ok(submissions[0].formData[key],key+' retained in native CRM payload');
+  fs.writeFileSync('audit/ghl-tests/'+id+'.json',JSON.stringify(submissions[0],null,2));
   evidence.push({formId:id,pass:true,nativeSdk:true,transport:'Both destinations mocked; no real CRM record/email'});await ctx.unrouteAll({behavior:"wait"});await ctx.close();
  }
 }finally{await browser.close();fs.mkdirSync('audit/ghl-tests',{recursive:true});fs.writeFileSync('audit/ghl-tests/results.json',JSON.stringify(evidence,null,2))}
 console.log(JSON.stringify(evidence));
-
-

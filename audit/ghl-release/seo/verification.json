@@ -1,0 +1,88 @@
+{
+  "base": "https://inceptives-homepage-review-6sr8vbig3.vercel.app",
+  "evidence": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Inceptives Digital | Digital Product Studio",
+      "canonical": "https://inceptivesdigital.com",
+      "schedule": [
+        "Schedule Your Strategy Session",
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "title": "Tech Blog & Insights | Inceptives Digital",
+      "canonical": "https://inceptivesdigital.com/blog",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/blog/test",
+      "status": 200,
+      "title": "test - Inceptives Digital",
+      "canonical": "https://inceptivesdigital.com/blog/test",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/author/inceptivesdigital",
+      "status": 200,
+      "title": "inceptivesdigital, Author at Inceptives Digital",
+      "canonical": "https://inceptivesdigital.com/author/inceptivesdigital",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/category/mobile-game-development",
+      "status": 200,
+      "title": "Mobile Game Archives - Inceptives Digital",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/blog/mobile-app-monetization-strategies",
+      "status": 200,
+      "title": "Mobile App Monetization Strategies | Proven Revenue Models",
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-monetization-strategies",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/thank-you",
+      "status": 200,
+      "title": "Thank You - Inceptives Digital",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    },
+    {
+      "path": "/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "status": 200,
+      "title": "RightFirms Recognizes Inceptives Digital Among Top AI Companies for 2026",
+      "canonical": "https://inceptivesdigital.com/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "schedule": [
+        "Schedule a Meeting"
+      ],
+      "pass": true
+    }
+  ],
+  "redirects": 28,
+  "sitemapURLs": 230,
+  "robots": "User-Agent: *\nDisallow: /\n\n",
+  "missingStatus": 404
+}

@@ -1,0 +1,11 @@
+{
+  "deployment": "dpl_E6PRXtRvQnM29A43jsZu58yahEyy",
+  "runtimeCommit": "04bb862ca5edcae71a1ad65ef4fef31033f2ebf4",
+  "staging": "https://inceptives-homepage-review.vercel.app",
+  "rollback": "dpl_HnSXFGYZA7fzyGc8WkLGJDScbs2x",
+  "formTypes": 10,
+  "actualGhlQaRecords": 18,
+  "calendlyChanged": false,
+  "liveWordPressChanged": false,
+  "dnsChanged": false
+}

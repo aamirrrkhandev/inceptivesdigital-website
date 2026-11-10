@@ -1,6 +1,12 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_HnSXFGYZA7fzyGc8WkLGJDScbs2x, source commit cde84500b9e11653cead8e9c44ef4685b880daef).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_E6PRXtRvQnM29A43jsZu58yahEyy, runtime source commit 04bb862ca5edcae71a1ad65ef4fef31033f2ebf4).
+
+## GHL enquiry/assessment integration — 10 November 2026
+
+All ten enquiry/assessment types use the account's native GHL External Forms capture while retaining their interfaces. Consent controls were removed without asserting opt-in. Invalid/backend-failed attempts are excluded; confirmed GHL acknowledgement precedes completion; retry preserves values and avoids repeating an unchanged accepted WordPress delivery in the current mounted form. Staff roles/options and iOS answers are retained in native named fields. Calendly is explicitly unchanged; the user will provide its replacement link later.
+
+The deployed candidate passed the real vendor SDK tests for all ten types (both destinations mocked), 16 header/footer viewports, 21 restored-page render/interaction checks, eight representative SEO comparisons, 28 redirects and 230 sitemap entries. Eighteen actual GHL QA submissions were accepted and observed in Forms → Submissions → External Forms: ten initial types plus eight post-mapping checks. Six custom contact mappings and the optional iOS company mapping were corrected through GHL's staging-domain settings. The latest eight rows show the expected name/email; staff and iOS details include their answers, mapped company and attribution. Evidence is recorded in GHL_FORMS_INTEGRATION.md and audit/ghl-release. Real WordPress email delivery was mocked in this integration batch; no inbox claim is made. Rollback: dpl_HnSXFGYZA7fzyGc8WkLGJDScbs2x. Live WordPress, original Vercel and DNS remain unchanged.
 
 ## Approved SEO / blog synchronization release — 10 November 2026
 
@@ -17,7 +23,7 @@ Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_
 | /blog/test | Dynamic published WordPress post | Deployed 200; content/metadata included in inventory checks |
 | /thank-you | Confirmation route | Source metadata/schema/H2 restored; three responsive sizes and native enquiry redirects passed |
 
-Next authorized batch: connect all ten enquiry/assessment form types to the logged-in GHL location, preserve their designs, remove consent fields without asserting opt-in, and verify actual GHL Forms Submissions/attribution. Calendly inclusion is pending user clarification. No WordPress/original Vercel/DNS changes are authorized.
+GHL integration details and the remaining overall migration acceptance work are tracked separately below and in GHL_FORMS_INTEGRATION.md. No WordPress/original Vercel/DNS changes are authorized.
 
 The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
 

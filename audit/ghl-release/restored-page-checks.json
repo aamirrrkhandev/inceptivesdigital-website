@@ -1,0 +1,150 @@
+{
+  "base": "https://inceptives-homepage-review-6sr8vbig3.vercel.app",
+  "results": [
+    {
+      "path": "/web-development",
+      "width": 375,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/web-development",
+      "width": 768,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/web-development",
+      "width": 1366,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/web-development",
+      "width": 1920,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 375,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 768,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 1366,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 1920,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 375,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 768,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 1366,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 1920,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 375,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 768,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 1366,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 1920,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 375,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 768,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 1366,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 1920,
+      "pass": true,
+      "tabs": true,
+      "faq": true
+    },
+    {
+      "check": "Staff roles, required selections, contact details, failure retains form, success redirects",
+      "transport": "mocked; no email sent",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "forms": [
+    {
+      "formId": "website-contact-page-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-footer-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-popup-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-web-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-staff-augmentation-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-iot-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-virtual-reality-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-ar-app-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-staff-assessment",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "id-ios-form",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    }
+  ],
+  "destination": "Actual GHL External Forms; WordPress handler/scoring mocked in this isolated transport test; no WordPress test emails",
+  "dashboard": "18 actual QA records observed; latest eight post-mapping rows show expected name/email. iOS and staff answers, Organization, Email, Phone where present, URL and UTM source/medium verified in dashboard.",
+  "postMappingChecks": [
+    {
+      "formId": "website-web-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-staff-augmentation-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-iot-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-virtual-reality-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-ar-app-development-enquiry",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "website-staff-assessment",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    },
+    {
+      "formId": "id-ios-form",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    }
+  ],
+  "optionalCompanyCheck": [
+    {
+      "formId": "id-ios-form",
+      "pass": true,
+      "nativeSdk": true,
+      "transport": "Real native GHL delivery; WordPress handler mocked to avoid duplicate test email"
+    }
+  ],
+  "noWordPressEmailClaim": true
+}

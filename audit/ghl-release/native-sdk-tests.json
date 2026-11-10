@@ -1,0 +1,63 @@
+[
+  {
+    "check": "Real vendor SDK; invalid/backend-failed attempts excluded; GHL outage retains fields; CRM-only retry avoids duplicate WordPress delivery; acknowledgement precedes thank-you; attribution and no opt-in",
+    "formId": "website-contact-page-enquiry",
+    "sessionPresent": true,
+    "pass": true,
+    "transport": "WordPress and GHL POST endpoints mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-footer-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-popup-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-web-development-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-staff-augmentation-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-iot-development-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-virtual-reality-development-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-ar-app-development-enquiry",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "website-staff-assessment",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  },
+  {
+    "formId": "id-ios-form",
+    "pass": true,
+    "nativeSdk": true,
+    "transport": "Both destinations mocked; no real CRM record/email"
+  }
+]
