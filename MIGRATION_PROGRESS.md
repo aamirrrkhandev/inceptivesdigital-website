@@ -1,8 +1,14 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_7wqe8Dgq7Ryv9YmnP3PbEedc7nrU).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_Fz2H7wpiUm6VmJ792fspYz2rq2H4, source commit 2991be5).
 
-The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: full content, visual, SEO, accessibility, functionality, and performance verification remain incomplete. Forms currently validate in staging without sending leads. Ten original images in three posts remain unavailable. No production cutover is authorized.
+The user authorized all-page implementation after the homepage review. There are 241 implemented page/archive paths. Implementation does not mean acceptance: complete visual, accessibility, integration, social-metadata and performance acceptance remain incomplete. The iOS assessment uses the existing WordPress PHP handler; one authorized real test was accepted and produced a downloadable PDF. General contact forms now have native submission wiring, but CAPTCHA and actual inbox delivery remain unverified. Ten original images in three posts remain unavailable. No production cutover is authorized.
+
+## Current staging batch — responsive media
+
+Published only to the separate migration project on 10 November 2026. Desktop/tablet/mobile navigation fixes, expanded-menu scroll handling, image-fit overrides for 516 captured background rules across 241 routes, and the uncropped blockchain CTA layout are included. Original video files are now materialized as static assets at their preserved URLs, providing correct HTTP byte ranges and working hover playback on all three homepage cards. Exact body-class matching fixes the shared CSS prefix collision. Embedded HTML widget titles no longer create duplicate SEO titles; the iOS title matches the current live head title.
+
+Deployed checks passed: 241 HTTP/title/description/canonical/heading/schema/preview-robots checks, a real 404, 224 sitemap entries, 12 media checks including three actual hover playbacks and CTA fitting at eight widths, and 22 responsive navigation/scroll checks. The stable alias was switched only after the candidate passed. Source WordPress, the original Vercel project and the live domain were unchanged. See `STAGING_RELEASE_2026-11-10.md` for evidence and rollback.
 
 ## Latest CSS review
 
