@@ -116,8 +116,7 @@ export const getWordPressSitemapURLs = cache(async () => {
       approvedCanonical(post.yoast_head_json?.canonical || post.link)!,
     );
   }
-  // Preserve existing Yoast canonical URLs, including their slash convention.
-  // Align sitemap entries to those destinations rather than changing public canonicals.
+  // Keep Yoast destinations and apply the user's explicit no-trailing-slash convention.
   return [
     ...new Set(
       urls.map(

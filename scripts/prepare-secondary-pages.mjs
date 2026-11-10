@@ -53,6 +53,25 @@ const catalog = JSON.parse(
 const contact = JSON.parse(
   zlib.brotliDecompressSync(Buffer.from(catalog["/contact-us"].data, "base64")),
 );
+let currentOrganization;
+function findOrganization(value) {
+  if (!value || typeof value !== "object") return;
+  if (value["@type"] === "Organization") currentOrganization = value;
+  for (const item of Object.values(value)) {
+    if (Array.isArray(item)) item.forEach(findOrganization);
+    else if (item && typeof item === "object") findOrganization(item);
+  }
+}
+contact.meta.schema.forEach(findOrganization);
+if (!currentOrganization) throw Error("Current WordPress brand schema missing");
+function currentBrandSchema(value) {
+  if (Array.isArray(value)) return value.map(currentBrandSchema);
+  if (value && typeof value === "object") {
+    if (value["@type"] === "Organization") return { "@context": "https://schema.org", ...currentOrganization };
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, currentBrandSchema(item)]));
+  }
+  return value;
+}
 let footerForm;
 function find(n) {
   if (typeof n === "string") return;
@@ -400,6 +419,7 @@ for (const slug of slugs) {
       .get(),
     hreflang: [],
   };
+  meta.schema = currentBrandSchema(meta.schema);
   pages["/" + slug] = {
     sourceUrl: host + "/" + slug,
     meta,

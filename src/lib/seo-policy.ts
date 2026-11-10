@@ -16,7 +16,7 @@ export function approvedCanonical(value: string) {
   const url = new URL(value, "https://inceptivesdigital.com");
   if (url.origin !== "https://inceptivesdigital.com") return value;
   url.pathname =
-    canonicalOverrides[canonicalPath(url.pathname)] || url.pathname;
+    canonicalOverrides[canonicalPath(url.pathname)] || canonicalPath(url.pathname);
   return url.href;
 }
 
