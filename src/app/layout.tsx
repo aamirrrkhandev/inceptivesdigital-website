@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import "./site.css";
+import { indexingAllowed } from "@/lib/seo-policy";
 export const metadata: Metadata = {
   metadataBase: new URL("https://inceptivesdigital.com"),
-  robots: { index: false, follow: false },
+  robots: indexingAllowed
+    ? { index: true, follow: true }
+    : { index: false, follow: false },
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

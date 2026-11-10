@@ -101,7 +101,13 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
           "Please complete the security verification before sending your message.";
         return;
       }
-      payload.set("source_path", root.dataset.sourcePath || location.pathname);
+      payload.set(
+        "source_path",
+        form.dataset.sourcePath ||
+          root.dataset.formSourcePath ||
+          root.dataset.sourcePath ||
+          location.pathname,
+      );
       form.dataset.sending = "true";
       form.setAttribute("aria-busy", "true");
       const button = form.querySelector<HTMLButtonElement>(

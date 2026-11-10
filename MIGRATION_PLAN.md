@@ -11,3 +11,9 @@ User narrowed the active batch to the homepage. Build and publish it in a separa
 
 ## Later CMS decision
 Versioned structured content is appropriate for this review. For the full migration compare headless WordPress (familiar editing, ongoing WordPress maintenance), a dedicated headless CMS (structured editorial workflows, extra integration and possible cost), and repository content (simple deployment, developer-led editing). No CMS removal or paid service is authorized.
+# Approved batch: SEO parity and WordPress publishing (10 November 2026)
+
+Implement the reviewed redirect/canonical/sitemap, social metadata, heading and production indexing fixes. Refresh current blog, individual published posts and saved author/category archives on a 30-second request-driven cache interval, with saved-content fallback during upstream failures. Do not modify WordPress or install a webhook. Keep preview indexing blocked. Verify live source versus target, tab behavior, forms and responsive shell before updating the separate staging alias.
+
+User additionally approved restoring `/web-development`, `/staff-augmentation`, `/iot-development`, `/virtual-reality-development` and `/ar-app-development` from `https://inceptives.vercel.app/`, since their WordPress paths return 404. Preserve source copy/assets in structured section data, isolate their styles, reuse the current shared shell, rebuild interactive controls and route enquiries through the current WordPress contract. Leave `/startup-product-development` unchanged. Original Vercel project remains read-only.
+

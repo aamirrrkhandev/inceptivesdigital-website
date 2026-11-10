@@ -1,5 +1,13 @@
 # WordPress post synchronization
 
+## Approved refresh update — 10 November 2026
+
+Publish/edit blogs in WordPress as usual (Posts → Add New/Edit → Publish/Update). Retain existing published slugs unless a redirect is planned. Next.js reads the public published-post index, article HTML, featured images/alt text and Yoast metadata; no Git/Vercel push is needed for each post. Current author and category archives now refresh from the same live WordPress archive templates rather than their old snapshot. The sitemap merges live XML sitemap entries with published, indexable REST entries and approved restored service pages, with corrected canonical destinations.
+
+The refresh remains request-driven, normally about 30–60 seconds plus upstream/network refresh time. An already open browser tab needs navigation or refresh. There is no instant-publish webhook, WordPress plugin change or scheduled paid job. A brand-new permalink may initially return 404 until the published-post index refreshes. Existing content falls back to the saved migration snapshot if its source refresh fails. New post media stays at valid WordPress URLs when no local packed copy exists; no placeholder is substituted. Existing saved author/category archives are supported; adding a wholly new archive template requires separate validation.
+
+Staging stays noindex regardless of a copied indexing flag when VERCEL_ENV is preview. Production indexing requires ALLOW_INDEXING=true on an actual production environment and a new verified production build. No indexing flag was enabled. Before production cutover, the currently fixed WordPress source hostname must be moved/configured to a distinct backend origin in code; do not point the existing backend hostname at Next.js while it is still its own publishing/form source.
+
 WordPress remains the read-only publishing source for blog posts. Publishing a post no longer requires rebuilding the Next.js deployment. The previous snapshot-only routes rejected unknown slugs and the blog filters had no native event wiring.
 
 `src/lib/wordpress-content.ts` reads the public published-post REST index, current Yoast indexing/canonical directives, and published post templates. New or modified posts are converted into structured React layout nodes using the existing migrated article template and native article interactions. Scripts and inline event handlers from the source are excluded. Existing media use their packed/optimized counterparts; newly published media retain their public WordPress URLs, dimensions and alt text. A post without a featured image is rendered without a fabricated image.

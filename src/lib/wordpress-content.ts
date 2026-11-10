@@ -8,6 +8,7 @@ import { getPage, type LayoutNode, type SitePage } from "./site-model";
 import { mediaIndex } from "./static-media";
 import { readWordPressPublicPage } from "./wordpress-forms";
 import { prepareSourceDom } from "./source-enhancements";
+import { approvedCanonical } from "./seo-policy";
 
 const origin = "https://inceptivesdigital.com";
 const rename = (value: string) =>
@@ -16,7 +17,7 @@ const rename = (value: string) =>
     .replaceAll("elementskit", "sitekit");
 const read = unstable_cache(
   readWordPressPublicPage,
-  ["wordpress-public-content-v1"],
+  ["wordpress-public-content-v2"],
   { revalidate: 30, tags: ["wordpress-posts"] },
 );
 type PostIndex = {
@@ -67,8 +68,43 @@ export async function getWordPressSitemapPosts() {
     throw new Error("WordPress indexing directives unavailable");
   return posts
     .filter((post) => post.yoast_head_json?.robots?.index === "index")
-    .map((post) => post.yoast_head_json?.canonical || post.link);
+    .map((post) =>
+      approvedCanonical(post.yoast_head_json?.canonical || post.link)!,
+    )
+    .filter(Boolean);
 }
+
+export const getWordPressSitemapURLs = cache(async () => {
+  const visited = new Set<string>();
+  const urls: string[] = [];
+  async function visit(path: string) {
+    if (visited.has(path)) return;
+    visited.add(path);
+    if (visited.size > 40) throw new Error("Unexpected sitemap count");
+    const $ = cheerio.load(await read(path), { xmlMode: true });
+    if ($("sitemapindex").length) {
+      await Promise.all(
+        $("sitemap > loc")
+          .toArray()
+          .map(async (el) => {
+            const url = new URL($(el).text());
+            if (url.origin !== origin || !url.pathname.endsWith(".xml"))
+              throw new Error("Invalid sitemap host");
+            await visit(url.pathname);
+          }),
+      );
+    } else if ($("urlset").length) {
+      $("url > loc").each((_, el) => {
+        const url = new URL($(el).text());
+        if (url.origin === origin) urls.push(approvedCanonical(url.href)!);
+      });
+    } else throw new Error("Invalid WordPress sitemap");
+  }
+  await visit("/sitemap_index.xml");
+  urls.push(...(await getWordPressSitemapPosts()));
+  if (!urls.length) throw new Error("Empty WordPress sitemap");
+  return [...new Set(urls)];
+});
 
 function media(value: string) {
   try {
@@ -223,7 +259,7 @@ function refreshMetadata($: cheerio.CheerioAPI, page: SitePage) {
   page.meta = {
     title: $("head > title").text(),
     description: $("meta[name=description]").attr("content") || "",
-    canonical: $("link[rel=canonical]").attr("href") || origin + page.path,
+    canonical: $("link[rel=canonical]").attr("href") || "",
     robots: $("meta[name=robots]").attr("content") || "index, follow",
     metadata: $(
       "meta[property],meta[name^=twitter],meta[name=google-site-verification]",
@@ -425,21 +461,25 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
 export const getWordPressPage = cache(
   async (path: string, blogQuery = ""): Promise<SitePage | undefined> => {
     const saved = getPage(path);
-    if (path !== "/blog" && !/^\/blog\/[^/]+$/.test(path)) return saved;
+    const archive =
+      /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path) && !!saved;
+    const articlePath = /^\/(?:blog|press-release)\/[^/]+$/.test(path);
+    if (path !== "/blog" && !articlePath && !archive) return saved;
     try {
       const posts = await getPublishedPosts();
       const post =
-        path === "/blog"
+        path === "/blog" || archive
           ? undefined
           : posts.find(
               (post) => new URL(post.link).pathname.replace(/\/$/, "") === path,
             );
-      if (path !== "/blog" && !post) return undefined;
+      if (articlePath && !post) return undefined;
       const modified = saved?.meta.metadata.find(
         (meta) => meta.name === "article:modified_time",
       )?.content;
       if (
         saved &&
+        path !== "/blog/mobile-app-monetization-strategies" &&
         post &&
         modified &&
         Date.parse(post.modified_gmt + "Z") <= Date.parse(modified)
@@ -477,22 +517,28 @@ export const getWordPressPage = cache(
         articleInteractions: !!post,
       };
       refreshMetadata($, page);
-      const root = post
-        ? $("[data-elementor-type='single-post']").first()
-        : $("main#content").first();
+      const root = archive
+        ? $("[data-elementor-type='archive']").first()
+        : post
+          ? $("[data-elementor-type='single-post']").first()
+          : $("main#content").first();
       if (!root.length) throw new Error("WordPress content template missing");
-      if (!post) await updateBlogListing($, options);
+      if (path === "/blog") await updateBlogListing($, options);
       prepareSourceDom($, { key: page.key });
       appendSourceStyles($, root, page);
       const converted = convertDom($, root[0]);
       if (!converted) throw new Error("WordPress content conversion failed");
       page.nodes = page.nodes.map((node) =>
         typeof node !== "string" &&
-        (post
+        (archive
           ? String(node.props.className || "").includes(
-              "migrated-location-single",
+              "migrated-location-archive",
             )
-          : node.tag === "main" && node.props.id === "content")
+          : post
+            ? String(node.props.className || "").includes(
+                "migrated-location-single",
+              )
+            : node.tag === "main" && node.props.id === "content")
           ? converted
           : node,
       );
@@ -508,3 +554,10 @@ export const getWordPressPage = cache(
     }
   },
 );
+
+export const getWordPressThankYouMetadata = cache(async () => {
+  const template = getPage("/contact-us")!;
+  const page = { ...template, path: "/thank-you" };
+  refreshMetadata(cheerio.load(await read("/thank-you")), page);
+  return page.meta;
+});

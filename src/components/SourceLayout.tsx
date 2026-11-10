@@ -11,6 +11,8 @@ import CaseStudySliderComponent from "./casestudy-slider-component";
 import ScheduleMeetingSection from "./ScheduleMeetingSection";
 import BlogInteractions from "./BlogInteractions";
 import { prepareBlogListing } from "@/lib/blog-listing";
+import linkFixes from "../../content/approved-link-fixes.json";
+import { correctedSchema } from "@/lib/seo-policy";
 const voidElements = new Set([
   "area",
   "base",
@@ -26,16 +28,33 @@ const voidElements = new Set([
   "track",
   "wbr",
 ]);
-function renderNode(
+export function renderNode(
   node: LayoutNode,
   index: number,
   backgroundVideoSrc?: string,
   svgContext = false,
   homepageCaseStudySlider = false,
+  customRender?: (
+    node: Exclude<LayoutNode, string>,
+    index: number,
+  ) => ReactNode | undefined,
 ): ReactNode {
   if (typeof node === "string") return node;
+  const custom = customRender?.(node, index);
+  if (custom !== undefined) return custom;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (tag === "a" && typeof safeProps.href === "string") {
+    try {
+      const url = new URL(safeProps.href, "https://inceptivesdigital.com");
+      const destination =
+        url.origin === "https://inceptivesdigital.com" &&
+        (linkFixes as Record<string, string>)[url.pathname.replace(/\/$/, "")];
+      if (destination) safeProps.href = destination + url.search + url.hash;
+    } catch {
+      /* Keep invalid source links visible for auditing. */
+    }
+  }
   if (String(props["data-id-blog-listing"]) === "1") {
     return (
       <BlogInteractions
@@ -196,6 +215,7 @@ function renderNode(
             background,
             svgContext || tag === "svg",
             homepageCaseStudySlider,
+            customRender,
           ),
         ),
   );
@@ -204,10 +224,12 @@ export default function SourceLayout({
   page,
   mainContent,
   homepageCaseStudySlider = false,
+  formSourcePath,
 }: {
   page: SitePage;
   mainContent?: ReactNode;
   homepageCaseStudySlider?: boolean;
+  formSourcePath?: string;
 }) {
   const css = normalizeRootSelectors(
     page.css + ((backgroundFitRules as Record<string, string>)[page.key] || ""),
@@ -219,6 +241,7 @@ export default function SourceLayout({
     <div
       className={"migrated-page " + page.bodyClass}
       data-source-path={page.path}
+      data-form-source-path={formSourcePath}
     >
       <style>{css}</style>
       {page.nodes.map((node, i) =>
@@ -246,6 +269,9 @@ export default function SourceLayout({
           (m) =>
             !m.name.startsWith("og:") &&
             !m.name.startsWith("twitter:") &&
+            !["article:published_time", "article:modified_time"].includes(
+              m.name,
+            ) &&
             m.name !== "google-site-verification",
         )
         .map((m) => (
@@ -256,7 +282,10 @@ export default function SourceLayout({
           key={i}
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schema).replace(/</g, "\\u003c"),
+            __html: JSON.stringify(correctedSchema(schema)).replace(
+              /</g,
+              "\\u003c",
+            ),
           }}
         />
       ))}

@@ -11,7 +11,7 @@
   },
   {
     "source": "/blog/10-aso-strategies-to-increase-your-app-store-rankings",
-    "destination": "/blog/aso-strategies-to-increase-your-app-store-rankings/",
+    "destination": "/blog/aso-strategies-to-increase-your-app-store-rankings",
     "statusCode": 301
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "source": "/blog/5-cross-platform-frameworks-for-mobile-app-development",
-    "destination": "/blog/cross-platform-frameworks-for-mobile-app-development/",
+    "destination": "/blog/cross-platform-frameworks-for-mobile-app-development",
     "statusCode": 301
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "source": "/blog/10-healthcare-app-trends",
-    "destination": "/blog/healthcare-app-trends/",
+    "destination": "/blog/healthcare-app-trends",
     "statusCode": 301
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "source": "/blog/10-healthcare-app-startup-ideas",
-    "destination": "/blog/healthcare-app-startup-ideas/",
+    "destination": "/blog/healthcare-app-startup-ideas",
     "statusCode": 301
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "source": "/blog/10-common-mobile-app-development-mistakes",
-    "destination": "/blog/common-mobile-app-development-mistakes/",
+    "destination": "/blog/common-mobile-app-development-mistakes",
     "statusCode": 301
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "source": "/mobile-app-development-cost",
-    "destination": "/blog/mobile-app-development-cost/",
+    "destination": "/blog/mobile-app-development-cost",
     "statusCode": 301
   },
   {
@@ -107,6 +107,36 @@
   {
     "source": "/ai-chatbot-development",
     "destination": "/ai-chatbot-development-services",
+    "statusCode": 301
+  },
+  {
+    "source": "/blogs",
+    "destination": "/blog",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/artificial-intelligence-mvp-development",
+    "destination": "/blog/ai-mvp-development-guide",
+    "statusCode": 301
+  },
+  {
+    "source": "/system-integration-api-automation-services",
+    "destination": "/system-integration-api-automation",
+    "statusCode": 301
+  },
+  {
+    "source": "/business-process-automation-services",
+    "destination": "/business-process-automation",
+    "statusCode": 301
+  },
+  {
+    "source": "/web-app-development-company-inceptives-digital",
+    "destination": "/web-app-development-company",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/rightfirms-top-artificial-intelligence-company-2026",
+    "destination": "/press-release/rightfirms-top-artificial-intelligence-company-2026",
     "statusCode": 301
   }
 ]

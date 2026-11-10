@@ -52,7 +52,7 @@ export default function ScheduleMeetingSection() {
                   id="schedule-meeting-heading"
                   className="id-schedule-heading"
                 >
-                  Schedule a Meeting
+                  Schedule Your Strategy Session
                 </h2>
                 <p className="id-schedule-lead">
                   Book a convenient time to discuss your product idea, business
@@ -73,7 +73,7 @@ export default function ScheduleMeetingSection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="id-schedule-feature-title">30 Minutes</h3>
+                    <p className="id-schedule-feature-title">30 Minutes</p>
                     <p className="id-schedule-feature-subtitle">
                       Focused product consultation
                     </p>
@@ -88,9 +88,7 @@ export default function ScheduleMeetingSection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="id-schedule-feature-title">
-                      Online Meeting
-                    </h3>
+                    <p className="id-schedule-feature-title">Online Meeting</p>
                     <p className="id-schedule-feature-subtitle">
                       Meeting details provided after booking
                     </p>
@@ -110,9 +108,9 @@ export default function ScheduleMeetingSection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="id-schedule-feature-title">
+                    <p className="id-schedule-feature-title">
                       Product &amp; Technical Team
-                    </h3>
+                    </p>
                     <p className="id-schedule-feature-subtitle">
                       Discuss your project with our specialists
                     </p>

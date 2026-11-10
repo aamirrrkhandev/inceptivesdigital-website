@@ -1,13 +1,20 @@
 import { notFound } from "next/navigation";
 import routes from "../../../content/routes.json";
-import { getPage } from "@/lib/site-model";
+import { getWordPressPage } from "@/lib/wordpress-content";
 import { pageMetadata } from "@/lib/site-metadata";
 import SourceLayout from "@/components/SourceLayout";
-export const dynamicParams = false;
+import SecondaryServicePage, {
+  secondaryPages,
+} from "@/components/SecondaryServicePage";
+export const dynamicParams = true;
+export const revalidate = 30;
 export function generateStaticParams() {
-  return routes
-    .filter((r) => r.path !== "/" && !/^\/blog(?:\/[^/]+)?$/.test(r.path))
-    .map((r) => ({ slug: r.path.split("/").filter(Boolean) }));
+  return [
+    ...routes
+      .filter((r) => r.path !== "/" && !/^\/blog(?:\/[^/]+)?$/.test(r.path))
+      .map((r) => r.path),
+    ...Object.keys(secondaryPages),
+  ].map((path) => ({ slug: path.split("/").filter(Boolean) }));
 }
 export async function generateMetadata({
   params,
@@ -15,7 +22,13 @@ export async function generateMetadata({
   params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
-  const page = getPage("/" + slug.join("/"));
+  const restored = secondaryPages["/" + slug.join("/")];
+  if (restored)
+    return pageMetadata({
+      path: "/" + slug.join("/"),
+      meta: restored.meta,
+    } as import("@/lib/site-model").SitePage);
+  const page = await getWordPressPage("/" + slug.join("/"));
   if (!page) return {};
   return pageMetadata(page);
 }
@@ -25,7 +38,9 @@ export default async function Page({
   params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
-  const page = getPage("/" + slug.join("/"));
+  const path = "/" + slug.join("/");
+  if (secondaryPages[path]) return <SecondaryServicePage path={path} />;
+  const page = await getWordPressPage("/" + slug.join("/"));
   if (!page) notFound();
   return <SourceLayout page={page} />;
 }

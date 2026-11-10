@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import SourceLayout from "@/components/SourceLayout";
 import { getWordPressPage } from "@/lib/wordpress-content";
 import { pageMetadata } from "@/lib/site-metadata";
+import { indexingAllowed } from "@/lib/seo-policy";
+export const revalidate = 30;
 type Props = {
   searchParams: Promise<{
     pagination_page?: string;
@@ -29,7 +31,7 @@ export async function generateMetadata({ searchParams }: Props) {
   if (params.blog_cat || params.blog_search) {
     metadata.robots = {
       index: false,
-      follow: process.env.ALLOW_INDEXING === "true",
+      follow: indexingAllowed,
     };
     metadata.alternates = {
       ...metadata.alternates,

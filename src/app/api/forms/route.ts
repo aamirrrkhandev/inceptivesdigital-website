@@ -1,5 +1,6 @@
 import routes from "../../../../content/routes.json";
 import { loadFormContract, sendElementorForm } from "@/lib/wordpress-forms";
+import { getPublishedPosts } from "@/lib/wordpress-content";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -32,11 +33,21 @@ export async function POST(request: Request) {
   const path = String(data.get("source_path") || "");
   const formId = String(data.get("form_id") || "");
   const token = String(data.get("cf-turnstile-response") || "");
-  if (!paths.has(path) || !/^[a-zA-Z0-9_-]{1,64}$/.test(formId))
-    return reply("Unknown form.", 400);
+  if (!/^[a-zA-Z0-9_-]{1,64}$/.test(formId)) return reply("Unknown form.", 400);
   if (!token || token.length > 2048)
     return reply("Please complete the security verification.", 400);
   try {
+    if (!paths.has(path)) {
+      if (!/^\/(?:blog|press-release)\/[a-z0-9-]+$/.test(path))
+        return reply("Unknown form.", 400);
+      const posts = await getPublishedPosts();
+      if (
+        !posts.some(
+          (post) => new URL(post.link).pathname.replace(/\/$/, "") === path,
+        )
+      )
+        return reply("Unknown form.", 400);
+    }
     const contract = await loadFormContract(path, formId);
     if (!contract)
       return reply(
