@@ -1,5 +1,6 @@
 // Adapted from the current public iOS assessment; server scoring stays authoritative.
 import { isGhlReplay, recordGhlSubmission } from "../lib/ghl-tracking";
+import { captureCallRailSubmission } from "../lib/callrail";
 export function mountIOSAssessment() {
   const controller = new AbortController();
   let redirectTimer;
@@ -118,6 +119,7 @@ export function mountIOSAssessment() {
           accepted = { signature, out };
         }
         await recordGhlSubmission(form);
+        await captureCallRailSubmission(form);
         accepted = undefined;
         show(out.data);
       } catch (err) {

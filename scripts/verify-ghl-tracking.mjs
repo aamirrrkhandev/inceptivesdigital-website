@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {chromium} from '@playwright/test';
+import {installCallRailFixture,verifyCallRailCapture} from './callrail-fixture.mjs';
+const nativeCallRail=process.env.QA_CALLRAIL_NATIVE==='1';const callRailEvidence=[];
 const local=process.argv[2]||'http://localhost:3100';
 const host='https://inceptives-homepage-review.vercel.app';
 const sdkPath='audit/ghl-external-tracking.js';
@@ -16,6 +18,8 @@ try{
  const context=await browser.newContext({viewport:{width:1440,height:1000}});context.setDefaultTimeout(30000);
  await context.addInitScript(()=>{window.turnstile={render(el){const input=document.createElement('input');input.type='hidden';input.name='cf-turnstile-response';input.value='isolated-ui-test';el.append(input);return'test'},reset(){},remove(){}}});
  await context.route('https://challenges.cloudflare.com/**',r=>r.abort());
+ const callRail=nativeCallRail?await installCallRailFixture(context):undefined;
+ if(!nativeCallRail)await context.route('https://*.callrail.com/**',r=>r.abort());
  await context.route('https://clients.inceptivesdigital.com/js/external-tracking.js',r=>r.fulfill({body:sdk,contentType:'text/javascript'}));
  const events=[];let failBackend=true,failGhl=false,backendCalls=0,acceptedGhl=0;
  await context.route('https://backend.leadconnectorhq.com/**',async r=>{
@@ -32,6 +36,13 @@ try{
  await page.goto(host+'/contact-us?utm_source=migration-qa&utm_medium=integration-test&gclid=qa-not-a-real-ad-click');
  await page.locator('html[data-ghl-tracking=ready]').waitFor().catch(async error=>{fs.mkdirSync('audit/ghl-tests',{recursive:true});fs.writeFileSync('audit/ghl-tests/debug.json',JSON.stringify({url:page.url(),errors,consoleErrors,dom:await page.locator('html').getAttribute('data-ghl-tracking'),scripts:await page.locator('script[src]').evaluateAll(nodes=>nodes.map(n=>n.src))},null,2));throw error});
  const form=page.locator('#website-contact-page-enquiry');await form.scrollIntoViewIfNeeded();
+ if(nativeCallRail){
+  await page.waitForFunction(()=>[...document.querySelectorAll('a[href^="tel:"]')].filter(a=>a.getAttribute('href')?.replace(/\D/g,'')==='12025550199').length>=3);
+  const phones=await page.locator('a[href^="tel:"]').evaluateAll(ns=>ns.map(n=>({text:n.textContent,href:n.getAttribute('href')})));
+  assert.ok(phones.every(n=>!n.href.replace(/\D/g,'').endsWith('4697888527')),'Every business click target swaps, including empty icon links');
+  assert.equal(await page.locator('script#inceptives-callrail').count(),1,'One official snippet per document');
+  assert.equal(await form.getAttribute('data-cr-no-capture'),'','Automatic premature capture excluded');
+ }
  assert.equal(await form.locator('input[type=checkbox]').count(),0,'Removed consent controls');
  await form.locator('button[type=submit]').click();await page.waitForTimeout(200);
  assert.equal(backendCalls,0);assert.equal(events.filter(e=>e.type==='external_form_submission').length,0,'Invalid click must not count');
@@ -47,6 +58,7 @@ try{
  assert.equal(backendCalls,2,'GHL-only retry must not repeat successful WordPress delivery');assert.equal(acceptedGhl,1,'Exactly one accepted native GHL submission');
  const submissions=events.filter(e=>e.type==='external_form_submission');
  const submission=submissions.at(-1);assert.equal(submission.formId,'website-contact-page-enquiry');assert.ok(JSON.stringify(submission).includes('migration-qa@example.invalid'));
+ if(callRail)callRailEvidence.push(await verifyCallRailCapture(callRail,'website-contact-page-enquiry'));
  assert.ok(JSON.stringify(submission).includes('utm_source=migration-qa'));assert.ok(JSON.stringify(submission).includes('qa-not-a-real-ad-click'));
  assert.ok(!Object.keys(submission.formData).some(k=>/consent|terms|field_37e8e1c|field_6c96fc9/.test(k)));
  assert.ok(submission.sessionId,'Native attribution session');assert.equal(errors.length,0,errors.join('\n'));
@@ -63,6 +75,8 @@ try{
   const ctx=await browser.newContext();const captured=[];let deliveries=0;
   await ctx.addInitScript(()=>{window.turnstile={render(el){const input=document.createElement('input');input.type='hidden';input.name='cf-turnstile-response';input.value='isolated-ui-test';el.append(input);return'test'},reset(){},remove(){}}});
   await ctx.route('https://challenges.cloudflare.com/**',r=>r.abort());
+  const callRail=nativeCallRail?await installCallRailFixture(ctx):undefined;
+  if(!nativeCallRail)await ctx.route('https://*.callrail.com/**',r=>r.abort());
   await ctx.route('https://clients.inceptivesdigital.com/js/external-tracking.js',r=>r.fulfill({body:sdk,contentType:'text/javascript'}));
   await ctx.route('https://backend.leadconnectorhq.com/**',async r=>{if(r.request().method()==='POST')captured.push(JSON.parse(r.request().postData()));await r.fulfill({json:{success:true},headers:{'access-control-allow-origin':'*','access-control-allow-methods':'POST,OPTIONS','access-control-allow-headers':'content-type'}})});
   await ctx.route(host+'/**',async r=>{const u=new URL(r.request().url());if(u.pathname==='/api/forms'){deliveries++;return r.fulfill({json:{success:true,data:{message:'Accepted'}}})}if(u.pathname==='/api/ios-assessment'){deliveries++;return r.fulfill({json:{success:true,data:{result:{title:'Isolated QA result',body:'Test only',native:90,cross:60,reasons:['Test']},answers:{platform:'iPhone only',hardware:'No',performance:'High',timeline:'6+ months'},contact:{name:'Isolated QA',email:'migration-qa@example.invalid'}}}})}try{return await r.fulfill({response:await r.fetch({url:local+u.pathname+u.search,maxRetries:2})})}catch{await r.abort().catch(()=>{})}});
@@ -83,8 +97,9 @@ try{
   await p.waitForURL(host+'/thank-you');const submissions=captured.filter(e=>e.type==='external_form_submission');assert.equal(submissions.length,1,id);assert.equal(submissions[0].formId,id);assert.equal(deliveries,1);assert.ok(submissions[0].url.includes('utm_source=isolated-all-forms'));
   if(id==='website-staff-assessment'){assert.equal(submissions[0].formData.team_developer_duration,'1-2');assert.ok(JSON.stringify(submissions[0].formData.team_roles).includes('developer'))}
   if(id==='id-ios-form')for(const key of ['platform','hardware','performance','timeline','full_name','email'])assert.ok(submissions[0].formData[key],key+' retained in native CRM payload');
+  if(callRail)callRailEvidence.push(await verifyCallRailCapture(callRail,id));
   fs.writeFileSync('audit/ghl-tests/'+id+'.json',JSON.stringify(submissions[0],null,2));
   evidence.push({formId:id,pass:true,nativeSdk:true,transport:'Both destinations mocked; no real CRM record/email'});await ctx.unrouteAll({behavior:"wait"});await ctx.close();
  }
-}finally{await browser.close();fs.mkdirSync('audit/ghl-tests',{recursive:true});fs.writeFileSync('audit/ghl-tests/results.json',JSON.stringify(evidence,null,2))}
+}finally{await browser.close();fs.mkdirSync('audit/ghl-tests',{recursive:true});fs.writeFileSync('audit/ghl-tests/results.json',JSON.stringify(evidence,null,2));if(nativeCallRail)fs.writeFileSync('audit/callrail-cloudflare/sdk-tests.json',JSON.stringify(callRailEvidence,null,2))}
 console.log(JSON.stringify(evidence));

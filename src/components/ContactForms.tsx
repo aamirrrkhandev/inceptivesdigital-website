@@ -1,36 +1,9 @@
 "use client";
 import { useEffect } from "react";
 import { isGhlReplay, recordGhlSubmission } from "@/lib/ghl-tracking";
+import { captureCallRailSubmission } from "@/lib/callrail";
+import { createTurnstileProtection } from "@/lib/turnstile";
 
-type Turnstile = {
-  render: (container: HTMLElement, options: Record<string, unknown>) => string;
-  remove: (id: string) => void;
-  reset: (id: string) => void;
-};
-declare global {
-  interface Window {
-    turnstile?: Turnstile;
-  }
-}
-let scriptReady: Promise<void> | undefined;
-function loadTurnstile() {
-  if (window.turnstile) return Promise.resolve();
-  if (!scriptReady)
-    scriptReady = new Promise<void>((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src =
-        "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
-      script.async = true;
-      script.onload = () => resolve();
-      script.onerror = () => {
-        scriptReady = undefined;
-        script.remove();
-        reject(new Error("Verification unavailable"));
-      };
-      document.head.append(script);
-    });
-  return scriptReady;
-}
 const text = (value: unknown) =>
   new DOMParser().parseFromString(String(value || ""), "text/html").body
     .textContent || "";
@@ -40,47 +13,7 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
     const root = document.querySelector<HTMLElement>(".migrated-page");
     if (!root) return;
     let disposed = false;
-    const widgets = new Map<HTMLElement, string>();
-    const pending = new Set<HTMLElement>();
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries)
-          if (entry.isIntersecting) {
-            const container = entry.target as HTMLElement;
-            if (widgets.has(container) || pending.has(container)) continue;
-            pending.add(container);
-            loadTurnstile()
-              .then(() => {
-                if (disposed || !window.turnstile) return;
-                widgets.set(
-                  container,
-                  window.turnstile.render(container, {
-                    sitekey: container.dataset.sitekey,
-                    theme: container.dataset.theme || "auto",
-                    size: "normal",
-                    appearance: "always",
-                    action: "elementor-form",
-                    "error-callback": (code: string) => {
-                      container.dataset.verificationError = code;
-                    },
-                    callback: () => {
-                      delete container.dataset.verificationError;
-                    },
-                  }),
-                );
-                observer.unobserve(container);
-              })
-              .catch(() => {
-                container.dataset.verificationError = "unavailable";
-              })
-              .finally(() => pending.delete(container));
-          }
-      },
-      { rootMargin: "300px" },
-    );
-    root
-      .querySelectorAll<HTMLElement>("[data-contact-verification]")
-      .forEach((container) => observer.observe(container));
+    const protection = createTurnstileProtection(root);
     const controllers = new Set<AbortController>();
     const delivered = new WeakMap<HTMLFormElement, string>();
     const submit = async (event: SubmitEvent) => {
@@ -105,6 +38,7 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         ),
       );
       if (!payload.get("cf-turnstile-response")) {
+        protection.ensure(form);
         status.className = "migrated-message migrated-message-danger";
         status.textContent =
           "Please complete the security verification before sending your message.";
@@ -147,6 +81,7 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         }
         status.textContent = "Recording your enquiry…";
         await recordGhlSubmission(form);
+        await captureCallRailSubmission(form);
         delivered.delete(form);
         status.className = "migrated-message migrated-message-success";
         status.textContent =
@@ -168,21 +103,16 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
           delete form.dataset.sending;
           form.removeAttribute("aria-busy");
           if (button) button.disabled = false;
-          const container = form.querySelector<HTMLElement>(
-            "[data-contact-verification]",
-          );
-          const id = container && widgets.get(container);
-          if (id) window.turnstile?.reset(id);
+          protection.reset(form);
         }
       }
     };
     root.addEventListener("submit", submit, true);
     return () => {
       disposed = true;
-      observer.disconnect();
+      protection.dispose();
       root.removeEventListener("submit", submit, true);
       controllers.forEach((controller) => controller.abort());
-      widgets.forEach((id) => window.turnstile?.remove(id));
     };
   }, [pageKey]);
   return null;

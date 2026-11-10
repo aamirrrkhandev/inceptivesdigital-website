@@ -50,8 +50,31 @@ export function renderNode(
   if (custom !== undefined) return custom;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  // Capture confirmed leads explicitly; never capture search/invalid attempts.
+  if (tag === "form") safeProps["data-cr-no-capture"] = "";
+  if (
+    tag === "a" &&
+    typeof safeProps.href === "string" &&
+    safeProps.href.startsWith("tel:")
+  ) {
+    try {
+      const digits = decodeURIComponent(safeProps.href.slice(4)).replace(
+        /\D/g,
+        "",
+      );
+      // Percent-encoded source hrefs prevent the vendor from swapping click targets.
+      if (["4697888527", "14697888527"].includes(digits))
+        safeProps.href = "tel:+14697888527";
+    } catch {
+      /* Keep any unrelated/invalid source phone link intact. */
+    }
+  }
   if (tag === "form" && !safeProps.id) {
-    if (String(props.className || "").split(/\s+/).includes("id-ios-form"))
+    if (
+      String(props.className || "")
+        .split(/\s+/)
+        .includes("id-ios-form")
+    )
       safeProps.id = "id-ios-form";
     const identifier = contactFormIdentifier(node);
     if (identifier && contactTrackingIds[identifier])
