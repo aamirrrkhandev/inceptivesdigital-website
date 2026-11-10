@@ -37,7 +37,9 @@
     ".next-parity/types/**/*.ts",
     ".next-parity/dev/types/**/*.ts",
     ".next-forms/types/**/*.ts",
-    ".next-forms/dev/types/**/*.ts"
+    ".next-forms/dev/types/**/*.ts",
+    ".next-home-review/types/**/*.ts",
+    ".next-home-review/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

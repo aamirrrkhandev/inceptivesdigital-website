@@ -7,6 +7,7 @@ import IOSAssessment from "./IOSAssessment";
 import { mediaIndex } from "@/lib/static-media";
 import backgroundFitRules from "../../content/background-fit-rules.json";
 import { normalizeRootSelectors } from "@/lib/selector-scope";
+import CaseStudySliderComponent from "./casestudy-slider-component";
 const voidElements = new Set([
   "area",
   "base",
@@ -27,10 +28,43 @@ function renderNode(
   index: number,
   backgroundVideoSrc?: string,
   svgContext = false,
+  homepageCaseStudySlider = false,
 ): ReactNode {
   if (typeof node === "string") return node;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (homepageCaseStudySlider && props["data-id"] === "151f972") {
+    const elements = children.filter(
+      (child): child is Exclude<LayoutNode, string> =>
+        typeof child !== "string",
+    );
+    const carousel = elements.find((child) =>
+      String(child.props.className || "")
+        .split(/\s+/)
+        .includes("e-n-carousel"),
+    );
+    const wrapper = carousel?.children.find(
+      (child): child is Exclude<LayoutNode, string> =>
+        typeof child !== "string" &&
+        String(child.props.className || "").includes("swiper-wrapper"),
+    );
+    const icon = (name: string) =>
+      elements
+        .find((child) => String(child.props.className || "").includes(name))
+        ?.children.map((child, i) => renderNode(child, i));
+    if (wrapper)
+      return (
+        <CaseStudySliderComponent
+          key={index}
+          wrapperProps={props}
+          slides={wrapper.children
+            .filter((child) => typeof child !== "string")
+            .map((slide, i) => renderNode(slide, i))}
+          previousIcon={icon("swiper-button-prev")}
+          nextIcon={icon("swiper-button-next")}
+        />
+      );
+  }
   if (tag === "title") {
     if (!svgContext) return null; // Embedded HTML widgets must not create a second page title.
     // React hoists title elements into document metadata; keep diagram text in SVG.
@@ -135,16 +169,24 @@ function renderNode(
     voidElements.has(tag)
       ? undefined
       : children.map((child, i) =>
-          renderNode(child, i, background, svgContext || tag === "svg"),
+          renderNode(
+            child,
+            i,
+            background,
+            svgContext || tag === "svg",
+            homepageCaseStudySlider,
+          ),
         ),
   );
 }
 export default function SourceLayout({
   page,
   mainContent,
+  homepageCaseStudySlider = false,
 }: {
   page: SitePage;
   mainContent?: ReactNode;
+  homepageCaseStudySlider?: boolean;
 }) {
   const css = normalizeRootSelectors(
     page.css + ((backgroundFitRules as Record<string, string>)[page.key] || ""),
@@ -161,7 +203,13 @@ export default function SourceLayout({
       {page.nodes.map((node, i) =>
         typeof node !== "string" && node.tag === "main" && mainContent
           ? mainContent
-          : renderNode(node, i),
+          : renderNode(
+              node,
+              i,
+              undefined,
+              false,
+              homepageCaseStudySlider && page.path === "/",
+            ),
       )}
       <SiteInteractions pageKey={page.key} />
       <ContactForms pageKey={page.key} />

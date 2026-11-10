@@ -5,5 +5,5 @@ export function generateMetadata() {
   return pageMetadata(getPage("/")!);
 }
 export default function Home() {
-  return <SourceLayout page={getPage("/")!} />;
+  return <SourceLayout page={getPage("/")!} homepageCaseStudySlider />;
 }

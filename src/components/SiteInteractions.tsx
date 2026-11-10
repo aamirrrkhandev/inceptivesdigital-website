@@ -295,7 +295,9 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       });
     });
     root
-      .querySelectorAll<HTMLElement>(".swiper,.swiper-container")
+      .querySelectorAll<HTMLElement>(
+        ".swiper:not([data-managed-carousel]),.swiper-container:not([data-managed-carousel])",
+      )
       .forEach((container) => {
         const wrapper = container.querySelector<HTMLElement>(
           ":scope > .swiper-wrapper",
