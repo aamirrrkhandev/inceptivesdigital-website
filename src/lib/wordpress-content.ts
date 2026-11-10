@@ -182,8 +182,8 @@ function convertDom($: cheerio.CheerioAPI, node: AnyNode): LayoutNode | null {
       props.style = styles;
       continue;
     }
-    if (name === "href") {
-      props.href = /^(?:javascript|vbscript):/i.test(value.trim())
+    if (name === "href" || name === "action") {
+      props[name] = /^(?:javascript|vbscript):/i.test(value.trim())
         ? "#"
         : localLink(value);
       continue;
