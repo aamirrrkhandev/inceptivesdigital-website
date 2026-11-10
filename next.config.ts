@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 import redirects from "./content/redirects.json";
 const config: NextConfig = {
+  distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
+  async rewrites() {
+    return [{ source: "/", has: [{ type: "query", key: "s", value: "(?<query>.*)" }], destination: "/search?s=:query" }];
+  },
   async redirects() {
     return redirects.map((r) => ({
       ...r,

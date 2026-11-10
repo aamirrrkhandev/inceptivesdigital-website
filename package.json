@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/prepare-large-assets.mjs && next build",
+    "build": "node scripts/split-content.mjs && node scripts/prepare-large-assets.mjs && node scripts/prepare-responsive-backgrounds.mjs && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },

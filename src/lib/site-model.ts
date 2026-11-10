@@ -2,6 +2,8 @@ import "server-only";
 import { readPackedFile } from "./packed-file";
 import zlib from "node:zlib";
 import { cache } from "react";
+import routes from "../../content/routes.json";
+const routeTitles = new Map(routes.map(route => [route.path, route.title]));
 export type LayoutNode =
   | string
   | { tag: string; props: Record<string, unknown>; children: LayoutNode[] };
@@ -23,6 +25,7 @@ export type SitePage = {
     hreflang: { lang: string; href: string }[];
   };
   widgets: string[];
+  articleInteractions?: boolean;
 };
 export const readCatalog = cache((): Record<string, { data: string }> =>
   JSON.parse(
@@ -40,9 +43,11 @@ export const getPage = cache((pathname: string): SitePage | undefined => {
     catalog[pathname.replace(/\/$/, "")] ||
     catalog[pathname + "/"];
   if (!entry) return;
-  return JSON.parse(
+  const page: SitePage = JSON.parse(
     zlib
       .brotliDecompressSync(Buffer.from(entry.data, "base64"))
       .toString("utf8"),
   );
+  page.meta.title = routeTitles.get(page.path) || page.meta.title;
+  return page;
 });

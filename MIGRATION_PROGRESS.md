@@ -6,6 +6,8 @@ The user authorized all-page implementation after the homepage review. There are
 
 ## Latest CSS review
 
+Local update, 10 November 2026: port 3100 now serves the verified current production build. The mobile drawer close bug passed 24 repeated cycles at four widths. The iOS assessment's five steps and retained selections passed mobile/tablet/desktop checks; error/retry, result display and PDF download passed with mocked submission responses. Fresh public-source radio contracts match. One explicitly authorized real assessment then returned HTTP 200 / success from the original WordPress PHP handler, rendered its actual recommendation and downloaded its branded PDF. Inbox delivery and independent PHP snippet migration remain pending. See `FORM_AND_MOBILE_MENU_REVIEW.md`. This local update has not been published to Vercel.
+
 The green banner panel position, desktop submenu overflow, mobile submenu expansion, and tablet heading overlap were corrected. The deployed preview passed 27 navigation checks at six widths and four homepage banner checks. The original 24.5MB video is served as a static file at its preserved URL. Live WordPress, the original Vercel project, and DNS were unchanged.
 
 ## Per-page acceptance tracker

@@ -1,7 +1,12 @@
 import { createElement, type ReactNode } from "react";
 import type { LayoutNode, SitePage } from "@/lib/site-model";
 import SiteInteractions from "./SiteInteractions";
+import ArticleInteractions from "./ArticleInteractions";
+import ContactForms from "./ContactForms";
+import IOSAssessment from "./IOSAssessment";
 import { mediaIndex } from "@/lib/static-media";
+import backgroundFitRules from "../../content/background-fit-rules.json";
+import { normalizeRootSelectors } from "@/lib/selector-scope";
 const voidElements = new Set([
   "area",
   "base",
@@ -17,18 +22,66 @@ const voidElements = new Set([
   "track",
   "wbr",
 ]);
-function LayoutElement({
-  node,
-  index,
-  backgroundVideoSrc,
-}: {
-  node: LayoutNode;
-  index: number;
-  backgroundVideoSrc?: string;
-}): ReactNode {
+function renderNode(
+  node: LayoutNode,
+  index: number,
+  backgroundVideoSrc?: string,
+  svgContext = false,
+): ReactNode {
   if (typeof node === "string") return node;
   const { tag, props, children } = node;
   const safeProps: Record<string, unknown> = { ...props, key: index };
+  if (svgContext && tag === "title") {
+    // React hoists title elements into document metadata; keep diagram text in SVG.
+    return createElement(
+      "desc",
+      safeProps,
+      children.filter((child) => typeof child === "string").join(""),
+    );
+  }
+  if (tag === "svg" && !props["aria-hidden"]) {
+    const title = children.find(
+      (child) => typeof child !== "string" && child.tag === "title",
+    );
+    if (
+      title &&
+      typeof title !== "string" &&
+      !props["aria-label"] &&
+      !props["aria-labelledby"]
+    ) {
+      safeProps["aria-label"] = title.children
+        .filter((child) => typeof child === "string")
+        .join("");
+      safeProps.role = props.role || "img";
+    }
+  }
+  if (
+    tag === "button" &&
+    String(props.className || "")
+      .split(/\s+/)
+      .includes("sitekit-menu-close")
+  ) {
+    safeProps["aria-label"] = "Close menu";
+    return createElement(
+      "button",
+      safeProps,
+      createElement(
+        "svg",
+        {
+          viewBox: "0 0 24 24",
+          width: 24,
+          height: 24,
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: 2,
+          strokeLinecap: "round",
+          "aria-hidden": true,
+          focusable: false,
+        },
+        createElement("path", { d: "M6 6l12 12M18 6L6 18" }),
+      ),
+    );
+  }
   const background = String(
     props["data-background-video"] || backgroundVideoSrc || "",
   );
@@ -80,18 +133,22 @@ function LayoutElement({
     safeProps,
     voidElements.has(tag)
       ? undefined
-      : children.map((child, i) => (
-          <LayoutElement
-            node={child}
-            index={i}
-            backgroundVideoSrc={background}
-            key={i}
-          />
-        )),
+      : children.map((child, i) =>
+          renderNode(child, i, background, svgContext || tag === "svg"),
+        ),
   );
 }
-export default function SourceLayout({ page }: { page: SitePage }) {
-  const css = page.css.replace(/url\("([^\"]+)"\)/g, (all, url) =>
+export default function SourceLayout({
+  page,
+  mainContent,
+}: {
+  page: SitePage;
+  mainContent?: ReactNode;
+}) {
+  const css = normalizeRootSelectors(
+    page.css + ((backgroundFitRules as Record<string, string>)[page.key] || ""),
+    page.bodyClass,
+  ).replace(/url\("([^\"]+)"\)/g, (all, url) =>
     mediaIndex[url]?.optimized ? `url("${mediaIndex[url].optimized}")` : all,
   );
   return (
@@ -100,10 +157,20 @@ export default function SourceLayout({ page }: { page: SitePage }) {
       data-source-path={page.path}
     >
       <style>{css}</style>
-      {page.nodes.map((node, i) => (
-        <LayoutElement node={node} index={i} key={i} />
-      ))}
+      {page.nodes.map((node, i) =>
+        typeof node !== "string" && node.tag === "main" && mainContent
+          ? mainContent
+          : renderNode(node, i),
+      )}
       <SiteInteractions pageKey={page.key} />
+      <ContactForms pageKey={page.key} />
+      {page.path === "/ios-app-development" && <IOSAssessment />}
+      {page.articleInteractions && (
+        <ArticleInteractions
+          canonical={page.meta.canonical}
+          title={page.meta.title}
+        />
+      )}
       {page.meta.metadata
         .filter(
           (m) =>

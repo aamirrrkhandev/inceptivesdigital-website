@@ -3,7 +3,8 @@ const index=JSON.parse(fs.readFileSync('content/media-index.json'));
 const mapping=JSON.parse(fs.readFileSync('content/file-parts.json'));
 const publicRoot=path.resolve('public');
 for(const [url,entry] of Object.entries(index)){
- if(entry.size<=20_000_000)continue;
+ // Static files support byte ranges; video seeking/demuxing cannot use prerendered route bodies.
+ if(entry.size<=20_000_000&&!entry.type.startsWith('video/'))continue;
  const file=`content/media/${entry.pack}.pack`;
  const bytes=Buffer.concat((mapping[file]||[file]).map(part=>fs.readFileSync(part))).subarray(entry.offset,entry.offset+entry.size);
  if(bytes.length!==entry.size)throw Error('Incomplete original asset: '+url);

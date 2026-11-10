@@ -8,6 +8,17 @@ body {
   background: #000;
   color: #fff;
 }
+html {
+  overflow-x: clip;
+  overflow-y: auto;
+}
+body {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+html.migration-mobile-menu-open {
+  overflow: hidden !important;
+}
 button,
 input,
 textarea,
@@ -26,6 +37,89 @@ summary {
 .migrated-page {
   min-height: 100vh;
 }
+.migrated-page[data-source-path] {
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+.migrated-page[data-source-path] .e-con,
+.migrated-page[data-source-path] .e-con::before,
+.migrated-page[data-source-path] .e-con::after,
+.migrated-page[data-source-path] .migrated-background-overlay {
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.migrated-page[data-source-path] .migrated-widget-image img {
+  object-fit: contain !important;
+  max-width: 100%;
+}
+.migrated-page[data-source-path] [data-id="7c5c4519"],
+.migrated-page[data-source-path] [data-id="7c5c4519"] > .e-con-inner,
+.migrated-page[data-source-path] [data-id="11a916a2"],
+.migrated-page[data-source-path] [data-id="186fb7f2"] {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+.migrated-page[data-source-path] [data-id="186fb7f2"] img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-width: 492px;
+  margin-inline: auto;
+}
+@media (max-width: 1024px) {
+  .migrated-page[data-source-path] [data-id="7c5c4519"] > .e-con-inner {
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding-bottom: 30px;
+  }
+  .migrated-page[data-source-path] [data-id="7c5c4519"] .e-con {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .migrated-page[data-source-path] [data-id="30c6eba6"],
+  .migrated-page[data-source-path] [data-id="11a916a2"] {
+    width: 100% !important;
+  }
+  .migrated-page[data-source-path] [data-id="186fb7f2"] {
+    width: 100% !important;
+    max-width: 492px;
+    align-self: center;
+  }
+}
+.migrated-page[data-source-path] .sitekit-menu-close {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 8px !important;
+  background: transparent !important;
+  color: #fff !important;
+  border: 1px solid #ffffff66 !important;
+  border-radius: 6px !important;
+  cursor: pointer;
+}
+.migrated-page[data-source-path] .sitekit-menu-close:hover {
+  color: #00ce44 !important;
+  border-color: currentColor !important;
+}
+.migrated-page[data-source-path] .sitekit-menu-close svg {
+  display: block;
+  flex: none;
+}
+@media (max-width: 1024px) {
+  .migrated-page[data-source-path] .sitekit-submenu-indicator {
+    width: 18px !important;
+    height: 18px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    fill: currentColor;
+    flex-shrink: 0;
+  }
+}
 .migrated-page .migrated-invisible {
   visibility: visible !important;
 }
@@ -40,6 +134,12 @@ summary {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.migrated-page .home-container-sty:focus-within::before {
+  opacity: 0;
+}
+.migrated-page .home-container-sty:focus-within .homecard-bottom {
+  transform: translateY(0);
 }
 .migrated-page .swiper {
   overflow: hidden;
@@ -96,6 +196,35 @@ summary {
   pointer-events: none !important;
 }
 @media (max-width: 1024px) {
+  .migrated-page[data-source-path] .sitekit-menu-container {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    max-height: 100dvh !important;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+  }
+  .migrated-page[data-source-path] .sitekit-menu-container::-webkit-scrollbar {
+    display: none;
+  }
+  .migrated-page[data-source-path] .sitekit-menu-container .sitekit-navbar-nav {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  .migrated-page[data-source-path]
+    .sitekit-menu-container
+    .sitekit-megamenu-panel {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  .migrated-page[data-source-path] .sitekit-megamenu-panel .e-con {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
   .migrated-page .sitekit-menu-container.active {
     overflow-y: auto !important;
     max-height: 100dvh;

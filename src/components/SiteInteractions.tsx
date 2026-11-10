@@ -6,10 +6,19 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
     if (!root) return;
     const cleanups: (() => void)[] = [];
     const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const menuItems = [...root.querySelectorAll<HTMLElement>(".sitekit-megamenu-has")];
+    const menuItems = [
+      ...root.querySelectorAll<HTMLElement>(".sitekit-megamenu-has"),
+    ];
     const alignMenus = () => {
+      document.documentElement.classList.toggle(
+        "migration-mobile-menu-open",
+        innerWidth < 1025 &&
+          !!root.querySelector(".sitekit-menu-container.active"),
+      );
       menuItems.forEach((item) => {
-        const panel = item.querySelector<HTMLElement>(":scope > .sitekit-megamenu-panel");
+        const panel = item.querySelector<HTMLElement>(
+          ":scope > .sitekit-megamenu-panel",
+        );
         if (!panel) return;
         if (innerWidth < 1025) {
           panel.style.removeProperty("left");
@@ -17,8 +26,16 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           return;
         }
         const parent = panel.offsetParent as HTMLElement | null;
-        panel.style.setProperty("left", `${-(parent?.getBoundingClientRect().left || 0)}px`, "important");
-        panel.style.setProperty("width", `${document.documentElement.clientWidth}px`, "important");
+        panel.style.setProperty(
+          "left",
+          `${-(parent?.getBoundingClientRect().left || 0)}px`,
+          "important",
+        );
+        panel.style.setProperty(
+          "width",
+          `${document.documentElement.clientWidth}px`,
+          "important",
+        );
       });
     };
     const menuResize = new ResizeObserver(alignMenus);
@@ -35,17 +52,31 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         item.classList.remove("migration-menu-open");
         link.setAttribute("aria-expanded", "false");
       };
-      const enter = () => { if (innerWidth >= 1025) open(); };
-      const leave = () => { if (innerWidth >= 1025 && !item.contains(document.activeElement)) close(); };
-      const focus = () => { if (innerWidth >= 1025) open(); };
-      const blur = (e: FocusEvent) => { if (!item.contains(e.relatedTarget as Node)) close(); };
+      const enter = () => {
+        if (innerWidth >= 1025) open();
+      };
+      const leave = () => {
+        if (innerWidth >= 1025 && !item.contains(document.activeElement))
+          close();
+      };
+      const focus = () => {
+        if (innerWidth >= 1025) open();
+      };
+      const blur = (e: FocusEvent) => {
+        if (!item.contains(e.relatedTarget as Node)) close();
+      };
       const key = (e: KeyboardEvent) => {
         if (e.key === "ArrowDown" && e.target === link) {
-          e.preventDefault(); open();
-          item.querySelector<HTMLElement>(".sitekit-megamenu-panel a[href]")?.focus();
+          e.preventDefault();
+          open();
+          item
+            .querySelector<HTMLElement>(".sitekit-megamenu-panel a[href]")
+            ?.focus();
         }
         if (e.key === "Escape") {
-          e.preventDefault(); close(); link.focus();
+          e.preventDefault();
+          close();
+          link.focus();
           item.classList.add("migration-menu-dismissed");
           link.setAttribute("aria-expanded", "false");
         }
@@ -66,7 +97,10 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
     });
     alignMenus();
     window.addEventListener("resize", alignMenus);
-    cleanups.push(() => { menuResize.disconnect(); window.removeEventListener("resize", alignMenus); });
+    cleanups.push(() => {
+      menuResize.disconnect();
+      window.removeEventListener("resize", alignMenus);
+    });
     const backgroundObserver = new IntersectionObserver(
       (entries) =>
         entries.forEach((entry) => {
@@ -148,7 +182,8 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
                 "source[data-media-src]",
               ).forEach((s) => (s.src = s.dataset.mediaSrc || ""));
             el.load();
-            if (!reduced) void el.play().catch(() => {});
+            if (!reduced && !el.closest(".home-container-sty"))
+              void el.play().catch(() => {});
           }
           if (el instanceof HTMLIFrameElement) {
             el.src = el.dataset.embedSrc || "";
@@ -173,6 +208,30 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       .forEach((e) => mediaObserver.observe(e));
     cleanups.push(() => mediaObserver.disconnect());
     root
+      .querySelectorAll<HTMLElement>(".home-container-sty")
+      .forEach((card) => {
+        const video = card.querySelector<HTMLVideoElement>("video");
+        if (!video) return;
+        const play = () => {
+          if (!reduced) void video.play().catch(() => {});
+        };
+        const pause = () => {
+          if (!card.matches(":hover") && !card.contains(document.activeElement))
+            video.pause();
+        };
+        card.addEventListener("mouseenter", play);
+        card.addEventListener("focusin", play);
+        card.addEventListener("mouseleave", pause);
+        card.addEventListener("focusout", pause);
+        cleanups.push(() => {
+          card.removeEventListener("mouseenter", play);
+          card.removeEventListener("focusin", play);
+          card.removeEventListener("mouseleave", pause);
+          card.removeEventListener("focusout", pause);
+          video.pause();
+        });
+      });
+    root
       .querySelectorAll<HTMLElement>('[data-widget="counter.default"]')
       .forEach((el) => {
         const number = el.querySelector<HTMLElement>("[data-to-value]");
@@ -187,6 +246,9 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         tabs.forEach((t) => {
           const selected = t === tab;
           t.setAttribute("aria-selected", String(selected));
+          t.classList.toggle("activeicons-btn", selected);
+          if (t.closest(".tabsteck-logssect"))
+            t.classList.toggle("active", selected);
           t.tabIndex = selected ? 0 : -1;
           const panel = document.getElementById(
             t.getAttribute("aria-controls") || "",
@@ -326,6 +388,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       popup.hidden = false;
       popup.classList.add("active", "is-open", "migration-visible");
       popup.setAttribute("aria-hidden", "false");
+      document.body.classList.add("id-cp-lock");
       popup
         .querySelectorAll<HTMLIFrameElement>("iframe[data-embed-src]")
         .forEach((f) => {
@@ -343,20 +406,63 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           popup.setAttribute("aria-hidden", "true");
         }
       }
+      document.body.classList.remove("id-cp-lock");
       previousFocus?.focus();
     };
     const click = (e: MouseEvent) => {
       const target = e.target as Element;
+      if (
+        target.closest(".getintouch") &&
+        !target.closest("#id-contact-popup")
+      ) {
+        e.preventDefault();
+        openPopup("id-contact-popup");
+        return;
+      }
+      const card = target.closest<HTMLElement>("[data-cwa-index]");
+      if (card) {
+        const section = card.closest("[id^='cwa-']");
+        const selected = Number(card.dataset.cwaIndex);
+        section
+          ?.querySelectorAll<HTMLElement>("[data-cwa-index]")
+          .forEach((el, i) => {
+            el.classList.toggle("is-active", i === selected);
+            el.setAttribute("aria-pressed", String(i === selected));
+          });
+        section
+          ?.querySelectorAll<HTMLElement>("[data-cwa-content]")
+          .forEach((el, i) => {
+            el.hidden = i !== selected;
+          });
+        const number = section?.querySelector(".cwa-v2-number");
+        if (number) number.textContent = String(selected + 1).padStart(2, "0");
+      }
       const toggle = target.closest<HTMLElement>(".sitekit-menu-toggler");
       if (toggle) {
         e.preventDefault();
         const menu = root.querySelector<HTMLElement>(".sitekit-menu-container");
-        const expanded = toggle.getAttribute("aria-expanded") !== "true";
+        const expanded =
+          toggle.matches(".sitekit-menu-hamburger") &&
+          !menu?.classList.contains("active");
         root
           .querySelectorAll(".sitekit-menu-toggler")
           .forEach((t) => t.setAttribute("aria-expanded", String(expanded)));
         menu?.classList.toggle("active", expanded);
-        menu?.classList.toggle("sitekit-menu-offcanvas-elements", expanded);
+        document.documentElement.classList.toggle(
+          "migration-mobile-menu-open",
+          innerWidth < 1025 && !!expanded,
+        );
+        // This class supplies fixed positioning in both states; only `active` changes.
+        menu?.classList.add("sitekit-menu-offcanvas-elements");
+        if (!expanded) {
+          menu?.querySelectorAll(".migration-menu-open").forEach((item) => {
+            item.classList.remove("migration-menu-open");
+            item
+              .querySelector(":scope > a")
+              ?.setAttribute("aria-expanded", "false");
+          });
+          root.querySelector<HTMLElement>(".sitekit-menu-hamburger")?.focus();
+        }
         return;
       }
       const link = target.closest<HTMLAnchorElement>("a");
@@ -381,7 +487,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
       if (
         target.closest(
-          ".schedule-popup-close,.id-cp__close,[data-close-popup],.id-cp-close",
+          ".schedule-popup-close,.id-cp__close,[data-close-popup],[data-idcp-close],.id-cp-close",
         ) ||
         target.id === "schedulePopup" ||
         target.id === "id-contact-popup"
@@ -405,36 +511,74 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
     };
     const key = (e: KeyboardEvent) => {
+      if (e.key === "Tab") {
+        const popup = document.querySelector<HTMLElement>(
+          "#id-contact-popup.is-open,#schedulePopup.is-open",
+        );
+        if (popup) {
+          const items = [
+            ...popup.querySelectorAll<HTMLElement>(
+              'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex="0"]',
+            ),
+          ].filter(
+            (el) => el.getClientRects().length && !el.closest("[inert]"),
+          );
+          const first = items[0],
+            last = items.at(-1);
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last?.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first?.focus();
+          }
+        }
+      }
       if (e.key === "Escape") {
+        const mobileMenu = root.querySelector(".sitekit-menu-container.active");
+        if (innerWidth < 1025 && mobileMenu) {
+          mobileMenu.classList.remove("active");
+          document.documentElement.classList.remove(
+            "migration-mobile-menu-open",
+          );
+          root
+            .querySelectorAll(".sitekit-menu-toggler")
+            .forEach((el) => el.setAttribute("aria-expanded", "false"));
+          root.querySelector<HTMLElement>(".sitekit-menu-hamburger")?.focus();
+        }
         closePopups();
         root
           .querySelectorAll(".migration-menu-open")
           .forEach((e) => e.classList.remove("migration-menu-open"));
       }
     };
-    const submit = (e: SubmitEvent) => {
-      const form = e.target as HTMLFormElement;
-      if (!form.matches("[data-staging-form]")) return;
-      e.preventDefault();
-      if (!form.reportValidity()) return;
-      let status = form.querySelector<HTMLElement>("[role=status]");
-      if (!status) {
-        status = document.createElement("p");
-        status.setAttribute("role", "status");
-        form.append(status);
-      }
-      status.textContent =
-        "Staging preview: your message has not been sent. Live submission handling is pending verification.";
-    };
     root.addEventListener("click", click);
+    const toggleDetails = (e: Event) => {
+      const details = e.target as HTMLDetailsElement;
+      if (!details.matches(".e-n-accordion details")) return;
+      const summary = details.querySelector<HTMLElement>(":scope > summary");
+      summary?.setAttribute("aria-expanded", String(details.open));
+      summary?.classList.toggle("active", details.open);
+      if (details.open) {
+        const group =
+          details.closest(".product-dropdowngrid-section") ||
+          details.closest(".e-n-accordion");
+        group
+          ?.querySelectorAll<HTMLDetailsElement>("details[open]")
+          .forEach((other) => {
+            if (other !== details) other.open = false;
+          });
+      }
+    };
+    root.addEventListener("toggle", toggleDetails, true);
     root.addEventListener("keydown", key);
-    root.addEventListener("submit", submit);
     root.dataset.interactionsReady = "true";
     cleanups.push(() => {
+      document.documentElement.classList.remove("migration-mobile-menu-open");
       delete root.dataset.interactionsReady;
       root.removeEventListener("click", click);
+      root.removeEventListener("toggle", toggleDetails, true);
       root.removeEventListener("keydown", key);
-      root.removeEventListener("submit", submit);
     });
     return () => cleanups.forEach((fn) => fn());
   }, [pageKey]);
