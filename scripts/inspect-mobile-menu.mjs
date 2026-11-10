@@ -1,0 +1,12 @@
+import {chromium} from 'playwright';
+const b=await chromium.launch();const p=await b.newPage({viewport:{width:390,height:844}});
+await p.goto('http://localhost:3101',{waitUntil:'domcontentloaded'});
+await p.locator('[data-interactions-ready="true"]').waitFor();
+await p.locator('.sitekit-menu-hamburger').click();
+await p.waitForTimeout(400);
+console.log('After hamburger',await p.locator('.sitekit-menu-container').evaluateAll(es=>es.map(e=>({cls:e.className,rect:e.getBoundingClientRect().toJSON()}))));
+await p.screenshot({path:'audit/browser/mobile-menu-open-current.png'});
+await p.locator('.ekit-menu-nav-link').filter({hasText:/^Services$/}).click({timeout:5000});
+console.log(await p.locator('#ekit-megamenu-panel-18237').evaluate(e=>({display:getComputedStyle(e).display,height:getComputedStyle(e).height,rect:e.getBoundingClientRect().toJSON(),parent:e.parentElement.className,children:[...e.children].map(c=>({display:getComputedStyle(c).display,rect:c.getBoundingClientRect().toJSON()}))})));
+console.log('Clipping',await p.locator('#ekit-megamenu-panel-18237').evaluate(e=>[e,...e.querySelectorAll('*')].filter(c=>c.scrollHeight>c.clientHeight+3&&getComputedStyle(c).overflowY!=='visible').map(c=>({cls:c.className,h:c.clientHeight,scroll:c.scrollHeight,overflow:getComputedStyle(c).overflowY,max:getComputedStyle(c).maxHeight}))));
+await p.screenshot({path:'audit/browser/mobile-menu-current.png'});await b.close();
