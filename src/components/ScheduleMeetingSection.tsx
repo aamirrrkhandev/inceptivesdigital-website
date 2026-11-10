@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import "./schedule-meeting.css";
 
 const CALENDLY_EMBED_URL =
-  "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff";
+  "https://calendly.com/inceptivesdigital-info/30min?background_color=111111&primary_color=91b6ff&text_color=ffffff&hide_event_type_details=1&embed_type=Inline";
 
 export default function ScheduleMeetingSection() {
   const containerRef = useRef<HTMLDivElement | null>(null);
