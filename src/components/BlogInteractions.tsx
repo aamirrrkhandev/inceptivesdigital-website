@@ -1,8 +1,17 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useTransition } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 // Ported from the published WordPress blog snippet: URL-based category/search/view state.
 export default function BlogInteractions() {
+  const router = useRouter();
+  const query = useSearchParams().toString();
+  const [pending, startTransition] = useTransition();
+  useEffect(() => {
+    document
+      .querySelector("[data-blog-grid]")
+      ?.setAttribute("aria-busy", String(pending));
+  }, [pending, query]);
   useEffect(() => {
     const listing = document.querySelector<HTMLElement>(
       '[data-id-blog-listing="1"]',
@@ -41,23 +50,62 @@ export default function BlogInteractions() {
     );
     const input = form?.querySelector<HTMLInputElement>(".e-search-input");
     if (input) input.value = listing.dataset.search || "";
-    function navigate(changes: Record<string, string>, replace = false) {
+    function navigate(
+      changes: Record<string, string>,
+      replace = false,
+      resetPage = true,
+    ) {
       const target = new URL(window.location.href);
       for (const [key, value] of Object.entries(changes)) {
         if (!value || value === "all") target.searchParams.delete(key);
         else target.searchParams.set(key, value);
       }
-      target.searchParams.delete("pagination_page");
-      if (replace) window.location.replace(target.href);
-      else window.location.assign(target.href);
+      if (resetPage) target.searchParams.delete("pagination_page");
+      if (target.href === window.location.href) return;
+      startTransition(() => {
+        const href = target.pathname + target.search + target.hash;
+        if (replace) router.replace(href, { scroll: false });
+        else router.push(href, { scroll: false });
+      });
     }
     const click = (event: MouseEvent) => {
+      if (
+        event.button !== 0 ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        event.altKey
+      )
+        return;
+      const pagination =
+        event.target instanceof Element
+          ? event.target.closest<HTMLAnchorElement>(
+              ".id-blog-pagination a[href]",
+            )
+          : null;
+      if (pagination) {
+        const url = new URL(pagination.href);
+        if (url.origin !== window.location.origin || url.pathname !== "/blog")
+          return;
+        event.preventDefault();
+        navigate(
+          { pagination_page: url.searchParams.get("pagination_page") || "" },
+          false,
+          false,
+        );
+        return;
+      }
       const target =
         event.target instanceof Element
           ? event.target.closest<HTMLElement>(".btn-tabs")
           : null;
       if (!target || !tabs.includes(target)) return;
       event.preventDefault();
+      for (const tab of tabs) {
+        const active = tab === target;
+        tab.classList.toggle("active", active);
+        tab.setAttribute("aria-pressed", String(active));
+      }
       navigate({
         blog_cat: normalize(target.dataset.filter || ""),
         blog_search: "",
@@ -88,6 +136,6 @@ export default function BlogInteractions() {
       window.removeEventListener("resize", matchView);
       delete listing.dataset.blogInteractionsReady;
     };
-  }, []);
+  }, [query, router]);
   return null;
 }
