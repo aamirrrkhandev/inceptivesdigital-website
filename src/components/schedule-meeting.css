@@ -103,7 +103,7 @@
   }
 }
 
-/* Subtle Blue Radial Glow */
+/* Subtle Green Radial Glow */
 .id-schedule-glow {
   pointer-events: none;
   position: absolute;
@@ -112,7 +112,7 @@
   width: 256px;
   height: 256px;
   border-radius: 9999px;
-  background-color: rgba(68, 97, 169, 0.25);
+  background-color: rgba(0, 206, 68, 0.25);
   filter: blur(64px);
 }
 
@@ -133,7 +133,7 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #91b6ff;
+  color: #00ce44;
   margin-bottom: 8px;
 }
 
@@ -197,8 +197,8 @@
   width: 40px;
   height: 40px;
   border-radius: 12px;
-  background-color: rgba(68, 97, 169, 0.35);
-  border: 1px solid rgba(145, 182, 255, 0.3);
+  background-color: rgba(0, 206, 68, 0.15);
+  border: 1px solid rgba(0, 206, 68, 0.3);
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -314,8 +314,8 @@
   width: 48px;
   height: 48px;
   border-radius: 16px;
-  background-color: #252a35;
-  color: #4461a9;
+  background-color: #16251b;
+  color: #00ce44;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -339,8 +339,8 @@
 .id-schedule-load-btn {
   padding: 10px 20px;
   border-radius: 9999px;
-  background-color: #4461a9;
-  color: #ffffff;
+  background-color: #00ce44;
+  color: #111111;
   font-size: 13.5px;
   font-weight: 700;
   border: none;
@@ -349,7 +349,7 @@
 }
 
 .id-schedule-load-btn:hover {
-  background-color: #365091;
+  background-color: #00ad39;
 }
 
 .id-schedule-card > * {
@@ -360,11 +360,11 @@
   height: 24px;
 }
 .id-schedule-load-btn:focus-visible {
-  outline: 2px solid #91b6ff;
+  outline: 2px solid #00ce44;
   outline-offset: 4px;
 }
 .id-schedule-booking-link {
-  color: #91b6ff;
+  color: #00ce44;
   font-size: 13px;
   text-align: center;
   padding: 12px 16px;
