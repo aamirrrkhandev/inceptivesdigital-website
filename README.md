@@ -49,3 +49,7 @@ The separate staging project is non-indexable. Source canonicals point to https:
 The existing WordPress PHP handlers still provide form delivery. One previously authorized iOS assessment test succeeded; general CAPTCHA/inbox verification remains incomplete. Ten legacy originals in three blog posts remain unavailable. Performance acceptance and full visual acceptance are ongoing; a 1.5-second load guarantee has not been established.
 
 Before any production cutover, configure a distinct WordPress backend origin and review indexing, analytics, forms, redirects and rollback. The current WordPress source domain cannot point back at Next.js while also serving as its backend.
+"# inceptivesdigital-web" 
+"# inceptivesdigital-web" 
+"# inceptivesdigital-web" 
+"# inceptivesdigital-website" 
