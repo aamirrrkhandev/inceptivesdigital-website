@@ -12,7 +12,7 @@ The existing CallRail account enables form capture. Website forms now exclude au
 
 ## Cloudflare status and improvements
 
-The source WordPress site is behind Cloudflare and uses its Turnstile Elementor integration. The current staging widget reports **110200: domain not authorized**. Cloudflare's dashboard remains at sign-in; a user login request is pending. Authorizing `inceptives-homepage-review.vercel.app` on the existing widget is required before real contact submissions can pass that widget. No test keys or CAPTCHA bypass were enabled in deployed code, and the existing upstream WordPress validation remains intact.
+The source WordPress site is behind Cloudflare and uses its Turnstile Elementor integration. The current staging widget reports **110200: domain not authorized**. The user explicitly deferred Cloudflare account work; its dashboard was at sign-in. Authorizing `inceptives-homepage-review.vercel.app` on the existing widget is required before real contact submissions can pass that widget. No test keys or CAPTCHA bypass were enabled in deployed code, and the existing upstream WordPress validation remains intact.
 
 The shared client integration now supports loading-error retry, expiry/timeout state, widgets added or removed dynamically, cleanup on navigation, and compact rendering when a 300px widget would exceed the available width. These lifecycle changes pass isolated fixture tests. They do not resolve an account-side hostname restriction by themselves. The original iOS PHP assessment has no Turnstile contract; no additional unconfigured server validator was claimed or enabled for it.
 
@@ -27,8 +27,12 @@ The `vercel.app` hostname is Vercel-owned and does not inherit the production do
 - Turnstile fixture tests cover script failure/retry, expired response handling, narrow layouts, retained form values, and mounting/removing dynamic forms. No real CAPTCHA was solved in these tests.
 - Deployed candidate passed the same ten native-SDK form journeys and three Turnstile fixture groups, eight representative SEO comparisons, all 28 redirect checks, sitemap/robots checks (230 sitemap entries) and 16 header/footer viewport widths.
 - On the updated stable alias, the actual CallRail SDK swapped all four contact-page numbers/phone links to the same assigned tracking number. One clearly marked QA submission was accepted by the real CallRail endpoint with HTTP 200 and one submission UUID. Native session presence, original contact-page URL and landing attribution were verified. WordPress and GHL delivery were mocked in that isolated live-CallRail test; no real phone call was placed.
-- CallRail dashboard record inspection is blocked by an updated Terms of Use notice requiring user review. Its installation checker returned a generic test-service error for the original WordPress URL; the staging check was started but is not certified as passed. No account numbers, routing or integration rules were changed.
-- Cloudflare hostname authorization and real protected WordPress inbox delivery remain pending Cloudflare sign-in. Client lifecycle improvements do not remove this blocker.
+- After the user handled the Terms notice, dashboard inspection confirmed the QA record: 5/5 fields (first name, last name, email, phone, message), one total interaction, first-touch and last-touch source `migration-qa`, medium `integration-test`, the original landing/form URL, and a subsequent `/thank-you` visit. Its installation checker returned a generic test-service error for the original WordPress URL; the staging check was started but is not certified as passed. No account numbers, routing or integration rules were changed.
+- Cloudflare hostname authorization and real protected WordPress inbox delivery remain deferred at the user’s request. Client lifecycle improvements do not remove this blocker.
+
+## Existing account warning
+
+CallRail displays a “numbers swapping too fast” alert dated approximately five months ago for the existing Inceptive Digital - WP pool. The assignment screen lists four numbers and recommends a pool size of five. No numbers were purchased, pool size changed, routing edited or warning dismissed. This capacity warning can affect visitor-level call attribution and should be reviewed before launch; form capture and the inspected QA record are independently verified.
 
 ## Staging release and rollback
 

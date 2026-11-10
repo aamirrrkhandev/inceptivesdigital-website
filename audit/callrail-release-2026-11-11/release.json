@@ -10,10 +10,16 @@
   "redirectChecks": 28,
   "sitemapEntries": 230,
   "realCallRailSubmissionAccepted": true,
-  "callRailDashboard": "Blocked by updated Terms of Use notice awaiting user review",
-  "cloudflareHostname": "110200; sign-in required before authorization can be configured",
+  "callRailDashboard": "Verified: QA record, five fields, one interaction, first/last touch migration-qa, medium integration-test, landing/form URL and thank-you visit",
+  "cloudflareHostname": "User deferred Cloudflare; existing 110200 authorization blocker remains",
   "liveWordPressChanged": false,
   "dnsChanged": false,
   "callrailRoutingChanged": false,
-  "realPhoneCallPlaced": false
+  "realPhoneCallPlaced": false,
+  "poolWarning": {
+    "age": "approximately five months",
+    "numbersListed": 4,
+    "recommendedPoolSize": 5,
+    "accountConfigurationChanged": false
+  }
 }
