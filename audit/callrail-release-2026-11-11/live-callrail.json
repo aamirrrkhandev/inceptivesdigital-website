@@ -1,0 +1,30 @@
+{
+  "phones": [
+    {
+      "text": "(469) 564-8721",
+      "href": "tel:+14695648721"
+    },
+    {
+      "text": "",
+      "href": "tel:+14695648721"
+    },
+    {
+      "text": "(469) 564-8721",
+      "href": "tel:+14695648721"
+    },
+    {
+      "text": "(469) 564-8721",
+      "href": "tel:+14695648721"
+    }
+  ],
+  "callRailAccepted": true,
+  "uniqueSubmissionUUIDs": 1,
+  "responseStatuses": [
+    200
+  ],
+  "nativeSessionPresent": true,
+  "landingPreserved": true,
+  "formUrl": "https://inceptives-homepage-review.vercel.app/contact-us?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-validation",
+  "wordpressAndGhlDelivery": "mocked; no email or GHL record",
+  "realCallPlaced": false
+}

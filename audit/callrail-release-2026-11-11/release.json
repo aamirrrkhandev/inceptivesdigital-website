@@ -1,0 +1,19 @@
+{
+  "deployment": "dpl_7FMvA7SDroaU8t9VJr5Wjjy8Wxk1",
+  "runtimeCommit": "b8af4beb8d93bbf4aba1a0795331ea47cf47feba",
+  "staging": "https://inceptives-homepage-review.vercel.app",
+  "rollback": "dpl_E6PRXtRvQnM29A43jsZu58yahEyy",
+  "sdkFormTypesPassed": 10,
+  "turnstileFixtureGroupsPassed": 3,
+  "responsiveWidthsPassed": 16,
+  "seoRepresentativePages": 8,
+  "redirectChecks": 28,
+  "sitemapEntries": 230,
+  "realCallRailSubmissionAccepted": true,
+  "callRailDashboard": "Blocked by updated Terms of Use notice awaiting user review",
+  "cloudflareHostname": "110200; sign-in required before authorization can be configured",
+  "liveWordPressChanged": false,
+  "dnsChanged": false,
+  "callrailRoutingChanged": false,
+  "realPhoneCallPlaced": false
+}

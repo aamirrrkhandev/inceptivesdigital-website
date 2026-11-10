@@ -1,0 +1,14 @@
+[
+  {
+    "check": "Script failure recovers on retry; single shared loader; token excluded from analytics",
+    "pass": true
+  },
+  {
+    "check": "Expired token is refreshed without delivery; narrow layout uses compact widget and retains entered values",
+    "pass": true
+  },
+  {
+    "check": "New form widgets mount automatically and release provider resources on removal",
+    "pass": true
+  }
+]

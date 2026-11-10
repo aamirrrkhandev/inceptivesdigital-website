@@ -1,0 +1,62 @@
+[
+  {
+    "formId": "website-contact-page-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-footer-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-popup-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-web-development-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-staff-augmentation-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-iot-development-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-virtual-reality-development-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-ar-app-development-enquiry",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "website-staff-assessment",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  },
+  {
+    "formId": "id-ios-form",
+    "callRailSdk": true,
+    "uniqueSubmissionUUIDs": 1,
+    "transport": "Native GHL and CallRail SDKs; both remote delivery destinations and WordPress mocked"
+  }
+]

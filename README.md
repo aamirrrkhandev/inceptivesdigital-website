@@ -51,6 +51,8 @@ The existing WordPress PHP handlers still provide form delivery. One previously 
 Before any production cutover, configure a distinct WordPress backend origin and review indexing, analytics, forms, redirects and rollback. The current WordPress source domain cannot point back at Next.js while also serving as its backend.
 
 Staging enquiries and assessments also record native GoHighLevel External Forms submissions with attribution. See [GHL_FORMS_INTEGRATION.md](GHL_FORMS_INTEGRATION.md) for the ten form identifiers, mappings, tests, failure/retry behavior and environment restrictions. Calendly remains unchanged.
+
+Sitewide CallRail and its validated form-capture flow are installed on staging. [CALLRAIL_CLOUDFLARE_REPORT.md](CALLRAIL_CLOUDFLARE_REPORT.md) records the real CallRail transport test, matching phone display/dial targets, and the pending Cloudflare hostname authorization (error 110200). Cloudflare account login is needed before protected contact submissions can be accepted; no live DNS/proxy change was made.
 "# inceptivesdigital-web" 
 "# inceptivesdigital-web" 
 "# inceptivesdigital-web" 

@@ -1,6 +1,14 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_E6PRXtRvQnM29A43jsZu58yahEyy, runtime source commit 04bb862ca5edcae71a1ad65ef4fef31033f2ebf4).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_7FMvA7SDroaU8t9VJr5Wjjy8Wxk1, runtime source commit b8af4beb8d93bbf4aba1a0795331ea47cf47feba).
+
+## CallRail / Cloudflare batch — 11 November 2026
+
+The official source CallRail company snippet now loads from the shared root across staging. Business phone links use a swap-compatible E.164 URI, fixing the observed case where only display text changed. All ten enquiry/assessment types passed with native GHL/CallRail SDKs and intercepted delivery; challenge/hidden control values are excluded, and capture occurs after confirmed delivery. One actual CallRail QA submission received HTTP 200 with native session/landing data and one UUID; all four contact-page phone links matched the assigned display number. No real call was placed. WordPress/GHL endpoints were mocked in that live-CallRail transport test.
+
+Turnstile client recovery, expiry state, responsive sizing and dynamic widget cleanup pass three isolated fixture groups. Real staging widgets still report 110200 (hostname not authorized). Cloudflare login is required to authorize the existing key for the staging host. No CAPTCHA bypass or unconfigured validator was enabled. CallRail dashboard inspection awaits the user's review of its updated Terms notice; the vendor installation checker is not certified. Neither live WordPress, DNS, original Vercel, CallRail routing nor paid resources changed.
+
+Candidate checks passed: ten native-SDK form journeys, three Turnstile fixture groups, eight representative SEO comparisons, 28 redirects, sitemap/robots (230 entries), and 16 header/footer widths. Rollback: dpl_E6PRXtRvQnM29A43jsZu58yahEyy. See CALLRAIL_CLOUDFLARE_REPORT.md and audit/callrail-release-2026-11-11. Account-side Cloudflare work remains pending; this batch is not a full protected-form/inbox acceptance claim.
 
 ## GHL enquiry/assessment integration — 10 November 2026
 

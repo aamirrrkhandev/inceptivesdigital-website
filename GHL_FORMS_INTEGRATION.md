@@ -2,6 +2,8 @@
 
 Scope: separate `inceptives-homepage-review` staging project. Live WordPress, its snippets, DNS and the original Vercel project are unchanged. Calendly is explicitly excluded; the user will supply a GHL calendar link later.
 
+Operational update, 11 November: real staging contact widgets report Cloudflare error 110200 until the existing key authorizes the staging hostname. Cloudflare login is pending. Native GHL capture is verified independently; full protected WordPress delivery is not certified. See CALLRAIL_CLOUDFLARE_REPORT.md for the current release and blocker.
+
 ## Delivery and appearance
 
 The account's official External Tracking script records the existing HTML forms under GHL **Sites → Forms → Submissions → External Forms**. It preserves the custom website interface rather than embedding a replacement form. The public installation identifier comes from the logged-in Inceptives Digital location's installation screen; no private API key is needed or committed.
