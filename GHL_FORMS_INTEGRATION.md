@@ -2,7 +2,7 @@
 
 Scope: separate `inceptives-homepage-review` staging project. Live WordPress, its snippets, DNS and the original Vercel project are unchanged. Calendly is explicitly excluded; the user will supply a GHL calendar link later.
 
-Operational update, 11 November: real staging contact widgets report Cloudflare error 110200 until the existing key authorizes the staging hostname. Cloudflare login is pending. Native GHL capture is verified independently; full protected WordPress delivery is not certified. See CALLRAIL_CLOUDFLARE_REPORT.md for the current release and blocker.
+Operational update, 11 November: the user authorized a separate staging widget. Preview validates tokens in Next.js and sends Elementor enquiries through GHL, without WordPress email actions. All ten genuine form types reached thank-you and all ten new records were observed in GHL (18 → 28 total), alongside ten passing isolated SDK journeys. Staff/iOS answers, identity/company and attribution were checked in detail; the user completed two interactive challenges. CallRail confirms eight of these new captures, with two analytics captures unconfirmed. See STAGING_TURNSTILE.md for configuration, delivery boundaries and rollback. Historical WordPress-delivery descriptions below apply to the preceding release and non-staging configuration.
 
 ## Delivery and appearance
 

@@ -1,6 +1,14 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_7FMvA7SDroaU8t9VJr5Wjjy8Wxk1, runtime source commit b8af4beb8d93bbf4aba1a0795331ea47cf47feba).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_69v8cJrEP2uM7tdKhVEjhD4mpQto, runtime source commit 63a1ef8149426f3ac5ec2a7bee2078c2eedcaba4).
+
+## Separate staging Turnstile — 11 November 2026
+
+User authorized a new widget: **Inceptives Website — Staging Forms**, sole hostname `inceptives-homepage-review.vercel.app`, Managed, pre-clearance off. Existing widgets, live WordPress, original Vercel project and DNS are unchanged. Preview-only secret/public key configured on the separate project. The old account/key block below is superseded for staging by this independent widget.
+
+Staged Elementor enquiries validate through Next.js Siteverify and deliver through native GHL, not WordPress email actions. GHL acknowledgement precedes CallRail and thank-you. iOS retains original PHP scoring/email/PDF behavior with staging verification added before it. See STAGING_TURNSTILE.md for boundaries and rollback.
+
+Build/typecheck, eleven isolated server checks, three lifecycle/mobile groups and ten native SDK journeys pass, including against the deployed candidate. All ten genuine form types reached thank-you and all ten new records were observed in GHL (18 → 28 total), with staff/iOS answers and attribution confirmed. User completed the IoT and staff human checkboxes. Missing/forged token and wrong Origin reject correctly. CallRail confirms eight new captures; two remain unconfirmed analytics events, not failed GHL deliveries. Email inbox delivery and a real PDF download are not independently certified. Feature branch: `migration/staging-turnstile`. Rollback: `dpl_7FMvA7SDroaU8t9VJr5Wjjy8Wxk1`.
 
 Cloudflare follow-up, 11 November: connected-account sign-in succeeded, but the source/staging widget is absent from its single-widget account. Only the separate Video Testimonial widget is available. User is identifying the original widget owner/account; no hostname or DNS changes were made. Missing-challenge rejection (400) and source/staging key parity were verified.
 

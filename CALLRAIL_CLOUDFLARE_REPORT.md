@@ -1,5 +1,7 @@
 # CallRail and Cloudflare staging integration
 
+Latest update: separate staging widget `0x4AAAAAAF8W_dplhFI7dPcc` created with the user's authorization, sole allowed staging hostname, Managed mode and no pre-clearance. Preview deployment `dpl_69v8cJrEP2uM7tdKhVEjhD4mpQto` validates tokens server-side. All ten genuine form types reached thank-you and were observed in GHL. User completed two interactive challenges. CallRail dashboard confirms eight new QA captures (plus the previous original event); two remain unconfirmed analytics captures. No full CallRail 10/10 or inbox-delivery claim is made. See STAGING_TURNSTILE.md for current delivery behavior and limitations. The following sections preserve the earlier release history; its original-key hostname blocker no longer applies to staging's new widget.
+
 Date: 11 November 2026. Runtime source: `b8af4beb8d93bbf4aba1a0795331ea47cf47feba`.
 
 ## Source and implementation

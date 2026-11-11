@@ -1,0 +1,55 @@
+[
+  {
+    "form": "website-contact-page-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-web-development-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-iot-development-enquiry",
+    "thankYou": true,
+    "userCompletedChallenge": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-virtual-reality-development-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-ar-app-development-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-staff-augmentation-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-footer-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-popup-enquiry",
+    "thankYou": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "id-ios-form",
+    "thankYou": true,
+    "realPHPScoring": true,
+    "ghlDashboard": true
+  },
+  {
+    "form": "website-staff-assessment",
+    "thankYou": true,
+    "userCompletedChallenge": true,
+    "ghlDashboard": true
+  }
+]
