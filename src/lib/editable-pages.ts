@@ -49,7 +49,7 @@ export const getEditablePage = cache((pathname: string): SitePage | undefined =>
   const replacements = (assets.backgrounds as { sourceUrl: string; src: string }[]).filter(asset => typeof asset.src === "string" && asset.src !== asset.sourceUrl);
   const replace = (value: string) => {
     for (const asset of replacements) {
-      const escaped = asset.sourceUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const escaped = RegExp.escape(asset.sourceUrl);
       value = value.replace(new RegExp(escaped + "(?=[\\s\"'(),]|$)", "g"), () => asset.src);
     }
     return value;

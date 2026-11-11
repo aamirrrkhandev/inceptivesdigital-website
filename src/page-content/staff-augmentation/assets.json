@@ -484,8 +484,8 @@
       "id": "image-aefceeee1c8ca1",
       "sourceUrl": "/restored-assets/6faa5c9391-review-dark-img1.f7451c6f.webp",
       "src": "/restored-assets/6faa5c9391-review-dark-img1.f7451c6f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
       "alt": "Review Logo 1",
       "width": "158",
       "height": "64",
@@ -496,8 +496,8 @@
       "id": "image-b36b0a93ef5765",
       "sourceUrl": "/restored-assets/d779747557-review-dark-img4.4963ecf6.webp",
       "src": "/restored-assets/d779747557-review-dark-img4.4963ecf6.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
       "alt": "Review Logo 2",
       "width": "155",
       "height": "57",
@@ -508,8 +508,8 @@
       "id": "image-1a2e9984df1b4e",
       "sourceUrl": "/restored-assets/43a9752920-review-dark-img2.0e47560f.webp",
       "src": "/restored-assets/43a9752920-review-dark-img2.0e47560f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
       "alt": "Review Logo 3",
       "width": "159",
       "height": "47",
@@ -520,8 +520,8 @@
       "id": "image-ee19574cec5b71",
       "sourceUrl": "/restored-assets/e4c256f358-review-dark-img3.f896b7f7.webp",
       "src": "/restored-assets/e4c256f358-review-dark-img3.f896b7f7.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
       "alt": "Review Logo 4",
       "width": "159",
       "height": "66",
@@ -532,8 +532,8 @@
       "id": "image-c9236e4a27eab3",
       "sourceUrl": "/restored-assets/a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
       "src": "/restored-assets/a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
       "alt": "",
       "width": "912",
       "height": "590",
@@ -544,8 +544,8 @@
       "id": "image-13859cf750019f",
       "sourceUrl": "/restored-assets/56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
       "src": "/restored-assets/56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "publicUrl": "/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
       "alt": "Apps Launched",
       "width": "306",
       "height": "240",
@@ -556,8 +556,8 @@
       "id": "image-f1ee578dc0d8f0",
       "sourceUrl": "/restored-assets/eafe866af8-cross.8ed41405.webp",
       "src": "/restored-assets/eafe866af8-cross.8ed41405.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+      "publicUrl": "/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
       "alt": "Active Developers",
       "width": "50",
       "height": "50",
@@ -568,8 +568,8 @@
       "id": "image-8a12be1e769d78",
       "sourceUrl": "/restored-assets/e092530fd1-cloud-icon.6bfe4c9a.webp",
       "src": "/restored-assets/e092530fd1-cloud-icon.6bfe4c9a.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "publicUrl": "/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
       "alt": "App Downloads",
       "width": "70",
       "height": "56",
@@ -580,8 +580,8 @@
       "id": "image-8c8428db6488f7",
       "sourceUrl": "/restored-assets/620efe7a96-seo-page-sec4-img4.1a29910a.webp",
       "src": "/restored-assets/620efe7a96-seo-page-sec4-img4.1a29910a.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "publicUrl": "/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
       "alt": "Rating on Clutch",
       "width": "212",
       "height": "241",
@@ -592,8 +592,8 @@
       "id": "image-c96f0b2f272b4e",
       "sourceUrl": "/restored-assets/1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
       "src": "/restored-assets/1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
       "alt": "Access to Specialized Talent",
       "width": "50",
       "height": "50",
@@ -604,8 +604,8 @@
       "id": "image-75326c07220808",
       "sourceUrl": "/restored-assets/7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
       "src": "/restored-assets/7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
       "alt": "Cost Efficiency",
       "width": "50",
       "height": "50",
@@ -616,8 +616,8 @@
       "id": "image-4bb947814e99ac",
       "sourceUrl": "/restored-assets/600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
       "src": "/restored-assets/600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
       "alt": "Flexibility and Scalability",
       "width": "50",
       "height": "50",
@@ -628,8 +628,8 @@
       "id": "image-3cc4d7935f7a38",
       "sourceUrl": "/restored-assets/cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
       "src": "/restored-assets/cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
       "alt": "Faster Project Delivery",
       "width": "46",
       "height": "46",
@@ -640,8 +640,8 @@
       "id": "image-8b7f8710d0f228",
       "sourceUrl": "/restored-assets/7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
       "src": "/restored-assets/7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
       "alt": "Focus on Core Business Goals",
       "width": "50",
       "height": "50",
@@ -652,8 +652,8 @@
       "id": "image-26ad3228d37f80",
       "sourceUrl": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
       "src": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
       "alt": "Mobile App Development",
       "width": "37",
       "height": "40",
@@ -664,8 +664,8 @@
       "id": "image-96e103b1779947",
       "sourceUrl": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
       "src": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
       "alt": "software Development",
       "width": "41",
       "height": "40",
@@ -676,8 +676,8 @@
       "id": "image-7ed2655811dc76",
       "sourceUrl": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
       "src": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
       "alt": "game Development",
       "width": "45",
       "height": "40",
@@ -688,8 +688,8 @@
       "id": "image-2d878101bfced0",
       "sourceUrl": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
       "src": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
       "alt": "User Experience (UX/UI)",
       "width": "43",
       "height": "40",
@@ -700,8 +700,8 @@
       "id": "image-233061f72fa137",
       "sourceUrl": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
       "src": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
       "alt": "Website Development",
       "width": "45",
       "height": "40",
@@ -712,8 +712,8 @@
       "id": "image-68c73116aa72d5",
       "sourceUrl": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
       "src": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
       "alt": "QA & Testing Automation",
       "width": "33",
       "height": "40",
@@ -724,8 +724,8 @@
       "id": "image-6674aa2b19233c",
       "sourceUrl": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
       "src": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
       "alt": "DevOps",
       "width": "40",
       "height": "40",
@@ -736,8 +736,8 @@
       "id": "image-d5d22646b0c1c7",
       "sourceUrl": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
       "src": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
       "alt": "Continuous Security",
       "width": "40",
       "height": "40",
@@ -748,8 +748,8 @@
       "id": "image-6de7ee483ca037",
       "sourceUrl": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
       "src": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
       "alt": "Product Management",
       "width": "39",
       "height": "40",
@@ -760,8 +760,8 @@
       "id": "image-873d1c8b3321ce",
       "sourceUrl": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
       "src": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
       "alt": "Mobile App Development",
       "width": "37",
       "height": "40",
@@ -772,8 +772,8 @@
       "id": "image-e3acf0c0c7e29e",
       "sourceUrl": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
       "src": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
       "alt": "software Development",
       "width": "41",
       "height": "40",
@@ -784,8 +784,8 @@
       "id": "image-f538677b1bce74",
       "sourceUrl": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
       "src": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
       "alt": "game Development",
       "width": "45",
       "height": "40",
@@ -796,8 +796,8 @@
       "id": "image-7d7bdee1be10f6",
       "sourceUrl": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
       "src": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
       "alt": "User Experience (UX/UI)",
       "width": "43",
       "height": "40",
@@ -808,8 +808,8 @@
       "id": "image-1d8fbb6fb44aac",
       "sourceUrl": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
       "src": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
       "alt": "Website Development",
       "width": "45",
       "height": "40",
@@ -820,8 +820,8 @@
       "id": "image-bb72431cac3ef4",
       "sourceUrl": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
       "src": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
       "alt": "QA & Testing Automation",
       "width": "33",
       "height": "40",
@@ -832,8 +832,8 @@
       "id": "image-6123312c5b56d2",
       "sourceUrl": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
       "src": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
       "alt": "DevOps",
       "width": "40",
       "height": "40",
@@ -844,8 +844,8 @@
       "id": "image-877b109f8bbc81",
       "sourceUrl": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
       "src": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
       "alt": "Continuous Security",
       "width": "40",
       "height": "40",
@@ -856,8 +856,8 @@
       "id": "image-1408bb21d98d39",
       "sourceUrl": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
       "src": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
       "alt": "Product Management",
       "width": "39",
       "height": "40",
@@ -868,8 +868,8 @@
       "id": "image-dcf26a43f9891e",
       "sourceUrl": "/restored-assets/a1199c20d0-android-icon.9478f76a.webp",
       "src": "/restored-assets/a1199c20d0-android-icon.9478f76a.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+      "publicUrl": "/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
       "alt": "Android",
       "width": "50",
       "height": "50",
@@ -880,8 +880,8 @@
       "id": "image-4810d504d54179",
       "sourceUrl": "/restored-assets/19ae2525d5-apple-icon.fb8c86d0.webp",
       "src": "/restored-assets/19ae2525d5-apple-icon.fb8c86d0.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
       "alt": "Apple",
       "width": "50",
       "height": "50",
@@ -892,8 +892,8 @@
       "id": "image-9f03cc502c550c",
       "sourceUrl": "/restored-assets/eddef3cdad-node-icon.04414d22.webp",
       "src": "/restored-assets/eddef3cdad-node-icon.04414d22.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
       "alt": "Node Js",
       "width": "1200",
       "height": "735",
@@ -904,8 +904,8 @@
       "id": "image-e18fd5bc67330f",
       "sourceUrl": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
       "src": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+      "publicUrl": "/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
       "alt": "Azure",
       "width": "50",
       "height": "50",
@@ -916,8 +916,8 @@
       "id": "image-908f576feac0e4",
       "sourceUrl": "/restored-assets/85320d2495-c-plus-icon.a053ff2d.webp",
       "src": "/restored-assets/85320d2495-c-plus-icon.a053ff2d.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+      "publicUrl": "/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
       "alt": "C++",
       "width": "50",
       "height": "50",
@@ -928,8 +928,8 @@
       "id": "image-0fda9b11a04824",
       "sourceUrl": "/restored-assets/25fdf325f0-firebase-icon.8042c5fd.webp",
       "src": "/restored-assets/25fdf325f0-firebase-icon.8042c5fd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+      "publicUrl": "/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
       "alt": "Firebase",
       "width": "600",
       "height": "600",
@@ -940,8 +940,8 @@
       "id": "image-670bd311ccc15f",
       "sourceUrl": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
       "src": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+      "publicUrl": "/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
       "alt": "JAVA",
       "width": "46",
       "height": "62",
@@ -952,8 +952,8 @@
       "id": "image-7e87d51686e316",
       "sourceUrl": "/restored-assets/05205c7695-html-icon.6586b21a.webp",
       "src": "/restored-assets/05205c7695-html-icon.6586b21a.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+      "publicUrl": "/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
       "alt": "HTML 5",
       "width": "332",
       "height": "332",
@@ -964,8 +964,8 @@
       "id": "image-5329c82ee5a277",
       "sourceUrl": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
       "src": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+      "publicUrl": "/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
       "alt": "Swift",
       "width": "364",
       "height": "364",
@@ -976,8 +976,8 @@
       "id": "image-7092f515f8b4f1",
       "sourceUrl": "/restored-assets/f80c7b6d6f-unity-icon.32dd50df.webp",
       "src": "/restored-assets/f80c7b6d6f-unity-icon.32dd50df.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+      "publicUrl": "/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
       "alt": "Unity",
       "width": "50",
       "height": "50",
@@ -988,8 +988,8 @@
       "id": "image-21981185b7096c",
       "sourceUrl": "/restored-assets/b92a660aac-golan-icon.fc80978c.webp",
       "src": "/restored-assets/b92a660aac-golan-icon.fc80978c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
       "alt": "Golan",
       "width": "91",
       "height": "34",
@@ -1000,8 +1000,8 @@
       "id": "image-ede203651a2882",
       "sourceUrl": "/restored-assets/24ba28309a-net-icon.427117e4.webp",
       "src": "/restored-assets/24ba28309a-net-icon.427117e4.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
       "alt": ".Net",
       "width": "52",
       "height": "50",
@@ -1012,8 +1012,8 @@
       "id": "image-c06da2e6a4bbfa",
       "sourceUrl": "/restored-assets/4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
       "src": "/restored-assets/4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
       "alt": "",
       "width": "647",
       "height": "594",
@@ -1024,8 +1024,8 @@
       "id": "image-68350d15a83b79",
       "sourceUrl": "/restored-assets/58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
       "src": "/restored-assets/58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
       "alt": "Artificial Intelligence (AI)",
       "width": "56",
       "height": "63",
@@ -1036,8 +1036,8 @@
       "id": "image-06866e108c4e26",
       "sourceUrl": "/restored-assets/3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
       "src": "/restored-assets/3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
       "alt": "Natural Language Processing (NLP)",
       "width": "53",
       "height": "53",
@@ -1048,8 +1048,8 @@
       "id": "image-d166f79f7bb083",
       "sourceUrl": "/restored-assets/0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
       "src": "/restored-assets/0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
       "alt": "Data Science",
       "width": "53",
       "height": "50",
@@ -1060,8 +1060,8 @@
       "id": "image-4515288e90459c",
       "sourceUrl": "/restored-assets/963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
       "src": "/restored-assets/963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
       "alt": "Edge Computing",
       "width": "55",
       "height": "54",
@@ -1072,8 +1072,8 @@
       "id": "image-a677e66134ff41",
       "sourceUrl": "/restored-assets/bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
       "src": "/restored-assets/bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
       "alt": "Internet of Things (IoT)",
       "width": "50",
       "height": "50",
@@ -1084,8 +1084,8 @@
       "id": "image-5203d45ac246ab",
       "sourceUrl": "/restored-assets/935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
       "src": "/restored-assets/935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
       "alt": "Computer Vision",
       "width": "50",
       "height": "50",
@@ -1096,8 +1096,8 @@
       "id": "image-2143330d7c6eea",
       "sourceUrl": "/restored-assets/532b6b3385-seo-page-sec8-img1.524db7a9.webp",
       "src": "/restored-assets/532b6b3385-seo-page-sec8-img1.524db7a9.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "publicUrl": "/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
       "alt": "Platforms logo 0",
       "width": "141",
       "height": "80",
@@ -1108,8 +1108,8 @@
       "id": "image-ba4778642d2f4c",
       "sourceUrl": "/restored-assets/e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
       "src": "/restored-assets/e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "publicUrl": "/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
       "alt": "Platforms logo 1",
       "width": "141",
       "height": "80",
@@ -1120,8 +1120,8 @@
       "id": "image-d112b56f3c86b2",
       "sourceUrl": "/restored-assets/a813490a6f-seo-page-sec8-img3.165d6da8.webp",
       "src": "/restored-assets/a813490a6f-seo-page-sec8-img3.165d6da8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "publicUrl": "/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
       "alt": "Platforms logo 2",
       "width": "141",
       "height": "80",
@@ -1132,8 +1132,8 @@
       "id": "image-e2ceb0b0067748",
       "sourceUrl": "/restored-assets/630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
       "src": "/restored-assets/630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "publicUrl": "/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
       "alt": "Platforms logo 3",
       "width": "141",
       "height": "80",
@@ -1144,8 +1144,8 @@
       "id": "image-459a10ffa42cc6",
       "sourceUrl": "/restored-assets/def3d40067-salesforce-icon.2818c9f7.webp",
       "src": "/restored-assets/def3d40067-salesforce-icon.2818c9f7.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+      "publicUrl": "/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
       "alt": "Platforms logo 4",
       "width": "143",
       "height": "80",
@@ -1156,8 +1156,8 @@
       "id": "image-b476470ed616be",
       "sourceUrl": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
       "src": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+      "publicUrl": "/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
       "alt": "Platforms logo 5",
       "width": "50",
       "height": "50",
@@ -1168,8 +1168,8 @@
       "id": "image-e72b8bfe1ef4f9",
       "sourceUrl": "/restored-assets/683c261323-seo-page-sec8-img7.ec48372c.webp",
       "src": "/restored-assets/683c261323-seo-page-sec8-img7.ec48372c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "publicUrl": "/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
       "alt": "Platforms logo 6",
       "width": "142",
       "height": "80",
@@ -1180,8 +1180,8 @@
       "id": "image-e1c82d5642f907",
       "sourceUrl": "/restored-assets/35c6d5e32d-google-cloud-icon.0d62e786.webp",
       "src": "/restored-assets/35c6d5e32d-google-cloud-icon.0d62e786.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "publicUrl": "/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
       "alt": "Platforms logo 7",
       "width": "320",
       "height": "320",
@@ -1192,8 +1192,8 @@
       "id": "image-2164992d74e0ce",
       "sourceUrl": "/restored-assets/113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
       "src": "/restored-assets/113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "publicUrl": "/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
       "alt": "Platforms logo 8",
       "width": "142",
       "height": "80",
@@ -1204,8 +1204,8 @@
       "id": "image-78b6f800e7c82b",
       "sourceUrl": "/restored-assets/ac6714d679-aws-icon.82ad9283.webp",
       "src": "/restored-assets/ac6714d679-aws-icon.82ad9283.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+      "publicUrl": "/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
       "alt": "Platforms logo 9",
       "width": "1280",
       "height": "767",
@@ -1216,8 +1216,8 @@
       "id": "image-72fd6c8f6526f1",
       "sourceUrl": "/restored-assets/4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
       "src": "/restored-assets/4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "publicUrl": "/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
       "alt": "Platforms logo 10",
       "width": "142",
       "height": "80",
@@ -1228,8 +1228,8 @@
       "id": "image-a55252ebbe0e07",
       "sourceUrl": "/restored-assets/1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
       "src": "/restored-assets/1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "publicUrl": "/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
       "alt": "Platforms logo 11",
       "width": "663",
       "height": "407",
@@ -1240,8 +1240,8 @@
       "id": "image-409daf72bd1e7d",
       "sourceUrl": "/restored-assets/ccac4521d3-kotlin-icon.a1f3c98c.webp",
       "src": "/restored-assets/ccac4521d3-kotlin-icon.a1f3c98c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "publicUrl": "/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
       "alt": "Platforms logo 12",
       "width": "374",
       "height": "374",
@@ -1252,8 +1252,8 @@
       "id": "image-1613bcad21f0b2",
       "sourceUrl": "/restored-assets/521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
       "src": "/restored-assets/521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "publicUrl": "/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
       "alt": "Platforms logo 13",
       "width": "142",
       "height": "80",
@@ -1264,8 +1264,8 @@
       "id": "image-c90f675e279096",
       "sourceUrl": "/restored-assets/9038034a05-c-sharp-icon.6682430c.webp",
       "src": "/restored-assets/9038034a05-c-sharp-icon.6682430c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+      "publicUrl": "/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
       "alt": "Programming Language logo 0",
       "width": "180",
       "height": "102",
@@ -1276,8 +1276,8 @@
       "id": "image-a4533cdbaf0a24",
       "sourceUrl": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
       "src": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+      "publicUrl": "/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
       "alt": "Programming Language logo 1",
       "width": "364",
       "height": "364",
@@ -1288,8 +1288,8 @@
       "id": "image-91e9d275147720",
       "sourceUrl": "/restored-assets/912306e61f-react-native-icon.62e79e1f.webp",
       "src": "/restored-assets/912306e61f-react-native-icon.62e79e1f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+      "publicUrl": "/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
       "alt": "Programming Language logo 2",
       "width": "352",
       "height": "312",
@@ -1300,8 +1300,8 @@
       "id": "image-a00cc49bf690ee",
       "sourceUrl": "/restored-assets/e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
       "src": "/restored-assets/e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "publicUrl": "/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
       "alt": "Programming Language logo 3",
       "width": "180",
       "height": "102",
@@ -1312,8 +1312,8 @@
       "id": "image-147969c7f95f15",
       "sourceUrl": "/restored-assets/60703423fc-python-icon.d7f74b01.webp",
       "src": "/restored-assets/60703423fc-python-icon.d7f74b01.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+      "publicUrl": "/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
       "alt": "Programming Language logo 4",
       "width": "2048",
       "height": "2048",
@@ -1324,8 +1324,8 @@
       "id": "image-ee101c78a2dca4",
       "sourceUrl": "/restored-assets/6b3c9bd7b2-php-icon.df2e073e.webp",
       "src": "/restored-assets/6b3c9bd7b2-php-icon.df2e073e.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+      "publicUrl": "/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
       "alt": "Programming Language logo 5",
       "width": "3840",
       "height": "2072",
@@ -1336,8 +1336,8 @@
       "id": "image-c77f933c676528",
       "sourceUrl": "/restored-assets/6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
       "src": "/restored-assets/6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "publicUrl": "/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
       "alt": "Programming Language logo 6",
       "width": "180",
       "height": "102",
@@ -1348,8 +1348,8 @@
       "id": "image-39ee478ee07213",
       "sourceUrl": "/restored-assets/7163e2851c-javascript-icon.5b8772f8.webp",
       "src": "/restored-assets/7163e2851c-javascript-icon.5b8772f8.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+      "publicUrl": "/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
       "alt": "Programming Language logo 7",
       "width": "180",
       "height": "102",
@@ -1360,8 +1360,8 @@
       "id": "image-2488dd82f64b09",
       "sourceUrl": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
       "src": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+      "publicUrl": "/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
       "alt": "Programming Language logo 8",
       "width": "46",
       "height": "62",
@@ -1372,8 +1372,8 @@
       "id": "image-9c53bee3c88aaf",
       "sourceUrl": "/restored-assets/0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
       "src": "/restored-assets/0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "publicUrl": "/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
       "alt": "Programming Language logo 9",
       "width": "180",
       "height": "102",
@@ -1384,8 +1384,8 @@
       "id": "image-d20b9e2b98d7b1",
       "sourceUrl": "/restored-assets/ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
       "src": "/restored-assets/ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "publicUrl": "/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
       "alt": "Database & Reporting logo 0",
       "width": "180",
       "height": "102",
@@ -1396,8 +1396,8 @@
       "id": "image-8fdbe28b41b66a",
       "sourceUrl": "/restored-assets/8dc4216e78-postgresql-icon.024860fd.webp",
       "src": "/restored-assets/8dc4216e78-postgresql-icon.024860fd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+      "publicUrl": "/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
       "alt": "Database & Reporting logo 1",
       "width": "960",
       "height": "990",
@@ -1408,8 +1408,8 @@
       "id": "image-8aa2f3c8a2217a",
       "sourceUrl": "/restored-assets/7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
       "src": "/restored-assets/7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "publicUrl": "/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
       "alt": "Database & Reporting logo 2",
       "width": "180",
       "height": "102",
@@ -1420,8 +1420,8 @@
       "id": "image-2bcbd90efc6816",
       "sourceUrl": "/restored-assets/9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
       "src": "/restored-assets/9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "publicUrl": "/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
       "alt": "Database & Reporting logo 3",
       "width": "180",
       "height": "102",
@@ -1432,8 +1432,8 @@
       "id": "image-f8bd8888c8c9d4",
       "sourceUrl": "/restored-assets/dff65c2e72-mySql-icon.eec11eb6.webp",
       "src": "/restored-assets/dff65c2e72-mySql-icon.eec11eb6.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+      "publicUrl": "/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
       "alt": "Database & Reporting logo 4",
       "width": "300",
       "height": "300",
@@ -1444,8 +1444,8 @@
       "id": "image-cb0ef88aece69a",
       "sourceUrl": "/restored-assets/831b2f7ec2-mangodp-icon.32586719.webp",
       "src": "/restored-assets/831b2f7ec2-mangodp-icon.32586719.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+      "publicUrl": "/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
       "alt": "Database & Reporting logo 5",
       "width": "320",
       "height": "320",
@@ -1456,8 +1456,8 @@
       "id": "image-817542c5bc64a4",
       "sourceUrl": "/restored-assets/591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
       "src": "/restored-assets/591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "publicUrl": "/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
       "alt": "Database & Reporting logo 6",
       "width": "180",
       "height": "102",
@@ -1468,8 +1468,8 @@
       "id": "image-2d51cafda40aa9",
       "sourceUrl": "/restored-assets/2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
       "src": "/restored-assets/2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "publicUrl": "/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
       "alt": "Database & Reporting logo 7",
       "width": "180",
       "height": "102",
@@ -1480,8 +1480,8 @@
       "id": "image-275e40003707be",
       "sourceUrl": "/restored-assets/21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
       "src": "/restored-assets/21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "publicUrl": "/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
       "alt": "Database & Reporting logo 8",
       "width": "180",
       "height": "102",
@@ -1492,8 +1492,8 @@
       "id": "image-97cfe7ccca613d",
       "sourceUrl": "/restored-assets/ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
       "src": "/restored-assets/ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "publicUrl": "/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
       "alt": "Database & Reporting logo 9",
       "width": "180",
       "height": "102",
@@ -1504,8 +1504,8 @@
       "id": "image-8402e3b5bddf9a",
       "sourceUrl": "/restored-assets/391775fba9-review-light-slide-img1.webp",
       "src": "/restored-assets/391775fba9-review-light-slide-img1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
       "alt": "Review",
       "width": "200",
       "height": "50",
@@ -1516,8 +1516,8 @@
       "id": "image-00dae58bae8e2a",
       "sourceUrl": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
       "src": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
       "alt": "Trustpilot",
       "width": "200",
       "height": "50",
@@ -1528,8 +1528,8 @@
       "id": "image-7b1020d92051bb",
       "sourceUrl": "/restored-assets/026e931170-review-light-slide-img3.webp",
       "src": "/restored-assets/026e931170-review-light-slide-img3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
       "alt": "Good Firms",
       "width": "200",
       "height": "50",
@@ -1540,8 +1540,8 @@
       "id": "image-56a1fe7b317e3b",
       "sourceUrl": "/restored-assets/391775fba9-review-light-slide-img1.webp",
       "src": "/restored-assets/391775fba9-review-light-slide-img1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
       "alt": "Review",
       "width": "200",
       "height": "50",
@@ -1552,8 +1552,8 @@
       "id": "image-e71bd9a8b96110",
       "sourceUrl": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
       "src": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
       "alt": "Trustpilot",
       "width": "200",
       "height": "50",
@@ -1564,8 +1564,8 @@
       "id": "image-f531ebefa0f773",
       "sourceUrl": "/restored-assets/026e931170-review-light-slide-img3.webp",
       "src": "/restored-assets/026e931170-review-light-slide-img3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
       "alt": "Good Firms",
       "width": "200",
       "height": "50",
@@ -1576,8 +1576,8 @@
       "id": "image-5cd87dc1d85e7c",
       "sourceUrl": "/restored-assets/391775fba9-review-light-slide-img1.webp",
       "src": "/restored-assets/391775fba9-review-light-slide-img1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
       "alt": "Review",
       "width": "200",
       "height": "50",
@@ -1588,8 +1588,8 @@
       "id": "image-67ff0a9aae1a73",
       "sourceUrl": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
       "src": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
       "alt": "Trustpilot",
       "width": "200",
       "height": "50",
@@ -1600,8 +1600,8 @@
       "id": "image-3703d9877b3a93",
       "sourceUrl": "/restored-assets/026e931170-review-light-slide-img3.webp",
       "src": "/restored-assets/026e931170-review-light-slide-img3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
       "alt": "Good Firms",
       "width": "200",
       "height": "50",
@@ -1612,8 +1612,8 @@
       "id": "image-1dec88352bea9b",
       "sourceUrl": "/restored-assets/391775fba9-review-light-slide-img1.webp",
       "src": "/restored-assets/391775fba9-review-light-slide-img1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
       "alt": "Reviews",
       "width": "200",
       "height": "50",
@@ -1624,8 +1624,8 @@
       "id": "image-87fd83b403eb4f",
       "sourceUrl": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
       "src": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
       "alt": "Trustpilot",
       "width": "200",
       "height": "50",
@@ -1636,8 +1636,8 @@
       "id": "image-aa8e8267d488c3",
       "sourceUrl": "/restored-assets/026e931170-review-light-slide-img3.webp",
       "src": "/restored-assets/026e931170-review-light-slide-img3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
       "alt": "Good Firms",
       "width": "200",
       "height": "50",
@@ -1648,8 +1648,8 @@
       "id": "image-09d7eaad6cd73b",
       "sourceUrl": "/restored-assets/a6d332cd74-cleint-img4.webp",
       "src": "/restored-assets/a6d332cd74-cleint-img4.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+      "publicUrl": "/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
       "alt": "Alex M",
       "width": "144",
       "height": "144",
@@ -1660,8 +1660,8 @@
       "id": "image-365de71e7760d6",
       "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
       "src": "/restored-assets/95efd11521-img-overlay.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
       "alt": "overlay",
       "width": "144",
       "height": "144",
@@ -1672,8 +1672,8 @@
       "id": "image-f19070cc9f05f8",
       "sourceUrl": "/restored-assets/85b4873aa7-cleint-img3.webp",
       "src": "/restored-assets/85b4873aa7-cleint-img3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+      "publicUrl": "/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
       "alt": "Jessica R",
       "width": "144",
       "height": "144",
@@ -1684,8 +1684,8 @@
       "id": "image-5caff9646b2381",
       "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
       "src": "/restored-assets/95efd11521-img-overlay.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
       "alt": "overlay",
       "width": "144",
       "height": "144",
@@ -1696,8 +1696,8 @@
       "id": "image-28ded4d968dfea",
       "sourceUrl": "/restored-assets/9547bba3b5-img-05.webp",
       "src": "/restored-assets/9547bba3b5-img-05.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+      "publicUrl": "/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
       "alt": "Mark L",
       "width": "144",
       "height": "144",
@@ -1708,8 +1708,8 @@
       "id": "image-67827b305ca59f",
       "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
       "src": "/restored-assets/95efd11521-img-overlay.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
       "alt": "overlay",
       "width": "144",
       "height": "144",
@@ -1720,8 +1720,8 @@
       "id": "image-7e1c51cda9d1d5",
       "sourceUrl": "/restored-assets/c39b357584-img-06.webp",
       "src": "/restored-assets/c39b357584-img-06.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+      "publicUrl": "/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
       "alt": "Sarah P",
       "width": "144",
       "height": "144",
@@ -1732,8 +1732,8 @@
       "id": "image-d618a69624aadc",
       "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
       "src": "/restored-assets/95efd11521-img-overlay.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
       "alt": "overlay",
       "width": "144",
       "height": "144",
@@ -1744,8 +1744,8 @@
       "id": "image-59b381fd536c37",
       "sourceUrl": "/restored-assets/eb7039d063-cleint-img2.webp",
       "src": "/restored-assets/eb7039d063-cleint-img2.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+      "publicUrl": "/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
       "alt": "David K",
       "width": "144",
       "height": "144",
@@ -1756,8 +1756,8 @@
       "id": "image-50205f067f1654",
       "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
       "src": "/restored-assets/95efd11521-img-overlay.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
       "alt": "overlay",
       "width": "144",
       "height": "144",
@@ -1768,8 +1768,8 @@
       "id": "image-6362b8a299457c",
       "sourceUrl": "/restored-assets/996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
       "src": "/restored-assets/996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
       "alt": "",
       "width": "676",
       "height": "637",
@@ -1780,8 +1780,8 @@
       "id": "image-57d9586a6617d3",
       "sourceUrl": "/restored-assets/28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
       "src": "/restored-assets/28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
       "alt": "Access Elite Talent Instantly",
       "width": "47",
       "height": "50",
@@ -1792,8 +1792,8 @@
       "id": "image-a5e9c517313b96",
       "sourceUrl": "/restored-assets/7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
       "src": "/restored-assets/7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
       "alt": "Flexible, Scalable Engagement",
       "width": "53",
       "height": "50",
@@ -1804,8 +1804,8 @@
       "id": "image-d8f87b47645a38",
       "sourceUrl": "/restored-assets/0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
       "src": "/restored-assets/0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
       "alt": "Accelerated Hiring Process",
       "width": "50",
       "height": "50",
@@ -1816,8 +1816,8 @@
       "id": "image-6cdbfa6b844a13",
       "sourceUrl": "/restored-assets/b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
       "src": "/restored-assets/b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
       "alt": "Diverse Technical Expertise",
       "width": "48",
       "height": "49",
@@ -1828,8 +1828,8 @@
       "id": "image-1244efafb2fd37",
       "sourceUrl": "/restored-assets/99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
       "src": "/restored-assets/99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
       "alt": "Cost-Optimized Solutions",
       "width": "44",
       "height": "48",
@@ -1840,8 +1840,8 @@
       "id": "image-c02d6849e4b504",
       "sourceUrl": "/restored-assets/dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
       "src": "/restored-assets/dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
       "alt": "Seamless Team Integration",
       "width": "67",
       "height": "51",
@@ -1852,8 +1852,8 @@
       "id": "image-c8c4be768d7b08",
       "sourceUrl": "/restored-assets/a69dff943a-new-review-icon-add2.2f00095f.webp",
       "src": "/restored-assets/a69dff943a-new-review-icon-add2.2f00095f.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "publicUrl": "/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
       "alt": "Top Mobile App Development Company - DesignRush",
       "width": "100",
       "height": "100",
@@ -1864,8 +1864,8 @@
       "id": "image-bf487ffae8a6ac",
       "sourceUrl": "/restored-assets/5eaac22262-new-review-icon-add4.36bf2813.webp",
       "src": "/restored-assets/5eaac22262-new-review-icon-add4.36bf2813.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "publicUrl": "/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
       "alt": "Top Clutch Software Developers Gaming Texas",
       "width": "100",
       "height": "100",
@@ -1876,8 +1876,8 @@
       "id": "image-111fb9bc60f59d",
       "sourceUrl": "/restored-assets/9155852f6f-rightfirms-badge-company.e41b1db6.webp",
       "src": "/restored-assets/9155852f6f-rightfirms-badge-company.e41b1db6.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "publicUrl": "/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
       "alt": "RightFirms Badge",
       "width": "100",
       "height": "100",
@@ -1900,8 +1900,8 @@
       "id": "image-b940ad210952d4",
       "sourceUrl": "/restored-assets/e3594274d9-new-review-icon-add6.b80d94ac.webp",
       "src": "/restored-assets/e3594274d9-new-review-icon-add6.b80d94ac.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "publicUrl": "/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
       "alt": "Top Clutch Application Management Support Company Austin 2025",
       "width": "100",
       "height": "100",
@@ -1924,8 +1924,8 @@
       "id": "image-818e85f80627fe",
       "sourceUrl": "/restored-assets/24fc46a050-new-review-icon-add.cd53fcfd.webp",
       "src": "/restored-assets/24fc46a050-new-review-icon-add.cd53fcfd.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "publicUrl": "/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
       "alt": "Top Mobile App Development Company - DesignRush",
       "width": "100",
       "height": "100",
@@ -1936,8 +1936,8 @@
       "id": "image-b52381d6e129df",
       "sourceUrl": "/restored-assets/f82daece66-new-review-icon-add7.e948f5a1.webp",
       "src": "/restored-assets/f82daece66-new-review-icon-add7.e948f5a1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "publicUrl": "/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
       "alt": "Top Clutch App Development Company Non-profit Austin",
       "width": "100",
       "height": "100",
@@ -1948,8 +1948,8 @@
       "id": "image-7d8a8f4f1a61e5",
       "sourceUrl": "/restored-assets/fa4280490a-new-review-icon-add3.ab13b3af.webp",
       "src": "/restored-assets/fa4280490a-new-review-icon-add3.ab13b3af.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "publicUrl": "/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
       "alt": "Top Mobile App Development Company - Techreviewer",
       "width": "100",
       "height": "100",
@@ -1960,8 +1960,8 @@
       "id": "image-da919d6cca4039",
       "sourceUrl": "/restored-assets/5e86f8506e-new-review-icon-add5.581bbf36.webp",
       "src": "/restored-assets/5e86f8506e-new-review-icon-add5.581bbf36.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "publicUrl": "/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
       "alt": "Top Clutch Application Management Support Company Texas 2025",
       "width": "100",
       "height": "100",
@@ -1972,8 +1972,8 @@
       "id": "image-4de1bdf176bee8",
       "sourceUrl": "/restored-assets/f679fdd6cb-new-review-icon-add8.64f6985c.webp",
       "src": "/restored-assets/f679fdd6cb-new-review-icon-add8.64f6985c.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "publicUrl": "/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
       "alt": "Android App Development Companies",
       "width": "100",
       "height": "100",
@@ -2008,8 +2008,8 @@
       "id": "image-17549ff1353af6",
       "sourceUrl": "/restored-assets/1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
       "src": "/restored-assets/1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "publicUrl": "/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
       "alt": "",
       "width": "100",
       "height": "100",
@@ -2056,8 +2056,8 @@
       "id": "image-96b22debd63b06",
       "sourceUrl": "/restored-assets/db817c676c-arrow%20-icon.d0c676cc.webp",
       "src": "/restored-assets/db817c676c-arrow%20-icon.d0c676cc.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/5c6625427d-db817c676c-arrow -icon.d0c676cc.webp",
+      "publicUrl": "/assets/shared/images/5c6625427d-db817c676c-arrow%20-icon.d0c676cc.webp",
       "alt": "arrow icon",
       "width": "244",
       "height": "87",
@@ -2068,8 +2068,8 @@
       "id": "image-8634c89f3ded71",
       "sourceUrl": "/restored-assets/f53abd90d7-Get-in-touch-left.a51e41f1.webp",
       "src": "/restored-assets/f53abd90d7-Get-in-touch-left.a51e41f1.webp",
-      "file": null,
-      "publicUrl": null,
+      "file": "public/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "publicUrl": "/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
       "alt": "",
       "width": "3302",
       "height": "2908",
@@ -2701,6 +2701,720 @@
       "src": "/media/7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
       "file": "public/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
       "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "src": "/restored-assets/532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "file": "public/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "publicUrl": "/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "src": "/restored-assets/e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "file": "public/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "publicUrl": "/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "src": "/restored-assets/a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "file": "public/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "publicUrl": "/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "src": "/restored-assets/630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "file": "public/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "publicUrl": "/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/def3d40067-salesforce-icon.2818c9f7.webp",
+      "src": "/restored-assets/def3d40067-salesforce-icon.2818c9f7.webp",
+      "file": "public/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+      "publicUrl": "/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
+      "src": "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp",
+      "file": "public/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+      "publicUrl": "/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "src": "/restored-assets/683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "file": "public/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "publicUrl": "/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "src": "/restored-assets/35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "file": "public/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "publicUrl": "/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "src": "/restored-assets/113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "file": "public/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "publicUrl": "/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/ac6714d679-aws-icon.82ad9283.webp",
+      "src": "/restored-assets/ac6714d679-aws-icon.82ad9283.webp",
+      "file": "public/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+      "publicUrl": "/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9038034a05-c-sharp-icon.6682430c.webp",
+      "src": "/restored-assets/9038034a05-c-sharp-icon.6682430c.webp",
+      "file": "public/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+      "publicUrl": "/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
+      "src": "/restored-assets/b92051cae9-swift-icon.ad194812.webp",
+      "file": "public/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+      "publicUrl": "/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/912306e61f-react-native-icon.62e79e1f.webp",
+      "src": "/restored-assets/912306e61f-react-native-icon.62e79e1f.webp",
+      "file": "public/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+      "publicUrl": "/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "src": "/restored-assets/e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "file": "public/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "publicUrl": "/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/60703423fc-python-icon.d7f74b01.webp",
+      "src": "/restored-assets/60703423fc-python-icon.d7f74b01.webp",
+      "file": "public/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+      "publicUrl": "/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/6b3c9bd7b2-php-icon.df2e073e.webp",
+      "src": "/restored-assets/6b3c9bd7b2-php-icon.df2e073e.webp",
+      "file": "public/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+      "publicUrl": "/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "src": "/restored-assets/6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "file": "public/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "publicUrl": "/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7163e2851c-javascript-icon.5b8772f8.webp",
+      "src": "/restored-assets/7163e2851c-javascript-icon.5b8772f8.webp",
+      "file": "public/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+      "publicUrl": "/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
+      "src": "/restored-assets/b43b4200e6-java-icon.43d5627e.webp",
+      "file": "public/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+      "publicUrl": "/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "src": "/restored-assets/0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "file": "public/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "publicUrl": "/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "src": "/restored-assets/ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "file": "public/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "publicUrl": "/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/8dc4216e78-postgresql-icon.024860fd.webp",
+      "src": "/restored-assets/8dc4216e78-postgresql-icon.024860fd.webp",
+      "file": "public/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+      "publicUrl": "/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "src": "/restored-assets/7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "file": "public/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "publicUrl": "/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "src": "/restored-assets/9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "file": "public/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "publicUrl": "/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/dff65c2e72-mySql-icon.eec11eb6.webp",
+      "src": "/restored-assets/dff65c2e72-mySql-icon.eec11eb6.webp",
+      "file": "public/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+      "publicUrl": "/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/831b2f7ec2-mangodp-icon.32586719.webp",
+      "src": "/restored-assets/831b2f7ec2-mangodp-icon.32586719.webp",
+      "file": "public/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+      "publicUrl": "/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "src": "/restored-assets/591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "file": "public/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "publicUrl": "/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "src": "/restored-assets/2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "file": "public/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "publicUrl": "/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "src": "/restored-assets/21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "file": "public/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "publicUrl": "/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "src": "/restored-assets/ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "file": "public/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "publicUrl": "/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "src": "/restored-assets/56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "file": "public/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "publicUrl": "/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/eafe866af8-cross.8ed41405.webp",
+      "src": "/restored-assets/eafe866af8-cross.8ed41405.webp",
+      "file": "public/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+      "publicUrl": "/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "src": "/restored-assets/e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "file": "public/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "publicUrl": "/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "src": "/restored-assets/620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "file": "public/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "publicUrl": "/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "src": "/restored-assets/f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "file": "public/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "publicUrl": "/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "src": "/restored-assets/6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "file": "public/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/d779747557-review-dark-img4.4963ecf6.webp",
+      "src": "/restored-assets/d779747557-review-dark-img4.4963ecf6.webp",
+      "file": "public/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/43a9752920-review-dark-img2.0e47560f.webp",
+      "src": "/restored-assets/43a9752920-review-dark-img2.0e47560f.webp",
+      "file": "public/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/e4c256f358-review-dark-img3.f896b7f7.webp",
+      "src": "/restored-assets/e4c256f358-review-dark-img3.f896b7f7.webp",
+      "file": "public/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "src": "/restored-assets/a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "file": "public/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "src": "/restored-assets/1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "file": "public/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "src": "/restored-assets/7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "file": "public/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "src": "/restored-assets/600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "file": "public/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "src": "/restored-assets/cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "file": "public/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "src": "/restored-assets/7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "file": "public/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "src": "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "file": "public/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "src": "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "file": "public/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "src": "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "file": "public/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "src": "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "file": "public/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "src": "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "file": "public/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "src": "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "file": "public/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "src": "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "file": "public/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "src": "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "file": "public/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "src": "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "file": "public/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a1199c20d0-android-icon.9478f76a.webp",
+      "src": "/restored-assets/a1199c20d0-android-icon.9478f76a.webp",
+      "file": "public/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+      "publicUrl": "/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/19ae2525d5-apple-icon.fb8c86d0.webp",
+      "src": "/restored-assets/19ae2525d5-apple-icon.fb8c86d0.webp",
+      "file": "public/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/eddef3cdad-node-icon.04414d22.webp",
+      "src": "/restored-assets/eddef3cdad-node-icon.04414d22.webp",
+      "file": "public/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/85320d2495-c-plus-icon.a053ff2d.webp",
+      "src": "/restored-assets/85320d2495-c-plus-icon.a053ff2d.webp",
+      "file": "public/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+      "publicUrl": "/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/25fdf325f0-firebase-icon.8042c5fd.webp",
+      "src": "/restored-assets/25fdf325f0-firebase-icon.8042c5fd.webp",
+      "file": "public/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+      "publicUrl": "/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/05205c7695-html-icon.6586b21a.webp",
+      "src": "/restored-assets/05205c7695-html-icon.6586b21a.webp",
+      "file": "public/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+      "publicUrl": "/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f80c7b6d6f-unity-icon.32dd50df.webp",
+      "src": "/restored-assets/f80c7b6d6f-unity-icon.32dd50df.webp",
+      "file": "public/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+      "publicUrl": "/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/b92a660aac-golan-icon.fc80978c.webp",
+      "src": "/restored-assets/b92a660aac-golan-icon.fc80978c.webp",
+      "file": "public/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/24ba28309a-net-icon.427117e4.webp",
+      "src": "/restored-assets/24ba28309a-net-icon.427117e4.webp",
+      "file": "public/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "src": "/restored-assets/4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "file": "public/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "src": "/restored-assets/58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "file": "public/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "src": "/restored-assets/3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "file": "public/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "src": "/restored-assets/0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "file": "public/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "src": "/restored-assets/963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "file": "public/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "src": "/restored-assets/bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "file": "public/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "src": "/restored-assets/935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "file": "public/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "src": "/restored-assets/4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "file": "public/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "publicUrl": "/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "src": "/restored-assets/1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "file": "public/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "publicUrl": "/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "src": "/restored-assets/ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "file": "public/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "publicUrl": "/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "src": "/restored-assets/521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "file": "public/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "publicUrl": "/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/391775fba9-review-light-slide-img1.webp",
+      "src": "/restored-assets/391775fba9-review-light-slide-img1.webp",
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
+      "src": "/restored-assets/cab2956ba7-review-light-slide-img2.webp",
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/026e931170-review-light-slide-img3.webp",
+      "src": "/restored-assets/026e931170-review-light-slide-img3.webp",
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a6d332cd74-cleint-img4.webp",
+      "src": "/restored-assets/a6d332cd74-cleint-img4.webp",
+      "file": "public/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+      "publicUrl": "/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/95efd11521-img-overlay.webp",
+      "src": "/restored-assets/95efd11521-img-overlay.webp",
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/85b4873aa7-cleint-img3.webp",
+      "src": "/restored-assets/85b4873aa7-cleint-img3.webp",
+      "file": "public/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+      "publicUrl": "/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9547bba3b5-img-05.webp",
+      "src": "/restored-assets/9547bba3b5-img-05.webp",
+      "file": "public/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+      "publicUrl": "/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/c39b357584-img-06.webp",
+      "src": "/restored-assets/c39b357584-img-06.webp",
+      "file": "public/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+      "publicUrl": "/assets/shared/images/808a0c57b7-c39b357584-img-06.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/eb7039d063-cleint-img2.webp",
+      "src": "/restored-assets/eb7039d063-cleint-img2.webp",
+      "file": "public/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+      "publicUrl": "/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "src": "/restored-assets/996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "file": "public/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "src": "/restored-assets/28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "file": "public/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "src": "/restored-assets/7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "file": "public/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "src": "/restored-assets/0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "file": "public/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "src": "/restored-assets/b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "file": "public/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "src": "/restored-assets/99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "file": "public/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "src": "/restored-assets/dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "file": "public/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "src": "/restored-assets/a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "file": "public/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "publicUrl": "/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "src": "/restored-assets/5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "file": "public/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "publicUrl": "/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "src": "/restored-assets/9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "file": "public/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "publicUrl": "/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "src": "/restored-assets/e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "file": "public/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "publicUrl": "/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "src": "/restored-assets/24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "file": "public/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "publicUrl": "/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "src": "/restored-assets/f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "file": "public/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "publicUrl": "/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "src": "/restored-assets/fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "file": "public/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "publicUrl": "/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "src": "/restored-assets/5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "file": "public/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "publicUrl": "/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "src": "/restored-assets/f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "file": "public/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "publicUrl": "/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "src": "/restored-assets/1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "file": "public/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "publicUrl": "/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/db817c676c-arrow%20-icon.d0c676cc.webp",
+      "src": "/restored-assets/db817c676c-arrow%20-icon.d0c676cc.webp",
+      "file": "public/assets/shared/images/5c6625427d-db817c676c-arrow -icon.d0c676cc.webp",
+      "publicUrl": "/assets/shared/images/5c6625427d-db817c676c-arrow%20-icon.d0c676cc.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+      "src": "/restored-assets/ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+      "file": "public/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+      "src": "/restored-assets/b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+      "file": "public/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/4410890cdc-blockchain-banner-bg.webp",
+      "src": "/restored-assets/4410890cdc-blockchain-banner-bg.webp",
+      "file": "public/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a3e1e335f9-custom-software-banner-bg.webp",
+      "src": "/restored-assets/a3e1e335f9-custom-software-banner-bg.webp",
+      "file": "public/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/13ef43abf5-staff-augmentation-banner-bg.webp",
+      "src": "/restored-assets/13ef43abf5-staff-augmentation-banner-bg.webp",
+      "file": "public/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/3d38c45986-web-development-banner-bg.webp",
+      "src": "/restored-assets/3d38c45986-web-development-banner-bg.webp",
+      "file": "public/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/8cc5f070b9-bg-slide.796d10f2.webp",
+      "src": "/restored-assets/8cc5f070b9-bg-slide.796d10f2.webp",
+      "file": "public/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp",
+      "publicUrl": "/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+      "src": "/restored-assets/c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+      "file": "public/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+      "publicUrl": "/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg"
+    },
+    {
+      "sourceUrl": "/restored-assets/daaee6d807-bg-contact-us.8a214ee5.svg",
+      "src": "/restored-assets/daaee6d807-bg-contact-us.8a214ee5.svg",
+      "file": "public/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg",
+      "publicUrl": "/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg"
+    },
+    {
+      "sourceUrl": "/restored-assets/436d4f23d8-bg-hero.04693047.svg",
+      "src": "/restored-assets/436d4f23d8-bg-hero.04693047.svg",
+      "file": "public/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg",
+      "publicUrl": "/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg"
+    },
+    {
+      "sourceUrl": "/restored-assets/913eb35635-sub-img-heading.808e25e6.webp",
+      "src": "/restored-assets/913eb35635-sub-img-heading.808e25e6.webp",
+      "file": "public/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp",
+      "publicUrl": "/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/d1babf70de-bg-01.45158913.webp",
+      "src": "/restored-assets/d1babf70de-bg-01.45158913.webp",
+      "file": "public/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp",
+      "publicUrl": "/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/a95ed30a4c-bg-clients-review.85355acd.webp",
+      "src": "/restored-assets/a95ed30a4c-bg-clients-review.85355acd.webp",
+      "file": "public/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp",
+      "publicUrl": "/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/cc5df51d9c-tp-corner.4ff67f72.webp",
+      "src": "/restored-assets/cc5df51d9c-tp-corner.4ff67f72.webp",
+      "file": "public/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp",
+      "publicUrl": "/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp"
+    },
+    {
+      "sourceUrl": "/restored-assets/9280572203-a9e93f0d28a9aeb4-s.woff2",
+      "src": "/restored-assets/9280572203-a9e93f0d28a9aeb4-s.woff2",
+      "file": "public/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2",
+      "publicUrl": "/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2"
+    },
+    {
+      "sourceUrl": "/restored-assets/8b03c88ebe-4326a07f88b57dbc-s.woff2",
+      "src": "/restored-assets/8b03c88ebe-4326a07f88b57dbc-s.woff2",
+      "file": "public/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2",
+      "publicUrl": "/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2"
+    },
+    {
+      "sourceUrl": "/restored-assets/d103bbfb04-21e001ddb4fba3e6-s.woff2",
+      "src": "/restored-assets/d103bbfb04-21e001ddb4fba3e6-s.woff2",
+      "file": "public/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2",
+      "publicUrl": "/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2"
+    },
+    {
+      "sourceUrl": "/restored-assets/06d012ec08-188f1f2627849ff2-s.woff2",
+      "src": "/restored-assets/06d012ec08-188f1f2627849ff2-s.woff2",
+      "file": "public/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2",
+      "publicUrl": "/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2"
     }
   ],
   "files": [
@@ -3431,6 +4145,1373 @@
       "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
       "kind": "images",
       "bytes": 8774
+    },
+    {
+      "file": "public/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "publicUrl": "/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+      "kind": "images",
+      "bytes": 3226,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "publicUrl": "/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+      "kind": "images",
+      "bytes": 2864,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "publicUrl": "/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+      "kind": "images",
+      "bytes": 3950,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "publicUrl": "/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+      "kind": "images",
+      "bytes": 4420,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+      "publicUrl": "/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+      "kind": "images",
+      "bytes": 3538,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+      "publicUrl": "/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+      "kind": "images",
+      "bytes": 884,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "publicUrl": "/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+      "kind": "images",
+      "bytes": 3438,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "publicUrl": "/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+      "kind": "images",
+      "bytes": 7126,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "publicUrl": "/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+      "kind": "images",
+      "bytes": 2794,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+      "publicUrl": "/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+      "kind": "images",
+      "bytes": 37742,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+      "publicUrl": "/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+      "kind": "images",
+      "bytes": 3760,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+      "publicUrl": "/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+      "kind": "images",
+      "bytes": 11422,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+      "publicUrl": "/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+      "kind": "images",
+      "bytes": 27988,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "publicUrl": "/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+      "kind": "images",
+      "bytes": 3636,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+      "publicUrl": "/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+      "kind": "images",
+      "bytes": 50534,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+      "publicUrl": "/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+      "kind": "images",
+      "bytes": 102494,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "publicUrl": "/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+      "kind": "images",
+      "bytes": 4558,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+      "publicUrl": "/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+      "kind": "images",
+      "bytes": 1714,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+      "publicUrl": "/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+      "kind": "images",
+      "bytes": 1242,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "publicUrl": "/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+      "kind": "images",
+      "bytes": 1378,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "publicUrl": "/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+      "kind": "images",
+      "bytes": 2926,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+      "publicUrl": "/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+      "kind": "images",
+      "bytes": 40084,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "publicUrl": "/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+      "kind": "images",
+      "bytes": 3750,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "publicUrl": "/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+      "kind": "images",
+      "bytes": 2800,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+      "publicUrl": "/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+      "kind": "images",
+      "bytes": 8692,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+      "publicUrl": "/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+      "kind": "images",
+      "bytes": 5284,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "publicUrl": "/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+      "kind": "images",
+      "bytes": 4566,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "publicUrl": "/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+      "kind": "images",
+      "bytes": 2984,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "publicUrl": "/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+      "kind": "images",
+      "bytes": 5292,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "publicUrl": "/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+      "kind": "images",
+      "bytes": 2156,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "publicUrl": "/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+      "kind": "images",
+      "bytes": 4300,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+      "publicUrl": "/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+      "kind": "images",
+      "bytes": 1260,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "publicUrl": "/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+      "kind": "images",
+      "bytes": 1030,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "publicUrl": "/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+      "kind": "images",
+      "bytes": 4618,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "publicUrl": "/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+      "kind": "images",
+      "bytes": 846440,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+      "kind": "images",
+      "bytes": 2204,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+      "kind": "images",
+      "bytes": 2194,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+      "kind": "images",
+      "bytes": 2044,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+      "kind": "images",
+      "bytes": 2160,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+      "kind": "images",
+      "bytes": 78284,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+      "kind": "images",
+      "bytes": 976,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+      "kind": "images",
+      "bytes": 946,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+      "kind": "images",
+      "bytes": 1306,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+      "kind": "images",
+      "bytes": 818,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+      "kind": "images",
+      "bytes": 1356,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+      "kind": "images",
+      "bytes": 618,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+      "kind": "images",
+      "bytes": 602,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+      "kind": "images",
+      "bytes": 736,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+      "kind": "images",
+      "bytes": 474,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+      "kind": "images",
+      "bytes": 672,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+      "kind": "images",
+      "bytes": 544,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+      "kind": "images",
+      "bytes": 928,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+      "kind": "images",
+      "bytes": 874,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+      "kind": "images",
+      "bytes": 864,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+      "publicUrl": "/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+      "kind": "images",
+      "bytes": 566,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+      "kind": "images",
+      "bytes": 408,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+      "kind": "images",
+      "bytes": 22912,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+      "publicUrl": "/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+      "kind": "images",
+      "bytes": 1194,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+      "publicUrl": "/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+      "kind": "images",
+      "bytes": 7806,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+      "publicUrl": "/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+      "kind": "images",
+      "bytes": 7694,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+      "publicUrl": "/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+      "kind": "images",
+      "bytes": 544,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+      "kind": "images",
+      "bytes": 1044,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+      "kind": "images",
+      "bytes": 1544,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+      "kind": "images",
+      "bytes": 72036,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+      "kind": "images",
+      "bytes": 1320,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+      "kind": "images",
+      "bytes": 1136,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+      "kind": "images",
+      "bytes": 972,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+      "kind": "images",
+      "bytes": 962,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+      "kind": "images",
+      "bytes": 1072,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+      "kind": "images",
+      "bytes": 948,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "publicUrl": "/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+      "kind": "images",
+      "bytes": 4486,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "publicUrl": "/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+      "kind": "images",
+      "bytes": 12762,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "publicUrl": "/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+      "kind": "images",
+      "bytes": 35274,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "publicUrl": "/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+      "kind": "images",
+      "bytes": 2982,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+      "kind": "images",
+      "bytes": 904,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+      "kind": "images",
+      "bytes": 776,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+      "kind": "images",
+      "bytes": 858,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+      "publicUrl": "/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+      "kind": "images",
+      "bytes": 4702,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+      "kind": "images",
+      "bytes": 4442,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+      "publicUrl": "/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+      "kind": "images",
+      "bytes": 5786,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+      "publicUrl": "/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+      "kind": "images",
+      "bytes": 5322,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+      "publicUrl": "/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+      "kind": "images",
+      "bytes": 6746,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+      "publicUrl": "/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+      "kind": "images",
+      "bytes": 6082,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+      "kind": "images",
+      "bytes": 138408,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+      "kind": "images",
+      "bytes": 746,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+      "kind": "images",
+      "bytes": 1356,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+      "kind": "images",
+      "bytes": 1252,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+      "kind": "images",
+      "bytes": 1148,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+      "kind": "images",
+      "bytes": 836,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+      "kind": "images",
+      "bytes": 1228,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "publicUrl": "/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+      "kind": "images",
+      "bytes": 4856,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "publicUrl": "/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+      "kind": "images",
+      "bytes": 46794,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "publicUrl": "/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+      "kind": "images",
+      "bytes": 26782,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "publicUrl": "/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+      "kind": "images",
+      "bytes": 46474,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "publicUrl": "/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+      "kind": "images",
+      "bytes": 14958,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "publicUrl": "/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+      "kind": "images",
+      "bytes": 44230,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "publicUrl": "/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+      "kind": "images",
+      "bytes": 18162,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "publicUrl": "/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+      "kind": "images",
+      "bytes": 46490,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "publicUrl": "/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+      "kind": "images",
+      "bytes": 51384,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "publicUrl": "/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+      "kind": "images",
+      "bytes": 4704,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/5c6625427d-db817c676c-arrow -icon.d0c676cc.webp",
+      "publicUrl": "/assets/shared/images/5c6625427d-db817c676c-arrow%20-icon.d0c676cc.webp",
+      "kind": "images",
+      "bytes": 2694,
+      "usedByPages": [
+        "/staff-augmentation",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+      "kind": "images",
+      "bytes": 34128,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+      "publicUrl": "/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+      "kind": "images",
+      "bytes": 28930,
+      "usedByPages": [
+        "/staff-augmentation"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp",
+      "kind": "images",
+      "bytes": 110470,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp",
+      "kind": "images",
+      "bytes": 89400,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp",
+      "kind": "images",
+      "bytes": 99684,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp",
+      "publicUrl": "/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp",
+      "kind": "images",
+      "bytes": 782262,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp",
+      "publicUrl": "/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp",
+      "kind": "images",
+      "bytes": 22858,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+      "publicUrl": "/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+      "kind": "images",
+      "bytes": 465,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg",
+      "publicUrl": "/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg",
+      "kind": "images",
+      "bytes": 853598,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg",
+      "publicUrl": "/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg",
+      "kind": "images",
+      "bytes": 310,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp",
+      "publicUrl": "/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp",
+      "kind": "images",
+      "bytes": 2368,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp",
+      "publicUrl": "/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp",
+      "kind": "images",
+      "bytes": 12680,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp",
+      "publicUrl": "/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp",
+      "kind": "images",
+      "bytes": 9280,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp",
+      "publicUrl": "/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp",
+      "kind": "images",
+      "bytes": 1394,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2",
+      "publicUrl": "/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2",
+      "kind": "fonts",
+      "bytes": 36780,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2",
+      "publicUrl": "/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2",
+      "kind": "fonts",
+      "bytes": 45464,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2",
+      "publicUrl": "/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2",
+      "kind": "fonts",
+      "bytes": 45132,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
+    },
+    {
+      "file": "public/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2",
+      "publicUrl": "/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2",
+      "kind": "fonts",
+      "bytes": 44948,
+      "usedByPages": [
+        "/web-development",
+        "/staff-augmentation",
+        "/iot-development",
+        "/virtual-reality-development",
+        "/ar-app-development",
+        "/mobile-game-development"
+      ]
     }
   ]
 }

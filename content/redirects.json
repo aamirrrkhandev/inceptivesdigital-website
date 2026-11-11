@@ -45,11 +45,6 @@
     "statusCode": 301
   },
   {
-    "source": "/mobile-game-development",
-    "destination": "/blog/mobile-game-development-cost",
-    "statusCode": 301
-  },
-  {
     "source": "/web-app-development",
     "destination": "/web-app-development-company",
     "statusCode": 301
@@ -137,6 +132,16 @@
   {
     "source": "/blog/rightfirms-top-artificial-intelligence-company-2026",
     "destination": "/press-release/rightfirms-top-artificial-intelligence-company-2026",
+    "statusCode": 301
+  },
+  {
+    "source": "/terms-and-condition",
+    "destination": "/terms-and-conditions",
+    "statusCode": 301
+  },
+  {
+    "source": "/staff-augmentatione",
+    "destination": "/staff-augmentation",
     "statusCode": 301
   }
 ]

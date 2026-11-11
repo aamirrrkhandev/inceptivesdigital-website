@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Application Development / By Type",
+    "after": "/cross-platform-app-development",
+    "links": [
+      {
+        "path": "/web-development",
+        "label": "Web Development"
+      },
+      {
+        "path": "/mobile-game-development",
+        "label": "Mobile Game Development"
+      },
+      {
+        "path": "/ar-app-development",
+        "label": "AR App Development"
+      },
+      {
+        "path": "/virtual-reality-development",
+        "label": "VR Development"
+      }
+    ]
+  },
+  {
+    "category": "Artificial Intelligence / Automation",
+    "after": "/rpa-development-services",
+    "links": [
+      {
+        "path": "/iot-development",
+        "label": "IoT Development"
+      }
+    ]
+  },
+  {
+    "category": "Digital Product Development / By Engagement",
+    "after": "/custom-software-development",
+    "links": [
+      {
+        "path": "/staff-augmentation",
+        "label": "Staff Augmentation"
+      }
+    ]
+  }
+]

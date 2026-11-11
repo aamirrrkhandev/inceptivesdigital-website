@@ -5,6 +5,8 @@ node_modules/
 .next-home-review/
 .next-editable/
 content/editable-runtime/
+public/assets/pages/our-process/
+public/assets/pages/our-manifesto/
 tsconfig.tsbuildinfo
 public/media/*.mp4
 .vercel/
@@ -16,3 +18,25 @@ audit/raw/npm.tgz
 # Generated crawls, exports and screenshots stay local; tracked QA fixtures remain versioned.
 audit/
 image-library/
+
+public/restored-assets/028df1213b-our-mainfesto-banner-img.webp
+public/restored-assets/3fbd82a339-our-process-sec2-img1.b94ac640.webp
+public/restored-assets/03a4ab3f62-our-process-sec2-img2.f5f5016c.webp
+public/restored-assets/c07e1abe9a-our-process-sec2-img3.fb865425.webp
+public/restored-assets/909d8ee404-our-process-sec2-img4.5922449b.webp
+public/restored-assets/fc59602eb9-our-process-sec2-img5.6874f886.webp
+public/restored-assets/e49d7ce5bb-our-process-sec2-img6.058ff5cd.webp
+public/restored-assets/762242499c-active-developer-icon.9eadaa89.webp
+public/restored-assets/9677d378c4-client-review-icon.b0d9d6f7.webp
+public/restored-assets/0036ec5e34-our-process-sec3-img4.4cdc2d09.webp
+public/restored-assets/0cbb5a4fed-our-process-sec3-img5.ee0fdbaf.webp
+public/restored-assets/c62107ec52-our-process-sec5-img1.855e36fc.webp
+public/restored-assets/544eeb1fb4-our-process-sec5-img2.882f040e.webp
+public/restored-assets/26e6ff592f-our-process-sec5-img3.e8e4e2c7.webp
+public/restored-assets/02fe4c036f-our-process-sec5-img4.efa78ca1.webp
+public/restored-assets/04d53a99be-our-process-sec5-img5.43bac1bb.webp
+public/restored-assets/523a166f30-our-process-sec5-img6.d41d37c2.webp
+public/restored-assets/b9c257d2bd-our-process-sec5-img7.93cc5e55.webp
+public/restored-assets/d2e1aad729-our-process-sec5-img8.918ac63b.webp
+public/restored-assets/b4a2a5bcb7-our-process-banner-bg.dbad764d.webp
+public/restored-assets/d002e84686-our-process-sec6-bg.7a471723.webp

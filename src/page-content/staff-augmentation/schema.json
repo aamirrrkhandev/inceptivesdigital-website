@@ -1,88 +1,116 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://inceptivesdigital.com/#organization",
-    "name": "Inceptives Digital",
-    "url": "https://inceptivesdigital.com",
-    "logo": {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "width": 512,
-      "height": 512,
-      "caption": "Inceptives Digital"
-    },
-    "image": {
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-    },
-    "sameAs": [
-      "https://www.facebook.com/inceptivesdigital",
-      "https://www.instagram.com/inceptivesdigital/",
-      "https://www.linkedin.com/company/inceptivesdigital/"
-    ],
-    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-    "email": "info@inceptivesdigital.com",
-    "telephone": "+1 469 788 8527",
-    "legalName": "Inceptives Digital"
-  },
-  {
-    "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
         "@type": "WebPage",
-        "name": "IT Staff Augmentation Services USA",
-        "url": "https://inceptivesdigital.com/staff-augmentation"
+        "@id": "https://inceptivesdigital.com/staff-augmentation#webpage",
+        "url": "https://inceptivesdigital.com/staff-augmentation",
+        "name": "IT Staff Augmentation Services USA | Hire Top IT Talent",
+        "description": "Access skilled IT talent with our staff augmentation services quickly to scale your team, accelerate development, and meet project deadlines seamlessly.",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "about": {
+          "@id": "https://inceptivesdigital.com/staff-augmentation#service"
+        },
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/staff-augmentation#breadcrumb"
+        },
+        "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/staff-augmentation#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "item": {
-              "@id": "https://inceptivesdigital.com/",
-              "name": "Home"
-            }
+            "name": "Home",
+            "item": "https://inceptivesdigital.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@id": "https://inceptivesdigital.com/services",
-              "name": "Services"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://inceptivesdigital.com/staff-augmentation",
-              "name": "IT Staff Augmentation Services USA"
-            }
+            "name": "IT Staff Augmentation Services",
+            "item": "https://inceptivesdigital.com/staff-augmentation"
           }
         ]
       },
       {
-        "@type": "Product",
-        "name": "IT Staff Augmentation Services USA",
+        "@type": "Service",
+        "@id": "https://inceptivesdigital.com/staff-augmentation#service",
+        "name": "IT Staff Augmentation Services",
+        "serviceType": "IT Staff Augmentation Services",
         "description": "Access skilled IT talent with our staff augmentation services quickly to scale your team, accelerate development, and meet project deadlines seamlessly.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Inceptives Digital"
+        "url": "https://inceptivesdigital.com/staff-augmentation",
+        "provider": {
+          "@id": "https://inceptivesdigital.com/#organization"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "worstRating": "1",
-          "bestRating": "5",
-          "reviewCount": "16"
+        "mainEntityOfPage": {
+          "@id": "https://inceptivesdigital.com/staff-augmentation#webpage"
         }
       },
       {
         "@type": "FAQPage",
+        "@id": "https://inceptivesdigital.com/staff-augmentation#faq",
+        "url": "https://inceptivesdigital.com/staff-augmentation",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/staff-augmentation#webpage"
+        },
         "mainEntity": [
           {
             "@type": "Question",
@@ -118,10 +146,18 @@
           },
           {
             "@type": "Question",
+            "name": "How do your professionals fit into existing workflows?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our IT professionals are trained to adapt quickly to your tools, processes, and communication style. This means quickly!"
+            }
+          },
+          {
+            "@type": "Question",
             "name": "How do your professionals integrate with our existing workflows?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our IT professionals are trained to adapt quickly to your tools, processes, and communication style, which allows smooth collaboration just like your in-house team."
+              "text": "Our IT professionals are trained to adapt quickly to your tools, processes, and communication style, which allows smooth collaboration just in your in-house team."
             }
           },
           {
@@ -129,7 +165,7 @@
             "name": "Is staff augmentation cheaper than hiring full-time employees?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Under our model, you save on recruitment, training, benefits, and all overhead costs. So, when you want a talent, you pay for that talent only—it's an efficient money-saver."
+              "text": "Yes. Under our model, you save on recruitment, training, benefits, and all overhead costs. So, when you want a talent, you pay for that talent only-it's an efficient money-saver."
             }
           },
           {

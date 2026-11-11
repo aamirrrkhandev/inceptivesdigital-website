@@ -1,0 +1,175 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/mobile-game-development#webpage",
+        "url": "https://inceptivesdigital.com/mobile-game-development",
+        "name": "Mobile Game Development Company USA | iOS & Android",
+        "description": "As a top mobile game development company, Inceptives Digital builds mobile games for all devices, delivering immersive experiences on iOS, Android, and beyond.",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "about": {
+          "@id": "https://inceptivesdigital.com/mobile-game-development#service"
+        },
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/mobile-game-development#breadcrumb"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/mobile-game-development#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Mobile Game Development Company",
+            "item": "https://inceptivesdigital.com/mobile-game-development"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://inceptivesdigital.com/mobile-game-development#service",
+        "name": "Mobile Game Development Company",
+        "serviceType": "Mobile Game Development Company",
+        "description": "As a top mobile game development company, Inceptives Digital builds mobile games for all devices, delivering immersive experiences on iOS, Android, and beyond.",
+        "url": "https://inceptivesdigital.com/mobile-game-development",
+        "provider": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://inceptivesdigital.com/mobile-game-development#webpage"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://inceptivesdigital.com/mobile-game-development#faq",
+        "url": "https://inceptivesdigital.com/mobile-game-development",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/mobile-game-development#webpage"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What sets us apart from other game development companies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We blend creativity, the latest technology, and user-centred design to develop truly exceptional games. With 8+ years of experience as a team across all game genres, we create quality games that are not only entertaining and engaging but also provide an immersive gaming experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of games do we specialize in developing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We produce all types of games, which include mobile, console, and VR/AR experiences. Whether casual, action-filled, or immersive – we can build it and do it right!"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to develop a game?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The timeline involved in creating a game is often dependent on the size and complexity of your game project. Typically, for very simple games such as mobile games, you could expect them to take about three to six months. Many more complicated projects, such as multiplayer games and VR experiences, could take 12 months or longer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to develop a game with us?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The price of developing a game with us varies based on many aspects of the game, including game type, features needed, platform, etc. We believe in transparent pricing and will work with you to set a budget that is in line with your goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help with both game design and development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! We do all aspects of game app development: ideation, design, development, and deployment. Our talented designers, developers, and team members work together to create an engaging game experience so that it looks good, works seamlessly, and is a pleasure for players."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will you provide post-launch support and updates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For sure. We support beyond launch. We provide continuing support and maintenance services to make sure your game continues to run well, fixes any bugs, and incorporates any new features. At any time, we would be more than happy to help you scale your game and include feedback from players."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What platforms do you develop games for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We create games for every major platform. Whether it's iOS, Android, PC, or console. For mobile or cross-platform games, we leverage the best technologies and tools to make sure that your game works on the platform you choose. We'll work with you to find the right approach based on your target audience."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

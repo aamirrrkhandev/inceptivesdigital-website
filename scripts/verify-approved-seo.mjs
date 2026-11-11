@@ -8,7 +8,7 @@ fs.mkdirSync(output, { recursive: true });
 const evidence = [];
 async function page(path, source = false) {
   const response = await (source ? sourceFetch : fetch)(
-    (source ? "https://inceptivesdigital.com" : base) + path,
+    (source ? (/^\/(?:blog|press-release|category|author)(?:\/|$)/.test(path) ? "https://nextincep.wpenginepowered.com" : "https://inceptivesdigital.com") : base) + path,
     { redirect: "manual" },
   );
   return { response, $: cheerio.load(await response.text()) };

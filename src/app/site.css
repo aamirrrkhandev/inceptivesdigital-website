@@ -247,14 +247,39 @@ summary {
 }
 @media (max-width: 1024px) {
   .migrated-page[data-source-path] .sitekit-menu-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
     overflow-x: hidden !important;
     overflow-y: auto !important;
     max-height: 100dvh !important;
     overscroll-behavior: contain;
-    scrollbar-width: none;
+    scrollbar-width: thin !important;
+    scrollbar-color: #00ce44 #212121;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+    scroll-padding-top: 134px;
+    scroll-padding-bottom: 20px;
+  }
+  .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-navbar-nav {
+    flex: 0 0 auto !important;
+    order: 1 !important;
+  }
+  .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-nav-identity-panel {
+    flex: 0 0 auto !important;
+    order: 0 !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1001 !important;
+    background: inherit;
   }
   .migrated-page[data-source-path] .sitekit-menu-container::-webkit-scrollbar {
-    display: none;
+    display: block;
+    width: 4px;
+  }
+  .migrated-page[data-source-path] .sitekit-menu-container::-webkit-scrollbar-thumb {
+    background: #00ce44;
+    border-radius: 4px;
   }
   .migrated-page[data-source-path] .sitekit-menu-container .sitekit-navbar-nav {
     height: auto !important;

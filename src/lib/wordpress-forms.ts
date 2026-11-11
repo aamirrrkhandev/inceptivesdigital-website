@@ -3,8 +3,14 @@ import * as cheerio from "cheerio";
 import https from "node:https";
 import { Resolver } from "node:dns/promises";
 import { lookup as systemLookup } from "node:dns";
+import blogSource from "../../content/wordpress-blog-source.json";
 
 const origin = "https://inceptivesdigital.com";
+export async function readWordPressBlogPage(path: string) {
+  if (!path.startsWith("/") || path.startsWith("//"))
+    throw new Error("Invalid blog source path");
+  return sourceRequest(blogSource.origin + path);
+}
 export async function readWordPressPublicPage(path: string) {
   if (!path.startsWith("/") || path.startsWith("//"))
     throw new Error("Invalid source path");

@@ -21,7 +21,7 @@ try{
     const visible=e=>{const s=getComputedStyle(e),r=e.getBoundingClientRect();return r.width&&r.height&&s.visibility!=='hidden'&&s.display!=='none'};
     return {overflowY:getComputedStyle(el).overflowY,scrollbarWidth:getComputedStyle(el).scrollbarWidth,h:el.clientHeight,sh:el.scrollHeight,w:el.clientWidth,sw:el.scrollWidth,nested:[...el.querySelectorAll('*')].filter(e=>visible(e)&&['auto','scroll'].includes(getComputedStyle(e).overflowY)&&e.scrollHeight>e.clientHeight+2).map(e=>({tag:e.tagName,cls:String(e.className)}))};
    });
-   assert.equal(state.overflowY,'auto');assert.equal(state.scrollbarWidth,'none');assert.deepEqual(state.nested,[],`Nested scroll at ${width}, submenu ${index}`);assert.ok(state.sw<=state.w+1,`Menu horizontal overflow at ${width}`);
+   assert.equal(state.overflowY,'auto');assert.equal(state.scrollbarWidth,'thin');assert.deepEqual(state.nested,[],`Nested scroll at ${width}, submenu ${index}`);assert.ok(state.sw<=state.w+1,`Menu horizontal overflow at ${width}`);
    if(index===0&&state.sh>state.h+10){const before=await page.evaluate(()=>scrollY);const rect=await menu.boundingBox();await page.mouse.move(rect.x+rect.width/2,Math.min(height-50,rect.y+200));await page.mouse.wheel(0,400);await page.waitForTimeout(150);assert.ok(await menu.evaluate(el=>el.scrollTop)>0,'Drawer must remain scrollable by wheel');assert.equal(await page.evaluate(()=>scrollY),before,'Background must stay still');}
    await menu.evaluate(el=>el.scrollTop=el.scrollHeight);
    const reachedBottom=await menu.evaluate(el=>el.scrollHeight-el.clientHeight-el.scrollTop<=2);assert.ok(reachedBottom);

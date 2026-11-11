@@ -735,8 +735,7 @@
                                     },
                                     "src": "/restored-assets/9ce9c7adad-heart-icon.a93997dd.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-af21747cab9f27"
+                                  "children": []
                                 }
                               ]
                             },
@@ -797,8 +796,7 @@
                                     },
                                     "src": "/restored-assets/18a9c1ade9-fitness-icon.b875f2c7.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-2893eeb3863440"
+                                  "children": []
                                 }
                               ]
                             },
@@ -859,8 +857,7 @@
                                     },
                                     "src": "/restored-assets/91bc7d8552-e-learn-icon.59b3655a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-8a48684b3438b3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -921,8 +918,7 @@
                                     },
                                     "src": "/restored-assets/6b0bb18898-Real-state-icon.48c98d4f.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-441f158eb31d76"
+                                  "children": []
                                 }
                               ]
                             },
@@ -983,8 +979,7 @@
                                     },
                                     "src": "/restored-assets/fc03843308-dating-icon.7cae578a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-e2919b80ff51d3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1045,8 +1040,7 @@
                                     },
                                     "src": "/restored-assets/a20527ac3a-travel-icon.c213cba2.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-549e81278a831e"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1107,8 +1101,7 @@
                                     },
                                     "src": "/restored-assets/7ffe161571-fintech-icon.6b3ff40a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-620643e8337ea2"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1169,8 +1162,7 @@
                                     },
                                     "src": "/restored-assets/31926c1998-food-delivery-icon.b8d8be81.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-835eadc0e3b486"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1231,8 +1223,7 @@
                                     },
                                     "src": "/restored-assets/a285bac86e-e-Commerce-icon.149a7953.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-5319aecbbe090c"
+                                  "children": []
                                 }
                               ]
                             },
@@ -4765,7 +4756,7 @@
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
                           },
                           "children": [
                             "What is IoT development, and how does it help my business?"
@@ -4774,7 +4765,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -4824,7 +4815,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "iot-development-faq-35",
+                        "id": "iot-development-faq-35-question"
                       },
                       "children": [
                         {
@@ -4856,6 +4853,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "iot-development-faq-35",
+                        "role": "region",
+                        "aria-labelledby": "iot-development-faq-35-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "The cost for IoT development services usually lies between $5,000 for a basic proof-of-concept to over $1,000,000 for complex enterprise solutions, while factors like device complexity, firmware, cloud platforms, mobile applications, and integrations may impact the cost. "
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4868,7 +4886,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "iot-development-faq-36",
+                        "id": "iot-development-faq-36-question"
                       },
                       "children": [
                         {
@@ -4900,6 +4924,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "iot-development-faq-36",
+                        "role": "region",
+                        "aria-labelledby": "iot-development-faq-36-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "We rely on secure communication methods, management of identities, and cloud platforms that are ready for compliance. The devices, data, and applications are safe throughout the whole process due to the multi-layered detection of threats and the provision of secure OTA updates."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4912,7 +4957,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "iot-development-faq-37",
+                        "id": "iot-development-faq-37-question"
                       },
                       "children": [
                         {
@@ -4944,6 +4995,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "iot-development-faq-37",
+                        "role": "region",
+                        "aria-labelledby": "iot-development-faq-37-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "We offer IoT services to 20+ industries, including health care, automotive, transportation, real estate, manufacturing, sports, finance, and e-commerce. Each solution is tailored to the specific operational, regulatory, and performance needs of the industry in question."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4956,7 +5028,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "iot-development-faq-38",
+                        "id": "iot-development-faq-38-question"
                       },
                       "children": [
                         {
@@ -4988,6 +5066,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "iot-development-faq-38",
+                        "role": "region",
+                        "aria-labelledby": "iot-development-faq-38-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "We have expertise in tools including MQTT, CoAP, HTTP/HTTPS, AWS IoT, Azure IoT Hub, Google Cloud IoT, InfluxDB, Grafana, Node-RED, Docker, and Kubernetes. The technology we leverage is inclusive of sensor integration, embedded firmware development, edge computing implementation, dashboard creation, and mobile application development."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -5000,13 +5099,19 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "iot-development-faq-39",
+                        "id": "iot-development-faq-39-question"
                       },
                       "children": [
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
                           },
                           "children": [
                             "Do you offer post-launch maintenance and support?"
@@ -5015,7 +5120,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -5029,6 +5134,27 @@
                               },
                               "children": []
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "iot-development-faq-39",
+                        "role": "region",
+                        "aria-labelledby": "iot-development-faq-39-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "Yes, we provide comprehensive service, including continuous monitoring, security patching, firmware updating, cloud optimization, and feature enhancements. With our support, your IoT remains secure and scalable, reliable, and optimized over time."
                           ]
                         }
                       ]

@@ -68,7 +68,7 @@ try{
  for(const [path,id] of [
   ['/services','website-footer-enquiry'],
   ['/services','website-popup-enquiry'],
-  ...['web-development','staff-augmentation','iot-development','virtual-reality-development','ar-app-development'].map(slug=>['/'+slug,'website-'+slug+'-enquiry']),
+  ...['web-development','staff-augmentation','iot-development','virtual-reality-development','ar-app-development','mobile-game-development'].map(slug=>['/'+slug,'website-'+slug+'-enquiry']),
   ['/staff-augmentation','website-staff-assessment'],
   ['/ios-app-development','id-ios-form'],
  ]) {

@@ -34,7 +34,7 @@ export default function SourceLayout({
     <div
       className={"migrated-page " + page.bodyClass}
       data-source-path={page.path}
-      data-form-source-path={formSourcePath}
+      data-form-source-path={formSourcePath ?? (/^\/(?:blog|press-release)(?:\/|$)|^\/(?:category|author)\//.test(page.path) ? "/contact-us" : undefined)}
     >
       <style>{css}</style>
       {page.nodes.map((node, i) =>

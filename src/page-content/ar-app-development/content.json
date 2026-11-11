@@ -779,8 +779,7 @@
                                     },
                                     "src": "/restored-assets/9ce9c7adad-heart-icon.a93997dd.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-af21747cab9f27"
+                                  "children": []
                                 }
                               ]
                             },
@@ -841,8 +840,7 @@
                                     },
                                     "src": "/restored-assets/18a9c1ade9-fitness-icon.b875f2c7.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-2893eeb3863440"
+                                  "children": []
                                 }
                               ]
                             },
@@ -903,8 +901,7 @@
                                     },
                                     "src": "/restored-assets/91bc7d8552-e-learn-icon.59b3655a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-8a48684b3438b3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -965,8 +962,7 @@
                                     },
                                     "src": "/restored-assets/6b0bb18898-Real-state-icon.48c98d4f.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-441f158eb31d76"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1027,8 +1023,7 @@
                                     },
                                     "src": "/restored-assets/fc03843308-dating-icon.7cae578a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-e2919b80ff51d3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1089,8 +1084,7 @@
                                     },
                                     "src": "/restored-assets/a20527ac3a-travel-icon.c213cba2.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-549e81278a831e"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1151,8 +1145,7 @@
                                     },
                                     "src": "/restored-assets/7ffe161571-fintech-icon.6b3ff40a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-620643e8337ea2"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1213,8 +1206,7 @@
                                     },
                                     "src": "/restored-assets/31926c1998-food-delivery-icon.b8d8be81.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-835eadc0e3b486"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1275,8 +1267,7 @@
                                     },
                                     "src": "/restored-assets/a285bac86e-e-Commerce-icon.149a7953.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-5319aecbbe090c"
+                                  "children": []
                                 }
                               ]
                             },
@@ -4831,7 +4822,7 @@
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
                           },
                           "children": [
                             "In what ways can your AR app development services support the visibility of our business?"
@@ -4840,7 +4831,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -4890,7 +4881,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "ar-app-development-faq-35",
+                        "id": "ar-app-development-faq-35-question"
                       },
                       "children": [
                         {
@@ -4922,6 +4919,38 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "ar-app-development-faq-35",
+                        "role": "region",
+                        "aria-labelledby": "ar-app-development-faq-35-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "Our Augmented Reality ",
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                "href": "/staff-augmentatione"
+                              },
+                              "children": [
+                                "app development team"
+                              ]
+                            },
+                            " has been working on AR solutions for different industries such as retail, real estate, education, healthcare, and entertainment. Whether your request is for a virtual product try-on, an interactive training tool, or an immersive marketing campaign, we will provide our AR development services according to your industry's requirements."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4934,7 +4963,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "ar-app-development-faq-36",
+                        "id": "ar-app-development-faq-36-question"
                       },
                       "children": [
                         {
@@ -4966,6 +5001,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "ar-app-development-faq-36",
+                        "role": "region",
+                        "aria-labelledby": "ar-app-development-faq-36-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "Our Augmented Reality app developers utilize advanced and the most in-demand tools and frameworks, which include Unity, Unreal Engine, ARKit, ARCore, Vuforia, and Blender. Besides these, we integrate AI, IoT, and cloud capabilities to make your AR application smarter, secure, and expandable."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4978,7 +5034,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "ar-app-development-faq-37",
+                        "id": "ar-app-development-faq-37-question"
                       },
                       "children": [
                         {
@@ -5010,6 +5072,38 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "ar-app-development-faq-37",
+                        "role": "region",
+                        "aria-labelledby": "ar-app-development-faq-37-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "The ",
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                "href": "/blog/app-development-timeline"
+                              },
+                              "children": [
+                                "app development timeline"
+                              ]
+                            },
+                            " differs according to the complexity and features of the app.  A simple AR experience may take 4–8 weeks, whereas large-scale or multi-platform AR solutions may take several months. A precise timeline will be discussed during the discovery phase."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -5022,13 +5116,19 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "ar-app-development-faq-38",
+                        "id": "ar-app-development-faq-38-question"
                       },
                       "children": [
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
                           },
                           "children": [
                             "How much does it cost to develop an AR app with your team?"
@@ -5037,7 +5137,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -5051,6 +5151,38 @@
                               },
                               "children": []
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "ar-app-development-faq-38",
+                        "role": "region",
+                        "aria-labelledby": "ar-app-development-faq-38-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "The AR ",
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                "href": "/blog/mobile-app-development-cost"
+                              },
+                              "children": [
+                                "app development cost"
+                              ]
+                            },
+                            " varies according to the app type, the chosen platform, the quality of 3D assets, and integration. Typically, the cost of an AR project falls between $25,000 and $500,000. We deliver open quotes once we understand your project scope and objectives."
                           ]
                         }
                       ]
@@ -5379,40 +5511,6 @@
                                         {
                                           "tag": "div",
                                           "props": {},
-                                          "children": [
-                                            {
-                                              "tag": "iframe",
-                                              "props": {
-                                                "title": "reCAPTCHA",
-                                                "width": "304",
-                                                "height": "78",
-                                                "role": "presentation",
-                                                "name": "a-kdbcisj5iy0g",
-                                                "frameborder": "0",
-                                                "scrolling": "no",
-                                                "sandbox": "allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation",
-                                                "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeiEdMrAAAAABvKNR7mGYyylUHch7uSazvosIa7&co=aHR0cHM6Ly9pbmNlcHRpdmVzLnZlcmNlbC5hcHA6NDQz&hl=en&type=image&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=dark&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=9ciua1q8dajn"
-                                              },
-                                              "children": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "tag": "textarea",
-                                          "props": {
-                                            "id": "g-recaptcha-response",
-                                            "name": "g-recaptcha-response",
-                                            "className": "g-recaptcha-response",
-                                            "style": {
-                                              "width": "250px",
-                                              "height": "40px",
-                                              "border": "1px solid rgb(193, 193, 193)",
-                                              "margin": "10px 25px",
-                                              "padding": "0px",
-                                              "resize": "none",
-                                              "display": "none"
-                                            }
-                                          },
                                           "children": []
                                         }
                                       ]

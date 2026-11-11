@@ -12465,5 +12465,2270 @@
     "publicUrl": "/assets/pages/ios-app-development/images/603cbec944-ios-cta-300x227.png",
     "kind": "images",
     "bytes": 19452
+  },
+  "/restored-assets/925df12e3a-review-light-img1.af126eca.webp": {
+    "file": "public/assets/shared/images/95c1c5436e-925df12e3a-review-light-img1.af126eca.webp",
+    "publicUrl": "/assets/shared/images/95c1c5436e-925df12e3a-review-light-img1.af126eca.webp",
+    "kind": "images",
+    "bytes": 2566,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/1e91e17a30-review-light-img4.9c717a39.webp": {
+    "file": "public/assets/shared/images/cd48960b74-1e91e17a30-review-light-img4.9c717a39.webp",
+    "publicUrl": "/assets/shared/images/cd48960b74-1e91e17a30-review-light-img4.9c717a39.webp",
+    "kind": "images",
+    "bytes": 2452,
+    "usedByPages": [
+      "/web-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/51464522da-review-light-img2.d001634e.webp": {
+    "file": "public/assets/shared/images/1d2b90ad61-51464522da-review-light-img2.d001634e.webp",
+    "publicUrl": "/assets/shared/images/1d2b90ad61-51464522da-review-light-img2.d001634e.webp",
+    "kind": "images",
+    "bytes": 2698,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/a519c4836d-review-light-img3.9fdd0460.webp": {
+    "file": "public/assets/shared/images/b865b3788b-a519c4836d-review-light-img3.9fdd0460.webp",
+    "publicUrl": "/assets/shared/images/b865b3788b-a519c4836d-review-light-img3.9fdd0460.webp",
+    "kind": "images",
+    "bytes": 2608,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/571df9d0e9-web-development-sec2-img.7c70602b.webp": {
+    "file": "public/assets/pages/web-development/images/76780cd150-571df9d0e9-web-development-sec2-img.7c70602b.webp",
+    "publicUrl": "/assets/pages/web-development/images/76780cd150-571df9d0e9-web-development-sec2-img.7c70602b.webp",
+    "kind": "images",
+    "bytes": 144780,
+    "usedByPages": [
+      "/web-development"
+    ]
+  },
+  "/restored-assets/532b6b3385-seo-page-sec8-img1.524db7a9.webp": {
+    "file": "public/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+    "publicUrl": "/assets/shared/images/7dd7875268-532b6b3385-seo-page-sec8-img1.524db7a9.webp",
+    "kind": "images",
+    "bytes": 3226,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp": {
+    "file": "public/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+    "publicUrl": "/assets/shared/images/aacb56b90b-e63ddea3f8-seo-page-sec8-img2.be0ccbee.webp",
+    "kind": "images",
+    "bytes": 2864,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/a813490a6f-seo-page-sec8-img3.165d6da8.webp": {
+    "file": "public/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+    "publicUrl": "/assets/shared/images/d35eda0f28-a813490a6f-seo-page-sec8-img3.165d6da8.webp",
+    "kind": "images",
+    "bytes": 3950,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp": {
+    "file": "public/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+    "publicUrl": "/assets/shared/images/7c10cd9b62-630dd9ce5e-seo-page-sec8-img4.ae3fc7f8.webp",
+    "kind": "images",
+    "bytes": 4420,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/def3d40067-salesforce-icon.2818c9f7.webp": {
+    "file": "public/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+    "publicUrl": "/assets/shared/images/85f03a50fe-def3d40067-salesforce-icon.2818c9f7.webp",
+    "kind": "images",
+    "bytes": 3538,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/9285c57cbb-azure-icon.73568cc5.webp": {
+    "file": "public/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+    "publicUrl": "/assets/shared/images/aeeb99032a-9285c57cbb-azure-icon.73568cc5.webp",
+    "kind": "images",
+    "bytes": 884,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/683c261323-seo-page-sec8-img7.ec48372c.webp": {
+    "file": "public/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+    "publicUrl": "/assets/shared/images/ff8f0de80f-683c261323-seo-page-sec8-img7.ec48372c.webp",
+    "kind": "images",
+    "bytes": 3438,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/35c6d5e32d-google-cloud-icon.0d62e786.webp": {
+    "file": "public/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+    "publicUrl": "/assets/shared/images/f8d22aa0d1-35c6d5e32d-google-cloud-icon.0d62e786.webp",
+    "kind": "images",
+    "bytes": 7126,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/113e6c58b4-seo-page-sec8-img9.a03934ae.webp": {
+    "file": "public/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+    "publicUrl": "/assets/shared/images/de49b31e70-113e6c58b4-seo-page-sec8-img9.a03934ae.webp",
+    "kind": "images",
+    "bytes": 2794,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ac6714d679-aws-icon.82ad9283.webp": {
+    "file": "public/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+    "publicUrl": "/assets/shared/images/aa48ef0119-ac6714d679-aws-icon.82ad9283.webp",
+    "kind": "images",
+    "bytes": 37742,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9038034a05-c-sharp-icon.6682430c.webp": {
+    "file": "public/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+    "publicUrl": "/assets/shared/images/5f86e61917-9038034a05-c-sharp-icon.6682430c.webp",
+    "kind": "images",
+    "bytes": 3760,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/b92051cae9-swift-icon.ad194812.webp": {
+    "file": "public/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+    "publicUrl": "/assets/shared/images/1faa36ad4c-b92051cae9-swift-icon.ad194812.webp",
+    "kind": "images",
+    "bytes": 11422,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/912306e61f-react-native-icon.62e79e1f.webp": {
+    "file": "public/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+    "publicUrl": "/assets/shared/images/7dc20fec30-912306e61f-react-native-icon.62e79e1f.webp",
+    "kind": "images",
+    "bytes": 27988,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp": {
+    "file": "public/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+    "publicUrl": "/assets/shared/images/ab02f74fca-e902e0bcc7-seo-page-sec8-tab2-img4.d0ded681.webp",
+    "kind": "images",
+    "bytes": 3636,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/60703423fc-python-icon.d7f74b01.webp": {
+    "file": "public/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+    "publicUrl": "/assets/shared/images/07cbb128fc-60703423fc-python-icon.d7f74b01.webp",
+    "kind": "images",
+    "bytes": 50534,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/6b3c9bd7b2-php-icon.df2e073e.webp": {
+    "file": "public/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+    "publicUrl": "/assets/shared/images/e1624e42dc-6b3c9bd7b2-php-icon.df2e073e.webp",
+    "kind": "images",
+    "bytes": 102494,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp": {
+    "file": "public/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+    "publicUrl": "/assets/shared/images/83d4ce9003-6b50b2cde2-seo-page-sec8-tab2-img7.6a8c2659.webp",
+    "kind": "images",
+    "bytes": 4558,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/7163e2851c-javascript-icon.5b8772f8.webp": {
+    "file": "public/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+    "publicUrl": "/assets/shared/images/55ef8169d6-7163e2851c-javascript-icon.5b8772f8.webp",
+    "kind": "images",
+    "bytes": 1714,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/b43b4200e6-java-icon.43d5627e.webp": {
+    "file": "public/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+    "publicUrl": "/assets/shared/images/9111285a88-b43b4200e6-java-icon.43d5627e.webp",
+    "kind": "images",
+    "bytes": 1242,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/0690d597af-seo-page-sec8-tab2-img10.68947354.webp": {
+    "file": "public/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+    "publicUrl": "/assets/shared/images/ea19f46fef-0690d597af-seo-page-sec8-tab2-img10.68947354.webp",
+    "kind": "images",
+    "bytes": 1378,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp": {
+    "file": "public/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+    "publicUrl": "/assets/shared/images/7586d334d7-ba7bd9aa7a-seo-page-sec8-tab3-img1.47328358.webp",
+    "kind": "images",
+    "bytes": 2926,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/8dc4216e78-postgresql-icon.024860fd.webp": {
+    "file": "public/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+    "publicUrl": "/assets/shared/images/5ad3ff2ea4-8dc4216e78-postgresql-icon.024860fd.webp",
+    "kind": "images",
+    "bytes": 40084,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp": {
+    "file": "public/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+    "publicUrl": "/assets/shared/images/fa6bc3b5b5-7c119cefe6-seo-page-sec8-tab3-img3.1afadb82.webp",
+    "kind": "images",
+    "bytes": 3750,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp": {
+    "file": "public/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+    "publicUrl": "/assets/shared/images/2ed4ff3d3b-9f5c5cbf69-seo-page-sec8-tab3-img4.8c64d9b1.webp",
+    "kind": "images",
+    "bytes": 2800,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/dff65c2e72-mySql-icon.eec11eb6.webp": {
+    "file": "public/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+    "publicUrl": "/assets/shared/images/ba45780c47-dff65c2e72-mySql-icon.eec11eb6.webp",
+    "kind": "images",
+    "bytes": 8692,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/831b2f7ec2-mangodp-icon.32586719.webp": {
+    "file": "public/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+    "publicUrl": "/assets/shared/images/fedb339029-831b2f7ec2-mangodp-icon.32586719.webp",
+    "kind": "images",
+    "bytes": 5284,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp": {
+    "file": "public/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+    "publicUrl": "/assets/shared/images/da2716bbaf-591cacfc55-seo-page-sec8-tab3-img7.003ad34c.webp",
+    "kind": "images",
+    "bytes": 4566,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp": {
+    "file": "public/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+    "publicUrl": "/assets/shared/images/9508372a2e-2759c1164f-seo-page-sec8-tab3-img8.a1e2d9bd.webp",
+    "kind": "images",
+    "bytes": 2984,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp": {
+    "file": "public/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+    "publicUrl": "/assets/shared/images/b0bb80a092-21d19d296d-seo-page-sec8-tab3-img9.4a991054.webp",
+    "kind": "images",
+    "bytes": 5292,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp": {
+    "file": "public/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+    "publicUrl": "/assets/shared/images/bf8e69155e-ec409a9ada-seo-page-sec8-tab3-img10.1e71c4dd.webp",
+    "kind": "images",
+    "bytes": 2156,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp": {
+    "file": "public/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+    "publicUrl": "/assets/shared/images/2c757d6746-56f4e0b23b-seo-page-sec4-img1.26c34ca1.webp",
+    "kind": "images",
+    "bytes": 4300,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/eafe866af8-cross.8ed41405.webp": {
+    "file": "public/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+    "publicUrl": "/assets/shared/images/ce54a134cf-eafe866af8-cross.8ed41405.webp",
+    "kind": "images",
+    "bytes": 1260,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/e092530fd1-cloud-icon.6bfe4c9a.webp": {
+    "file": "public/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+    "publicUrl": "/assets/shared/images/488e329fca-e092530fd1-cloud-icon.6bfe4c9a.webp",
+    "kind": "images",
+    "bytes": 1030,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/620efe7a96-seo-page-sec4-img4.1a29910a.webp": {
+    "file": "public/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+    "publicUrl": "/assets/shared/images/c7172698b5-620efe7a96-seo-page-sec4-img4.1a29910a.webp",
+    "kind": "images",
+    "bytes": 4618,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/5ab31248a2-web-development-portoflio-img1.a4f62e89.webp": {
+    "file": "public/assets/pages/web-development/images/99a568e921-5ab31248a2-web-development-portoflio-img1.a4f62e89.webp",
+    "publicUrl": "/assets/pages/web-development/images/99a568e921-5ab31248a2-web-development-portoflio-img1.a4f62e89.webp",
+    "kind": "images",
+    "bytes": 32372,
+    "usedByPages": [
+      "/web-development"
+    ]
+  },
+  "/restored-assets/e54a3dfcd8-web-development-portoflio-img2.c1938dcc.webp": {
+    "file": "public/assets/pages/web-development/images/dbe6087c11-e54a3dfcd8-web-development-portoflio-img2.c1938dcc.webp",
+    "publicUrl": "/assets/pages/web-development/images/dbe6087c11-e54a3dfcd8-web-development-portoflio-img2.c1938dcc.webp",
+    "kind": "images",
+    "bytes": 37248,
+    "usedByPages": [
+      "/web-development"
+    ]
+  },
+  "/restored-assets/78a7b01f50-web-development-portoflio-img3.8394c533.webp": {
+    "file": "public/assets/pages/web-development/images/3a27ff2910-78a7b01f50-web-development-portoflio-img3.8394c533.webp",
+    "publicUrl": "/assets/pages/web-development/images/3a27ff2910-78a7b01f50-web-development-portoflio-img3.8394c533.webp",
+    "kind": "images",
+    "bytes": 47752,
+    "usedByPages": [
+      "/web-development"
+    ]
+  },
+  "/restored-assets/9ce9c7adad-heart-icon.a93997dd.webp": {
+    "file": "public/assets/shared/images/447ecf29d2-9ce9c7adad-heart-icon.a93997dd.webp",
+    "publicUrl": "/assets/shared/images/447ecf29d2-9ce9c7adad-heart-icon.a93997dd.webp",
+    "kind": "images",
+    "bytes": 3460,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/18a9c1ade9-fitness-icon.b875f2c7.webp": {
+    "file": "public/assets/shared/images/c0f568fc18-18a9c1ade9-fitness-icon.b875f2c7.webp",
+    "publicUrl": "/assets/shared/images/c0f568fc18-18a9c1ade9-fitness-icon.b875f2c7.webp",
+    "kind": "images",
+    "bytes": 3820,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/91bc7d8552-e-learn-icon.59b3655a.webp": {
+    "file": "public/assets/shared/images/a885b0f504-91bc7d8552-e-learn-icon.59b3655a.webp",
+    "publicUrl": "/assets/shared/images/a885b0f504-91bc7d8552-e-learn-icon.59b3655a.webp",
+    "kind": "images",
+    "bytes": 3476,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/6b0bb18898-Real-state-icon.48c98d4f.webp": {
+    "file": "public/assets/shared/images/4971c85ec2-6b0bb18898-Real-state-icon.48c98d4f.webp",
+    "publicUrl": "/assets/shared/images/4971c85ec2-6b0bb18898-Real-state-icon.48c98d4f.webp",
+    "kind": "images",
+    "bytes": 1956,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/fc03843308-dating-icon.7cae578a.webp": {
+    "file": "public/assets/shared/images/ea4f6137cd-fc03843308-dating-icon.7cae578a.webp",
+    "publicUrl": "/assets/shared/images/ea4f6137cd-fc03843308-dating-icon.7cae578a.webp",
+    "kind": "images",
+    "bytes": 18996,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/a20527ac3a-travel-icon.c213cba2.webp": {
+    "file": "public/assets/shared/images/7ce6036742-a20527ac3a-travel-icon.c213cba2.webp",
+    "publicUrl": "/assets/shared/images/7ce6036742-a20527ac3a-travel-icon.c213cba2.webp",
+    "kind": "images",
+    "bytes": 5376,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/7ffe161571-fintech-icon.6b3ff40a.webp": {
+    "file": "public/assets/shared/images/22eafb397b-7ffe161571-fintech-icon.6b3ff40a.webp",
+    "publicUrl": "/assets/shared/images/22eafb397b-7ffe161571-fintech-icon.6b3ff40a.webp",
+    "kind": "images",
+    "bytes": 4298,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/31926c1998-food-delivery-icon.b8d8be81.webp": {
+    "file": "public/assets/shared/images/988da84cb4-31926c1998-food-delivery-icon.b8d8be81.webp",
+    "publicUrl": "/assets/shared/images/988da84cb4-31926c1998-food-delivery-icon.b8d8be81.webp",
+    "kind": "images",
+    "bytes": 15432,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/a285bac86e-e-Commerce-icon.149a7953.webp": {
+    "file": "public/assets/shared/images/a87f817481-a285bac86e-e-Commerce-icon.149a7953.webp",
+    "publicUrl": "/assets/shared/images/a87f817481-a285bac86e-e-Commerce-icon.149a7953.webp",
+    "kind": "images",
+    "bytes": 2352,
+    "usedByPages": [
+      "/web-development",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/f2be81944e-web-development-sec11-img.31adc88b.webp": {
+    "file": "public/assets/pages/web-development/images/97a043a554-f2be81944e-web-development-sec11-img.31adc88b.webp",
+    "publicUrl": "/assets/pages/web-development/images/97a043a554-f2be81944e-web-development-sec11-img.31adc88b.webp",
+    "kind": "images",
+    "bytes": 278128,
+    "usedByPages": [
+      "/web-development"
+    ]
+  },
+  "/restored-assets/f53abd90d7-Get-in-touch-left.a51e41f1.webp": {
+    "file": "public/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+    "publicUrl": "/assets/shared/images/f61cc5a7af-f53abd90d7-Get-in-touch-left.a51e41f1.webp",
+    "kind": "images",
+    "bytes": 846440,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/4410890cdc-blockchain-banner-bg.webp": {
+    "file": "public/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp",
+    "publicUrl": "/assets/shared/images/bc98fba8d3-4410890cdc-blockchain-banner-bg.webp",
+    "kind": "images",
+    "bytes": 110470,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/a3e1e335f9-custom-software-banner-bg.webp": {
+    "file": "public/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp",
+    "publicUrl": "/assets/shared/images/b68c6229e9-a3e1e335f9-custom-software-banner-bg.webp",
+    "kind": "images",
+    "bytes": 89400,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/13ef43abf5-staff-augmentation-banner-bg.webp": {
+    "file": "public/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp",
+    "publicUrl": "/assets/shared/images/37b71fa14e-13ef43abf5-staff-augmentation-banner-bg.webp",
+    "kind": "images",
+    "bytes": 99684,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/3d38c45986-web-development-banner-bg.webp": {
+    "file": "public/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp",
+    "publicUrl": "/assets/shared/images/f7ee1e9eea-3d38c45986-web-development-banner-bg.webp",
+    "kind": "images",
+    "bytes": 782262,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/8cc5f070b9-bg-slide.796d10f2.webp": {
+    "file": "public/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp",
+    "publicUrl": "/assets/shared/images/6757bb61f3-8cc5f070b9-bg-slide.796d10f2.webp",
+    "kind": "images",
+    "bytes": 22858,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/c4ed49b55b-ic-green-arrow.ab0b510f.svg": {
+    "file": "public/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+    "publicUrl": "/assets/shared/images/e30f232e9a-c4ed49b55b-ic-green-arrow.ab0b510f.svg",
+    "kind": "images",
+    "bytes": 465,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/daaee6d807-bg-contact-us.8a214ee5.svg": {
+    "file": "public/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg",
+    "publicUrl": "/assets/shared/images/97f475367f-daaee6d807-bg-contact-us.8a214ee5.svg",
+    "kind": "images",
+    "bytes": 853598,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/436d4f23d8-bg-hero.04693047.svg": {
+    "file": "public/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg",
+    "publicUrl": "/assets/shared/images/f7526f4dbd-436d4f23d8-bg-hero.04693047.svg",
+    "kind": "images",
+    "bytes": 310,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/913eb35635-sub-img-heading.808e25e6.webp": {
+    "file": "public/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp",
+    "publicUrl": "/assets/shared/images/db7ba2c6b7-913eb35635-sub-img-heading.808e25e6.webp",
+    "kind": "images",
+    "bytes": 2368,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d1babf70de-bg-01.45158913.webp": {
+    "file": "public/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp",
+    "publicUrl": "/assets/shared/images/a1d825db80-d1babf70de-bg-01.45158913.webp",
+    "kind": "images",
+    "bytes": 12680,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/a95ed30a4c-bg-clients-review.85355acd.webp": {
+    "file": "public/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp",
+    "publicUrl": "/assets/shared/images/a03f493cbd-a95ed30a4c-bg-clients-review.85355acd.webp",
+    "kind": "images",
+    "bytes": 9280,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/cc5df51d9c-tp-corner.4ff67f72.webp": {
+    "file": "public/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp",
+    "publicUrl": "/assets/shared/images/2936f79730-cc5df51d9c-tp-corner.4ff67f72.webp",
+    "kind": "images",
+    "bytes": 1394,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9280572203-a9e93f0d28a9aeb4-s.woff2": {
+    "file": "public/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2",
+    "publicUrl": "/assets/shared/fonts/3db661c2c8-9280572203-a9e93f0d28a9aeb4-s.woff2",
+    "kind": "fonts",
+    "bytes": 36780,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/8b03c88ebe-4326a07f88b57dbc-s.woff2": {
+    "file": "public/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2",
+    "publicUrl": "/assets/shared/fonts/8a6924cbbd-8b03c88ebe-4326a07f88b57dbc-s.woff2",
+    "kind": "fonts",
+    "bytes": 45464,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d103bbfb04-21e001ddb4fba3e6-s.woff2": {
+    "file": "public/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2",
+    "publicUrl": "/assets/shared/fonts/bbe3fef6f0-d103bbfb04-21e001ddb4fba3e6-s.woff2",
+    "kind": "fonts",
+    "bytes": 45132,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/06d012ec08-188f1f2627849ff2-s.woff2": {
+    "file": "public/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2",
+    "publicUrl": "/assets/shared/fonts/4b4db9b8ce-06d012ec08-188f1f2627849ff2-s.woff2",
+    "kind": "fonts",
+    "bytes": 44948,
+    "usedByPages": [
+      "/web-development",
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/6faa5c9391-review-dark-img1.f7451c6f.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/5162db55a5-6faa5c9391-review-dark-img1.f7451c6f.webp",
+    "kind": "images",
+    "bytes": 2204,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/d779747557-review-dark-img4.4963ecf6.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/a2b3268f0b-d779747557-review-dark-img4.4963ecf6.webp",
+    "kind": "images",
+    "bytes": 2194,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/43a9752920-review-dark-img2.0e47560f.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/657fca290c-43a9752920-review-dark-img2.0e47560f.webp",
+    "kind": "images",
+    "bytes": 2044,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/e4c256f358-review-dark-img3.f896b7f7.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/62a6715d03-e4c256f358-review-dark-img3.f896b7f7.webp",
+    "kind": "images",
+    "bytes": 2160,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/524d0b1eac-a176d71a92-staff-augmentation-sec2-img.51dddf0b.webp",
+    "kind": "images",
+    "bytes": 78284,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/6c2ac07196-1e98f22b27-staff-augmentation-sec4-img1.9a82ef98.webp",
+    "kind": "images",
+    "bytes": 976,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/86f58ec88d-7ed4d16080-staff-augmentation-sec4-img2.4571aa9f.webp",
+    "kind": "images",
+    "bytes": 946,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/a079d448af-600bd1f573-staff-augmentation-sec4-img3.a04bf152.webp",
+    "kind": "images",
+    "bytes": 1306,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/073c176bcc-cd12795c1d-staff-augmentation-sec4-img4.518882c4.webp",
+    "kind": "images",
+    "bytes": 818,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/9221067462-7935b1d405-staff-augmentation-sec4-img5.d98f0f50.webp",
+    "kind": "images",
+    "bytes": 1356,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/7e4df9a665-4586bd80f5-Staff-augmentation-sec6-img1.bc659da8.webp",
+    "kind": "images",
+    "bytes": 618,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/a17fbbf91b-124b9c1da9-Staff-augmentation-sec6-img2.65ea9ede.webp",
+    "kind": "images",
+    "bytes": 602,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/b43c0aad43-af4ef576db-Staff-augmentation-sec6-img3.7a5db177.webp",
+    "kind": "images",
+    "bytes": 736,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/eba517c063-513c8263ea-Staff-augmentation-sec6-img4.76ee94d7.webp",
+    "kind": "images",
+    "bytes": 474,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/714ca92abd-f3b77bfa36-Staff-augmentation-sec6-img5.874f28ed.webp",
+    "kind": "images",
+    "bytes": 672,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/bcdfeb2791-4b81b6f8ce-Staff-augmentation-sec6-img6.a5530d57.webp",
+    "kind": "images",
+    "bytes": 544,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/7e28876b55-Staff-augmentation-sec6-img7.69566770.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/7939d19e8d-7e28876b55-Staff-augmentation-sec6-img7.69566770.webp",
+    "kind": "images",
+    "bytes": 928,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/003bf9013d-6b617dcb00-Staff-augmentation-sec6-img8.e18ebf8c.webp",
+    "kind": "images",
+    "bytes": 874,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/51704c4507-f45dd8a3f7-Staff-augmentation-sec6-img9.cc631091.webp",
+    "kind": "images",
+    "bytes": 864,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/a1199c20d0-android-icon.9478f76a.webp": {
+    "file": "public/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+    "publicUrl": "/assets/shared/images/81441589c2-a1199c20d0-android-icon.9478f76a.webp",
+    "kind": "images",
+    "bytes": 566,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/19ae2525d5-apple-icon.fb8c86d0.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/3aa08e614a-19ae2525d5-apple-icon.fb8c86d0.webp",
+    "kind": "images",
+    "bytes": 408,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/eddef3cdad-node-icon.04414d22.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/24f51db7b4-eddef3cdad-node-icon.04414d22.webp",
+    "kind": "images",
+    "bytes": 22912,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/85320d2495-c-plus-icon.a053ff2d.webp": {
+    "file": "public/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+    "publicUrl": "/assets/shared/images/1d7d3a7c42-85320d2495-c-plus-icon.a053ff2d.webp",
+    "kind": "images",
+    "bytes": 1194,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/25fdf325f0-firebase-icon.8042c5fd.webp": {
+    "file": "public/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+    "publicUrl": "/assets/shared/images/990805ea23-25fdf325f0-firebase-icon.8042c5fd.webp",
+    "kind": "images",
+    "bytes": 7806,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/05205c7695-html-icon.6586b21a.webp": {
+    "file": "public/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+    "publicUrl": "/assets/shared/images/47ebfb80ce-05205c7695-html-icon.6586b21a.webp",
+    "kind": "images",
+    "bytes": 7694,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/f80c7b6d6f-unity-icon.32dd50df.webp": {
+    "file": "public/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+    "publicUrl": "/assets/shared/images/695ec65857-f80c7b6d6f-unity-icon.32dd50df.webp",
+    "kind": "images",
+    "bytes": 544,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/b92a660aac-golan-icon.fc80978c.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/3406b62f7e-b92a660aac-golan-icon.fc80978c.webp",
+    "kind": "images",
+    "bytes": 1044,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/24ba28309a-net-icon.427117e4.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/f3be827d43-24ba28309a-net-icon.427117e4.webp",
+    "kind": "images",
+    "bytes": 1544,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/e1bec04141-4e583eb9ff-Staff-augmentation-sec8-img.1f67fc16.webp",
+    "kind": "images",
+    "bytes": 72036,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/2585f3e827-58a32f76b6-Staff-augmentation-sec9-img1.543f5bbf.webp",
+    "kind": "images",
+    "bytes": 1320,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/08be57e4c6-3a9532b1e3-Staff-augmentation-sec9-img2.e393eae8.webp",
+    "kind": "images",
+    "bytes": 1136,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/d5c651a3b3-0b3fc52c62-Staff-augmentation-sec9-img3.38bec5d3.webp",
+    "kind": "images",
+    "bytes": 972,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/a528fba63e-963cf59f0d-Staff-augmentation-sec9-img4.13721cee.webp",
+    "kind": "images",
+    "bytes": 962,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/977806aa08-bfac7d05df-Staff-augmentation-sec9-img5.dfcb5b63.webp",
+    "kind": "images",
+    "bytes": 1072,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/4c60c0be7a-935b2a42b4-Staff-augmentation-sec9-img6.1b16cb20.webp",
+    "kind": "images",
+    "bytes": 948,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp": {
+    "file": "public/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+    "publicUrl": "/assets/shared/images/ee2baae4ce-4c5a38ba5f-seo-page-sec8-img11.2f5ff200.webp",
+    "kind": "images",
+    "bytes": 4486,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp": {
+    "file": "public/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+    "publicUrl": "/assets/shared/images/f9c083ed78-1e0b6b9cb7-ruby-rails-icon.8ef11fb2.webp",
+    "kind": "images",
+    "bytes": 12762,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ccac4521d3-kotlin-icon.a1f3c98c.webp": {
+    "file": "public/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+    "publicUrl": "/assets/shared/images/41a36f08df-ccac4521d3-kotlin-icon.a1f3c98c.webp",
+    "kind": "images",
+    "bytes": 35274,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/521a8fe805-seo-page-sec8-img14.f06adf4f.webp": {
+    "file": "public/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+    "publicUrl": "/assets/shared/images/686bdc0d47-521a8fe805-seo-page-sec8-img14.f06adf4f.webp",
+    "kind": "images",
+    "bytes": 2982,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/391775fba9-review-light-slide-img1.webp": {
+    "file": "public/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+    "publicUrl": "/assets/shared/images/07459fb77a-391775fba9-review-light-slide-img1.webp",
+    "kind": "images",
+    "bytes": 904,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/cab2956ba7-review-light-slide-img2.webp": {
+    "file": "public/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+    "publicUrl": "/assets/shared/images/51ea046fd3-cab2956ba7-review-light-slide-img2.webp",
+    "kind": "images",
+    "bytes": 776,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/026e931170-review-light-slide-img3.webp": {
+    "file": "public/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+    "publicUrl": "/assets/shared/images/0dd16a0b16-026e931170-review-light-slide-img3.webp",
+    "kind": "images",
+    "bytes": 858,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/a6d332cd74-cleint-img4.webp": {
+    "file": "public/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+    "publicUrl": "/assets/shared/images/a095401775-a6d332cd74-cleint-img4.webp",
+    "kind": "images",
+    "bytes": 4702,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/95efd11521-img-overlay.webp": {
+    "file": "public/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+    "publicUrl": "/assets/shared/images/c54a18a64d-95efd11521-img-overlay.webp",
+    "kind": "images",
+    "bytes": 4442,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/85b4873aa7-cleint-img3.webp": {
+    "file": "public/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+    "publicUrl": "/assets/shared/images/e5deefb8ef-85b4873aa7-cleint-img3.webp",
+    "kind": "images",
+    "bytes": 5786,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9547bba3b5-img-05.webp": {
+    "file": "public/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+    "publicUrl": "/assets/shared/images/0846c97af5-9547bba3b5-img-05.webp",
+    "kind": "images",
+    "bytes": 5322,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/c39b357584-img-06.webp": {
+    "file": "public/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+    "publicUrl": "/assets/shared/images/808a0c57b7-c39b357584-img-06.webp",
+    "kind": "images",
+    "bytes": 6746,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/eb7039d063-cleint-img2.webp": {
+    "file": "public/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+    "publicUrl": "/assets/shared/images/fc8676c5f4-eb7039d063-cleint-img2.webp",
+    "kind": "images",
+    "bytes": 6082,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/2a492a3124-996d00eebb-Staff-augmentation-sec13-img.6aff0b73.webp",
+    "kind": "images",
+    "bytes": 138408,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/440ec157a5-28870ee47d-Staff-augmentation-sec14-img1.63426b1c.webp",
+    "kind": "images",
+    "bytes": 746,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/677bb7a322-7c720d1ee4-Staff-augmentation-sec14-img2.a641f4d3.webp",
+    "kind": "images",
+    "bytes": 1356,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/367deb679d-0c4894306e-Staff-augmentation-sec14-img3.8dd10de0.webp",
+    "kind": "images",
+    "bytes": 1252,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/ecbbeb6d63-b9bc55f1fc-Staff-augmentation-sec14-img4.a682b743.webp",
+    "kind": "images",
+    "bytes": 1148,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/4b9d04289a-99fffdb1e5-Staff-augmentation-sec14-img5.cd680f06.webp",
+    "kind": "images",
+    "bytes": 836,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/6756dc49ac-dc8f1ecf60-Staff-augmentation-sec14-img6.db029dbd.webp",
+    "kind": "images",
+    "bytes": 1228,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/a69dff943a-new-review-icon-add2.2f00095f.webp": {
+    "file": "public/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+    "publicUrl": "/assets/shared/images/959130e1f1-a69dff943a-new-review-icon-add2.2f00095f.webp",
+    "kind": "images",
+    "bytes": 4856,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/5eaac22262-new-review-icon-add4.36bf2813.webp": {
+    "file": "public/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+    "publicUrl": "/assets/shared/images/3d877c9f61-5eaac22262-new-review-icon-add4.36bf2813.webp",
+    "kind": "images",
+    "bytes": 46794,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9155852f6f-rightfirms-badge-company.e41b1db6.webp": {
+    "file": "public/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+    "publicUrl": "/assets/shared/images/dc3dceeb1d-9155852f6f-rightfirms-badge-company.e41b1db6.webp",
+    "kind": "images",
+    "bytes": 26782,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/e3594274d9-new-review-icon-add6.b80d94ac.webp": {
+    "file": "public/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+    "publicUrl": "/assets/shared/images/b5d009531a-e3594274d9-new-review-icon-add6.b80d94ac.webp",
+    "kind": "images",
+    "bytes": 46474,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/24fc46a050-new-review-icon-add.cd53fcfd.webp": {
+    "file": "public/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+    "publicUrl": "/assets/shared/images/cd7fa6fa59-24fc46a050-new-review-icon-add.cd53fcfd.webp",
+    "kind": "images",
+    "bytes": 14958,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/f82daece66-new-review-icon-add7.e948f5a1.webp": {
+    "file": "public/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+    "publicUrl": "/assets/shared/images/65cecdccde-f82daece66-new-review-icon-add7.e948f5a1.webp",
+    "kind": "images",
+    "bytes": 44230,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/fa4280490a-new-review-icon-add3.ab13b3af.webp": {
+    "file": "public/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+    "publicUrl": "/assets/shared/images/e8585c6eda-fa4280490a-new-review-icon-add3.ab13b3af.webp",
+    "kind": "images",
+    "bytes": 18162,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/5e86f8506e-new-review-icon-add5.581bbf36.webp": {
+    "file": "public/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+    "publicUrl": "/assets/shared/images/54dd248ec6-5e86f8506e-new-review-icon-add5.581bbf36.webp",
+    "kind": "images",
+    "bytes": 46490,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/f679fdd6cb-new-review-icon-add8.64f6985c.webp": {
+    "file": "public/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+    "publicUrl": "/assets/shared/images/f77d17dfe0-f679fdd6cb-new-review-icon-add8.64f6985c.webp",
+    "kind": "images",
+    "bytes": 51384,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp": {
+    "file": "public/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+    "publicUrl": "/assets/shared/images/b70bf05bb2-1ec6683ddd-TB-Trusted-on-black.99f0d93b.webp",
+    "kind": "images",
+    "bytes": 4704,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/db817c676c-arrow%20-icon.d0c676cc.webp": {
+    "file": "public/assets/shared/images/5c6625427d-db817c676c-arrow -icon.d0c676cc.webp",
+    "publicUrl": "/assets/shared/images/5c6625427d-db817c676c-arrow%20-icon.d0c676cc.webp",
+    "kind": "images",
+    "bytes": 2694,
+    "usedByPages": [
+      "/staff-augmentation",
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/6af728d339-ea1205e8fa-seo-page-sec11-bg.3d1b0660.webp",
+    "kind": "images",
+    "bytes": 34128,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp": {
+    "file": "public/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+    "publicUrl": "/assets/pages/staff-augmentation/images/90991a6f5e-b17200e73a-Staff-augmentation-sec9-bg.980156b7.webp",
+    "kind": "images",
+    "bytes": 28930,
+    "usedByPages": [
+      "/staff-augmentation"
+    ]
+  },
+  "/restored-assets/8e2f6b04b7-ios-banner-img.1649a9e4.webp": {
+    "file": "public/assets/shared/images/d091a155dd-8e2f6b04b7-ios-banner-img.1649a9e4.webp",
+    "publicUrl": "/assets/shared/images/d091a155dd-8e2f6b04b7-ios-banner-img.1649a9e4.webp",
+    "kind": "images",
+    "bytes": 74624,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/406da90bc5-seo-page-sec2-icon1.aa838692.webp": {
+    "file": "public/assets/shared/images/df8a19d44b-406da90bc5-seo-page-sec2-icon1.aa838692.webp",
+    "publicUrl": "/assets/shared/images/df8a19d44b-406da90bc5-seo-page-sec2-icon1.aa838692.webp",
+    "kind": "images",
+    "bytes": 11660,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/20c7709995-seo-page-sec2-icon2.4820989c.webp": {
+    "file": "public/assets/shared/images/cfe8e3e505-20c7709995-seo-page-sec2-icon2.4820989c.webp",
+    "publicUrl": "/assets/shared/images/cfe8e3e505-20c7709995-seo-page-sec2-icon2.4820989c.webp",
+    "kind": "images",
+    "bytes": 21096,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/d07ad22c03-seo-page-sec2-icon3.00bf9dd1.webp": {
+    "file": "public/assets/shared/images/16325a2a4a-d07ad22c03-seo-page-sec2-icon3.00bf9dd1.webp",
+    "publicUrl": "/assets/shared/images/16325a2a4a-d07ad22c03-seo-page-sec2-icon3.00bf9dd1.webp",
+    "kind": "images",
+    "bytes": 11508,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/e52b10a98f-seo-page-sec2-icon4.49681110.webp": {
+    "file": "public/assets/shared/images/ef79bcd6c4-e52b10a98f-seo-page-sec2-icon4.49681110.webp",
+    "publicUrl": "/assets/shared/images/ef79bcd6c4-e52b10a98f-seo-page-sec2-icon4.49681110.webp",
+    "kind": "images",
+    "bytes": 12212,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/9c82f434f5-seo-page-sec2-icon5.3ac7669e.webp": {
+    "file": "public/assets/shared/images/ffe04f9932-9c82f434f5-seo-page-sec2-icon5.3ac7669e.webp",
+    "publicUrl": "/assets/shared/images/ffe04f9932-9c82f434f5-seo-page-sec2-icon5.3ac7669e.webp",
+    "kind": "images",
+    "bytes": 14326,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/266e8471a2-services-page-sec7-img1.a649f64b.webp": {
+    "file": "public/assets/shared/images/61ff718e93-266e8471a2-services-page-sec7-img1.a649f64b.webp",
+    "publicUrl": "/assets/shared/images/61ff718e93-266e8471a2-services-page-sec7-img1.a649f64b.webp",
+    "kind": "images",
+    "bytes": 980,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/73aed0ea1d-services-page-sec7-img2.c53aab52.webp": {
+    "file": "public/assets/shared/images/2c04df68ad-73aed0ea1d-services-page-sec7-img2.c53aab52.webp",
+    "publicUrl": "/assets/shared/images/2c04df68ad-73aed0ea1d-services-page-sec7-img2.c53aab52.webp",
+    "kind": "images",
+    "bytes": 934,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/aafcf8329a-services-page-sec7-img3.b6cfd4f0.webp": {
+    "file": "public/assets/shared/images/9b605ae1e3-aafcf8329a-services-page-sec7-img3.b6cfd4f0.webp",
+    "publicUrl": "/assets/shared/images/9b605ae1e3-aafcf8329a-services-page-sec7-img3.b6cfd4f0.webp",
+    "kind": "images",
+    "bytes": 670,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ce507cd683-services-page-sec7-img4.625f1df4.webp": {
+    "file": "public/assets/shared/images/61600bcba6-ce507cd683-services-page-sec7-img4.625f1df4.webp",
+    "publicUrl": "/assets/shared/images/61600bcba6-ce507cd683-services-page-sec7-img4.625f1df4.webp",
+    "kind": "images",
+    "bytes": 668,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/88a0e7275b-services-page-sec7-img5.771dda30.webp": {
+    "file": "public/assets/shared/images/fc712ba127-88a0e7275b-services-page-sec7-img5.771dda30.webp",
+    "publicUrl": "/assets/shared/images/fc712ba127-88a0e7275b-services-page-sec7-img5.771dda30.webp",
+    "kind": "images",
+    "bytes": 836,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/a89e0ffd01-services-page-sec7-img6.6c337662.webp": {
+    "file": "public/assets/shared/images/0ac529d317-a89e0ffd01-services-page-sec7-img6.6c337662.webp",
+    "publicUrl": "/assets/shared/images/0ac529d317-a89e0ffd01-services-page-sec7-img6.6c337662.webp",
+    "kind": "images",
+    "bytes": 1168,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/67ac728af4-home-por-img1.4733080b.webp": {
+    "file": "public/assets/shared/images/ba38e8952c-67ac728af4-home-por-img1.4733080b.webp",
+    "publicUrl": "/assets/shared/images/ba38e8952c-67ac728af4-home-por-img1.4733080b.webp",
+    "kind": "images",
+    "bytes": 45964,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/3fa703fe5d-home-por-img2.86582df3.webp": {
+    "file": "public/assets/shared/images/15115829f5-3fa703fe5d-home-por-img2.86582df3.webp",
+    "publicUrl": "/assets/shared/images/15115829f5-3fa703fe5d-home-por-img2.86582df3.webp",
+    "kind": "images",
+    "bytes": 53658,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/a3e6db5373-home-por-img3.137a94fe.webp": {
+    "file": "public/assets/shared/images/12884dfcf9-a3e6db5373-home-por-img3.137a94fe.webp",
+    "publicUrl": "/assets/shared/images/12884dfcf9-a3e6db5373-home-por-img3.137a94fe.webp",
+    "kind": "images",
+    "bytes": 37750,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/dd1f31517b-seo-page-sec7-img1.9a25dd4e.webp": {
+    "file": "public/assets/shared/images/7163ed22e2-dd1f31517b-seo-page-sec7-img1.9a25dd4e.webp",
+    "publicUrl": "/assets/shared/images/7163ed22e2-dd1f31517b-seo-page-sec7-img1.9a25dd4e.webp",
+    "kind": "images",
+    "bytes": 2642,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/912258124f-seo-page-sec7-img2.8dcc67b5.webp": {
+    "file": "public/assets/shared/images/74ddf50a49-912258124f-seo-page-sec7-img2.8dcc67b5.webp",
+    "publicUrl": "/assets/shared/images/74ddf50a49-912258124f-seo-page-sec7-img2.8dcc67b5.webp",
+    "kind": "images",
+    "bytes": 2004,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/6227b9d081-seo-page-sec7-img3.fc6e349f.webp": {
+    "file": "public/assets/shared/images/9eff1ebd62-6227b9d081-seo-page-sec7-img3.fc6e349f.webp",
+    "publicUrl": "/assets/shared/images/9eff1ebd62-6227b9d081-seo-page-sec7-img3.fc6e349f.webp",
+    "kind": "images",
+    "bytes": 2978,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ea6681180f-seo-page-sec7-img4.cbb05f16.webp": {
+    "file": "public/assets/shared/images/06518afc18-ea6681180f-seo-page-sec7-img4.cbb05f16.webp",
+    "publicUrl": "/assets/shared/images/06518afc18-ea6681180f-seo-page-sec7-img4.cbb05f16.webp",
+    "kind": "images",
+    "bytes": 2790,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/29aabf86c2-seo-page-sec7-img5.189a102e.webp": {
+    "file": "public/assets/shared/images/3b6b0baf0b-29aabf86c2-seo-page-sec7-img5.189a102e.webp",
+    "publicUrl": "/assets/shared/images/3b6b0baf0b-29aabf86c2-seo-page-sec7-img5.189a102e.webp",
+    "kind": "images",
+    "bytes": 6034,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/6b8883b5ca-seo-page-sec7-img6.629368c0.webp": {
+    "file": "public/assets/shared/images/7ca9878b9d-6b8883b5ca-seo-page-sec7-img6.629368c0.webp",
+    "publicUrl": "/assets/shared/images/7ca9878b9d-6b8883b5ca-seo-page-sec7-img6.629368c0.webp",
+    "kind": "images",
+    "bytes": 4522,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/b3e5e1406c-ios-page-sec-11-img.83b88932.webp": {
+    "file": "public/assets/shared/images/24d5f4c65b-b3e5e1406c-ios-page-sec-11-img.83b88932.webp",
+    "publicUrl": "/assets/shared/images/24d5f4c65b-b3e5e1406c-ios-page-sec-11-img.83b88932.webp",
+    "kind": "images",
+    "bytes": 47100,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/ba2386fa12-seo-page-sec4-bg.17515d8c.webp": {
+    "file": "public/assets/shared/images/1357187bde-ba2386fa12-seo-page-sec4-bg.17515d8c.webp",
+    "publicUrl": "/assets/shared/images/1357187bde-ba2386fa12-seo-page-sec4-bg.17515d8c.webp",
+    "kind": "images",
+    "bytes": 19598,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/70c30f0dcb-ios-page-sec-10-bg.1578bb07.webp": {
+    "file": "public/assets/shared/images/39d2375a33-70c30f0dcb-ios-page-sec-10-bg.1578bb07.webp",
+    "publicUrl": "/assets/shared/images/39d2375a33-70c30f0dcb-ios-page-sec-10-bg.1578bb07.webp",
+    "kind": "images",
+    "bytes": 36474,
+    "usedByPages": [
+      "/iot-development",
+      "/virtual-reality-development",
+      "/ar-app-development"
+    ]
+  },
+  "/restored-assets/8744a42b38-mobile-game-sec3-img1.0cf82b7d.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/137514c064-8744a42b38-mobile-game-sec3-img1.0cf82b7d.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/137514c064-8744a42b38-mobile-game-sec3-img1.0cf82b7d.webp",
+    "kind": "images",
+    "bytes": 694,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/c7e09773fa-mobile-game-sec3-img2.9a8eb737.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/b3a50b6869-c7e09773fa-mobile-game-sec3-img2.9a8eb737.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/b3a50b6869-c7e09773fa-mobile-game-sec3-img2.9a8eb737.webp",
+    "kind": "images",
+    "bytes": 1052,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/4a668db29f-mobile-game-sec3-img3.66e83934.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/26e36ab1a8-4a668db29f-mobile-game-sec3-img3.66e83934.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/26e36ab1a8-4a668db29f-mobile-game-sec3-img3.66e83934.webp",
+    "kind": "images",
+    "bytes": 622,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/4c7331bea9-mobile-game-sec3-img4.cf69e082.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/7db1bb37a7-4c7331bea9-mobile-game-sec3-img4.cf69e082.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/7db1bb37a7-4c7331bea9-mobile-game-sec3-img4.cf69e082.webp",
+    "kind": "images",
+    "bytes": 754,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d19bd63941-mobile-game-sec3-img5.ae2e15e7.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/88193ec232-d19bd63941-mobile-game-sec3-img5.ae2e15e7.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/88193ec232-d19bd63941-mobile-game-sec3-img5.ae2e15e7.webp",
+    "kind": "images",
+    "bytes": 778,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/f1f8de873e-mobile-game-sec3-img6.3eab8923.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/1b59c4f5f4-f1f8de873e-mobile-game-sec3-img6.3eab8923.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/1b59c4f5f4-f1f8de873e-mobile-game-sec3-img6.3eab8923.webp",
+    "kind": "images",
+    "bytes": 784,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/3cd382dbca-mobile-game-sec5-img1.7a62b1bd.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/2d3246260d-3cd382dbca-mobile-game-sec5-img1.7a62b1bd.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/2d3246260d-3cd382dbca-mobile-game-sec5-img1.7a62b1bd.webp",
+    "kind": "images",
+    "bytes": 810,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9f4e30c596-mobile-game-sec5-img2.62db8dd6.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/a399cd0d1c-9f4e30c596-mobile-game-sec5-img2.62db8dd6.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/a399cd0d1c-9f4e30c596-mobile-game-sec5-img2.62db8dd6.webp",
+    "kind": "images",
+    "bytes": 666,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/6769874c91-mobile-game-sec5-img3.302a7c8a.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/bc867b29d9-6769874c91-mobile-game-sec5-img3.302a7c8a.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/bc867b29d9-6769874c91-mobile-game-sec5-img3.302a7c8a.webp",
+    "kind": "images",
+    "bytes": 946,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/92e8816985-mobile-game-sec5-img4.3ecbcccb.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/2ec83d24ac-92e8816985-mobile-game-sec5-img4.3ecbcccb.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/2ec83d24ac-92e8816985-mobile-game-sec5-img4.3ecbcccb.webp",
+    "kind": "images",
+    "bytes": 426,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/66b93723b4-mobile-game-sec5-left-img.0cf97ad6.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/faf2a35a90-66b93723b4-mobile-game-sec5-left-img.0cf97ad6.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/faf2a35a90-66b93723b4-mobile-game-sec5-left-img.0cf97ad6.webp",
+    "kind": "images",
+    "bytes": 6676,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/0f04c5c2e2-mobile-game-sec6-right-img.9b51405a.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/7da5bf30e9-0f04c5c2e2-mobile-game-sec6-right-img.9b51405a.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/7da5bf30e9-0f04c5c2e2-mobile-game-sec6-right-img.9b51405a.webp",
+    "kind": "images",
+    "bytes": 32336,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/1037b69445-mobile-game-sec6-right-img2.406cf814.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/a3b121366c-1037b69445-mobile-game-sec6-right-img2.406cf814.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/a3b121366c-1037b69445-mobile-game-sec6-right-img2.406cf814.webp",
+    "kind": "images",
+    "bytes": 10930,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/2f8e1af689-mobile-game-sec7-img1.6ea1c830.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/d366bcc83a-2f8e1af689-mobile-game-sec7-img1.6ea1c830.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/d366bcc83a-2f8e1af689-mobile-game-sec7-img1.6ea1c830.webp",
+    "kind": "images",
+    "bytes": 878,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/78d9fd36f7-mobile-game-sec7-img2.ef76735c.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/39d57ee4cf-78d9fd36f7-mobile-game-sec7-img2.ef76735c.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/39d57ee4cf-78d9fd36f7-mobile-game-sec7-img2.ef76735c.webp",
+    "kind": "images",
+    "bytes": 1200,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9de412de8b-mobile-game-sec7-img3.f248b57f.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/6fd1bf9839-9de412de8b-mobile-game-sec7-img3.f248b57f.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/6fd1bf9839-9de412de8b-mobile-game-sec7-img3.f248b57f.webp",
+    "kind": "images",
+    "bytes": 996,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/e0efc5c7a6-mobile-game-sec8-img1.5b9f830d.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/66d849176b-e0efc5c7a6-mobile-game-sec8-img1.5b9f830d.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/66d849176b-e0efc5c7a6-mobile-game-sec8-img1.5b9f830d.webp",
+    "kind": "images",
+    "bytes": 2098,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/8f6e2dd54c-mobile-game-sec8-img2.26ec1572.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/895445dce3-8f6e2dd54c-mobile-game-sec8-img2.26ec1572.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/895445dce3-8f6e2dd54c-mobile-game-sec8-img2.26ec1572.webp",
+    "kind": "images",
+    "bytes": 2104,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/a4c09ca2c9-mobile-game-sec8-img3.65067e21.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/60728fcbe0-a4c09ca2c9-mobile-game-sec8-img3.65067e21.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/60728fcbe0-a4c09ca2c9-mobile-game-sec8-img3.65067e21.webp",
+    "kind": "images",
+    "bytes": 2226,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d75a8bf390-mobile-game-sec8-img4.0ba99f73.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/2cfb50ac13-d75a8bf390-mobile-game-sec8-img4.0ba99f73.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/2cfb50ac13-d75a8bf390-mobile-game-sec8-img4.0ba99f73.webp",
+    "kind": "images",
+    "bytes": 2648,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/0ad4d71ac1-mobile-game-sec8-img5.ca00f649.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/92d1c8fef3-0ad4d71ac1-mobile-game-sec8-img5.ca00f649.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/92d1c8fef3-0ad4d71ac1-mobile-game-sec8-img5.ca00f649.webp",
+    "kind": "images",
+    "bytes": 2106,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/3a40c6e26a-mobile-game-sec8-img6.f0460a05.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/1a4761e61b-3a40c6e26a-mobile-game-sec8-img6.f0460a05.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/1a4761e61b-3a40c6e26a-mobile-game-sec8-img6.f0460a05.webp",
+    "kind": "images",
+    "bytes": 1764,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/cbf50966e7-mobile-game-sec8-img7.becfa1ce.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/d7f6c4f8af-cbf50966e7-mobile-game-sec8-img7.becfa1ce.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/d7f6c4f8af-cbf50966e7-mobile-game-sec8-img7.becfa1ce.webp",
+    "kind": "images",
+    "bytes": 1678,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/0b13041ba3-mobile-game-sec8-img8.6bcdf295.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/47daa02505-0b13041ba3-mobile-game-sec8-img8.6bcdf295.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/47daa02505-0b13041ba3-mobile-game-sec8-img8.6bcdf295.webp",
+    "kind": "images",
+    "bytes": 2334,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/fc99b584bd-mobile-game-sec8-img9.960b5823.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/b30d287479-fc99b584bd-mobile-game-sec8-img9.960b5823.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/b30d287479-fc99b584bd-mobile-game-sec8-img9.960b5823.webp",
+    "kind": "images",
+    "bytes": 2810,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/0a155d5f4d-mobile-game-sec8-img10.c58770fa.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/4533616942-0a155d5f4d-mobile-game-sec8-img10.c58770fa.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/4533616942-0a155d5f4d-mobile-game-sec8-img10.c58770fa.webp",
+    "kind": "images",
+    "bytes": 1886,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/13dd9f257a-ios-icon.bc1f2286.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/5cf479c20c-13dd9f257a-ios-icon.bc1f2286.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/5cf479c20c-13dd9f257a-ios-icon.bc1f2286.webp",
+    "kind": "images",
+    "bytes": 60632,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/da6ba62a14-seo-page-sec4-chart.e869a6ae.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/55833ebf69-da6ba62a14-seo-page-sec4-chart.e869a6ae.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/55833ebf69-da6ba62a14-seo-page-sec4-chart.e869a6ae.webp",
+    "kind": "images",
+    "bytes": 87598,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/1069c73c78-mobile-game-sec13-img1.70e3395e.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/f1d54da336-1069c73c78-mobile-game-sec13-img1.70e3395e.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/f1d54da336-1069c73c78-mobile-game-sec13-img1.70e3395e.webp",
+    "kind": "images",
+    "bytes": 960,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/1c7911665c-mobile-game-sec13-img2.02b9be37.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/68947eff9b-1c7911665c-mobile-game-sec13-img2.02b9be37.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/68947eff9b-1c7911665c-mobile-game-sec13-img2.02b9be37.webp",
+    "kind": "images",
+    "bytes": 944,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/bbac3a7901-mobile-game-sec13-img3.bf611550.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/b345441877-bbac3a7901-mobile-game-sec13-img3.bf611550.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/b345441877-bbac3a7901-mobile-game-sec13-img3.bf611550.webp",
+    "kind": "images",
+    "bytes": 1054,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/91e55554ee-mobile-game-sec13-img4.12f74761.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/5e7b3a8647-91e55554ee-mobile-game-sec13-img4.12f74761.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/5e7b3a8647-91e55554ee-mobile-game-sec13-img4.12f74761.webp",
+    "kind": "images",
+    "bytes": 708,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/39304177d3-mobile-game-sec13-img5.b28e30eb.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/be331696ab-39304177d3-mobile-game-sec13-img5.b28e30eb.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/be331696ab-39304177d3-mobile-game-sec13-img5.b28e30eb.webp",
+    "kind": "images",
+    "bytes": 1030,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/88391d06a4-mobile-game-sec13-img6.01cffb6c.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/883451b0b4-88391d06a4-mobile-game-sec13-img6.01cffb6c.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/883451b0b4-88391d06a4-mobile-game-sec13-img6.01cffb6c.webp",
+    "kind": "images",
+    "bytes": 800,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/394562817d-mobile-game-sec13-img7.ba2e0480.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/98e9909e7f-394562817d-mobile-game-sec13-img7.ba2e0480.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/98e9909e7f-394562817d-mobile-game-sec13-img7.ba2e0480.webp",
+    "kind": "images",
+    "bytes": 824,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/58efe943b4-mobile-game-sec13-img8.a37ae777.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/485ca4db99-58efe943b4-mobile-game-sec13-img8.a37ae777.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/485ca4db99-58efe943b4-mobile-game-sec13-img8.a37ae777.webp",
+    "kind": "images",
+    "bytes": 982,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/45d6ecc301-mobile-game-sec13-img9.c6300f2c.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/28ced40557-45d6ecc301-mobile-game-sec13-img9.c6300f2c.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/28ced40557-45d6ecc301-mobile-game-sec13-img9.c6300f2c.webp",
+    "kind": "images",
+    "bytes": 1058,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/2b8b365a1e-mobile-game-sec13-img10.e1778270.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/c762f52fdb-2b8b365a1e-mobile-game-sec13-img10.e1778270.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/c762f52fdb-2b8b365a1e-mobile-game-sec13-img10.e1778270.webp",
+    "kind": "images",
+    "bytes": 712,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/706b1967c2-mobile-game-chart-im.6d420264.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/31bbe13df6-706b1967c2-mobile-game-chart-im.6d420264.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/31bbe13df6-706b1967c2-mobile-game-chart-im.6d420264.webp",
+    "kind": "images",
+    "bytes": 70922,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/05c1cb53e2-mobile-game-sec19-img.43d90a6b.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/466c66e756-05c1cb53e2-mobile-game-sec19-img.43d90a6b.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/466c66e756-05c1cb53e2-mobile-game-sec19-img.43d90a6b.webp",
+    "kind": "images",
+    "bytes": 54242,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/9d3d6f86c7-mobile-game-banner-bg.5cf26511.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/7ecb429c0a-9d3d6f86c7-mobile-game-banner-bg.5cf26511.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/7ecb429c0a-9d3d6f86c7-mobile-game-banner-bg.5cf26511.webp",
+    "kind": "images",
+    "bytes": 183970,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/b62f4ce602-mobile-game-sec5-bg.120570ae.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/1de8261177-b62f4ce602-mobile-game-sec5-bg.120570ae.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/1de8261177-b62f4ce602-mobile-game-sec5-bg.120570ae.webp",
+    "kind": "images",
+    "bytes": 52866,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d3ac27dd72-mobile-game-sec6-bg.76faa77f.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/473eb18183-d3ac27dd72-mobile-game-sec6-bg.76faa77f.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/473eb18183-d3ac27dd72-mobile-game-sec6-bg.76faa77f.webp",
+    "kind": "images",
+    "bytes": 13750,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/520cf07d6a-mobile-game-sec8-bg.e2c2daa5.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/a93a79afe0-520cf07d6a-mobile-game-sec8-bg.e2c2daa5.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/a93a79afe0-520cf07d6a-mobile-game-sec8-bg.e2c2daa5.webp",
+    "kind": "images",
+    "bytes": 55130,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d8c3282d2b-mobile-game-sec12-bg.55887181.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/33aea3a4f1-d8c3282d2b-mobile-game-sec12-bg.55887181.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/33aea3a4f1-d8c3282d2b-mobile-game-sec12-bg.55887181.webp",
+    "kind": "images",
+    "bytes": 89660,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/2871fd28ab-mobile-game-sec14-bg.9ef00aa9.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/6c34704fa6-2871fd28ab-mobile-game-sec14-bg.9ef00aa9.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/6c34704fa6-2871fd28ab-mobile-game-sec14-bg.9ef00aa9.webp",
+    "kind": "images",
+    "bytes": 52788,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/d03b932272-mobile-game-sec17-bg.b0424b41.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/cb78724ee1-d03b932272-mobile-game-sec17-bg.b0424b41.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/cb78724ee1-d03b932272-mobile-game-sec17-bg.b0424b41.webp",
+    "kind": "images",
+    "bytes": 57424,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
+  },
+  "/restored-assets/2f16643fdd-mobile-game-sec18-bg.1c2bc579.webp": {
+    "file": "public/assets/pages/mobile-game-development/images/8a2937458e-2f16643fdd-mobile-game-sec18-bg.1c2bc579.webp",
+    "publicUrl": "/assets/pages/mobile-game-development/images/8a2937458e-2f16643fdd-mobile-game-sec18-bg.1c2bc579.webp",
+    "kind": "images",
+    "bytes": 98240,
+    "usedByPages": [
+      "/mobile-game-development"
+    ]
   }
 }

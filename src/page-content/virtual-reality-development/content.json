@@ -768,8 +768,7 @@
                                     },
                                     "src": "/restored-assets/9ce9c7adad-heart-icon.a93997dd.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-af21747cab9f27"
+                                  "children": []
                                 }
                               ]
                             },
@@ -830,8 +829,7 @@
                                     },
                                     "src": "/restored-assets/18a9c1ade9-fitness-icon.b875f2c7.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-2893eeb3863440"
+                                  "children": []
                                 }
                               ]
                             },
@@ -892,8 +890,7 @@
                                     },
                                     "src": "/restored-assets/91bc7d8552-e-learn-icon.59b3655a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-8a48684b3438b3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -954,8 +951,7 @@
                                     },
                                     "src": "/restored-assets/6b0bb18898-Real-state-icon.48c98d4f.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-441f158eb31d76"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1016,8 +1012,7 @@
                                     },
                                     "src": "/restored-assets/fc03843308-dating-icon.7cae578a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-e2919b80ff51d3"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1078,8 +1073,7 @@
                                     },
                                     "src": "/restored-assets/a20527ac3a-travel-icon.c213cba2.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-549e81278a831e"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1140,8 +1134,7 @@
                                     },
                                     "src": "/restored-assets/7ffe161571-fintech-icon.6b3ff40a.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-620643e8337ea2"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1202,8 +1195,7 @@
                                     },
                                     "src": "/restored-assets/31926c1998-food-delivery-icon.b8d8be81.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-835eadc0e3b486"
+                                  "children": []
                                 }
                               ]
                             },
@@ -1264,8 +1256,7 @@
                                     },
                                     "src": "/restored-assets/a285bac86e-e-Commerce-icon.149a7953.webp"
                                   },
-                                  "children": [],
-                                  "assetId": "image-5319aecbbe090c"
+                                  "children": []
                                 }
                               ]
                             },
@@ -4809,7 +4800,7 @@
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
                           },
                           "children": [
                             "In what ways are your VR app development services superior to those of other companies?"
@@ -4818,7 +4809,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -4868,7 +4859,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "virtual-reality-development-faq-35",
+                        "id": "virtual-reality-development-faq-35-question"
                       },
                       "children": [
                         {
@@ -4900,6 +4897,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "virtual-reality-development-faq-35",
+                        "role": "region",
+                        "aria-labelledby": "virtual-reality-development-faq-35-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "There are lots of clients who intend to connect with users of Meta Quest, HTC Vive, PlayStation VR, and they even consider web-based VR. We lead you through the whole process regarding compatibility, optimization, and the future user experience."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4912,7 +4930,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "virtual-reality-development-faq-36",
+                        "id": "virtual-reality-development-faq-36-question"
                       },
                       "children": [
                         {
@@ -4944,6 +4968,38 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "virtual-reality-development-faq-36",
+                        "role": "region",
+                        "aria-labelledby": "virtual-reality-development-faq-36-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "The ",
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                "href": "/blog/app-development-timeline"
+                              },
+                              "children": [
+                                "app development timeline"
+                              ]
+                            },
+                            " question always arises as a major question. We decompose the phases into prototyping, asset creation, engineering, and testing so that you are aware of what to expect from start to finish."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4956,7 +5012,13 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "virtual-reality-development-faq-37",
+                        "id": "virtual-reality-development-faq-37-question"
                       },
                       "children": [
                         {
@@ -4988,6 +5050,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "virtual-reality-development-faq-37",
+                        "role": "region",
+                        "aria-labelledby": "virtual-reality-development-faq-37-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "Absolutely! We offer uninterrupted assistance to ensure your VR application remains stable, optimized, and current. Our AR developers take care of performance monitoring, fixing bugs, adding new features, making compatibility updates for new headsets, and long-term maintenance so that your VR experience is always seamless and can adapt to your changing needs."
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -5000,13 +5083,19 @@
                     {
                       "tag": "div",
                       "props": {
-                        "className": "flex justify-between items-center"
+                        "className": "flex justify-between items-center",
+                        "data-secondary-faq": "true",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-expanded": "false",
+                        "aria-controls": "virtual-reality-development-faq-38",
+                        "id": "virtual-reality-development-faq-38-question"
                       },
                       "children": [
                         {
                           "tag": "h3",
                           "props": {
-                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
+                            "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
                           },
                           "children": [
                             "How much does VR app development cost?"
@@ -5015,7 +5104,7 @@
                         {
                           "tag": "svg",
                           "props": {
-                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
+                            "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
                             "fill": "currentColor",
                             "viewBox": "0 0 20 20"
                           },
@@ -5029,6 +5118,38 @@
                               },
                               "children": []
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "overflow-hidden",
+                        "hidden": true,
+                        "id": "virtual-reality-development-faq-38",
+                        "role": "region",
+                        "aria-labelledby": "virtual-reality-development-faq-38-question"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                          },
+                          "children": [
+                            "The cost of VR development projects typically falls in the range from $15,000 to more than $400,000, depending on sophistication, functionalities, and the platform. Simple VR applications can cost anywhere between $15,000–$20,000, and complex VR projects can cost more than $200,000. As soon as we get to know your needs and objectives, we will give you a transparent ",
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                "href": "/blog/mobile-app-development-cost"
+                              },
+                              "children": [
+                                "app development cost"
+                              ]
+                            },
+                            " breakdown."
                           ]
                         }
                       ]
@@ -5357,40 +5478,6 @@
                                         {
                                           "tag": "div",
                                           "props": {},
-                                          "children": [
-                                            {
-                                              "tag": "iframe",
-                                              "props": {
-                                                "title": "reCAPTCHA",
-                                                "width": "304",
-                                                "height": "78",
-                                                "role": "presentation",
-                                                "name": "a-du3n2y4zv04o",
-                                                "frameborder": "0",
-                                                "scrolling": "no",
-                                                "sandbox": "allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation",
-                                                "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeiEdMrAAAAABvKNR7mGYyylUHch7uSazvosIa7&co=aHR0cHM6Ly9pbmNlcHRpdmVzLnZlcmNlbC5hcHA6NDQz&hl=en&type=image&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=dark&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=3nrj3ewka3xq"
-                                              },
-                                              "children": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "tag": "textarea",
-                                          "props": {
-                                            "id": "g-recaptcha-response",
-                                            "name": "g-recaptcha-response",
-                                            "className": "g-recaptcha-response",
-                                            "style": {
-                                              "width": "250px",
-                                              "height": "40px",
-                                              "border": "1px solid rgb(193, 193, 193)",
-                                              "margin": "10px 25px",
-                                              "padding": "0px",
-                                              "resize": "none",
-                                              "display": "none"
-                                            }
-                                          },
                                           "children": []
                                         }
                                       ]

@@ -43,3 +43,8 @@ Press Release category ID was 53 at audit time. Resolve it using `/categories?sl
 Optional parameters: `blog_cat=<category-slug>`, `blog_search=<text>`, `blog_view=desktop|tablet|mobile`, `pagination_page=<number>`. Returns the existing structured listing nodes; it is an internal UI adapter rather than a replacement WordPress publishing API. Tabs fetch this endpoint without document navigation or adding category query parameters to the visible browser URL.
 
 Public read APIs require no password. Administrative publishing APIs require appropriate credentials; never embed those in browser code. Before any future production cutover, retain an independently reachable WordPress backend hostname so that the new frontend's public hostname does not point its own API reads back to itself. This release makes no live-domain or DNS changes.
+
+
+## Approved staging publishing backend — 11 November 2026
+
+Publish/update blogs in https://nextincep.wpenginepowered.com/wp-admin/. Staging reads its public REST posts/categories endpoints, follows every 100-post pagination batch and preserves production canonical URLs. Configuration: content/wordpress-blog-source.json. Forms continue using existing integrations. Posts only present in the other WordPress environment will not appear unless published in this approved backend.

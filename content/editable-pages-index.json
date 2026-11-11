@@ -322,5 +322,9 @@
   "/press-release": {
     "folder": "press-release",
     "type": "wordpress"
+  },
+  "/mobile-game-development": {
+    "folder": "mobile-game-development",
+    "type": "secondary"
   }
 }

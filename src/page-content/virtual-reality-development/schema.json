@@ -1,87 +1,123 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://inceptivesdigital.com/#organization",
-    "name": "Inceptives Digital",
-    "url": "https://inceptivesdigital.com",
-    "logo": {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "width": 512,
-      "height": 512,
-      "caption": "Inceptives Digital"
-    },
-    "image": {
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-    },
-    "sameAs": [
-      "https://www.facebook.com/inceptivesdigital",
-      "https://www.instagram.com/inceptivesdigital/",
-      "https://www.linkedin.com/company/inceptivesdigital/"
-    ],
-    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-    "email": "info@inceptivesdigital.com",
-    "telephone": "+1 469 788 8527",
-    "legalName": "Inceptives Digital"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Virtual Reality Development Services | VR Development",
-    "url": "https://inceptivesdigital.com/virtual-reality-development",
-    "description": "Delivering innovative virtual reality development services to create immersive experiences. Expert VR development for businesses worldwide.",
-    "mainEntity": [
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/virtual-reality-development#webpage",
+        "url": "https://inceptivesdigital.com/virtual-reality-development",
+        "name": "Virtual Reality Development Services | VR Development",
+        "description": "Delivering innovative virtual reality development services to create immersive experiences. Expert VR development for businesses worldwide.",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "about": {
+          "@id": "https://inceptivesdigital.com/virtual-reality-development#service"
+        },
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/virtual-reality-development#breadcrumb"
+        },
+        "inLanguage": "en-US"
+      },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/virtual-reality-development#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://inceptivesdigital.com/"
+            "item": "https://inceptivesdigital.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Services",
-            "item": "https://inceptivesdigital.com/services"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Virtual Reality Development",
+            "name": "Virtual Reality Development Services",
             "item": "https://inceptivesdigital.com/virtual-reality-development"
           }
         ]
       },
       {
-        "@type": "Product",
+        "@type": "Service",
+        "@id": "https://inceptivesdigital.com/virtual-reality-development#service",
         "name": "Virtual Reality Development Services",
-        "description": "Next-level virtual reality development services delivering immersive, high-performance VR applications for global businesses.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Inceptives Digital"
+        "serviceType": "Virtual Reality Development Services",
+        "description": "Delivering innovative virtual reality development services to create immersive experiences. Expert VR development for businesses worldwide.",
+        "url": "https://inceptivesdigital.com/virtual-reality-development",
+        "provider": {
+          "@id": "https://inceptivesdigital.com/#organization"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "ratingCount": "22"
+        "mainEntityOfPage": {
+          "@id": "https://inceptivesdigital.com/virtual-reality-development#webpage"
         }
       },
       {
         "@type": "FAQPage",
+        "@id": "https://inceptivesdigital.com/virtual-reality-development#faq",
+        "url": "https://inceptivesdigital.com/virtual-reality-development",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/virtual-reality-development#webpage"
+        },
         "mainEntity": [
           {
             "@type": "Question",
             "name": "In what ways are your VR app development services superior to those of other companies?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our VR development services stand out due to our deep focus on realism, high performance, and advanced technical compatibility with AI, spatial computing, and haptic technologies. We deliver VR experiences that are immersive, stable, and engineered for long-term innovation."
+              "text": "It is common for customers to inquire about our VR app development project methodology and the distinguishing factors of our VR development teams. The areas where we concentrate, that is, realism, performance, and thorough technical compatibility with AI, spatial computing, and haptics, are explained to them."
             }
           },
           {
@@ -89,7 +125,7 @@
             "name": "What measures do you take to guarantee that our VR app performs seamlessly on multiple headsets and platforms?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We ensure compatibility and optimization for Meta Quest, HTC Vive, PlayStation VR, and web-based VR experiences. Our team manages platform-specific performance tuning, rendering optimization, and UX adjustments to guarantee smooth and immersive experiences across all devices."
+              "text": "There are lots of clients who intend to connect with users of Meta Quest, HTC Vive, PlayStation VR, and they even consider web-based VR. We lead you through the whole process regarding compatibility, optimization, and the future user experience."
             }
           },
           {
@@ -97,15 +133,15 @@
             "name": "What is the duration of your VR development team's process for creating a complete VR application?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The VR development timeline varies by complexity. We break the process into prototyping, 3D asset creation, engineering, and testing phases, ensuring full transparency from start to finish. Simple VR experiences may take weeks, while advanced solutions require several months."
+              "text": "The app development timeline question always arises as a major question. We decompose the phases into prototyping, asset creation, engineering, and testing so that you are aware of what to expect from start to finish."
             }
           },
           {
             "@type": "Question",
-            "name": "Is there continuous support and updates service offered after our VR app launch?",
+            "name": "Is there a continuous support and updates service that you offer after our VR app launch?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We provide ongoing support, including performance monitoring, bug fixes, feature upgrades, and compatibility updates for newly released VR headsets. Our long-term maintenance ensures your VR experience remains stable, optimized, and scalable."
+              "text": "Absolutely! We offer uninterrupted assistance to ensure your VR application remains stable, optimized, and current. Our AR developers take care of performance monitoring, fixing bugs, adding new features, making compatibility updates for new headsets, and long-term maintenance so that your VR experience is always seamless and can adapt to your changing needs."
             }
           },
           {
@@ -113,7 +149,7 @@
             "name": "How much does VR app development cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "VR development typically ranges from $15,000 to over $400,000 depending on app complexity, 3D asset quality, features, interactions, and platforms. Basic VR apps cost around $15,000–$20,000, while large-scale experiences can exceed $200,000. We provide a transparent cost breakdown after evaluating your project requirements."
+              "text": "The cost of VR development projects typically falls in the range from $15,000 to more than $400,000, depending on sophistication, functionalities, and the platform. Simple VR applications can cost anywhere between $15,000–$20,000, and complex VR projects can cost more than $200,000. As soon as we get to know your needs and objectives, we will give you a transparent app development cost breakdown."
             }
           }
         ]

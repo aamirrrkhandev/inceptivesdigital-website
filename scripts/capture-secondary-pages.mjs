@@ -44,7 +44,7 @@ try {
         }),
     );
     const variants = {};
-    if (slug === "staff-augmentation") {
+    if (["staff-augmentation", "mobile-game-development"].includes(slug)) {
       const labels = await page.evaluate(() => {
         const first = [...document.querySelectorAll("span")].find(
           (e) => e.textContent.trim() === "01.",
@@ -58,6 +58,8 @@ try {
         widget.lastElementChild.dataset.secondaryTabPanel = "true";
         return [...row.children].map((el, i) => {
           el.dataset.secondaryTab = String(i);
+          const number=[...el.querySelectorAll("span")].find(span=>/^0\d\.$/.test(span.textContent.trim()));
+          if(number)number.parentElement.dataset.secondaryStepIndicator="true";
           return el.textContent.trim();
         });
       });
@@ -91,6 +93,26 @@ try {
         .getByRole("button", { name: group.labels[0], exact: true })
         .click();
     }
+    // Closed React FAQ answers are absent from initial HTML. Capture every
+    // original answer through its real control before converting to React.
+    const questions=await page.evaluate(()=>[...document.querySelectorAll("h3")].filter(h=>h.parentElement?.parentElement?.classList.contains("cursor-pointer")).map((h,i)=>{
+      const card=h.parentElement.parentElement;card.dataset.captureFaq=String(i);
+      return {question:h.textContent.trim(),initialOpen:card.children.length>1};
+    }));
+    const faqs=[];
+    for(let i=0;i<questions.length;i++) {
+      const card=page.locator('[data-capture-faq="'+i+'"]');
+      if(await card.evaluate(el=>el.children.length<2))await card.locator("h3").click();
+      await page.waitForFunction(el=>el.children.length>=2,await card.elementHandle());
+      await page.waitForTimeout(350);
+      faqs.push({...questions[i],html:await card.evaluate(el=>el.lastElementChild.outerHTML),text:await card.evaluate(el=>el.lastElementChild.textContent.trim())});
+    }
+    await page.evaluate(faqs=>{for(let i=0;i<faqs.length;i++){
+      const card=document.querySelector('[data-capture-faq="'+i+'"]');
+      if(card.children.length<2){const template=document.createElement("template");template.innerHTML=faqs[i].html;const answer=template.content.firstElementChild;answer.hidden=true;card.append(answer);}
+      card.removeAttribute("data-capture-faq");
+    }},faqs);
+    fs.writeFileSync("audit/secondary-vercel/"+slug+"-faqs.json",JSON.stringify(faqs,null,2));
     const html = await page.content();
     fs.writeFileSync("audit/secondary-vercel/" + slug + "-rendered.html", html);
     fs.writeFileSync(

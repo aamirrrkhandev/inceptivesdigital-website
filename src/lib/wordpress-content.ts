@@ -6,19 +6,37 @@ import type { AnyNode, Element } from "domhandler";
 import safeParser from "postcss-safe-parser";
 import { getPage, type LayoutNode, type SitePage } from "./site-model";
 import { mediaIndex } from "./static-media";
-import { readWordPressPublicPage } from "./wordpress-forms";
+import { readWordPressPublicPage, readWordPressBlogPage } from "./wordpress-forms";
 import { prepareSourceDom } from "./source-enhancements";
 import { approvedCanonical } from "./seo-policy";
 import savedRoutes from "../../content/routes.json";
+import blogSource from "../../content/wordpress-blog-source.json";
 
-const origin = "https://inceptivesdigital.com";
+const origin = blogSource.publicOrigin;
+const blogOrigin = blogSource.origin;
+function publicURL(value: string): string {
+  try {
+    const url = new URL(value, origin);
+    if (url.origin === blogOrigin) {
+      if (url.pathname.startsWith("/wp-content/") && !mediaIndex[url.pathname]) return value;
+      url.host = new URL(origin).host;
+    }
+    return approvedCanonical(url.href) || value;
+  } catch { return value; }
+}
+function normalizeBlogSEO(value: unknown): unknown {
+  if (typeof value === "string") return value.replace(/https:\/\/nextincep\.wpenginepowered\.com[^\s<>"']*/g, publicURL);
+  if (Array.isArray(value)) return value.map(normalizeBlogSEO);
+  if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, normalizeBlogSEO(item)]));
+  return value;
+}
 const rename = (value: string) =>
   value
     .replaceAll("elementor", "migrated")
     .replaceAll("elementskit", "sitekit");
 const read = unstable_cache(
-  readWordPressPublicPage,
-  ["wordpress-public-content-v2"],
+  readWordPressBlogPage,
+  ["wordpress-blog-content-wpe-v1"],
   { revalidate: 30, tags: ["wordpress-posts"] },
 );
 type PostIndex = {
@@ -58,7 +76,7 @@ export const getPublishedPosts = cache(async (): Promise<PostIndex[]> => {
     ) as PostIndex[];
     if (!Array.isArray(batch))
       throw new Error("Invalid WordPress posts response");
-    posts.push(...batch);
+    posts.push(...batch.map(post => ({ ...post, link: publicURL(post.link), yoast_head_json: post.yoast_head_json ? { ...post.yoast_head_json, canonical: publicURL(post.yoast_head_json.canonical || post.link) } : undefined })));
     if (batch.length < 100) return posts;
   }
   throw new Error("WordPress pagination limit reached");
@@ -83,7 +101,7 @@ export const getWordPressSitemapURLs = cache(async () => {
     if (visited.has(path)) return;
     visited.add(path);
     if (visited.size > 40) throw new Error("Unexpected sitemap count");
-    const $ = cheerio.load(await read(path), { xmlMode: true });
+    const $ = cheerio.load(await readWordPressPublicPage(path), { xmlMode: true });
     if ($("sitemapindex").length) {
       await Promise.all(
         $("sitemap > loc")
@@ -98,7 +116,7 @@ export const getWordPressSitemapURLs = cache(async () => {
     } else if ($("urlset").length) {
       $("url > loc").each((_, el) => {
         const url = new URL($(el).text());
-        if (url.origin === origin) urls.push(approvedCanonical(url.href)!);
+        if (url.origin === origin && !/^\/(?:blog|press-release)\/[^/]+\/?$/.test(url.pathname)) urls.push(approvedCanonical(url.href)!);
       });
     } else throw new Error("Invalid WordPress sitemap");
   }
@@ -132,7 +150,7 @@ export const getWordPressSitemapURLs = cache(async () => {
 function media(value: string) {
   try {
     const url = new URL(value, origin);
-    return url.origin === origin && mediaIndex[url.pathname]
+    return [origin, blogOrigin].includes(url.origin) && mediaIndex[url.pathname]
       ? url.pathname
       : url.href;
   } catch {
@@ -142,8 +160,8 @@ function media(value: string) {
 function localLink(value: string) {
   try {
     const url = new URL(value, origin);
-    return url.origin === origin
-      ? url.pathname + url.search + url.hash
+    return [origin, blogOrigin].includes(url.origin)
+      ? url.pathname.startsWith("/wp-content/") ? media(value) : url.pathname + url.search + url.hash
       : url.href;
   } catch {
     return value;
@@ -308,6 +326,7 @@ function refreshMetadata($: cheerio.CheerioAPI, page: SitePage) {
       }))
       .get(),
   };
+  page.meta = normalizeBlogSEO(page.meta) as SitePage["meta"];
 }
 
 function appendSourceStyles(
@@ -521,18 +540,6 @@ export const getWordPressPage = cache(
               (post) => new URL(post.link).pathname.replace(/\/$/, "") === path,
             );
       if (articlePath && !post) return undefined;
-      const modified = saved?.meta.metadata.find(
-        (meta) => meta.name === "article:modified_time",
-      )?.content;
-      if (
-        saved &&
-        path !== "/blog/mobile-app-monetization-strategies" &&
-        post &&
-        !post.meta &&
-        modified &&
-        Date.parse(post.modified_gmt + "Z") <= Date.parse(modified)
-      )
-        return saved;
       const query = new URLSearchParams(blogQuery);
       const options = {
         page: Math.max(
@@ -606,6 +613,6 @@ export const getWordPressPage = cache(
 export const getWordPressThankYouMetadata = cache(async () => {
   const template = getPage("/contact-us")!;
   const page = { ...template, path: "/thank-you" };
-  refreshMetadata(cheerio.load(await read("/thank-you")), page);
+  refreshMetadata(cheerio.load(await readWordPressPublicPage("/thank-you")), page);
   return page.meta;
 });

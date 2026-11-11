@@ -7,7 +7,8 @@ import postcss from "postcss";
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url),
   acorn = require("next/dist/compiled/acorn");
-const slugs = [
+const incremental = Boolean(process.argv[2]);
+const slugs = incremental ? [process.argv[2]] : [
   "web-development",
   "staff-augmentation",
   "iot-development",
@@ -125,7 +126,7 @@ function fieldHTML(node) {
     .join(" ");
   return `<${node.tag} ${attrs}>${["input", "img", "br"].includes(node.tag) ? "" : node.children.map(fieldHTML).join("") + "</" + node.tag + ">"}`;
 }
-const pages = {};
+const pages = incremental ? JSON.parse(fs.readFileSync("content/secondary-pages.json")) : {};
 async function localize($, root) {
   for (const el of root.find("[src],[poster]").toArray())
     for (const name of ["src", "poster"])
@@ -341,6 +342,16 @@ for (const slug of slugs) {
     .attr({ "data-secondary-carousel": "true", tabindex: "0" })
     .css({ "overflow-x": "auto", "scroll-snap-type": "x mandatory" });
   root.find(".embla__container,.embla__slide").css("transform", "none");
+  root.find("button").filter((_,element)=>$(element).text().trim().toLowerCase()==="swipe").each((_,element)=>{
+    const button=$(element);
+    const owner=button.parents().filter((_,parent)=>$(parent).find(".overflow-hidden").length>0).first();
+    const viewport=owner.find(".overflow-hidden").first();
+    if(viewport.length){
+      button.attr({"data-secondary-arrow":"1","aria-label":"Next blog articles"});
+      viewport.attr({"data-secondary-carousel":"true","data-secondary-step":"1",tabindex:"0"}).css({"overflow-x":"auto","scroll-snap-type":"x mandatory"});
+      viewport.children().css("transform","none").children().css({transform:"none","scroll-snap-align":"start"});
+    }
+  });
   root
     .find("button")
     .has(".lucide-arrow-left")
@@ -425,7 +436,7 @@ for (const slug of slugs) {
     meta,
     sections: root.children().toArray().map(convert).filter(Boolean),
   };
-  if (!pages["/" + slug].sections.length || root.text().length < 5000)
+  if (!pages["/" + slug].sections.length || root.find("h1").length !== 1 || root.text().trim().length < 300)
     throw Error("Incomplete page content " + slug);
   console.log("Prepared " + slug);
 }
@@ -456,10 +467,28 @@ for (const url of cssURLs) {
 }
 css +=
   "\n.secondary-service-page{font-family:sfPro,Arial,sans-serif;--font-sf-pro:sfPro;color:white;background:black;isolation:isolate;overflow-x:clip}.secondary-service-page [hidden]{display:none!important}.secondary-service-page button{cursor:pointer}.secondary-service-page [data-secondary-faq]:focus-visible{outline:2px solid #00ce44}.secondary-service-page [data-secondary-panel] img{max-width:100%}.secondary-service-page form input[type=checkbox]{width:auto}.secondary-service-page form label{color:inherit}";
-fs.writeFileSync("content/secondary-pages.json", JSON.stringify(pages));
-fs.writeFileSync("content/secondary-styles.json", JSON.stringify(css));
+if (!incremental) {
+  fs.writeFileSync("content/secondary-pages.json", JSON.stringify(pages));
+  fs.writeFileSync("content/secondary-styles.json", JSON.stringify(css));
+}
 css +=
   "\n.secondary-service-page{margin-top:-80px;line-height:1.5}.secondary-service-page :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select){font-family:inherit;line-height:inherit}@media(max-width:1024px){.secondary-service-page{margin-top:-74px}}@media(max-width:767px){.secondary-service-page{margin-top:-66px}}";
+if (incremental) {
+  fs.writeFileSync("content/secondary-pages.json", JSON.stringify(pages));
+  const styles = fs.existsSync("content/secondary-page-styles.json")
+    ? JSON.parse(fs.readFileSync("content/secondary-page-styles.json")) : {};
+  styles["/" + slugs[0]] = css;
+  fs.writeFileSync("content/secondary-page-styles.json", JSON.stringify(styles));
+  const previous = JSON.parse(fs.readFileSync("content/secondary-assets.json"));
+  const merged = new Map(previous.map((entry) => [entry.source, entry]));
+  for (const [source, promise] of assets) {
+    const file = await promise;
+    merged.set(source, { source, file, bytes: fs.statSync("public" + file).size });
+  }
+  fs.writeFileSync("content/secondary-assets.json", JSON.stringify([...merged.values()]));
+  console.log(JSON.stringify({ incremental: slugs[0], pages: Object.keys(pages).length, assets: merged.size }));
+  process.exit(0);
+}
 fs.writeFileSync("content/secondary-styles.json", JSON.stringify(css));
 const tree = acorn.parse(
     fs.readFileSync(

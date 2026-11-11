@@ -37,7 +37,11 @@ export function initializeCalendarPopup(root: HTMLElement) {
     timer = setTimeout(failed, 20000);
     frame.loading = "eager";
     frame.tabIndex = 0;
-    frame.src = frame.dataset.embedSrc || CALENDLY_EMBED_URL;
+    const url = new URL(frame.dataset.embedSrc || CALENDLY_EMBED_URL);
+    // Browsers may coalesce a same-URL retry with a still-pending navigation.
+    // Only explicit retries bypass that request; normal reopen reuses the frame.
+    if (force) url.searchParams.set("_retry", String(Date.now()));
+    frame.src = url.href;
   };
   const onRetry = () => load(true);
   frame?.addEventListener("load", loaded);

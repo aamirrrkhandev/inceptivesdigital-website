@@ -1,38 +1,8 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://inceptivesdigital.com/#organization",
-    "name": "Inceptives Digital",
-    "url": "https://inceptivesdigital.com",
-    "logo": {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "width": 512,
-      "height": 512,
-      "caption": "Inceptives Digital"
-    },
-    "image": {
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-    },
-    "sameAs": [
-      "https://www.facebook.com/inceptivesdigital",
-      "https://www.instagram.com/inceptivesdigital/",
-      "https://www.linkedin.com/company/inceptivesdigital/"
-    ],
-    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-    "email": "info@inceptivesdigital.com",
-    "telephone": "+1 469 788 8527",
-    "legalName": "Inceptives Digital"
-  },
-  {
-    "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "Organization",
         "@id": "https://inceptivesdigital.com/#organization",
         "name": "Inceptives Digital",
@@ -61,99 +31,93 @@
         "legalName": "Inceptives Digital"
       },
       {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
         "@type": "WebPage",
-        "name": "Web Development Services | Website Design & Development",
+        "@id": "https://inceptivesdigital.com/web-development#webpage",
         "url": "https://inceptivesdigital.com/web-development",
-        "description": "Professional web development services for custom websites, UI/UX design, and scalable solutions to enhance performance and business growth.",
-        "inLanguage": "en",
+        "name": "Web Development Services | Website Design & Development",
+        "description": "Professional web development services for custom websites, design, and development that boost performance, user experience, and business growth.",
         "isPartOf": {
-          "@type": "WebSite",
-          "name": "Inceptives Digital",
-          "url": "https://inceptivesdigital.com/"
-        }
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "about": {
+          "@id": "https://inceptivesdigital.com/web-development#service"
+        },
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/web-development#breadcrumb"
+        },
+        "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/web-development#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "item": {
-              "@id": "https://inceptivesdigital.com/",
-              "name": "Home"
-            }
+            "name": "Home",
+            "item": "https://inceptivesdigital.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@id": "https://inceptivesdigital.com/services",
-              "name": "Services"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://inceptivesdigital.com/web-development",
-              "name": "Web Development Services"
-            }
+            "name": "Web Development Services",
+            "item": "https://inceptivesdigital.com/web-development"
           }
         ]
       },
       {
         "@type": "Service",
+        "@id": "https://inceptivesdigital.com/web-development#service",
         "name": "Web Development Services",
-        "description": "Custom web development services including website design, front-end and back-end development, and scalable web solutions tailored for business growth.",
+        "serviceType": "Web Development Services",
+        "description": "Professional web development services for custom websites, design, and development that boost performance, user experience, and business growth.",
+        "url": "https://inceptivesdigital.com/web-development",
         "provider": {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "@id": "https://inceptivesdigital.com/#organization",
-          "name": "Inceptives Digital",
-          "url": "https://inceptivesdigital.com",
-          "logo": {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-            "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-            "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-            "width": 512,
-            "height": 512,
-            "caption": "Inceptives Digital"
-          },
-          "image": {
-            "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-          },
-          "sameAs": [
-            "https://www.facebook.com/inceptivesdigital",
-            "https://www.instagram.com/inceptivesdigital/",
-            "https://www.linkedin.com/company/inceptivesdigital/"
-          ],
-          "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-          "email": "info@inceptivesdigital.com",
-          "telephone": "+1 469 788 8527",
-          "legalName": "Inceptives Digital"
+          "@id": "https://inceptivesdigital.com/#organization"
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        },
-        "serviceType": "Web Development",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock"
+        "mainEntityOfPage": {
+          "@id": "https://inceptivesdigital.com/web-development#webpage"
         }
       },
       {
         "@type": "FAQPage",
+        "@id": "https://inceptivesdigital.com/web-development#faq",
+        "url": "https://inceptivesdigital.com/web-development",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/web-development#webpage"
+        },
         "mainEntity": [
           {
             "@type": "Question",
             "name": "What will your web development team do to help our website stand out?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We build high-performing websites with modern design, responsive layouts, and optimized code to ensure a strong user experience and better search visibility."
+              "text": "While developing a website, our web developers' focus is to provide a user experience that will make a brand stand out in the market. Our websites are a combination of modern design, responsive layouts, and trending technologies to make sure they are high-performing and secure as well."
             }
           },
           {
@@ -161,47 +125,47 @@
             "name": "Can you add AI and automation to our site?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, we integrate AI-powered features like chatbots, personalization engines, and automation tools to improve user engagement and efficiency."
+              "text": "Yes!, chatbots, personalization engines, and automations from AI are essential to engagement and will be findable post-click. We will help you integrate all these smart features into your site so your users get extra value."
             }
           },
           {
             "@type": "Question",
-            "name": "How do you ensure our website is SEO and performance optimized?",
+            "name": "How do you ensure our website is search engine and performance optimized?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We follow best practices including clean code, fast loading speed, mobile responsiveness, and SEO-friendly architecture to improve rankings and performance."
+              "text": "We do not just create websites; we build them for relevancy and speed. From clean code and loading speed to an SEO friendly structure. Building our site the best way means your site scores better on the ranking and operates better end-to-end."
             }
           },
           {
             "@type": "Question",
-            "name": "Will we be able to manage and update our website easily?",
+            "name": "Will we be able to manage and update our website without hassle?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, we build websites with user-friendly CMS platforms, allowing you to update content, images, and pages without technical expertise."
+              "text": "Sure. We build with user-friendly CMS platforms, giving you control to edit content, upload media, and manage your site with the ability to do so at ease as a non-technical user. As always, our developers are available for ongoing support."
             }
           },
           {
             "@type": "Question",
-            "name": "How secure will our website be?",
+            "name": "How secure will our website be with Inceptives Digital?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We implement advanced security practices including SSL, data encryption, and regular vulnerability checks to protect your website and user data."
+              "text": "Security is a major concern for us. Our mobile app development company uses the latest security practices, including SSL, data encryption, and regular vulnerability checks, to keep your website and customer data safe."
             }
           },
           {
             "@type": "Question",
-            "name": "Will you provide support after the website launch?",
+            "name": "Will you continue to help us even after the site launches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, we offer ongoing maintenance, updates, and performance monitoring to ensure your website continues to perform optimally."
+              "text": "Yes, we don’t throw a project over the fence and forget about it. We provide ongoing maintenance, updates, and performance monitoring, and can help keep your website humming along well after it goes live."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does it take to develop a website?",
+            "name": "How fast can we have our project delivered?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The timeline depends on project complexity, but we provide a clear roadmap and deliver efficiently without compromising quality."
+              "text": "Development timelines are dependent on the project's complexity, but we promise to be efficient (assuming you won't delay us) without losing quality. Once we know your goals, we will provide a clear plan and turnaround times."
             }
           }
         ]

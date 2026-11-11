@@ -4806,8 +4806,7 @@
                                         },
                                         "src": "/restored-assets/9ce9c7adad-heart-icon.a93997dd.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-18700278e7f027"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -4868,8 +4867,7 @@
                                         },
                                         "src": "/restored-assets/18a9c1ade9-fitness-icon.b875f2c7.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-095e8191d37ad0"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -4930,8 +4928,7 @@
                                         },
                                         "src": "/restored-assets/91bc7d8552-e-learn-icon.59b3655a.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-691a17f6bcfdba"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -4992,8 +4989,7 @@
                                         },
                                         "src": "/restored-assets/6b0bb18898-Real-state-icon.48c98d4f.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-d53356683e3e73"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -5054,8 +5050,7 @@
                                         },
                                         "src": "/restored-assets/fc03843308-dating-icon.7cae578a.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-98b2fe4ee817e4"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -5116,8 +5111,7 @@
                                         },
                                         "src": "/restored-assets/a20527ac3a-travel-icon.c213cba2.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-a23c56c391e0b5"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -5178,8 +5172,7 @@
                                         },
                                         "src": "/restored-assets/7ffe161571-fintech-icon.6b3ff40a.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-a4ae93a1a8b395"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -5240,8 +5233,7 @@
                                         },
                                         "src": "/restored-assets/31926c1998-food-delivery-icon.b8d8be81.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-a4d32e33faeca0"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -5302,8 +5294,7 @@
                                         },
                                         "src": "/restored-assets/a285bac86e-e-Commerce-icon.149a7953.webp"
                                       },
-                                      "children": [],
-                                      "assetId": "image-b3746ce70f996d"
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -6500,7 +6491,7 @@
                             {
                               "tag": "h3",
                               "props": {
-                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
+                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
                               },
                               "children": [
                                 "What will your web development team do to help our website stand out?"
@@ -6509,7 +6500,7 @@
                             {
                               "tag": "svg",
                               "props": {
-                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
+                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
                                 "fill": "currentColor",
                                 "viewBox": "0 0 20 20"
                               },
@@ -6559,7 +6550,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-38",
+                            "id": "web-development-faq-38-question"
                           },
                           "children": [
                             {
@@ -6591,6 +6588,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-38",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-38-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Yes!, chatbots, personalization engines, and automations from AI are essential to engagement and will be findable post-click. We will help you integrate all these smart features into your site so your users get extra value."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6603,7 +6621,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-39",
+                            "id": "web-development-faq-39-question"
                           },
                           "children": [
                             {
@@ -6635,6 +6659,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-39",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-39-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "We do not just create websites; we build them for relevancy and speed. From clean code and loading speed to an SEO friendly structure. Building our site the best way means your site scores better on the ranking and operates better end-to-end."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6647,7 +6692,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-40",
+                            "id": "web-development-faq-40-question"
                           },
                           "children": [
                             {
@@ -6679,6 +6730,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-40",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-40-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Sure. We build with user-friendly CMS platforms, giving you control to edit content, upload media, and manage your site with the ability to do so at ease as a non-technical user. As always, our developers are available for ongoing support."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6691,7 +6763,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-41",
+                            "id": "web-development-faq-41-question"
                           },
                           "children": [
                             {
@@ -6723,6 +6801,38 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-41",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-41-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Security is a major concern for us. Our ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                    "href": "/mobile-app-development"
+                                  },
+                                  "children": [
+                                    "mobile app development company"
+                                  ]
+                                },
+                                " uses the latest security practices, including SSL, data encryption, and regular vulnerability checks, to keep your website and customer data safe."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6735,7 +6845,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-42",
+                            "id": "web-development-faq-42-question"
                           },
                           "children": [
                             {
@@ -6767,6 +6883,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-42",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-42-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Yes, we don’t throw a project over the fence and forget about it. We provide ongoing maintenance, updates, and performance monitoring, and can help keep your website humming along well after it goes live."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6779,13 +6916,19 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "web-development-faq-43",
+                            "id": "web-development-faq-43-question"
                           },
                           "children": [
                             {
                               "tag": "h3",
                               "props": {
-                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
+                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
                               },
                               "children": [
                                 "How fast can we have our project delivered?"
@@ -6794,7 +6937,7 @@
                             {
                               "tag": "svg",
                               "props": {
-                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
+                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
                                 "fill": "currentColor",
                                 "viewBox": "0 0 20 20"
                               },
@@ -6808,6 +6951,27 @@
                                   },
                                   "children": []
                                 }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "web-development-faq-43",
+                            "role": "region",
+                            "aria-labelledby": "web-development-faq-43-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Development timelines are dependent on the project's complexity, but we promise to be efficient (assuming you won't delay us) without losing quality. Once we know your goals, we will provide a clear plan and turnaround times."
                               ]
                             }
                           ]
@@ -7110,40 +7274,6 @@
                                             {
                                               "tag": "div",
                                               "props": {},
-                                              "children": [
-                                                {
-                                                  "tag": "iframe",
-                                                  "props": {
-                                                    "title": "reCAPTCHA",
-                                                    "width": "304",
-                                                    "height": "78",
-                                                    "role": "presentation",
-                                                    "name": "a-5sw20trdg0yo",
-                                                    "frameborder": "0",
-                                                    "scrolling": "no",
-                                                    "sandbox": "allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation",
-                                                    "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeiEdMrAAAAABvKNR7mGYyylUHch7uSazvosIa7&co=aHR0cHM6Ly9pbmNlcHRpdmVzLnZlcmNlbC5hcHA6NDQz&hl=en&type=image&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=dark&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=s5ths9ife23k"
-                                                  },
-                                                  "children": []
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "tag": "textarea",
-                                              "props": {
-                                                "id": "g-recaptcha-response",
-                                                "name": "g-recaptcha-response",
-                                                "className": "g-recaptcha-response",
-                                                "style": {
-                                                  "width": "250px",
-                                                  "height": "40px",
-                                                  "border": "1px solid rgb(193, 193, 193)",
-                                                  "margin": "10px 25px",
-                                                  "padding": "0px",
-                                                  "resize": "none",
-                                                  "display": "none"
-                                                }
-                                              },
                                               "children": []
                                             }
                                           ]

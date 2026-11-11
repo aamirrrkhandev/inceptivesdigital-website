@@ -9,6 +9,9 @@ export default function SecondaryServiceInteractions({
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".secondary-service-page");
     if (!root) return;
+    root.querySelectorAll<HTMLElement>("[data-secondary-faq]").forEach(control=>{
+      control.querySelector("svg")?.classList.toggle("rotate-180",control.getAttribute("aria-expanded")==="true");
+    });
     const activate = (button: HTMLElement) => {
       const widget = button.closest<HTMLElement>("[data-secondary-tabs]");
       const selected = button.dataset.secondaryTab;
@@ -19,7 +22,7 @@ export default function SecondaryServiceInteractions({
           tab.setAttribute("aria-selected", String(active));
           tab.tabIndex = active ? 0 : -1;
           const surface = widget?.hasAttribute("data-secondary-process")
-            ? (tab.lastElementChild as HTMLElement)
+            ? (tab.querySelector<HTMLElement>("[data-secondary-step-indicator]") || tab.lastElementChild as HTMLElement)
             : tab;
           if (surface)
             surface.style.backgroundColor = active ? "#00ce44" : "#ccc";
@@ -81,6 +84,7 @@ export default function SecondaryServiceInteractions({
         const answer = faq.nextElementSibling as HTMLElement | null;
         const open = faq.getAttribute("aria-expanded") !== "true";
         faq.setAttribute("aria-expanded", String(open));
+        faq.querySelector("svg")?.classList.toggle("rotate-180",open);
         if (answer) answer.hidden = !open;
         return;
       }

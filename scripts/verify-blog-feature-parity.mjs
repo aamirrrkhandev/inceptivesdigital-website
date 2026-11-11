@@ -6,7 +6,7 @@ const base=process.argv[2]||'http://localhost:3106';
 const results=[];
 const pathOf=href=>new URL(href,'https://inceptivesdigital.com').pathname.replace(/\/$/,'');
 async function html(path,source=false) {
-  const response=await (source?sourceFetch:fetch)((source?'https://inceptivesdigital.com':base)+path);
+  const response=await (source?sourceFetch:fetch)((source?'https://nextincep.wpenginepowered.com':base)+path);
   assert.equal(response.status,200,path);return cheerio.load(await response.text());
 }
 const source=await html('/blog',true),target=await html('/blog');
@@ -26,7 +26,7 @@ const srcPress=await html('/press-release',true),dstPress=await html('/press-rel
 const pressLinks=$=>[...new Set($('main a[href]').toArray().map(el=>$(el).attr('href')).filter(href=>/\/press-release\/[^/]+/.test(href)).map(pathOf))];
 assert.deepEqual(pressLinks(dstPress),pressLinks(srcPress));
 assert.equal(dstPress('title').text(),srcPress('title').text());
-assert.equal(dstPress('link[rel=canonical]').attr('href')?.replace(/\/$/,''),srcPress('link[rel=canonical]').attr('href')?.replace(/\/$/,''));
+assert.equal(dstPress('link[rel=canonical]').attr('href')?.replace(/\/$/,''),srcPress('link[rel=canonical]').attr('href')?.replace('https://nextincep.wpenginepowered.com','https://inceptivesdigital.com').replace(/\/$/,''));
 results.push({check:'Live category-fed Press Release cards/order/metadata',articles:pressLinks(dstPress).length,pass:true});
 const article='/blog/mobile-app-development-cost-austin';
 const a=await html(article,true),b=await html(article);

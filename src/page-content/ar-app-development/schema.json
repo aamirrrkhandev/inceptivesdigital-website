@@ -1,116 +1,123 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://inceptivesdigital.com/#organization",
-    "name": "Inceptives Digital",
-    "url": "https://inceptivesdigital.com",
-    "logo": {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "width": 512,
-      "height": 512,
-      "caption": "Inceptives Digital"
-    },
-    "image": {
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-    },
-    "sameAs": [
-      "https://www.facebook.com/inceptivesdigital",
-      "https://www.instagram.com/inceptivesdigital/",
-      "https://www.linkedin.com/company/inceptivesdigital/"
-    ],
-    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-    "email": "info@inceptivesdigital.com",
-    "telephone": "+1 469 788 8527",
-    "legalName": "Inceptives Digital"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://inceptivesdigital.com/#organization",
-    "name": "Inceptives Digital",
-    "url": "https://inceptivesdigital.com",
-    "logo": {
-      "@type": "ImageObject",
-      "inLanguage": "en-US",
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
-      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
-      "width": 512,
-      "height": 512,
-      "caption": "Inceptives Digital"
-    },
-    "image": {
-      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
-    },
-    "sameAs": [
-      "https://www.facebook.com/inceptivesdigital",
-      "https://www.instagram.com/inceptivesdigital/",
-      "https://www.linkedin.com/company/inceptivesdigital/"
-    ],
-    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
-    "email": "info@inceptivesdigital.com",
-    "telephone": "+1 469 788 8527",
-    "legalName": "Inceptives Digital"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "AR App Development Company - Inceptives Digital",
-    "url": "https://inceptivesdigital.com/ar-app-development",
-    "description": "Trusted AR app development company offering immersive augmented reality app development services to create next-level AR experiences.",
-    "mainEntity": [
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/ar-app-development#webpage",
+        "url": "https://inceptivesdigital.com/ar-app-development",
+        "name": "AR App Development Company| Inceptives Digital",
+        "description": "Trusted AR app development company offering immersive augmented reality app development services to create next-level AR experiences.",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "about": {
+          "@id": "https://inceptivesdigital.com/ar-app-development#service"
+        },
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/ar-app-development#breadcrumb"
+        },
+        "inLanguage": "en-US"
+      },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/ar-app-development#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://inceptivesdigital.com/"
+            "item": "https://inceptivesdigital.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Services",
-            "item": "https://inceptivesdigital.com/services"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "AR App Development",
+            "name": "AR App Development Company",
             "item": "https://inceptivesdigital.com/ar-app-development"
           }
         ]
       },
       {
-        "@type": "Product",
+        "@type": "Service",
+        "@id": "https://inceptivesdigital.com/ar-app-development#service",
         "name": "AR App Development Company",
-        "description": "Immersive, high-performance augmented reality app development services tailored to elevate customer engagement and digital experiences across industries.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Inceptives Digital"
+        "serviceType": "AR App Development Company",
+        "description": "Trusted AR app development company offering immersive augmented reality app development services to create next-level AR experiences.",
+        "url": "https://inceptivesdigital.com/ar-app-development",
+        "provider": {
+          "@id": "https://inceptivesdigital.com/#organization"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "ratingCount": "18"
+        "mainEntityOfPage": {
+          "@id": "https://inceptivesdigital.com/ar-app-development#webpage"
         }
       },
       {
         "@type": "FAQPage",
+        "@id": "https://inceptivesdigital.com/ar-app-development#faq",
+        "url": "https://inceptivesdigital.com/ar-app-development",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/ar-app-development#webpage"
+        },
         "mainEntity": [
           {
             "@type": "Question",
             "name": "In what ways can your AR app development services support the visibility of our business?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "As an experienced AR app development company, we build AR applications that are visually appealing, interactive, and conversion-driven. Our solutions enhance user engagement, strengthen brand identity, and significantly boost your business visibility in the market."
+              "text": "Being an experienced AR app development company, we create AR apps that are not only visually appealing but also engaging. Our focus is to assist you in developing such apps that are user-friendly, convert, and enhance your brand's visibility in the market."
             }
           },
           {
@@ -118,7 +125,7 @@
             "name": "What industries can profit from your AR app development skills?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our AR development expertise spans retail, real estate, education, healthcare, and entertainment. Whether you need virtual try-ons, immersive training modules, or interactive marketing experiences, we provide customized AR solutions for industry-specific needs."
+              "text": "Our Augmented Reality app development team has been working on AR solutions for different industries such as retail, real estate, education, healthcare, and entertainment. Whether your request is for a virtual product try-on, an interactive training tool, or an immersive marketing campaign, we will provide our AR development services according to your industry's requirements."
             }
           },
           {
@@ -126,7 +133,7 @@
             "name": "What technologies do you use for AR app development?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We use advanced AR technologies and frameworks such as Unity, Unreal Engine, ARKit, ARCore, Vuforia, and Blender. Additionally, we integrate AI, IoT, and cloud capabilities to make your AR solutions smarter, more secure, and highly scalable."
+              "text": "Our Augmented Reality app developers utilize advanced and the most in-demand tools and frameworks, which include Unity, Unreal Engine, ARKit, ARCore, Vuforia, and Blender. Besides these, we integrate AI, IoT, and cloud capabilities to make your AR application smarter, secure, and expandable."
             }
           },
           {
@@ -134,7 +141,7 @@
             "name": "How long does it take to develop a custom AR application?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The development timeline depends on complexity and features. A simple AR experience may take 4–8 weeks, while large-scale or multi-platform AR systems may require several months. A detailed timeline is provided during the discovery phase."
+              "text": "The app development timeline differs according to the complexity and features of the app. A simple AR experience may take 4–8 weeks, whereas large-scale or multi-platform AR solutions may take several months. A precise timeline will be discussed during the discovery phase."
             }
           },
           {
@@ -142,7 +149,7 @@
             "name": "How much does it cost to develop an AR app with your team?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AR app development costs vary based on app type, platform, 3D asset quality, and integrations. Generally, AR projects range from $25,000 to $500,000. We provide transparent quotations after evaluating your project requirements and objectives."
+              "text": "The AR app development cost varies according to the app type, the chosen platform, the quality of 3D assets, and integration. Typically, the cost of an AR project falls between $25,000 and $500,000. We deliver open quotes once we understand your project scope and objectives."
             }
           }
         ]

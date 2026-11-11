@@ -3,8 +3,9 @@ import {sourceFetch} from './source-fetch.mjs';
 const index=JSON.parse(fs.readFileSync('content/editable-pages-index.json'));
 const routes=JSON.parse(fs.readFileSync('content/routes.json'));
 const paths=new Set([...routes.map(route=>route.path),...Object.keys(index)]);
+const auditVersion=Date.now();
 for(let page=1;page<=100;page++) {
-  const response=await sourceFetch(`https://inceptivesdigital.com/wp-json/wp/v2/posts?per_page=100&page=${page}&_fields=link`);
+  const response=await sourceFetch(`https://nextincep.wpenginepowered.com/wp-json/wp/v2/posts?status=publish&per_page=100&page=${page}&_fields=link&_migration_inventory=${auditVersion}`);
   if(!response.ok)throw Error('WordPress inventory unavailable');
   const posts=await response.json();if(!Array.isArray(posts))throw Error('Invalid post inventory');
   posts.forEach(post=>paths.add(new URL(post.link).pathname.replace(/\/$/,'')||'/'));

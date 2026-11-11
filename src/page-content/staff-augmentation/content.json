@@ -5970,7 +5970,7 @@
                             {
                               "tag": "h3",
                               "props": {
-                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
+                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
                               },
                               "children": [
                                 "How quickly can you provide us with the right IT professionals?"
@@ -5979,7 +5979,7 @@
                             {
                               "tag": "svg",
                               "props": {
-                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
+                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
                                 "fill": "currentColor",
                                 "viewBox": "0 0 20 20"
                               },
@@ -6029,7 +6029,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-17",
+                            "id": "staff-augmentation-faq-17-question"
                           },
                           "children": [
                             {
@@ -6061,6 +6067,38 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-17",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-17-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Our pool of talents includes software developers, QA engineers, DevOps specialists, ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "className": "text-[#00CE44] underline hover:text-[#4DFF50] transition-colors duration-300 ",
+                                    "href": "/blog/the-role-of-ui-ux-design-in-mobile-app-success"
+                                  },
+                                  "children": [
+                                    "UI/UX design"
+                                  ]
+                                },
+                                "ers, project managers, blockchain developers, and many more. Whatever your project needs, we will provide the expertise required."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6073,7 +6111,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-18",
+                            "id": "staff-augmentation-faq-18-question"
                           },
                           "children": [
                             {
@@ -6105,6 +6149,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-18",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-18-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Every individual developer in our system goes through a very rigorous, multi-step selection process. We assess technical skills, communication, and cultural fit to ensure that they are able to harmoniously and promptly integrate into your team."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6117,7 +6182,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-19",
+                            "id": "staff-augmentation-faq-19-question"
                           },
                           "children": [
                             {
@@ -6149,6 +6220,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-19",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-19-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Absolutely, our staff augmentation model is fully flexible. We can scale up or down at any time with no long-term commitment, unlike what is involved with traditional hiring gains."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6161,7 +6253,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-20",
+                            "id": "staff-augmentation-faq-20-question"
                           },
                           "children": [
                             {
@@ -6193,6 +6291,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-20",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-20-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Our IT professionals are trained to adapt quickly to your tools, processes, and communication style. This means quickly!"
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6205,7 +6324,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-21",
+                            "id": "staff-augmentation-faq-21-question"
                           },
                           "children": [
                             {
@@ -6237,6 +6362,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-21",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-21-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Our IT professionals are trained to adapt quickly to your tools, processes, and communication style, which allows smooth collaboration just in your in-house team."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6249,7 +6395,13 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-22",
+                            "id": "staff-augmentation-faq-22-question"
                           },
                           "children": [
                             {
@@ -6281,6 +6433,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-22",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-22-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "Yes. Under our model, you save on recruitment, training, benefits, and all overhead costs. So, when you want a talent, you pay for that talent only-it's an efficient money-saver."
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6293,13 +6466,19 @@
                         {
                           "tag": "div",
                           "props": {
-                            "className": "flex justify-between items-center"
+                            "className": "flex justify-between items-center",
+                            "data-secondary-faq": "true",
+                            "role": "button",
+                            "tabIndex": "0",
+                            "aria-expanded": "false",
+                            "aria-controls": "staff-augmentation-faq-23",
+                            "id": "staff-augmentation-faq-23-question"
                           },
                           "children": [
                             {
                               "tag": "h3",
                               "props": {
-                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-white"
+                                "className": "sm:text-[2.2vh] text-[1.7vh] flex-1 block lg:text-[2.5vh] font-medium transition-colors text-[#00CE44]"
                               },
                               "children": [
                                 "What ongoing support do we get once the professionals join our team?"
@@ -6308,7 +6487,7 @@
                             {
                               "tag": "svg",
                               "props": {
-                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 text-white",
+                                "className": "sm:w-[2vw] sm:h-[2vw] w-[4vw] h-[4vw] transition-transform duration-300 rotate-180 text-[#00CE44]",
                                 "fill": "currentColor",
                                 "viewBox": "0 0 20 20"
                               },
@@ -6322,6 +6501,27 @@
                                   },
                                   "children": []
                                 }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "overflow-hidden",
+                            "hidden": true,
+                            "id": "staff-augmentation-faq-23",
+                            "role": "region",
+                            "aria-labelledby": "staff-augmentation-faq-23-question"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "mt-[3vh] sm:text-[2.2vh] text-[1.7vh] font-light text-white/63"
+                              },
+                              "children": [
+                                "We don't place talent and disappear. Our support management team provides continuous support by performing regular check-ins and performance checks to ensure all your projects run smoothly and expectations are met."
                               ]
                             }
                           ]
@@ -6725,40 +6925,6 @@
                                             {
                                               "tag": "div",
                                               "props": {},
-                                              "children": [
-                                                {
-                                                  "tag": "iframe",
-                                                  "props": {
-                                                    "title": "reCAPTCHA",
-                                                    "width": "304",
-                                                    "height": "78",
-                                                    "role": "presentation",
-                                                    "name": "a-f3y7wti2ztl",
-                                                    "frameborder": "0",
-                                                    "scrolling": "no",
-                                                    "sandbox": "allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation",
-                                                    "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeiEdMrAAAAABvKNR7mGYyylUHch7uSazvosIa7&co=aHR0cHM6Ly9pbmNlcHRpdmVzLnZlcmNlbC5hcHA6NDQz&hl=en&type=image&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=dark&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=phba9jewcbs4"
-                                                  },
-                                                  "children": []
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "tag": "textarea",
-                                              "props": {
-                                                "id": "g-recaptcha-response",
-                                                "name": "g-recaptcha-response",
-                                                "className": "g-recaptcha-response",
-                                                "style": {
-                                                  "width": "250px",
-                                                  "height": "40px",
-                                                  "border": "1px solid rgb(193, 193, 193)",
-                                                  "margin": "10px 25px",
-                                                  "padding": "0px",
-                                                  "resize": "none",
-                                                  "display": "none"
-                                                }
-                                              },
                                               "children": []
                                             }
                                           ]
