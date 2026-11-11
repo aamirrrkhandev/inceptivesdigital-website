@@ -2,13 +2,19 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
+import { brotliDecompressSync } from "node:zlib";
 import index from "../../content/editable-pages-index.json";
 import type { LayoutNode, SitePage } from "./site-model";
 
 type Entry = { folder: string; type: string };
 export const editablePageIndex = index as Record<string, Entry>;
-const root = path.join(process.cwd(), "src", "page-content");
-const readText = cache((file: string) => fs.readFileSync(path.join(root, file), "utf8"));
+const production = process.env.NODE_ENV === "production";
+const root = production
+  ? path.join(process.cwd(), "content", "editable-runtime")
+  : path.join(process.cwd(), "src", "page-content");
+const readText = cache((file: string) => production
+  ? brotliDecompressSync(fs.readFileSync(path.join(root, file + ".br"))).toString("utf8")
+  : fs.readFileSync(path.join(root, file), "utf8"));
 const readJSON = (file: string): any => JSON.parse(readText(file));
 export function readEditableConfig(pagePath: string, file: string) {
   const entry = editablePageIndex[pagePath];

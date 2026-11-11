@@ -6,7 +6,7 @@ Staging: https://inceptives-homepage-review.vercel.app/
 
 ## Run locally
 
-Install Node.js 24 and Git. Allow at least 5 GB free for dependencies and generated build files.
+Install Node.js 24 and Git. Allow at least 6 GB free for dependencies and generated build files.
 
 ```sh
 npm ci
@@ -25,8 +25,10 @@ No WordPress administrator credentials are required. Public WordPress content an
 ## Content and media
 
 - App Router, React, TypeScript and reusable native interactions are under src/.
-- Structured layouts are in content/site-catalog.json.br and its deployment parts. Media are stored in content/media/ with their index in content/media-index.json. Keep these files in the checkout.
+- Editable static pages now live in `src/page-content/<slug>` with explicit App Router routes, TSX sections, content, SEO, schema and asset manifests. See [EDITING_GUIDE.md](EDITING_GUIDE.md), [PAGE_DIRECTORY.csv](PAGE_DIRECTORY.csv) and [ASSET_DIRECTORY.csv](ASSET_DIRECTORY.csv).
+- WordPress-managed pages and archives retain the fallback structured catalog in content/site-catalog.json.br and its deployment parts. Original media remain in content/media/ with their index in content/media-index.json. Keep these files in the checkout; exported editable asset aliases are under public/assets.
 - The build materializes original large media and video files into public/ at their preserved URLs. Generated files, node_modules and Next.js caches are ignored by Git. Raw audit exports stay local; curated baselines and verification reports are versioned.
+- Complete blog API and custom pin/reviewer/Press Release behavior: [BLOG_API_REFERENCE.md](BLOG_API_REFERENCE.md).
 - WordPress remains the read-only publishing source for new/updated posts, blog filtering and sitemap blog entries. Revalidation is request driven at 30 seconds; allow roughly 30–60 seconds for updates.
 - Unused loose images are retained in draft/images with reversible hash-verified mappings.
 

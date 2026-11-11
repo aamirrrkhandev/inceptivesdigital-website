@@ -4,6 +4,11 @@
     "status": 200,
     "pass": true
   },
+  "/ai-chatbot-development-services": {
+    "hash": "f04900b1291ec492cb06a5f7fdcd38dc1bf3acc12f6720c87eb283b8c17796e9",
+    "status": 200,
+    "pass": true
+  },
   "/computer-vision-development-services": {
     "hash": "beadfd221b669f529e299ba3bf8b274e482481a4675b1af05173056544dc9c18",
     "status": 200,
@@ -11,11 +16,6 @@
   },
   "/": {
     "hash": "20cdf3de5281dd56636874d0c631ae3068d20c651b9756d4d4493a172e417f6e",
-    "status": 200,
-    "pass": true
-  },
-  "/ai-chatbot-development-services": {
-    "hash": "f04900b1291ec492cb06a5f7fdcd38dc1bf3acc12f6720c87eb283b8c17796e9",
     "status": 200,
     "pass": true
   },
@@ -199,13 +199,13 @@
     "status": 200,
     "pass": true
   },
-  "/real-estate-app-development-company": {
-    "hash": "665ca125f0c614765f3b158d258ee31faf23e558e75c27f594caab7653cca074",
+  "/privacy-policy": {
+    "hash": "d61c9fae997fd32cd40486f9fe88ecbd8ee4008cffa86250665a50a43752ccfa",
     "status": 200,
     "pass": true
   },
-  "/privacy-policy": {
-    "hash": "d61c9fae997fd32cd40486f9fe88ecbd8ee4008cffa86250665a50a43752ccfa",
+  "/real-estate-app-development-company": {
+    "hash": "665ca125f0c614765f3b158d258ee31faf23e558e75c27f594caab7653cca074",
     "status": 200,
     "pass": true
   },
@@ -219,11 +219,6 @@
     "status": 200,
     "pass": true
   },
-  "/portfolio/state-of-the-art-chiropractic": {
-    "hash": "e3ba236bbd724a5e2536a485db3d507a69663b4166a5b48805b9d1ccb8a03124",
-    "status": 200,
-    "pass": true
-  },
   "/flutter-app-development": {
     "hash": "317e90794806672739abb70ab8af7d9aef5e4968601da2ead9379cce6a7bdcaf",
     "status": 200,
@@ -234,18 +229,23 @@
     "status": 200,
     "pass": true
   },
+  "/portfolio/state-of-the-art-chiropractic": {
+    "hash": "e3ba236bbd724a5e2536a485db3d507a69663b4166a5b48805b9d1ccb8a03124",
+    "status": 200,
+    "pass": true
+  },
   "/portfolio/halwar-connect": {
     "hash": "2455d4996975b38fc0c88bd05af51b859c2015110d6d73d73ce9c5ae075b9d89",
     "status": 200,
     "pass": true
   },
-  "/portfolio/family-entertainment-group": {
-    "hash": "e0566adddd69738c67ed7c7acbc19e7da2ff18de4694a8042cd73764dc4ef8c0",
+  "/portfolio/pulse-check-timer": {
+    "hash": "b74ecae5a3ab06a0eec39e8d22e42ef264d27e3ce446977f43996e5ddaf52e84",
     "status": 200,
     "pass": true
   },
-  "/portfolio/pulse-check-timer": {
-    "hash": "b74ecae5a3ab06a0eec39e8d22e42ef264d27e3ce446977f43996e5ddaf52e84",
+  "/portfolio/family-entertainment-group": {
+    "hash": "e0566adddd69738c67ed7c7acbc19e7da2ff18de4694a8042cd73764dc4ef8c0",
     "status": 200,
     "pass": true
   },
@@ -269,18 +269,13 @@
     "status": 200,
     "pass": true
   },
-  "/portfolio/stakbread": {
-    "hash": "b19237e4545e3d6a7b95e2ba907d79a39b7d1fd79808bfb3eed8648051b6f4b8",
-    "status": 200,
-    "pass": true
-  },
   "/portfolio/my-tango-event": {
     "hash": "224070afddf7ca33713f8c47d77290d2aa1d5faf413af2ea32adce06f424072f",
     "status": 200,
     "pass": true
   },
-  "/ecommerce-app-development-company": {
-    "hash": "52fa3837c99f9498f5077993119a0362d9cb4edc1cb33783d7df134f4e8263fe",
+  "/portfolio/stakbread": {
+    "hash": "b19237e4545e3d6a7b95e2ba907d79a39b7d1fd79808bfb3eed8648051b6f4b8",
     "status": 200,
     "pass": true
   },
@@ -289,13 +284,18 @@
     "status": 200,
     "pass": true
   },
-  "/contact-us": {
-    "hash": "b415271596f2e935fd88004956ea458a48fe668095a4829cfd49256397453e45",
+  "/ecommerce-app-development-company": {
+    "hash": "52fa3837c99f9498f5077993119a0362d9cb4edc1cb33783d7df134f4e8263fe",
     "status": 200,
     "pass": true
   },
   "/leadership": {
     "hash": "95a14c5f7c6d7b39455117637b1d297536b442ef2422182e3ed89cbe1c4dc59c",
+    "status": 200,
+    "pass": true
+  },
+  "/contact-us": {
+    "hash": "b415271596f2e935fd88004956ea458a48fe668095a4829cfd49256397453e45",
     "status": 200,
     "pass": true
   },
@@ -314,13 +314,13 @@
     "status": 200,
     "pass": true
   },
-  "/product-launch-strategy": {
-    "hash": "3e3540cd2e839c67b6a936946cc2fa37f558f1b72439278f436c05cf540fcf0e",
+  "/mobile-app-development": {
+    "hash": "8832c4d4c2fe518eef5e42c8798c34d7c0aeff926c68d3b4e03560ce51570473",
     "status": 200,
     "pass": true
   },
-  "/mobile-app-development": {
-    "hash": "8832c4d4c2fe518eef5e42c8798c34d7c0aeff926c68d3b4e03560ce51570473",
+  "/product-launch-strategy": {
+    "hash": "3e3540cd2e839c67b6a936946cc2fa37f558f1b72439278f436c05cf540fcf0e",
     "status": 200,
     "pass": true
   },
@@ -364,13 +364,13 @@
     "status": 200,
     "pass": true
   },
-  "/ios-app-development": {
-    "hash": "2b0f39ea6541cf977a626b6c4d4834ccbd1dc3d53ba57c34e4b4f20e32c86a21",
+  "/web-development": {
+    "hash": "6ca299398a97af426274da29abd8c6f0cfdacea5735be4f81df400e2b54cdf66",
     "status": 200,
     "pass": true
   },
-  "/web-development": {
-    "hash": "6ca299398a97af426274da29abd8c6f0cfdacea5735be4f81df400e2b54cdf66",
+  "/ios-app-development": {
+    "hash": "2b0f39ea6541cf977a626b6c4d4834ccbd1dc3d53ba57c34e4b4f20e32c86a21",
     "status": 200,
     "pass": true
   },

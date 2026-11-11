@@ -1,0 +1,470 @@
+{
+  "functions": 92,
+  "largest": {
+    "file": ".next-editable\\server\\app\\[...slug]\\page.js.nft.json",
+    "files": 867,
+    "bytes": 55857091
+  },
+  "results": [
+    {
+      "file": ".next-editable\\server\\app\\about-us\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465580
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-agent-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466147
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-app-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466219
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-automation-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466101
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-chatbot-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466256
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-development\\ai-cost-estimator\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465315
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466164
+    },
+    {
+      "file": ".next-editable\\server\\app\\ai-mvp-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465907
+    },
+    {
+      "file": ".next-editable\\server\\app\\android-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466616
+    },
+    {
+      "file": ".next-editable\\server\\app\\api\\blog-listing\\route.js.nft.json",
+      "files": 852,
+      "bytes": 54746125
+    },
+    {
+      "file": ".next-editable\\server\\app\\api\\forms\\route.js.nft.json",
+      "files": 853,
+      "bytes": 54747264
+    },
+    {
+      "file": ".next-editable\\server\\app\\api\\ios-assessment\\route.js.nft.json",
+      "files": 783,
+      "bytes": 10953585
+    },
+    {
+      "file": ".next-editable\\server\\app\\app-store-optimization\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466524
+    },
+    {
+      "file": ".next-editable\\server\\app\\ar-app-development\\page.js.nft.json",
+      "files": 816,
+      "bytes": 54317575
+    },
+    {
+      "file": ".next-editable\\server\\app\\backend-api-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466468
+    },
+    {
+      "file": ".next-editable\\server\\app\\blockchain-development\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465196
+    },
+    {
+      "file": ".next-editable\\server\\app\\blog\\page.js.nft.json",
+      "files": 865,
+      "bytes": 55002140
+    },
+    {
+      "file": ".next-editable\\server\\app\\blog\\[postSlug]\\page.js.nft.json",
+      "files": 865,
+      "bytes": 55002068
+    },
+    {
+      "file": ".next-editable\\server\\app\\business-process-automation\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466084
+    },
+    {
+      "file": ".next-editable\\server\\app\\computer-vision-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466236
+    },
+    {
+      "file": ".next-editable\\server\\app\\contact-us\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465237
+    },
+    {
+      "file": ".next-editable\\server\\app\\cross-platform-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466608
+    },
+    {
+      "file": ".next-editable\\server\\app\\custom-software-development\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465241
+    },
+    {
+      "file": ".next-editable\\server\\app\\dating-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466814
+    },
+    {
+      "file": ".next-editable\\server\\app\\digital-product-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466291
+    },
+    {
+      "file": ".next-editable\\server\\app\\discovery-sprint\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466469
+    },
+    {
+      "file": ".next-editable\\server\\app\\dropryde\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465794
+    },
+    {
+      "file": ".next-editable\\server\\app\\ecommerce-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466774
+    },
+    {
+      "file": ".next-editable\\server\\app\\education-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466661
+    },
+    {
+      "file": ".next-editable\\server\\app\\fintech-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466419
+    },
+    {
+      "file": ".next-editable\\server\\app\\fitness-app-development\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465204
+    },
+    {
+      "file": ".next-editable\\server\\app\\flutter-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466468
+    },
+    {
+      "file": ".next-editable\\server\\app\\food-delivery-app-development\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465256
+    },
+    {
+      "file": ".next-editable\\server\\app\\founders-letter\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465358
+    },
+    {
+      "file": ".next-editable\\server\\app\\generative-ai-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466351
+    },
+    {
+      "file": ".next-editable\\server\\app\\healthcare-app-development\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465231
+    },
+    {
+      "file": ".next-editable\\server\\app\\interactive-prototyping\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466103
+    },
+    {
+      "file": ".next-editable\\server\\app\\ios-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53467034
+    },
+    {
+      "file": ".next-editable\\server\\app\\iot-development\\page.js.nft.json",
+      "files": 816,
+      "bytes": 54317542
+    },
+    {
+      "file": ".next-editable\\server\\app\\kotlin-multiplatform-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466673
+    },
+    {
+      "file": ".next-editable\\server\\app\\leadership\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465661
+    },
+    {
+      "file": ".next-editable\\server\\app\\life-at-inceptives-digital\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465756
+    },
+    {
+      "file": ".next-editable\\server\\app\\machine-learning-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466249
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466700
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-austin\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466684
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-company-dubai-uae\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466658
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-company-in-toronto-canada\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466816
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-company-london-uk\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466802
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-company-singapore\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466805
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-new-york\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466635
+    },
+    {
+      "file": ".next-editable\\server\\app\\mobile-app-development-san-francisco\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466688
+    },
+    {
+      "file": ".next-editable\\server\\app\\mvp-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466524
+    },
+    {
+      "file": ".next-editable\\server\\app\\nlp-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466190
+    },
+    {
+      "file": ".next-editable\\server\\app\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466397
+    },
+    {
+      "file": ".next-editable\\server\\app\\partnership\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465390
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\dps-airem\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465936
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\family-entertainment-group\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466094
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\halwar-connect\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466073
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\my-tango-event\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465913
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465225
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\pets-b4-profit\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465913
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\pulse-check-timer\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465943
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\stakbread\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465863
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\state-of-the-art-chiropractic\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466122
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\wordsmith-pro\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465903
+    },
+    {
+      "file": ".next-editable\\server\\app\\portfolio\\zoom-read\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465943
+    },
+    {
+      "file": ".next-editable\\server\\app\\post-launch-analytics-iteration\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466542
+    },
+    {
+      "file": ".next-editable\\server\\app\\press-release\\page.js.nft.json",
+      "files": 865,
+      "bytes": 55002090
+    },
+    {
+      "file": ".next-editable\\server\\app\\privacy-policy\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465275
+    },
+    {
+      "file": ".next-editable\\server\\app\\product-launch-strategy\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466536
+    },
+    {
+      "file": ".next-editable\\server\\app\\product-rescue-scaling\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466450
+    },
+    {
+      "file": ".next-editable\\server\\app\\product-strategy-consulting\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466292
+    },
+    {
+      "file": ".next-editable\\server\\app\\react-native-app-development\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466579
+    },
+    {
+      "file": ".next-editable\\server\\app\\real-estate-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466725
+    },
+    {
+      "file": ".next-editable\\server\\app\\robots.txt\\route.js.nft.json",
+      "files": 784,
+      "bytes": 9902461
+    },
+    {
+      "file": ".next-editable\\server\\app\\rpa-development-services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466053
+    },
+    {
+      "file": ".next-editable\\server\\app\\search\\page.js.nft.json",
+      "files": 815,
+      "bytes": 54591000
+    },
+    {
+      "file": ".next-editable\\server\\app\\services\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465359
+    },
+    {
+      "file": ".next-editable\\server\\app\\sitemap.xml\\route.js.nft.json",
+      "files": 853,
+      "bytes": 55359644
+    },
+    {
+      "file": ".next-editable\\server\\app\\staff-augmentation\\page.js.nft.json",
+      "files": 816,
+      "bytes": 54317573
+    },
+    {
+      "file": ".next-editable\\server\\app\\system-integration-api-automation\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466214
+    },
+    {
+      "file": ".next-editable\\server\\app\\terms-and-conditions\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465335
+    },
+    {
+      "file": ".next-editable\\server\\app\\testimonial\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53465393
+    },
+    {
+      "file": ".next-editable\\server\\app\\thank-you\\page.js.nft.json",
+      "files": 814,
+      "bytes": 53465110
+    },
+    {
+      "file": ".next-editable\\server\\app\\travel-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466740
+    },
+    {
+      "file": ".next-editable\\server\\app\\ui-ux-design\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466198
+    },
+    {
+      "file": ".next-editable\\server\\app\\virtual-reality-development\\page.js.nft.json",
+      "files": 816,
+      "bytes": 54317674
+    },
+    {
+      "file": ".next-editable\\server\\app\\web-app-development-company\\page.js.nft.json",
+      "files": 815,
+      "bytes": 53466952
+    },
+    {
+      "file": ".next-editable\\server\\app\\web-development\\page.js.nft.json",
+      "files": 816,
+      "bytes": 54317542
+    },
+    {
+      "file": ".next-editable\\server\\app\\[...slug]\\page.js.nft.json",
+      "files": 867,
+      "bytes": 55857091
+    },
+    {
+      "file": ".next-editable\\server\\app\\_global-error\\page.js.nft.json",
+      "files": 789,
+      "bytes": 9863842
+    },
+    {
+      "file": ".next-editable\\server\\app\\_not-found\\page.js.nft.json",
+      "files": 793,
+      "bytes": 9905121
+    }
+  ]
+}

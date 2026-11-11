@@ -7,6 +7,7 @@ const output = stripTypeScriptTypes(fs.readFileSync('src/lib/editable-pages.ts',
   .replace('import fs from "node:fs";', 'const fs=require("node:fs");')
   .replace('import path from "node:path";', 'const path=require("node:path");')
   .replace('import { cache } from "react";', 'const cache=fn=>fn;')
+  .replace('import { brotliDecompressSync } from "node:zlib";', 'const {brotliDecompressSync}=require("node:zlib");')
   .replace('import index from "../../content/editable-pages-index.json";', 'const index=require("../../content/editable-pages-index.json");')
   .replaceAll('export const ', 'const ').replaceAll('export function ', 'function ')
   + '\nmodule.exports={getEditablePage,readEditableConfig,editablePageIndex};';
@@ -21,6 +22,11 @@ const expected = JSON.parse(fs.readFileSync('content/editable-pages-source-hashe
 const models = load();
 const failed = Object.keys(expected).filter(path=>hash(models.getEditablePage(path))!==expected[path]);
 if (failed.length) throw Error('Reconstructed source differs: '+failed.join(', '));
+const originalEnvironment=process.env.NODE_ENV;
+try {
+  process.env.NODE_ENV='production';const runtime=load();
+  for(const path of Object.keys(expected))if(hash(runtime.getEditablePage(path))!==expected[path])throw Error('Compressed production model differs: '+path);
+} finally {if(originalEnvironment===undefined)delete process.env.NODE_ENV;else process.env.NODE_ENV=originalEnvironment;}
 const assetsFile='src/page-content/home/assets.json';
 const seoFile='src/page-content/home/seo.json';
 const originals = new Map([assetsFile,seoFile].map(file=>[file,fs.readFileSync(file)]));

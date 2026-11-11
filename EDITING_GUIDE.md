@@ -47,10 +47,20 @@ Press Release has its own editable page wrapper, but its posts and default metad
 
 ## Running and checking
 
-Install Node.js 24 and dependencies with `npm ci`; configure the private staging environment separately. Never copy secrets into source control. Run `npm run dev -- -p 3100`, `npm run typecheck`, then `npm run build` for release validation. Allow at least 6 GB of working disk space. The local QA build can use `MIGRATION_BUILD_DIR=.next-editable`.
+The staging implementation is on the Git branch `migration/editable-pages` in `aamirrrkhandev/inceptivesdigital-website`. On another computer, clone that branch explicitly:
+
+```sh
+git clone --branch migration/editable-pages https://github.com/aamirrrkhandev/inceptivesdigital-website.git
+cd inceptivesdigital-website
+npm ci
+```
+
+Install Node.js 24 before installing dependencies; configure the private staging environment separately. Never copy secrets into source control. Run `npm run dev -- -p 3100`, `npm run typecheck`, then `npm run build` for release validation. Allow at least 6 GB of working disk space. The local QA build can use `MIGRATION_BUILD_DIR=.next-editable`.
 
 `node scripts/verify-editable-models.mjs` verifies the original exported data and assets and temporarily edits/restores representative fields. After intentional content edits, its original-source hash check will correctly flag differences; review them rather than overwriting your edits. `scripts/initialize-editable-pages.mjs` is a one-time migration utility and refuses an existing completed export. Never run it as part of a build. Refresh the URL directory with `node scripts/update-page-directory.mjs`.
 
 Only the separate homepage-review Vercel project is authorized for staging. Keep live WordPress, DNS and the original Vercel project untouched. `/startup-product-development` remains intentionally unchanged with its previous 404 behavior.
 
 Calendar popup loading is handled by `src/lib/calendar-popup.ts`; the shared green/dark Calendly URL is in `src/lib/calendly.ts`. It loads on the first scheduling click, keeps the loaded frame for reopening, and uses the existing loading/retry UI. No booking or Calendly account settings were changed.
+
+Production builds create a lossless Brotli mirror of the editable JSON/CSS under ignored `content/editable-runtime`. Edit the original `src/page-content` files, not this generated mirror. `npm run build` regenerates it automatically; development reads your original files directly. Original media are emitted as static files and are excluded from page-function bundles.

@@ -6,7 +6,11 @@ const indexingAllowed =
 const config: NextConfig = {
   distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
-  outputFileTracingIncludes: { "/*": ["./src/page-content/**/*.json", "./src/page-content/**/*.css"] },
+  outputFileTracingIncludes: { "/*": ["./content/editable-runtime/**/*"] },
+  // Original images/video are emitted as static route bodies or public files.
+  // Page functions need catalog parts and compact editable data, not media packs
+  // or the uncompressed authoring copies of every page.
+  outputFileTracingExcludes: { "/*": ["./content/media/**/*", "./src/page-content/**/*"] },
   async rewrites() {
     return [
       {

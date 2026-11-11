@@ -1,5 +1,5 @@
 {
-  "base": "https://inceptives-homepage-review-7jbwasi4n.vercel.app",
+  "base": "http://localhost:3106",
   "legacyUrlCleans": true,
   "filteredNoindex": true,
   "canonicalBlog": true,
