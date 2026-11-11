@@ -1,6 +1,12 @@
 # Migration progress
 
-Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_69v8cJrEP2uM7tdKhVEjhD4mpQto, runtime source commit 63a1ef8149426f3ac5ec2a7bee2078c2eedcaba4).
+Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_8ChPy85f6GN5DjWJuUPiGTPUCiRC, runtime source commit 47d027568be07675a47ab0468c88520dff51d9ef).
+
+## CallRail capture acknowledgement fix — 11 November 2026
+
+The two missing types were homepage footer/popup. Slow-network reproduction showed the previous flow navigating before acknowledgement. The shared helper now waits for the installed native SDK's capture response, with bounded readiness/response deadlines and no additional vendor request. The before/after test changed from two attempts and premature navigation to one accepted request before navigation for each homepage form. Production build/typecheck and all ten isolated SDK journeys passed.
+
+Ten fresh CallRail-only QA submissions then received HTTP 200 before thank-you, one native UUID per type, and **all ten records were observed in the dashboard**. GHL/backend/challenge were isolated in that tracking run; the earlier genuine GHL ten-type verification is unchanged. The earlier eight-of-ten limitation below is superseded. No live site, DNS, routing, paid settings, UI, SEO or blogs were changed. See CALLRAIL_TRACKING_FIX.md. Rollback: dpl_69v8cJrEP2uM7tdKhVEjhD4mpQto.
 
 ## Separate staging Turnstile — 11 November 2026
 

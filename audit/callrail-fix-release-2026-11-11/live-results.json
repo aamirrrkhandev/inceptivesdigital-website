@@ -1,0 +1,126 @@
+{
+  "run": 1794378997973,
+  "email": "migration-callrail-1794378997973@example.invalid",
+  "results": [
+    {
+      "formId": "website-contact-page-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "5f4e27b1-2cad-4135-8b04-d4d546405ba1",
+      "url": "https://inceptives-homepage-review.vercel.app/contact-us?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-footer-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "bbdcc0e5-ee73-4aaa-bf99-a8c337974b88",
+      "url": "https://inceptives-homepage-review.vercel.app/?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-popup-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "6500b9e1-4886-4f0e-895c-ca0768c14834",
+      "url": "https://inceptives-homepage-review.vercel.app/?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-web-development-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "9cfb45ca-c96c-4e06-902c-f24087655d73",
+      "url": "https://inceptives-homepage-review.vercel.app/web-development?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-staff-augmentation-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "fee10ae1-767f-48ba-899e-91d99c59c3c6",
+      "url": "https://inceptives-homepage-review.vercel.app/staff-augmentation?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-iot-development-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "75021b1e-76d8-40ea-94da-ad2576f9ae79",
+      "url": "https://inceptives-homepage-review.vercel.app/iot-development?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-virtual-reality-development-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "f3f9219e-2a04-4625-a6ee-ae198c0b9af8",
+      "url": "https://inceptives-homepage-review.vercel.app/virtual-reality-development?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-ar-app-development-enquiry",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "39ec85d0-84cd-48b1-88e4-0e8577ab2d53",
+      "url": "https://inceptives-homepage-review.vercel.app/ar-app-development?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "website-staff-assessment",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "20b86a4b-68f9-4434-a335-2ac11ba6bf6c",
+      "url": "https://inceptives-homepage-review.vercel.app/staff-augmentation?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    },
+    {
+      "formId": "id-ios-form",
+      "email": "migration-callrail-1794378997973@example.invalid",
+      "uuid": "00e15438-0931-4a91-906f-7a68f261e712",
+      "url": "https://inceptives-homepage-review.vercel.app/ios-app-development?utm_source=migration-qa&utm_medium=integration-test&utm_campaign=callrail-fix-1794378997973",
+      "sessionPresent": true,
+      "acceptedBeforeThankYou": true,
+      "statuses": [
+        200
+      ],
+      "transport": "Real CallRail SDK/destination; challenge, backend and GHL isolated; no CRM record/email"
+    }
+  ]
+}

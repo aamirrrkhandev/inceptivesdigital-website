@@ -1,0 +1,18 @@
+[
+  {
+    "formId": "website-footer-enquiry",
+    "moduleDelay": 3500,
+    "responseDelay": 2000,
+    "requests": 2,
+    "acceptedBeforeThankYou": false,
+    "transport": "All endpoints isolated; no real CRM/email/CallRail record"
+  },
+  {
+    "formId": "website-popup-enquiry",
+    "moduleDelay": 3500,
+    "responseDelay": 2000,
+    "requests": 2,
+    "acceptedBeforeThankYou": false,
+    "transport": "All endpoints isolated; no real CRM/email/CallRail record"
+  }
+]
