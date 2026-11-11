@@ -6,7 +6,7 @@ const base=process.argv[2];if(!base)throw Error('Specify preview URL');
 const index=JSON.parse(fs.readFileSync('content/editable-pages-index.json'));
 const paths=Object.entries(index).filter(([,e])=>e.type!=='wordpress').map(([url])=>url);
 const browser=await chromium.launch(),results=[];let cursor=0;
-try{await Promise.all(Array.from({length:3},async()=>{
+try{await Promise.all(Array.from({length:Number(process.env.QA_BROWSER_WORKERS)||1},async()=>{
  const context=await browser.newContext({reducedMotion:'reduce'});
  // Isolate layout checks from third-party widgets. Integrations are checked separately.
  await context.route(/googletagmanager\.com|google-analytics\.com|leadsy\.ai|livechatinc\.com|callrail\.com|leadconnectorhq\.com|clients\.inceptivesdigital\.com|challenges\.cloudflare\.com|calendly\.com/,r=>r.abort());
@@ -16,13 +16,14 @@ try{await Promise.all(Array.from({length:3},async()=>{
   try{
    const response=await page.goto(base+url,{waitUntil:'domcontentloaded',timeout:60000});row.status=response.status();
    await page.locator('[data-interactions-ready=true]').first().waitFor({timeout:30000});
-   await page.evaluate(()=>document.fonts.ready);
+   await page.evaluate(()=>Promise.race([document.fonts.ready,new Promise(resolve=>setTimeout(resolve,8000))]));
    for(const width of [1920,1366,820,375]){
     await page.setViewportSize({width,height:900});
     await page.waitForTimeout(180);
     await page.waitForFunction(()=>[...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.width&&r.height&&r.top<innerHeight&&r.bottom>0&&r.left<innerWidth&&r.right>0;}).every(i=>i.complete),{},{timeout:20000}).catch(()=>{});
     const state=await page.evaluate(()=>({
      width:innerWidth,scrollWidth:document.documentElement.scrollWidth,
+     fontLoaded:document.fonts.check('16px "Plus Jakarta Sans"'),
      broken:[...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.width&&r.height&&r.top<innerHeight&&r.bottom>0&&r.left<innerWidth&&r.right>0&&i.complete&&!i.naturalWidth;}).map(i=>i.currentSrc||i.src),
      oldImages:[...document.images].map(i=>i.getAttribute('src')).filter(s=>s&&/\/(wp-content\/uploads|restored-assets|media)\//.test(s)),
      oldVideos:[...document.querySelectorAll('video,source')].flatMap(v=>['src','data-media-src','data-mobile-src','poster'].map(k=>v.getAttribute(k))).filter(s=>s&&/\/(wp-content\/uploads|restored-assets|media)\//.test(s)),
@@ -38,11 +39,11 @@ try{await Promise.all(Array.from({length:3},async()=>{
    const $=cheerio.load(await page.content());row.canonical=$('link[rel=canonical]').attr('href');
    row.schemaValid=$('script[type="application/ld+json"]').toArray().every(e=>{try{JSON.parse($(e).text());return true;}catch{return false;}});
   }catch(error){row.error=error.message;}
-  results.push(row);await page.close();console.log(JSON.stringify({url,status:row.status,completed:results.length,total:paths.length,error:row.error}));
+  results.push(row);fs.writeFileSync('audit/page-assets/browser-progress.json',JSON.stringify({base,results},null,2));await page.close();console.log(JSON.stringify({url,status:row.status,completed:results.length,total:paths.length,error:row.error}));
  }
  await context.close();
 }));}finally{await browser.close();}
-const failures=results.filter(r=>r.status!==200||r.error||!r.schemaValid||r.failedResources.length||r.viewports.some(v=>v.scrollWidth>v.width+1||v.broken.length||v.oldImages.length||v.oldVideos.length||v.textIssues.length||v.fontFamilies.some(f=>!f.includes('Plus Jakarta Sans'))||v.oversizedContainers.length));
+const failures=results.filter(r=>r.status!==200||r.error||!r.schemaValid||r.failedResources.length||r.viewports.some(v=>!v.fontLoaded||v.scrollWidth>v.width+1||v.broken.length||v.oldImages.length||v.oldVideos.length||v.textIssues.length||v.fontFamilies.some(f=>!f.includes('Plus Jakarta Sans'))||v.oversizedContainers.length));
 fs.writeFileSync('audit/page-assets/browser.json',JSON.stringify({results,failures},null,2));
 console.log(JSON.stringify({pages:results.length,viewports:results.reduce((n,r)=>n+r.viewports.length,0),failures:failures.map(r=>({url:r.url,error:r.error,viewports:r.viewports,failedResources:r.failedResources}))}));
 assert.equal(failures.length,0,'Review responsive/resource failures');

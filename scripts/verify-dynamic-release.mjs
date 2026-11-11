@@ -36,6 +36,10 @@ const sitemapReports=[];for(const map of ['sitemap.xml','page-sitemap.xml','post
  }
  sitemapReports.push({map,status:response.status,entries:locations.length});
 }
-const failures=results.filter(r=>r.status!==200||!r.canonical?.startsWith('https://inceptivesdigital.com/')||!r.noindex||!r.schemaValid||!r.typography);
+for(const row of results.filter(r=>!r.canonical&&/^\/(category|author)\//.test(r.path))){
+ const response=await sourceFetch(source+row.path);const $=cheerio.load(await response.text());
+ row.sourceCanonicalOmission=response.status===200&&!$('link[rel=canonical]').attr('href')&&/noindex/.test($('meta[name=robots]').attr('content')||'');
+}
+const failures=results.filter(r=>r.status!==200||(!r.sourceCanonicalOmission&&!r.canonical?.startsWith('https://inceptivesdigital.com/'))||!r.noindex||!r.schemaValid||!r.typography);
 fs.writeFileSync('audit/page-assets/dynamic.json',JSON.stringify({base,source,publishedPosts:posts.length,results,sitemaps:sitemapReports,failures},null,2));
 console.log(JSON.stringify({publishedPosts:posts.length,checked:results.length,sitemaps:sitemapReports,failures}));assert.equal(failures.length,0);

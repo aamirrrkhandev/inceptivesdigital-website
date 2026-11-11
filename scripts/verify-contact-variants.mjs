@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 const base=process.argv[2],browser=await chromium.launch(),results=[];
-const cases=[...['06b8e60','12967acf','786fcf9'].map(id=>({url:'/contact-us',selector:`form:has(input[name=form_id][value="${id}"])`})),...['web-development','staff-augmentation','iot-app-development','virtual-reality-development','ar-app-development','mobile-game-development'].map(slug=>({url:'/'+slug,selector:'#website-'+(slug==='iot-app-development'?'iot-development':slug)+'-enquiry'})),{url:'/staff-augmentation',selector:'#website-staff-assessment',staff:true}];
+const cases=[...['06b8e60','12967acf','786fcf9'].map(id=>({url:id==='06b8e60'?'/services':'/contact-us',selector:`form:has(input[name=form_id][value="${id}"])`})),...['web-development','staff-augmentation','iot-app-development','virtual-reality-development','ar-app-development','mobile-game-development'].map(slug=>({url:'/'+slug,selector:'#website-'+(slug==='iot-app-development'?'iot-development':slug)+'-enquiry'})),{url:'/staff-augmentation',selector:'#website-staff-assessment',staff:true}];
 try{for(const item of cases){
  const desktop=item.selector.includes('06b8e60')||item.selector.includes('12967acf');
  const context=await browser.newContext({viewport:{width:desktop?1366:375,height:950}});

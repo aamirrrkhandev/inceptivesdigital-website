@@ -68,6 +68,20 @@ body .migrated-page[data-source-path="/"] .green-position[data-id] h1 {
 body .migrated-page .sitekit-navbar-nav > li > a {
   white-space: nowrap;
 }
+/* Portfolio mockups are translated below their flow box. Reserve that offset
+   and keep the widget at its actual image height, rather than covering copy. */
+body .migrated-page[data-source-path="/portfolio"] .position-relative {
+  height: auto !important;
+  max-height: none !important;
+}
+body .migrated-page[data-source-path="/portfolio"] .position-relative .migrated-widget-image {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  flex-shrink: 0;
+  margin-bottom: max(0px, var(--e-transform-translateY, 0px)) !important;
+}
 @media (min-width: 1025px) and (max-width: 1439px) {
   body .migrated-page .sitekit-navbar-nav > li > a {
     font-size: 14px !important;
