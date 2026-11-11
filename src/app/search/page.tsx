@@ -1,6 +1,6 @@
 import SourceLayout from "@/components/SourceLayout";
 import { getPage } from "@/lib/site-model";
-import { loadSearchResults } from "@/lib/wordpress-forms";
+import { loadSearchResults } from "@/lib/site-search";
 export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Search - Inceptives Digital",

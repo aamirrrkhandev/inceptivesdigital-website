@@ -1,0 +1,6 @@
+// Local isolated QA harness only. Never imported by the app or configured on Vercel.
+const https=require('node:https'),fs=require('node:fs');
+if(process.env.ISOLATED_WORDPRESS_QA!=='1')throw Error('Offline QA requires explicit local environment');
+function deny(input){let hostname;try{hostname=typeof input==='string'||input instanceof URL?new URL(input).hostname:input.hostname||input.host;}catch{}if(['inceptivesdigital.com','www.inceptivesdigital.com'].includes(hostname)){fs.appendFileSync('audit/final-wordpress-2026-11-11/denied-primary.log',hostname+'\n');throw Error('Primary WordPress is offline in migration QA');}}
+const request=https.request;https.request=function(input,...args){deny(input);return request.call(this,input,...args);};
+const fetch=global.fetch;global.fetch=async function(input,init){deny(input);if(String(input)==='https://challenges.cloudflare.com/turnstile/v0/siteverify'){const body=JSON.parse(init.body);if(body.secret!=='isolated-local-qa-secret'||body.response!=='isolated-local-qa-token')return Response.json({success:false});return Response.json({success:true,hostname:'inceptives-homepage-review.vercel.app',action:'elementor-form'});}return fetch(input,init);};

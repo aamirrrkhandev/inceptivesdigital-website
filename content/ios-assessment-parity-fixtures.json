@@ -1,0 +1,1703 @@
+[
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 99,
+      "cross": 15,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 99,
+      "cross": 18,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 99,
+      "cross": 22,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 97,
+      "cross": 31,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 94,
+      "cross": 34,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 92,
+      "cross": 38,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 90,
+      "cross": 39,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 87,
+      "cross": 42,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 85,
+      "cross": 46,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 91,
+      "cross": 27,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 88,
+      "cross": 30,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 86,
+      "cross": 34,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 80,
+      "cross": 43,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 77,
+      "cross": 46,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 75,
+      "cross": 50,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 73,
+      "cross": 51,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 70,
+      "cross": 54,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 68,
+      "cross": 58,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 83,
+      "cross": 41,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 80,
+      "cross": 44,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "native",
+      "title": "Native iOS Development Is Your Stronger Starting Point",
+      "body": "Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.",
+      "native": 78,
+      "cross": 48,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 72,
+      "cross": 57,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 69,
+      "cross": 60,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 67,
+      "cross": 64,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 65,
+      "cross": 65,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 62,
+      "cross": 68,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone only",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 60,
+      "cross": 72,
+      "reasons": [
+        "Launch: iPhone only",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 95,
+      "cross": 33,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 92,
+      "cross": 36,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 90,
+      "cross": 40,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 84,
+      "cross": 49,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 81,
+      "cross": 52,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 79,
+      "cross": 56,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 77,
+      "cross": 57,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 74,
+      "cross": 60,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 72,
+      "cross": 64,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 78,
+      "cross": 45,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 75,
+      "cross": 48,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 73,
+      "cross": 52,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 67,
+      "cross": 61,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 64,
+      "cross": 64,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 62,
+      "cross": 68,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 60,
+      "cross": 69,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 57,
+      "cross": 72,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 55,
+      "cross": 76,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 70,
+      "cross": 59,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 67,
+      "cross": 62,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 65,
+      "cross": 66,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 59,
+      "cross": 75,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 56,
+      "cross": 78,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 54,
+      "cross": 82,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 52,
+      "cross": 83,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 49,
+      "cross": 86,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iPhone first, Android later",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 47,
+      "cross": 90,
+      "reasons": [
+        "Launch: iPhone first, Android later",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 83,
+      "cross": 45,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 80,
+      "cross": 48,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 78,
+      "cross": 52,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 72,
+      "cross": 61,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 69,
+      "cross": 64,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 67,
+      "cross": 68,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 65,
+      "cross": 69,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 62,
+      "cross": 72,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 60,
+      "cross": 76,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 66,
+      "cross": 57,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 63,
+      "cross": 60,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 61,
+      "cross": 64,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 55,
+      "cross": 73,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 52,
+      "cross": 76,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 50,
+      "cross": 80,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 48,
+      "cross": 81,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 45,
+      "cross": 84,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "Maybe one or two standard device features",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 43,
+      "cross": 88,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: Maybe one or two standard device features",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 58,
+      "cross": 71,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 55,
+      "cross": 74,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "High performance",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "review",
+      "title": "Your App Needs a Closer Architecture Review",
+      "body": "Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.",
+      "native": 53,
+      "cross": 78,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: High performance",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 47,
+      "cross": 87,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 44,
+      "cross": 90,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Standard consumer UX with smooth scrolling",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 42,
+      "cross": 94,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Standard consumer UX with smooth scrolling",
+        "Timeline: Under 3 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "6+ months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 40,
+      "cross": 95,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 6+ months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "3 to 6 months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 37,
+      "cross": 98,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: 3 to 6 months"
+      ]
+    }
+  },
+  {
+    "answers": {
+      "platform": "iOS and Android simultaneously",
+      "hardware": "No, standard cloud features only",
+      "performance": "Content-driven forms or business dashboards",
+      "timeline": "Under 3 months"
+    },
+    "result": {
+      "kind": "cross",
+      "title": "Cross-Platform Development Is Worth Prioritizing",
+      "body": "Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.",
+      "native": 35,
+      "cross": 99,
+      "reasons": [
+        "Launch: iOS and Android simultaneously",
+        "Apple capabilities: No, standard cloud features only",
+        "Performance: Content-driven forms or business dashboards",
+        "Timeline: Under 3 months"
+      ]
+    }
+  }
+]

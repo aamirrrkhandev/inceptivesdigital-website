@@ -1,0 +1,10 @@
+{
+  "checkedContracts": 157,
+  "ios": true,
+  "badChallengeRejected": true,
+  "nonBlogBackendPathsRejected": 4,
+  "primaryCalls": 0,
+  "cloudflareCalls": 159,
+  "transport": "Actual route handlers and local contract/security helpers; Cloudflare HTTP response mocked; zero real deliveries",
+  "pass": true
+}

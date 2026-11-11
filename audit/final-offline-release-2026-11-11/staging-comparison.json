@@ -1,0 +1,404 @@
+[
+  {
+    "path": "/services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-chatbot-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/computer-vision-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/",
+    "status": 200,
+    "differences": [
+      {
+        "key": "canonical",
+        "source": "https://inceptivesdigital.com/",
+        "target": "https://inceptivesdigital.com"
+      }
+    ]
+  },
+  {
+    "path": "/founders-letter",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/dropryde",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-new-york",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/partnership",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/dating-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/travel-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/food-delivery-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-company-in-toronto-canada",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/life-at-inceptives-digital",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-company-london-uk",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-san-francisco",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-austin",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/healthcare-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ui-ux-design",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/product-strategy-consulting",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/interactive-prototyping",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/product-rescue-scaling",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mvp-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/discovery-sprint",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/digital-product-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/rpa-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/custom-software-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-app-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/nlp-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/system-integration-api-automation",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/machine-learning-development-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/post-launch-analytics-iteration",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-company-singapore",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/about-us",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-agent-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/terms-and-conditions",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/generative-ai-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/privacy-policy",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/blockchain-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/real-estate-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/fintech-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development-company-dubai-uae",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/react-native-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/state-of-the-art-chiropractic",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/education-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/halwar-connect",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/family-entertainment-group",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/dps-airem",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/flutter-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/pulse-check-timer",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/wordsmith-pro",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/pets-b4-profit",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/zoom-read",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/testimonial",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/my-tango-event",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/contact-us",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/leadership",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/backend-api-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/app-store-optimization",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-automation-services",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/mobile-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/product-launch-strategy",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/portfolio/stakbread",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/kotlin-multiplatform-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/fitness-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-development/ai-cost-estimator",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ai-mvp-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ecommerce-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/cross-platform-app-development",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/web-app-development-company",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/ios-app-development",
+    "status": 200,
+    "differences": [
+      {
+        "key": "title",
+        "source": "iOS App Development Company in the USA | Inceptives DigitalHow Many Hours Does Each iOS Feature Take to Build | Inceptives Digital",
+        "target": "iOS App Development Company in the USA | Inceptives Digital"
+      }
+    ]
+  },
+  {
+    "path": "/business-process-automation",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/2026/09/14",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/2026/10/02",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/thank-you",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/2026/09/18",
+    "status": 200,
+    "differences": []
+  },
+  {
+    "path": "/android-app-development",
+    "status": 200,
+    "differences": []
+  }
+]

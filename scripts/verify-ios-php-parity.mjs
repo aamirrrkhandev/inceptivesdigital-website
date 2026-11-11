@@ -1,0 +1,7 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {PHP,loadPHPRuntime} from '../audit/php-runtime/node_modules/@php-wasm/universal/index.js';import {getPHPLoaderModule} from '../audit/php-runtime/node_modules/@php-wasm/node-8-3/index.js';import {iosOptions,scoreIOSAssessment} from '../src/lib/ios-assessment-rules.ts';
+const original=fs.readFileSync('content/reference/wordpress-snippets/25-pure-rules.php','utf8');
+const combinations=[];for(const platform of iosOptions.platform)for(const hardware of iosOptions.hardware)for(const performance of iosOptions.performance)for(const timeline of iosOptions.timeline)combinations.push({platform,hardware,performance,timeline});
+const php=new PHP(await loadPHPRuntime(await getPHPLoaderModule()));
+const code=original+`\n$inputs=json_decode(base64_decode('${Buffer.from(JSON.stringify(combinations)).toString('base64')}'),true);$out=array();foreach($inputs as $answers){$out[]=id_ios_score($answers);}echo json_encode($out);`;
+const response=await php.runStream({code});const stderr=await response.stderrText;const text=await response.stdoutText;if(stderr)console.error(stderr);const expected=JSON.parse(text);assert.equal(expected.length,81);for(let i=0;i<81;i++)assert.deepEqual(scoreIOSAssessment(combinations[i]),expected[i]);
+fs.writeFileSync('content/ios-assessment-parity-fixtures.json',JSON.stringify(combinations.map((answers,i)=>({answers,result:expected[i]})),null,2));console.log(JSON.stringify({originalPHP:true,combinations:81,exactResultMatches:81,emailOrWordPressCalls:0}));php.exit();

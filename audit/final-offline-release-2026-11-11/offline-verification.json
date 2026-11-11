@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "path": "/sitemap.xml",
+      "pass": true
+    },
+    {
+      "path": "/blog/nextincep",
+      "pass": true
+    },
+    {
+      "path": "/search?s=ios",
+      "pass": true
+    },
+    {
+      "path": "/",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/contact-us",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/ios-app-development",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/blockchain-development",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/web-development",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/mobile-game-development",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/portfolio",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/thank-you",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/blog/nextincep",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-austin",
+      "primaryBrowserRequests": 0,
+      "pass": true
+    }
+  ],
+  "primaryNetworkRequests": 0,
+  "security": "Cloudflare response mocked in localhost-only server harness; no deployed bypass",
+  "realDelivery": false
+}

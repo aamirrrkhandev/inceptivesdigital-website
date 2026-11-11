@@ -1,0 +1,13 @@
+# Final non-blog WordPress snapshot — 11 November 2026
+
+Source: https://inceptivesdigital.com (read-only). Blog backend: https://nextincep.wpenginepowered.com only for posts/categories/authors and blog-related pin/reviewer/Press Release output. No non-blog page, form contract, search page or sitemap request is sent to that backend.
+
+Captured 78 non-blog public pages, 185 CSS/JavaScript dependencies and all three user-provided Code Snippets references (#23, #24, #25). Private admin edits, plugin changes and DNS changes were not performed. Full raw engineering snapshots remain local in audit/final-wordpress-2026-11-11, with a portable ZIP alongside the project. They are reference files, not HTML blobs served by Next.js.
+
+Source comparison: current titles/descriptions/schema match the migrated pages, apart from the already approved homepage canonical representation and removal of the duplicated iOS title injected by an embedded widget. Existing approved UI customizations are retained. Snippets #23 and #24 provide schema already captured in the page JSON-LD; #25 contains iOS rules. Exact PHP execution and TypeScript comparison matched all 81 answer combinations, including recommendations, scores, explanation and reasons. Fixtures are stored in content/ios-assessment-parity-fixtures.json. PHP test runtime uses WordPress Playground packages only in ignored audit/php-runtime, not production dependencies.
+
+Referenced uploads: 1417; 1412 already local, five additional originals downloaded (four favicon variants and the thank-you background). Existing packed media and public assets retained. GHL/CallRail form UI and native submission acknowledgement flow retained. WordPress mail/AJAX transport is retired in favor of the user-approved GHL delivery. No duplicate WordPress email is sent.
+
+Runtime changes: frozen form contracts in content/form-contracts.json; original iOS scoring in src/lib/ios-assessment-rules.ts; non-blog sitemap snapshot plus live blog REST post/author metadata; site search uses the local page index plus approved blog REST API. No original WordPress fetch or admin-ajax submission remains in runtime code. Public production URLs remain in metadata and internal links by design.
+
+Local offline QA blocks the original WordPress host and uses a localhost-only mock Cloudflare response; this test harness is never imported by the deployed app. Real staging verification and deployment evidence are recorded separately. Production domain cutover, production security/widget/CRM-domain configuration and DNS remain separately authorized launch steps. The nextincep WordPress blog backend must remain hosted and accessible after cutover.

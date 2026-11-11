@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-11-11T11:12:09.672Z",
+  "source": "https://inceptivesdigital.com",
+  "readOnly": true,
+  "snippets": [
+    {
+      "id": 23,
+      "file": "23.txt",
+      "sha256": "fa81af5d61d5063514d21dffb6ecd23abb1d6b194141ff697b80f0bb324c0e22"
+    },
+    {
+      "id": 24,
+      "file": "24.txt",
+      "sha256": "818c7e12723b2e28b9888cf0fee7babac4874bc128aae68c52ed58117651c9d9"
+    },
+    {
+      "id": 25,
+      "file": "25.txt",
+      "sha256": "48e398b7ee491b4d4718e4c15300a76da1d04654efd9f84291e172f19e4839f9"
+    }
+  ]
+}

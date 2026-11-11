@@ -1,0 +1,338 @@
+/**
+ * Inceptives Digital - iOS Architecture Quiz Shortcode
+ * Code Snippets FREE: PHP snippet (paste without an opening PHP tag)
+ * Shortcode: [ios_architecture_form]
+ * Email recipient: change the address in id_ios_recipient() below.
+ */
+if (!function_exists('id_ios_recipient')) {
+    function id_ios_recipient() {
+        return 'seo@inceptivesdigital.com';
+    }
+}
+if (!function_exists('id_ios_questions')) {
+ function id_ios_questions() {return array(
+  'platform'=>array('What platforms are you launching first?',array('iPhone only','iPhone first, Android later','iOS and Android simultaneously')),
+  'hardware'=>array('Does your app require Apple-specific hardware?',array('Yes (ARKit, LiDAR, HealthKit, Apple Intelligence)','Maybe one or two standard device features','No, standard cloud features only')),
+  'performance'=>array('What are your core performance demands?',array('High performance','Standard consumer UX with smooth scrolling','Content-driven forms or business dashboards')),
+  'timeline'=>array('What is your target market launch timeline?',array('6+ months','3 to 6 months','Under 3 months'))
+ );}
+}
+if (!function_exists('id_ios_score')) {
+ function id_ios_score($a) {
+  $p=$a['platform']; $h=$a['hardware']; $f=$a['performance']; $t=$a['timeline'];
+  $n=35; $c=35;
+  if ($p==='iPhone only') {$n+=25;$c-=5;} elseif($p==='iPhone first, Android later'){$n+=12;$c+=13;}else{$c+=25;}
+  if (strpos($h,'Yes (')===0){$n+=25;$c-=8;}elseif(strpos($h,'Maybe')===0){$n+=8;$c+=4;}else{$c+=18;}
+  if ($f==='High performance'){$n+=18;$c-=7;}elseif(strpos($f,'smooth scrolling')!==false){$n+=7;$c+=9;}else{$c+=17;}
+  if ($t==='6+ months'){$n+=5;}elseif($t==='3 to 6 months'){$n+=2;$c+=3;}else{$c+=7;}
+  $n=max(5,min(99,$n)); $c=max(5,min(99,$c));
+  $native=($p==='iPhone only' && (strpos($h,'Yes (')===0 || $f==='High performance')) || ($p==='iPhone only' && strpos($h,'Maybe')===0 && strpos($f,'smooth scrolling')!==false && $t!=='Under 3 months');
+  $cross=($p==='iOS and Android simultaneously' && $h==='No, standard cloud features only' && $f!=='High performance');
+  $kind=$native?'native':($cross?'cross':'review');
+  $texts=array(
+    'native'=>array('Native iOS Development Is Your Stronger Starting Point','Your Apple integration and performance priorities make native iOS worth assessing first. Swift and SwiftUI provide direct access to the capabilities your product may require.'),
+    'cross'=>array('Cross-Platform Development Is Worth Prioritizing','Your platform plans and feature requirements suggest Flutter or React Native could support shared development. Platform-specific integrations still require review.'),
+    'review'=>array('Your App Needs a Closer Architecture Review','Your answers contain competing requirements. A short questionnaire cannot settle the choice between native iOS and cross-platform development.')
+  );
+  $reasons=array('Launch: '.$p,'Apple capabilities: '.$h,'Performance: '.$f,'Timeline: '.$t);
+  return array('kind'=>$kind,'title'=>$texts[$kind][0],'body'=>$texts[$kind][1], 'native'=>$n,'cross'=>$c,'reasons'=>$reasons);
+ }
+}
+if (!function_exists('id_ios_process_submission')) {
+ function id_ios_process_submission(){
+  if (!check_ajax_referer('id_ios_quiz','nonce',false)){wp_send_json_error(array('message'=>'Security check failed. Refresh the page and retry.'),403);}
+  // The original hidden website field could be populated by browser autofill.
+  // Rely on the WordPress nonce and server-side field validation instead.
+  $q=id_ios_questions();$answers=array();
+  foreach($q as $key=>$row){$raw=isset($_POST[$key])?sanitize_text_field(wp_unslash($_POST[$key])):'';if(!in_array($raw,$row[1],true)){wp_send_json_error(array('message'=>'Please complete all four questions.'),422);} $answers[$key]=$raw;}
+  $name=isset($_POST['full_name'])?sanitize_text_field(wp_unslash($_POST['full_name'])):'';
+  $email=isset($_POST['email'])?sanitize_email(wp_unslash($_POST['email'])):'';
+  $company=isset($_POST['company'])?sanitize_text_field(wp_unslash($_POST['company'])):'';
+  if (!$name || strlen($name)>120 || !is_email($email) || strlen($company)>120){wp_send_json_error(array('message'=>'Enter a valid name and email address.'),422);}
+  $fit=id_ios_score($answers);
+  // Send a structured HTML table through the existing WordPress SMTP integration.
+  $row=function($heading,$value){
+   return '<tr><th scope="row" style="padding:12px 14px;text-align:left;vertical-align:top;background:#f4f8f5;border:1px solid #dce8df;width:36%;font-size:13px;color:#213728;">'.esc_html($heading).'</th><td style="padding:12px 14px;border:1px solid #dce8df;font-size:13px;color:#25352b;line-height:1.6;">'.nl2br(esc_html($value)).'</td></tr>';
+  };
+  $body='<div style="margin:0;background:#f4f7f5;padding:28px 12px;font-family:Arial,Helvetica,sans-serif;"><div style="max-width:680px;margin:auto;background:#fff;border:1px solid #dce8df;border-radius:12px;overflow:hidden;">';
+  $body.='<div style="background:#121d16;padding:24px;border-top:5px solid #00ce44;"><div style="font-size:12px;font-weight:bold;letter-spacing:1.6px;color:#00ce44;">INCEPTIVES DIGITAL</div><h1 style="color:#fff;font-size:25px;margin:12px 0 0;">IOS App Development</h1></div>';
+  $body.='<div style="padding:22px;"><h2 style="font-size:17px;color:#1b3021;margin:0 0 14px;">Contact details</h2><table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;">';
+  $body.=$row('Full Name',$name).$row('Email',$email).$row('Company',$company?:'Not provided');
+  $body.='</table><h2 style="font-size:17px;color:#1b3021;margin:26px 0 14px;">Assessment questions and answers</h2><table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;">';
+  $i=1;foreach($q as $key=>$question){$body.=$row($i.'. '.$question[0],$answers[$key]);$i++;}
+  $body.='</table><h2 style="font-size:17px;color:#1b3021;margin:26px 0 14px;">Architecture recommendation</h2><table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;">';
+  $body.=$row('Recommendation',$fit['title']).$row('Explanation',$fit['body']).$row('Native iOS fit',$fit['native'].' / 99').$row('Cross-platform fit',$fit['cross'].' / 99');
+  $body.='</table><p style="font-size:11px;color:#667a6b;margin-top:20px;">Fit indicators are rule-based guidance, not probabilities. Confirm requirements in technical discovery.</p></div></div></div>';
+  $to='seo@inceptivesdigital.com'; // Explicit recipient, independent of older snippets.
+  if (!is_email($to)){wp_send_json_error(array('message'=>'Recipient email is not configured.'),500);}
+  $headers=array('Content-Type: text/html; charset=UTF-8','Reply-To: '.sanitize_text_field($name).' <'.$email.'>');
+  $sent=wp_mail($to,'iOS APP DEVELOPMENT Page - '.$name,$body,$headers);
+  if (!$sent){wp_send_json_error(array('message'=>'Email could not be sent. Please try again or contact us directly.'),500);}
+  wp_send_json_success(array('result'=>$fit,'answers'=>$answers,'contact'=>array('name'=>$name,'email'=>$email,'company'=>$company)));
+ }
+ add_action('wp_ajax_id_ios_quiz_submit','id_ios_process_submission');
+ add_action('wp_ajax_nopriv_id_ios_quiz_submit','id_ios_process_submission');
+}
+if (!function_exists('id_ios_shortcode')) {
+ function id_ios_shortcode() {
+  $q=id_ios_questions();$uid='id-ios-'.wp_rand(100000,999999);
+  ob_start(); ?>
+  <section id="<?php echo esc_attr($uid); ?>" class="id-ios-quiz" aria-label="iOS APP DEVELOPMENT">
+   <div class="id-ios-card"><div class="id-ios-top"><span>IOS APP DEVELOPMENT</span><strong class="id-ios-count">STEP 1 OF 5</strong></div><div class="id-ios-track"><div class="id-ios-progress"></div></div>
+    <form novalidate class="id-ios-form">
+     <?php $i=0; foreach($q as $key=>$row): ?>
+      <fieldset class="id-ios-step" data-step="<?php echo (int)$i; ?>" <?php echo $i?'hidden':''; ?>><legend><?php echo esc_html(($i+1).'. '.$row[0]); ?></legend><div class="id-ios-options">
+       <?php foreach($row[1] as $option): ?><label class="id-ios-option"><input type="radio" name="<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($option); ?>" required><span><?php echo esc_html($option); ?></span></label><?php endforeach; ?></div>
+      </fieldset>
+     <?php $i++; endforeach; ?>
+     <fieldset class="id-ios-step" data-step="4" hidden><legend>5. Where should we send your assessment?</legend>
+      <div class="id-ios-contact"><label>Full Name <input name="full_name" type="text" autocomplete="name" maxlength="120" placeholder="Full name" required></label><label>Email <input name="email" type="email" autocomplete="email" maxlength="254" placeholder="Email address" required></label><label>Company Name <input name="company" type="text" autocomplete="organization" maxlength="120" placeholder="Company (optional)"></label></div>
+      <p class="id-ios-privacy">Your answers and contact information will be emailed to our team. After submission, you can download your complete assessment as a PDF.</p>
+     </fieldset>
+     <div class="id-ios-buttons"><button class="id-ios-back" type="button" hidden>Previous</button><button class="id-ios-next" type="button">Next</button><button class="id-ios-send" type="submit" hidden>Send & View Result</button></div>
+     <div class="id-ios-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div class="id-ios-result" hidden aria-live="polite"></div>
+   </div>
+  </section>
+  <style>
+  #<?php echo esc_attr($uid); ?>{--g:#00ce44;--bg:#151c17;--panel:#222c25;--bd:#3a493e;--text:#f6fff7;--muted:#b7c8bb;color:var(--text);font:inherit;width:100%}
+  #<?php echo esc_attr($uid); ?> *{box-sizing:border-box}
+  #<?php echo esc_attr($uid); ?> [hidden]{display:none!important}
+  #<?php echo esc_attr($uid); ?> .id-ios-card{border-radius:18px;padding:clamp(18px,4vw,34px);background:radial-gradient(circle at 100% 0%,#174126,transparent 46%),var(--bg);border:1px solid var(--bd)}
+  #<?php echo esc_attr($uid); ?> .id-ios-top{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:11px;font-weight:700;letter-spacing:.07em;color:var(--muted)}
+  #<?php echo esc_attr($uid); ?> .id-ios-top strong{color:var(--g);white-space:nowrap}
+  #<?php echo esc_attr($uid); ?> .id-ios-track{height:7px;background:#35443a;border-radius:30px;overflow:hidden;margin:14px 0 26px}
+  #<?php echo esc_attr($uid); ?> .id-ios-progress{width:20%;height:100%;background:var(--g);border-radius:30px;transition:width .4s ease}
+  #<?php echo esc_attr($uid); ?> fieldset{border:0;padding:0;margin:0;min-width:0}
+  #<?php echo esc_attr($uid); ?> legend{font-size:clamp(18px,2.5vw,23px);font-weight:700;line-height:1.4;color:white;margin-bottom:19px;padding:0}
+  #<?php echo esc_attr($uid); ?> .id-ios-options{display:grid;gap:11px}
+  #<?php echo esc_attr($uid); ?> .id-ios-option{display:flex;align-items:center;gap:13px;padding:15px 17px;min-height:57px;background:var(--panel);border:1.5px solid var(--bd);border-radius:11px;cursor:pointer;transition:background .2s,border-color .2s}
+  #<?php echo esc_attr($uid); ?> .id-ios-option:has(input:checked){background:#193d27;border-color:var(--g)}
+  #<?php echo esc_attr($uid); ?> .id-ios-option:hover{border-color:var(--g)}
+  #<?php echo esc_attr($uid); ?> .id-ios-option input{accent-color:var(--g);width:18px;height:18px;flex:0 0 18px;margin:0}
+  #<?php echo esc_attr($uid); ?> .id-ios-option span{font-size:15px;color:var(--text);line-height:1.5}
+  #<?php echo esc_attr($uid); ?> .id-ios-contact{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+  #<?php echo esc_attr($uid); ?> .id-ios-contact label{display:grid;gap:8px;font-size:14px;font-weight:600;color:#fff}
+  #<?php echo esc_attr($uid); ?> .id-ios-contact label:last-child{grid-column:1/-1}
+  #<?php echo esc_attr($uid); ?> .id-ios-contact input{width:100%;min-width:0;height:48px;border:1px solid var(--bd);border-radius:9px;padding:0 13px;background:var(--panel);color:white;font-size:15px}
+  #<?php echo esc_attr($uid); ?> .id-ios-contact input::placeholder{color:#9eada2}
+  #<?php echo esc_attr($uid); ?> input:focus-visible,#<?php echo esc_attr($uid); ?> button:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+  #<?php echo esc_attr($uid); ?> .id-ios-privacy{color:var(--muted);font-size:12px;line-height:1.6;margin:17px 0 0}
+  #<?php echo esc_attr($uid); ?> .id-ios-buttons{display:flex;gap:10px;justify-content:flex-start;margin-top:22px}
+  #<?php echo esc_attr($uid); ?> .id-ios-buttons button,#<?php echo esc_attr($uid); ?> .id-ios-result button,#<?php echo esc_attr($uid); ?> .id-ios-result a{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:10px 20px;border-radius:9px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;width:auto;border:1px solid #526658;background:#29382e;color:white}
+  #<?php echo esc_attr($uid); ?> .id-ios-buttons .id-ios-next,#<?php echo esc_attr($uid); ?> .id-ios-buttons .id-ios-send,#<?php echo esc_attr($uid); ?> .id-ios-result .id-ios-download{background:var(--g);border-color:var(--g);color:#061b0b}
+  #<?php echo esc_attr($uid); ?> button:disabled{opacity:.55;cursor:wait}
+  #<?php echo esc_attr($uid); ?> .id-ios-error{color:#ffb5b5;font-size:13px;margin-top:13px;min-height:18px}
+  #<?php echo esc_attr($uid); ?> .id-ios-result h2{font-size:clamp(23px,3vw,35px);line-height:1.15;color:white;margin:10px 0}
+  #<?php echo esc_attr($uid); ?> .id-ios-result p{font-size:14px;line-height:1.7;color:var(--muted)}
+  #<?php echo esc_attr($uid); ?> .id-ios-result .id-ios-eyebrow{font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--g)}
+  #<?php echo esc_attr($uid); ?> .id-ios-metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+  #<?php echo esc_attr($uid); ?> .id-ios-metric{padding:15px;border:1px solid var(--bd);border-radius:11px;background:var(--panel)}
+  #<?php echo esc_attr($uid); ?> .id-ios-metric strong{display:block;color:var(--g);font-size:24px;margin:6px 0}
+  #<?php echo esc_attr($uid); ?> .id-ios-metric .id-ios-track{margin:0}
+  #<?php echo esc_attr($uid); ?> .id-ios-summary{background:#1c2b21;border:1px solid #35523c;border-radius:11px;padding:17px;margin:17px 0}
+  #<?php echo esc_attr($uid); ?> .id-ios-summary h3{font-size:16px;color:white;margin:0 0 12px}
+  #<?php echo esc_attr($uid); ?> .id-ios-summary ul{margin:0;padding-left:20px;color:#c9ddce;font-size:13px;line-height:1.8}
+  #<?php echo esc_attr($uid); ?> .id-ios-result-actions{display:flex;gap:10px;flex-wrap:wrap}
+  #<?php echo esc_attr($uid); ?> .id-ios-footnote{font-size:11px!important;color:#9aafa0!important;margin-top:18px}
+  #<?php echo esc_attr($uid); ?> .id-ios-trap{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+  @media(max-width:900px){#<?php echo esc_attr($uid); ?> .id-ios-card{padding:24px}}
+  @media(max-width:600px){#<?php echo esc_attr($uid); ?> .id-ios-option{padding:13px;min-height:50px}#<?php echo esc_attr($uid); ?> .id-ios-option span{font-size:14px;overflow-wrap:anywhere}#<?php echo esc_attr($uid); ?> .id-ios-top{flex-wrap:wrap}#<?php echo esc_attr($uid); ?> .id-ios-contact{grid-template-columns:1fr}#<?php echo esc_attr($uid); ?> .id-ios-contact label:last-child{grid-column:auto}#<?php echo esc_attr($uid); ?> .id-ios-metrics{grid-template-columns:1fr}#<?php echo esc_attr($uid); ?> .id-ios-buttons button{flex:1;padding:10px 8px;font-size:13px}#<?php echo esc_attr($uid); ?> .id-ios-result-actions{flex-direction:column}#<?php echo esc_attr($uid); ?> .id-ios-result-actions>*{width:100%!important}}
+  @media(max-width:380px){#<?php echo esc_attr($uid); ?> .id-ios-card{padding:14px}#<?php echo esc_attr($uid); ?> legend{font-size:17px}#<?php echo esc_attr($uid); ?> .id-ios-buttons{gap:8px}}
+  @media(prefers-reduced-motion:reduce){#<?php echo esc_attr($uid); ?> .id-ios-progress{transition:none}}
+  </style>
+  <script>
+  (function(){
+   const root=document.getElementById(<?php echo wp_json_encode($uid); ?>); if(!root)return;
+   const form=root.querySelector('form'), steps=[...root.querySelectorAll('.id-ios-step')],prev=root.querySelector('.id-ios-back'),next=root.querySelector('.id-ios-next'),send=root.querySelector('.id-ios-send'),result=root.querySelector('.id-ios-result'),error=root.querySelector('.id-ios-error');let step=0;
+   const questions=<?php echo wp_json_encode($q); ?>; const logoURL='https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg'; const config={url:<?php echo wp_json_encode(admin_url('admin-ajax.php')); ?>,nonce:<?php echo wp_json_encode(wp_create_nonce('id_ios_quiz')); ?>};
+   function setStep(n){step=n;steps.forEach((el,i)=>el.hidden=i!==n);prev.hidden=n===0;next.hidden=n===4;send.hidden=n!==4;root.querySelector('.id-ios-count').textContent='STEP '+(n+1)+' OF 5';root.querySelector('.id-ios-progress').style.width=((n+1)*20)+'%';error.textContent='';}
+   next.addEventListener('click',()=>{const checked=steps[step].querySelector('input:checked');if(!checked){error.textContent='Please select an answer to continue.';return;}setStep(step+1)});
+   prev.addEventListener('click',()=>{if(step>0)setStep(step-1)});
+   const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+   form.addEventListener('submit',async e=>{
+    e.preventDefault();if(!form.reportValidity())return;
+    const data=new FormData(form);for(const key of ['platform','hardware','performance','timeline'])if(!data.get(key)){error.textContent='Please complete all questions.';return;}
+    send.disabled=true;send.textContent='Sending...';error.textContent='';data.append('action','id_ios_quiz_submit');data.append('nonce',config.nonce);
+    try{const response=await fetch(config.url,{method:'POST',body:data,credentials:'same-origin'});const out=await response.json();if(!out.success)throw Error(out.data?.message||'Submission failed.');show(out.data);}
+    catch(err){error.textContent=err.message||'Submission failed. Please retry.';send.disabled=false;send.textContent='Send & View Result';}
+   });
+   function show(data){
+    const r=data.result;form.hidden=true;root.querySelector('.id-ios-top').firstElementChild.textContent='YOUR RECOMMENDATION';root.querySelector('.id-ios-count').textContent='COMPLETE';result.hidden=false;
+    const li=r.reasons.map(t=>'<li>'+esc(t)+'</li>').join('');
+    result.innerHTML='<div class="id-ios-eyebrow">Assessment submitted successfully</div><h2>'+esc(r.title)+'</h2><p>'+esc(r.body)+'</p><div class="id-ios-metrics">'+[['Native iOS',r.native],['Cross-platform',r.cross]].map(x=>'<div class="id-ios-metric"><span>'+esc(x[0])+'</span><strong>'+x[1]+'</strong><div class="id-ios-track"><div class="id-ios-progress" style="width:'+x[1]+'%"></div></div></div>').join('')+'</div><div class="id-ios-summary"><h3>Your submitted answers</h3><ul>'+li+'</ul></div><div class="id-ios-result-actions"><button type="button" class="id-ios-download">Download Complete PDF</button><a href="tel:(469)-788-8527" target="_blank" rel="noopener">Talk to an iOS architect</a></div><p class="id-ios-footnote">Scores are indicative rule-based fit values, not probabilities. Confirm the technical approach during discovery.</p>';
+    result.querySelector('.id-ios-download').addEventListener('click',()=>downloadPDF(data));
+    const notice=document.createElement('p');notice.className='id-ios-redirect-note';notice.setAttribute('role','status');result.append(notice);
+    const destination='https://inceptivesdigital.com/thank-you';let remaining=5;
+    const updateNotice=()=>{notice.textContent='Redirecting to our thank-you page in '+remaining+' second'+(remaining===1?'':'s')+'. Download your PDF before leaving, if needed.';};
+    updateNotice();
+    const redirectTimer=setInterval(()=>{remaining--;if(remaining<=0){clearInterval(redirectTimer);window.location.assign(destination);}else updateNotice();},1000);
+    result.scrollIntoView({behavior:'smooth',block:'start'});
+   }
+   async function downloadPDF(data){
+    const button=result.querySelector('.id-ios-download'),original=button.textContent;
+    button.disabled=true;button.textContent='Preparing branded PDF...';
+    try {
+      const r=data.result,a=data.answers,c=data.contact;
+      const clean=v=>String(v==null?'':v).normalize('NFKD').replace(/[\u2018\u2019]/g,"'").replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e]/g,'');
+      const pdfEsc=v=>clean(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
+      const date=new Intl.DateTimeFormat('en-GB',{year:'numeric',month:'long',day:'numeric'}).format(new Date());
+      // Load the supplied Inceptives Digital brand logo from the same site.
+      // Embed it as JPEG; otherwise preserve a typographic company wordmark.
+      let jpg=null;
+      if (logoURL) {try {
+       const img=new Image();img.crossOrigin='anonymous';img.src=logoURL;
+       await new Promise((ok,fail)=>{img.onload=ok;img.onerror=fail; if(img.complete&&img.naturalWidth)ok();});
+       const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
+       const scale=Math.min(1,500/img.naturalWidth,500/img.naturalHeight);
+       const width=Math.max(1,Math.round(img.naturalWidth*scale));
+       const height=Math.max(1,Math.round(img.naturalHeight*scale));
+       canvas.width=width;canvas.height=height;ctx.fillStyle='#ffffff';ctx.fillRect(0,0,width,height);ctx.drawImage(img,0,0,width,height);
+       const encoded=canvas.toDataURL('image/jpeg',.87).split(',')[1];
+       const binary=atob(encoded),bytes=new Uint8Array(binary.length);
+       for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
+       jpg={bytes,width,height};
+      }catch(err){console.warn('Site logo not available for PDF; using wordmark',err);}}
+
+      const enc=new TextEncoder(),parts=[],offsets=[0];let byteLength=0;
+      const push=(x)=>{const bytes=typeof x==='string'?enc.encode(x):x;parts.push(bytes);byteLength+=bytes.length;};
+      let objNum=0;const entries=[];
+      const alloc=()=>{entries.push(null);return ++objNum;};
+      const put=(id,content)=>{entries[id-1]=content;};
+      const rootId=alloc(),pagesId=alloc(),regular=alloc(),bold=alloc();
+      let imageId=null;
+      if(jpg){imageId=alloc();put(imageId,['<< /Type /XObject /Subtype /Image /Width '+jpg.width+' /Height '+jpg.height+' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length '+jpg.bytes.length+' >>\nstream\n',jpg.bytes,'\nendstream']);}
+      put(regular,'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>');
+      put(bold,'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>');
+      const W=595,H=842,LM=42,RIGHT=553,TABLE=511;
+      const pages=[];let page;
+      const addText=(str,x,y,size=10,boldFlag=false,color='#222222')=>{
+       const col=rgb(color);page.ops.push(col.join(' ')+' rg BT /'+(boldFlag?'F2':'F1')+' '+size+' Tf '+x+' '+y+' Td ('+pdfEsc(str)+') Tj ET');
+      };
+      const rgb=hex=>{hex=hex.replace('#','');return [0,2,4].map(i=>(parseInt(hex.slice(i,i+2),16)/255).toFixed(3));};
+      const rect=(x,y,w,h,fill,stroke)=>{page.ops.push(rgb(fill).join(' ')+' rg '+x+' '+y+' '+w+' '+h+' re f');if(stroke)page.ops.push(rgb(stroke).join(' ')+' RG 0.6 w '+x+' '+y+' '+w+' '+h+' re S');};
+      const line=(x1,y1,x2,y2,color='#dddddd')=>page.ops.push(rgb(color).join(' ')+' RG 0.7 w '+x1+' '+y1+' m '+x2+' '+y2+' l S');
+      const startPage=()=>{
+       page={ops:[],annotations:[]};pages.push(page);
+       rect(0,0,W,H,'#ffffff');
+       
+if (imageId) {
+
+    // Logo maximum dimensions in PDF points
+    const maxLogoW = 150;
+    const maxLogoH = 48;
+
+    // Preserve original image proportions
+    const scale = Math.min(
+        maxLogoW / jpg.width,
+        maxLogoH / jpg.height
+    );
+
+    const logoW = jpg.width * scale;
+    const logoH = jpg.height * scale;
+
+    // Position logo at top-left
+    const logoX = 43;
+    const logoTop = H - 30;
+
+    const logoY = logoTop - logoH;
+
+    page.ops.push(
+        'q ' +
+        logoW + ' 0 0 ' +
+        logoH + ' ' +
+        logoX + ' ' + logoY +
+        ' cm /Logo Do Q'
+    );
+}
+
+       else{addText('INCEPTIVES DIGITAL',LM,782,17,true,'#202020');}
+       addText(
+    'iOS APP DEVELOPMENT',
+    LM,
+    735,
+    12,
+    true,
+    '#202020'
+);
+       addText('Generated: '+date,RIGHT-175,742,9,false,'#555555');
+       line(LM,733,RIGHT,733,'#d8d8d8');
+       line(LM,52,RIGHT,52,'#d6d6d6');
+       addText('(c) '+new Date().getFullYear()+' Inceptives Digital. All rights reserved.',LM,37,8,false,'#606060');
+       const priv='Privacy Policy: inceptivesdigital.com/privacy-policy';
+       addText(priv,LM,23,8,false,'#333333');
+       const ann=alloc();page.annotations.push(ann);
+       put(ann,'<< /Type /Annot /Subtype /Link /Rect [42 18 300 35] /Border [0 0 0] /A << /S /URI /URI (https://inceptivesdigital.com/privacy-policy) >> >>');
+       addText('Page '+pages.length,515,37,8,false,'#606060');
+       page.y=700;
+      };
+      const ensure=height=>{if(page.y-height<75)startPage();};
+      const wrap=(value,limit=60)=>{const words=clean(value).split(/\s+/);const lines=[];let line='';for(const word of words){if(!word)continue;if((line+' '+word).trim().length>limit&&line){lines.push(line);line=word;}else line=(line+' '+word).trim();}lines.push(line);return lines;};
+      const section=title=>{ensure(49);addText(title.toUpperCase(),LM,page.y,12,true,'#252525');page.y-=12;line(LM,page.y,RIGHT,page.y);page.y-=16;};
+      const row=(key,value)=>{
+       const left=wrap(key,24),right=wrap(value,61);
+       const count=Math.max(left.length,right.length);const height=Math.max(34,14+count*13);
+       ensure(height+5);
+       rect(LM,page.y-height,155,height,'#f3f3f3','#dadada');
+       rect(LM+155,page.y-height,TABLE-155,height,'#ffffff','#dadada');
+       left.forEach((v,i)=>addText(v,LM+10,page.y-17-i*13,9,true));
+       right.forEach((v,i)=>addText(v,LM+165,page.y-17-i*13,9,false));
+       page.y-=height;
+      };
+      startPage();
+      section('Contact Details');
+      row('Full Name',c.name);row('Email',c.email);row('Company',c.company||'Not provided');
+      page.y-=18;
+      section('Assessment Questions & Answers');
+      Object.keys(questions).forEach((key,i)=>row((i+1)+'. '+questions[key][0],a[key]||''));
+      page.y-=18;
+      section('Architecture Recommendation');
+      row('Recommended approach',r.title);row('Explanation',r.body);
+      row('Native iOS fit',r.native+' / 99 (indicative)');row('Cross-platform fit',r.cross+' / 99 (indicative)');
+      page.y-=18;
+      section('Assessment Summary');
+      (r.reasons||[]).forEach((reason,i)=>row('Factor '+(i+1),reason));
+      ensure(45);page.y-=15;
+      wrap('Scores are rule-based indicators, not probabilities. Confirm final architecture during technical discovery.',95).forEach(lineText=>{addText(lineText,LM,page.y,9,false,'#666666');page.y-=13;});
+
+      const kids=[];
+      pages.forEach(p=>{
+       const stream=p.ops.join('\n')+'\n';const contentsId=alloc(),pageId=alloc();
+       put(contentsId,'<< /Length '+enc.encode(stream).length+' >>\nstream\n'+stream+'endstream');
+       const resources='<< /Font << /F1 '+regular+' 0 R /F2 '+bold+' 0 R >>'+(imageId?' /XObject << /Logo '+imageId+' 0 R >>':'')+' >>';
+       put(pageId,'<< /Type /Page /Parent '+pagesId+' 0 R /MediaBox [0 0 595 842] /Resources '+resources+' /Annots ['+p.annotations.map(id=>id+' 0 R').join(' ')+'] /Contents '+contentsId+' 0 R >>');
+       kids.push(pageId+' 0 R');
+      });
+      put(pagesId,'<< /Type /Pages /Count '+kids.length+' /Kids ['+kids.join(' ')+'] >>');
+      put(rootId,'<< /Type /Catalog /Pages '+pagesId+' 0 R >>');
+      push('%PDF-1.4\n%INCEPTIVES\n');
+      entries.forEach((value,i)=>{
+       offsets.push(byteLength);push((i+1)+' 0 obj\n');
+       if(Array.isArray(value))value.forEach(push);else push(value);
+       push('\nendobj\n');
+      });
+      const xref=byteLength;
+      push('xref\n0 '+(entries.length+1)+'\n0000000000 65535 f \n');
+      offsets.slice(1).forEach(n=>push(String(n).padStart(10,'0')+' 00000 n \n'));
+      push('trailer\n<< /Size '+(entries.length+1)+' /Root '+rootId+' 0 R >>\nstartxref\n'+xref+'\n%%EOF');
+      const blob=new Blob(parts,{type:'application/pdf'});
+      const url=URL.createObjectURL(blob),link=document.createElement('a');
+      link.href=url;link.download='Inceptives-iOS-Architecture-Assessment.pdf';
+      document.body.appendChild(link);link.click();link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),60000);
+      const old=result.querySelector('.id-ios-pdf-error');if(old)old.remove();
+    }catch(err){
+      console.error('PDF generation failed',err);
+      const old=result.querySelector('.id-ios-pdf-error');if(old)old.remove();
+      const message=document.createElement('p');message.className='id-ios-pdf-error';message.setAttribute('role','alert');message.textContent='PDF download failed: '+(err.message||'Please retry.');
+      result.append(message);
+    }finally{button.disabled=false;button.textContent=original;}
+   }
+   setStep(0);
+  })();
+  </script>
+  <?php return ob_get_clean();
+ }
+ add_shortcode('ios_architecture_form','id_ios_shortcode');
+}

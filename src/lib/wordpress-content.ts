@@ -6,11 +6,12 @@ import type { AnyNode, Element } from "domhandler";
 import safeParser from "postcss-safe-parser";
 import { getPage, type LayoutNode, type SitePage } from "./site-model";
 import { mediaIndex } from "./static-media";
-import { readWordPressPublicPage, readWordPressBlogPage } from "./wordpress-forms";
+import { readWordPressBlogPage } from "./wordpress-forms";
 import { prepareSourceDom } from "./source-enhancements";
 import { approvedCanonical } from "./seo-policy";
 import savedRoutes from "../../content/routes.json";
 import blogSource from "../../content/wordpress-blog-source.json";
+import nonBlogSitemap from "../../content/non-blog-sitemap-snapshot.json";
 
 const origin = blogSource.publicOrigin;
 const blogOrigin = blogSource.origin;
@@ -95,32 +96,10 @@ export async function getWordPressSitemapPosts() {
 }
 
 export const getWordPressSitemapURLs = cache(async () => {
-  const visited = new Set<string>();
-  const urls: string[] = [];
-  async function visit(path: string) {
-    if (visited.has(path)) return;
-    visited.add(path);
-    if (visited.size > 40) throw new Error("Unexpected sitemap count");
-    const $ = cheerio.load(await readWordPressPublicPage(path), { xmlMode: true });
-    if ($("sitemapindex").length) {
-      await Promise.all(
-        $("sitemap > loc")
-          .toArray()
-          .map(async (el) => {
-            const url = new URL($(el).text());
-            if (url.origin !== origin || !url.pathname.endsWith(".xml"))
-              throw new Error("Invalid sitemap host");
-            await visit(url.pathname);
-          }),
-      );
-    } else if ($("urlset").length) {
-      $("url > loc").each((_, el) => {
-        const url = new URL($(el).text());
-        if (url.origin === origin && !/^\/(?:blog|press-release)\/[^/]+\/?$/.test(url.pathname)) urls.push(approvedCanonical(url.href)!);
-      });
-    } else throw new Error("Invalid WordPress sitemap");
-  }
-  await visit("/sitemap_index.xml");
+  const urls: string[] = nonBlogSitemap.urls.map(url => approvedCanonical(url)!);
+  const authors = JSON.parse(await read('/wp-json/wp/v2/users?has_published_posts=true&per_page=100&_fields=slug,yoast_head_json')) as {slug:string;yoast_head_json?:{robots?:{index?:string};canonical?:string}}[];
+  if (!Array.isArray(authors)) throw new Error('Invalid blog authors response');
+  for (const author of authors) if (author.yoast_head_json?.robots?.index === 'index') urls.push(publicURL(author.yoast_head_json.canonical || blogOrigin+'/author/'+author.slug));
   urls.push(...(await getWordPressSitemapPosts()));
   if (!urls.length) throw new Error("Empty WordPress sitemap");
   const canonicals = new Map(
@@ -610,9 +589,4 @@ export const getWordPressPage = cache(
   },
 );
 
-export const getWordPressThankYouMetadata = cache(async () => {
-  const template = getPage("/contact-us")!;
-  const page = { ...template, path: "/thank-you" };
-  refreshMetadata(cheerio.load(await readWordPressPublicPage("/thank-you")), page);
-  return page.meta;
-});
+export const getWordPressThankYouMetadata = cache(async () => getPage("/thank-you")!.meta);

@@ -1,0 +1,9 @@
+{
+  "originalSnippet": 25,
+  "phpRuntime": "WordPress Playground PHP 8.3, packages 3.1.64",
+  "allCombinations": 81,
+  "exactMatches": 81,
+  "sourceReference": "content/reference/wordpress-snippets/25-pure-rules.php",
+  "fixture": "content/ios-assessment-parity-fixtures.json",
+  "emailOrWordPressRequests": 0
+}

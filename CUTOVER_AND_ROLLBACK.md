@@ -14,3 +14,10 @@ Monitor after authorized launch: 404/5xx rates, redirect chains, canonical/index
 ## 11 November 2026: do not shut down WordPress yet
 
 Blog reads now use the approved nextincep.wpenginepowered.com backend. Remaining runtime dependencies still read the production WordPress host: form-contract discovery and assessment handlers, search, non-blog XML sitemap discovery and any remote unbundled media. Repointing inceptivesdigital.com to Next before decoupling these creates self-fetch/404 risks. Keep WordPress hosting active; a public-domain cutover does not require shutting the CMS down. Before separately authorized cutover, choose a permanent WordPress backend hostname, validate all contracts/search/assessment/uploads, update deployment configuration and repeat real form/SEO/sitemap tests. Keep original WordPress deployment/backups for rollback; DNS and live public site remain untouched.
+
+
+## Superseding update: original WordPress runtime dependency removed
+
+The final 11 November source pull and offline verification replace the earlier dependency warning above. Non-blog form contracts, iOS assessment scoring, search page content, thank-you metadata and non-blog sitemap data now run locally. The original WordPress host was blocked during verification: 13 GET/browser checks plus 157 actual-handler contract checks and the iOS handler passed; the original PHP scoring matched all 81 input combinations. GHL remains the approved delivery destination; legacy WordPress SMTP/AJAX calls are retired. Blog posts/categories/authors/pins/reviewer/Press Release continue using nextincep.wpenginepowered.com. Keep that blog CMS available.
+
+Before any separately authorized public-domain cutover, configure and verify production Turnstile secrets/hostname plus GHL domain-specific mappings and tracking; current security is intentionally configured for staging only. Do not cancel WP Engine hosting if it also hosts the blog backend. Keep the source snapshot and old WordPress deployment available for rollback. No DNS/domain changes were executed.

@@ -64,3 +64,8 @@ Only the separate homepage-review Vercel project is authorized for staging. Keep
 Calendar popup loading is handled by `src/lib/calendar-popup.ts`; the shared green/dark Calendly URL is in `src/lib/calendly.ts`. It loads on the first scheduling click, keeps the loaded frame for reopening, and uses the existing loading/retry UI. No booking or Calendly account settings were changed.
 
 Production builds create a lossless Brotli mirror of the editable JSON/CSS under ignored `content/editable-runtime`. Edit the original `src/page-content` files, not this generated mirror. `npm run build` regenerates it automatically; development reads your original files directly. Original media are emitted as static files and are excluded from page-function bundles.
+
+
+## Final standalone non-blog data
+
+Non-blog forms use content/form-contracts.json. iOS scoring is editable in src/lib/ios-assessment-rules.ts; run node scripts/verify-ios-rules.mjs against original-PHP fixtures before changing behavior. Original snippets are preserved as references in content/reference/wordpress-snippets and are not executed by Next.js. Non-blog search content is in content/site-search-index.json; blog search stays live through the approved REST backend. Non-blog sitemap base is content/non-blog-sitemap-snapshot.json. Full final source references are retained locally in audit/final-wordpress-2026-11-11-reference.zip. See FINAL_WORDPRESS_SNAPSHOT.md.

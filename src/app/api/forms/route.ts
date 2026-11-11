@@ -1,5 +1,5 @@
 import routes from "../../../../content/routes.json";
-import { loadFormContract, sendElementorForm } from "@/lib/wordpress-forms";
+import { loadFormContract } from "@/lib/wordpress-forms";
 import { getPublishedPosts } from "@/lib/wordpress-content";
 import { stagingFormsEnabled, verifyStagingTurnstile } from "@/lib/staging-turnstile";
 
@@ -83,16 +83,7 @@ export async function POST(request: Request) {
         { headers: { "Cache-Control": "no-store" } },
       );
     }
-    payload.set("cf-turnstile-response", token);
-    payload.set("action", "elementor_pro_forms_send_form");
-    payload.set("referrer", "https://inceptivesdigital.com" + path);
-    const result = await sendElementorForm(payload);
-    if (typeof result?.success !== "boolean")
-      throw new Error("Invalid form response");
-    return Response.json(result, {
-      status: result.success ? 200 : 422,
-      headers: { "Cache-Control": "no-store" },
-    });
+    return reply("Form delivery is not configured for this environment.", 503);
   } catch {
     return reply(
       "Your message could not be sent. Please retry or call (469) 788-8527.",
