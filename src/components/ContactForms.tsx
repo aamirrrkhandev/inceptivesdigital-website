@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { isGhlReplay, recordGhlSubmission } from "@/lib/ghl-tracking";
 import { captureCallRailSubmission } from "@/lib/callrail";
 import { createTurnstileProtection } from "@/lib/turnstile";
+import { recordConfirmedLead } from "@/lib/conversion-tracking";
 
 const text = (value: unknown) =>
   new DOMParser().parseFromString(String(value || ""), "text/html").body
@@ -82,6 +83,7 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
         status.textContent = "Recording your enquiry…";
         await recordGhlSubmission(form);
         await captureCallRailSubmission(form);
+        await recordConfirmedLead(form);
         delivered.delete(form);
         status.className = "migrated-message migrated-message-success";
         status.textContent =

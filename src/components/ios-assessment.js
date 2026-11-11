@@ -2,6 +2,7 @@
 import { isGhlReplay, recordGhlSubmission } from "../lib/ghl-tracking";
 import { captureCallRailSubmission } from "../lib/callrail";
 import { createTurnstileProtection } from "../lib/turnstile";
+import { recordConfirmedLead } from "../lib/conversion-tracking";
 export function mountIOSAssessment() {
   const controller = new AbortController();
   let redirectTimer;
@@ -137,6 +138,7 @@ export function mountIOSAssessment() {
         }
         await recordGhlSubmission(form);
         await captureCallRailSubmission(form);
+        await recordConfirmedLead(form);
         accepted = undefined;
         show(out.data);
       } catch (err) {

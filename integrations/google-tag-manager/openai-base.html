@@ -1,0 +1,15 @@
+<script>
+(function(w,d){try {
+  if(!/^(www\.)?inceptivesdigital\.com$|^app\.inceptivesdigital\.com$/.test(location.hostname))return;
+  if(w.__inceptivesOpenAiPixel)return;
+  w.__inceptivesOpenAiPixel=true;
+  if(!w.oaiq){var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var s=d.createElement('script');s.async=true;s.src='https://bzrcdn.openai.com/sdk/oaiq.min.js';d.head.appendChild(s);}
+  if(navigator.globalPrivacyControl===true)w.oaiq('consent',false);
+  w.oaiq('init',{pixelId:'21BtPQD1FG7KoRGMsezNw5'});
+  var lastPath='';
+  function view(){try{var path=location.pathname;if(path===lastPath)return;lastPath=path;w.oaiq('measure','page_viewed',{type:'contents',contents:[{id:path,content_type:'page'}]});}catch(ignore){}}
+  view();
+  ['pushState','replaceState'].forEach(function(name){var original=history[name];history[name]=function(){var result=original.apply(this,arguments);view();return result;};});
+  w.addEventListener('popstate',view);
+}catch(ignore){}})(window,document);
+</script>

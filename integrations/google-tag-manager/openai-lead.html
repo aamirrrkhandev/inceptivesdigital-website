@@ -1,0 +1,7 @@
+<script>
+(function(){try{
+ if(!/^(www\.)?inceptivesdigital\.com$|^app\.inceptivesdigital\.com$/.test(location.hostname))return;
+ if(typeof window.oaiq!=='function')return;
+ window.oaiq('measure','lead_created',{type:'customer_action'});
+}catch(ignore){}})();
+</script>
