@@ -13,7 +13,7 @@ export default function ContactForms({ pageKey }: { pageKey: string }) {
     const root = document.querySelector<HTMLElement>(".migrated-page");
     if (!root) return;
     let disposed = false;
-    const protection = createTurnstileProtection(root);
+    const protection = createTurnstileProtection(root, "[data-contact-form] [data-contact-verification]");
     const controllers = new Set<AbortController>();
     const delivered = new WeakMap<HTMLFormElement, string>();
     const submit = async (event: SubmitEvent) => {

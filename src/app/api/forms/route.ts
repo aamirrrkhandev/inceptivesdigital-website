@@ -1,6 +1,7 @@
 import routes from "../../../../content/routes.json";
 import { loadFormContract, sendElementorForm } from "@/lib/wordpress-forms";
 import { getPublishedPosts } from "@/lib/wordpress-content";
+import { stagingFormsEnabled, verifyStagingTurnstile } from "@/lib/staging-turnstile";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -71,6 +72,16 @@ export async function POST(request: Request) {
       )
         return reply("Please enter a valid email address.", 400);
       for (const value of values) payload.append(field.name, value);
+    }
+    if (stagingFormsEnabled()) {
+      if (!(await verifyStagingTurnstile(request, token)))
+        return reply("Security verification failed. Please retry.", 400);
+      // This is validation, not a delivery acknowledgement. ContactForms waits
+      // for the native GHL submission acknowledgement before showing success.
+      return Response.json(
+        { success: true, delivery: "ghl-pending", data: { message: "Your submission was successful." } },
+        { headers: { "Cache-Control": "no-store" } },
+      );
     }
     payload.set("cf-turnstile-response", token);
     payload.set("action", "elementor_pro_forms_send_form");

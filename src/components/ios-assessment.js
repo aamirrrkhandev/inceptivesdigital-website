@@ -1,6 +1,7 @@
 // Adapted from the current public iOS assessment; server scoring stays authoritative.
 import { isGhlReplay, recordGhlSubmission } from "../lib/ghl-tracking";
 import { captureCallRailSubmission } from "../lib/callrail";
+import { createTurnstileProtection } from "../lib/turnstile";
 export function mountIOSAssessment() {
   const controller = new AbortController();
   let redirectTimer;
@@ -15,6 +16,17 @@ export function mountIOSAssessment() {
     error = root.querySelector(".id-ios-error");
   let step = 0;
   let accepted;
+  let protection;
+  let verification;
+  if (process.env.NEXT_PUBLIC_STAGING_TURNSTILE_SITE_KEY && location.hostname === "inceptives-homepage-review.vercel.app") {
+    verification = document.createElement("div");
+    verification.dataset.contactVerification = "true";
+    verification.dataset.sitekey = process.env.NEXT_PUBLIC_STAGING_TURNSTILE_SITE_KEY;
+    verification.dataset.theme = "dark";
+    verification.style.cssText = "width:100%;min-height:72px;margin:16px 0";
+    steps[4].append(verification);
+    protection = createTurnstileProtection(form);
+  }
   const questions = {
     platform: [
       "What platforms are you launching first?",
@@ -96,7 +108,12 @@ export function mountIOSAssessment() {
       e.stopImmediatePropagation();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const signature = JSON.stringify([...data.entries()]);
+      const signature = JSON.stringify([...data.entries()].filter(([key]) => key !== "cf-turnstile-response"));
+      if (protection && !data.get("cf-turnstile-response")) {
+        protection.ensure(form);
+        error.textContent = "Please complete the security verification.";
+        return;
+      }
       for (const key of ["platform", "hardware", "performance", "timeline"])
         if (!data.get(key)) {
           error.textContent = "Please complete all questions.";
@@ -126,6 +143,8 @@ export function mountIOSAssessment() {
         error.textContent = err.message || "Submission failed. Please retry.";
         send.disabled = false;
         send.textContent = "Send & View Result";
+      } finally {
+        protection?.reset(form);
       }
     },
     { signal: controller.signal, capture: true },
@@ -595,6 +614,8 @@ export function mountIOSAssessment() {
   setStep(0);
   root.dataset.iosReady = "true";
   return () => {
+    protection?.dispose();
+    verification?.remove();
     delete root.dataset.iosReady;
     controller.abort();
     clearInterval(redirectTimer);

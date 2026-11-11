@@ -1,4 +1,5 @@
 import { sendIOSAssessment } from "@/lib/wordpress-forms";
+import { stagingFormsEnabled, verifyStagingTurnstile } from "@/lib/staging-turnstile";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 const fail = (message: string, status: number) =>
@@ -40,6 +41,8 @@ export async function POST(request: Request) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.get("email")!))
     return fail("Please enter a valid email address.", 400);
   try {
+    if (stagingFormsEnabled() && !(await verifyStagingTurnstile(request, String(input.get("cf-turnstile-response") || ""))))
+      return fail("Security verification failed. Please retry.", 400);
     const result = await sendIOSAssessment(fields);
     if (typeof result?.success !== "boolean")
       throw new Error("Invalid response");

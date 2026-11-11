@@ -42,8 +42,7 @@ function loadTurnstile(): Promise<void> {
   return loading;
 }
 
-export function createTurnstileProtection(root: HTMLElement) {
-  const selector = "[data-contact-verification]";
+export function createTurnstileProtection(root: HTMLElement, selector = "[data-contact-verification]") {
   const widgets = new Map<HTMLElement, { id: string; size: string }>();
   const pending = new Set<HTMLElement>();
   let disposed = false;
@@ -65,7 +64,10 @@ export function createTurnstileProtection(root: HTMLElement) {
       if (disposed || !root.contains(container) || !window.turnstile) return;
       const size = sizeFor(container);
       const id = window.turnstile.render(container, {
-        sitekey: container.dataset.sitekey,
+        sitekey:
+          window.location.hostname === "inceptives-homepage-review.vercel.app"
+            ? process.env.NEXT_PUBLIC_STAGING_TURNSTILE_SITE_KEY || container.dataset.sitekey
+            : container.dataset.sitekey,
         theme: container.dataset.theme || "auto",
         size,
         appearance: "always",
