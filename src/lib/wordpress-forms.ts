@@ -8,7 +8,10 @@ import formContracts from "../../content/form-contracts.json";
 export async function readWordPressBlogPage(path: string) {
   if (!/^\/(?:wp-json\/wp\/v2\/(?:posts|categories|users)(?:\?|$)|(?:blog|press-release|category|author)(?:\/|\?|$))/.test(path))
     throw new Error("Invalid blog source path");
-  return sourceRequest(blogSource.origin + path);
+  const url = new URL(path, blogSource.origin);
+  // Bust upstream page/API caches without changing the public URL or canonical.
+  url.searchParams.set("_migration_fresh", String(Date.now()));
+  return sourceRequest(url.href);
 }
 // Keep TLS/SNI verification on the hostname, even when the local OS resolver fails.
 async function sourceRequest(url: string) {
@@ -19,6 +22,7 @@ async function sourceRequest(url: string) {
       url,
       {
         method: "GET",
+        headers: { "Cache-Control": "no-cache, no-store", Pragma: "no-cache" },
         lookup(hostname, options, callback) {
           systemLookup(hostname, { all: true }, (error, resolved) => {
             if (!error && resolved.length) {

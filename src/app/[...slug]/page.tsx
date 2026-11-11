@@ -8,7 +8,8 @@ import SecondaryServicePage, {
   secondaryPages,
 } from "@/components/SecondaryServicePage";
 export const dynamicParams = true;
-export const revalidate = 30;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export function generateStaticParams() {
   return [
     ...routes

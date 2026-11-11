@@ -4,7 +4,7 @@ import { readEditableConfig } from "@/lib/editable-pages";
 import { pageMetadata } from "@/lib/site-metadata";
 import Sections from "./components/Sections";
 import "./styles.css";
-export const revalidate = 30;
+export const revalidate = 0;
 async function getPage() {
   const page = await getWordPressPage("/press-release");
   if (!page) notFound();

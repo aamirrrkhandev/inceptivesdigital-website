@@ -4,7 +4,8 @@ import SourceLayout from "@/components/SourceLayout";
 import { getWordPressPage } from "@/lib/wordpress-content";
 import { pageMetadata } from "@/lib/site-metadata";
 export const dynamicParams = true;
-export const revalidate = 30;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export function generateStaticParams() {
   return routes
     .filter((route) => /^\/blog\/[^/]+$/.test(route.path))

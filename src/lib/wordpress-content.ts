@@ -1,6 +1,5 @@
 import "server-only";
 import { cache } from "react";
-import { unstable_cache } from "next/cache";
 import * as cheerio from "cheerio";
 import type { AnyNode, Element } from "domhandler";
 import safeParser from "postcss-safe-parser";
@@ -35,11 +34,9 @@ const rename = (value: string) =>
   value
     .replaceAll("elementor", "migrated")
     .replaceAll("elementskit", "sitekit");
-const read = unstable_cache(
-  readWordPressBlogPage,
-  ["wordpress-blog-content-wpe-v1"],
-  { revalidate: 30, tags: ["wordpress-posts"] },
-);
+// Deduplicate only within the current React request; never retain deleted posts
+// in a cross-request data cache or serve a stale-while-revalidate response.
+const read = cache(readWordPressBlogPage);
 type PostIndex = {
   id: number;
   slug: string;
@@ -589,7 +586,6 @@ export const getWordPressPage = cache(
         path,
         error instanceof Error ? error.message : "Unknown error",
       );
-      if (saved) return saved;
       throw error;
     }
   },

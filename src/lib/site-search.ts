@@ -1,5 +1,5 @@
 import "server-only";
-import { unstable_cache } from "next/cache";
+import { cache } from "react";
 import * as cheerio from "cheerio";
 import localPages from "../../content/site-search-index.json";
 import blogSource from "../../content/wordpress-blog-source.json";
@@ -8,7 +8,7 @@ import { mediaIndex } from "./static-media";
 
 type Item = { title: string; href: string; excerpt: string; image: { src: string; alt: string; width: number; height: number } | null };
 const plain = (html: string) => cheerio.load(html).text().trim();
-const read = unstable_cache(readWordPressBlogPage, ["blog-search-wpe-v1"], { revalidate: 30, tags: ["wordpress-posts"] });
+const read = cache(readWordPressBlogPage);
 export async function loadSearchResults(query: string, page: number) {
   const needle = query.trim().toLocaleLowerCase();
   const found: Item[] = localPages

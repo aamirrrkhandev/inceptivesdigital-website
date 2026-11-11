@@ -3,7 +3,8 @@ import SourceLayout from "@/components/SourceLayout";
 import { getWordPressPage } from "@/lib/wordpress-content";
 import { pageMetadata } from "@/lib/site-metadata";
 import { indexingAllowed } from "@/lib/seo-policy";
-export const revalidate = 30;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 type Props = {
   searchParams: Promise<{
     pagination_page?: string;

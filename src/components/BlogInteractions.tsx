@@ -112,7 +112,7 @@ export default function BlogInteractions({
         const key = JSON.stringify(target),
           cached = cache.current.get(key);
         let data: Listing;
-        if (cached && Date.now() - cached.time < 15000) data = cached.data;
+        if (cached && Date.now() - cached.time < 500) data = cached.data;
         else {
           const query = new URLSearchParams({
             blog_cat: target.category,
@@ -187,7 +187,7 @@ export default function BlogInteractions({
           search: "",
           page: 1,
         };
-        if (!same(next, current.current)) void load(next);
+        void load(next);
         return;
       }
       const page = event.target.closest<HTMLElement>("[data-blog-page]");
@@ -224,6 +224,12 @@ export default function BlogInteractions({
           "none",
         );
     };
+    const refresh = () => {
+      if (document.visibilityState !== "visible") return;
+      cache.current.clear();
+      void load(current.current, "none");
+    };
+    document.addEventListener("visibilitychange", refresh);
     document.addEventListener("click", click);
     form?.addEventListener("submit", submit, true);
     window.addEventListener("resize", resize);
@@ -243,6 +249,7 @@ export default function BlogInteractions({
     if (!same(restored, initial.current)) void load(restored, "replace");
     return () => {
       request.current?.abort();
+      document.removeEventListener("visibilitychange", refresh);
       document.removeEventListener("click", click);
       form?.removeEventListener("submit", submit, true);
       window.removeEventListener("resize", resize);

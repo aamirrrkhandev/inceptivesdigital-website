@@ -13,3 +13,6 @@ Production-host browser challenge, native GHL domain-specific field mappings and
 ## Approved IoT slug change
 
 301 redirects /iot-development and /iot-development/ to /iot-app-development. Canonical/schema/sitemap/navigation and editable page metadata use the new URL with no trailing slash. Existing image files/aliases, UI, content, GHL DOM form identity website-iot-development-enquiry and original form contract remain unchanged. Production source WordPress is not modified.
+
+## Additional verification
+Cloudflare Siteverify was called with the separate production secret and a deliberately invalid QA token. HTTP 200 / success=false / invalid-input-response confirms the negative challenge path, not a successful production-domain solve. No real production lead was submitted.

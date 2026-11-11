@@ -1,0 +1,9 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {stripTypeScriptTypes} from 'node:module';
+let code=stripTypeScriptTypes(fs.readFileSync('src/lib/wordpress-content.ts','utf8')).replace(/import "server-only";/g,'').replace(/import[\s\S]*?from\s*["'][^"']+["'];/g,'').replace(/export /g,'');
+let published=true,calls=0,failed=false;
+const mockRead=async path=>{calls++;if(failed)throw new Error('Simulated backend failure');if(path.startsWith('/wp-json/wp/v2/posts?'))return JSON.stringify(published?[{id:7,slug:'qa-deleted-post',link:'https://nextincep.wpenginepowered.com/blog/qa-deleted-post',modified_gmt:'2026-11-11T00:00:00'}]:[]);throw Error('Unexpected HTML read');};
+const factory=new Function('cache','readWordPressBlogPage','blogSource','nonBlogSitemap','savedRoutes','getPage',code+';return {getPublishedPosts,getWordPressPage};');
+const api=factory(fn=>fn,mockRead,{origin:'https://nextincep.wpenginepowered.com',publicOrigin:'https://inceptivesdigital.com'},{urls:[]},[],()=>({path:'/blog/qa-deleted-post',meta:{title:'Old saved post'}}));
+assert.equal((await api.getPublishedPosts()).length,1);published=false;assert.equal((await api.getPublishedPosts()).length,0);assert.equal(await api.getWordPressPage('/blog/qa-deleted-post'),undefined);failed=true;await assert.rejects(api.getWordPressPage('/blog/qa-deleted-post'),/Simulated backend failure/);
+assert.ok(!fs.readFileSync('src/lib/wordpress-content.ts','utf8').includes('unstable_cache'));for(const file of ['src/app/blog/[postSlug]/page.tsx','src/app/blog/page.tsx','src/app/[...slug]/page.tsx','src/app/press-release/page.tsx','src/app/sitemap.ts'])assert.ok(fs.readFileSync(file,'utf8').includes('force-dynamic'));
+console.log(JSON.stringify({publishThenDeleteFresh:true,deletedSavedArticleNotReturned:true,upstreamErrorDoesNotRestoreSavedArticle:true,crossRequestCacheRemoved:true,calls,pass:true}));
