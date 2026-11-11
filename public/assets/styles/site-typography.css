@@ -40,6 +40,11 @@ body .migrated-page main p {
 body .migrated-page :is(button, input, select, textarea) {
   max-width: 100%;
 }
+/* A definite widget width lets percentage-width images contribute their true
+   height to flex layout. Explicitly sized and positioned widgets keep theirs. */
+body .migrated-page main .migrated-widget-image:not(.migrated-widget__width-initial):not(.migrated-widget__width-auto):not(.migrated-absolute) {
+  width: 100%;
+}
 body .migrated-page :is(button, .migrated-button) {
   min-height: 44px;
   line-height: 1.4;

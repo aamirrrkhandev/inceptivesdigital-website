@@ -500,7 +500,7 @@ export const getWordPressPage = cache(
       // Article existence needs only its own published record, not a paginated
       // download of every post. Listings/archives fetch their own cards below.
       const posts: PostIndex[] = articlePath
-        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_embed=author&_fields=id,slug,link,modified_gmt,title,content,excerpt,date,date_gmt,author,featured_media,categories,tags,meta,yoast_head_json,_links,_embedded`))
+        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_embed=author,wp:featuredmedia&_fields=id,slug,link,modified_gmt,title,content,excerpt,date,date_gmt,author,featured_media,categories,tags,meta,yoast_head_json,_links,_embedded`))
         : [];
       if (!Array.isArray(posts)) throw new Error("Invalid WordPress post response");
       const post =
@@ -556,7 +556,24 @@ export const getWordPressPage = cache(
           ? $("[data-elementor-type='single-post']").first()
           : $("main#content").first();
       if (!root.length) throw new Error("WordPress content template missing");
-      if (post) root.find(".id-featured-image img").first().attr({ loading: "eager", fetchpriority: "high", "data-article-hero": "true" });
+      if (post) {
+        const hero = root.find(".id-featured-image img").first();
+        hero.attr({ loading: "eager", fetchpriority: "high", "data-article-hero": "true" });
+        const featured = (post as any)._embedded?.["wp:featuredmedia"]?.[0];
+        const details = featured?.media_details;
+        if (details?.width && details?.height && featured.source_url) {
+          const ratio = details.height / details.width;
+          const sizes = [
+            { source_url: featured.source_url, width: details.width, height: details.height },
+            ...Object.values(details.sizes || {}) as { source_url: string; width: number; height: number }[],
+          ].filter(size => size.source_url && size.width >= 250 && Math.abs(size.height / size.width - ratio) < .015);
+          const variants = [...new Map(sizes.map(size => [size.width, size])).values()].sort((a, b) => a.width - b.width);
+          if (variants.length > 1) hero.attr({
+            srcset: variants.map(size => `${publicURL(size.source_url)} ${size.width}w`).join(", "),
+            sizes: "(max-width: 767px) calc(100vw - 40px), (max-width: 1024px) calc(100vw - 64px), 900px",
+          });
+        }
+      }
       if (path === "/blog" && listingData) await updateBlogListing($, options, listingData);
       prepareSourceDom($, { key: page.key });
       appendSourceStyles($, root, page);
