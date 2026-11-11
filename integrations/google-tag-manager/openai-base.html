@@ -7,7 +7,7 @@
   if(navigator.globalPrivacyControl===true)w.oaiq('consent',false);
   w.oaiq('init',{pixelId:'21BtPQD1FG7KoRGMsezNw5'});
   var lastPath='';
-  function view(){try{var path=location.pathname;if(path===lastPath)return;lastPath=path;w.oaiq('measure','page_viewed',{type:'contents',contents:[{id:path,content_type:'page'}]});}catch(ignore){}}
+  var view=function(){try{var path=location.pathname;if(path===lastPath)return;lastPath=path;w.oaiq('measure','page_viewed',{type:'contents',contents:[{id:path,content_type:'page'}]});}catch(ignore){}};
   view();
   ['pushState','replaceState'].forEach(function(name){var original=history[name];history[name]=function(){var result=original.apply(this,arguments);view();return result;};});
   w.addEventListener('popstate',view);

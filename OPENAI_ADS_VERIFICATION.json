@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-12",
+  "mode": "Pixel via GTM 45; provider delivery and conversion measurement mocked for submission tests",
+  "realCustomerLeadsSent": 0,
+  "browserChecks": [
+    {
+      "host": "inceptivesdigital.com",
+      "path": "/",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "failedMetaCount": 0,
+      "metaLeadCount": 1,
+      "failedGa4Count": 0,
+      "ga4GenerateLeadRequests": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/healthcare-landingPage",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/flutter-landingPage",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/react-native-landingPage",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/ios-landingPage",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/android-landingPage",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "app.inceptivesdigital.com",
+      "path": "/app-development",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "failedMetaCount": 0,
+      "metaLeadCount": 1,
+      "failedGa4Count": 0,
+      "ga4GenerateLeadRequests": 1,
+      "thankYou": true,
+      "pass": true
+    },
+    {
+      "host": "inceptivesdigital.com",
+      "path": "/ios-app-development",
+      "failedLeadCount": 0,
+      "successLeadCount": 1,
+      "metaLeadCount": 1,
+      "thankYou": true,
+      "pass": true
+    }
+  ]
+}
