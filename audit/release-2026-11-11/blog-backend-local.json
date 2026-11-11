@@ -1,0 +1,719 @@
+{
+  "base": "http://localhost:3100",
+  "source": "https://nextincep.wpenginepowered.com",
+  "posts": 142,
+  "categories": 15,
+  "results": [
+    {
+      "path": "/blog/no-code-mvp-vs-custom-mvp",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/no-code-mvp-vs-custom-mvp"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-austin",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-austin"
+    },
+    {
+      "path": "/blog/cost-to-build-real-estate-app-like-dubai-rest",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-real-estate-app-like-dubai-rest"
+    },
+    {
+      "path": "/blog/digital-product-development-process",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-product-development-process"
+    },
+    {
+      "path": "/blog/nextincep",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/nextincep"
+    },
+    {
+      "path": "/blog/test",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/test"
+    },
+    {
+      "path": "/blog/swiftui-vs-uikit",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/swiftui-vs-uikit"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-san-francisco",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-san-francisco"
+    },
+    {
+      "path": "/blog/texas-business-growth-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/texas-business-growth-digital-product-development"
+    },
+    {
+      "path": "/blog/software-development-cost-uk",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/software-development-cost-uk"
+    },
+    {
+      "path": "/blog/inceptives-digital-vs-dify",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/inceptives-digital-vs-dify"
+    },
+    {
+      "path": "/blog/php-security-checklist-php2shell-fixes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/php-security-checklist-php2shell-fixes"
+    },
+    {
+      "path": "/blog/ai-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-development-cost"
+    },
+    {
+      "path": "/blog/ai-tutor-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-tutor-app-development"
+    },
+    {
+      "path": "/blog/custom-mobile-app-vs-saas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-mobile-app-vs-saas"
+    },
+    {
+      "path": "/blog/digital-transformation-challenges-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-transformation-challenges-startups"
+    },
+    {
+      "path": "/blog/ps5-emulators-pc",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ps5-emulators-pc"
+    },
+    {
+      "path": "/blog/accelerate-digital-product-development-with-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/accelerate-digital-product-development-with-ai"
+    },
+    {
+      "path": "/blog/custom-ai-development-vs-off-the-shelf-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-ai-development-vs-off-the-shelf-ai"
+    },
+    {
+      "path": "/blog/app-development-risk-management",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-development-risk-management"
+    },
+    {
+      "path": "/blog/hipaa-compliant-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hipaa-compliant-app-development"
+    },
+    {
+      "path": "/blog/questions-to-ask-before-starting-an-ai-project",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/questions-to-ask-before-starting-an-ai-project"
+    },
+    {
+      "path": "/blog/flutter-vs-react-native-android-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/flutter-vs-react-native-android-app-development"
+    },
+    {
+      "path": "/blog/common-mistakes-when-building-apps-with-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-mistakes-when-building-apps-with-ai"
+    },
+    {
+      "path": "/blog/wearable-fitness-app-integration",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/wearable-fitness-app-integration"
+    },
+    {
+      "path": "/blog/ai-native-digital-product-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-native-digital-product-development-cost"
+    },
+    {
+      "path": "/press-release/rightfirms-top-mobile-app-development-company-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/rightfirms-top-mobile-app-development-company-2026"
+    },
+    {
+      "path": "/blog/blockchain-integration-mobile-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-integration-mobile-apps"
+    },
+    {
+      "path": "/press-release/rightfirms-top-artificial-intelligence-company-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/rightfirms-top-artificial-intelligence-company-2026"
+    },
+    {
+      "path": "/press-release/clutch-top-app-development-company-plano-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/clutch-top-app-development-company-plano-2026"
+    },
+    {
+      "path": "/press-release/clutch-top-user-experience-company-plano-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/clutch-top-user-experience-company-plano-2026"
+    },
+    {
+      "path": "/blog/your-business-ready-for-ai-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/your-business-ready-for-ai-guide"
+    },
+    {
+      "path": "/blog/hl7-fhir-healthcare-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hl7-fhir-healthcare-app-development"
+    },
+    {
+      "path": "/blog/ai-mvp-vs-full-ai-product-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-mvp-vs-full-ai-product-guide"
+    },
+    {
+      "path": "/blog/custom-software-development-vs-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-software-development-vs-digital-product-development"
+    },
+    {
+      "path": "/blog/mobile-app-security-best-practices",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-security-best-practices"
+    },
+    {
+      "path": "/blog/digital-product-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/digital-product-development-cost"
+    },
+    {
+      "path": "/blog/hidden-costs-custom-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/hidden-costs-custom-software-development"
+    },
+    {
+      "path": "/press-release/inceptives-digital-top-machine-learning-companies-2026-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-machine-learning-companies-2026-techreviewer"
+    },
+    {
+      "path": "/blog/how-to-build-a-profitable-app-using-ai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-a-profitable-app-using-ai"
+    },
+    {
+      "path": "/press-release/inceptives-digital-top-software-developers-uk-2026-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-top-software-developers-uk-2026-techreviewer"
+    },
+    {
+      "path": "/press-release/inceptives-digital-earns-a-place-among-the-top-web-development-companies-on-techreviewer",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/press-release/inceptives-digital-earns-a-place-among-the-top-web-development-companies-on-techreviewer"
+    },
+    {
+      "path": "/blog/food-delivery-app-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/food-delivery-app-development-guide"
+    },
+    {
+      "path": "/blog/ai-powered-mobile-apps-uae-business-operations",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-powered-mobile-apps-uae-business-operations"
+    },
+    {
+      "path": "/blog/android-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-app-development-cost"
+    },
+    {
+      "path": "/blog/what-is-digital-product-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-digital-product-development"
+    },
+    {
+      "path": "/blog/ai-mvp-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-mvp-development-guide"
+    },
+    {
+      "path": "/blog/singapore-businesses-mobile-apps-user-experience",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/singapore-businesses-mobile-apps-user-experience"
+    },
+    {
+      "path": "/blog/ai-app-builders-vs-human-developers",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ai-app-builders-vs-human-developers"
+    },
+    {
+      "path": "/blog/common-reasons-digital-products-fail",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-reasons-digital-products-fail"
+    },
+    {
+      "path": "/blog/custom-fitness-app-development-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-fitness-app-development-startups"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-dubai",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost-dubai"
+    },
+    {
+      "path": "/blog/in-house-development-vs-app-development-partner",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/in-house-development-vs-app-development-partner"
+    },
+    {
+      "path": "/blog/android-app-development-tools",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-app-development-tools"
+    },
+    {
+      "path": "/blog/app-store-optimization-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-store-optimization-mistakes"
+    },
+    {
+      "path": "/blog/mobile-app-testing-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-testing-strategies"
+    },
+    {
+      "path": "/blog/top-mobile-app-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-app-development-companies"
+    },
+    {
+      "path": "/blog/ios-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-cost"
+    },
+    {
+      "path": "/blog/how-to-validate-your-game-idea",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-validate-your-game-idea"
+    },
+    {
+      "path": "/blog/blockchain-technology-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-technology-trends"
+    },
+    {
+      "path": "/blog/cost-to-build-fitness-app-like-myfitnesspal",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-fitness-app-like-myfitnesspal"
+    },
+    {
+      "path": "/blog/ios-app-development-frameworks",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-frameworks"
+    },
+    {
+      "path": "/blog/website-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/website-development-guide"
+    },
+    {
+      "path": "/blog/healthcare-app-monetization-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-monetization-strategies"
+    },
+    {
+      "path": "/blog/mobile-app-performance-optimization",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-performance-optimization"
+    },
+    {
+      "path": "/blog/signs-startup-needs-custom-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/signs-startup-needs-custom-software-development"
+    },
+    {
+      "path": "/blog/blockchain-in-software-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-in-software-development"
+    },
+    {
+      "path": "/blog/telemedicine-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/telemedicine-app-development"
+    },
+    {
+      "path": "/blog/must-have-features-healthcare-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/must-have-features-healthcare-app"
+    },
+    {
+      "path": "/blog/why-invest-in-custom-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/why-invest-in-custom-mobile-app-development"
+    },
+    {
+      "path": "/blog/mobile-app-marketing-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-marketing-cost"
+    },
+    {
+      "path": "/blog/fitness-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/fitness-app-development-cost"
+    },
+    {
+      "path": "/blog/android-ar-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/android-ar-app-development"
+    },
+    {
+      "path": "/blog/app-store-optimization-aso",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-store-optimization-aso"
+    },
+    {
+      "path": "/blog/how-to-validate-your-mobile-app-idea",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-validate-your-mobile-app-idea"
+    },
+    {
+      "path": "/blog/how-to-make-a-mobile-game-with-unity",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-make-a-mobile-game-with-unity"
+    },
+    {
+      "path": "/blog/software-development-for-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/software-development-for-startups"
+    },
+    {
+      "path": "/blog/best-mobile-banking-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-mobile-banking-apps"
+    },
+    {
+      "path": "/blog/how-to-reduce-mobile-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-reduce-mobile-app-development-cost"
+    },
+    {
+      "path": "/blog/common-ui-ux-design-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-ui-ux-design-mistakes"
+    },
+    {
+      "path": "/blog/how-to-make-an-app-like-tiktok",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-make-an-app-like-tiktok"
+    },
+    {
+      "path": "/blog/how-to-build-a-fintech-mvp",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-a-fintech-mvp"
+    },
+    {
+      "path": "/blog/mobile-game-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-development-cost"
+    },
+    {
+      "path": "/blog/blockchain-app-development-in-business",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-app-development-in-business"
+    },
+    {
+      "path": "/blog/mobile-app-tech-stack",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-tech-stack"
+    },
+    {
+      "path": "/blog/guide-to-custom-ios-app-development-for-businesses",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/guide-to-custom-ios-app-development-for-businesses"
+    },
+    {
+      "path": "/blog/healthcare-app-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-development-companies"
+    },
+    {
+      "path": "/blog/best-android-emulators",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-android-emulators"
+    },
+    {
+      "path": "/blog/geopolitical-impact-software-development-rising-cost-2026",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/geopolitical-impact-software-development-rising-cost-2026"
+    },
+    {
+      "path": "/blog/blockchain-for-startups",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-for-startups"
+    },
+    {
+      "path": "/blog/custom-workout-and-training-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/custom-workout-and-training-app-development-cost"
+    },
+    {
+      "path": "/blog/mobile-game-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-ideas"
+    },
+    {
+      "path": "/blog/augmented-reality-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/augmented-reality-app-development-cost"
+    },
+    {
+      "path": "/blog/how-to-build-cross-platform-mobile-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-build-cross-platform-mobile-app"
+    },
+    {
+      "path": "/blog/mobile-game-development-process",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-game-development-process"
+    },
+    {
+      "path": "/blog/mvp-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mvp-mobile-app-development"
+    },
+    {
+      "path": "/blog/healthcare-mobile-app-development-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-mobile-app-development-guide"
+    },
+    {
+      "path": "/blog/what-is-fintech-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-fintech-app-development"
+    },
+    {
+      "path": "/blog/what-is-android-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-android-app-development"
+    },
+    {
+      "path": "/blog/john-wick-aaa-game-features-combat-mechanics",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/john-wick-aaa-game-features-combat-mechanics"
+    },
+    {
+      "path": "/blog/how-to-create-a-blockchain-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-create-a-blockchain-app"
+    },
+    {
+      "path": "/blog/how-to-hire-a-mobile-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-hire-a-mobile-app-development-company"
+    },
+    {
+      "path": "/blog/how-long-does-it-take-to-make-a-mobile-game",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-long-does-it-take-to-make-a-mobile-game"
+    },
+    {
+      "path": "/blog/cost-to-build-a-fintech-app",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cost-to-build-a-fintech-app"
+    },
+    {
+      "path": "/blog/how-to-choose-the-right-healthcare-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-healthcare-app-development-company"
+    },
+    {
+      "path": "/blog/ar-vr-in-fitness-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ar-vr-in-fitness-apps"
+    },
+    {
+      "path": "/blog/accurate-weather-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/accurate-weather-apps"
+    },
+    {
+      "path": "/blog/factors-affecting-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/factors-affecting-app-development-cost"
+    },
+    {
+      "path": "/blog/healthcare-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-development-cost"
+    },
+    {
+      "path": "/blog/mobile-app-branding-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-branding-guide"
+    },
+    {
+      "path": "/blog/will-ai-really-replace-app-developers",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/will-ai-really-replace-app-developers"
+    },
+    {
+      "path": "/blog/publish-update-an-app-on-app-store-google-play",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/publish-update-an-app-on-app-store-google-play"
+    },
+    {
+      "path": "/blog/fintech-startup-app-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/fintech-startup-app-ideas"
+    },
+    {
+      "path": "/blog/blockchain-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/blockchain-app-development-cost"
+    },
+    {
+      "path": "/blog/mvp-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mvp-development-cost"
+    },
+    {
+      "path": "/blog/how-to-create-a-fitness-application",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-create-a-fitness-application"
+    },
+    {
+      "path": "/blog/gta-6-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/gta-6-development-cost"
+    },
+    {
+      "path": "/blog/top-ios-emulators",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-ios-emulators"
+    },
+    {
+      "path": "/blog/best-dating-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-dating-apps"
+    },
+    {
+      "path": "/blog/2d-vs-3d-game-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/2d-vs-3d-game-development"
+    },
+    {
+      "path": "/blog/mobile-app-maintenance-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-maintenance-cost"
+    },
+    {
+      "path": "/blog/main-benefits-of-blockchain-technology",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/main-benefits-of-blockchain-technology"
+    },
+    {
+      "path": "/blog/ios-app-development-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/ios-app-development-trends"
+    },
+    {
+      "path": "/blog/iot-in-healthcare-applications-benefits-and-future-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/iot-in-healthcare-applications-benefits-and-future-trends"
+    },
+    {
+      "path": "/blog/best-game-development-engines",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/best-game-development-engines"
+    },
+    {
+      "path": "/blog/cross-platform-frameworks-for-mobile-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/cross-platform-frameworks-for-mobile-app-development"
+    },
+    {
+      "path": "/blog/healthcare-app-startup-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-startup-ideas"
+    },
+    {
+      "path": "/blog/types-of-blockchain",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/types-of-blockchain"
+    },
+    {
+      "path": "/blog/top-mobile-game-development-companies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-game-development-companies"
+    },
+    {
+      "path": "/blog/healthcare-app-trends",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/healthcare-app-trends"
+    },
+    {
+      "path": "/blog/common-mobile-app-development-mistakes",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/common-mobile-app-development-mistakes"
+    },
+    {
+      "path": "/blog/why-choose-flutter",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/why-choose-flutter"
+    },
+    {
+      "path": "/blog/effective-marketing-strategies-for-mobile-apps",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/effective-marketing-strategies-for-mobile-apps"
+    },
+    {
+      "path": "/blog/the-role-of-ui-ux-design-in-mobile-app-success",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/the-role-of-ui-ux-design-in-mobile-app-success"
+    },
+    {
+      "path": "/blog/aso-strategies-to-increase-your-app-store-rankings",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/aso-strategies-to-increase-your-app-store-rankings"
+    },
+    {
+      "path": "/blog/mobile-app-monetization-strategies",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-monetization-strategies"
+    },
+    {
+      "path": "/blog/native-vs-hybrid-vs-cross-platform-app-development",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/native-vs-hybrid-vs-cross-platform-app-development"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/mobile-app-development-cost"
+    },
+    {
+      "path": "/blog/app-development-timeline",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/app-development-timeline"
+    },
+    {
+      "path": "/blog/how-to-choose-the-right-mobile-app-development-company",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/how-to-choose-the-right-mobile-app-development-company"
+    },
+    {
+      "path": "/blog/top-mobile-app-ideas",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/top-mobile-app-ideas"
+    },
+    {
+      "path": "/blog/what-is-mobile-app-development-a-beginners-guide",
+      "status": 200,
+      "canonical": "https://inceptivesdigital.com/blog/what-is-mobile-app-development-a-beginners-guide"
+    }
+  ],
+  "errors": []
+}

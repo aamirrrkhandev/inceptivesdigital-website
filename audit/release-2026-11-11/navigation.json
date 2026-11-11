@@ -1,0 +1,40 @@
+{
+  "base": "http://localhost:3100",
+  "results": [
+    {
+      "width": 320,
+      "links": 6,
+      "allReachable": true,
+      "backgroundLocked": true,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "links": 6,
+      "allReachable": true,
+      "backgroundLocked": true,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "links": 6,
+      "allReachable": true,
+      "backgroundLocked": true,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "links": 6,
+      "allReachable": true,
+      "backgroundLocked": true,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "links": 6,
+      "allReachable": true,
+      "backgroundLocked": false,
+      "pass": true
+    }
+  ]
+}

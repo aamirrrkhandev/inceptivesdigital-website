@@ -1,0 +1,778 @@
+{
+  "base": "http://localhost:3100",
+  "results": [
+    {
+      "path": "/web-development",
+      "width": 390,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/web-development",
+      "width": 768,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/web-development",
+      "width": 1366,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 390,
+      "faqs": 8,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 768,
+      "faqs": 8,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/staff-augmentation",
+      "width": 1366,
+      "faqs": 8,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 390,
+      "faqs": 6,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 768,
+      "faqs": 6,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/iot-development",
+      "width": 1366,
+      "faqs": 6,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 390,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 768,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/virtual-reality-development",
+      "width": 1366,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 390,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 768,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/ar-app-development",
+      "width": 1366,
+      "faqs": 5,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/mobile-game-development",
+      "width": 390,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/mobile-game-development",
+      "width": 768,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    },
+    {
+      "path": "/mobile-game-development",
+      "width": 1366,
+      "faqs": 7,
+      "canonicalSchema": true,
+      "noOverflow": true,
+      "pass": true
+    }
+  ],
+  "links": [
+    {
+      "path": "/contact-us",
+      "label": "Skip to content",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/",
+      "label": "",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/services",
+      "label": "Services",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development",
+      "label": "Mobile App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/blockchain-development",
+      "label": "Blockchain Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ios-app-development",
+      "label": "iOS App",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/android-app-development",
+      "label": "Android App",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/react-native-app-development",
+      "label": "React Native App",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/web-development",
+      "label": "Web Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/flutter-app-development",
+      "label": "Flutter",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/kotlin-multiplatform-app-development",
+      "label": "Kotlin Multiplatform",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-game-development",
+      "label": "Mobile Game Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/web-app-development-company",
+      "label": "Web App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/backend-api-development",
+      "label": "Backend and API",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ar-app-development",
+      "label": "AR App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/virtual-reality-development",
+      "label": "VR Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/cross-platform-app-development",
+      "label": "Cross-Platform Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-chatbot-development-services",
+      "label": "AI Chatbot Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/app-store-optimization",
+      "label": "App Store Optimization",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/product-launch-strategy",
+      "label": "Product Launch Strategy",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/post-launch-analytics-iteration",
+      "label": "Post Launch Analytics and Iteration",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-development",
+      "label": "AI Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-app-development-services",
+      "label": "AI App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-agent-development",
+      "label": "AI Agent Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/generative-ai-development-company",
+      "label": "Generative AI Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/machine-learning-development-services",
+      "label": "Machine Learning Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/nlp-development-services",
+      "label": "NLP Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-mvp-development",
+      "label": "AI MVP Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ai-automation-services",
+      "label": "AI Automation",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/iot-development",
+      "label": "IoT Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/system-integration-api-automation",
+      "label": "System Integration & API Automation Services",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/business-process-automation",
+      "label": "Business Process Automation Services",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/rpa-development-services",
+      "label": "RPA Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/digital-product-development",
+      "label": "Digital Product Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mvp-development",
+      "label": "MVP Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/discovery-sprint",
+      "label": "Discovery Sprint",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/staff-augmentation",
+      "label": "Staff Augmentation",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/product-rescue-scaling",
+      "label": "Product Rescue & Scaling",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/product-strategy-consulting",
+      "label": "Product Strategy & Consulting",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/custom-software-development",
+      "label": "Custom Software Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/ui-ux-design",
+      "label": "UI/UX Design",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/interactive-prototyping",
+      "label": "Interactive Prototyping",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/healthcare-app-development",
+      "label": "Healthcare App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/travel-app-development-company",
+      "label": "Travel App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/food-delivery-app-development",
+      "label": "Food Delivery App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/fintech-app-development",
+      "label": "Fintech App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/fitness-app-development",
+      "label": "Fitness App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/education-app-development-company",
+      "label": "Education App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/dating-app-development-company",
+      "label": "Dating App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-san-francisco",
+      "label": "San Francisco",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-austin",
+      "label": "Austin",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-new-york",
+      "label": "New York",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/real-estate-app-development-company",
+      "label": "Real Estate App Development",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-company-in-toronto-canada",
+      "label": "Toronto",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-company-london-uk",
+      "label": "London",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/press-release",
+      "label": "Press & Media",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/blog",
+      "label": "Blogs",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/partnership",
+      "label": "Partnership",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio",
+      "label": "Case Studies",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/life-at-inceptives-digital",
+      "label": "Life At Inceptives Digital",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-company-dubai-uae",
+      "label": "Dubai",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/about-us",
+      "label": "About",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/mobile-app-development-company-singapore",
+      "label": "Singapore",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/founders-letter",
+      "label": "Founder's Letter",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/state-of-the-art-chiropractic",
+      "label": "View Case Study →",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/family-entertainment-group",
+      "label": "Family Entertainment Group",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/leadership",
+      "label": "Leadership",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/privacy-policy",
+      "label": "Privacy Policy",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/privacy-policy/",
+      "label": "Privacy Policy",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/dps-airem",
+      "label": "View Case Study →",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/terms-and-conditions",
+      "label": "Terms of Services",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/terms-and-conditions/",
+      "label": "Terms of Use",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/wordsmith-pro",
+      "label": "WordSmith Pro",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/blog/the-role-of-ui-ux-design-in-mobile-app-success",
+      "label": "UI/UX design",
+      "from": "/staff-augmentation",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/blog/app-development-timeline",
+      "label": "app development timeline",
+      "from": "/virtual-reality-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/blog/mobile-app-development-cost",
+      "label": "app development cost",
+      "from": "/virtual-reality-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/stakbread",
+      "label": "StakBread",
+      "from": "/web-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    },
+    {
+      "path": "/portfolio/halwar-connect",
+      "label": "View Case Study",
+      "from": "/iot-development",
+      "status": 200,
+      "location": null,
+      "held": false
+    }
+  ],
+  "sitemapAllSix": true,
+  "excluded404": true,
+  "failures": []
+}

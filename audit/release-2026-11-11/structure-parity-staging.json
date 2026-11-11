@@ -1,0 +1,402 @@
+{
+  "/services": {
+    "hash": "2ce945b80a7ae864f001f4d5f55091aa17cff6bc84de3cdca2792db90ed8fb53",
+    "status": 200,
+    "pass": true
+  },
+  "/computer-vision-development-services": {
+    "hash": "beadfd221b669f529e299ba3bf8b274e482481a4675b1af05173056544dc9c18",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-chatbot-development-services": {
+    "hash": "f04900b1291ec492cb06a5f7fdcd38dc1bf3acc12f6720c87eb283b8c17796e9",
+    "status": 200,
+    "pass": true
+  },
+  "/": {
+    "hash": "20cdf3de5281dd56636874d0c631ae3068d20c651b9756d4d4493a172e417f6e",
+    "status": 200,
+    "pass": true
+  },
+  "/dating-app-development-company": {
+    "hash": "3829107545b48fd823e9b4a5d8a16045f4d34637415e1bb0765605534844e1df",
+    "status": 200,
+    "pass": true
+  },
+  "/food-delivery-app-development": {
+    "hash": "80ba3eb233413037968c99b35bdb7519bf7cb003328338ff2a2eb3145bc7b9e8",
+    "status": 200,
+    "pass": true
+  },
+  "/founders-letter": {
+    "hash": "d0854fec42480ce8287bdb7f9045d49b0688b37f2a4ce271558303ebae36aeb5",
+    "status": 200,
+    "pass": true
+  },
+  "/dropryde": {
+    "hash": "e6e8795ac851fefe4c7d69b2ec79c1b3d4d086bb86875bb80d32e30e2e3a4c0e",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-new-york": {
+    "hash": "40a6f7abd5ffa5028ec61f40ccf6248b4d6b21355e628c3e2fbb88f82f40572f",
+    "status": 200,
+    "pass": true
+  },
+  "/partnership": {
+    "hash": "75ed67b0654ece2c9731d95f7ca7872eeefdfbb262c384d6d3f3e40e13f78983",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-company-in-toronto-canada": {
+    "hash": "726900e315fed89a9024afc4e19fa0e8c521d2e31af0f3d2658bb8b5c1d4ff12",
+    "status": 200,
+    "pass": true
+  },
+  "/travel-app-development-company": {
+    "hash": "fbf8d8d6c13f10846461bfe60bb60f30597d64e9a7addb99b0a0baab4f18612e",
+    "status": 200,
+    "pass": true
+  },
+  "/life-at-inceptives-digital": {
+    "hash": "16a6950fddfb797b8979d74e11db63f1b8313e688101b44778f29cd8052a9400",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-company-london-uk": {
+    "hash": "2d2b3797155738abccea9daa34a7d72f5ac0eb96ca95fcd6b1297e110a3ca35e",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-san-francisco": {
+    "hash": "a5e90e00c80ababbc8370e1b585d4f8085763e2347b562130cbbfddbe55cc712",
+    "status": 200,
+    "pass": true
+  },
+  "/healthcare-app-development": {
+    "hash": "8008b2a3d28500001e19bdb18063c3a5441711167fedb464842d6686f5dbfd25",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-austin": {
+    "hash": "61c88e25d019ac8ef0c6b576b23a1e87f854d1648525d31d71e4bc1cf1c5accb",
+    "status": 200,
+    "pass": true
+  },
+  "/ui-ux-design": {
+    "hash": "397009c8c578ce26ed0b91b730ef1f395e6578d4444dad87fa84e32af3607021",
+    "status": 200,
+    "pass": true
+  },
+  "/product-strategy-consulting": {
+    "hash": "48002cb7ba13375daa95d2ff4f211b0da3b460e6b35f7487b735c55524178cfc",
+    "status": 200,
+    "pass": true
+  },
+  "/digital-product-development": {
+    "hash": "32b471618f338bf9c654b7fffeb067e5adc0a0be89ce872c8429b36e6f609eed",
+    "status": 200,
+    "pass": true
+  },
+  "/product-rescue-scaling": {
+    "hash": "e3af283429a66c1094d4bb03d6ebdb7fe375672d34e32e0c09725a99515f52f8",
+    "status": 200,
+    "pass": true
+  },
+  "/discovery-sprint": {
+    "hash": "831c0d354876d15ff8be3c0707a6062639694731b3b9dad24bdec96c6aa844c4",
+    "status": 200,
+    "pass": true
+  },
+  "/interactive-prototyping": {
+    "hash": "8bc584c9bdd7e430a089e6b5a350f32c8ab7cd4b9e640067efc0b15cf8f16e48",
+    "status": 200,
+    "pass": true
+  },
+  "/mvp-development": {
+    "hash": "153e0956b18ce7cb9bad30ea0c7039b19222d43a82682e8f5e554c340082cd89",
+    "status": 200,
+    "pass": true
+  },
+  "/custom-software-development": {
+    "hash": "05cdbfc2fb92978df0bd7d0bf46176d266c583331a50718fb48694cda6f04d3b",
+    "status": 200,
+    "pass": true
+  },
+  "/rpa-development-services": {
+    "hash": "56fe3d17623ce05e8f34fbec36ecd7d83851c0d62c1455bab0aba9590529389f",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-app-development-services": {
+    "hash": "c67fd454b6e3ea5cdb2e15d0004e953f8cfa1cffffd809a44fe95c46c40138d4",
+    "status": 200,
+    "pass": true
+  },
+  "/system-integration-api-automation": {
+    "hash": "1b3df67e8972b6b032053d14e0f477f7f9190909ff4c09f434dd46cc5e55e3d2",
+    "status": 200,
+    "pass": true
+  },
+  "/post-launch-analytics-iteration": {
+    "hash": "9b80f3209c39c0d90325c4ca3eb423af7b9f7e131e188f5bac5830545ca0b591",
+    "status": 200,
+    "pass": true
+  },
+  "/nlp-development-services": {
+    "hash": "66bcd2efa98071e6847d3caa6a3d1b1431d1eff1f8b3ad9ac99e6cde8d891ff3",
+    "status": 200,
+    "pass": true
+  },
+  "/generative-ai-development-company": {
+    "hash": "9ac0d0895b85a40452b9a5b4572b37bbb6f5c95dff97c75c17367c7af4c5091e",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-agent-development": {
+    "hash": "e5b714b493ab37ac051f8709f7f7aabd0faa2266972902dfca349c037cae7402",
+    "status": 200,
+    "pass": true
+  },
+  "/about-us": {
+    "hash": "60901ed72fd7b69a9b5d8f28f3c9043c16933c68c467bf3b6248e8533e3e75c2",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-company-singapore": {
+    "hash": "424145e34f94dcac07ebe309263496a881ea06fced708269b7d9c40b813ee6bb",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-development": {
+    "hash": "3b74185133abde7d70b8346ed51785c2c978f42a764ec96c5384d8b384eac887",
+    "status": 200,
+    "pass": true
+  },
+  "/machine-learning-development-services": {
+    "hash": "d3b8b65a837f35f4c3f16379ee6c1f944354796d2d00a34ac165f7b4714935bf",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development-company-dubai-uae": {
+    "hash": "567fd4b578ce67735c3d3dd155be476c2e1ea3cdb8a2f9a148b29804e50f6c17",
+    "status": 200,
+    "pass": true
+  },
+  "/terms-and-conditions": {
+    "hash": "273b849ed707ecc5a49a29c9c38630e4d90ee8d561609232b150629af6f19b2a",
+    "status": 200,
+    "pass": true
+  },
+  "/blockchain-development": {
+    "hash": "7fef8311577f78c3cdae4d57319aa7b34d85f9928f33f9f8ad8b61c6b405cde1",
+    "status": 200,
+    "pass": true
+  },
+  "/real-estate-app-development-company": {
+    "hash": "665ca125f0c614765f3b158d258ee31faf23e558e75c27f594caab7653cca074",
+    "status": 200,
+    "pass": true
+  },
+  "/privacy-policy": {
+    "hash": "d61c9fae997fd32cd40486f9fe88ecbd8ee4008cffa86250665a50a43752ccfa",
+    "status": 200,
+    "pass": true
+  },
+  "/fintech-app-development": {
+    "hash": "a199051fce3002b66e83581d2ea9ce1f791ab7f66da25b80f4d10d9d9f968df2",
+    "status": 200,
+    "pass": true
+  },
+  "/react-native-app-development": {
+    "hash": "54c85cb9bd31e7c2f4cee914777ea9e069b1fb511aa36a41b91648365609febb",
+    "status": 200,
+    "pass": true
+  },
+  "/education-app-development-company": {
+    "hash": "f4f73241328fb491c0805efc2a71bdcce1f1a9301536264316ddb7a5f5aff122",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/state-of-the-art-chiropractic": {
+    "hash": "e3ba236bbd724a5e2536a485db3d507a69663b4166a5b48805b9d1ccb8a03124",
+    "status": 200,
+    "pass": true
+  },
+  "/flutter-app-development": {
+    "hash": "317e90794806672739abb70ab8af7d9aef5e4968601da2ead9379cce6a7bdcaf",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio": {
+    "hash": "ee04c860a785947b423d5e9f10570d3ff6107881452eac17a46d87fa4fa1ce29",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/halwar-connect": {
+    "hash": "2455d4996975b38fc0c88bd05af51b859c2015110d6d73d73ce9c5ae075b9d89",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/family-entertainment-group": {
+    "hash": "e0566adddd69738c67ed7c7acbc19e7da2ff18de4694a8042cd73764dc4ef8c0",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/pulse-check-timer": {
+    "hash": "b74ecae5a3ab06a0eec39e8d22e42ef264d27e3ce446977f43996e5ddaf52e84",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/zoom-read": {
+    "hash": "ef6c022450b8a07482e3eafa1792f8dd43b1923b83a57b7b44cc45bede76da90",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/dps-airem": {
+    "hash": "6d1e40d42b379b7e3b8f574c694a2150b79bb0bf1a2ebf1cb9de941d8b0acd4e",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/wordsmith-pro": {
+    "hash": "ac442738c8f4b41052f838b79a87fe4e4a814528724e0ccad6c99d03ef2552c3",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/pets-b4-profit": {
+    "hash": "b71c8ad605de9027c22685a6e9e2dba7a0543c0a1d7be5c4257b7984ffda099d",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/stakbread": {
+    "hash": "b19237e4545e3d6a7b95e2ba907d79a39b7d1fd79808bfb3eed8648051b6f4b8",
+    "status": 200,
+    "pass": true
+  },
+  "/portfolio/my-tango-event": {
+    "hash": "224070afddf7ca33713f8c47d77290d2aa1d5faf413af2ea32adce06f424072f",
+    "status": 200,
+    "pass": true
+  },
+  "/ecommerce-app-development-company": {
+    "hash": "52fa3837c99f9498f5077993119a0362d9cb4edc1cb33783d7df134f4e8263fe",
+    "status": 200,
+    "pass": true
+  },
+  "/testimonial": {
+    "hash": "c354b6fe93a27d80d6537951f11b59ceabedec4b1368a27bccf91f303186a0aa",
+    "status": 200,
+    "pass": true
+  },
+  "/leadership": {
+    "hash": "95a14c5f7c6d7b39455117637b1d297536b442ef2422182e3ed89cbe1c4dc59c",
+    "status": 200,
+    "pass": true
+  },
+  "/contact-us": {
+    "hash": "b415271596f2e935fd88004956ea458a48fe668095a4829cfd49256397453e45",
+    "status": 200,
+    "pass": true
+  },
+  "/app-store-optimization": {
+    "hash": "400ba53d4acb3af0e33cac453ee015724107d059ca5253029ac240dfce713391",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-automation-services": {
+    "hash": "9e1ef1e6505440a638010a768b6ff89c891af9cdccbd37fef291c287f2786fd6",
+    "status": 200,
+    "pass": true
+  },
+  "/mobile-app-development": {
+    "hash": "8832c4d4c2fe518eef5e42c8798c34d7c0aeff926c68d3b4e03560ce51570473",
+    "status": 200,
+    "pass": true
+  },
+  "/backend-api-development": {
+    "hash": "83bcb930477a9ecddd59981a97b4e7fe8515a9660e87729acfa46ecc806d17ae",
+    "status": 200,
+    "pass": true
+  },
+  "/product-launch-strategy": {
+    "hash": "3e3540cd2e839c67b6a936946cc2fa37f558f1b72439278f436c05cf540fcf0e",
+    "status": 200,
+    "pass": true
+  },
+  "/kotlin-multiplatform-app-development": {
+    "hash": "8271d0d2518ae0036eac89deb87acf4bea254e21e5c292dde672971272a5deb1",
+    "status": 200,
+    "pass": true
+  },
+  "/business-process-automation": {
+    "hash": "2093bbe601e5ef34b6075c5b1f5ede7122a9da66d5ba11d0afe3ad9d043d1f73",
+    "status": 200,
+    "pass": true
+  },
+  "/fitness-app-development": {
+    "hash": "11768e1931f4bc27e1de79705eb45a71209f83b1028c1bed40519a65586a3cb3",
+    "status": 200,
+    "pass": true
+  },
+  "/android-app-development": {
+    "hash": "08b657454cb46744d6d1966c95c9ce3e3ed846208f47ed689025cc8809eab824",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-development/ai-cost-estimator": {
+    "hash": "31b431798bf2393a581ad68718243c0b17639c404f11abc3e32921ea45b91a43",
+    "status": 200,
+    "pass": true
+  },
+  "/ai-mvp-development": {
+    "hash": "3235af8002f82dd8e459b20ab38ba10771e0c3a9d29e11dd0fd2d2f09590c3ca",
+    "status": 200,
+    "pass": true
+  },
+  "/web-app-development-company": {
+    "hash": "6aee129efd2c159ec011811fb720a9ba9f958e01423c2020d5fd09c38956edf1",
+    "status": 200,
+    "pass": true
+  },
+  "/cross-platform-app-development": {
+    "hash": "7e87508c0294bfced73a69d604b45d55598f924124ed1b930decc5d166875779",
+    "status": 200,
+    "pass": true
+  },
+  "/ios-app-development": {
+    "hash": "2b0f39ea6541cf977a626b6c4d4834ccbd1dc3d53ba57c34e4b4f20e32c86a21",
+    "status": 200,
+    "pass": true
+  },
+  "/web-development": {
+    "hash": "ef28982f565262518711eb569abe1bf114d93885dbe749ef4300683a399e8ba0",
+    "status": 200,
+    "pass": true
+  },
+  "/staff-augmentation": {
+    "hash": "ceca3aff799d309d4dba26d683cb65b6728adc68ab738b6e0b53ad4cfe96f1b2",
+    "status": 200,
+    "pass": true
+  },
+  "/iot-development": {
+    "hash": "f7439caab781fde5623beaa86983f5cf9669dde6098dca4595e252cb4f87ec25",
+    "status": 200,
+    "pass": true
+  },
+  "/virtual-reality-development": {
+    "hash": "06f563c30afb3dc1b8c8ae9035aac016d950ccea10f6b22866c1894b2a0ffac0",
+    "status": 200,
+    "pass": true
+  },
+  "/ar-app-development": {
+    "hash": "9bd014bb56f83c5f74cf167c7f57ce004e38da5fdca64d10cbe3776f0bd46d5f",
+    "status": 200,
+    "pass": true
+  },
+  "/thank-you": {
+    "hash": "713c7d7aa88330b8c80669066dfd5e14fefe20cbe445f659818d2c43f2d0c3f3",
+    "status": 200,
+    "pass": true
+  }
+}

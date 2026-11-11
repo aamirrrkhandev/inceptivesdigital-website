@@ -9,3 +9,8 @@ Only after explicit user authorization: prepare production host configuration se
 Rollback: preserve WP Engine and its content/assets throughout migration. Restore the recorded prior domain routing if cutover fails, verify WordPress HTTP responses and form delivery, and stop Next.js production auto-promotion until the failure is understood. Do not delete projects, source assets, DNS records or WordPress resources as part of rollback.
 
 Monitor after authorized launch: 404/5xx rates, redirect chains, canonical/indexing changes, Search Console crawl errors, impressions/clicks, analytics conversion events and field Core Web Vitals. No guarantee of unchanged rankings is made.
+
+
+## 11 November 2026: do not shut down WordPress yet
+
+Blog reads now use the approved nextincep.wpenginepowered.com backend. Remaining runtime dependencies still read the production WordPress host: form-contract discovery and assessment handlers, search, non-blog XML sitemap discovery and any remote unbundled media. Repointing inceptivesdigital.com to Next before decoupling these creates self-fetch/404 risks. Keep WordPress hosting active; a public-domain cutover does not require shutting the CMS down. Before separately authorized cutover, choose a permanent WordPress backend hostname, validate all contracts/search/assessment/uploads, update deployment configuration and repeat real form/SEO/sitemap tests. Keep original WordPress deployment/backups for rollback; DNS and live public site remain untouched.

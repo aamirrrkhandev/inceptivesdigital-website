@@ -14,7 +14,14 @@ await Promise.all(Array.from({length:Math.min(20,Math.max(1,Number(process.env.M
     try {
       const response=await fetch(base+url,{method:'HEAD',signal:AbortSignal.timeout(30000)});
       if(response.status!==200)failed.push({url,status:response.status});
-      else if(!response.headers.get('content-encoding')&&response.headers.has('content-length')&&Number(response.headers.get('content-length'))!==asset.size)failed.push({url,error:'Original byte length differs',length:response.headers.get('content-length'),expected:asset.size});
+      else if(!response.headers.get('content-encoding')&&response.headers.has('content-length')&&Number(response.headers.get('content-length'))!==asset.size){
+        // Git normalizes text SVG line endings on Linux; verify the actual markup.
+        const local='public'+decodeURI(url);
+        if(url.endsWith('.svg')&&fs.existsSync(local)){
+          const delivered=await(await fetch(base+url)).text();
+          if(delivered.replaceAll('\r\n','\n')!==fs.readFileSync(local,'utf8').replaceAll('\r\n','\n'))failed.push({url,error:'SVG markup differs'});
+        }else failed.push({url,error:'Original byte length differs',length:response.headers.get('content-length'),expected:asset.size});
+      }
     }catch(error){failed.push({url,error:error.message});}
   }
 }));

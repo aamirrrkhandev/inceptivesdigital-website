@@ -58,3 +58,6 @@ Final dashboard verification: **18 actual QA submissions** (ten initial form typ
 Run isolated SDK tests with `node scripts/verify-ghl-tracking.mjs <production-build-url>`. They map the stable staging hostname to that build inside an isolated Playwright browser and intercept both delivery destinations. No real email or CRM entry is created. The official public SDK is cached in ignored `audit/` on first use.
 
 Vendor references: [External forms](https://help.gohighlevel.com/support/solutions/articles/155000006092), [external tracking and field mapping](https://help.gohighlevel.com/support/solutions/articles/155000009476-field-mapping-and-iframe-form-tracking-in-external-tracking).
+
+
+11 November: Mobile Game is the eleventh tracked form type. Saved explicit Name → Full Name, Email → Email, Phone → Phone mapping for website-mobile-game-development-enquiry on staging domain only. First real capture retained all five raw fields and URL/UTM; a follow-up after mapping populated the standard name/email/contact columns, preserved subject/message, and redirected to thank-you. CallRail capture checked separately in its real dashboard. No changes to live WordPress or DNS.
