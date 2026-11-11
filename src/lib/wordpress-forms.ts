@@ -2,8 +2,10 @@ import "server-only";
 import https from "node:https";
 import { Resolver } from "node:dns/promises";
 import { lookup as systemLookup } from "node:dns";
+import { brotliDecompressSync, gunzipSync, inflateSync } from "node:zlib";
 import blogSource from "../../content/wordpress-blog-source.json";
 import formContracts from "../../content/form-contracts.json";
+const sourceAgent = new https.Agent({ keepAlive: true, maxSockets: 16 });
 
 export async function readWordPressBlogPage(path: string) {
   if (!/^\/(?:wp-json\/wp\/v2\/(?:posts|categories|users)(?:\?|$)|(?:blog|press-release|category|author)(?:\/|\?|$))/.test(path))
@@ -22,7 +24,8 @@ async function sourceRequest(url: string) {
       url,
       {
         method: "GET",
-        headers: { "Cache-Control": "no-cache, no-store", Pragma: "no-cache" },
+        agent: sourceAgent,
+        headers: { "Cache-Control": "no-cache, no-store", Pragma: "no-cache", "Accept-Encoding": "br, gzip, deflate" },
         lookup(hostname, options, callback) {
           systemLookup(hostname, { all: true }, (error, resolved) => {
             if (!error && resolved.length) {
@@ -54,11 +57,18 @@ async function sourceRequest(url: string) {
             request.destroy(new Error("Response too large"));
           else chunks.push(chunk);
         });
-        response.on("end", () =>
-          response.statusCode === 200
-            ? resolve(Buffer.concat(chunks).toString("utf8"))
-            : reject(Object.assign(new Error("Blog source unavailable"), { statusCode: response.statusCode })),
-        );
+        response.on("end", () => {
+          if (response.statusCode !== 200) {
+            reject(Object.assign(new Error("Blog source unavailable"), { statusCode: response.statusCode }));
+            return;
+          }
+          try {
+            const bytes = Buffer.concat(chunks), encoding = response.headers["content-encoding"];
+            const limit = { maxOutputLength: 10_000_000 };
+            const decoded = encoding === "br" ? brotliDecompressSync(bytes, limit) : encoding === "gzip" ? gunzipSync(bytes, limit) : encoding === "deflate" ? inflateSync(bytes, limit) : bytes;
+            resolve(decoded.toString("utf8"));
+          } catch { reject(new Error("Invalid compressed blog response")); }
+        });
         response.on("error", reject);
       },
     );

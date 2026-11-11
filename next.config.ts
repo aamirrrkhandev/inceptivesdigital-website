@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import redirects from "./content/redirects.json";
+import sharedBlogStyles from "./content/shared-blog-styles.json";
 const indexingAllowed =
   process.env.ALLOW_INDEXING === "true" &&
   (!process.env.VERCEL_ENV || process.env.VERCEL_ENV === "production");
@@ -28,8 +29,13 @@ const config: NextConfig = {
     }));
   },
   async headers() {
-    if (indexingAllowed) return [];
+    const immutableStyles = Object.values(sharedBlogStyles).map(source => ({
+      source,
+      headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+    }));
+    if (indexingAllowed) return immutableStyles;
     return [
+      ...immutableStyles,
       {
         source: "/:path*",
         headers: [

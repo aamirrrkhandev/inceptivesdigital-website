@@ -12,6 +12,7 @@ import { mediaIndex } from "@/lib/static-media";
 import backgroundFitRules from "../../content/background-fit-rules.json";
 import { normalizeRootSelectors } from "@/lib/selector-scope";
 import { correctedSchema } from "@/lib/seo-policy";
+import { sharedBlogStyles } from "@/lib/shared-blog-styles";
 
 export default function SourceLayout({
   page,
@@ -30,13 +31,14 @@ export default function SourceLayout({
   ).replace(/url\("([^\"]+)"\)/g, (all, url) =>
     mediaIndex[url]?.optimized ? `url("${mediaIndex[url].optimized}")` : all,
   );
+  const sharedStylesheet = sharedBlogStyles(page.path, css);
   return (
     <div
       className={"migrated-page " + page.bodyClass}
       data-source-path={page.path}
       data-form-source-path={formSourcePath ?? (/^\/(?:blog|press-release)(?:\/|$)|^\/(?:category|author)\//.test(page.path) ? "/contact-us" : undefined)}
     >
-      <style>{css}</style>
+      {sharedStylesheet ? <link rel="stylesheet" href={sharedStylesheet} /> : <style>{css}</style>}
       {page.nodes.map((node, i) =>
         typeof node !== "string" && node.tag === "main" && mainContent
           ? mainContent

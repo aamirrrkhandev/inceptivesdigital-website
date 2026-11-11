@@ -11,6 +11,7 @@ import { approvedCanonical } from "./seo-policy";
 import savedRoutes from "../../content/routes.json";
 import blogSource from "../../content/wordpress-blog-source.json";
 import nonBlogSitemap from "../../content/non-blog-sitemap-snapshot.json";
+import { readCurrentArticleHTML } from "./blog-article-cache";
 
 const origin = blogSource.publicOrigin;
 const blogOrigin = blogSource.origin;
@@ -342,8 +343,11 @@ function appendSourceStyles(
 }
 
 async function readBlogCards(options: BlogOptions) {
+  const perPage = options.view === "mobile" ? 6 : options.view === "tablet" ? 9 : 15;
   const query = new URLSearchParams({
-    per_page: "100",
+    per_page: String(perPage),
+    page: String(options.page),
+    _envelope: "1",
     status: "publish",
     orderby: "date",
     order: "desc",
@@ -362,24 +366,24 @@ async function readBlogCards(options: BlogOptions) {
     if (!categories.length) query.set("include", "0");
   }
   if (options.search) query.set("search", options.search);
-  const all: PostCard[] = [];
-  for (let number = 1; number <= 100; number++) {
-    query.set("page", String(number));
-    const batch = JSON.parse(
-      await read("/wp-json/wp/v2/posts?" + query),
-    ) as PostCard[];
-    if (!Array.isArray(batch))
-      throw new Error("Invalid WordPress listing response");
-    all.push(...batch);
-    if (batch.length < 100) break;
+  const result = JSON.parse(await read("/wp-json/wp/v2/posts?" + query));
+  if (result.status === 400 && result.body?.code === "rest_post_invalid_page_number") {
+    query.set("page", "1");
+    query.set("per_page", "1");
+    query.set("_fields", "id");
+    const count = JSON.parse(await read("/wp-json/wp/v2/posts?" + query));
+    if (count.status !== 200) throw new Error("WordPress listing count unavailable");
+    return { posts: [] as PostCard[], total: Number(count.headers["X-WP-Total"]) };
   }
-  return all;
+  if (result.status !== 200 || !Array.isArray(result.body) || !Number.isFinite(Number(result.headers?.["X-WP-Total"])))
+    throw new Error("Invalid WordPress listing response");
+  return { posts: result.body as PostCard[], total: Number(result.headers["X-WP-Total"]) };
 }
 
-async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, all: PostCard[]) {
+async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, data: {posts: PostCard[]; total: number}) {
   const perPage =
     options.view === "mobile" ? 6 : options.view === "tablet" ? 9 : 15;
-  const posts = all.slice((options.page - 1) * perPage, options.page * perPage);
+  const { posts } = data;
   const grid = $("[data-blog-grid]").first();
   if (!grid.length) throw new Error("Blog listing template unavailable");
   grid.empty();
@@ -460,7 +464,7 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, al
     grid.append(article.append(text));
   }
   const pagination = $(".id-blog-pagination").first().empty();
-  const pageCount = Math.ceil(all.length / perPage);
+  const pageCount = Math.ceil(data.total / perPage);
   if (!posts.length)
     grid.append($("<p></p>").attr("role", "status").text("No posts found."));
   for (let number = 1; number <= pageCount; number++) {
@@ -483,6 +487,16 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, al
   }
 }
 
+// Category/pagination requests need cards, not another WordPress page render.
+// These three wrappers match the existing listing template exactly.
+export async function getWordPressBlogListing(options: BlogOptions) {
+  const $ = cheerio.load('<div class="id-blog-listing" data-id-blog-listing="1"><div class="filtered-posts-grid" data-blog-grid="1"></div><nav class="id-blog-pagination" aria-label="Blog pagination"></nav></div>');
+  await updateBlogListing($, options, await readBlogCards(options));
+  const node = convertDom($, $("[data-id-blog-listing]")[0]);
+  if (!node || typeof node === "string") throw new Error("Blog listing unavailable");
+  return node;
+}
+
 export const getWordPressPage = cache(
   async (path: string, blogQuery = ""): Promise<SitePage | undefined> => {
     const saved = getPage(path);
@@ -499,7 +513,7 @@ export const getWordPressPage = cache(
       // Article existence needs only its own published record, not a paginated
       // download of every post. Listings/archives fetch their own cards below.
       const posts: PostIndex[] = articlePath
-        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status`))
+        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_embed=author&_fields=id,slug,link,modified_gmt,title,content,excerpt,date,date_gmt,author,featured_media,categories,tags,meta,yoast_head_json,_links,_embedded`))
         : [];
       if (!Array.isArray(posts)) throw new Error("Invalid WordPress post response");
       const post =
@@ -521,14 +535,13 @@ export const getWordPressPage = cache(
           ? query.get("blog_view")!
           : "desktop",
       };
-      const [html, listingData] = await Promise.all([read(
-        path +
-          (post
-            ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
-            : blogQuery
-              ? "?" + blogQuery
-              : ""),
-      ), path === "/blog" ? readBlogCards(options) : Promise.resolve(undefined)]);
+      const sourcePath = path + (post
+        ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
+        : blogQuery ? "?" + blogQuery : "");
+      const [html, listingData] = await Promise.all([
+        post ? readCurrentArticleHTML(path, post, () => read(sourcePath)) : read(sourcePath),
+        path === "/blog" ? readBlogCards(options) : Promise.resolve(undefined),
+      ]);
       const $ = cheerio.load(html);
       // Only custom pin presentation is retired; reviewer approval stays intact.
       $(".id-pinned-label").remove();

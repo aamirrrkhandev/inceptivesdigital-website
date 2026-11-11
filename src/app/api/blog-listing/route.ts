@@ -1,5 +1,5 @@
-import { getWordPressPage } from "@/lib/wordpress-content";
-import { findBlogListing, prepareBlogListing } from "@/lib/blog-listing";
+import { getWordPressBlogListing } from "@/lib/wordpress-content";
+import { prepareBlogListing } from "@/lib/blog-listing";
 export async function GET(request: Request) {
   const input = new URL(request.url).searchParams;
   const category = (input.get("blog_cat") || "all").slice(0, 80);
@@ -21,14 +21,7 @@ export async function GET(request: Request) {
       { status: 400, headers },
     );
   try {
-    const query = new URLSearchParams({
-      blog_cat: category,
-      blog_search: search,
-      blog_view: view,
-      pagination_page: String(page),
-    });
-    const source = await getWordPressPage("/blog", query.toString());
-    const listing = source && findBlogListing(source.nodes);
+    const listing = await getWordPressBlogListing({ category, search, view, page });
     if (
       !listing ||
       listing.props["data-category"] !== category ||
