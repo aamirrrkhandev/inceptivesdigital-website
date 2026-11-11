@@ -42,6 +42,7 @@ type PostIndex = {
   slug: string;
   link: string;
   modified_gmt: string;
+  meta?: { _flow_reviewer_id?: number; _flow_review_status?: string };
   yoast_head_json?: { robots?: { index?: string }; canonical?: string };
 };
 export type BlogOptions = {
@@ -68,7 +69,7 @@ export const getPublishedPosts = cache(async (): Promise<PostIndex[]> => {
   for (let page = 1; page <= 100; page++) {
     const batch = JSON.parse(
       await read(
-        `/wp-json/wp/v2/posts?per_page=100&page=${page}&_fields=id,slug,link,modified_gmt,yoast_head_json.robots,yoast_head_json.canonical`,
+        `/wp-json/wp/v2/posts?per_page=100&page=${page}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status,yoast_head_json.robots,yoast_head_json.canonical`,
       ),
     ) as PostIndex[];
     if (!Array.isArray(batch))
@@ -498,7 +499,7 @@ export const getWordPressPage = cache(
       // Article existence needs only its own published record, not a paginated
       // download of every post. Listings/archives fetch their own cards below.
       const posts: PostIndex[] = articlePath
-        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt`))
+        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status`))
         : [];
       if (!Array.isArray(posts)) throw new Error("Invalid WordPress post response");
       const post =
@@ -523,17 +524,13 @@ export const getWordPressPage = cache(
       const [html, listingData] = await Promise.all([read(
         path +
           (post
-            ? "?migration_version=" + encodeURIComponent(post.modified_gmt)
+            ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
             : blogQuery
               ? "?" + blogQuery
               : ""),
       ), path === "/blog" ? readBlogCards(options) : Promise.resolve(undefined)]);
       const $ = cheerio.load(html);
-      // The user retired custom reviewer approval and pin presentation.
-      $(".qa-approved-user").each((_, el) => {
-        const widget = $(el).closest("[data-widget_type=\"shortcode.default\"]");
-        if (widget.length) widget.remove(); else $(el).remove();
-      });
+      // Only custom pin presentation is retired; reviewer approval stays intact.
       $(".id-pinned-label").remove();
       $(".is-pinned").removeClass("is-pinned");
       const template = saved || getPage(archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;

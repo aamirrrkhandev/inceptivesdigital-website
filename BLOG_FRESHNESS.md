@@ -15,3 +15,5 @@ Stable staging timing samples (not Lighthouse or a percentile guarantee): IoT pa
 
 ## User change: retire pin and reviewer functionality
 Supersedes the earlier parity requirement: custom pin sorting/badges and reviewer approval display are removed. Main blog/category-filter results explicitly request published posts ordered by date descending. Standard post authors, SEO metadata and all URLs remain intact. Reviewer-specific meta fields/query parameters and the extra pin-source request are removed. Original WordPress/CMS configuration is unchanged.
+
+Correction from user: reviewer/approval MUST remain unchanged. The final scope removes only pin sorting and badges; reviewer markup and source reviewer/approval metadata are retained. This supersedes the immediately preceding removal note and its intermediate unaliased build.

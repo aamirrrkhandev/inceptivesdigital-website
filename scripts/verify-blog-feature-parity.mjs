@@ -11,6 +11,12 @@ async function html(path,source=false) {
 }
 const source=await html('/blog',true),target=await html('/blog');
 assert.equal(target('.id-pinned-label,.is-pinned').length,0);
+const pressCategory=await(await sourceFetch('https://nextincep.wpenginepowered.com/wp-json/wp/v2/categories?slug=press-release&_fields=id&_qa='+Date.now())).json();
+const freshQuery=new URLSearchParams({status:'publish',per_page:'15',orderby:'date',order:'desc',_fields:'link',_qa:String(Date.now())});if(pressCategory[0])freshQuery.set('categories_exclude',String(pressCategory[0].id));
+const latest=await(await sourceFetch('https://nextincep.wpenginepowered.com/wp-json/wp/v2/posts?'+freshQuery)).json();
+assert.deepEqual(target('[data-blog-grid] .post-title a').toArray().map(el=>pathOf(target(el).attr('href'))),latest.map(post=>pathOf(post.link)));
+results.push({check:'Current published REST date-desc order matches listing',posts:latest.length,pass:true});
+
 for(const view of ['desktop','tablet','mobile']) {
  const response=await fetch(base+`/api/blog-listing?blog_view=${view}`);assert.equal(response.status,200);
  const json=await response.json();const nodes=[];const walk=node=>{if(typeof node==='string')return;nodes.push(node);node.children.forEach(walk);};json.nodes.forEach(walk);
@@ -27,8 +33,8 @@ results.push({check:'Live category-fed Press Release cards/order/metadata',artic
 const article='/blog/mobile-app-development-cost-austin';
 const a=await html(article,true),b=await html(article);
 const reviewed=$=>{const text=$('body').text().replace(/\s+/g,' ');return text.match(/Reviewed by:\s*Muhammad Usman/)?.[0]};
-assert.equal(reviewed(b),'');assert.equal(b('.qa-approved-user').length,0);
-results.push({check:'Custom reviewer approval display removed',path:article,label:reviewed(b),pass:true});
+assert.equal(reviewed(b),reviewed(a));assert.ok(reviewed(a));
+results.push({check:'WordPress reviewer approval label preserved',path:article,label:reviewed(b),pass:true});
 assert.equal((await fetch(base+'/startup-product-development')).status,404);
 fs.mkdirSync('audit/page-structure',{recursive:true});fs.writeFileSync('audit/page-structure/blog-parity.json',JSON.stringify({base,results},null,2));
 console.log(JSON.stringify({base,checks:results.length,results}));
