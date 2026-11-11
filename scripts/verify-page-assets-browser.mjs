@@ -27,7 +27,7 @@ try{await Promise.all(Array.from({length:3},async()=>{
      oldImages:[...document.images].map(i=>i.getAttribute('src')).filter(s=>s&&/\/(wp-content\/uploads|restored-assets|media)\//.test(s)),
      oldVideos:[...document.querySelectorAll('video,source')].flatMap(v=>['src','data-media-src','data-mobile-src','poster'].map(k=>v.getAttribute(k))).filter(s=>s&&/\/(wp-content\/uploads|restored-assets|media)\//.test(s)),
      textIssues:[...document.querySelectorAll('main h1,main h2,main h3,main p,button,.sitekit-navbar-nav a')].filter(el=>{
-      const r=el.getBoundingClientRect(),s=getComputedStyle(el);return r.width&&r.height&&s.visibility!=='hidden'&&s.display!=='none'&&el.scrollWidth>el.clientWidth+2&&['hidden','clip'].includes(s.overflowX);
+      const r=el.getBoundingClientRect(),s=getComputedStyle(el);return el.textContent.trim()&&r.width&&r.height&&s.visibility!=='hidden'&&s.display!=='none'&&el.scrollWidth>el.clientWidth+2&&['hidden','clip'].includes(s.overflowX);
      }).slice(0,20).map(el=>({text:el.textContent.trim().slice(0,90),width:el.clientWidth,scrollWidth:el.scrollWidth})),
      fontFamilies:[...new Set([...document.querySelectorAll('main h1,main h2,main p,header a,button')].filter(el=>el.getBoundingClientRect().width).map(el=>getComputedStyle(el).fontFamily))],
      headingSizes:[...document.querySelectorAll('main h1,main h2')].filter(el=>el.getBoundingClientRect().width).map(el=>({tag:el.tagName,size:parseFloat(getComputedStyle(el).fontSize)})),

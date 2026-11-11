@@ -7,7 +7,7 @@ const indexingAllowed =
 const config: NextConfig = {
   distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
-  outputFileTracingIncludes: { "/*": ["./content/editable-runtime/**/*"] },
+  outputFileTracingIncludes: { "/*": ["./content/editable-runtime/**/*", "./content/page-catalog/**/*"] },
   images: {
     remotePatterns: [{ protocol: "https", hostname: "nextincep.wpenginepowered.com", pathname: "/wp-content/uploads/**" }],
   },

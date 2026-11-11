@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/split-content.mjs && node scripts/prepare-large-assets.mjs && node scripts/prepare-public-uri-files.mjs && node scripts/prepare-responsive-backgrounds.mjs && node scripts/prepare-editable-runtime.mjs && next build",
+    "build": "node scripts/split-content.mjs && node scripts/prepare-page-catalog.mjs && node scripts/prepare-large-assets.mjs && node scripts/prepare-public-uri-files.mjs && node scripts/prepare-responsive-backgrounds.mjs && node scripts/prepare-editable-runtime.mjs && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },

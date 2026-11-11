@@ -1,5 +1,4 @@
 import { createElement, type ReactNode } from "react";
-import { getImageProps } from "next/image";
 import type { LayoutNode } from "@/lib/site-model";
 import { mediaIndex } from "@/lib/static-media";
 import CaseStudySliderComponent from "../casestudy-slider-component";
@@ -224,14 +223,8 @@ export function renderNode(
       safeProps.loading = "eager";
       safeProps.fetchPriority = "high";
       delete safeProps.fetchpriority;
-      const source = String(safeProps.src || "");
-      const allowed = source.startsWith("/") && !source.startsWith("//") || source.startsWith("https://nextincep.wpenginepowered.com/wp-content/uploads/");
-      if (allowed && safeProps.width && safeProps.height) {
-        const sizes = "(max-width: 767px) calc(100vw - 40px), (max-width: 1024px) calc(100vw - 64px), 900px";
-        const responsive = getImageProps({ src: source, alt: String(safeProps.alt || ""), width: Number(safeProps.width), height: Number(safeProps.height), sizes }).props;
-        safeProps.srcSet = responsive.srcSet;
-        safeProps.sizes = sizes;
-      }
+      // Keep the existing compressed local variant / current WordPress srcset.
+      // This project's image endpoint passes originals through unchanged.
     }
   }
   if (tag === "textarea") {
