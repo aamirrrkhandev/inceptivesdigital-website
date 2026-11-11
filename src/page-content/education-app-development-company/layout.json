@@ -1,0 +1,47 @@
+{
+  "path": "/education-app-development-company",
+  "key": "6c83c209a2279d9d8e8b1dd6f16402822b3d5642",
+  "sourceUrl": "https://inceptivesdigital.com/education-app-development-company",
+  "bodyClass": "wp-singular page-template-default page page-id-9093 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9093 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-tabs.default",
+    "nested-carousel.default",
+    "image-box.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "eb86d9f1cf404bbcb183bb69"
+    },
+    {
+      "shared": "38a04549aa4c91838321ce1b"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "35f368615ad0533d464b831b"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

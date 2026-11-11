@@ -1,0 +1,3755 @@
+{
+  "tag": "footer",
+  "props": {
+    "data-migration-type": "footer",
+    "data-migration-id": "653",
+    "className": "migrated migrated-653 migrated-location-footer",
+    "data-migration-post-type": "elementor_library"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-d9a3385 contact-pg e-flex e-con-boxed e-con e-parent",
+        "data-id": "d9a3385",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-6ce090d e-con-full e-grid e-con e-child",
+                "data-id": "6ce090d",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-cf61a02 e-con-full e-flex e-con e-child",
+                    "data-id": "cf61a02",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-31406d3 migrated-widget migrated-widget-image",
+                        "data-id": "31406d3",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "width": 800,
+                            "height": 798,
+                            "src": "/wp-content/uploads/2026/07/footer-locations.png",
+                            "className": "attachment-large size-large wp-image-21143",
+                            "alt": "Locations",
+                            "srcSet": "/wp-content/uploads/2026/07/footer-locations.png 892w, /wp-content/uploads/2026/07/footer-locations-300x300.png 300w, /wp-content/uploads/2026/07/footer-locations-150x150.png 150w, /wp-content/uploads/2026/07/footer-locations-768x766.png 768w",
+                            "sizes": "(max-width: 800px) 100vw, 800px",
+                            "loading": "lazy",
+                            "decoding": "async"
+                          },
+                          "children": [],
+                          "assetId": "image-09e956cdf2b16a"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c6b5170 e-con-full e-flex e-con e-child",
+                    "data-id": "c6b5170",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-858ace9 migrated-widget migrated-widget-heading",
+                        "data-id": "858ace9",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Get in touch!"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-7be12fe migrated-widget__width-inherit migrated-widget migrated-widget-text-editor",
+                        "data-id": "7be12fe",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Scalable solutions from teams worldwide!"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-06b8e60 migrated-button-align-stretch migrated-widget migrated-widget-form",
+                        "data-id": "06b8e60",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "form.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "form",
+                          "props": {
+                            "className": "migrated-form",
+                            "method": "post",
+                            "name": "Get In Touch",
+                            "aria-label": "Get In Touch",
+                            "data-contact-form": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "input",
+                              "props": {
+                                "type": "hidden",
+                                "name": "post_id",
+                                "defaultValue": "653"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "input",
+                              "props": {
+                                "type": "hidden",
+                                "name": "form_id",
+                                "defaultValue": "06b8e60"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "input",
+                              "props": {
+                                "type": "hidden",
+                                "name": "referer_title",
+                                "defaultValue": "Page not found - Inceptives Digital"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-form-fields-wrapper migrated-labels-"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-text migrated-field-group migrated-column migrated-field-group-name migrated-col-50"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-name",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tFirst Name\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "input",
+                                      "props": {
+                                        "size": "1",
+                                        "type": "text",
+                                        "name": "form_fields[name]",
+                                        "id": "form-field-name",
+                                        "className": "migrated-field migrated-size-sm  migrated-field-textual",
+                                        "placeholder": "First Name"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-text migrated-field-group migrated-column migrated-field-group-field_8842ef2 migrated-col-50"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-field_8842ef2",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tLast Name\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "input",
+                                      "props": {
+                                        "size": "1",
+                                        "type": "text",
+                                        "name": "form_fields[field_8842ef2]",
+                                        "id": "form-field-field_8842ef2",
+                                        "className": "migrated-field migrated-size-sm  migrated-field-textual",
+                                        "placeholder": "Last Name"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-email migrated-field-group migrated-column migrated-field-group-email migrated-col-100 migrated-field-required"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-email",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tEmail\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "input",
+                                      "props": {
+                                        "size": "1",
+                                        "type": "email",
+                                        "name": "form_fields[email]",
+                                        "id": "form-field-email",
+                                        "className": "migrated-field migrated-size-sm  migrated-field-textual",
+                                        "placeholder": "Email:",
+                                        "required": true
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-tel migrated-field-group migrated-column migrated-field-group-field_6a28af4 migrated-col-50 migrated-field-required"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-field_6a28af4",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tPhone\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "input",
+                                      "props": {
+                                        "size": "1",
+                                        "type": "tel",
+                                        "name": "form_fields[field_6a28af4]",
+                                        "id": "form-field-field_6a28af4",
+                                        "className": "migrated-field migrated-size-sm  migrated-field-textual",
+                                        "placeholder": "+1 (555) 555-5555",
+                                        "required": true,
+                                        "pattern": "[0-9()#&+*-=.]+",
+                                        "title": "Only numbers and phone characters (#, -, *, etc) are accepted."
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-text migrated-field-group migrated-column migrated-field-group-field_13e5cfd migrated-col-50"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-field_13e5cfd",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tSubject\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "input",
+                                      "props": {
+                                        "size": "1",
+                                        "type": "text",
+                                        "name": "form_fields[field_13e5cfd]",
+                                        "id": "form-field-field_13e5cfd",
+                                        "className": "migrated-field migrated-size-sm  migrated-field-textual",
+                                        "placeholder": "Subject"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-textarea migrated-field-group migrated-column migrated-field-group-message migrated-col-100"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "form-field-message",
+                                        "className": "migrated-field-label migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\t\tMessage\t\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "textarea",
+                                      "props": {
+                                        "className": "migrated-field-textual migrated-field  migrated-size-sm",
+                                        "name": "form_fields[message]",
+                                        "id": "form-field-message",
+                                        "rows": "2",
+                                        "placeholder": "Message:"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-checkbox migrated-field-group migrated-column migrated-field-group-field_6c96fc9 migrated-col-100"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "migrated-field-subgroup  migrated-subgroup-inline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "props": {
+                                            "className": "migrated-field-option"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "input",
+                                              "props": {
+                                                "type": "checkbox",
+                                                "defaultValue": "I consent to receive transactional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out.",
+                                                "id": "form-field-field_6c96fc9-0",
+                                                "name": "form_fields[field_6c96fc9]"
+                                              },
+                                              "children": []
+                                            },
+                                            " ",
+                                            {
+                                              "tag": "label",
+                                              "props": {
+                                                "htmlFor": "form-field-field_6c96fc9-0"
+                                              },
+                                              "children": [
+                                                "I consent to receive transactional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out."
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-type-checkbox migrated-field-group migrated-column migrated-field-group-field_37e8e1c migrated-col-100"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "migrated-field-subgroup  migrated-subgroup-inline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "props": {
+                                            "className": "migrated-field-option"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "input",
+                                              "props": {
+                                                "type": "checkbox",
+                                                "defaultValue": "I consent to receive marketing and promotional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out.",
+                                                "id": "form-field-field_37e8e1c-0",
+                                                "name": "form_fields[field_37e8e1c]"
+                                              },
+                                              "children": []
+                                            },
+                                            " ",
+                                            {
+                                              "tag": "label",
+                                              "props": {
+                                                "htmlFor": "form-field-field_37e8e1c-0"
+                                              },
+                                              "children": [
+                                                "I consent to receive marketing and promotional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out."
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-field-group migrated-column migrated-field-type-submit migrated-col-100 e-form__buttons"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "migrated-turnstile-field inline-f7377887a2",
+                                        "data-contact-verification": "true",
+                                        "data-sitekey": "0x4AAAAAAF2_MwH5-dBU2H8A",
+                                        "data-theme": "auto"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "props": {
+                                        "className": "migrated-button migrated-size-sm",
+                                        "type": "submit"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "span",
+                                          "props": {
+                                            "className": "migrated-button-content-wrapper"
+                                          },
+                                          "children": [
+                                            " ",
+                                            {
+                                              "tag": "span",
+                                              "props": {
+                                                "className": "migrated-button-text"
+                                              },
+                                              "children": [
+                                                "Submit!"
+                                              ]
+                                            },
+                                            " "
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-1b54840 migrated-icon-list--layout-inline migrated-align-center migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                        "data-id": "1b54840",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-list.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "ul",
+                          "props": {
+                            "className": "migrated-icon-list-items migrated-inline-items"
+                          },
+                          "children": [
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item migrated-inline-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/privacy-policy"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Privacy Policy"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item migrated-inline-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "|"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item migrated-inline-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/terms-and-conditions"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Terms of Services"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-fa9c833 e-flex e-con-boxed e-con e-parent",
+        "data-id": "fa9c833",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-8aa487c e-con-full e-flex e-con e-child",
+                "data-id": "8aa487c",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6ece0f2 e-con-full e-flex e-con e-child",
+                    "data-id": "6ece0f2",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-9ac98f1 migrated-widget migrated-widget-theme-site-logo migrated-widget-image",
+                        "data-id": "9ac98f1",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "theme-site-logo.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "/"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "img",
+                              "props": {
+                                "width": 1673,
+                                "height": 461,
+                                "src": "/wp-content/uploads/2026/07/logo.png",
+                                "className": "attachment-full size-full wp-image-652",
+                                "alt": "Inceptives Digital",
+                                "srcSet": "/wp-content/uploads/2026/07/logo.png 1673w, /wp-content/uploads/2026/07/logo-300x83.png 300w, /wp-content/uploads/2026/07/logo-1024x282.png 1024w, /wp-content/uploads/2026/07/logo-768x212.png 768w, /wp-content/uploads/2026/07/logo-1536x423.png 1536w",
+                                "sizes": "(max-width: 1673px) 100vw, 1673px",
+                                "loading": "lazy",
+                                "decoding": "async"
+                              },
+                              "children": [],
+                              "assetId": "image-ac1c43ac915ee2"
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-870fc07 migrated-widget migrated-widget-text-editor",
+                        "data-id": "870fc07",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "We build apps, digital products, and AI-powered systems for businesses that cannot afford to get it wrong."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-643a7f1 e-con-full e-flex e-con e-child",
+                        "data-id": "643a7f1",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-b0acc30 migrated-widget__width-inherit migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                            "data-id": "b0acc30",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "icon-list.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "className": "migrated-icon-list-items"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "mailto:info@inceptivesdigital.com"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "span",
+                                          "props": {
+                                            "className": "migrated-icon-list-text"
+                                          },
+                                          "children": [
+                                            "info@inceptivesdigital.com"
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "tel:(469)%20788-8527"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "span",
+                                          "props": {
+                                            "className": "migrated-icon-list-text"
+                                          },
+                                          "children": [
+                                            "(469) 788-8527"
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3ee44e9 e-grid-align-left migrated-shape-rounded migrated-grid-0 migrated-widget migrated-widget-social-icons",
+                        "data-id": "3ee44e9",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "social-icons.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-social-icons-wrapper migrated-grid",
+                            "role": "list"
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-grid-item",
+                                "role": "listitem"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "className": "migrated-icon migrated-social-icon migrated-social-icon-linkedin migrated-repeater-item-8d42ad7",
+                                    "href": "https://www.linkedin.com/company/inceptivesdigital/",
+                                    "target": "_blank",
+                                    "rel": "nofollow"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "Linkedin"
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fab-linkedin",
+                                        "viewBox": "0 0 448 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-grid-item",
+                                "role": "listitem"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "className": "migrated-icon migrated-social-icon migrated-social-icon-instagram migrated-repeater-item-eef4ece",
+                                    "href": "https://www.instagram.com/inceptivesdigital/",
+                                    "target": "_blank",
+                                    "rel": "nofollow"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "Instagram"
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fab-instagram",
+                                        "viewBox": "0 0 448 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-grid-item",
+                                "role": "listitem"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "className": "migrated-icon migrated-social-icon migrated-social-icon-facebook migrated-repeater-item-c3bb687",
+                                    "href": "https://www.facebook.com/inceptivesdigital",
+                                    "target": "_blank",
+                                    "rel": "nofollow"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-screen-only"
+                                      },
+                                      "children": [
+                                        "Facebook"
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fab-facebook",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b2fe202 e-con-full e-flex e-con e-child",
+                    "data-id": "b2fe202",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-527281c migrated-widget migrated-widget-heading",
+                        "data-id": "527281c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Services"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-962e962 migrated-nav-menu--dropdown-none migrated-widget migrated-widget-nav-menu",
+                        "data-id": "962e962",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "nav-menu.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "aria-label": "Menu",
+                            "className": "migrated-nav-menu--main migrated-nav-menu__container migrated-nav-menu--layout-vertical e--pointer-underline e--animation-fade"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-1-962e962",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15809"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Mobile App Development"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-15807"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/ai-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "AI Development"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15808"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/digital-product-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Digital Product Development"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "className": "migrated-nav-menu--dropdown migrated-nav-menu__container",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-2-962e962",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15809"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Mobile App Development"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-15807"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/ai-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "AI Development"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15808"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/digital-product-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Digital Product Development"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-e8a6c15 e-con-full e-flex e-con e-child",
+                    "data-id": "e8a6c15",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-f02249b migrated-widget migrated-widget-heading",
+                        "data-id": "f02249b",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Industries"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-9d707ab migrated-nav-menu--dropdown-none migrated-widget migrated-widget-nav-menu",
+                        "data-id": "9d707ab",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "nav-menu.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "aria-label": "Menu",
+                            "className": "migrated-nav-menu--main migrated-nav-menu__container migrated-nav-menu--layout-vertical e--pointer-underline e--animation-fade"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-1-9d707ab",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-20998"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/healthcare-app-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Healthcare"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-16468"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/fitness-app-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Fitness"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15795"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/dating-app-development-company",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Dating"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18243"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/education-app-development-company",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Education"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15797"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/real-estate-app-development-company",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Real Estate"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15798"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/travel-app-development-company",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Travel"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15799"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/food-delivery-app-development",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Food Delivery"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "className": "migrated-nav-menu--dropdown migrated-nav-menu__container",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-2-9d707ab",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-20998"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/healthcare-app-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Healthcare"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-16468"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/fitness-app-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Fitness"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15795"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/dating-app-development-company",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Dating"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18243"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/education-app-development-company",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Education"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15797"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/real-estate-app-development-company",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Real Estate"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15798"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/travel-app-development-company",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Travel"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15799"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/food-delivery-app-development",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Food Delivery"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-09d7518 e-con-full e-flex e-con e-child",
+                    "data-id": "09d7518",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-858efdb migrated-widget migrated-widget-heading",
+                        "data-id": "858efdb",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Case Studies"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c0afecc migrated-nav-menu--dropdown-none migrated-widget migrated-widget-nav-menu",
+                        "data-id": "c0afecc",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "nav-menu.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "aria-label": "Menu",
+                            "className": "migrated-nav-menu--main migrated-nav-menu__container migrated-nav-menu--layout-vertical e--pointer-underline e--animation-fade"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-1-c0afecc",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18244"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/wordsmith-pro",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "WordSmith Pro"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18245"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/dps-airem",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "DPS Airem"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18246"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/state-of-the-art-chiropractic",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "State of the Art Chiropractic"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18247"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/family-entertainment-group",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Family Entertainment Group"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18248"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/stakbread",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "StakBread"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "className": "migrated-nav-menu--dropdown migrated-nav-menu__container",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-2-c0afecc",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18244"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/wordsmith-pro",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "WordSmith Pro"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18245"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/dps-airem",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "DPS Airem"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18246"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/state-of-the-art-chiropractic",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "State of the Art Chiropractic"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18247"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/family-entertainment-group",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Family Entertainment Group"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18248"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/portfolio/stakbread",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "StakBread"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b765cce e-con-full e-flex e-con e-child",
+                    "data-id": "b765cce",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-de1091c migrated-widget migrated-widget-heading",
+                        "data-id": "de1091c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Locations"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b3aa107 migrated-nav-menu--dropdown-none migrated-widget migrated-widget-nav-menu",
+                        "data-id": "b3aa107",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "nav-menu.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "aria-label": "Menu",
+                            "className": "migrated-nav-menu--main migrated-nav-menu__container migrated-nav-menu--layout-vertical e--pointer-underline e--animation-fade"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-1-b3aa107",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15800"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-san-francisco",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "San Francisco"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15802"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-in-toronto-canada",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Toronto"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15804"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-austin",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Austin"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15801"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-new-york",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "New York"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15803"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-singapore",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Singapore"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15806"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-london-uk",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "London"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15805"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-dubai-uae",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Dubai"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "className": "migrated-nav-menu--dropdown migrated-nav-menu__container",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-2-b3aa107",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15800"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-san-francisco",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "San Francisco"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15802"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-in-toronto-canada",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Toronto"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15804"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-austin",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Austin"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15801"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-new-york",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "New York"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15803"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-singapore",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Singapore"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15806"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-london-uk",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "London"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15805"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/mobile-app-development-company-dubai-uae",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Dubai"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-d9134a6 e-con-full e-flex e-con e-child",
+                    "data-id": "d9134a6",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-1378aea migrated-widget migrated-widget-heading",
+                        "data-id": "1378aea",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Company"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-ec6eb6d migrated-nav-menu--dropdown-none migrated-widget migrated-widget-nav-menu",
+                        "data-id": "ec6eb6d",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "nav-menu.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "aria-label": "Menu",
+                            "className": "migrated-nav-menu--main migrated-nav-menu__container migrated-nav-menu--layout-vertical e--pointer-underline e--animation-fade"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-1-ec6eb6d",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-10619"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/about-us",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "About"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18238"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/blog",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Blog"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-20199"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/press-release",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Press & Media"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18242"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/partnership",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Partnership"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18239"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/life-at-inceptives-digital",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Life At Inceptives Digital"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18240"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/leadership",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Leadership"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18241"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/founders-letter",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Founder’s Letter"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15794"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/contact-us",
+                                        "className": "migrated-item"
+                                      },
+                                      "children": [
+                                        "Contact Us"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "nav",
+                          "props": {
+                            "className": "migrated-nav-menu--dropdown migrated-nav-menu__container",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "id": "menu-2-ec6eb6d",
+                                "className": "migrated-nav-menu sm-vertical"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-10619"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/about-us",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "About"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18238"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/blog",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Blog"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-20199"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/press-release",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Press & Media"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18242"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/partnership",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Partnership"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18239"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/life-at-inceptives-digital",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Life At Inceptives Digital"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18240"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/leadership",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Leadership"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-18241"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/founders-letter",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Founder’s Letter"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-15794"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "props": {
+                                        "href": "/contact-us",
+                                        "className": "migrated-item",
+                                        "tabIndex": "-1"
+                                      },
+                                      "children": [
+                                        "Contact Us"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-25c63ca e-con-full e-flex e-con e-child",
+                "data-id": "25c63ca",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b841eec e-con-full e-flex e-con e-child",
+                    "data-id": "b841eec",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-fde8fcc migrated-widget migrated-widget-icon-box",
+                        "data-id": "fde8fcc",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-box.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-icon-box-wrapper"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-icon-box-content"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-box-title"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\tRecognized and Reviewed On \t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {
+                                    "className": "migrated-icon-box-description"
+                                  },
+                                  "children": [
+                                    "\n\t\t\t\t\t\tIndependent reviews and industry recognition from established B2B platforms.\t\t\t\t\t"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-285a298 e-con-full e-flex e-con e-child",
+                    "data-id": "285a298",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-43a4abb migrated-widget migrated-widget-image",
+                        "data-id": "43a4abb",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "https://clutch.co/profile/inceptives-digital",
+                            "rel": "nofollow"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "img",
+                              "props": {
+                                "width": 182,
+                                "height": 84,
+                                "src": "/wp-content/uploads/2026/07/clutch.png",
+                                "className": "attachment-large size-large wp-image-162",
+                                "alt": "Clutch Review Badge",
+                                "loading": "lazy",
+                                "decoding": "async"
+                              },
+                              "children": [],
+                              "assetId": "image-1daaef6df66468"
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-55216d6 migrated-widget migrated-widget-image",
+                        "data-id": "55216d6",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "https://www.bark.com/en/us/b/inceptives-digital/Pww4ae/",
+                            "rel": "nofollow"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "img",
+                              "props": {
+                                "width": 183,
+                                "height": 87,
+                                "src": "/wp-content/uploads/2026/07/bark.png",
+                                "className": "attachment-large size-large wp-image-164",
+                                "alt": "Bark Review Badge",
+                                "loading": "lazy",
+                                "decoding": "async"
+                              },
+                              "children": [],
+                              "assetId": "image-9067101608dcfc"
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-e8961b0 migrated-widget migrated-widget-image",
+                        "data-id": "e8961b0",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "https://www.trustpilot.com/review/inceptivesdigital.com",
+                            "rel": "nofollow"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "img",
+                              "props": {
+                                "width": 186,
+                                "height": 76,
+                                "src": "/wp-content/uploads/2026/07/trustpilot.png",
+                                "className": "attachment-large size-large wp-image-163",
+                                "alt": "Trustpilot Review Badge",
+                                "loading": "lazy",
+                                "decoding": "async"
+                              },
+                              "children": [],
+                              "assetId": "image-cb9c0d5af35491"
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-a042660 e-con-full e-flex e-con e-child",
+                "data-id": "a042660",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4448312 e-con-full e-flex e-con e-child",
+                    "data-id": "4448312",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-499f69d migrated-widget migrated-widget-icon-box",
+                        "data-id": "499f69d",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-box.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-icon-box-wrapper"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-icon-box-content"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-box-title"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "\n\t\t\t\t\t\t\tOur Locations\t\t\t\t\t\t"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-18ca075 e-con-full e-flex e-con e-child",
+                    "data-id": "18ca075",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2657555 e-con-full e-flex e-con e-child",
+                        "data-id": "2657555",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-17d76ae location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "17d76ae",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/united-states-1.png",
+                                        "className": "attachment-full size-full wp-image-13875",
+                                        "alt": "United States",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-672bb7c80b4fe5"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "New York, USA"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/yDzMFfkNex88G5Ch9"
+                                          },
+                                          "children": [
+                                            "1178 Broadway, 3rd Floor New York, NY 10001 United States"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-54df7f9 e-con-full e-flex e-con e-child",
+                        "data-id": "54df7f9",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-96247cb location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "96247cb",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/united-states-1.png",
+                                        "className": "attachment-full size-full wp-image-13875",
+                                        "alt": "United States",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-81baad1aebfacd"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "San Francisco, USA"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/zyBa2azZrPZohDqK6"
+                                          },
+                                          "children": [
+                                            "490 Post St, Ste 500 San Francisco, CA 94102 United States"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b143a5b e-con-full e-flex e-con e-child",
+                        "data-id": "b143a5b",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-0233756 location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "0233756",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/united-states-1.png",
+                                        "className": "attachment-full size-full wp-image-13875",
+                                        "alt": "United States",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-9e8b1da7221e25"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Austin, USA"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/z2jiThRTxDGZStZh7"
+                                          },
+                                          "children": [
+                                            "5900 Balcones Drive, Suite 100 Austin, Texas 78731 United States"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2e839d8 e-con-full e-flex e-con e-child",
+                        "data-id": "2e839d8",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-344f762 location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "344f762",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/united-states-1.png",
+                                        "className": "attachment-full size-full wp-image-13875",
+                                        "alt": "United States",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-a71dc133c3078e"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Allen, USA"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/WRYjYaw7NDaCuZ777"
+                                          },
+                                          "children": [
+                                            "450 Century Parkway, Suite 250 1005 Allen, TX 75013, USA"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-802a830 e-con-full e-flex e-con e-child",
+                        "data-id": "802a830",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-12bbfee location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "12bbfee",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/canda.png",
+                                        "className": "attachment-full size-full wp-image-13929",
+                                        "alt": "Canda",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-1239d3f1f51fbd"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Toronto, Canada"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/kWXeYqPVqd3Sjk219"
+                                          },
+                                          "children": [
+                                            "2482 Yonge Street Toronto, ON M4P 2H5 Canada"
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-92b750c e-con-full e-flex e-con e-child",
+                        "data-id": "92b750c",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-bdfcd8d location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "bdfcd8d",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/uk-icon.webp",
+                                        "className": "attachment-full size-full wp-image-13874",
+                                        "alt": "united kingdom",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-2047652df69591"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "London, UK"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/hUiYnaCQQzBhwiYq8"
+                                          },
+                                          "children": [
+                                            "Office 1776, 60 Tottenham Court Road, Fitzrovia, London W1T 2EW"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-802f2c7 e-con-full e-flex e-con e-child",
+                        "data-id": "802f2c7",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-29c0e55 location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "29c0e55",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/uae-flag.webp",
+                                        "className": "attachment-full size-full wp-image-13876",
+                                        "alt": "",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-6379de3ab6f222"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Dubai, UAE"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/mkz2q5JivLcZYdkW6"
+                                          },
+                                          "children": [
+                                            "IFZA Business Park Building A2, Dubai Silicon Oasis Dubai, UAE"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-0f5511c e-con-full e-flex e-con e-child",
+                        "data-id": "0f5511c",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-0b377fc location-link migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "0b377fc",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 36,
+                                        "height": 36,
+                                        "src": "/wp-content/uploads/2026/07/singa.png",
+                                        "className": "attachment-full size-full wp-image-13931",
+                                        "alt": "Singapore",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-cbb3fbbc4281da"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Singapore"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "href": "https://maps.app.goo.gl/g8emozVHzc7tXwCLA"
+                                          },
+                                          "children": [
+                                            "No. 7 Temasek Boulevard #12-07, Suntec Tower One Singapore 038987"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-edba6ab e-con-full e-flex e-con e-child",
+                        "data-id": "edba6ab",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-c9f3145 migrated-position-top migrated-widget migrated-widget-image-box",
+                            "data-id": "c9f3145",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image-box.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-image-box-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "figure",
+                                  "props": {
+                                    "className": "migrated-image-box-img"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "props": {
+                                        "width": 33,
+                                        "height": 33,
+                                        "src": "/wp-content/uploads/2026/07/pakistan.png",
+                                        "className": "attachment-full size-full wp-image-13871",
+                                        "alt": "Pakistan",
+                                        "loading": "lazy",
+                                        "decoding": "async"
+                                      },
+                                      "children": [],
+                                      "assetId": "image-64d34aada8942e"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-image-box-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-image-box-title"
+                                      },
+                                      "children": [
+                                        "Karachi, Pakistan"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {
+                                        "className": "migrated-image-box-description"
+                                      },
+                                      "children": [
+                                        "Office No. 1, Najeeb Center 172-B Tariq Road, PECHS Karachi 74400, Pakistan"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-797129f e-flex e-con-boxed e-con e-parent",
+        "data-id": "797129f",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-2fa7507 e-con-full e-flex e-con e-child",
+                "data-id": "2fa7507",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-53dfff6 e-con-full e-flex e-con e-child",
+                    "data-id": "53dfff6",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-d08d700 migrated-widget__width-auto migrated-widget-mobile__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "d08d700",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "© 2026 IT Core Solutions LLC DBA Inceptives Digital. All Rights Reserved."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ac242d0 e-con-full e-flex e-con e-child",
+                    "data-id": "ac242d0",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-766c396 migrated-icon-list--layout-inline migrated-mobile-align-center migrated-widget-mobile__width-inherit migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                        "data-id": "766c396",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-list.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "ul",
+                          "props": {
+                            "className": "migrated-icon-list-items migrated-inline-items"
+                          },
+                          "children": [
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item migrated-inline-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/privacy-policy/"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Privacy Policy"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item migrated-inline-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/terms-and-conditions/"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Terms of Use"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-efa9ece migrated-widget-mobile__width-inherit footer-badge migrated-widget migrated-widget-html",
+                        "data-id": "efa9ece",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "html.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "dmca-text",
+                            "href": "https://www.dmca.com/Protection/Status.aspx?ID=f91eaa7d-6fbf-4058-bfda-4801f7c9b566",
+                            "title": "DMCA.com Protection Status"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "/media/9d198c1483e19a755794.png",
+                                "alt": "DMCA.com Protection Status",
+                                "loading": "lazy",
+                                "decoding": "async"
+                              },
+                              "children": [],
+                              "assetId": "image-86bb155aca8f7c"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-66b6757 e-con-full e-flex e-con e-parent",
+        "data-id": "66b6757",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "migrated-element migrated-element-c6e2df6 migrated-widget migrated-widget-html",
+            "data-id": "c6e2df6",
+            "data-element_type": "widget",
+            "data-e-type": "widget",
+            "data-widget": "html.default"
+          },
+          "children": [
+            {
+              "tag": "video",
+              "props": {
+                "autoPlay": true,
+                "muted": true,
+                "loop": true,
+                "playsInline": true,
+                "preload": "none"
+              },
+              "children": [
+                {
+                  "tag": "source",
+                  "props": {
+                    "type": "video/mp4",
+                    "data-media-src": "/wp-content/uploads/2026/07/footer.mp4"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

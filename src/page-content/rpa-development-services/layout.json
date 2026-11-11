@@ -1,0 +1,45 @@
+{
+  "path": "/rpa-development-services",
+  "key": "1f2c53ffae09ef4bfd3b4f71e3558e40be3f2fc2",
+  "sourceUrl": "https://inceptivesdigital.com/rpa-development-services",
+  "bodyClass": "wp-singular page-template-default page page-id-6699 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-6699 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "c6f4d0fe70a4a09ef168515b"
+    },
+    {
+      "shared": "61bead61fc935e2133fed72d"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

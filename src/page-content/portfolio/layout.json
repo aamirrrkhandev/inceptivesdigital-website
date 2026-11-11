@@ -1,0 +1,43 @@
+{
+  "path": "/portfolio",
+  "key": "04a07f83987b389d6e31ebd863ca673a2cf7e523",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio",
+  "bodyClass": "wp-singular page-template-default page page-id-10291 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-10291 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "divider.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "519d047b47ad64ece030487c"
+    },
+    {
+      "shared": "f01a4b02695efd38a566bdf2"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

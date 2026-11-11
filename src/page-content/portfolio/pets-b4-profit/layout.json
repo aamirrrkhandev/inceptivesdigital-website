@@ -1,0 +1,44 @@
+{
+  "path": "/portfolio/pets-b4-profit",
+  "key": "1ce8a7b7adaf4ace60a85d5d175d9c053047009a",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/pets-b4-profit",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-11703 attachmentid-11703 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-11703 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "6b7b0b8299958209eecf7b92"
+    },
+    {
+      "shared": "b67a1d87f7357a2bfdff0f0b"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

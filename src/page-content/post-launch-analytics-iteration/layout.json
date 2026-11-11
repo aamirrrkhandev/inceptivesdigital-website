@@ -1,0 +1,48 @@
+{
+  "path": "/post-launch-analytics-iteration",
+  "key": "3d209ce828ad8b5dda7a3dfd64fde54e1f034e05",
+  "sourceUrl": "https://inceptivesdigital.com/post-launch-analytics-iteration",
+  "bodyClass": "wp-singular page-template-default page page-id-1583 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1583 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "html.default",
+    "template.default",
+    "nested-carousel.default",
+    "counter.default",
+    "nested-tabs.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "a5f61b60d21f1ddd4addcbc9"
+    },
+    {
+      "shared": "bcbd4f00e86b3aa6405cc7ce"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

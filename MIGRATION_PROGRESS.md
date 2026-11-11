@@ -2,6 +2,10 @@
 
 Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_8ChPy85f6GN5DjWJuUPiGTPUCiRC, runtime source commit 47d027568be07675a47ab0468c88520dff51d9ef).
 
+## Editable page folders, blog parity and calendar — 11 November 2026
+
+80 static/restored/thank-you pages now have explicit App Router delegates and page-content folders, with 915 editable section components, per-page content/SEO/schema/assets files and 1,781 physical asset aliases. PAGE_DIRECTORY.csv maps 248 current URLs; WordPress blog posts remain API-managed. Local model, rendered-content/SEO parity, 16 screenshot comparisons, responsive navigation/media checks and ten isolated native tracking journeys pass. Press Release is now live-source refreshed; custom pins/badges and reviewer identity match WordPress. The Schedule a Meeting popup additionally restores the missing on-open iframe URL and its existing load/retry lifecycle, without design/SEO changes. See EDITING_GUIDE.md, BLOG_API_REFERENCE.md and EDITABLE_PAGES_VERIFICATION.md. Candidate release verification follows before changing the staging alias.
+
 ## CallRail capture acknowledgement fix — 11 November 2026
 
 The two missing types were homepage footer/popup. Slow-network reproduction showed the previous flow navigating before acknowledgement. The shared helper now waits for the installed native SDK's capture response, with bounded readiness/response deadlines and no additional vendor request. The before/after test changed from two attempts and premature navigation to one accepted request before navigation for each homepage form. Production build/typecheck and all ten isolated SDK journeys passed.

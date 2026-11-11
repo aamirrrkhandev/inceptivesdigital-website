@@ -1,0 +1,117 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer",
+        "url": "https://inceptivesdigital.com/portfolio/pulse-check-timer",
+        "name": "Pulse Check Timer CPR Application Case Study",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer#primaryimage"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer#primaryimage"
+        },
+        "thumbnailUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/pluse-banner.png",
+        "datePublished": "2026-08-07T06:26:00+00:00",
+        "dateModified": "2026-10-05T12:25:17+00:00",
+        "description": "See how Pulse Check Timer automated AHA-compliant CPR cycles, intervention prompts, event documentation, and offline reporting for emergency responders.",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/portfolio/pulse-check-timer"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer#primaryimage",
+        "url": "https://inceptivesdigital.com/wp-content/uploads/2026/08/pluse-banner.png",
+        "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/pluse-banner.png",
+        "width": 1340,
+        "height": 806
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/portfolio/pulse-check-timer#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pulse Check Timer"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

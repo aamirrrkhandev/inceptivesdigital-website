@@ -1,0 +1,46 @@
+{
+  "path": "/ai-mvp-development",
+  "key": "896f360f4244f94a53125a7509faec28b3a0d245",
+  "sourceUrl": "https://inceptivesdigital.com/ai-mvp-development",
+  "bodyClass": "wp-singular page-template-default page page-id-4458 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4458 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "divider.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "7910dd5c979ecaa951e95f58"
+    },
+    {
+      "shared": "7834e92e09cb06ca00c0ace0"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

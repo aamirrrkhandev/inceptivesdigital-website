@@ -1,0 +1,100 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/terms-and-conditions",
+        "url": "https://inceptivesdigital.com/terms-and-conditions",
+        "name": "Terms & Conditions - Inceptives Digital",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "datePublished": "2026-08-19T11:39:12+00:00",
+        "dateModified": "2026-09-28T23:28:26+00:00",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/terms-and-conditions#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/terms-and-conditions"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/terms-and-conditions#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Terms &#038; Conditions"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

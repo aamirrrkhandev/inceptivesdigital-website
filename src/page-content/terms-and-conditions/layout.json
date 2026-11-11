@@ -1,0 +1,42 @@
+{
+  "path": "/terms-and-conditions",
+  "key": "a32705265ed01c224af35b25ea7ba53aad0a619f",
+  "sourceUrl": "https://inceptivesdigital.com/terms-and-conditions",
+  "bodyClass": "wp-singular page-template-default page page-id-15776 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-15776 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "7bb4664dcd2d19026b9803c9"
+    },
+    {
+      "shared": "19995a1a229ea07be1011780"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

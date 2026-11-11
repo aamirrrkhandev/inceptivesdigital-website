@@ -1,0 +1,48 @@
+{
+  "path": "/react-native-app-development",
+  "key": "e9aa77b19760f209c0f9df7d39f6a9313748dc7a",
+  "sourceUrl": "https://inceptivesdigital.com/react-native-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-1441 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1441 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "html.default",
+    "nested-carousel.default",
+    "template.default",
+    "counter.default",
+    "nested-tabs.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "b75e7c590ff9fddab7734fbf"
+    },
+    {
+      "shared": "e989141d5a1117c511f191fd"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

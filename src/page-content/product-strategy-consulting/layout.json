@@ -1,0 +1,47 @@
+{
+  "path": "/product-strategy-consulting",
+  "key": "bb6264fea139ff658a5669d12918c2f42dc3cb8c",
+  "sourceUrl": "https://inceptivesdigital.com/product-strategy-consulting",
+  "bodyClass": "wp-singular page-template-default page page-id-4971 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4971 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "c3f16978c31fc113c3189e36"
+    },
+    {
+      "shared": "56a52e0db321fac7f6ec4b9c"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

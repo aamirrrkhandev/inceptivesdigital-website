@@ -1,0 +1,45 @@
+{
+  "path": "/business-process-automation",
+  "key": "c4f9083b91c8659190f2c106b0b4404e19f08e9c",
+  "sourceUrl": "https://inceptivesdigital.com/business-process-automation",
+  "bodyClass": "wp-singular page-template-default page page-id-6648 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-6648 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "8fb30ab9539c443c3262632f"
+    },
+    {
+      "shared": "d767d6d56ee2d48a46693cbf"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

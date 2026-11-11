@@ -1,0 +1,44 @@
+{
+  "path": "/portfolio/wordsmith-pro",
+  "key": "fd85718fd9e0c61805fa3bb3617e82f6499ca64e",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/wordsmith-pro",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-11387 attachmentid-11387 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-11387 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "9a1d3989a4d9eb37458a8e9d"
+    },
+    {
+      "shared": "d9d309f783bbfe0502dfcbe1"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "0068eb410e9f469de7952ae3"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

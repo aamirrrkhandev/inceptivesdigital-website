@@ -1,3 +1,4 @@
+import { editablePageIndex } from "@/lib/editable-pages";
 import { notFound } from "next/navigation";
 import routes from "../../../content/routes.json";
 import { getWordPressPage } from "@/lib/wordpress-content";
@@ -14,7 +15,7 @@ export function generateStaticParams() {
       .filter((r) => r.path !== "/" && !/^\/blog(?:\/[^/]+)?$/.test(r.path))
       .map((r) => r.path),
     ...Object.keys(secondaryPages),
-  ].map((path) => ({ slug: path.split("/").filter(Boolean) }));
+  ].filter((path) => !(path in editablePageIndex)).map((path) => ({ slug: path.split("/").filter(Boolean) }));
 }
 export async function generateMetadata({
   params,

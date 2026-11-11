@@ -27,10 +27,10 @@ function section(node: LayoutNode, key: number, path: string): React.ReactNode {
     return undefined;
   });
 }
-export default function SecondaryServicePage({ path }: { path: string }) {
+export default function SecondaryServicePage({ path, editablePage, sections, stylesheet, children }: { path: string; editablePage?: SitePage; sections?: LayoutNode[]; stylesheet?: string; children?: React.ReactNode }) {
   const data = secondaryPages[path];
   const shell = getPage("/contact-us")!;
-  const page = {
+  const page = editablePage ?? {
     ...shell,
     path,
     key: "restored-" + path.slice(1),
@@ -43,8 +43,9 @@ export default function SecondaryServicePage({ path }: { path: string }) {
       formSourcePath="/contact-us"
       mainContent={
         <main className="secondary-service-page" data-secondary-path={path}>
-          <style>{css}</style>
-          {data.sections.map((node, index) => section(node, index, path))}
+          <style>{stylesheet ?? css}</style>
+          {(sections ?? data.sections).map((node, index) => section(node, index, path))}
+          {children}
           <SecondaryServiceInteractions path={path} />
         </main>
       }

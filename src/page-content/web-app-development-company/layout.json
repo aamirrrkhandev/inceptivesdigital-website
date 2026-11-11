@@ -1,0 +1,49 @@
+{
+  "path": "/web-app-development-company",
+  "key": "9b530901f6e252e4e2719bd3b2983ecc64e484a9",
+  "sourceUrl": "https://inceptivesdigital.com/web-app-development-company",
+  "bodyClass": "wp-singular page-template-default page page-id-1314 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1314 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "shortcode.default",
+    "counter.default",
+    "nested-carousel.default",
+    "image-box.default",
+    "nested-tabs.default",
+    "template.default",
+    "html.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "44bd2888853814165e56542d"
+    },
+    {
+      "shared": "01a40c4c32e536d0540c1b05"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "a",
+  "props": {
+    "className": "skip-link screen-reader-text",
+    "href": "/business-process-automation#content"
+  },
+  "children": [
+    "\n\t\t\tSkip to content\t\t"
+  ]
+}

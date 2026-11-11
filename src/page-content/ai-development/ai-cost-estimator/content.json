@@ -1,0 +1,2382 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-24316 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "24316",
+              "className": "migrated migrated-24316",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-eeb10e3 e-con-full e-flex e-con e-parent",
+        "data-id": "eeb10e3",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "migrated-element migrated-element-7cd17c1 migrated-widget migrated-widget-html",
+            "data-id": "7cd17c1",
+            "data-element_type": "widget",
+            "data-e-type": "widget",
+            "data-widget": "html.default"
+          },
+          "children": [
+            {
+              "tag": "section",
+              "props": {
+                "className": "hero",
+                "id": "estimator"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "hero-grid"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "hero-copy"
+                          },
+                          "children": [
+                            {
+                              "tag": "h1",
+                              "props": {},
+                              "children": [
+                                "\n            Estimate Your ",
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "AI Development Cost"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Have an AI project in mind? Get a clearer starting budget for your chatbot, AI agent, or custom\n            application. Our AI development cost calculator reflects the scope you select, so you can\n            discuss a project quote with realistic expectations."
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "buttons-banner"
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/ai-development/ai-cost-estimator",
+                                    "className": "btn-quote getintouch"
+                                  },
+                                  "children": [
+                                    "Send a Free Quote"
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/ai-development/ai-cost-estimator",
+                                    "className": "btn-schedule openpop-shedule"
+                                  },
+                                  "children": [
+                                    "Schedule A Call"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "estimator-card",
+                            "aria-label": "AI project cost estimator"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "estimator-head"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {},
+                                      "children": [
+                                        "AI Project Cost Estimator"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "p",
+                                      "props": {},
+                                      "children": [
+                                        "Set your requirements to see a preliminary build estimate."
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "tool-badge"
+                                  },
+                                  "children": [
+                                    "FREE TOOL"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "field"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "field-label"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "htmlFor": "project-type"
+                                      },
+                                      "children": [
+                                        "01 — What are you\n                building?"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Choose one"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "select",
+                                  "props": {
+                                    "id": "project-type"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "option",
+                                      "props": {
+                                        "value": "chatbot"
+                                      },
+                                      "children": [
+                                        "AI Chatbot"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "option",
+                                      "props": {
+                                        "value": "agent"
+                                      },
+                                      "children": [
+                                        "AI Agent"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "option",
+                                      "props": {
+                                        "value": "app"
+                                      },
+                                      "children": [
+                                        "AI-Powered Application"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "field"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "field-label"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "02 — Project complexity"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Planning stage"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "choices",
+                                    "role": "group",
+                                    "aria-label": "Project complexity"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "button",
+                                      "props": {
+                                        "className": "choice active",
+                                        "data-complexity": "starter",
+                                        "type": "button"
+                                      },
+                                      "children": [
+                                        "Starter"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "props": {
+                                        "className": "choice",
+                                        "data-complexity": "business",
+                                        "type": "button"
+                                      },
+                                      "children": [
+                                        "Business"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "props": {
+                                        "className": "choice",
+                                        "data-complexity": "advanced",
+                                        "type": "button"
+                                      },
+                                      "children": [
+                                        "Advanced"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "field"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "field-label"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "03 — Additional requirements"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Select all that\n                apply"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "checklist"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "className": "checkline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "input",
+                                          "props": {
+                                            "className": "add-on",
+                                            "defaultValue": "integration",
+                                            "type": "checkbox"
+                                          },
+                                          "children": []
+                                        },
+                                        "Multiple third-party integrations\n              "
+                                      ]
+                                    },
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "className": "checkline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "input",
+                                          "props": {
+                                            "className": "add-on",
+                                            "defaultValue": "data",
+                                            "type": "checkbox"
+                                          },
+                                          "children": []
+                                        },
+                                        "Significant data\n                preparation or RAG\n              "
+                                      ]
+                                    },
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "className": "checkline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "input",
+                                          "props": {
+                                            "className": "add-on",
+                                            "defaultValue": "compliance",
+                                            "type": "checkbox"
+                                          },
+                                          "children": []
+                                        },
+                                        "Additional\n                security or compliance controls\n              "
+                                      ]
+                                    },
+                                    {
+                                      "tag": "label",
+                                      "props": {
+                                        "className": "checkline"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "input",
+                                          "props": {
+                                            "className": "add-on",
+                                            "defaultValue": "platform",
+                                            "type": "checkbox"
+                                          },
+                                          "children": []
+                                        },
+                                        "Multi-platform\n                product requirements\n              "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "result",
+                                "aria-live": "polite"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "result-kicker"
+                                  },
+                                  "children": [
+                                    "Preliminary development range"
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "result-value",
+                                    "id": "result-value"
+                                  },
+                                  "children": [
+                                    "$8k – $20k"
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "result-line"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "id": "result-timeline"
+                                      },
+                                      "children": [
+                                        "Indicative delivery: 4–8 weeks"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "id": "result-profile"
+                                      },
+                                      "children": [
+                                        "Focused conversational build"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {
+                                    "className": "result-note"
+                                  },
+                                  "children": [
+                                    "This is an indicative build estimate, not a quote. Add-on requirements\n              can raise the result above the published planning bands. Monthly model usage and cloud\n              expenses are separate."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "btn btn-dark",
+                                "href": "/contact-us"
+                              },
+                              "children": [
+                                "Get a Scoped\n            Estimate ↗"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-light",
+                "id": "ranges"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "section-head"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {},
+                              "children": [
+                                "\n            AI Development Pricing",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "by Project Type.\n          "
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Set your AI development budget against the product you intend to launch. These custom project\n          ranges show the starting investment for each category, while advanced requirements may move a\n          final quote higher."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bands"
+                      },
+                      "children": [
+                        {
+                          "tag": "article",
+                          "props": {
+                            "className": "band"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-top"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-tag"
+                                  },
+                                  "children": [
+                                    "Conversational AI"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-icon"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "viewBox": "0 0 24 24"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "AI Chatbot"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Planning a customer-facing chatbot? Custom AI chatbot development can connect your company\n            knowledge to existing support systems, with escalation controls for requests that need a person.\n          "
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-price"
+                              },
+                              "children": [
+                                "$8K–$50K+"
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "props": {},
+                              "children": [
+                                "Focused to integrated solutions"
+                              ]
+                            },
+                            {
+                              "tag": "ul",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "Knowledge base and RAG workflows"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "CRM or helpdesk integrations"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "Human handoff and analytics"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "props": {
+                            "className": "band"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-top"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-tag"
+                                  },
+                                  "children": [
+                                    "Workflow intelligence"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-icon"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "viewBox": "0 0 24 24"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M11 21h-1l1-7H7.5c-.88 0-.33-.75-.31-.78C8.48 10.94 10.42 7.54 13.01 3h1l-1 7h3.51c.4 0 .62.19.4.66C13.52 16.03 11 21 11 21z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "AI Agent"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Business-critical workflows call for agents with reliable system access. AI agent development\n            costs reflect the authority each agent needs and the checks behind every sensitive action."
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-price"
+                              },
+                              "children": [
+                                "$30K–$180K+"
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "props": {},
+                              "children": [
+                                "Business workflow automation"
+                              ]
+                            },
+                            {
+                              "tag": "ul",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "Workflow orchestration and tool calling"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "CRM, ERP, and API access"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "Guardrails, approvals, and audit logs"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "props": {
+                            "className": "band"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-top"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-tag"
+                                  },
+                                  "children": [
+                                    "Product engineering"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "band-icon"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "viewBox": "0 0 24 24"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "AI App"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Your AI app development investment covers a complete digital product, including the engineering\n            around its AI features. New platforms demand their own application architecture and production\n            infrastructure."
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "band-price"
+                              },
+                              "children": [
+                                "$25K–$150K+"
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "props": {},
+                              "children": [
+                                "Focused MVP to production application"
+                              ]
+                            },
+                            {
+                              "tag": "ul",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "UI/UX, backend, and databases"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "AI integration and evaluation"
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {},
+                                  "children": [
+                                    "Accounts, dashboards, analytics, deployment"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "small inline-0077b82caa"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "props": {},
+                          "children": [
+                            "Pricing note:"
+                          ]
+                        },
+                        "\n        These figures represent illustrative planning ranges, not price ceilings or market averages.\n        Advanced builds and selected add-ons can produce higher estimates. Model/API usage, hosting, and\n        continuing maintenance sit outside development costs unless your quote includes them.\n      "
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-light inline-21e45ef4c3",
+                "id": "methodology"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap method"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "method-card"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "Understand the Costs Behind Your AI Project Estimate"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Your AI development cost estimate covers more than the model you choose. It accounts for the\n          engineering behind your solution and how additional project requirements influence your initial\n          investment."
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "method-list"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "method-row-heading"
+                                  },
+                                  "children": [
+                                    "Your Estimate Covers the Initial Build"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {
+                                    "className": "method-row-copy"
+                                  },
+                                  "children": [
+                                    "Application development, AI integration, backend systems, and\n              production testing contribute to your estimated project cost."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "method-row-heading"
+                                  },
+                                  "children": [
+                                    "More Complex Requirements Mean Higher Costs"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {
+                                    "className": "method-row-copy"
+                                  },
+                                  "children": [
+                                    "Connecting multiple business systems or preparing large datasets\n              takes additional engineering time. Advanced security requirements can increase your\n              development budget further."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "method-row-heading"
+                                  },
+                                  "children": [
+                                    "Monthly Operating Costs Come Separately"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {
+                                    "className": "method-row-copy"
+                                  },
+                                  "children": [
+                                    "After launch, AI model usage and cloud hosting introduce recurring\n              expenses. Your business may also need ongoing maintenance and third-party software\n              subscriptions."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "method-copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "How Our AI Cost Calculator Determines Your Budget"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "The calculator starts with your project type and development complexity. A customer support\n          chatbot has different engineering requirements from an AI agent that performs tasks across your\n          business systems."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Our AI project cost estimator then adjusts the initial range for your selected integrations, data\n          preparation, security needs, and platform requirements. The result gives you a preliminary budget\n          for your specific project scope."
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "method-steps",
+                            "aria-label": "Three steps in the estimate calculation"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-step"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "method-step-number"
+                                  },
+                                  "children": [
+                                    "01"
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "Start with the project type"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Chatbot, AI agent, or AI-powered\n                application"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-step"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "method-step-number"
+                                  },
+                                  "children": [
+                                    "02"
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "Set the development complexity"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Starter, Business, or Advanced\n                scope"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "method-step"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "method-step-number"
+                                  },
+                                  "children": [
+                                    "03"
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "Apply additional requirements"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "props": {},
+                                      "children": [
+                                        "Integrations, data work, security, or\n                multiple platforms"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "note"
+                          },
+                          "children": [
+                            {
+                              "tag": "b",
+                              "props": {},
+                              "children": [
+                                "Estimate Note: "
+                              ]
+                            },
+                            "\n          These figures provide preliminary AI development pricing, not a fixed quote. Inceptives Digital\n          reviews your technical requirements before confirming the development cost.\n        "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-dark",
+                "id": "drivers"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "center section-intro"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "\n          What Drives Custom AI Development Costs?\n        "
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Custom AI development costs depend on the work your product demands. Review the six requirements\n          that can change your engineering estimate before you approve a budget."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "drivers"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "01"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Scope and workflows"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "More user roles, workflows, permissions, edge cases, and exception paths increase engineering\n            and QA effort."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "02"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Data readiness"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Unstructured, inconsistent, inaccessible, or sensitive data can add preparation work before\n            reliable AI is possible."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "03"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Model strategy"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Hosted APIs, private deployments, retrieval systems, custom evaluation, and latency\n            requirements carry different costs."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "04"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Integrations"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Legacy platforms, restricted APIs, identity systems, payments, and operational tools increase\n            implementation complexity."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "05"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Security and controls"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Sensitive workflows may require stricter access controls, auditability, human approval, and\n            failure handling."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "driver"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "driver-number"
+                              },
+                              "children": [
+                                "06"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Expected usage"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Traffic, inference volume, storage, observability, and uptime expectations influence production\n            architecture and run cost."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-light",
+                "id": "timeline"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "section-head"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {},
+                              "children": [
+                                "\n            How Long Does",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "AI Development Take?\n          "
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "A focused chatbot can reach launch sooner than a complex enterprise system. Your AI development\n          timeline depends on technical scope and the readiness of the systems your project needs."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "timeline"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "milestone"
+                          },
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Phase 01"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Discovery"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Define business outcome, users, scope, constraints, and success criteria."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "milestone"
+                          },
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Phase 02"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Architecture"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Design model, data, UX, integrations, permissions, and failure handling."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "milestone"
+                          },
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Phase 03"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Build"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Engineer application functionality, AI workflows, backend services, and integrations."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "milestone"
+                          },
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Phase 04"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Evaluate"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Test output quality, action reliability, security, latency, and edge cases."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "milestone"
+                          },
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Phase 05"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                "Launch"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Deploy, monitor, document, measure usage, and refine the product in production."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-dark inline-add5e54ce0"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap ownership"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {},
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "\n          AI Maintenance Costs",
+                            {
+                              "tag": "br",
+                              "props": {},
+                              "children": []
+                            },
+                            "After Launch\n        "
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Your development quote covers the initial build. After launch, model usage and hosting add\n          recurring expenses. Include AI maintenance costs in your total cost of ownership before approving\n          the investment."
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "ownership-list"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "ownership-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "b",
+                                  "props": {},
+                                  "children": [
+                                    "Model and API usage"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Inference requests, tokens, embeddings, reranking, voice, and other third-party AI services.\n            "
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "ownership-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "b",
+                                  "props": {},
+                                  "children": [
+                                    "Cloud and data infrastructure"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Application hosting, databases, storage, search, queues, observability, and network services.\n            "
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "ownership-row"
+                              },
+                              "children": [
+                                {
+                                  "tag": "b",
+                                  "props": {},
+                                  "children": [
+                                    "Maintenance and evaluation"
+                                  ]
+                                },
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Security updates, workflow changes, model evaluation, issue resolution, and product\n              iteration."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "cost-panel"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {},
+                          "children": [
+                            "Your Monthly AI Operating Costs"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "These bars are illustrative. They show categories to monitor, not fixed cost percentages."
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "cost-bar"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "cost-bar-head"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "AI inference and external services"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "Usage-based"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "track"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "fill inline-55df5a839a"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "cost-bar"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "cost-bar-head"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "Cloud and data infrastructure"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "Workload-based"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "track"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "fill inline-fd3867848e"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "cost-bar"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "cost-bar-head"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "Quality, monitoring, and\n              maintenance"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {},
+                                  "children": [
+                                    "Scope-based"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "track"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "fill inline-4b84ae59a7"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "section section-light",
+                "id": "faq"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "guide-card"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {},
+                              "children": [
+                                "Explore the Full AI Development Cost Guide"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Need a closer look at AI development pricing? The full guide covers project scope, cost\n            drivers, and ongoing expenses before you request a detailed quote."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "btn btn-outline",
+                            "href": "/blog/ai-development-cost"
+                          },
+                          "children": [
+                            "Read\n          the Cost Guide ↗"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "center section-intro"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "Frequently Asked Questions About AI Development Costs"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "faqs"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq open"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "true"
+                              },
+                              "children": [
+                                "\n            How much does custom AI development cost?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "−"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Custom AI development can start around $8,000 for a focused chatbot, while\n            complex AI agents may exceed $180,000. Your project requirements and integration complexity\n            determine the final development investment."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Can I build an AI chatbot for less than $10,000?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, a basic AI chatbot can cost under $10,000 when it handles limited\n            conversations without complex integrations. Custom knowledge bases and business software\n            connections can push development costs higher."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            How much does it cost to build an AI agent for business automation?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Custom AI agents can cost $30,000–$180,000+ to develop. Agents that handle\n            sensitive business operations require additional engineering for system permissions and reliable\n            task execution, which increases the overall project investment."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Can I develop an AI-powered app for under $50,000?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, a focused AI app MVP can fit within a $50,000 budget. However, complex\n            backend systems and multiple platform requirements can increase development costs beyond your\n            initial estimate."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Is building an AI MVP cheaper than developing a complete AI application?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, an AI MVP generally costs less because it focuses on essential\n            functionality. Full applications require additional engineering for production traffic,\n            administration, and advanced features that increase development expenses."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Is adding AI to my existing software cheaper than building a new application?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, integrating AI into existing software often costs less when its\n            architecture supports the new functionality. Outdated backend systems or extensive modifications\n            can reduce those potential cost savings."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Does AI development have monthly costs after launch?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, AI applications generate ongoing expenses through model usage, cloud\n            hosting, and maintenance. Monthly costs depend on customer activity and infrastructure\n            requirements, so include operating expenses in your development budget."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Do AI development companies include API and maintenance costs in their quotes?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Not always. Many AI development quotes exclude recurring API charges and\n            long-term maintenance. Request a detailed cost breakdown to understand which services your\n            initial development investment actually covers."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Can an AI development cost calculator estimate my project accurately?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, an AI development cost calculator can estimate an initial budget range,\n            but it cannot guarantee the final price. Technical requirements and integration complexity still\n            require an engineering review."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "faq"
+                          },
+                          "children": [
+                            {
+                              "tag": "button",
+                              "props": {
+                                "aria-expanded": "false"
+                              },
+                              "children": [
+                                "\n            Can an AI development company provide a fixed-price quote?",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "plus"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "answer"
+                              },
+                              "children": [
+                                "Yes, Inceptives Digital offers fixed-price quotes as an AI development company\n            when project requirements are clear. For projects with evolving requirements, we recommend a\n            flexible engagement model to accommodate changes."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "props": {
+                "className": "cta"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wrap cta-grid"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {},
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "eyebrow inline-a29ed5c879"
+                          },
+                          "children": [
+                            "Your scope / Our engineering review"
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "props": {},
+                          "children": [
+                            "Get a Detailed AI Development Quote"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Have a budget range in mind? Share your project requirements with Inceptives Digital for an\n          engineering review and a written quote based on the scope you actually need."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "props": {
+                        "className": "btn btn-dark",
+                        "href": "/contact-us"
+                      },
+                      "children": [
+                        "Get a Scoped Estimate\n        ↗"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

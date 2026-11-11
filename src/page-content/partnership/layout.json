@@ -1,0 +1,42 @@
+{
+  "path": "/partnership",
+  "key": "bc5d695ee44e8b5c91dace38f8ba3059ad22f230",
+  "sourceUrl": "https://inceptivesdigital.com/partnership",
+  "bodyClass": "wp-singular page-template-default page page-id-9238 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9238 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "image-box.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "f9026ed309bda13adf9b03cc"
+    },
+    {
+      "shared": "b1a1004151bb9bde37b2a501"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "0bceb733f8a1aa3e1b874fc6"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

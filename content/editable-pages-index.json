@@ -1,0 +1,326 @@
+{
+  "/": {
+    "folder": "home",
+    "type": "static"
+  },
+  "/ai-chatbot-development-services": {
+    "folder": "ai-chatbot-development-services",
+    "type": "static"
+  },
+  "/services": {
+    "folder": "services",
+    "type": "static"
+  },
+  "/computer-vision-development-services": {
+    "folder": "computer-vision-development-services",
+    "type": "static"
+  },
+  "/dating-app-development-company": {
+    "folder": "dating-app-development-company",
+    "type": "static"
+  },
+  "/food-delivery-app-development": {
+    "folder": "food-delivery-app-development",
+    "type": "static"
+  },
+  "/dropryde": {
+    "folder": "dropryde",
+    "type": "static"
+  },
+  "/founders-letter": {
+    "folder": "founders-letter",
+    "type": "static"
+  },
+  "/mobile-app-development-new-york": {
+    "folder": "mobile-app-development-new-york",
+    "type": "static"
+  },
+  "/partnership": {
+    "folder": "partnership",
+    "type": "static"
+  },
+  "/travel-app-development-company": {
+    "folder": "travel-app-development-company",
+    "type": "static"
+  },
+  "/mobile-app-development-company-in-toronto-canada": {
+    "folder": "mobile-app-development-company-in-toronto-canada",
+    "type": "static"
+  },
+  "/life-at-inceptives-digital": {
+    "folder": "life-at-inceptives-digital",
+    "type": "static"
+  },
+  "/mobile-app-development-company-london-uk": {
+    "folder": "mobile-app-development-company-london-uk",
+    "type": "static"
+  },
+  "/mobile-app-development-san-francisco": {
+    "folder": "mobile-app-development-san-francisco",
+    "type": "static"
+  },
+  "/mobile-app-development-austin": {
+    "folder": "mobile-app-development-austin",
+    "type": "static"
+  },
+  "/healthcare-app-development": {
+    "folder": "healthcare-app-development",
+    "type": "static"
+  },
+  "/ui-ux-design": {
+    "folder": "ui-ux-design",
+    "type": "static"
+  },
+  "/product-strategy-consulting": {
+    "folder": "product-strategy-consulting",
+    "type": "static"
+  },
+  "/product-rescue-scaling": {
+    "folder": "product-rescue-scaling",
+    "type": "static"
+  },
+  "/digital-product-development": {
+    "folder": "digital-product-development",
+    "type": "static"
+  },
+  "/discovery-sprint": {
+    "folder": "discovery-sprint",
+    "type": "static"
+  },
+  "/interactive-prototyping": {
+    "folder": "interactive-prototyping",
+    "type": "static"
+  },
+  "/mvp-development": {
+    "folder": "mvp-development",
+    "type": "static"
+  },
+  "/custom-software-development": {
+    "folder": "custom-software-development",
+    "type": "static"
+  },
+  "/rpa-development-services": {
+    "folder": "rpa-development-services",
+    "type": "static"
+  },
+  "/ai-app-development-services": {
+    "folder": "ai-app-development-services",
+    "type": "static"
+  },
+  "/system-integration-api-automation": {
+    "folder": "system-integration-api-automation",
+    "type": "static"
+  },
+  "/post-launch-analytics-iteration": {
+    "folder": "post-launch-analytics-iteration",
+    "type": "static"
+  },
+  "/nlp-development-services": {
+    "folder": "nlp-development-services",
+    "type": "static"
+  },
+  "/generative-ai-development-company": {
+    "folder": "generative-ai-development-company",
+    "type": "static"
+  },
+  "/ai-agent-development": {
+    "folder": "ai-agent-development",
+    "type": "static"
+  },
+  "/machine-learning-development-services": {
+    "folder": "machine-learning-development-services",
+    "type": "static"
+  },
+  "/mobile-app-development-company-singapore": {
+    "folder": "mobile-app-development-company-singapore",
+    "type": "static"
+  },
+  "/about-us": {
+    "folder": "about-us",
+    "type": "static"
+  },
+  "/ai-development": {
+    "folder": "ai-development",
+    "type": "static"
+  },
+  "/mobile-app-development-company-dubai-uae": {
+    "folder": "mobile-app-development-company-dubai-uae",
+    "type": "static"
+  },
+  "/terms-and-conditions": {
+    "folder": "terms-and-conditions",
+    "type": "static"
+  },
+  "/blockchain-development": {
+    "folder": "blockchain-development",
+    "type": "static"
+  },
+  "/fintech-app-development": {
+    "folder": "fintech-app-development",
+    "type": "static"
+  },
+  "/real-estate-app-development-company": {
+    "folder": "real-estate-app-development-company",
+    "type": "static"
+  },
+  "/privacy-policy": {
+    "folder": "privacy-policy",
+    "type": "static"
+  },
+  "/react-native-app-development": {
+    "folder": "react-native-app-development",
+    "type": "static"
+  },
+  "/education-app-development-company": {
+    "folder": "education-app-development-company",
+    "type": "static"
+  },
+  "/flutter-app-development": {
+    "folder": "flutter-app-development",
+    "type": "static"
+  },
+  "/portfolio/state-of-the-art-chiropractic": {
+    "folder": "portfolio/state-of-the-art-chiropractic",
+    "type": "static"
+  },
+  "/portfolio": {
+    "folder": "portfolio",
+    "type": "static"
+  },
+  "/portfolio/halwar-connect": {
+    "folder": "portfolio/halwar-connect",
+    "type": "static"
+  },
+  "/portfolio/family-entertainment-group": {
+    "folder": "portfolio/family-entertainment-group",
+    "type": "static"
+  },
+  "/portfolio/pulse-check-timer": {
+    "folder": "portfolio/pulse-check-timer",
+    "type": "static"
+  },
+  "/portfolio/dps-airem": {
+    "folder": "portfolio/dps-airem",
+    "type": "static"
+  },
+  "/portfolio/zoom-read": {
+    "folder": "portfolio/zoom-read",
+    "type": "static"
+  },
+  "/portfolio/wordsmith-pro": {
+    "folder": "portfolio/wordsmith-pro",
+    "type": "static"
+  },
+  "/portfolio/pets-b4-profit": {
+    "folder": "portfolio/pets-b4-profit",
+    "type": "static"
+  },
+  "/portfolio/stakbread": {
+    "folder": "portfolio/stakbread",
+    "type": "static"
+  },
+  "/portfolio/my-tango-event": {
+    "folder": "portfolio/my-tango-event",
+    "type": "static"
+  },
+  "/ecommerce-app-development-company": {
+    "folder": "ecommerce-app-development-company",
+    "type": "static"
+  },
+  "/testimonial": {
+    "folder": "testimonial",
+    "type": "static"
+  },
+  "/leadership": {
+    "folder": "leadership",
+    "type": "static"
+  },
+  "/contact-us": {
+    "folder": "contact-us",
+    "type": "static"
+  },
+  "/backend-api-development": {
+    "folder": "backend-api-development",
+    "type": "static"
+  },
+  "/app-store-optimization": {
+    "folder": "app-store-optimization",
+    "type": "static"
+  },
+  "/ai-automation-services": {
+    "folder": "ai-automation-services",
+    "type": "static"
+  },
+  "/mobile-app-development": {
+    "folder": "mobile-app-development",
+    "type": "static"
+  },
+  "/product-launch-strategy": {
+    "folder": "product-launch-strategy",
+    "type": "static"
+  },
+  "/kotlin-multiplatform-app-development": {
+    "folder": "kotlin-multiplatform-app-development",
+    "type": "static"
+  },
+  "/fitness-app-development": {
+    "folder": "fitness-app-development",
+    "type": "static"
+  },
+  "/business-process-automation": {
+    "folder": "business-process-automation",
+    "type": "static"
+  },
+  "/ai-mvp-development": {
+    "folder": "ai-mvp-development",
+    "type": "static"
+  },
+  "/android-app-development": {
+    "folder": "android-app-development",
+    "type": "static"
+  },
+  "/ai-development/ai-cost-estimator": {
+    "folder": "ai-development/ai-cost-estimator",
+    "type": "static"
+  },
+  "/cross-platform-app-development": {
+    "folder": "cross-platform-app-development",
+    "type": "static"
+  },
+  "/web-app-development-company": {
+    "folder": "web-app-development-company",
+    "type": "static"
+  },
+  "/ios-app-development": {
+    "folder": "ios-app-development",
+    "type": "static"
+  },
+  "/web-development": {
+    "folder": "web-development",
+    "type": "secondary"
+  },
+  "/staff-augmentation": {
+    "folder": "staff-augmentation",
+    "type": "secondary"
+  },
+  "/iot-development": {
+    "folder": "iot-development",
+    "type": "secondary"
+  },
+  "/virtual-reality-development": {
+    "folder": "virtual-reality-development",
+    "type": "secondary"
+  },
+  "/ar-app-development": {
+    "folder": "ar-app-development",
+    "type": "secondary"
+  },
+  "/thank-you": {
+    "folder": "thank-you",
+    "type": "thank-you"
+  },
+  "/press-release": {
+    "folder": "press-release",
+    "type": "wordpress"
+  }
+}

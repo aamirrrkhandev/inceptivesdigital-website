@@ -1,0 +1,42 @@
+{
+  "path": "/ai-development/ai-cost-estimator",
+  "key": "2e91574d873b4476a3f7489619d51ea0233e579c",
+  "sourceUrl": "https://inceptivesdigital.com/ai-development/ai-cost-estimator",
+  "bodyClass": "wp-singular page-template-default page page-id-24316 page-child parent-pageid-2400 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-24316 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "html.default",
+    "text-editor.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "1977538beffebc370381c013"
+    },
+    {
+      "shared": "5f8e3bf58209ec177a20262d"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "d3ee2e38546d422eabb84db5"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

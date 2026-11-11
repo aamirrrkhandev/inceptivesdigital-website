@@ -1,0 +1,49 @@
+{
+  "path": "/mobile-app-development-new-york",
+  "key": "1749fc23ffa6fcad81a6d09bfab6a4045a109ec0",
+  "sourceUrl": "https://inceptivesdigital.com/mobile-app-development-new-york",
+  "bodyClass": "wp-singular page-template-default page page-id-7542 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-7542 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "google_maps.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "ad12e470a9c1713c47529265"
+    },
+    {
+      "shared": "ec10edd679d5f6de7b53db06"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "aca0e89ad5b4171c58847f31"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

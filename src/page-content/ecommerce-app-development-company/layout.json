@@ -1,0 +1,47 @@
+{
+  "path": "/ecommerce-app-development-company",
+  "key": "12335da5b9c3c12cf0d5e76ad7e675577ade7b9f",
+  "sourceUrl": "https://inceptivesdigital.com/ecommerce-app-development-company",
+  "bodyClass": "wp-singular page-template-default page page-id-9158 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9158 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "icon-box.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "divider.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "972b7c9c5630c61337831ce3"
+    },
+    {
+      "shared": "940e5009b0dc8bc5d7ad3cca"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

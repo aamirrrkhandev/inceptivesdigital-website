@@ -1,0 +1,43 @@
+{
+  "path": "/life-at-inceptives-digital",
+  "key": "d1ee10bd408faf8c574bd98803d92df91e5d0756",
+  "sourceUrl": "https://inceptivesdigital.com/life-at-inceptives-digital",
+  "bodyClass": "wp-singular page-template-default page page-id-9633 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9633 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-carousel.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "6170210a28f626c0988dcc6b"
+    },
+    {
+      "shared": "7acea2a6c9c7c613289a32dd"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "30424f21c66be7a77d8ab6d8"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

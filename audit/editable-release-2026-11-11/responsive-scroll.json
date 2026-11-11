@@ -1,0 +1,215 @@
+[
+  {
+    "width": 320,
+    "height": 568,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "height": 568,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 390,
+    "height": 900,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 519,
+    "height": 900,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 820,
+    "height": 900,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 1024,
+    "height": 900,
+    "allSubmenus": true,
+    "nestedScrollbars": 0,
+    "drawerScrollsToBottom": true,
+    "pageUnlocks": true,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "path": "/",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1280,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "path": "/services",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1280,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "path": "/blockchain-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1280,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "path": "/ios-app-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1280,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "path": "/blog",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1280,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "path": "/",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1440,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "path": "/services",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1440,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "path": "/blockchain-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1440,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "path": "/ios-app-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1440,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "path": "/blog",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1440,
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "path": "/",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1920,
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "path": "/services",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1920,
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "path": "/blockchain-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1920,
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "path": "/ios-app-development",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1920,
+    "pass": true
+  },
+  {
+    "width": 1920,
+    "path": "/blog",
+    "owner": "HTML",
+    "rootOverflow": "auto",
+    "bodyOverflow": "visible",
+    "nested": [],
+    "viewport": 1920,
+    "pass": true
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "path": "/app-store-optimization",
+  "key": "d275651e4eaf0001bfb38fdf3d47b337f47d322d",
+  "sourceUrl": "https://inceptivesdigital.com/app-store-optimization",
+  "bodyClass": "wp-singular page-template-default page page-id-1379 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1379 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "html.default",
+    "template.default",
+    "nested-carousel.default",
+    "counter.default",
+    "nested-tabs.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "be7ff9626e94cb28657ca1eb"
+    },
+    {
+      "shared": "6e540fe827105e3a3f371968"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

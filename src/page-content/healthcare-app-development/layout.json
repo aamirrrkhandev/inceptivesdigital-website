@@ -1,0 +1,48 @@
+{
+  "path": "/healthcare-app-development",
+  "key": "1095b5cb0bdb6dd9dc484b94b5167421027e0ff1",
+  "sourceUrl": "https://inceptivesdigital.com/healthcare-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-18562 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-18562 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "template.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "3d7ab721aea9b9d38e040e39"
+    },
+    {
+      "shared": "704c98cbdf88879cb51084c7"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "be75d78fcf5fe2b57e5089b7"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

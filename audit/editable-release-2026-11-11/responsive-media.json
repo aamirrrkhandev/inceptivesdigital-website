@@ -1,0 +1,61 @@
+[
+  {
+    "check": "Original video byte-range delivery",
+    "pass": true
+  },
+  {
+    "check": "Homepage card hover playback",
+    "index": 0,
+    "pass": true
+  },
+  {
+    "check": "Homepage card hover playback",
+    "index": 1,
+    "pass": true
+  },
+  {
+    "check": "Homepage card hover playback",
+    "index": 2,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 320,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 390,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 519,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 768,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 820,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 1024,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "check": "Complete blockchain CTA image",
+    "width": 1920,
+    "pass": true
+  }
+]

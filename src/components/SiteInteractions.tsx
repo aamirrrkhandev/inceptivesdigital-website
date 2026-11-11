@@ -1,10 +1,13 @@
 "use client";
 import { useEffect } from "react";
+import { initializeCalendarPopup } from "@/lib/calendar-popup";
 export default function SiteInteractions({ pageKey }: { pageKey: string }) {
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".migrated-page");
     if (!root) return;
     const cleanups: (() => void)[] = [];
+    const calendar = initializeCalendarPopup(root);
+    cleanups.push(calendar.dispose);
     const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const menuItems = [
       ...root.querySelectorAll<HTMLElement>(".sitekit-megamenu-has"),
@@ -205,7 +208,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       .querySelectorAll<HTMLVideoElement | HTMLIFrameElement>(
         "video,iframe[data-embed-src]",
       )
-      .forEach((e) => mediaObserver.observe(e));
+        .forEach((e) => { if (!e.closest("#schedulePopup")) mediaObserver.observe(e); });
     cleanups.push(() => mediaObserver.disconnect());
     root
       .querySelectorAll<HTMLElement>(".home-container-sty")
@@ -391,12 +394,12 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       popup.classList.add("active", "is-open", "migration-visible");
       popup.setAttribute("aria-hidden", "false");
       document.body.classList.add("id-cp-lock");
-      popup
+      if (id === "schedulePopup") calendar.load();
+      else popup
         .querySelectorAll<HTMLIFrameElement>("iframe[data-embed-src]")
         .forEach((f) => {
-          if (!f.src) f.src = f.dataset.embedSrc || "";
+          if (!f.getAttribute("src")) f.src = f.dataset.embedSrc || "";
         });
-      if (id === "schedulePopup") popup.classList.add("calendly-loaded");
       popup.querySelector<HTMLElement>("button,input,a")?.focus();
     };
     const closePopups = () => {

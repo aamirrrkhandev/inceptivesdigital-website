@@ -1,0 +1,47 @@
+{
+  "path": "/dating-app-development-company",
+  "key": "ebbc93ffb04b55941bc255fd3da55d9fc03a282b",
+  "sourceUrl": "https://inceptivesdigital.com/dating-app-development-company",
+  "bodyClass": "wp-singular page-template-default page page-id-8992 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-8992 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-tabs.default",
+    "nested-carousel.default",
+    "image-box.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "d45147778c44ab834ff95f4d"
+    },
+    {
+      "shared": "591a6ffb22fbf6ac914f2876"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "95cc90088535a09e61ff9c7a"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

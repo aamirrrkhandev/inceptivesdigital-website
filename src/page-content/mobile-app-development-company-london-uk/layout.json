@@ -1,0 +1,49 @@
+{
+  "path": "/mobile-app-development-company-london-uk",
+  "key": "938f5324d4c1d2481f6bf9a3d2ef610cb12d06e7",
+  "sourceUrl": "https://inceptivesdigital.com/mobile-app-development-company-london-uk",
+  "bodyClass": "wp-singular page-template-default page page-id-7541 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-7541 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "google_maps.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "ae778637d8bd773eb6b5df62"
+    },
+    {
+      "shared": "170fb6f7dd7b558574c201d5"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "272a73f127894d2629ada391"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

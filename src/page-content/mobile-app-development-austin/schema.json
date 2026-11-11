@@ -1,0 +1,118 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/mobile-app-development-austin",
+        "url": "https://inceptivesdigital.com/mobile-app-development-austin",
+        "name": "Mobile App Development Company in Austin, TX | iOS & Android",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://inceptivesdigital.com/mobile-app-development-austin#primaryimage"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/mobile-app-development-austin#primaryimage"
+        },
+        "thumbnailUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/07/clutch.png",
+        "datePublished": "2026-07-26T17:24:08+00:00",
+        "dateModified": "2026-09-11T12:21:35+00:00",
+        "description": "Mobile app development in Austin, TX. Custom iOS, Android, and cross-platform apps built for scale with TDPSA, HIPAA, and SOC 2 compliance.",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/mobile-app-development-austin#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/mobile-app-development-austin"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://inceptivesdigital.com/mobile-app-development-austin#primaryimage",
+        "url": "https://inceptivesdigital.com/wp-content/uploads/2026/07/clutch.png",
+        "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/07/clutch.png",
+        "width": 182,
+        "height": 84,
+        "caption": "Clutch Review Badge"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/mobile-app-development-austin#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Mobile App Development Company in Austin, TX | iOS &amp; Android"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

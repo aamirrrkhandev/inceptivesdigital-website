@@ -1,0 +1,160 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://inceptivesdigital.com/#organization",
+    "name": "Inceptives Digital",
+    "url": "https://inceptivesdigital.com",
+    "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "width": 512,
+      "height": 512,
+      "caption": "Inceptives Digital"
+    },
+    "image": {
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+    },
+    "sameAs": [
+      "https://www.facebook.com/inceptivesdigital",
+      "https://www.instagram.com/inceptivesdigital/",
+      "https://www.linkedin.com/company/inceptivesdigital/"
+    ],
+    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+    "email": "info@inceptivesdigital.com",
+    "telephone": "+1 469 788 8527",
+    "legalName": "Inceptives Digital"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://inceptivesdigital.com/#organization",
+    "name": "Inceptives Digital",
+    "url": "https://inceptivesdigital.com",
+    "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "width": 512,
+      "height": 512,
+      "caption": "Inceptives Digital"
+    },
+    "image": {
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+    },
+    "sameAs": [
+      "https://www.facebook.com/inceptivesdigital",
+      "https://www.instagram.com/inceptivesdigital/",
+      "https://www.linkedin.com/company/inceptivesdigital/"
+    ],
+    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+    "email": "info@inceptivesdigital.com",
+    "telephone": "+1 469 788 8527",
+    "legalName": "Inceptives Digital"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "IoT App Development Company | Inceptives Digital",
+    "url": "https://inceptivesdigital.com/iot-development",
+    "description": "Leading IoT app development company offering protected, future-proof, and performance-driven IoT solutions that connect devices and enable real-time, data-driven decision-making.",
+    "mainEntity": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://inceptivesdigital.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "IoT Development",
+            "item": "https://inceptivesdigital.com/iot-development"
+          }
+        ]
+      },
+      {
+        "@type": "Product",
+        "name": "IoT Development Services",
+        "description": "End-to-end IoT development services offering secure device connectivity, real-time analytics, cloud integration, and scalable system architecture for enterprise and startup needs.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Inceptives Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "ratingCount": "18"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is IoT development, and how does it help my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IoT development connects devices, sensors, and software to enable automation, real-time monitoring, and data-driven decision-making. It helps businesses improve operational efficiency, reduce manual work, and achieve measurable ROI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an IoT app or system development cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IoT development costs range from $5,000 for prototypes to over $1,000,000 for advanced enterprise ecosystems. Factors include device complexity, firmware, cloud platforms, mobile apps, and third-party integrations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you ensure IoT security across devices and systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We implement secure communication protocols, identity and access management, encrypted firmware, and compliance-ready cloud platforms. Multi-layer threat detection and secure OTA updates ensure device and data protection end-to-end."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries can benefit from your IoT solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We build IoT solutions for 20+ industries, including healthcare, automotive, logistics, manufacturing, smart homes, finance, sports, and e-commerce—each optimized to meet operational, regulatory, and performance needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which technologies and platforms do you use for IoT development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We work with MQTT, CoAP, HTTP/HTTPS, AWS IoT, Azure IoT Hub, Google Cloud IoT, InfluxDB, Grafana, Node-RED, Docker, and Kubernetes. Our expertise includes sensors, embedded firmware, edge computing, dashboards, and mobile apps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer post-launch maintenance and support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we offer continuous monitoring, OTA firmware updates, security patches, cloud optimization, performance tuning, and feature enhancements to keep your IoT ecosystem stable, secure, and scalable."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

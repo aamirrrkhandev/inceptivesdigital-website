@@ -1,0 +1,1229 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-9238 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "9238",
+              "className": "migrated migrated-9238",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "ExecutionOverPromises"
+              },
+              {
+                "section": "WhyCollaborate"
+              },
+              {
+                "section": "WaitingToStartAPartnershipWithYou"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-be509ba e-flex e-con-boxed e-con e-parent",
+        "data-id": "be509ba",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-8c7f26c e-con-full e-flex e-con e-child",
+                "data-id": "8c7f26c",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6f092fc migrated-widget migrated-widget-heading",
+                    "data-id": "6f092fc",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Build Through ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "Strategic Partnerships"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7fc5470 migrated-widget__width-initial migrated-widget-mobile__width-inherit migrated-widget migrated-widget-text-editor",
+                    "data-id": "7fc5470",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "Inceptives Digital is a digital product development studio responsible for designing and delivering production-grade software for partner-led client engagements. We handle engineering execution so agencies and consultants can scale delivery without building internal teams."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ExecutionOverPromises": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-9dfeaee e-flex e-con-boxed e-con e-parent",
+        "data-id": "9dfeaee",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-1b772f6 e-con-full e-flex e-con e-child",
+                "data-id": "1b772f6",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-211a86d migrated-widget migrated-widget-heading",
+                    "data-id": "211a86d",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "Execution Over Promises"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-28537bb e-grid e-con-full e-con e-child",
+                "data-id": "28537bb",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-11d3814 migrated-position-left migrated-vertical-align-top migrated-vertical-align-top migrated-widget migrated-widget-image-box",
+                    "data-id": "11d3814",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image-box.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-image-box-wrapper"
+                      },
+                      "children": [
+                        {
+                          "tag": "figure",
+                          "props": {
+                            "className": "migrated-image-box-img"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "decoding": "async",
+                                "width": 62,
+                                "height": 70,
+                                "src": "/wp-content/uploads/2026/08/vector.svg",
+                                "className": "attachment-full size-full wp-image-9295",
+                                "alt": "8+ Years",
+                                "loading": "eager",
+                                "fetchPriority": "high"
+                              },
+                              "children": [],
+                              "assetId": "image-455c32fa3a6193"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-image-box-content"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-image-box-title"
+                              },
+                              "children": [
+                                "8+ Years"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "migrated-image-box-description"
+                              },
+                              "children": [
+                                "Product Engineering Experience Sustained delivery across startups, scale-ups, and enterprise product teams."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ecc041d migrated-position-left migrated-vertical-align-top migrated-vertical-align-top migrated-widget migrated-widget-image-box",
+                    "data-id": "ecc041d",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image-box.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-image-box-wrapper"
+                      },
+                      "children": [
+                        {
+                          "tag": "figure",
+                          "props": {
+                            "className": "migrated-image-box-img"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "decoding": "async",
+                                "width": 72,
+                                "height": 72,
+                                "src": "/wp-content/uploads/2026/08/vector2.png",
+                                "className": "attachment-full size-full wp-image-9302",
+                                "alt": "70+ Products",
+                                "loading": "lazy"
+                              },
+                              "children": [],
+                              "assetId": "image-1a4368ada3c23e"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-image-box-content"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-image-box-title"
+                              },
+                              "children": [
+                                "70+ Products"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "migrated-image-box-description"
+                              },
+                              "children": [
+                                "Digital Products Delivered Mobile, web, and backend systems built across multiple industries and use cases."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-8f3f67f migrated-position-left migrated-vertical-align-top migrated-vertical-align-top migrated-widget migrated-widget-image-box",
+                    "data-id": "8f3f67f",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image-box.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-image-box-wrapper"
+                      },
+                      "children": [
+                        {
+                          "tag": "figure",
+                          "props": {
+                            "className": "migrated-image-box-img"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 49,
+                                "height": 42,
+                                "src": "/wp-content/uploads/2026/08/vector3.svg",
+                                "className": "attachment-full size-full wp-image-9303",
+                                "alt": "20+ Industries"
+                              },
+                              "children": [],
+                              "assetId": "image-0c55205a813439"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-image-box-content"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-image-box-title"
+                              },
+                              "children": [
+                                "20+ Industries"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "migrated-image-box-description"
+                              },
+                              "children": [
+                                "Domain Coverage Experience spanning fintech, healthcare, SaaS, logistics, and enterprise platforms."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c2b17dd migrated-position-left migrated-vertical-align-top migrated-vertical-align-top migrated-widget migrated-widget-image-box",
+                    "data-id": "c2b17dd",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image-box.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-image-box-wrapper"
+                      },
+                      "children": [
+                        {
+                          "tag": "figure",
+                          "props": {
+                            "className": "migrated-image-box-img"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 56,
+                                "height": 48,
+                                "src": "/wp-content/uploads/2026/08/vector4.svg",
+                                "className": "attachment-full size-full wp-image-9304",
+                                "alt": "Partner-Led Delivery"
+                              },
+                              "children": [],
+                              "assetId": "image-10f0e8c5b5b469"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-image-box-content"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-image-box-title"
+                              },
+                              "children": [
+                                "Partner-Led Delivery"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "migrated-image-box-description"
+                              },
+                              "children": [
+                                "Co-Build and White-Label Execution Engineering delivery integrated into agency, consultancy, and technology partner workflows."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "WhyCollaborate": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-20f851a e-flex e-con-boxed e-con e-parent",
+        "data-id": "20f851a",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-bd3aada e-con-full e-flex e-con e-child",
+                "data-id": "bd3aada",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-965d7de migrated-widget migrated-widget-heading",
+                    "data-id": "965d7de",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Why Collaborate "
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-577a33c migrated-widget migrated-widget-heading",
+                    "data-id": "577a33c",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "With Inceptives Digital"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6b364b9 migrated-widget__width-inherit migrated-widget migrated-widget-text-editor",
+                    "data-id": "6b364b9",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "If you are evaluating how this partnership works in practice, the following points clarify how Inceptives Digital operates across delivery and execution."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-456de15 e-con-full e-grid e-con e-child",
+                "data-id": "456de15",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-df86250 e-con-full partne-box e-flex e-con e-child",
+                    "data-id": "df86250",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2a1af14 e-con-full e-flex e-con e-child",
+                        "data-id": "2a1af14",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-911788d migrated-widget migrated-widget-heading",
+                            "data-id": "911788d",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Senior Engineering Ownership"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-6499b9f migrated-widget migrated-widget-text-editor",
+                            "data-id": "6499b9f",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Senior engineers and technical leads stay engaged from kickoff through delivery, with no junior handoff."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a60f4ee migrated-widget__width-auto migrated-widget migrated-widget-image",
+                        "data-id": "a60f4ee",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 371,
+                            "height": 371,
+                            "src": "/wp-content/uploads/2026/09/grey-gear.png",
+                            "className": "attachment-large size-large wp-image-18213",
+                            "alt": "",
+                            "srcSet": "/wp-content/uploads/2026/09/grey-gear.png 371w, /wp-content/uploads/2026/09/grey-gear-300x300.png 300w, /wp-content/uploads/2026/09/grey-gear-150x150.png 150w",
+                            "sizes": "(max-width: 371px) 100vw, 371px"
+                          },
+                          "children": [],
+                          "assetId": "image-cae36e5685053f"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-2d8bf88 e-con-full partne-box e-flex e-con e-child",
+                    "data-id": "2d8bf88",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-dc67a1f e-con-full e-flex e-con e-child",
+                        "data-id": "dc67a1f",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-2aa73d2 migrated-widget migrated-widget-heading",
+                            "data-id": "2aa73d2",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Scalable Architecture Decisions"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-fd43ed5 migrated-widget migrated-widget-text-editor",
+                            "data-id": "fd43ed5",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Senior engineers and technical leads stay engaged from kickoff through delivery, with no junior handoff."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2187e8f migrated-widget__width-auto migrated-widget migrated-widget-image",
+                        "data-id": "2187e8f",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 96,
+                            "height": 96,
+                            "src": "/wp-content/uploads/2026/08/Group.svg",
+                            "className": "attachment-large size-large wp-image-9376",
+                            "alt": "Architecture Decisions"
+                          },
+                          "children": [],
+                          "assetId": "image-6e1e228a2d759b"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4c14f0d e-con-full partne-box e-flex e-con e-child",
+                    "data-id": "4c14f0d",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b9073a4 e-con-full e-flex e-con e-child",
+                        "data-id": "b9073a4",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-35f0516 migrated-widget migrated-widget-heading",
+                            "data-id": "35f0516",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Unified Platform Engineering"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-d3261e5 migrated-widget migrated-widget-text-editor",
+                            "data-id": "d3261e5",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Senior engineers and technical leads stay engaged from kickoff through delivery, with no junior handoff."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-1b52410 migrated-widget__width-auto migrated-widget migrated-widget-image",
+                        "data-id": "1b52410",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 89,
+                            "height": 89,
+                            "src": "/wp-content/uploads/2026/08/fi_3002128.svg",
+                            "className": "attachment-large size-large wp-image-9380",
+                            "alt": "Unified Platform"
+                          },
+                          "children": [],
+                          "assetId": "image-f4fbffd4440ac1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-bc62d1f e-con-full partne-box e-flex e-con e-child",
+                    "data-id": "bc62d1f",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-af99ccb e-con-full e-flex e-con e-child",
+                        "data-id": "af99ccb",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-7a64ba2 migrated-widget migrated-widget-heading",
+                            "data-id": "7a64ba2",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Compliance Security Built-In "
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-50cd77f migrated-widget migrated-widget-text-editor",
+                            "data-id": "50cd77f",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Senior engineers and technical leads stay engaged from kickoff through delivery, with no junior handoff."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-ccc291c migrated-widget__width-auto migrated-widget migrated-widget-image",
+                        "data-id": "ccc291c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 85,
+                            "height": 89,
+                            "src": "/wp-content/uploads/2026/08/fi_12898048.svg",
+                            "className": "attachment-large size-large wp-image-9381",
+                            "alt": "Compliance"
+                          },
+                          "children": [],
+                          "assetId": "image-7a3e371d16846e"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-589e655 e-con-full partne-box e-flex e-con e-child",
+                    "data-id": "589e655",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a0c5c88 e-con-full e-flex e-con e-child",
+                        "data-id": "a0c5c88",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-ebc9101 migrated-widget migrated-widget-heading",
+                            "data-id": "ebc9101",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Delivery Transparency Defined"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-2851e18 migrated-widget migrated-widget-text-editor",
+                            "data-id": "2851e18",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Senior engineers and technical leads stay engaged from kickoff through delivery, with no junior handoff."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-4cb50e1 migrated-widget__width-auto migrated-widget migrated-widget-image",
+                        "data-id": "4cb50e1",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 109,
+                            "height": 69,
+                            "src": "/wp-content/uploads/2026/08/fi_1670915.svg",
+                            "className": "attachment-large size-large wp-image-9382",
+                            "alt": "Delivery Transparency"
+                          },
+                          "children": [],
+                          "assetId": "image-b09b0fd2a70426"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "WaitingToStartAPartnershipWithYou": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-615e823 e-flex e-con-boxed e-con e-parent",
+        "data-id": "615e823",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-21380d7 e-con-full e-grid e-con e-child",
+                "data-id": "21380d7",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-e636d68 e-con-full e-flex e-con e-child",
+                    "data-id": "e636d68",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-0e5e733 migrated-widget__width-initial migrated-widget migrated-widget-heading",
+                        "data-id": "0e5e733",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Waiting to Start a Partnership with You"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-ea7d6f3 migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "ea7d6f3",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Every relationship above started with a single project. The path to the next one begins the same way."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-d6d1550 e-con-full e-flex e-con e-child",
+                        "data-id": "d6d1550",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-81a9c83 migrated-align-justify migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit getintouch migrated-widget migrated-widget-button",
+                            "data-id": "81a9c83",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "button.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "migrated-button migrated-button-link migrated-size-sm",
+                                "href": "/partnership"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-content-wrapper"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-button-text"
+                                      },
+                                      "children": [
+                                        "Start My Product Roadmap"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-abf6298 migrated-align-justify migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                            "data-id": "abf6298",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "button.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "props": {
+                                "className": "migrated-button migrated-button-link migrated-size-sm",
+                                "href": "/#schedule"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-content-wrapper"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-button-text"
+                                      },
+                                      "children": [
+                                        "Schedule A Call"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-fcf5a9c e-con-full e-flex e-con e-child",
+                    "data-id": "fcf5a9c",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-7d865c6 migrated-widget migrated-widget-image",
+                        "data-id": "7d865c6",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 383,
+                            "height": 420,
+                            "src": "/wp-content/uploads/2026/08/partner-cta.svg",
+                            "className": "attachment-large size-large wp-image-9321",
+                            "alt": "CTA"
+                          },
+                          "children": [],
+                          "assetId": "image-1e32f480de2b48"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

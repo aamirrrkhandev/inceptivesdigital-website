@@ -1,0 +1,1195 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-18109 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "18109",
+              "className": "migrated migrated-18109",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "Content1"
+              },
+              {
+                "section": "OurCoreDigitalProductServices"
+              },
+              {
+                "section": "WhyWorkWithADigitalProductStudio"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-f7d0a79 hero-section-location e-flex e-con-boxed e-con e-parent",
+        "data-id": "f7d0a79",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-f3c9b05 e-con-full e-flex e-con e-child",
+                "data-id": "f3c9b05",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c65519e migrated-widget migrated-widget-heading",
+                    "data-id": "c65519e",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Strategy Design Engineering And AI Under One Studio"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-1cabcfa migrated-widget migrated-widget-text-editor",
+                    "data-id": "1cabcfa",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "Inceptives Digital helps businesses turn product ideas, operational problems, and AI opportunities into useful digital products through strategy, design, engineering, and post-launch support under one studio."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-672b4cc migrated-align-right migrated-laptop-align-left getintouch migrated-widget migrated-widget-button",
+                    "data-id": "672b4cc",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "button.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "props": {
+                        "className": "migrated-button migrated-button-link migrated-size-sm",
+                        "href": "/services"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-button-content-wrapper"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-text"
+                              },
+                              "children": [
+                                "Book a Session"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-17e124b e-con-full e-flex  e-con e-child",
+                    "data-id": "17e124b",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3ac9e88 migrated-widget-mobile__width-initial migrated-widget migrated-widget-image",
+                        "data-id": "3ac9e88",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "decoding": "async",
+                            "width": 182,
+                            "height": 84,
+                            "src": "/wp-content/uploads/2026/07/clutch.png",
+                            "className": "attachment-large size-large wp-image-162",
+                            "alt": "Clutch Review Badge",
+                            "loading": "eager",
+                            "fetchPriority": "high"
+                          },
+                          "children": [],
+                          "assetId": "image-b9188bb5218f7a"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3a959fd migrated-widget-mobile__width-initial migrated-widget migrated-widget-image",
+                        "data-id": "3a959fd",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "decoding": "async",
+                            "width": 183,
+                            "height": 87,
+                            "src": "/wp-content/uploads/2026/07/bark.png",
+                            "className": "attachment-large size-large wp-image-164",
+                            "alt": "Bark Review Badge",
+                            "loading": "lazy"
+                          },
+                          "children": [],
+                          "assetId": "image-6e6304fe77713a"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-40fba12 migrated-widget-mobile__width-initial migrated-widget migrated-widget-image",
+                        "data-id": "40fba12",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 186,
+                            "height": 76,
+                            "src": "/wp-content/uploads/2026/07/trustpilot.png",
+                            "className": "attachment-large size-large wp-image-163",
+                            "alt": "Trustpilot Review Badge"
+                          },
+                          "children": [],
+                          "assetId": "image-4c66c94340dbf8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-1643f3b e-con-full e-flex e-con e-child",
+                "data-id": "1643f3b",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-8cccba5 migrated-widget migrated-widget-image",
+                    "data-id": "8cccba5",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 800,
+                        "height": 733,
+                        "src": "/wp-content/uploads/2026/09/service-banner.png",
+                        "className": "attachment-large size-large wp-image-18112",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/09/service-banner.png 901w, /wp-content/uploads/2026/09/service-banner-300x275.png 300w, /wp-content/uploads/2026/09/service-banner-768x703.png 768w",
+                        "sizes": "(max-width: 800px) 100vw, 800px"
+                      },
+                      "children": [],
+                      "assetId": "image-1c1fda02cda8fe"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Content1": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-1ece00e e-flex e-con-boxed e-con e-parent",
+        "data-id": "1ece00e",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-7faee60 e-grid e-con-full e-con e-child",
+                "data-id": "7faee60",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ec08988 e-con-full e-flex e-con e-child",
+                    "data-id": "ec08988",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-6edff56 migrated-widget migrated-widget-image",
+                        "data-id": "6edff56",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 77,
+                            "height": 60,
+                            "src": "/wp-content/uploads/2026/07/apps-launch.svg",
+                            "className": "attachment-large size-large wp-image-809",
+                            "alt": "150+ Developers"
+                          },
+                          "children": [],
+                          "assetId": "image-d5a26ea81405ed"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3bec021 migrated-widget migrated-widget-counter",
+                        "data-id": "3bec021",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "counter.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-counter"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-title"
+                              },
+                              "children": [
+                                "Apps Delivered"
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-number-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-prefix"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number",
+                                    "data-duration": "2000",
+                                    "data-to-value": "70",
+                                    "data-from-value": "",
+                                    "data-delimiter": ","
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-suffix"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-93460eb e-con-full e-flex e-con e-child",
+                    "data-id": "93460eb",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-42d5368 migrated-widget migrated-widget-image",
+                        "data-id": "42d5368",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 60,
+                            "height": 60,
+                            "src": "/wp-content/uploads/2026/07/active-developer.svg",
+                            "className": "attachment-large size-large wp-image-811",
+                            "alt": "8+ Audit-First Every Time"
+                          },
+                          "children": [],
+                          "assetId": "image-b523048262e7f8"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-0a67447 migrated-widget migrated-widget-counter",
+                        "data-id": "0a67447",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "counter.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-counter"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-title"
+                              },
+                              "children": [
+                                "Client Satisfaction Rate"
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-number-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-prefix"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number",
+                                    "data-duration": "2000",
+                                    "data-to-value": "100",
+                                    "data-from-value": "",
+                                    "data-delimiter": ","
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-suffix"
+                                  },
+                                  "children": [
+                                    "%"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7a34439 e-con-full e-flex e-con e-child",
+                    "data-id": "7a34439",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2c9afb2 migrated-widget migrated-widget-image",
+                        "data-id": "2c9afb2",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 64,
+                            "height": 64,
+                            "src": "/wp-content/uploads/2026/07/developer-resize.png",
+                            "className": "attachment-large size-large wp-image-8342",
+                            "alt": ""
+                          },
+                          "children": [],
+                          "assetId": "image-fac409ba5e3f6d"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-7d64efb migrated-widget migrated-widget-counter",
+                        "data-id": "7d64efb",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "counter.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-counter"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-title"
+                              },
+                              "children": [
+                                "Years Of Development Experience"
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-number-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-prefix"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number",
+                                    "data-duration": "2000",
+                                    "data-to-value": "8",
+                                    "data-from-value": "",
+                                    "data-delimiter": ","
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-suffix"
+                                  },
+                                  "children": [
+                                    "+"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b44eac7 e-con-full e-flex e-con e-child",
+                    "data-id": "b44eac7",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-f0dc64c migrated-widget migrated-widget-image",
+                        "data-id": "f0dc64c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 53,
+                            "height": 60,
+                            "src": "/wp-content/uploads/2026/07/rating.svg",
+                            "className": "attachment-large size-large wp-image-813",
+                            "alt": "4.7 Clutch Rating"
+                          },
+                          "children": [],
+                          "assetId": "image-7b5dc9fc9f3599"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-df9c63f migrated-widget migrated-widget-counter",
+                        "data-id": "df9c63f",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "counter.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-counter"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-title"
+                              },
+                              "children": [
+                                "Rating on Clutch"
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-counter-number-wrapper"
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-prefix"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number",
+                                    "data-duration": "2000",
+                                    "data-to-value": "0",
+                                    "data-from-value": "",
+                                    "data-delimiter": ","
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-counter-number-suffix"
+                                  },
+                                  "children": [
+                                    "4.7"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "OurCoreDigitalProductServices": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-47b9374 e-flex e-con-boxed e-con e-parent",
+        "data-id": "47b9374",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-2faf192 e-con-full e-flex e-con e-child",
+                "data-id": "2faf192",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4056948 migrated-widget migrated-widget-heading",
+                    "data-id": "4056948",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Our Core Digital Product Services"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-806c77a e-grid e-con-full e-con e-child",
+                "data-id": "806c77a",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-001a12e e-con-full servicesbox-pro e-flex e-con e-child",
+                    "data-id": "001a12e",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b038f05 e-con-full e-flex e-con e-child",
+                        "data-id": "b038f05",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-1e15c92 migrated-widget migrated-widget-heading",
+                            "data-id": "1e15c92",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/mobile-app-development"
+                                  },
+                                  "children": [
+                                    "Mobile App Development"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-84eac13 migrated-widget__width-initial migrated-widget-mobile_extra__width-inherit  migrated-widget migrated-widget-text-editor",
+                            "data-id": "84eac13",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Native and cross-platform apps made for real users, real operating conditions, and long-term use."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-f48998d migrated-widget migrated-widget-image",
+                        "data-id": "f48998d",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 421,
+                            "height": 255,
+                            "src": "/wp-content/uploads/2026/08/about-img1.png",
+                            "className": "attachment-large size-large wp-image-9807",
+                            "alt": "App Development",
+                            "srcSet": "/wp-content/uploads/2026/08/about-img1.png 421w, /wp-content/uploads/2026/08/about-img1-300x182.png 300w",
+                            "sizes": "(max-width: 421px) 100vw, 421px"
+                          },
+                          "children": [],
+                          "assetId": "image-7e5aa997e96d09"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c8133e8 e-con-full servicesbox-pro e-flex e-con e-child",
+                    "data-id": "c8133e8",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-39d9240 e-con-full e-flex e-con e-child",
+                        "data-id": "39d9240",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-b4908b2 migrated-widget migrated-widget-heading",
+                            "data-id": "b4908b2",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/digital-product-development"
+                                  },
+                                  "children": [
+                                    "Digital Product Development"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-7b79a2b migrated-widget__width-initial migrated-widget-mobile_extra__width-inherit  migrated-widget migrated-widget-text-editor",
+                            "data-id": "7b79a2b",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "Product strategy, design, development, rescue, scaling, and continued improvement under one team."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-1c810e4 migrated-widget migrated-widget-image",
+                        "data-id": "1c810e4",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 421,
+                            "height": 271,
+                            "src": "/wp-content/uploads/2026/08/about-img2.png",
+                            "className": "attachment-large size-large wp-image-9814",
+                            "alt": "Digital Product Development",
+                            "srcSet": "/wp-content/uploads/2026/08/about-img2.png 421w, /wp-content/uploads/2026/08/about-img2-300x193.png 300w",
+                            "sizes": "(max-width: 421px) 100vw, 421px"
+                          },
+                          "children": [],
+                          "assetId": "image-5f3b9dbf2be0b5"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-fe3836d e-con-full servicesbox-pro e-flex e-con e-child",
+                    "data-id": "fe3836d",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c9c3bd1 e-con-full e-flex e-con e-child",
+                        "data-id": "c9c3bd1",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-767d7fb migrated-widget migrated-widget-heading",
+                            "data-id": "767d7fb",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h3",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "props": {
+                                    "href": "/ai-development"
+                                  },
+                                  "children": [
+                                    "AI-Powered Systems"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-37ed260 migrated-widget__width-initial migrated-widget-mobile_extra__width-inherit  migrated-widget migrated-widget-text-editor",
+                            "data-id": "37ed260",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "AI products and automated workflows designed around a real operational need, not added for appearance."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-23eae40 migrated-widget migrated-widget-image",
+                        "data-id": "23eae40",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 421,
+                            "height": 255,
+                            "src": "/wp-content/uploads/2026/08/about-img3.png",
+                            "className": "attachment-large size-large wp-image-9816",
+                            "alt": "AI-Powered Systems",
+                            "srcSet": "/wp-content/uploads/2026/08/about-img3.png 421w, /wp-content/uploads/2026/08/about-img3-300x182.png 300w",
+                            "sizes": "(max-width: 421px) 100vw, 421px"
+                          },
+                          "children": [],
+                          "assetId": "image-35dd1f2a564858"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "WhyWorkWithADigitalProductStudio": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-af269f5 e-grid e-con-boxed e-con e-parent",
+        "data-id": "af269f5",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-e0c4714 e-con-full e-flex e-con e-child",
+                "data-id": "e0c4714",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7f9bc21 e-con-full e-flex e-con e-child",
+                    "data-id": "7f9bc21",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-ff48d58 migrated-widget__width-initial migrated-widget-mobile__width-inherit migrated-widget migrated-widget-heading",
+                        "data-id": "ff48d58",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Why Work With A Digital Product Studio?"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-76e37a6 migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "76e37a6",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "A digital product studio keeps product strategy, design, engineering, AI, and delivery decisions connected under one team. Inceptives Digital helps clients define the right scope, question weak assumptions early, design around real user workflows, and build mobile apps, web platforms, backend systems, and AI-powered products that remain useful after launch. This studio model reduces disconnected handoffs and keeps business goals, product decisions, and technical execution aligned from discovery to delivery."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-c1d0008 e-con-full e-flex e-con e-child",
+                "data-id": "c1d0008",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-0d5e666 migrated-widget migrated-widget-image",
+                    "data-id": "0d5e666",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 800,
+                        "height": 649,
+                        "src": "/wp-content/uploads/2026/09/service-lastsect.png",
+                        "className": "attachment-large size-large wp-image-18183",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/09/service-lastsect.png 865w, /wp-content/uploads/2026/09/service-lastsect-300x243.png 300w, /wp-content/uploads/2026/09/service-lastsect-768x623.png 768w",
+                        "sizes": "(max-width: 800px) 100vw, 800px"
+                      },
+                      "children": [],
+                      "assetId": "image-872a3424b3f477"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

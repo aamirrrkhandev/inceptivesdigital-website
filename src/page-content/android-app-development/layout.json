@@ -1,0 +1,47 @@
+{
+  "path": "/android-app-development",
+  "key": "e030960c79a15326d9686edc559fa4ad2c3d7647",
+  "sourceUrl": "https://inceptivesdigital.com/android-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-1414 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1414 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "icon-box.default",
+    "nested-carousel.default",
+    "image-box.default",
+    "nested-tabs.default",
+    "divider.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "80e694361d94ac12485b4d2f"
+    },
+    {
+      "shared": "03759054542a71de330ea95c"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

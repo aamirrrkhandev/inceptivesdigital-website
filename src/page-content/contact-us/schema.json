@@ -1,0 +1,117 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/contact-us",
+        "url": "https://inceptivesdigital.com/contact-us",
+        "name": "Contact Inceptives Digital | Discuss Your Product Idea",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://inceptivesdigital.com/contact-us#primaryimage"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/contact-us#primaryimage"
+        },
+        "thumbnailUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/mail-icon.png",
+        "datePublished": "2026-08-05T13:36:36+00:00",
+        "dateModified": "2026-10-21T07:39:07+00:00",
+        "description": "Talk to Inceptives Digital about your mobile app, AI product, or custom software. Share your goals and get clear guidance on the best way forward.",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/contact-us#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/contact-us"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://inceptivesdigital.com/contact-us#primaryimage",
+        "url": "https://inceptivesdigital.com/wp-content/uploads/2026/08/mail-icon.png",
+        "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/mail-icon.png",
+        "width": 45,
+        "height": 45
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/contact-us#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Us"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

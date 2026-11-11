@@ -39,7 +39,9 @@
     ".next-forms/types/**/*.ts",
     ".next-forms/dev/types/**/*.ts",
     ".next-home-review/types/**/*.ts",
-    ".next-home-review/dev/types/**/*.ts"
+    ".next-home-review/dev/types/**/*.ts",
+    ".next-editable/types/**/*.ts",
+    ".next-editable/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

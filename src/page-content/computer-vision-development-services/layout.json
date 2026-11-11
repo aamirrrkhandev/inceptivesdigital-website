@@ -1,0 +1,47 @@
+{
+  "path": "/computer-vision-development-services",
+  "key": "1397edc76bdd93edbc0c12713c3a7bd696193d4a",
+  "sourceUrl": "https://inceptivesdigital.com/computer-vision-development-services",
+  "bodyClass": "wp-singular page-template-default page page-id-4300 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4300 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "divider.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "7da988d8915ddbf12cd2ae2a"
+    },
+    {
+      "shared": "ebd9007c4833d50c1804faa3"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

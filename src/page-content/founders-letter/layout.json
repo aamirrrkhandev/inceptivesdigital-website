@@ -1,0 +1,42 @@
+{
+  "path": "/founders-letter",
+  "key": "899d8e9a7ff21c7364112060962054885ff2105a",
+  "sourceUrl": "https://inceptivesdigital.com/founders-letter",
+  "bodyClass": "wp-singular page-template-default page page-id-9386 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9386 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "icon-box.default",
+    "social-icons.default",
+    "form.default",
+    "theme-site-logo.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "a8dc230803563517a6e6036d"
+    },
+    {
+      "shared": "9e37ac854ea7f2e620c3526c"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "9f2e6a9b7ac58558af855077"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

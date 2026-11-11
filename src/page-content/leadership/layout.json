@@ -1,0 +1,43 @@
+{
+  "path": "/leadership",
+  "key": "7f71360e4a0f4f1f6cdde2710df67ef1abbff71d",
+  "sourceUrl": "https://inceptivesdigital.com/leadership",
+  "bodyClass": "wp-singular page-template-default page page-id-9428 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9428 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "divider.default",
+    "social-icons.default",
+    "form.default",
+    "theme-site-logo.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "a824ecfb6ac3df66d2ca26c0"
+    },
+    {
+      "shared": "93581066b52a7f2c14b7d918"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "95a0e635fa8aad2d62db2a58"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

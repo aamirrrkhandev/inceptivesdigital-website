@@ -1,0 +1,48 @@
+{
+  "path": "/mobile-app-development",
+  "key": "e84a901a3785ca4f664af0664866e921faf2d25c",
+  "sourceUrl": "https://inceptivesdigital.com/mobile-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-14403 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-14403 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "image-box.default",
+    "nested-carousel.default",
+    "template.default",
+    "nested-tabs.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "98e269d3392efc11a3837d6d"
+    },
+    {
+      "shared": "31a4393b97bb1802f5c81b2b"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "c93e986979d7bd8535d8ea6f"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

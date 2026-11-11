@@ -1,0 +1,43 @@
+{
+  "path": "/about-us",
+  "key": "07fdb5ed4496679bd6e44f5d0d2cb7b4233fdeb3",
+  "sourceUrl": "https://inceptivesdigital.com/about-us",
+  "bodyClass": "wp-singular page-template-default page page-id-9739 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-9739 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "d5b141a141fd8e7dc5b0593a"
+    },
+    {
+      "shared": "2f99d4d50c995b5b97e65dc3"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "57f05e36bee97b802e20460f"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

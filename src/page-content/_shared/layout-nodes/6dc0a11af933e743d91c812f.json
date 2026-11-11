@@ -1,0 +1,10 @@
+{
+  "tag": "a",
+  "props": {
+    "className": "skip-link screen-reader-text",
+    "href": "/mobile-app-development-san-francisco#content"
+  },
+  "children": [
+    "\n\t\t\tSkip to content\t\t"
+  ]
+}

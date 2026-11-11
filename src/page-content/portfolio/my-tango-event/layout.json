@@ -1,0 +1,44 @@
+{
+  "path": "/portfolio/my-tango-event",
+  "key": "f26143c8f108b90264b639e1462609dea848e1f7",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/my-tango-event",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-11682 attachmentid-11682 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-11682 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "4e19cd6da41abc163a000fa8"
+    },
+    {
+      "shared": "5397fd32e0eba3827a2a8046"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "path": "/ai-chatbot-development-services",
+  "key": "cba4239800fbb07c98efa7dfb61308d3610d45c3",
+  "sourceUrl": "https://inceptivesdigital.com/ai-chatbot-development-services",
+  "bodyClass": "wp-singular page-template-default page page-id-4053 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4053 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "divider.default",
+    "nested-carousel.default",
+    "template.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "aba43ca5360069319f4f9f64"
+    },
+    {
+      "shared": "3669eacf38373cd16ba0adf6"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

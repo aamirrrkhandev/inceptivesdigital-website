@@ -1,0 +1,117 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/portfolio/dps-airem",
+        "url": "https://inceptivesdigital.com/portfolio/dps-airem",
+        "name": "DPS Airem Workforce Management Platform Case Study",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://inceptivesdigital.com/portfolio/dps-airem#primaryimage"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/portfolio/dps-airem#primaryimage"
+        },
+        "thumbnailUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/Group-1-10.png",
+        "datePublished": "2026-08-07T16:44:06+00:00",
+        "dateModified": "2026-10-05T11:28:57+00:00",
+        "description": "See how DPS Airem reduced paperwork by 90% and gained real-time visibility over 1,000+ field operatives with a workforce management platform.",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/portfolio/dps-airem#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/portfolio/dps-airem"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://inceptivesdigital.com/portfolio/dps-airem#primaryimage",
+        "url": "https://inceptivesdigital.com/wp-content/uploads/2026/08/Group-1-10.png",
+        "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/08/Group-1-10.png",
+        "width": 1340,
+        "height": 806
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/portfolio/dps-airem#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "DPS Airem"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "path": "/fitness-app-development",
+  "key": "4eeecea1379234c0a6d7515c1de1f32c094b19c0",
+  "sourceUrl": "https://inceptivesdigital.com/fitness-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-15823 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-15823 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "template.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "a179b157d5dfe4379fc6506e"
+    },
+    {
+      "shared": "a1e06596c9b6316caab4e61a"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "05a83a492b110500cb59d747"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

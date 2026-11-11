@@ -1,0 +1,48 @@
+{
+  "path": "/ios-app-development",
+  "key": "9d7e6a4eb4b1e2766759f3b15c6eca0ad7d5b6b2",
+  "sourceUrl": "https://inceptivesdigital.com/ios-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-24179 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-24179 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "shortcode.default",
+    "nested-carousel.default",
+    "image-box.default",
+    "counter.default",
+    "nested-tabs.default",
+    "icon-box.default",
+    "html.default",
+    "divider.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "c8cdfeeb53b88079f7faeb80"
+    },
+    {
+      "shared": "ca09a5ba3bf1ea681dd329be"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

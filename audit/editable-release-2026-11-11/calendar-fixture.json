@@ -1,0 +1,26 @@
+[
+  {
+    "width": 390,
+    "calendarVisible": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "calendarVisible": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  },
+  {
+    "width": 1366,
+    "calendarVisible": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  }
+]

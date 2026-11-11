@@ -1,0 +1,49 @@
+{
+  "path": "/mobile-app-development-san-francisco",
+  "key": "803acb6d9cba9ac4359aa4d32ded8708b6d5bdf7",
+  "sourceUrl": "https://inceptivesdigital.com/mobile-app-development-san-francisco",
+  "bodyClass": "wp-singular page-template-default page page-id-7346 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-7346 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "google_maps.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "6dc0a11af933e743d91c812f"
+    },
+    {
+      "shared": "f1b5a6b8fd3b45d242a1d8d9"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "e1dbab32add48b2375f41545"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

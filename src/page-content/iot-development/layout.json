@@ -1,0 +1,42 @@
+{
+  "path": "/iot-development",
+  "key": "restored-iot-development",
+  "sourceUrl": "https://inceptivesdigital.com/contact-us",
+  "bodyClass": "wp-singular page-template-default page page-id-10402 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-10402 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "image-box.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "02a1fec8fc30d84fdf9f3156"
+    },
+    {
+      "shared": "56717419113e518c417e0700"
+    },
+    {
+      "shared": "37612fe151837557ef93521a"
+    },
+    {
+      "shared": "e548cce5ea76fe82de9e5753"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

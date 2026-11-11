@@ -1,0 +1,407 @@
+{
+  "title": "Kotlin Multiplatform App Development Services | Inceptives Digital",
+  "description": "Discover Inceptives Digital, a leader in Kotlin multiplatform app development. We create production-grade KMP products with shared business logic and native UI.",
+  "canonical": "https://inceptivesdigital.com/kotlin-multiplatform-app-development",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "metadata": [
+    {
+      "name": "google-site-verification",
+      "content": "ipVWfcHF_ILTI6QeHY0ip1BmqCiq0QokpbHjSvh9ztk"
+    },
+    {
+      "name": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "name": "og:type",
+      "content": "article"
+    },
+    {
+      "name": "og:title",
+      "content": "Kotlin Multiplatform"
+    },
+    {
+      "name": "og:description",
+      "content": "Discover Inceptives Digital, a leader in Kotlin multiplatform app development. We create production-grade KMP products with shared business logic and native UI."
+    },
+    {
+      "name": "og:url",
+      "content": "https://inceptivesdigital.com/kotlin-multiplatform-app-development"
+    },
+    {
+      "name": "og:site_name",
+      "content": "Inceptives Digital"
+    },
+    {
+      "name": "article:publisher",
+      "content": "https://www.facebook.com/inceptivesdigital"
+    },
+    {
+      "name": "article:modified_time",
+      "content": "2026-10-23T13:53:23+00:00"
+    },
+    {
+      "name": "og:image",
+      "content": "https://inceptivesdigital.com/wp-content/uploads/2026/07/clutch.png"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:label1",
+      "content": "Est. reading time"
+    },
+    {
+      "name": "twitter:data1",
+      "content": "36 minutes"
+    }
+  ],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Kotlin Multiplatform App Development Services"
+    },
+    {
+      "level": "h2",
+      "text": "Architect Your Multiplatform Product on Kotlin's Full Potential"
+    },
+    {
+      "level": "h2",
+      "text": "Trusted by Product Teams Shipping on Kotlin Multiplatform"
+    },
+    {
+      "level": "h2",
+      "text": "Why Are Experienced Product Teams Moving to KMP?"
+    },
+    {
+      "level": "h2",
+      "text": "Is Kotlin Multiplatform the Right Architecture for Your Product?"
+    },
+    {
+      "level": "h2",
+      "text": "KMP is the stronger choice when:"
+    },
+    {
+      "level": "h2",
+      "text": "Flutter App Development or React Native App Development may serve you better when:"
+    },
+    {
+      "level": "h2",
+      "text": "Our Wide Range of Kotlin Multiplatform App Development Services"
+    },
+    {
+      "level": "h3",
+      "text": "KMP Architecture & Shared Module Design"
+    },
+    {
+      "level": "h3",
+      "text": "Shared Business Logic Development"
+    },
+    {
+      "level": "h3",
+      "text": "iOS Integration (Swift / SwiftUI / UIKit)"
+    },
+    {
+      "level": "h3",
+      "text": "Android Integration (Jetpack Compose / View System)"
+    },
+    {
+      "level": "h3",
+      "text": "Compose Multiplatform (UI Sharing)"
+    },
+    {
+      "level": "h3",
+      "text": "Native-to-KMP Migration"
+    },
+    {
+      "level": "h2",
+      "text": "Ready to Scope Your KMP Project?"
+    },
+    {
+      "level": "h2",
+      "text": "Industries We Build KMP Solutions For"
+    },
+    {
+      "level": "h3",
+      "text": "healthcare"
+    },
+    {
+      "level": "h3",
+      "text": "Fitness"
+    },
+    {
+      "level": "h3",
+      "text": "e-Learning"
+    },
+    {
+      "level": "h3",
+      "text": "Real Estate"
+    },
+    {
+      "level": "h3",
+      "text": "Travel"
+    },
+    {
+      "level": "h3",
+      "text": "FinTech"
+    },
+    {
+      "level": "h3",
+      "text": "Food Delivery"
+    },
+    {
+      "level": "h3",
+      "text": "e-Commerce"
+    },
+    {
+      "level": "h2",
+      "text": "Our Portfolio of Production-Grade KMP Products"
+    },
+    {
+      "level": "h3",
+      "text": "DPS Airem"
+    },
+    {
+      "level": "h4",
+      "text": "Real-Time Workforce Operations Platform"
+    },
+    {
+      "level": "h3",
+      "text": "Pulse Check"
+    },
+    {
+      "level": "h4",
+      "text": "Emergency CPR Timing and Resuscitation Support Platform"
+    },
+    {
+      "level": "h3",
+      "text": "WordSmith"
+    },
+    {
+      "level": "h4",
+      "text": "AI Writing Improvement Platform"
+    },
+    {
+      "level": "h3",
+      "text": "State of the art chiropractic"
+    },
+    {
+      "level": "h4",
+      "text": "Connected Chiropractic Care and Telehealth Platform"
+    },
+    {
+      "level": "h3",
+      "text": "Family Entertainment Group"
+    },
+    {
+      "level": "h4",
+      "text": "Automated Experience Capture and Delivery"
+    },
+    {
+      "level": "h3",
+      "text": "StakBread"
+    },
+    {
+      "level": "h4",
+      "text": "Real-Time Workforce Operations Platform"
+    },
+    {
+      "level": "h3",
+      "text": "My Tango Event"
+    },
+    {
+      "level": "h4",
+      "text": "Global Event Discovery and Community Engagement Platform"
+    },
+    {
+      "level": "h3",
+      "text": "Pets B4 Profit"
+    },
+    {
+      "level": "h4",
+      "text": "Automated Experience Capture and Delivery"
+    },
+    {
+      "level": "h2",
+      "text": "What Our Clients Say About Building With Us"
+    },
+    {
+      "level": "h2",
+      "text": "Ready to See If KMP Fits Your Architecture?"
+    },
+    {
+      "level": "h2",
+      "text": "Why Choose Inceptives Digital as Your Multiplatform App Development Company"
+    },
+    {
+      "level": "h3",
+      "text": "Precision From the First Decision"
+    },
+    {
+      "level": "h3",
+      "text": "Production-Proven Kotlin Expertise"
+    },
+    {
+      "level": "h3",
+      "text": "Uncompromised iOS Depth"
+    },
+    {
+      "level": "h3",
+      "text": "Migration Without Disruption"
+    },
+    {
+      "level": "h3",
+      "text": "Architecture-First Recommendations"
+    },
+    {
+      "level": "h3",
+      "text": "Multiplatform, Truly Full Stack"
+    },
+    {
+      "level": "h2",
+      "text": "Our Kotlin Multiplatform Development Process"
+    },
+    {
+      "level": "h3",
+      "text": "Defining the Shared Module Boundary"
+    },
+    {
+      "level": "h3",
+      "text": "Shared Module Development"
+    },
+    {
+      "level": "h2",
+      "text": "Platform Integration"
+    },
+    {
+      "level": "h2",
+      "text": "Platform UI Development"
+    },
+    {
+      "level": "h2",
+      "text": "Cross-Platform QA and Integration Testing"
+    },
+    {
+      "level": "h2",
+      "text": "Deployment and Ongoing Support"
+    },
+    {
+      "level": "h2",
+      "text": "Tools That Hold Every KMP Build at Scale"
+    },
+    {
+      "level": "h6",
+      "text": "Express.js"
+    },
+    {
+      "level": "h6",
+      "text": "Kubernetes"
+    },
+    {
+      "level": "h6",
+      "text": "LangChain"
+    },
+    {
+      "level": "h2",
+      "text": "How Kotlin Multiplatform Works: Architecture Overview"
+    },
+    {
+      "level": "h3",
+      "text": "Platform Coverage"
+    },
+    {
+      "level": "h3",
+      "text": "Platform Coverage"
+    },
+    {
+      "level": "h2",
+      "text": "The Cost of Getting KMP Architecture Right"
+    },
+    {
+      "level": "h3",
+      "text": "KMP Foundation"
+    },
+    {
+      "level": "h3",
+      "text": "Full-Product KMP Build"
+    },
+    {
+      "level": "h3",
+      "text": "KMP Migration and Expansion"
+    },
+    {
+      "level": "h2",
+      "text": "Get a Custom Estimate for Your KMP Project"
+    },
+    {
+      "level": "h2",
+      "text": "FAQs"
+    },
+    {
+      "level": "h2",
+      "text": "Kotlin Multiplatform App Development"
+    },
+    {
+      "level": "h3",
+      "text": "Is Kotlin Multiplatform production-ready?"
+    },
+    {
+      "level": "h3",
+      "text": "What is the difference between Kotlin Multiplatform and Compose Multiplatform?"
+    },
+    {
+      "level": "h3",
+      "text": "Does KMP require rewriting an existing Android app?"
+    },
+    {
+      "level": "h3",
+      "text": "Does KMP on iOS still require Swift developers?"
+    },
+    {
+      "level": "h3",
+      "text": "What are the current limitations of KMP?"
+    },
+    {
+      "level": "h3",
+      "text": "KMP vs Flutter: How should a team decide?"
+    },
+    {
+      "level": "h3",
+      "text": "Can KMP target web and desktop or only mobile?"
+    },
+    {
+      "level": "h3",
+      "text": "How long does a KMP project take?"
+    },
+    {
+      "level": "h3",
+      "text": "What happens if a KMP bug affects both platforms simultaneously?"
+    },
+    {
+      "level": "h3",
+      "text": "Is ongoing engineering support available after launch?"
+    },
+    {
+      "level": "h3",
+      "text": "What does a Kotlin Multiplatform project typically cost?"
+    },
+    {
+      "level": "h3",
+      "text": "Does a KMP team need separate Android and iOS developers?"
+    },
+    {
+      "level": "h2",
+      "text": "Get in touch!"
+    },
+    {
+      "level": "h2",
+      "text": "Get Expert Direction for Your Next Digital Product"
+    },
+    {
+      "level": "h2",
+      "text": "Schedule a Meeting"
+    }
+  ],
+  "hreflang": []
+}

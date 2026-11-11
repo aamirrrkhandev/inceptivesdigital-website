@@ -1,0 +1,47 @@
+{
+  "path": "/ui-ux-design",
+  "key": "5dcaa5cadd0a2045efd90747f9e1596fe17a1ceb",
+  "sourceUrl": "https://inceptivesdigital.com/ui-ux-design",
+  "bodyClass": "wp-singular page-template-default page page-id-4820 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4820 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-carousel.default",
+    "template.default",
+    "nested-tabs.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "12251b956d372476d34e570b"
+    },
+    {
+      "shared": "8c42a5d3fe04fa07e1b0e9af"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

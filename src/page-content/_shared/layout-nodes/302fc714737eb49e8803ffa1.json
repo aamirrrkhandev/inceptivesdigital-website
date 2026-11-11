@@ -1,0 +1,162 @@
+{
+  "tag": "div",
+  "props": {
+    "id": "schedulePopup",
+    "className": "schedule-popup",
+    "hidden": true,
+    "aria-hidden": "true",
+    "role": "dialog",
+    "aria-modal": "true",
+    "aria-labelledby": "id-schedule-title",
+    "tabIndex": "-1"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "schedule-popup-overlay",
+        "aria-hidden": "true"
+      },
+      "children": []
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "schedule-popup-box",
+        "role": "document"
+      },
+      "children": [
+        {
+          "tag": "button",
+          "props": {
+            "type": "button",
+            "className": "schedule-popup-close",
+            "aria-label": "Close scheduling popup"
+          },
+          "children": [
+            "×"
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "schedule-popup-header"
+          },
+          "children": [
+            {
+              "tag": "h2",
+              "props": {
+                "id": "id-schedule-title"
+              },
+              "children": [
+                "Schedule a Meeting"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "schedule-popup-content"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "calendly-loader",
+                "id": "idCalendlyLoader",
+                "role": "status",
+                "aria-live": "polite",
+                "aria-atomic": "true"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "calendly-spinner",
+                    "aria-hidden": "true"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "calendly-loading-text"
+                  },
+                  "children": [
+                    "Loading calendar..."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "calendly-load-error",
+                "id": "idCalendlyError",
+                "hidden": true,
+                "role": "alert"
+              },
+              "children": [
+                {
+                  "tag": "strong",
+                  "props": {},
+                  "children": [
+                    "Calendar is taking longer than expected"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {},
+                  "children": [
+                    "Please try again, or open Calendly directly to book your meeting."
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "calendly-error-actions"
+                  },
+                  "children": [
+                    {
+                      "tag": "button",
+                      "props": {
+                        "type": "button",
+                        "id": "idCalendlyRetry"
+                      },
+                      "children": [
+                        "Retry"
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "https://calendly.com/inceptivesdigital-info/30min",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer"
+                      },
+                      "children": [
+                        "Open Calendly"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "iframe",
+              "props": {
+                "id": "calendlyFrame",
+                "title": "Calendly Scheduling Page",
+                "loading": "lazy",
+                "allow": "fullscreen",
+                "tabIndex": "-1"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

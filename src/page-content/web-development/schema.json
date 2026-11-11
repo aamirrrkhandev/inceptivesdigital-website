@@ -1,0 +1,211 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://inceptivesdigital.com/#organization",
+    "name": "Inceptives Digital",
+    "url": "https://inceptivesdigital.com",
+    "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+      "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+      "width": 512,
+      "height": 512,
+      "caption": "Inceptives Digital"
+    },
+    "image": {
+      "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+    },
+    "sameAs": [
+      "https://www.facebook.com/inceptivesdigital",
+      "https://www.instagram.com/inceptivesdigital/",
+      "https://www.linkedin.com/company/inceptivesdigital/"
+    ],
+    "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+    "email": "info@inceptivesdigital.com",
+    "telephone": "+1 469 788 8527",
+    "legalName": "Inceptives Digital"
+  },
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Web Development Services | Website Design & Development",
+        "url": "https://inceptivesdigital.com/web-development",
+        "description": "Professional web development services for custom websites, UI/UX design, and scalable solutions to enhance performance and business growth.",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Inceptives Digital",
+          "url": "https://inceptivesdigital.com/"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://inceptivesdigital.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://inceptivesdigital.com/services",
+              "name": "Services"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://inceptivesdigital.com/web-development",
+              "name": "Web Development Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Web Development Services",
+        "description": "Custom web development services including website design, front-end and back-end development, and scalable web solutions tailored for business growth.",
+        "provider": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://inceptivesdigital.com/#organization",
+          "name": "Inceptives Digital",
+          "url": "https://inceptivesdigital.com",
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+            "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+            "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+            "width": 512,
+            "height": 512,
+            "caption": "Inceptives Digital"
+          },
+          "image": {
+            "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+          },
+          "sameAs": [
+            "https://www.facebook.com/inceptivesdigital",
+            "https://www.instagram.com/inceptivesdigital/",
+            "https://www.linkedin.com/company/inceptivesdigital/"
+          ],
+          "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+          "email": "info@inceptivesdigital.com",
+          "telephone": "+1 469 788 8527",
+          "legalName": "Inceptives Digital"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "serviceType": "Web Development",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What will your web development team do to help our website stand out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We build high-performing websites with modern design, responsive layouts, and optimized code to ensure a strong user experience and better search visibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you add AI and automation to our site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we integrate AI-powered features like chatbots, personalization engines, and automation tools to improve user engagement and efficiency."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you ensure our website is SEO and performance optimized?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We follow best practices including clean code, fast loading speed, mobile responsiveness, and SEO-friendly architecture to improve rankings and performance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will we be able to manage and update our website easily?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we build websites with user-friendly CMS platforms, allowing you to update content, images, and pages without technical expertise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How secure will our website be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We implement advanced security practices including SSL, data encryption, and regular vulnerability checks to protect your website and user data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will you provide support after the website launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we offer ongoing maintenance, updates, and performance monitoring to ensure your website continues to perform optimally."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to develop a website?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The timeline depends on project complexity, but we provide a clear roadmap and deliver efficiently without compromising quality."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

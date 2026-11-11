@@ -1,0 +1,1692 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-10138 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "10138",
+              "className": "migrated migrated-10138",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "Content1"
+              },
+              {
+                "section": "InceptivesDigitalTrustedByTopBrands"
+              },
+              {
+                "section": "ClientReviews"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-30215fd e-flex e-con-boxed e-con e-parent",
+        "data-id": "30215fd",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-e52de0a e-con-full e-flex e-con e-child",
+                "data-id": "e52de0a",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-bec0967 migrated-widget migrated-widget-heading",
+                    "data-id": "bec0967",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "What Our Clients "
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-e5aaa1c migrated-widget migrated-widget-heading",
+                    "data-id": "e5aaa1c",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Say About Working With Us"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-026286a migrated-widget__width-initial migrated-widget-tablet__width-inherit migrated-widget migrated-widget-text-editor",
+                    "data-id": "026286a",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tReal partnerships. Real products. Real results.\t\t\t\t\t\t\t\t"
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-3e7ee6c migrated-widget__width-initial migrated-widget-tablet__width-inherit migrated-widget migrated-widget-text-editor",
+                    "data-id": "3e7ee6c",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tAt Inceptives Digital, we don’t just deliver apps and platforms. We build long-term relationships grounded in trust, clarity, and performance. Here’s what our clients have to say about their experience working with our mobile application development company, from idea validation to launch and beyond.\t\t\t\t\t\t\t\t"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Content1": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-472acbf e-flex e-con-boxed e-con e-parent",
+        "data-id": "472acbf",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-34f4c2c e-con-full e-flex e-con e-child",
+                "data-id": "34f4c2c",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-fc0b9d9 migrated-widget migrated-widget-image",
+                    "data-id": "fc0b9d9",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "decoding": "async",
+                        "width": 182,
+                        "height": 84,
+                        "src": "/wp-content/uploads/2026/07/clutch.png",
+                        "className": "attachment-large size-large wp-image-162",
+                        "alt": "Clutch Review Badge",
+                        "loading": "eager",
+                        "fetchPriority": "high"
+                      },
+                      "children": [],
+                      "assetId": "image-b5cbfdd82f1115"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-2fba2d6 migrated-widget migrated-widget-image",
+                    "data-id": "2fba2d6",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "decoding": "async",
+                        "width": 183,
+                        "height": 87,
+                        "src": "/wp-content/uploads/2026/07/bark.png",
+                        "className": "attachment-large size-large wp-image-164",
+                        "alt": "Bark Review Badge",
+                        "loading": "lazy"
+                      },
+                      "children": [],
+                      "assetId": "image-ed511c2c7614a6"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-47cd06b migrated-widget migrated-widget-image",
+                    "data-id": "47cd06b",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 183,
+                        "height": 61,
+                        "src": "/wp-content/uploads/2026/08/googlefarms.svg",
+                        "className": "attachment-large size-large wp-image-9555",
+                        "alt": "GoodFirms Review Badge"
+                      },
+                      "children": [],
+                      "assetId": "image-cc5ffe1233a1dd"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-d5a87ee migrated-widget migrated-widget-image",
+                    "data-id": "d5a87ee",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 186,
+                        "height": 76,
+                        "src": "/wp-content/uploads/2026/07/trustpilot.png",
+                        "className": "attachment-large size-large wp-image-163",
+                        "alt": "Trustpilot Review Badge"
+                      },
+                      "children": [],
+                      "assetId": "image-98d6a2e706387c"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "InceptivesDigitalTrustedByTopBrands": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-39fa893 e-flex e-con-boxed e-con e-parent",
+        "data-id": "39fa893",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-4e94b91 e-con-full e-flex e-con e-child",
+                "data-id": "4e94b91",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-a4c7dbb migrated-widget migrated-widget-heading",
+                    "data-id": "a4c7dbb",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "Inceptives Digital, "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "Trusted By Top Brands"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-342e23a e-con-full e-flex e-con e-child",
+                "data-id": "342e23a",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-a7c3713 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "a7c3713",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t1.png",
+                        "className": "attachment-full size-full wp-image-10181",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t1.png 332w, /wp-content/uploads/2026/08/t1-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-36504b8c5b10e0"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-063561b migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "063561b",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t2.png",
+                        "className": "attachment-large size-large wp-image-10182",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t2.png 332w, /wp-content/uploads/2026/08/t2-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-7ab5b3dc9d16b3"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-0febd4d migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "0febd4d",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t3.png",
+                        "className": "attachment-large size-large wp-image-10172",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t3.png 332w, /wp-content/uploads/2026/08/t3-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-9675d46f14eb79"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ec102c5 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "ec102c5",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t4.png",
+                        "className": "attachment-large size-large wp-image-10173",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t4.png 332w, /wp-content/uploads/2026/08/t4-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-02532c58af2d41"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-9404732 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "9404732",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t5.png",
+                        "className": "attachment-large size-large wp-image-10174",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t5.png 332w, /wp-content/uploads/2026/08/t5-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-d056345968fee7"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-023f505 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "023f505",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t6.png",
+                        "className": "attachment-large size-large wp-image-10175",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t6.png 332w, /wp-content/uploads/2026/08/t6-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-8157f1c45aa2f6"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4e70b45 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "4e70b45",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t7.png",
+                        "className": "attachment-large size-large wp-image-10176",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t7.png 332w, /wp-content/uploads/2026/08/t7-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-05edc38c3816e5"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-046a657 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "046a657",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t8.png",
+                        "className": "attachment-large size-large wp-image-10177",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t8.png 332w, /wp-content/uploads/2026/08/t8-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-1b81e8789c8194"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-9a35d38 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "9a35d38",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t9.png",
+                        "className": "attachment-large size-large wp-image-10178",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t9.png 332w, /wp-content/uploads/2026/08/t9-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-32bc15104c84a4"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-04fc4c2 migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "04fc4c2",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t10.png",
+                        "className": "attachment-large size-large wp-image-10179",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t10.png 332w, /wp-content/uploads/2026/08/t10-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-ce047949701c87"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ba2933a migrated-widget-laptop__width-initial migrated-widget migrated-widget-image",
+                    "data-id": "ba2933a",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "image.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "loading": "lazy",
+                        "decoding": "async",
+                        "width": 332,
+                        "height": 228,
+                        "src": "/wp-content/uploads/2026/08/t11.png",
+                        "className": "attachment-large size-large wp-image-10180",
+                        "alt": "",
+                        "srcSet": "/wp-content/uploads/2026/08/t11.png 332w, /wp-content/uploads/2026/08/t11-300x206.png 300w",
+                        "sizes": "(max-width: 332px) 100vw, 332px"
+                      },
+                      "children": [],
+                      "assetId": "image-f982d048a147bf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ClientReviews": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-53b1d87d e-flex e-con-boxed e-con e-parent",
+        "data-id": "53b1d87d",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-9eb87f8 e-con-full e-flex e-con e-child",
+                "data-id": "9eb87f8",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6cfa501 migrated-widget migrated-widget-heading",
+                    "data-id": "6cfa501",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Client Reviews"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-2314ef0b e-con-full e-flex e-con e-child",
+                "data-id": "2314ef0b",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6e2c3c1 e-con-full e-flex e-con e-child",
+                    "data-id": "6e2c3c1",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c449f97 e-con-full e-flex e-con e-child",
+                        "data-id": "c449f97",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-b81df92 e-con-full e-flex e-con e-child",
+                            "data-id": "b81df92",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-ba15306 migrated-widget migrated-widget-text-editor",
+                                "data-id": "ba15306",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "“Inceptives Digital’s ability to turn what’s written down into a working, functioning app is amazing.”"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-ded0f41 migrated-widget migrated-widget-text-editor",
+                                "data-id": "ded0f41",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Inceptives Digital has almost finished the app development, and the client is satisfied with the prototypes. The team delivers on time and communicates via email, messaging apps, and online meetings. They also impress the client with their ability to turn the client’s ideas into a functional app."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-7633c09 e-con-full e-flex e-con e-child",
+                            "data-id": "7633c09",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-9486bda migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "9486bda",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 800,
+                                    "height": 800,
+                                    "src": "/wp-content/uploads/2026/07/Collis-Maddox-1024x1024.webp",
+                                    "className": "attachment-large size-large wp-image-7706",
+                                    "alt": "",
+                                    "srcSet": "/wp-content/uploads/2026/07/Collis-Maddox-1024x1024.webp 1024w, /wp-content/uploads/2026/07/Collis-Maddox-300x300.webp 300w, /wp-content/uploads/2026/07/Collis-Maddox-150x150.webp 150w, /wp-content/uploads/2026/07/Collis-Maddox-768x768.webp 768w, /wp-content/uploads/2026/07/Collis-Maddox-1536x1536.webp 1536w, /wp-content/uploads/2026/07/Collis-Maddox.webp 1920w",
+                                    "sizes": "(max-width: 800px) 100vw, 800px"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-7aa8b580a74f67"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-dc38ef2 e-con-full e-flex e-con e-child",
+                                "data-id": "dc38ef2",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-c200ea5 migrated-widget migrated-widget-heading",
+                                    "data-id": "c200ea5",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Collis Maddox"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-53435e8 migrated-widget migrated-widget-heading",
+                                    "data-id": "53435e8",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Owner/Designer, MaddTech"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-da8cbaa e-con-full e-flex e-con e-child",
+                        "data-id": "da8cbaa",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-061ba24 migrated-widget migrated-widget-text-editor",
+                            "data-id": "061ba24",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "When I came to these guys, it was just me in an idea. I’ve had ideas before that. I thought were good and sat on them only to watch others take the initiative and reap the rewards because I lacked confidence. When I had the idea for my app I figured, “Not this time.”"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-d0562e1 migrated-widget migrated-widget-text-editor",
+                            "data-id": "d0562e1",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            "\n\t\t\t\t\t\t\t\t\tAaron and the ID crew did more than just build out my app. They became my team. The team I never expected to have. Awesome!\t\t\t\t\t\t\t\t"
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-0585dc5 e-con-full e-flex e-con e-child",
+                            "data-id": "0585dc5",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-2a11e11 migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "2a11e11",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 800,
+                                    "height": 800,
+                                    "src": "/wp-content/uploads/2026/07/Edward-Eller-1024x1024.webp",
+                                    "className": "attachment-large size-large wp-image-7710",
+                                    "alt": "",
+                                    "srcSet": "/wp-content/uploads/2026/07/Edward-Eller-1024x1024.webp 1024w, /wp-content/uploads/2026/07/Edward-Eller-300x300.webp 300w, /wp-content/uploads/2026/07/Edward-Eller-150x150.webp 150w, /wp-content/uploads/2026/07/Edward-Eller-768x768.webp 768w, /wp-content/uploads/2026/07/Edward-Eller-1536x1536.webp 1536w, /wp-content/uploads/2026/07/Edward-Eller.webp 1920w",
+                                    "sizes": "(max-width: 800px) 100vw, 800px"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-5844271be80dff"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-f2c9a50 e-con-full e-flex e-con e-child",
+                                "data-id": "f2c9a50",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-5657b25 migrated-widget migrated-widget-heading",
+                                    "data-id": "5657b25",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Edward Eller"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-ef2342a migrated-widget migrated-widget-heading",
+                                    "data-id": "ef2342a",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "GoRyde"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-58fdf84 e-con-full e-flex e-con e-child",
+                    "data-id": "58fdf84",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-97c62c7 e-con-full e-flex e-con e-child",
+                        "data-id": "97c62c7",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-d3ab593 migrated-widget migrated-widget-video",
+                            "data-id": "d3ab593",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "video.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "e-hosted-video migrated-wrapper migrated-open-inline"
+                              },
+                              "children": [
+                                {
+                                  "tag": "video",
+                                  "props": {
+                                    "className": "migrated-video",
+                                    "controls": true,
+                                    "preload": "none",
+                                    "controlslist": "nodownload",
+                                    "poster": "/wp-content/uploads/2026/08/image-154.png",
+                                    "autoPlay": true,
+                                    "muted": true,
+                                    "loop": true,
+                                    "playsInline": true,
+                                    "data-media-src": "/wp-content/uploads/2026/10/client-grey.mp4"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-1e2a9ca migrated-widget migrated-widget-text-editor",
+                            "data-id": "1e2a9ca",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "I wanted to choose a company that could handle making a social media platform. So, since day one, they have laid out a path to success as far as the vision. They could see my vision, and conceptually they understood where I wanted to go with designing my platform."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-4ee79fe e-con-full e-flex e-con e-child",
+                            "data-id": "4ee79fe",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-dabafe9 migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "dabafe9",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 80,
+                                    "height": 80,
+                                    "src": "/wp-content/uploads/2026/07/tesitmonials-profile.webp",
+                                    "className": "attachment-large size-large wp-image-7713",
+                                    "alt": "Gary Dixon"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-24075374638dc3"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-81cd82c e-con-full e-flex e-con e-child",
+                                "data-id": "81cd82c",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-548bafc migrated-widget migrated-widget-heading",
+                                    "data-id": "548bafc",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Gary Dixon"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-b3709d8 migrated-widget migrated-widget-heading",
+                                    "data-id": "b3709d8",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Founder, StakBread"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-541da16 e-con-full e-flex e-con e-child",
+                    "data-id": "541da16",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-4140ba7 e-con-full e-flex e-con e-child",
+                        "data-id": "4140ba7",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-26d68c2 e-con-full e-flex e-con e-child",
+                            "data-id": "26d68c2",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-a28f7b3 migrated-widget migrated-widget-text-editor",
+                                "data-id": "a28f7b3",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "“They wanted to provide more rather than less.”"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-a41ce53 migrated-widget migrated-widget-text-editor",
+                                "data-id": "a41ce53",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                "\n\t\t\t\t\t\t\t\t\tInceptives Digital completed the app development professionally. The team delivered work ahead of schedule and on budget. Inceptives Digital was highly responsive throughout the engagement via email.\t\t\t\t\t\t\t\t"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-98e96b0 e-con-full e-flex e-con e-child",
+                            "data-id": "98e96b0",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-9e38d9e migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "9e38d9e",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 80,
+                                    "height": 80,
+                                    "src": "/wp-content/uploads/2026/07/tesitmonials-profile.webp",
+                                    "className": "attachment-large size-large wp-image-7713",
+                                    "alt": "Gary Dixon"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-649802c70289c5"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-7f8069e e-con-full e-flex e-con e-child",
+                                "data-id": "7f8069e",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-ec881c3 migrated-widget migrated-widget-heading",
+                                    "data-id": "ec881c3",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Kirk Fleming"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-a15585c migrated-widget migrated-widget-heading",
+                                    "data-id": "a15585c",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Paramedic & RN"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b2b9e55 e-con-full e-flex e-con e-child",
+                        "data-id": "b2b9e55",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-b9f31b2 e-con-full e-flex e-con e-child",
+                            "data-id": "b9f31b2",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-6e7ef44 migrated-widget migrated-widget-text-editor",
+                                "data-id": "6e7ef44",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "props": {},
+                                      "children": [
+                                        "“Inceptives Digital has done everything we wanted.”"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-443abea migrated-widget migrated-widget-text-editor",
+                                "data-id": "443abea",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Inceptives Digital has completely redone our public program and customized it for our office. The team has worked on the UI/UX design, added new features, and handled data migration."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-b35c173 migrated-widget migrated-widget-text-editor",
+                                "data-id": "b35c173",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "text-editor.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "props": {},
+                                  "children": [
+                                    "Inceptives Digital has delivered a system that works flawlessly and does everything the old one did to keep us on track and functioning."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-c5ebd60 e-con-full e-flex e-con e-child",
+                            "data-id": "c5ebd60",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-84f0932 migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "84f0932",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 800,
+                                    "height": 800,
+                                    "src": "/wp-content/uploads/2026/07/dorrin-1024x1024.webp",
+                                    "className": "attachment-large size-large wp-image-7708",
+                                    "alt": "",
+                                    "srcSet": "/wp-content/uploads/2026/07/dorrin-1024x1024.webp 1024w, /wp-content/uploads/2026/07/dorrin-300x300.webp 300w, /wp-content/uploads/2026/07/dorrin-150x150.webp 150w, /wp-content/uploads/2026/07/dorrin-768x768.webp 768w, /wp-content/uploads/2026/07/dorrin-1536x1536.webp 1536w, /wp-content/uploads/2026/07/dorrin.webp 1920w",
+                                    "sizes": "(max-width: 800px) 100vw, 800px"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-01e228d89e6d31"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-c03e51b e-con-full e-flex e-con e-child",
+                                "data-id": "c03e51b",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-29f5221 migrated-widget migrated-widget-heading",
+                                    "data-id": "29f5221",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Dorrin Rosenfeld"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-3af2a1b migrated-widget migrated-widget-heading",
+                                    "data-id": "3af2a1b",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "DC & Owner, State of the Art Chiropractic"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-bbe9e89 e-con-full e-flex e-con e-child",
+                    "data-id": "bbe9e89",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3bab251 e-con-full e-flex e-con e-child",
+                        "data-id": "3bab251",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-c566f51 migrated-widget migrated-widget-image",
+                            "data-id": "c566f51",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 402,
+                                "height": 628,
+                                "src": "/wp-content/uploads/2026/08/image-155.png",
+                                "className": "attachment-large size-large wp-image-10158",
+                                "alt": "",
+                                "srcSet": "/wp-content/uploads/2026/08/image-155.png 402w, /wp-content/uploads/2026/08/image-155-192x300.png 192w",
+                                "sizes": "(max-width: 402px) 100vw, 402px"
+                              },
+                              "children": [],
+                              "assetId": "image-4acb627f16d096"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-58bab85 migrated-widget migrated-widget-text-editor",
+                            "data-id": "58bab85",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "text-editor.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {},
+                              "children": [
+                                "I want to extend a sincere thank you to the team at Inceptives Digital. They have done an outstanding job managing our scope of work, from developing detailed wireframes to finalizing the markups. Their attention to detail is evident in every phase, and I’ve been particularly impressed by how quickly they deliver high-quality results. Great work, guys."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-391b397 e-con-full e-flex e-con e-child",
+                            "data-id": "391b397",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-2425249 migrated-widget migrated-widget-image",
+                                "data-id": "2425249",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 80,
+                                    "height": 80,
+                                    "src": "/wp-content/uploads/2026/07/tesitmonials-profile.webp",
+                                    "className": "attachment-large size-large wp-image-7713",
+                                    "alt": "Gary Dixon"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-db8c949483b1fe"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-a594761 e-con-full e-flex e-con e-child",
+                                "data-id": "a594761",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-caf626c migrated-widget migrated-widget-heading",
+                                    "data-id": "caf626c",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Ariel Rodriguez"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-32ad66b migrated-widget migrated-widget-heading",
+                                    "data-id": "32ad66b",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Founder, Dropydrop"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

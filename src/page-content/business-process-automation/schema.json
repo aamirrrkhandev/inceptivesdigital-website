@@ -1,0 +1,118 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://inceptivesdigital.com/business-process-automation",
+        "url": "https://inceptivesdigital.com/business-process-automation",
+        "name": "Business Process Automation Services for Workflow Efficiency",
+        "isPartOf": {
+          "@id": "https://inceptivesdigital.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://inceptivesdigital.com/business-process-automation#primaryimage"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/business-process-automation#primaryimage"
+        },
+        "thumbnailUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/inceptives_digital.webp",
+        "datePublished": "2026-07-23T10:43:58+00:00",
+        "dateModified": "2026-10-27T06:25:52+00:00",
+        "description": "Business process automation services that streamline workflows, remove manual operations, and improve cross-system efficiency across business processes.",
+        "breadcrumb": {
+          "@id": "https://inceptivesdigital.com/business-process-automation#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://inceptivesdigital.com/business-process-automation"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://inceptivesdigital.com/business-process-automation#primaryimage",
+        "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/inceptives_digital.webp",
+        "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/inceptives_digital.webp",
+        "width": 300,
+        "height": 300,
+        "caption": "Inceptives Digital Logo"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://inceptivesdigital.com/business-process-automation#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://inceptivesdigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Business Process Automation Services"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://inceptivesdigital.com/#website",
+        "url": "https://inceptivesdigital.com",
+        "name": "Inceptives Digital",
+        "description": "Digital Product Studio",
+        "publisher": {
+          "@id": "https://inceptivesdigital.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://inceptivesdigital.com/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://inceptivesdigital.com/#organization",
+        "name": "Inceptives Digital",
+        "url": "https://inceptivesdigital.com",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/",
+          "url": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "contentUrl": "https://inceptivesdigital.com/wp-content/uploads/2026/10/ID-logo.jpg",
+          "width": 512,
+          "height": 512,
+          "caption": "Inceptives Digital"
+        },
+        "image": {
+          "@id": "https://inceptivesdigital.com/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/inceptivesdigital",
+          "https://www.instagram.com/inceptivesdigital/",
+          "https://www.linkedin.com/company/inceptivesdigital/"
+        ],
+        "description": "Inceptives Digital helps businesses define, design, and build mobile apps, digital products, and AI-powered systems through product strategy, user-focused design, and senior engineering.",
+        "email": "info@inceptivesdigital.com",
+        "telephone": "+1 469 788 8527",
+        "legalName": "Inceptives Digital"
+      }
+    ]
+  }
+]

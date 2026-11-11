@@ -1,0 +1,47 @@
+{
+  "path": "/product-rescue-scaling",
+  "key": "a7b2d9801420a1289dca577cdb62d8acd33d7144",
+  "sourceUrl": "https://inceptivesdigital.com/product-rescue-scaling",
+  "bodyClass": "wp-singular page-template-default page page-id-4909 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-4909 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "image-box.default",
+    "nested-accordion.default",
+    "template.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "6b95f49f746a1a2a26945249"
+    },
+    {
+      "shared": "443a6a89c5159987e25eedbe"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

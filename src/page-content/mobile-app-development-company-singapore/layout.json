@@ -1,0 +1,48 @@
+{
+  "path": "/mobile-app-development-company-singapore",
+  "key": "9b02f7e4a5f799c417cc7ff9be6d0cf96842a43f",
+  "sourceUrl": "https://inceptivesdigital.com/mobile-app-development-company-singapore",
+  "bodyClass": "wp-singular page-template-default page page-id-7604 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-7604 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "google_maps.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "b52e95c7fa11db478bc66ec3"
+    },
+    {
+      "shared": "15a70df7c8d75b9b39cae4a2"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "abda570769897766612ac04c"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

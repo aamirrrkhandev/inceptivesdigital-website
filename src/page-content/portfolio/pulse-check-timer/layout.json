@@ -1,0 +1,44 @@
+{
+  "path": "/portfolio/pulse-check-timer",
+  "key": "98825ee2eb0d1c52db73f59d34a6dde73beee015",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/pulse-check-timer",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-11650 attachmentid-11650 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-11650 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "41dadddbc95a7cd5cd0dbb38"
+    },
+    {
+      "shared": "7ebcc532efab668ec441ddcc"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

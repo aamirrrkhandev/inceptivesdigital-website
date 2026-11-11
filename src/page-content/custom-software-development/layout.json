@@ -1,0 +1,45 @@
+{
+  "path": "/custom-software-development",
+  "key": "7b723bac19d2f096ed26cd40ec008812e5a1a5a0",
+  "sourceUrl": "https://inceptivesdigital.com/custom-software-development",
+  "bodyClass": "wp-singular page-template-default page page-id-10485 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-10485 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "template.default",
+    "text-editor.default",
+    "image-box.default",
+    "nested-tabs.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "c50df31bb297c5d0ea7c9f3c"
+    },
+    {
+      "shared": "5544152aa662af48aeb868df"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

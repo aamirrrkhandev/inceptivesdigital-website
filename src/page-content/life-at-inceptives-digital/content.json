@@ -1,0 +1,2414 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-9633 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "9633",
+              "className": "migrated migrated-9633",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "CulturePrinciples"
+              },
+              {
+                "section": "GrowthBeginsBeforeTheNextTitle"
+              },
+              {
+                "section": "FocusWithoutPressure"
+              },
+              {
+                "section": "SharedWorkSharedResponsibility"
+              },
+              {
+                "section": "ItSAllAboutPeople"
+              },
+              {
+                "section": "ResponsibilityCreatesRoomToGrow"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-094de00 e-flex e-con-boxed e-con e-parent",
+        "data-id": "094de00",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-2905e52 e-con-full e-flex e-con e-child",
+                "data-id": "2905e52",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4c8faa8 migrated-widget migrated-widget-heading",
+                    "data-id": "4c8faa8",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Life at Inceptives Digital"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-f7e1659 migrated-widget migrated-widget-heading",
+                    "data-id": "f7e1659",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Work That Builds ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "People and Products"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-d820632 migrated-widget migrated-widget-text-editor",
+                    "data-id": "d820632",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "Responsibility, clarity, and ownership define how we work. ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "Every role matters, every action counts."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7a9ac04 e-con-full e-flex e-con e-child",
+                    "data-id": "7a9ac04",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-64c4f9d migrated-align-right migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                        "data-id": "64c4f9d",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Explore Careers"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c366907 migrated-align-right migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-hidden-widescreen migrated-hidden-desktop migrated-hidden-laptop migrated-hidden-tablet_extra migrated-hidden-tablet migrated-hidden-mobile_extra migrated-hidden-mobile migrated-widget migrated-widget-button",
+                        "data-id": "c366907",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Meet the Team"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CulturePrinciples": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-cf21c20 e-flex e-con-boxed e-con e-parent",
+        "data-id": "cf21c20",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-babee27 e-con-full e-flex e-con e-child",
+                "data-id": "babee27",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-3dc679e migrated-widget migrated-widget-heading",
+                    "data-id": "3dc679e",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Culture Principles"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-1aa47f5 migrated-widget migrated-widget-text-editor",
+                    "data-id": "1aa47f5",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tA Culture You Can Feel\t\t\t\t\t\t\t\t"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-ee97344 e-grid e-con-full e-con e-child",
+                "data-id": "ee97344",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-9a9bccc e-con-full e-flex e-con e-child",
+                    "data-id": "9a9bccc",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-7a00618 e-con-full e-flex e-con e-child",
+                        "data-id": "7a00618",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-cbd2bb9 migrated-widget migrated-widget-image",
+                            "data-id": "cbd2bb9",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "decoding": "async",
+                                "width": 32,
+                                "height": 32,
+                                "src": "/wp-content/uploads/2026/08/lifeicon1.svg",
+                                "className": "attachment-large size-large wp-image-9651",
+                                "alt": "Clear Goals",
+                                "loading": "eager",
+                                "fetchPriority": "high"
+                              },
+                              "children": [],
+                              "assetId": "image-9af46c09226c1f"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-e64c35c migrated-widget migrated-widget-heading",
+                            "data-id": "e64c35c",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Clear Goals, ",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "\nClear Ownership"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-8ef7c0e migrated-widget migrated-widget-image",
+                        "data-id": "8ef7c0e",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "decoding": "async",
+                            "width": 250,
+                            "height": 185,
+                            "src": "/wp-content/uploads/2026/08/lifeimage1.png",
+                            "className": "attachment-large size-large wp-image-9652",
+                            "alt": "Office Environment",
+                            "loading": "lazy"
+                          },
+                          "children": [],
+                          "assetId": "image-719fb70b237f87"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-efe188f e-con-full e-flex e-con e-child",
+                    "data-id": "efe188f",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-cda7c40 e-con-full e-flex e-con e-child",
+                        "data-id": "cda7c40",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-619c4e9 migrated-widget migrated-widget-image",
+                            "data-id": "619c4e9",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 31,
+                                "height": 31,
+                                "src": "/wp-content/uploads/2026/08/lifeicon2.svg",
+                                "className": "attachment-large size-large wp-image-9659",
+                                "alt": "Decision"
+                              },
+                              "children": [],
+                              "assetId": "image-7a75b05e48757f"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-c5637ad migrated-widget migrated-widget-heading",
+                            "data-id": "c5637ad",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Freedom to ",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "\nMake Decisions"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-94f5e3f migrated-widget migrated-widget-image",
+                        "data-id": "94f5e3f",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 250,
+                            "height": 185,
+                            "src": "/wp-content/uploads/2026/08/lifeimage2.png",
+                            "className": "attachment-large size-large wp-image-9656",
+                            "alt": "meetinng"
+                          },
+                          "children": [],
+                          "assetId": "image-33455baba08313"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-a7704a6 e-con-full e-flex e-con e-child",
+                    "data-id": "a7704a6",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a4fa9ba e-con-full e-flex e-con e-child",
+                        "data-id": "a4fa9ba",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-2e5d324 migrated-widget migrated-widget-image",
+                            "data-id": "2e5d324",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 27,
+                                "height": 27,
+                                "src": "/wp-content/uploads/2026/08/lifeicon3.svg",
+                                "className": "attachment-large size-large wp-image-9660",
+                                "alt": "Transparent"
+                              },
+                              "children": [],
+                              "assetId": "image-c73a9fecce4f93"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-0f3dd73 migrated-widget migrated-widget-heading",
+                            "data-id": "0f3dd73",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Transparent ",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "\nCommunication"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-f82862b migrated-widget migrated-widget-image",
+                        "data-id": "f82862b",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 250,
+                            "height": 185,
+                            "src": "/wp-content/uploads/2026/08/lifeimage3.png",
+                            "className": "attachment-large size-large wp-image-9657",
+                            "alt": "Communication"
+                          },
+                          "children": [],
+                          "assetId": "image-e342528d4a2a02"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-90ca607 e-con-full e-flex e-con e-child",
+                    "data-id": "90ca607",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-0d552e3 e-con-full e-flex e-con e-child",
+                        "data-id": "0d552e3",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-364f399 migrated-widget migrated-widget-image",
+                            "data-id": "364f399",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 39,
+                                "height": 27,
+                                "src": "/wp-content/uploads/2026/08/lifeicon4.svg",
+                                "className": "attachment-large size-large wp-image-9661",
+                                "alt": "Learn"
+                              },
+                              "children": [],
+                              "assetId": "image-47d59ac07285ff"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-885c622 migrated-widget migrated-widget-heading",
+                            "data-id": "885c622",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "heading.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "props": {
+                                "className": "migrated-heading-title migrated-size-default"
+                              },
+                              "children": [
+                                "Learn ",
+                                {
+                                  "tag": "br",
+                                  "props": {},
+                                  "children": []
+                                },
+                                "\nThrough Doing"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-8c02b2c migrated-widget migrated-widget-image",
+                        "data-id": "8c02b2c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 250,
+                            "height": 185,
+                            "src": "/wp-content/uploads/2026/08/lifeimage4.png",
+                            "className": "attachment-large size-large wp-image-9658",
+                            "alt": "Through Doing"
+                          },
+                          "children": [],
+                          "assetId": "image-12137c2b0503d8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GrowthBeginsBeforeTheNextTitle": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-9a29793 e-flex e-con-boxed e-con e-parent",
+        "data-id": "9a29793",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-3a851de e-grid e-con-full e-con e-child",
+                "data-id": "3a851de",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-2416340 e-con-full e-flex e-con e-child",
+                    "data-id": "2416340",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-72dd386 migrated-widget migrated-widget-heading",
+                        "data-id": "72dd386",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Growth begins before ",
+                            {
+                              "tag": "br",
+                              "props": {},
+                              "children": []
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "banner-hightcolor"
+                              },
+                              "children": [
+                                "the next title."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-11ff944 migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                        "data-id": "11ff944",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-list.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "ul",
+                          "props": {
+                            "className": "migrated-icon-list-items"
+                          },
+                          "children": [
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Direct impact on products"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Rapid feedback and learning"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Expanding responsibilities"
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-1b17179 e-con-full e-flex e-con e-child",
+                    "data-id": "1b17179",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-2c226ab migrated-widget migrated-widget-image",
+                        "data-id": "2c226ab",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 525,
+                            "height": 461,
+                            "src": "/wp-content/uploads/2026/08/chart-life.png",
+                            "className": "attachment-large size-large wp-image-9680",
+                            "alt": "Infographic",
+                            "srcSet": "/wp-content/uploads/2026/08/chart-life.png 525w, /wp-content/uploads/2026/08/chart-life-300x263.png 300w",
+                            "sizes": "(max-width: 525px) 100vw, 525px"
+                          },
+                          "children": [],
+                          "assetId": "image-ef85882a958f65"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "FocusWithoutPressure": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-e8de5c1 e-flex e-con-boxed e-con e-parent",
+        "data-id": "e8de5c1",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-455f340 e-con-full e-flex e-con e-child",
+                "data-id": "455f340",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6f551f3 migrated-widget migrated-widget-heading",
+                    "data-id": "6f551f3",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Focus Without",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "Pressure"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-57dc1e7 e-con-full e-flex e-con e-child",
+                    "data-id": "57dc1e7",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-294186b migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                        "data-id": "294186b",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Respect for personal time"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-12b62e7 migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                        "data-id": "12b62e7",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Clear priorities and planning"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b2fb158 migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                        "data-id": "b2fb158",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Supportive management"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SharedWorkSharedResponsibility": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-6474439 e-flex e-con-boxed e-con e-parent",
+        "data-id": "6474439",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-d397319 e-grid e-con-full e-con e-child",
+                "data-id": "d397319",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-08dc6b5 e-con-full e-flex e-con e-child",
+                    "data-id": "08dc6b5",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c20ee21 migrated-widget migrated-widget-heading",
+                        "data-id": "c20ee21",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Shared Work,  ",
+                            {
+                              "tag": "br",
+                              "props": {},
+                              "children": []
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "banner-hightcolor"
+                              },
+                              "children": [
+                                "Shared Responsibility"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-10ee69f migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                        "data-id": "10ee69f",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-list.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "ul",
+                          "props": {
+                            "className": "migrated-icon-list-items"
+                          },
+                          "children": [
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Context Before Handoffs"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Ask Questions Early"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Respect Each Craft"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Joint Problem Ownership"
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ef70236 e-con-full e-flex e-con e-child",
+                    "data-id": "ef70236",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-fd3da72 migrated-widget migrated-widget-image",
+                        "data-id": "fd3da72",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "loading": "lazy",
+                            "decoding": "async",
+                            "width": 449,
+                            "height": 432,
+                            "src": "/wp-content/uploads/2026/08/work-image.png",
+                            "className": "attachment-large size-large wp-image-9691",
+                            "alt": "Working Image",
+                            "srcSet": "/wp-content/uploads/2026/08/work-image.png 449w, /wp-content/uploads/2026/08/work-image-300x289.png 300w",
+                            "sizes": "(max-width: 449px) 100vw, 449px"
+                          },
+                          "children": [],
+                          "assetId": "image-83bcbfd3219fa3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ItSAllAboutPeople": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-7a662df migrated-hidden-widescreen migrated-hidden-desktop migrated-hidden-laptop migrated-hidden-tablet_extra migrated-hidden-tablet migrated-hidden-mobile_extra migrated-hidden-mobile e-flex e-con-boxed e-con e-parent",
+        "data-id": "7a662df",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-67e06f7 e-con-full e-flex e-con e-child",
+                "data-id": "67e06f7",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-2f7cdb4 migrated-widget migrated-widget-heading",
+                    "data-id": "2f7cdb4",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "It's all about people."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-958e06f migrated-widget migrated-widget-heading",
+                    "data-id": "958e06f",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "banner-hightcolor"
+                          },
+                          "children": [
+                            "Let’s hear them out."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-e49b917 e-con-full e-flex e-con e-child",
+                "data-id": "e49b917",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-3910af1 migrated-arrows-position-outside migrated-widget migrated-widget-n-carousel",
+                    "data-id": "3910af1",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-config": "{\"slides_to_show\":\"3\",\"slides_to_scroll\":\"1\",\"slides_to_show_tablet\":\"2\",\"slides_to_show_mobile\":\"1\",\"autoplay\":\"yes\",\"autoplay_speed\":5000,\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"speed\":500}",
+                    "data-widget": "nested-carousel.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "e-n-carousel swiper",
+                        "role": "region",
+                        "aria-roledescription": "carousel",
+                        "aria-label": "Carousel",
+                        "dir": "ltr"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "swiper-wrapper",
+                            "aria-live": "off"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "swiper-slide",
+                                "data-slide": "1",
+                                "role": "group",
+                                "aria-roledescription": "slide",
+                                "aria-label": "1 of 4"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-e31476b e-flex e-con-boxed e-con e-child",
+                                    "data-id": "e31476b",
+                                    "data-element_type": "container",
+                                    "data-e-type": "container"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "e-con-inner"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "props": {
+                                            "className": "migrated-element migrated-element-8895a70 e-con-full e-flex e-con e-child",
+                                            "data-id": "8895a70",
+                                            "data-element_type": "container",
+                                            "data-e-type": "container"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-d70f7bc migrated-widget migrated-widget-image",
+                                                "data-id": "d70f7bc",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "image.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "props": {
+                                                    "loading": "lazy",
+                                                    "decoding": "async",
+                                                    "width": 214,
+                                                    "height": 214,
+                                                    "src": "/wp-content/uploads/2026/08/Mask-group-2.png",
+                                                    "className": "attachment-large size-large wp-image-9704",
+                                                    "alt": "Abrar",
+                                                    "srcSet": "/wp-content/uploads/2026/08/Mask-group-2.png 214w, /wp-content/uploads/2026/08/Mask-group-2-150x150.png 150w",
+                                                    "sizes": "(max-width: 214px) 100vw, 214px"
+                                                  },
+                                                  "children": [],
+                                                  "assetId": "image-3e0cba1f4cc6b8"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-ba3c5b7 migrated-widget migrated-widget-heading",
+                                                "data-id": "ba3c5b7",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "ABRAR"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-79901d7 migrated-widget migrated-widget-heading",
+                                                "data-id": "79901d7",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "Senior UI/UX Designer"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-1288daf migrated-widget migrated-widget-text-editor",
+                                                "data-id": "1288daf",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "text-editor.default"
+                                              },
+                                              "children": [
+                                                "\n\t\t\t\t\t\t\t\t\t “What I love most about life at Inceptives is the clarity and autonomy in my role. I know exactly what’s expected, and at the same time, I have the freedom to make decisions and guide projects. The team’s support and willingness to share insights make every challenge feel manageable and rewarding.”\t\t\t\t\t\t\t\t"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "swiper-slide",
+                                "data-slide": "2",
+                                "role": "group",
+                                "aria-roledescription": "slide",
+                                "aria-label": "2 of 4"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-29c063a e-flex e-con-boxed e-con e-child",
+                                    "data-id": "29c063a",
+                                    "data-element_type": "container",
+                                    "data-e-type": "container"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "e-con-inner"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "props": {
+                                            "className": "migrated-element migrated-element-3667ce3 e-con-full e-flex e-con e-child",
+                                            "data-id": "3667ce3",
+                                            "data-element_type": "container",
+                                            "data-e-type": "container"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-10f8843 migrated-widget migrated-widget-image",
+                                                "data-id": "10f8843",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "image.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "props": {
+                                                    "loading": "lazy",
+                                                    "decoding": "async",
+                                                    "width": 214,
+                                                    "height": 214,
+                                                    "src": "/wp-content/uploads/2026/08/sarim.png",
+                                                    "className": "attachment-large size-large wp-image-9714",
+                                                    "alt": "Sarim",
+                                                    "srcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w",
+                                                    "sizes": "(max-width: 214px) 100vw, 214px"
+                                                  },
+                                                  "children": [],
+                                                  "assetId": "image-2bade4abf60004"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-7cb31cb migrated-widget migrated-widget-heading",
+                                                "data-id": "7cb31cb",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "SALIM"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-54ac39b migrated-widget migrated-widget-heading",
+                                                "data-id": "54ac39b",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "Product Manager"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-7228389 migrated-widget migrated-widget-text-editor",
+                                                "data-id": "7228389",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "text-editor.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "p",
+                                                  "props": {},
+                                                  "children": [
+                                                    " “What I love most about life at Inceptives is the clarity and autonomy in my role. I know exactly what’s expected, and at the same time, I have the freedom to make decisions and guide projects. The team’s support and willingness to share insights make every challenge feel manageable and rewarding.”"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "swiper-slide",
+                                "data-slide": "3",
+                                "role": "group",
+                                "aria-roledescription": "slide",
+                                "aria-label": "3 of 4"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-94270de e-flex e-con-boxed e-con e-child",
+                                    "data-id": "94270de",
+                                    "data-element_type": "container",
+                                    "data-e-type": "container"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "e-con-inner"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "props": {
+                                            "className": "migrated-element migrated-element-82ea799 e-con-full e-flex e-con e-child",
+                                            "data-id": "82ea799",
+                                            "data-element_type": "container",
+                                            "data-e-type": "container"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-f8ed0ea migrated-widget migrated-widget-image",
+                                                "data-id": "f8ed0ea",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "image.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "props": {
+                                                    "loading": "lazy",
+                                                    "decoding": "async",
+                                                    "width": 214,
+                                                    "height": 214,
+                                                    "src": "/wp-content/uploads/2026/08/atif.png",
+                                                    "className": "attachment-large size-large wp-image-9715",
+                                                    "alt": "Atif Zaidi (CTO)",
+                                                    "srcSet": "/wp-content/uploads/2026/08/atif.png 214w, /wp-content/uploads/2026/08/atif-150x150.png 150w",
+                                                    "sizes": "(max-width: 214px) 100vw, 214px"
+                                                  },
+                                                  "children": [],
+                                                  "assetId": "image-3e1689a32d03b9"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-ba94fcd migrated-widget migrated-widget-heading",
+                                                "data-id": "ba94fcd",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "ATIF"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-f4ad749 migrated-widget migrated-widget-heading",
+                                                "data-id": "f4ad749",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "Senior QA Engineer"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-c443708 migrated-widget migrated-widget-text-editor",
+                                                "data-id": "c443708",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "text-editor.default"
+                                              },
+                                              "children": [
+                                                "\n\t\t\t\t\t\t\t\t\t “What I love most about life at Inceptives is the clarity and autonomy in my role. I know exactly what’s expected, and at the same time, I have the freedom to make decisions and guide projects. The team’s support and willingness to share insights make every challenge feel manageable and rewarding.”\t\t\t\t\t\t\t\t"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "swiper-slide",
+                                "data-slide": "4",
+                                "role": "group",
+                                "aria-roledescription": "slide",
+                                "aria-label": "4 of 4"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-c659c27 e-flex e-con-boxed e-con e-child",
+                                    "data-id": "c659c27",
+                                    "data-element_type": "container",
+                                    "data-e-type": "container"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "props": {
+                                        "className": "e-con-inner"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "props": {
+                                            "className": "migrated-element migrated-element-9aa1d21 e-con-full e-flex e-con e-child",
+                                            "data-id": "9aa1d21",
+                                            "data-element_type": "container",
+                                            "data-e-type": "container"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-142fd94 migrated-widget migrated-widget-image",
+                                                "data-id": "142fd94",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "image.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "props": {
+                                                    "loading": "lazy",
+                                                    "decoding": "async",
+                                                    "width": 214,
+                                                    "height": 214,
+                                                    "src": "/wp-content/uploads/2026/08/sarim.png",
+                                                    "className": "attachment-large size-large wp-image-9714",
+                                                    "alt": "Sarim",
+                                                    "srcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w",
+                                                    "sizes": "(max-width: 214px) 100vw, 214px"
+                                                  },
+                                                  "children": [],
+                                                  "assetId": "image-cfded2d559967c"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-85b8518 migrated-widget migrated-widget-heading",
+                                                "data-id": "85b8518",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "SALIM"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-d132abd migrated-widget migrated-widget-heading",
+                                                "data-id": "d132abd",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "heading.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "props": {
+                                                    "className": "migrated-heading-title migrated-size-default"
+                                                  },
+                                                  "children": [
+                                                    "Product Manager"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "props": {
+                                                "className": "migrated-element migrated-element-0e29686 migrated-widget migrated-widget-text-editor",
+                                                "data-id": "0e29686",
+                                                "data-element_type": "widget",
+                                                "data-e-type": "widget",
+                                                "data-widget": "text-editor.default"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "p",
+                                                  "props": {},
+                                                  "children": [
+                                                    " “What I love most about life at Inceptives is the clarity and autonomy in my role. I know exactly what’s expected, and at the same time, I have the freedom to make decisions and guide projects. The team’s support and willingness to share insights make every challenge feel manageable and rewarding.”"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-swiper-button migrated-swiper-button-prev",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-label": "Previous"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "aria-hidden": "true",
+                            "className": "e-font-icon-svg e-eicon-chevron-left",
+                            "viewBox": "0 0 1000 1000"
+                          },
+                          "children": [
+                            {
+                              "tag": "path",
+                              "props": {
+                                "d": "M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-swiper-button migrated-swiper-button-next",
+                        "role": "button",
+                        "tabIndex": "0",
+                        "aria-label": "Next"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "aria-hidden": "true",
+                            "className": "e-font-icon-svg e-eicon-chevron-right",
+                            "viewBox": "0 0 1000 1000"
+                          },
+                          "children": [
+                            {
+                              "tag": "path",
+                              "props": {
+                                "d": "M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ResponsibilityCreatesRoomToGrow": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-07bab0d e-flex e-con-boxed e-con e-parent",
+        "data-id": "07bab0d",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-23f5a0d e-con-full e-flex e-con e-child",
+                "data-id": "23f5a0d",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-8e4caba migrated-widget migrated-widget-heading",
+                    "data-id": "8e4caba",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Responsibility ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "\nCreates Room to Grow"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-0066635 migrated-widget migrated-widget-text-editor",
+                    "data-id": "0066635",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "Join a team where your work matters, decisions count, and ",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "growth is intentional."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-0f6d75d e-con-full e-flex e-con e-child",
+                    "data-id": "0f6d75d",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-00b0978 migrated-align-right migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit getintouch migrated-widget migrated-widget-button",
+                        "data-id": "00b0978",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-button-link migrated-size-sm",
+                            "href": "/life-at-inceptives-digital"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Explore Open Roles"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-fd5057c migrated-align-right migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit getintouch migrated-widget migrated-widget-button",
+                        "data-id": "fd5057c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-button-link migrated-size-sm",
+                            "href": "/life-at-inceptives-digital"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Grow with Responsibility"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "path": "/ai-development",
+  "key": "62a76da4d39d4d3e4d9302f8d55311bb7a56ab66",
+  "sourceUrl": "https://inceptivesdigital.com/ai-development",
+  "bodyClass": "wp-singular page-template-default page page-id-2400 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-2400 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "divider.default",
+    "image-box.default",
+    "nested-carousel.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "icon-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "02d838741e77eccca19e7e06"
+    },
+    {
+      "shared": "e0a67faa6d7880a8b9ac356f"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "99acc410dd4d9e6a1d86a9f9"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

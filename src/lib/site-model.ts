@@ -3,6 +3,7 @@ import { readPackedFile } from "./packed-file";
 import zlib from "node:zlib";
 import { cache } from "react";
 import routes from "../../content/routes.json";
+import { getEditablePage } from "./editable-pages";
 const routeTitles = new Map(routes.map(route => [route.path, route.title]));
 export type LayoutNode =
   | string
@@ -26,6 +27,8 @@ export type SitePage = {
   };
   widgets: string[];
   articleInteractions?: boolean;
+  editableSections?: LayoutNode[];
+  secondaryStyles?: string;
 };
 export const readCatalog = cache((): Record<string, { data: string }> =>
   JSON.parse(
@@ -37,6 +40,8 @@ export const readCatalog = cache((): Record<string, { data: string }> =>
   ),
 );
 export const getPage = cache((pathname: string): SitePage | undefined => {
+  const editable = getEditablePage(pathname);
+  if (editable) return editable;
   const catalog = readCatalog();
   const entry =
     catalog[pathname] ||

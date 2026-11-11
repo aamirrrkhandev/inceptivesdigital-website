@@ -1,0 +1,47 @@
+{
+  "path": "/blockchain-development",
+  "key": "c588d9da3733d93da119499488f97851379a6b16",
+  "sourceUrl": "https://inceptivesdigital.com/blockchain-development",
+  "bodyClass": "wp-singular page-template-default page page-id-17507 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-17507 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "template.default",
+    "text-editor.default",
+    "nested-tabs.default",
+    "image-box.default",
+    "counter.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "e9afd0030be4238391a68f90"
+    },
+    {
+      "shared": "7054e9ce213f2e63a0e987b8"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

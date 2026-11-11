@@ -1,0 +1,3116 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-9428 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "9428",
+              "className": "migrated migrated-9428",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "GoodLeadershipLeavesStrongerPeopleBehind"
+              },
+              {
+                "section": "LeaderResponsibilities"
+              },
+              {
+                "section": "ClearOwnershipStartsAtTheTop"
+              },
+              {
+                "section": "SeniorInvolvementImprovesDecisions"
+              },
+              {
+                "section": "LeadershipIsJudgedByWhatImprovesAround"
+              },
+              {
+                "section": "WhyTheCompanyShouldNeverDependOn"
+              },
+              {
+                "section": "StrongProductsNeedLeadersBehindThem"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-be509ba e-flex e-con-boxed e-con e-parent",
+        "data-id": "be509ba",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-8c7f26c e-con-full e-flex e-con e-child",
+                "data-id": "8c7f26c",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-6f092fc migrated-widget migrated-widget-heading",
+                    "data-id": "6f092fc",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Leadership Should Strengthen Teams, Not Create Dependency"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7fc5470 migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                    "data-id": "7fc5470",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "Our leaders set direction, own results, and enable teams to make sound decisions without waiting for approval."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-697dc8e migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-align-right migrated-laptop-align-left getintouch migrated-widget migrated-widget-button",
+                    "data-id": "697dc8e",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "button.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "props": {
+                        "className": "migrated-button migrated-size-sm",
+                        "role": "button"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-button-content-wrapper"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-text"
+                              },
+                              "children": [
+                                "Start My Product Roadmap"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GoodLeadershipLeavesStrongerPeopleBehind": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-9dfeaee e-flex e-con-boxed e-con e-parent",
+        "data-id": "9dfeaee",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-41ed468 e-grid e-con-full e-con e-child",
+                "data-id": "41ed468",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-9867371 e-con-full e-flex e-con e-child",
+                    "data-id": "9867371",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-85ae602 migrated-widget migrated-widget-image",
+                        "data-id": "85ae602",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "image.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "fetchpriority": "high",
+                            "decoding": "async",
+                            "width": 499,
+                            "height": 384,
+                            "src": "/wp-content/uploads/2026/08/Rectangle-7182.svg",
+                            "className": "attachment-large size-large wp-image-9442",
+                            "alt": "",
+                            "loading": "eager",
+                            "fetchPriority": "high"
+                          },
+                          "children": [],
+                          "assetId": "image-11d8accb6d54a5"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-1ed5ac9 e-con-full e-flex e-con e-child",
+                    "data-id": "1ed5ac9",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-93f5816 migrated-widget migrated-widget-heading",
+                        "data-id": "93f5816",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Good Leadership Leaves Stronger People Behind"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-8c2adae migrated-tablet_extra-align-start migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                        "data-id": "8c2adae",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "icon-list.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "ul",
+                          "props": {
+                            "className": "migrated-icon-list-items"
+                          },
+                          "children": [
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Leaders set direction, define standards, and give capable people room to act"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Each leader is responsible for their team’s judgment, early risk reporting, and functional outcomes"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "props": {
+                                "className": "migrated-icon-list-item"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-icon"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "svg",
+                                      "props": {
+                                        "aria-hidden": "true",
+                                        "className": "e-font-icon-svg e-fas-check-circle",
+                                        "viewBox": "0 0 512 512"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "props": {
+                                            "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-icon-list-text"
+                                  },
+                                  "children": [
+                                    "Leadership is measured by team strength and decision quality, not personal control  Pictures: Illustration or photo representing leadership principles"
+                                  ]
+                                },
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LeaderResponsibilities": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-6087483 e-flex e-con-boxed e-con e-parent",
+        "data-id": "6087483",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-8696386 e-con-full e-flex e-con e-child",
+                "data-id": "8696386",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-036b078 migrated-widget migrated-widget-heading",
+                    "data-id": "036b078",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        " Leader Responsibilities"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-780f149 e-con-full e-flex e-con e-child",
+                "data-id": "780f149",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-080c345 e-con-full e-flex e-con e-child",
+                    "data-id": "080c345",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-fe3e797 e-con-full e-flex e-con e-child",
+                        "data-id": "fe3e797",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-adf3e05 migrated-widget migrated-widget-image",
+                            "data-id": "adf3e05",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "decoding": "async",
+                                "width": 48,
+                                "height": 48,
+                                "src": "/wp-content/uploads/2026/08/fi_522510.svg",
+                                "className": "attachment-large size-large wp-image-9455",
+                                "alt": "Business Discovery",
+                                "loading": "lazy"
+                              },
+                              "children": [],
+                              "assetId": "image-ac87102229f56b"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-cd380e9 migrated-widget migrated-widget-heading",
+                        "data-id": "cd380e9",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Set the Direction"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a193c5e migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "a193c5e",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            " Teams understand goals, priorities, and critical decisions. Leaders remove uncertainty before it slows work."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b76f7bb e-con-full e-flex e-con e-child",
+                    "data-id": "b76f7bb",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b12a95e e-con-full e-flex e-con e-child",
+                        "data-id": "b12a95e",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-9c30576 migrated-widget migrated-widget-image",
+                            "data-id": "9c30576",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 48,
+                                "height": 48,
+                                "src": "/wp-content/uploads/2026/08/fi_13530745.png",
+                                "className": "attachment-large size-large wp-image-9867",
+                                "alt": "Early Decisions"
+                              },
+                              "children": [],
+                              "assetId": "image-610d2bfc29d0c4"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-df78825 migrated-widget migrated-widget-heading",
+                        "data-id": "df78825",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Own the Result"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-53f211c migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "53f211c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        "\n\t\t\t\t\t\t\t\t\t Titles don’t remove accountability. Leaders own team outcomes and the quality of decisions.\t\t\t\t\t\t\t\t"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-a1d7091 e-con-full e-flex e-con e-child",
+                    "data-id": "a1d7091",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-24e9131 e-con-full e-flex e-con e-child",
+                        "data-id": "24e9131",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-3476a78 migrated-widget migrated-widget-image",
+                            "data-id": "3476a78",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 49,
+                                "height": 50,
+                                "src": "/wp-content/uploads/2026/08/Vector-1.png",
+                                "className": "attachment-large size-large wp-image-9868",
+                                "alt": ""
+                              },
+                              "children": [],
+                              "assetId": "image-7afc0dc8d47ddd"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-8c03236 migrated-widget migrated-widget-heading",
+                        "data-id": "8c03236",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Build Judgment"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a0619d8 migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "a0619d8",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        "\n\t\t\t\t\t\t\t\t\t Leaders teach team members to solve problems independently and make sound decisions.\t\t\t\t\t\t\t\t"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7adcf43 e-con-full e-flex e-con e-child",
+                    "data-id": "7adcf43",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-c25db1a e-con-full e-flex e-con e-child",
+                        "data-id": "c25db1a",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-b176488 migrated-widget migrated-widget-image",
+                            "data-id": "b176488",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 54,
+                                "height": 54,
+                                "src": "/wp-content/uploads/2026/08/fi_2285551.png",
+                                "className": "attachment-large size-large wp-image-9869",
+                                "alt": "Post luanch support"
+                              },
+                              "children": [],
+                              "assetId": "image-88957fb5e1e86a"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-b629b74 migrated-widget migrated-widget-heading",
+                        "data-id": "b629b74",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Raise Risks Early"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-441d13e migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "441d13e",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        "\n\t\t\t\t\t\t\t\t\t Surface issues before they impact scope, quality, or delivery.\t\t\t\t\t\t\t\t"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-d3cbff5 e-con-full e-flex e-con e-child",
+                    "data-id": "d3cbff5",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a116832 e-con-full e-flex e-con e-child",
+                        "data-id": "a116832",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-60fa2ff migrated-widget migrated-widget-image",
+                            "data-id": "60fa2ff",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 53,
+                                "height": 53,
+                                "src": "/wp-content/uploads/2026/08/fi_7041848.png",
+                                "className": "attachment-large size-large wp-image-9870",
+                                "alt": "responsibility"
+                              },
+                              "children": [],
+                              "assetId": "image-8822c80fc08396"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-27eb140 migrated-widget migrated-widget-heading",
+                        "data-id": "27eb140",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Share Knowledge"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-faf69fb migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "faf69fb",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            " Decisions, processes, and lessons are documented and passed across the team."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ClearOwnershipStartsAtTheTop": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-cedd3b5 e-flex e-con-boxed e-con e-parent",
+        "data-id": "cedd3b5",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-aef2e71 e-con-full e-flex e-con e-child",
+                "data-id": "aef2e71",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-3688898 migrated-widget migrated-widget-heading",
+                    "data-id": "3688898",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Clear Ownership Starts\nat the Top"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-f7bee78 e-grid e-con-boxed e-con e-child",
+                "data-id": "f7bee78",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "e-con-inner"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-cf7701a e-con-full e-flex e-con e-child",
+                        "data-id": "cf7701a",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-991d3d4 e-con-full e-flex e-con e-child",
+                            "data-id": "991d3d4",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-e1cae5d migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "e1cae5d",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 1004,
+                                    "height": 1567,
+                                    "src": "/wp-content/uploads/2026/08/hannan.png",
+                                    "className": "attachment-full size-full wp-image-16276",
+                                    "alt": "",
+                                    "srcSet": "/wp-content/uploads/2026/08/hannan.png 1004w, /wp-content/uploads/2026/08/hannan-192x300.png 192w, /wp-content/uploads/2026/08/hannan-656x1024.png 656w, /wp-content/uploads/2026/08/hannan-768x1199.png 768w, /wp-content/uploads/2026/08/hannan-984x1536.png 984w",
+                                    "sizes": "(max-width: 1004px) 100vw, 1004px"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-4a4533fc1715de"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-80d2b87 e-con-full e-flex e-con e-child",
+                            "data-id": "80d2b87",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-aa2e6bd migrated-widget migrated-widget-heading",
+                                "data-id": "aa2e6bd",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "heading.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "migrated-heading-title migrated-size-default"
+                                  },
+                                  "children": [
+                                    "Hannan Shahnoor"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-bfc3cbc e-con-full e-flex e-con e-child",
+                                "data-id": "bfc3cbc",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-2933c4b migrated-widget__width-initial migrated-widget migrated-widget-heading",
+                                    "data-id": "2933c4b",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h4",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Chief Executive Officer"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-d7c7c9d migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "d7c7c9d",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-9936de6 e-con-full e-flex e-con e-child",
+                                "data-id": "9936de6",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-b67d55e migrated-widget migrated-widget-heading",
+                                    "data-id": "b67d55e",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Primary Focus"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-c33b3f3 migrated-widget migrated-widget-text-editor",
+                                    "data-id": "c33b3f3",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "props": {},
+                                      "children": [
+                                        "Company direction, leadership development, business standards, client value, long-term growth"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-be5d247 migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "be5d247",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-a8770d8 e-con-full e-flex e-con e-child",
+                                "data-id": "a8770d8",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-53d82f9 migrated-widget migrated-widget-heading",
+                                    "data-id": "53d82f9",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Operating Belief"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-8535de1 migrated-widget migrated-widget-text-editor",
+                                    "data-id": "8535de1",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    "\n\t\t\t\t\t\t\t\t\t“The company should never depend on one important person.”\t\t\t\t\t\t\t\t"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-0bdf27e e-grid-align-left e-grid-align-laptop-left migrated-hidden-widescreen migrated-hidden-desktop migrated-hidden-laptop migrated-hidden-tablet_extra migrated-hidden-tablet migrated-hidden-mobile_extra migrated-hidden-mobile migrated-shape-rounded migrated-grid-0 migrated-widget migrated-widget-social-icons",
+                                "data-id": "0bdf27e",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "social-icons.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-social-icons-wrapper migrated-grid"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-grid-item"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "className": "migrated-icon migrated-social-icon migrated-social-icon-linkedin migrated-repeater-item-6606ebf",
+                                            "href": "https://www.linkedin.com/in/hannanshahnoor",
+                                            "target": "_blank"
+                                          },
+                                          "children": [
+                                            " ",
+                                            {
+                                              "tag": "span",
+                                              "props": {
+                                                "className": "migrated-screen-only"
+                                              },
+                                              "children": [
+                                                "Linkedin"
+                                              ]
+                                            },
+                                            " ",
+                                            {
+                                              "tag": "svg",
+                                              "props": {
+                                                "aria-hidden": "true",
+                                                "className": "e-font-icon-svg e-fab-linkedin",
+                                                "viewBox": "0 0 448 512"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "props": {
+                                                    "d": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            " "
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-7a48eaf e-grid e-con-boxed e-con e-child",
+                "data-id": "7a48eaf",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "e-con-inner"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a64f6ca e-con-full e-flex e-con e-child",
+                        "data-id": "a64f6ca",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-59cb52c e-con-full e-flex e-con e-child",
+                            "data-id": "59cb52c",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-8266ee2 migrated-widget migrated-widget-heading",
+                                "data-id": "8266ee2",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "heading.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "migrated-heading-title migrated-size-default"
+                                  },
+                                  "children": [
+                                    "Areeb Rehman"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-cd6c0d4 e-con-full e-flex e-con e-child",
+                                "data-id": "cd6c0d4",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-57f7725 migrated-widget__width-initial migrated-widget migrated-widget-heading",
+                                    "data-id": "57f7725",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h4",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Chief Operating Officer"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-e1f3ace migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "e1f3ace",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-87f5728 e-con-full e-flex e-con e-child",
+                                "data-id": "87f5728",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-0520d50 migrated-widget migrated-widget-heading",
+                                    "data-id": "0520d50",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Primary Focus"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-39594eb migrated-widget migrated-widget-text-editor",
+                                    "data-id": "39594eb",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    "\n\t\t\t\t\t\t\t\t\tSales operations, commercial process, opportunity coordination, pre-onboarding readiness\t\t\t\t\t\t\t\t"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-bbfa0a6 migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "bbfa0a6",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-1956bae e-con-full e-flex e-con e-child",
+                                "data-id": "1956bae",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-14feb18 migrated-widget migrated-widget-heading",
+                                    "data-id": "14feb18",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Operating Belief"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-73e59f7 migrated-widget migrated-widget-text-editor",
+                                    "data-id": "73e59f7",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "props": {},
+                                      "children": [
+                                        "“Clear expectations create stronger client relationships.”"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-a09c688 e-grid-align-left e-grid-align-laptop-left migrated-hidden-widescreen migrated-hidden-desktop migrated-hidden-laptop migrated-hidden-tablet_extra migrated-hidden-tablet migrated-hidden-mobile_extra migrated-hidden-mobile migrated-shape-rounded migrated-grid-0 migrated-widget migrated-widget-social-icons",
+                                "data-id": "a09c688",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "social-icons.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-social-icons-wrapper migrated-grid"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-grid-item"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "className": "migrated-icon migrated-social-icon migrated-social-icon-linkedin migrated-repeater-item-60b8950",
+                                            "href": "https://www.linkedin.com/in/areebrehman/",
+                                            "target": "_blank"
+                                          },
+                                          "children": [
+                                            " ",
+                                            {
+                                              "tag": "span",
+                                              "props": {
+                                                "className": "migrated-screen-only"
+                                              },
+                                              "children": [
+                                                "Linkedin"
+                                              ]
+                                            },
+                                            " ",
+                                            {
+                                              "tag": "svg",
+                                              "props": {
+                                                "aria-hidden": "true",
+                                                "className": "e-font-icon-svg e-fab-linkedin",
+                                                "viewBox": "0 0 448 512"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "props": {
+                                                    "d": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            " "
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-acc4826 migrated-widget__width-initial migrated-widget migrated-widget-image",
+                            "data-id": "acc4826",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "image.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "loading": "lazy",
+                                "decoding": "async",
+                                "width": 1003,
+                                "height": 1568,
+                                "src": "/wp-content/uploads/2026/08/areeb.png",
+                                "className": "attachment-full size-full wp-image-16277",
+                                "alt": "",
+                                "srcSet": "/wp-content/uploads/2026/08/areeb.png 1003w, /wp-content/uploads/2026/08/areeb-192x300.png 192w, /wp-content/uploads/2026/08/areeb-655x1024.png 655w, /wp-content/uploads/2026/08/areeb-768x1201.png 768w, /wp-content/uploads/2026/08/areeb-983x1536.png 983w",
+                                "sizes": "(max-width: 1003px) 100vw, 1003px"
+                              },
+                              "children": [],
+                              "assetId": "image-4e946093da6262"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-c66216a e-grid e-con-boxed e-con e-child",
+                "data-id": "c66216a",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "e-con-inner"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-90c4598 e-con-full e-flex e-con e-child",
+                        "data-id": "90c4598",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-9888e3c e-con-full e-flex e-con e-child",
+                            "data-id": "9888e3c",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-558e9f1 migrated-widget__width-initial migrated-widget migrated-widget-image",
+                                "data-id": "558e9f1",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "image.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "img",
+                                  "props": {
+                                    "loading": "lazy",
+                                    "decoding": "async",
+                                    "width": 1248,
+                                    "height": 1872,
+                                    "src": "/wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972.jpg",
+                                    "className": "attachment-full size-full wp-image-23445",
+                                    "alt": "",
+                                    "srcSet": "/wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972.jpg 1248w, /wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972-200x300.jpg 200w, /wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972-683x1024.jpg 683w, /wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972-768x1152.jpg 768w, /wp-content/uploads/2026/10/magnific__i-want-to-change-the-direction-of-this-photo-from-__1972-1024x1536.jpg 1024w",
+                                    "sizes": "(max-width: 1248px) 100vw, 1248px"
+                                  },
+                                  "children": [],
+                                  "assetId": "image-4951465ea64e81"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-d23ae1d e-con-full e-flex e-con e-child",
+                            "data-id": "d23ae1d",
+                            "data-element_type": "container",
+                            "data-e-type": "container"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-0dd0c2a migrated-widget migrated-widget-heading",
+                                "data-id": "0dd0c2a",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "heading.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h3",
+                                  "props": {
+                                    "className": "migrated-heading-title migrated-size-default"
+                                  },
+                                  "children": [
+                                    "Aaron Francis"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-6abb05e e-con-full e-flex e-con e-child",
+                                "data-id": "6abb05e",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-3081dcd migrated-widget__width-initial migrated-widget migrated-widget-heading",
+                                    "data-id": "3081dcd",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h4",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Vice President RevOps | DevOps"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-b59524e migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "b59524e",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-f1a7d53 e-con-full e-flex e-con e-child",
+                                "data-id": "f1a7d53",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-c8b8107 migrated-widget migrated-widget-heading",
+                                    "data-id": "c8b8107",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Primary Focus"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-3065b54 migrated-widget migrated-widget-text-editor",
+                                    "data-id": "3065b54",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    "\n\t\t\t\t\t\t\t\t\tSales Strategy, Revenue Growth, Pipeline Management, Client Acquisition\t\t\t\t\t\t\t\t"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-aad1138 migrated-widget-divider--view-line migrated-widget migrated-widget-divider",
+                                "data-id": "aad1138",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "divider.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-divider"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-divider-separator"
+                                      },
+                                      "children": [
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-5abf35e e-con-full e-flex e-con e-child",
+                                "data-id": "5abf35e",
+                                "data-element_type": "container",
+                                "data-e-type": "container"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-6bf3b97 migrated-widget migrated-widget-heading",
+                                    "data-id": "6bf3b97",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h5",
+                                      "props": {
+                                        "className": "migrated-heading-title migrated-size-default"
+                                      },
+                                      "children": [
+                                        "Operating Belief"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-element migrated-element-fbb4dd4 migrated-widget migrated-widget-text-editor",
+                                    "data-id": "fbb4dd4",
+                                    "data-element_type": "widget",
+                                    "data-e-type": "widget",
+                                    "data-widget": "text-editor.default"
+                                  },
+                                  "children": [
+                                    "\n\t\t\t\t\t\t\t\t\t“Strong Sales Strategies Turn Opportunities Into Lasting Partnerships”\t\t\t\t\t\t\t\t"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "migrated-element migrated-element-cc524b6 e-grid-align-left e-grid-align-laptop-left migrated-hidden-widescreen migrated-hidden-desktop migrated-hidden-laptop migrated-hidden-tablet_extra migrated-hidden-tablet migrated-hidden-mobile_extra migrated-hidden-mobile migrated-shape-rounded migrated-grid-0 migrated-widget migrated-widget-social-icons",
+                                "data-id": "cc524b6",
+                                "data-element_type": "widget",
+                                "data-e-type": "widget",
+                                "data-widget": "social-icons.default"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "props": {
+                                    "className": "migrated-social-icons-wrapper migrated-grid"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-grid-item"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "a",
+                                          "props": {
+                                            "className": "migrated-icon migrated-social-icon migrated-social-icon-linkedin migrated-repeater-item-6606ebf",
+                                            "href": "https://www.linkedin.com/in/hannanshahnoor",
+                                            "target": "_blank"
+                                          },
+                                          "children": [
+                                            " ",
+                                            {
+                                              "tag": "span",
+                                              "props": {
+                                                "className": "migrated-screen-only"
+                                              },
+                                              "children": [
+                                                "Linkedin"
+                                              ]
+                                            },
+                                            " ",
+                                            {
+                                              "tag": "svg",
+                                              "props": {
+                                                "aria-hidden": "true",
+                                                "className": "e-font-icon-svg e-fab-linkedin",
+                                                "viewBox": "0 0 448 512"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "props": {
+                                                    "d": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            " "
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SeniorInvolvementImprovesDecisions": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-a6f9662 e-flex e-con-boxed e-con e-parent",
+        "data-id": "a6f9662",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-5b0320a e-grid e-con-full e-con e-child",
+                "data-id": "5b0320a",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-aff15ee e-con-full e-flex e-con e-child",
+                    "data-id": "aff15ee",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-6cdc4ea migrated-widget migrated-widget-heading",
+                        "data-id": "6cdc4ea",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Senior Involvement Improves Decisions"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-1b3167a migrated-widget migrated-widget-text-editor",
+                        "data-id": "1b3167a",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Leadership steps in when decisions affect:"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-987468a e-con-full e-flex e-con e-child",
+                        "data-id": "987468a",
+                        "data-element_type": "container",
+                        "data-e-type": "container"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-ea9949f migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                            "data-id": "ea9949f",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "icon-list.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "className": "migrated-icon-list-items"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Product direction"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Business value"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Scope/Budget"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Technical architecture"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "migrated-element migrated-element-a6ac184 migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                            "data-id": "a6ac184",
+                            "data-element_type": "widget",
+                            "data-e-type": "widget",
+                            "data-widget": "icon-list.default"
+                          },
+                          "children": [
+                            {
+                              "tag": "ul",
+                              "props": {
+                                "className": "migrated-icon-list-items"
+                              },
+                              "children": [
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Delivery risk"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Quality standards"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                },
+                                {
+                                  "tag": "li",
+                                  "props": {
+                                    "className": "migrated-icon-list-item"
+                                  },
+                                  "children": [
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-icon"
+                                      },
+                                      "children": [
+                                        " ",
+                                        {
+                                          "tag": "svg",
+                                          "props": {
+                                            "aria-hidden": "true",
+                                            "className": "e-font-icon-svg e-fas-check-circle",
+                                            "viewBox": "0 0 512 512"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "path",
+                                              "props": {
+                                                "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        " "
+                                      ]
+                                    },
+                                    " ",
+                                    {
+                                      "tag": "span",
+                                      "props": {
+                                        "className": "migrated-icon-list-text"
+                                      },
+                                      "children": [
+                                        "Client Confidence"
+                                      ]
+                                    },
+                                    " "
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-bc6048b migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "bc6048b",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Purpose: Ensure critical decisions get proper attention without removing control from the delivery team"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-77be8ee migrated-widget__width-initial migrated-widget migrated-widget-text-editor",
+                        "data-id": "77be8ee",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Clients always know: Who owns the engagement, product decisions, technical delivery, and who to contact for escalations"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-8781557 e-con-full e-flex e-con e-child",
+                    "data-id": "8781557",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LeadershipIsJudgedByWhatImprovesAround": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-6acc9c5 e-flex e-con-boxed e-con e-parent",
+        "data-id": "6acc9c5",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-90428f2 e-con-full e-flex e-con e-child",
+                "data-id": "90428f2",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-24e33e2 migrated-widget migrated-widget-heading",
+                    "data-id": "24e33e2",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Leadership is Judged by What Improves Around It"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-8c7d204 e-con-full e-flex e-con e-child",
+                "data-id": "8c7d204",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-663fa15 migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                    "data-id": "663fa15",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "icon-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "ul",
+                      "props": {
+                        "className": "migrated-icon-list-items"
+                      },
+                      "children": [
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Decision Quality — improves team choices before problems grow"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Team Strength — ability to work independently of leaders"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Delivery Health — clarity on expectations, risks, deadlines, responsibilities"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Client Confidence — transparency in ownership and decisions"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Knowledge Transfer — documented and shared insights"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-check-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "People Development — stronger skills, judgment, and meaningful responsibility"
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "WhyTheCompanyShouldNeverDependOn": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-fba177b e-grid e-con-boxed e-con e-parent",
+        "data-id": "fba177b",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-9c6c0c7 e-con-full e-flex e-con e-child",
+                "data-id": "9c6c0c7",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-e7f73e2 migrated-widget migrated-widget-heading",
+                    "data-id": "e7f73e2",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Why the Company Should Never Depend on Its Founder"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-2ea2e9d migrated-align-right migrated-laptop-align-left migrated-mobile-align-justify migrated-widget-mobile__width-inherit migrated-widget migrated-widget-button",
+                    "data-id": "2ea2e9d",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "button.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "props": {
+                        "className": "migrated-button migrated-button-link migrated-size-sm",
+                        "href": "/founders-letter"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "migrated-button-content-wrapper"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-text"
+                              },
+                              "children": [
+                                "Read the Founder’s Letter"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "StrongProductsNeedLeadersBehindThem": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-84a1b67 e-flex e-con-boxed e-con e-parent",
+        "data-id": "84a1b67",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-5889232 e-con-full e-grid e-con e-child",
+                "data-id": "5889232",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-eab93f2 e-con-full e-flex e-con e-child",
+                    "data-id": "eab93f2",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-287b6ca migrated-widget migrated-widget-heading",
+                        "data-id": "287b6ca",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "heading.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "props": {
+                            "className": "migrated-heading-title migrated-size-default"
+                          },
+                          "children": [
+                            "Strong Products Need Leaders Behind Them"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-a9a276c migrated-widget migrated-widget-text-editor",
+                        "data-id": "a9a276c",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "text-editor.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {},
+                          "children": [
+                            "Every engagement starts with a focused discussion about the business problem, product, and critical decisions."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-b9c2dee e-con-full e-flex e-con e-child",
+                    "data-id": "b9c2dee",
+                    "data-element_type": "container",
+                    "data-e-type": "container"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "migrated-element migrated-element-3b117cb getintouch migrated-widget migrated-widget-button",
+                        "data-id": "3b117cb",
+                        "data-element_type": "widget",
+                        "data-e-type": "widget",
+                        "data-widget": "button.default"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "className": "migrated-button migrated-size-sm",
+                            "role": "button"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-button-content-wrapper"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "migrated-button-text"
+                                  },
+                                  "children": [
+                                    "Start My Product Roadmap"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

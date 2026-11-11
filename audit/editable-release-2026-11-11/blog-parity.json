@@ -1,0 +1,34 @@
+{
+  "base": "http://localhost:3106",
+  "results": [
+    {
+      "check": "Pinned first, original badge and page size",
+      "view": "desktop",
+      "cards": 15,
+      "pass": true
+    },
+    {
+      "check": "Pinned first, original badge and page size",
+      "view": "tablet",
+      "cards": 9,
+      "pass": true
+    },
+    {
+      "check": "Pinned first, original badge and page size",
+      "view": "mobile",
+      "cards": 6,
+      "pass": true
+    },
+    {
+      "check": "Live category-fed Press Release cards/order/metadata",
+      "articles": 7,
+      "pass": true
+    },
+    {
+      "check": "WordPress reviewer approval label",
+      "path": "/blog/mobile-app-development-cost-austin",
+      "label": "Reviewed by: Muhammad Usman",
+      "pass": true
+    }
+  ]
+}

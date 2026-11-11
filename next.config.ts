@@ -6,6 +6,7 @@ const indexingAllowed =
 const config: NextConfig = {
   distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
+  outputFileTracingIncludes: { "/*": ["./src/page-content/**/*.json", "./src/page-content/**/*.css"] },
   async rewrites() {
     return [
       {

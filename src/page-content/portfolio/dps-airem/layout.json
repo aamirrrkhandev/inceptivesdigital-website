@@ -1,0 +1,45 @@
+{
+  "path": "/portfolio/dps-airem",
+  "key": "4942e95badf2f1d014c33edb73f7c137151ed669",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/dps-airem",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-12344 attachmentid-12344 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-12344 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "31341b2cd7ca40dcb81bdcd4"
+    },
+    {
+      "shared": "40aadcf2b43f8c64d9b67788"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "9883d1e85032e777a93415f6"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

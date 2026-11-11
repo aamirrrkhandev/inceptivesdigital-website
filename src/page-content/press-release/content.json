@@ -1,0 +1,6 @@
+{
+  "source": "wordpress",
+  "path": "/press-release",
+  "categorySlug": "press-release",
+  "note": "Posts are managed in WordPress; this file does not freeze or duplicate them."
+}

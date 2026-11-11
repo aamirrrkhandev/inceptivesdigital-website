@@ -1,0 +1,45 @@
+{
+  "path": "/portfolio/state-of-the-art-chiropractic",
+  "key": "52f518f1f6c7be9e9429166109bf551d128a1828",
+  "sourceUrl": "https://inceptivesdigital.com/portfolio/state-of-the-art-chiropractic",
+  "bodyClass": "attachment wp-singular page-template-default single single-page postid-11692 attachmentid-11692 attachment- wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-11692 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "divider.default",
+    "icon-box.default",
+    "text-editor.default",
+    "counter.default",
+    "nested-tabs.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "e8180281348c6dd159dbd098"
+    },
+    {
+      "shared": "4c1f4c9758a5060753c716dd"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "87b56aceda8ad1a7d17b4c6b"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

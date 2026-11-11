@@ -1,0 +1,29 @@
+[
+  {
+    "width": 390,
+    "calendarVisible": true,
+    "availableTimeSlots": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "calendarVisible": true,
+    "availableTimeSlots": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  },
+  {
+    "width": 1366,
+    "calendarVisible": true,
+    "availableTimeSlots": true,
+    "onDemand": true,
+    "greenTheme": true,
+    "reusesFrame": true,
+    "pass": true
+  }
+]

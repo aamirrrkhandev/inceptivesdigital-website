@@ -1,0 +1,48 @@
+{
+  "path": "/flutter-app-development",
+  "key": "3f1b412f3490949d88c31aba6da47ac3d836529b",
+  "sourceUrl": "https://inceptivesdigital.com/flutter-app-development",
+  "bodyClass": "wp-singular page-template-default page page-id-1288 wp-custom-logo wp-embed-responsive wp-theme-hello-migrated hello-migrated-default migrated-default migrated-kit-7 migrated-page migrated-page-1288 migrated-page-19255",
+  "widgets": [
+    "image.default",
+    "ekit-nav-menu.default",
+    "button.default",
+    "heading.default",
+    "icon-list.default",
+    "text-editor.default",
+    "nested-carousel.default",
+    "nested-tabs.default",
+    "counter.default",
+    "template.default",
+    "divider.default",
+    "icon-box.default",
+    "nested-accordion.default",
+    "form.default",
+    "theme-site-logo.default",
+    "social-icons.default",
+    "nav-menu.default",
+    "image-box.default",
+    "html.default"
+  ],
+  "articleInteractions": false,
+  "nodes": [
+    {
+      "shared": "a9efe10948b1ce118b015462"
+    },
+    {
+      "shared": "08309b5446e46cff2913df6e"
+    },
+    {
+      "content": "main"
+    },
+    {
+      "shared": "28aceb49995cf6c822fd8afc"
+    },
+    {
+      "shared": "1c913aed46d8f55ef00fe2eb"
+    },
+    {
+      "shared": "302fc714737eb49e8803ffa1"
+    }
+  ]
+}

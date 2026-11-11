@@ -1,0 +1,1163 @@
+{
+  "main": {
+    "tag": "main",
+    "props": {
+      "id": "content",
+      "className": "site-main post-15776 page type-page status-publish hentry"
+    },
+    "children": [
+      {
+        "tag": "div",
+        "props": {
+          "className": "page-content"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "props": {
+              "data-migration-type": "wp-page",
+              "data-migration-id": "15776",
+              "className": "migrated migrated-15776",
+              "data-migration-post-type": "page"
+            },
+            "children": [
+              {
+                "section": "Hero"
+              },
+              {
+                "section": "CoverageScope"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "Hero": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-da9633c e-flex e-con-boxed e-con e-parent",
+        "data-id": "da9633c",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-18c1a11 migrated-widget migrated-widget-heading",
+                "data-id": "18c1a11",
+                "data-element_type": "widget",
+                "data-e-type": "widget",
+                "data-widget": "heading.default"
+              },
+              "children": [
+                {
+                  "tag": "h2",
+                  "props": {
+                    "className": "migrated-heading-title migrated-size-default"
+                  },
+                  "children": [
+                    "Terms &  ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "banner-hightcolor"
+                      },
+                      "children": [
+                        "Conditions"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CoverageScope": {
+      "tag": "div",
+      "props": {
+        "className": "migrated-element migrated-element-9c82916 e-flex e-con-boxed e-con e-parent",
+        "data-id": "9c82916",
+        "data-element_type": "container",
+        "data-e-type": "container"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "e-con-inner"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-d08b958 migrated-widget migrated-widget-text-editor",
+                "data-id": "d08b958",
+                "data-element_type": "widget",
+                "data-e-type": "widget",
+                "data-widget": "text-editor.default"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": " inline-af21eb6f63",
+                    "data-id": "b51887a",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "These Terms and Conditions are for IT Core Solutions LLC DBA Inceptives Digital"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-aa64589 e-con-full e-flex e-con e-child",
+                "data-id": "aa64589",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-79e82bf migrated-widget migrated-widget-heading",
+                    "data-id": "79e82bf",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Coverage & Scope"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-131e31a migrated-widget migrated-widget-text-editor",
+                    "data-id": "131e31a",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "These Terms of Use govern all services and products offered by Inceptives Digital and/or through websites owned and operated by us. They do not apply to companies, individuals, or third-party service providers that are not under the ownership, management, or control of Inceptives Digital, including any external websites to which our Site may link."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-d795288 e-con-full e-flex e-con e-child",
+                "data-id": "d795288",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-99baae4 migrated-widget migrated-widget-heading",
+                    "data-id": "99baae4",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Filing a Complaint\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7d52b51 migrated-widget migrated-widget-text-editor",
+                    "data-id": "7d52b51",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tIf you are dissatisfied with any of our services, Inceptives Digital encourages you to first contact us directly so we can work towards a mutually acceptable solution. Formal complaints or claims should only be filed if no resolution can be reached.\n\n\t\t\t\t\t\t\t\t"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-07037e7 e-con-full e-flex e-con e-child",
+                "data-id": "07037e7",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-1457801 migrated-widget migrated-widget-heading",
+                    "data-id": "1457801",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Eligibility for Refund\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c89833f migrated-widget migrated-widget-text-editor",
+                    "data-id": "c89833f",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tInceptives Digital manages every project with professionalism to ensure delivery as per the agreed scope of work and proposal. Refund claims will only be considered after the dispute resolution process has been followed and will be assessed according to the type of service:\t\t\t\t\t\t\t\t"
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-a711419 migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                    "data-id": "a711419",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "icon-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "ul",
+                      "props": {
+                        "className": "migrated-icon-list-items"
+                      },
+                      "children": [
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Application Development: A full refund may be issued if, for any reason, a project has not yet been initiated."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "If an agreement exists: The refund will follow the terms outlined in that document."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "If no agreement exists: Inceptives Digital may, at its discretion, offer a partial refund based on the percentage of the project not completed, as defined in the original project scope."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Dedicated Hiring: A full refund may be issued if there is a delay in starting the project by our resource (developer, designer, writer, SEO expert, etc.)."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "If the client cancels mid-project: A proportionate refund may be issued for unworked days."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "No refunds are offered for days already worked."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Any dissatisfaction with ongoing work must be reported immediately to the assigned Project Manager for resolution; delayed complaints will not be entertained."
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-349c6bb e-con-full e-flex e-con e-child",
+                "data-id": "349c6bb",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-9fc52e9 migrated-widget migrated-widget-heading",
+                    "data-id": "9fc52e9",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Applicability of the Delivery Policy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-e303f9d migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                    "data-id": "e303f9d",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "icon-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "ul",
+                      "props": {
+                        "className": "migrated-icon-list-items"
+                      },
+                      "children": [
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Timely Payments: A project is considered void if agreed payments are not made on time."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Timely Communication: Clients must provide feedback, instructions, and approvals promptly. Inceptives Digital is not responsible for delays or failures caused by miscommunication or lack of communication."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Completeness of Information: Our obligations regarding delivery and refunds are valid only if the client provides complete project information at the beginning. Delays caused by incomplete requirements are the client’s responsibility."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "Delay Compensation: Inceptives Digital may compensate for delays in delivery only if a written agreement exists with a penalty clause."
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-bc58b47 e-con-full e-flex e-con e-child",
+                "data-id": "bc58b47",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-ff72e49 migrated-widget migrated-widget-heading",
+                    "data-id": "ff72e49",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Limitation of Liability"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-7b7746a migrated-widget migrated-widget-text-editor",
+                    "data-id": "7b7746a",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tThe liability of Inceptives Digital is limited to the value of the incomplete portion of a project as per the approved proposal. We are not responsible for losses arising from services delivered, undelivered, or delayed. Refunds will only be processed if a client cancels the project in writing and such cancellation is accepted by us.\n\n\t\t\t\t\t\t\t\t"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-47b6415 e-con-full e-flex e-con e-child",
+                "data-id": "47b6415",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-c102053 migrated-widget migrated-widget-heading",
+                    "data-id": "c102053",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Processing of Refunds"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-4ce0d12 migrated-widget migrated-widget-text-editor",
+                    "data-id": "4ce0d12",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    "\n\t\t\t\t\t\t\t\t\tAll approved refunds will be processed within five (5) business days from the cancellation date. Refunds will be issued via the same payment method used for the original transaction (e.g., credit card or bank transfer).\t\t\t\t\t\t\t\t"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-b756a66 e-con-full e-flex e-con e-child",
+                "data-id": "b756a66",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-92529ee migrated-widget migrated-widget-heading",
+                    "data-id": "92529ee",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "Contact Us"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-8e5f271 migrated-widget migrated-widget-text-editor",
+                    "data-id": "8e5f271",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "text-editor.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "For more details or inquiries, please contact us through our official page: ",
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "/contact-us"
+                          },
+                          "children": [
+                            "https://inceptivesdigital.com/contact-us"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "migrated-element migrated-element-5444cc0 e-con-full e-flex e-con e-child",
+                "data-id": "5444cc0",
+                "data-element_type": "container",
+                "data-e-type": "container"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-5a451e7 migrated-widget migrated-widget-heading",
+                    "data-id": "5a451e7",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "heading.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "migrated-heading-title migrated-size-default"
+                      },
+                      "children": [
+                        "SMS & Messaging Consent"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "migrated-element migrated-element-0a716c4 migrated-icon-list--layout-traditional migrated-list-item-link-full_width migrated-widget migrated-widget-icon-list",
+                    "data-id": "0a716c4",
+                    "data-element_type": "widget",
+                    "data-e-type": "widget",
+                    "data-widget": "icon-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "ul",
+                      "props": {
+                        "className": "migrated-icon-list-items"
+                      },
+                      "children": [
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "I consent to receive transactional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "props": {
+                            "className": "migrated-icon-list-item"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-icon"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "svg",
+                                  "props": {
+                                    "aria-hidden": "true",
+                                    "className": "e-font-icon-svg e-fas-circle",
+                                    "viewBox": "0 0 512 512"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "path",
+                                      "props": {
+                                        "d": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "migrated-icon-list-text"
+                              },
+                              "children": [
+                                "I consent to receive marketing and promotional messages from Inceptives Digital at the phone number provided. Message frequency may vary. Message & data rates may apply. Reply HELP for help or STOP to opt out."
+                              ]
+                            },
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
