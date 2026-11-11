@@ -1,20 +1,25 @@
 {
-  "base": "https://inceptives-homepage-review-nvxyvq9dk.vercel.app",
+  "base": "https://inceptives-homepage-review-awu5f8h8z.vercel.app",
   "results": [
     {
-      "check": "Pinned first, original badge and page size",
+      "check": "Current published REST date-desc order matches listing",
+      "posts": 15,
+      "pass": true
+    },
+    {
+      "check": "Standard latest-first listing without pin badge",
       "view": "desktop",
       "cards": 15,
       "pass": true
     },
     {
-      "check": "Pinned first, original badge and page size",
+      "check": "Standard latest-first listing without pin badge",
       "view": "tablet",
       "cards": 9,
       "pass": true
     },
     {
-      "check": "Pinned first, original badge and page size",
+      "check": "Standard latest-first listing without pin badge",
       "view": "mobile",
       "cards": 6,
       "pass": true
@@ -25,7 +30,7 @@
       "pass": true
     },
     {
-      "check": "WordPress reviewer approval label",
+      "check": "WordPress reviewer approval label preserved",
       "path": "/blog/mobile-app-development-cost-austin",
       "label": "Reviewed by: Muhammad Usman",
       "pass": true

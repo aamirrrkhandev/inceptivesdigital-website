@@ -1,66 +1,66 @@
 {
-  "base": "https://inceptives-homepage-review.vercel.app",
+  "base": "https://inceptives-homepage-review-awu5f8h8z.vercel.app",
   "results": [
     {
       "path": "/iot-development",
       "status": 301,
-      "ms": 337,
+      "ms": 323,
       "cache": "public, max-age=0, must-revalidate",
       "vercelCache": null
     },
     {
       "path": "/iot-development/",
       "status": 301,
-      "ms": 283,
+      "ms": 529,
       "cache": "public, max-age=0, must-revalidate",
       "vercelCache": null
     },
     {
       "path": "/iot-app-development/",
       "status": 301,
-      "ms": 97,
+      "ms": 356,
       "cache": "public, max-age=0, must-revalidate",
       "vercelCache": null
     },
     {
       "path": "/iot-app-development",
       "status": 200,
-      "ms": 566,
+      "ms": 1658,
       "cache": "public, max-age=0, must-revalidate",
       "vercelCache": "PRERENDER"
     },
     {
       "path": "/blog/test",
       "status": 404,
-      "ms": 3042,
+      "ms": 2177,
       "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
       "vercelCache": "MISS"
     },
     {
       "path": "/blog/test",
       "status": 404,
-      "ms": 1238,
+      "ms": 1320,
       "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
       "vercelCache": "MISS"
     },
     {
       "path": "/api/blog-listing?blog_cat=all&blog_view=desktop",
       "status": 200,
-      "ms": 4669,
+      "ms": 4635,
       "cache": "private, no-store",
       "vercelCache": "MISS"
     },
     {
       "path": "/sitemap.xml",
       "status": 200,
-      "ms": 5345,
+      "ms": 6214,
       "cache": "public, max-age=0, must-revalidate",
       "vercelCache": "MISS"
     },
     {
       "path": "/blog/no-code-mvp-vs-custom-mvp",
       "status": 200,
-      "ms": 4351,
+      "ms": 4090,
       "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
       "vercelCache": "MISS"
     }
