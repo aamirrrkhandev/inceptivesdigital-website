@@ -73,6 +73,35 @@ body .migrated-page[data-source-path="/"] .green-position[data-id] h1 {
 body .migrated-page .sitekit-navbar-nav > li > a {
   white-space: nowrap;
 }
+@media (min-width: 1025px) {
+  body .migrated-page .header-containers [data-id="29c3b1be"] {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+    gap: clamp(12px, 1.2vw, 24px) !important;
+    width: 100% !important;
+    min-height: 64px;
+    padding: 8px clamp(12px, 1.25vw, 20px) !important;
+  }
+  body .migrated-page .header-containers [data-id="29c3b1be"] > .e-con {
+    min-width: 0;
+    width: auto !important;
+    margin: 0 !important;
+  }
+  body .migrated-page .header-containers [data-id="4eeda28c"] img {
+    width: clamp(110px, 8vw, 145px) !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+  body .migrated-page .header-containers [data-id="4128428c"] {
+    flex-direction: row !important;
+    align-items: center;
+    gap: clamp(12px, 1.2vw, 24px) !important;
+  }
+  body .migrated-page .header-containers [data-id="4128428c"] a { white-space: nowrap; }
+  body .migrated-page .header-containers .getintouch { width: auto !important; min-width: 120px; }
+  body .migrated-page .header-containers .sitekit-navbar-nav { display: flex !important; flex-wrap: nowrap !important; justify-content: center; }
+  body .migrated-page .header-containers .sitekit-navbar-nav > li { flex: 0 0 auto; width: auto; }
+}
 /* Portfolio mockups are translated below their flow box. Reserve that offset
    and keep the widget at its actual image height, rather than covering copy. */
 body .migrated-page[data-source-path="/portfolio"] .position-relative {

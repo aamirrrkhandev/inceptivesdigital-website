@@ -488,7 +488,8 @@ export const getWordPressPage = cache(
     const coldRead = articlePath ? beginColdArticleRead(path, () => read(path)) : undefined;
     const profiles = articlePath ? read("/wp-json/wp/v2/users?per_page=100&_fields=id,name,slug,link,avatar_urls").then(value => { const users = JSON.parse(value); return Array.isArray(users) ? users as unknown[] : []; }).catch(() => []) : Promise.resolve([]);
     const saved = getPage(path);
-    const archive = /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path) || /^\/\d{4}\/\d{2}\/\d{2}(?:\/page\/\d+)?$/.test(path);
+    const dateArchive = /^\/\d{4}\/\d{2}\/\d{2}(?:\/page\/\d+)?$/.test(path);
+    const archive = /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path) || dateArchive;
     if (path !== "/blog" && path !== "/press-release" && !articlePath && !archive) return saved;
     try {
       if (archive && !saved && /^\/(?:author|category)\//.test(path)) {
@@ -539,7 +540,7 @@ export const getWordPressPage = cache(
       // Only custom pin presentation is retired; reviewer approval stays intact.
       $(".id-pinned-label").remove();
       $(".is-pinned").removeClass("is-pinned");
-      const template = saved || getPage(archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;
+      const template = saved || getPage(dateArchive ? "/2026/09/14" : archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;
       const page: SitePage = {
         ...template,
         path,
@@ -550,7 +551,9 @@ export const getWordPressPage = cache(
         articleInteractions: !!post,
       };
       refreshMetadata($, page);
-      const root = archive
+      const root = dateArchive
+        ? $("main#content").first()
+        : archive
         ? $("[data-elementor-type='archive']").first()
         : post
           ? $("[data-elementor-type='single-post']").first()
@@ -581,7 +584,9 @@ export const getWordPressPage = cache(
       if (!converted) throw new Error("WordPress content conversion failed");
       page.nodes = page.nodes.map((node) =>
         typeof node !== "string" &&
-        (archive
+        (dateArchive
+          ? node.tag === "main" && node.props.id === "content"
+          : archive
           ? String(node.props.className || "").includes(
               "migrated-location-archive",
             )
