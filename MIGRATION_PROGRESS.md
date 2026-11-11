@@ -369,3 +369,10 @@ Final non-blog pull: 78 current WordPress pages, 185 CSS/JS dependencies, 1417 r
 
 ### Final standalone iOS verification — 11 November 2026
 Runtime 15719ba is deployed to separate staging. At 16:40 PKT, real Turnstile-protected iOS assessment delivery was verified in GHL and CallRail event 835320901: all seven fields, correct form URL and source/medium, followed by thank-you. Earlier 16:27 lead is GHL-confirmed but CallRail-unconfirmed; replacement test verifies current tracking. No UI/SEO, live site or DNS changes were made during this verification. Evidence: audit/final-offline-release-2026-11-11/real-ios-verification.json and dashboard screenshots.
+
+### Production preparation, IoT redirect and runtime blog freshness — 11 November 2026
+Separate production Turnstile widget and Production-scoped configuration are prepared in the migration project; original widget/live site/DNS untouched. Twelve hostname/action/key-isolation checks and the real negative Siteverify test pass. Successful production-host form delivery/mapping remains a cutover smoke-test gate; no claim it has been exercised while WordPress still owns the production domain.
+
+IoT 301 moves /iot-development (with or without slash) to /iot-app-development; new canonical/schema/sitemap/nav pass, original GHL form DOM identity preserved. Runtime 428eee44aac26ca09fd9e028c4eaba021dc32061 is READY on deployment dpl_sMAJHqKBgrnti5ff1wmyyozuTUTS and stable staging alias. No live production cutover.
+
+Blog runtime caches/ISR removed, upstream cache-buster added, browser tab cache maximum 500ms. Returning to visible listing refreshes its data; each new article/listing request checks the blog backend. Deleted /blog/test verified 404 twice, absent from listing/sitemap on stable staging; current backend count 141. Updates require no Git push. No 500ms network response guarantee: latest listing measured 4669ms. See BLOG_FRESHNESS.md and audit/final-offline-release-2026-11-11/freshness-deployed.json.

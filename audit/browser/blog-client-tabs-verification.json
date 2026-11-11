@@ -1,5 +1,5 @@
 {
-  "base": "https://inceptives-homepage-review-7u1wf2iog.vercel.app",
+  "base": "https://inceptives-homepage-review-l6sg3c0ms.vercel.app",
   "results": [
     {
       "category": "mobile-app-development",
@@ -21,13 +21,13 @@
     },
     {
       "category": "android-app-development",
-      "cards": 5,
+      "cards": 6,
       "noReload": true,
       "scrollPreserved": true
     },
     {
       "category": "mobile-game-development",
-      "cards": 12,
+      "cards": 11,
       "noReload": true,
       "scrollPreserved": true
     },

@@ -16,3 +16,5 @@ Production-host browser challenge, native GHL domain-specific field mappings and
 
 ## Additional verification
 Cloudflare Siteverify was called with the separate production secret and a deliberately invalid QA token. HTTP 200 / success=false / invalid-input-response confirms the negative challenge path, not a successful production-domain solve. No real production lead was submitted.
+
+Deployment status: production-capable runtime is now present in READY staging deployment dpl_sMAJHqKBgrnti5ff1wmyyozuTUTS (428eee44). Production environment values remain prepared-only; no production deployment, DNS, WordPress code or domain attachment occurred. Stable staging form security behavior is preserved. Live production-host successful Turnstile/GHL/CallRail mapping tests remain explicitly pending cutover.
