@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en-US">
       <head>
         <link rel="preload" href="/assets/fonts/plus-jakarta-sans/plus-jakarta-sans-latin-variable.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="/assets/styles/site-typography.css" />
+        <link rel="stylesheet" href="/assets/styles/site-typography.css?v=20261111-bold800" />
       </head>
       <body>
         <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5BV286F5" height="0" width="0" style={{ display: "none", visibility: "hidden" }} /></noscript>
