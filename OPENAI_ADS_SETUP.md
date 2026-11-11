@@ -50,6 +50,8 @@ Published/deployed verification:
 - Staging alias restored to its separate noindex preview. Production indexing configuration preserved.
 - Python-based skill scanners could not run because Python is not installed. TypeScript, script syntax, targeted unit/transport tests, GTM compiler validation and repository diff inspection were run instead. No CAPI credentials or new secret environment variables were added.
 
+Ads Manager Diagnostics reviewed after publication: two account-level warnings remain, **No active campaigns use conversion events** (high) and **No recent server-to-server events** (medium). Diagnostics reports zero sources affected and zero events at risk. The first requires choosing an active campaign/conversion objective; no campaign changes were requested. The second is expected for this Pixel-only setup and is not evidence of a broken browser pixel. Server-side CAPI remains a separate integration requiring an approved secret provisioning plan.
+
 No real customer data or genuine enquiry was submitted in these automated tests. Actual lead receipt in OpenAI/GA4/Meta reporting, ad-click attribution, blocked-browser behavior and third-party CRM delivery remain distinct checks; they are not inferred from an SDK request or a mocked success. Existing GA4/Meta consent behavior was not certified or replaced by this integration.
 
 Before deploying, the advertiser should review that this implementation satisfies their privacy, security, consent and data-handling requirements.
