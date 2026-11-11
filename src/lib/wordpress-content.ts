@@ -42,7 +42,6 @@ type PostIndex = {
   slug: string;
   link: string;
   modified_gmt: string;
-  meta?: { _flow_reviewer_id?: number; _flow_review_status?: string };
   yoast_head_json?: { robots?: { index?: string }; canonical?: string };
 };
 export type BlogOptions = {
@@ -69,7 +68,7 @@ export const getPublishedPosts = cache(async (): Promise<PostIndex[]> => {
   for (let page = 1; page <= 100; page++) {
     const batch = JSON.parse(
       await read(
-        `/wp-json/wp/v2/posts?per_page=100&page=${page}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status,yoast_head_json.robots,yoast_head_json.canonical`,
+        `/wp-json/wp/v2/posts?per_page=100&page=${page}&_fields=id,slug,link,modified_gmt,yoast_head_json.robots,yoast_head_json.canonical`,
       ),
     ) as PostIndex[];
     if (!Array.isArray(batch))
@@ -341,27 +340,12 @@ function appendSourceStyles(
   page.css += "\n" + ast.toString();
 }
 
-async function readBlogPins() {
-  // The custom WordPress pin checkbox is not the REST sticky field. Read its
-  // authoritative rendered flags, while keeping post data/filtering API-driven.
-  const pinned = new Map<string, number>();
-  for (let number = 1; number <= 100; number++) {
-    const source = cheerio.load(await read(`/blog?blog_view=desktop&pagination_page=${number}`));
-    if (!source("[data-blog-grid]").length) throw new Error("WordPress pin source unavailable");
-    const cards = source("[data-blog-grid] .filtered-post-card");
-    const pins = cards.filter(".is-pinned");
-    pins.each((_, card) => {
-      const href = source(card).find(".post-title a").attr("href");
-      if (href) pinned.set(new URL(href, origin).pathname.replace(/\/$/, ""), pinned.size);
-    });
-    if (!pins.length || pins.length !== cards.length || cards.length < 15) break;
-  }
-  return pinned;
-}
-
 async function readBlogCards(options: BlogOptions) {
   const query = new URLSearchParams({
     per_page: "100",
+    status: "publish",
+    orderby: "date",
+    order: "desc",
     _embed: "wp:featuredmedia,wp:term",
     _fields: "id,slug,link,title,excerpt,_links,_embedded",
   });
@@ -391,14 +375,9 @@ async function readBlogCards(options: BlogOptions) {
   return all;
 }
 
-async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, data: [Map<string, number>, PostCard[]]) {
-  const [pinned, all] = data;
+async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, all: PostCard[]) {
   const perPage =
     options.view === "mobile" ? 6 : options.view === "tablet" ? 9 : 15;
-  all.sort((a, b) =>
-    (pinned.get(new URL(a.link).pathname.replace(/\/$/, "")) ?? Number.MAX_SAFE_INTEGER) -
-    (pinned.get(new URL(b.link).pathname.replace(/\/$/, "")) ?? Number.MAX_SAFE_INTEGER),
-  );
   const posts = all.slice((options.page - 1) * perPage, options.page * perPage);
   const grid = $("[data-blog-grid]").first();
   if (!grid.length) throw new Error("Blog listing template unavailable");
@@ -426,10 +405,6 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, da
     const article = $("<article></article>")
       .addClass("filtered-post-card")
       .attr("data-category", category?.slug || "all");
-    if (pinned.has(new URL(post.link).pathname.replace(/\/$/, ""))) {
-      article.addClass("is-pinned");
-      article.append($("<span></span>").addClass("id-pinned-label").attr("aria-label", "Pinned blog post").text("Pinned"));
-    }
     const image = post._embedded?.["wp:featuredmedia"]?.[0];
     if (image?.source_url)
       article.append(
@@ -523,7 +498,7 @@ export const getWordPressPage = cache(
       // Article existence needs only its own published record, not a paginated
       // download of every post. Listings/archives fetch their own cards below.
       const posts: PostIndex[] = articlePath
-        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status`))
+        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt`))
         : [];
       if (!Array.isArray(posts)) throw new Error("Invalid WordPress post response");
       const post =
@@ -548,12 +523,19 @@ export const getWordPressPage = cache(
       const [html, listingData] = await Promise.all([read(
         path +
           (post
-            ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
+            ? "?migration_version=" + encodeURIComponent(post.modified_gmt)
             : blogQuery
               ? "?" + blogQuery
               : ""),
-      ), path === "/blog" ? Promise.all([readBlogPins(), readBlogCards(options)]) : Promise.resolve(undefined)]);
+      ), path === "/blog" ? readBlogCards(options) : Promise.resolve(undefined)]);
       const $ = cheerio.load(html);
+      // The user retired custom reviewer approval and pin presentation.
+      $(".qa-approved-user").each((_, el) => {
+        const widget = $(el).closest("[data-widget_type=\"shortcode.default\"]");
+        if (widget.length) widget.remove(); else $(el).remove();
+      });
+      $(".id-pinned-label").remove();
+      $(".is-pinned").removeClass("is-pinned");
       const template = saved || getPage(archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;
       const page: SitePage = {
         ...template,
