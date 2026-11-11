@@ -3,1282 +3,1612 @@
     {
       "id": "image-bcf9d7532b2d7c",
       "sourceUrl": "/wp-content/uploads/2026/08/update-logo.png",
-      "src": "/wp-content/uploads/2026/08/update-logo.png",
+      "src": "/assets/shared/images/a46f69e2c3-update-logo.png",
       "file": "public/assets/shared/images/a46f69e2c3-update-logo.png",
       "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png",
       "alt": "",
       "width": 154,
       "height": 46,
       "sourceSrcSet": "/wp-content/uploads/2026/08/update-logo.png 154w, /wp-content/uploads/2026/08/update-logo-150x46.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/update-logo.png 154w, /wp-content/uploads/2026/08/update-logo-150x46.png 150w"
+      "srcSet": "/assets/shared/images/a46f69e2c3-update-logo.png 154w, /assets/shared/images/a6cf57e7a0-update-logo-150x46.png 150w",
+      "kind": "images",
+      "bytes": 6176
     },
     {
       "id": "image-915e2dc5d0cf3d",
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
+      "src": "/assets/shared/images/79271c9fb9-logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
       "alt": "Inceptives Digital",
       "width": null,
       "height": null,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 23572
     },
     {
       "id": "image-9af46c09226c1f",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon1.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon1.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg",
+      "src": "/assets/shared/images/a507210a5c-lifeicon1.svg",
+      "file": "public/assets/shared/images/a507210a5c-lifeicon1.svg",
+      "publicUrl": "/assets/shared/images/a507210a5c-lifeicon1.svg",
       "alt": "Clear Goals",
       "width": 32,
       "height": 32,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4208
     },
     {
       "id": "image-719fb70b237f87",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage1.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage1.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png",
       "alt": "Office Environment",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 32447
     },
     {
       "id": "image-7a75b05e48757f",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon2.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon2.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg",
+      "src": "/assets/shared/images/9ec0670bae-lifeicon2.svg",
+      "file": "public/assets/shared/images/9ec0670bae-lifeicon2.svg",
+      "publicUrl": "/assets/shared/images/9ec0670bae-lifeicon2.svg",
       "alt": "Decision",
       "width": 31,
       "height": 31,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4089
     },
     {
       "id": "image-33455baba08313",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage2.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage2.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png",
       "alt": "meetinng",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 35749
     },
     {
       "id": "image-c73a9fecce4f93",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon3.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon3.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg",
+      "src": "/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
+      "file": "public/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
+      "publicUrl": "/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
       "alt": "Transparent",
       "width": 27,
       "height": 27,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1990
     },
     {
       "id": "image-e342528d4a2a02",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage3.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage3.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png",
       "alt": "Communication",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 29441
     },
     {
       "id": "image-47d59ac07285ff",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon4.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon4.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg",
+      "src": "/assets/shared/images/b958630927-lifeicon4.svg",
+      "file": "public/assets/shared/images/b958630927-lifeicon4.svg",
+      "publicUrl": "/assets/shared/images/b958630927-lifeicon4.svg",
       "alt": "Learn",
       "width": 39,
       "height": 27,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1556
     },
     {
       "id": "image-12137c2b0503d8",
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage4.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage4.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png",
       "alt": "Through Doing",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 33812
     },
     {
       "id": "image-ef85882a958f65",
       "sourceUrl": "/wp-content/uploads/2026/08/chart-life.png",
-      "src": "/wp-content/uploads/2026/08/chart-life.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png",
       "alt": "Infographic",
       "width": 525,
       "height": 461,
       "sourceSrcSet": "/wp-content/uploads/2026/08/chart-life.png 525w, /wp-content/uploads/2026/08/chart-life-300x263.png 300w",
-      "srcSet": "/wp-content/uploads/2026/08/chart-life.png 525w, /wp-content/uploads/2026/08/chart-life-300x263.png 300w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png 525w, /assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png 300w",
+      "kind": "images",
+      "bytes": 37421
     },
     {
       "id": "image-83bcbfd3219fa3",
       "sourceUrl": "/wp-content/uploads/2026/08/work-image.png",
-      "src": "/wp-content/uploads/2026/08/work-image.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
       "alt": "Working Image",
       "width": 449,
       "height": 432,
       "sourceSrcSet": "/wp-content/uploads/2026/08/work-image.png 449w, /wp-content/uploads/2026/08/work-image-300x289.png 300w",
-      "srcSet": "/wp-content/uploads/2026/08/work-image.png 449w, /wp-content/uploads/2026/08/work-image-300x289.png 300w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png 449w, /assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png 300w",
+      "kind": "images",
+      "bytes": 72189
     },
     {
       "id": "image-3e0cba1f4cc6b8",
       "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2.png",
-      "src": "/wp-content/uploads/2026/08/Mask-group-2.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png",
       "alt": "Abrar",
       "width": 214,
       "height": 214,
       "sourceSrcSet": "/wp-content/uploads/2026/08/Mask-group-2.png 214w, /wp-content/uploads/2026/08/Mask-group-2-150x150.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/Mask-group-2.png 214w, /wp-content/uploads/2026/08/Mask-group-2-150x150.png 150w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png 214w, /assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png 150w",
+      "kind": "images",
+      "bytes": 14870
     },
     {
       "id": "image-2bade4abf60004",
       "sourceUrl": "/wp-content/uploads/2026/08/sarim.png",
-      "src": "/wp-content/uploads/2026/08/sarim.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "alt": "Sarim",
       "width": 214,
       "height": 214,
       "sourceSrcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png 214w, /assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png 150w",
+      "kind": "images",
+      "bytes": 13149
     },
     {
       "id": "image-3e1689a32d03b9",
       "sourceUrl": "/wp-content/uploads/2026/08/atif.png",
-      "src": "/wp-content/uploads/2026/08/atif.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png",
       "alt": "Atif Zaidi (CTO)",
       "width": 214,
       "height": 214,
       "sourceSrcSet": "/wp-content/uploads/2026/08/atif.png 214w, /wp-content/uploads/2026/08/atif-150x150.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/atif.png 214w, /wp-content/uploads/2026/08/atif-150x150.png 150w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png 214w, /assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png 150w",
+      "kind": "images",
+      "bytes": 11855
     },
     {
       "id": "image-cfded2d559967c",
       "sourceUrl": "/wp-content/uploads/2026/08/sarim.png",
-      "src": "/wp-content/uploads/2026/08/sarim.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "alt": "Sarim",
       "width": 214,
       "height": 214,
       "sourceSrcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/sarim.png 214w, /wp-content/uploads/2026/08/sarim-150x150.png 150w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png 214w, /assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png 150w",
+      "kind": "images",
+      "bytes": 13149
     },
     {
       "id": "image-09e956cdf2b16a",
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
       "alt": "Locations",
       "width": 800,
       "height": 798,
       "sourceSrcSet": "/wp-content/uploads/2026/07/footer-locations.png 892w, /wp-content/uploads/2026/07/footer-locations-300x300.png 300w, /wp-content/uploads/2026/07/footer-locations-150x150.png 150w, /wp-content/uploads/2026/07/footer-locations-768x766.png 768w",
-      "srcSet": "/wp-content/uploads/2026/07/footer-locations.png 892w, /wp-content/uploads/2026/07/footer-locations-300x300.png 300w, /wp-content/uploads/2026/07/footer-locations-150x150.png 150w, /wp-content/uploads/2026/07/footer-locations-768x766.png 768w"
+      "srcSet": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png 892w, /assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png 300w, /assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png 150w, /assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png 768w",
+      "kind": "images",
+      "bytes": 249155
     },
     {
       "id": "image-ac1c43ac915ee2",
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
+      "src": "/assets/shared/images/79271c9fb9-logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
       "alt": "Inceptives Digital",
       "width": 1673,
       "height": 461,
       "sourceSrcSet": "/wp-content/uploads/2026/07/logo.png 1673w, /wp-content/uploads/2026/07/logo-300x83.png 300w, /wp-content/uploads/2026/07/logo-1024x282.png 1024w, /wp-content/uploads/2026/07/logo-768x212.png 768w, /wp-content/uploads/2026/07/logo-1536x423.png 1536w",
-      "srcSet": "/wp-content/uploads/2026/07/logo.png 1673w, /wp-content/uploads/2026/07/logo-300x83.png 300w, /wp-content/uploads/2026/07/logo-1024x282.png 1024w, /wp-content/uploads/2026/07/logo-768x212.png 768w, /wp-content/uploads/2026/07/logo-1536x423.png 1536w"
+      "srcSet": "/assets/shared/images/79271c9fb9-logo.png 1673w, /assets/shared/images/722653dd1e-logo-300x83.png 300w, /assets/shared/images/19ce8de954-logo-1024x282.png 1024w, /assets/shared/images/2ebc59a4d2-logo-768x212.png 768w, /assets/shared/images/6dd35eb579-logo-1536x423.png 1536w",
+      "kind": "images",
+      "bytes": 23572
     },
     {
       "id": "image-1daaef6df66468",
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
-      "src": "/wp-content/uploads/2026/07/clutch.png",
+      "src": "/assets/shared/images/4f01106c4b-clutch.png",
       "file": "public/assets/shared/images/4f01106c4b-clutch.png",
       "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png",
       "alt": "Clutch Review Badge",
       "width": 182,
       "height": 84,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1793
     },
     {
       "id": "image-9067101608dcfc",
       "sourceUrl": "/wp-content/uploads/2026/07/bark.png",
-      "src": "/wp-content/uploads/2026/07/bark.png",
+      "src": "/assets/shared/images/81180f1a05-bark.png",
       "file": "public/assets/shared/images/81180f1a05-bark.png",
       "publicUrl": "/assets/shared/images/81180f1a05-bark.png",
       "alt": "Bark Review Badge",
       "width": 183,
       "height": 87,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1915
     },
     {
       "id": "image-cb9c0d5af35491",
       "sourceUrl": "/wp-content/uploads/2026/07/trustpilot.png",
-      "src": "/wp-content/uploads/2026/07/trustpilot.png",
+      "src": "/assets/shared/images/142de32fea-trustpilot.png",
       "file": "public/assets/shared/images/142de32fea-trustpilot.png",
       "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png",
       "alt": "Trustpilot Review Badge",
       "width": 186,
       "height": 76,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1953
     },
     {
       "id": "image-672bb7c80b4fe5",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-81baad1aebfacd",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-9e8b1da7221e25",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-a71dc133c3078e",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-1239d3f1f51fbd",
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "src": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
       "alt": "Canda",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 450
     },
     {
       "id": "image-2047652df69591",
       "sourceUrl": "/wp-content/uploads/2026/07/uk-icon.webp",
-      "src": "/wp-content/uploads/2026/07/uk-icon.webp",
+      "src": "/assets/shared/images/9887274571-uk-icon.webp",
       "file": "public/assets/shared/images/9887274571-uk-icon.webp",
       "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp",
       "alt": "united kingdom",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1260
     },
     {
       "id": "image-6379de3ab6f222",
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "src": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp",
+      "src": "/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
       "alt": "",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 646
     },
     {
       "id": "image-cbb3fbbc4281da",
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "src": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
       "alt": "Singapore",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 731
     },
     {
       "id": "image-64d34aada8942e",
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "src": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
       "alt": "Pakistan",
       "width": 33,
       "height": 33,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 402
     },
     {
       "id": "image-86bb155aca8f7c",
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "src": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
       "alt": "DMCA.com Protection Status",
       "width": null,
       "height": null,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2222
     },
     {
       "id": "image-1b81eae15cd6e4",
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
+      "src": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "file": "public/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "alt": "Inceptives Digital award badge 1",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4856
     },
     {
       "id": "image-a6c76aefd2664a",
       "sourceUrl": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
-      "src": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
+      "src": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "file": "public/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "alt": "Top Mobile App Developers 2025",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 11129
     },
     {
       "id": "image-03b7c9f959da35",
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
+      "src": "/assets/shared/images/279937e721-new-review-icon-add6.png",
       "file": "public/assets/shared/images/279937e721-new-review-icon-add6.png",
       "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png",
       "alt": "Inceptives Digital award badge 3",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 12314
     },
     {
       "id": "image-1b05bfb2648565",
       "sourceUrl": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
-      "src": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
+      "src": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "file": "public/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "alt": "RightFirms company badge",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7084
     },
     {
       "id": "image-f271a3925e441a",
       "sourceUrl": "/wp-content/uploads/2026/10/top-rated-logo.png",
-      "src": "/wp-content/uploads/2026/10/top-rated-logo.png",
+      "src": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "file": "public/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "alt": "Inceptives Digital award badge 5",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 44177
     },
     {
       "id": "image-b58ceb7bad798a",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "alt": "Associated Press",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6320
     },
     {
       "id": "image-53bc08e3dfe1d8",
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
       "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "alt": "Trustpilot",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5369
     },
     {
       "id": "image-22f702e5409d98",
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
       "alt": "Google",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5083
     },
     {
       "id": "image-a5f40158329240",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "alt": "The New York Times",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7066
     },
     {
       "id": "image-9ee19fccd7bd18",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "alt": "The Globe and Mail",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 8470
     },
     {
       "id": "image-6b276a64938e44",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "alt": "USA Today",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6762
     },
     {
       "id": "image-ea55945e2039ee",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6320
     },
     {
       "id": "image-cde50dde82fc9a",
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
       "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5369
     },
     {
       "id": "image-1ee5bf843fc9d5",
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "src": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5083
     },
     {
       "id": "image-4357514f1b6779",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7066
     },
     {
       "id": "image-e0580104fd5075",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 8470
     },
     {
       "id": "image-987013dbb8bc04",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6762
     }
   ],
   "backgrounds": [
     {
       "sourceUrl": "/wp-content/uploads/2026/08/update-logo.png",
-      "src": "/wp-content/uploads/2026/08/update-logo.png",
       "file": "public/assets/shared/images/a46f69e2c3-update-logo.png",
-      "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "src": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png"
+      "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png",
+      "kind": "images",
+      "bytes": 6176,
+      "src": "/assets/shared/images/a46f69e2c3-update-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
-      "publicUrl": "/assets/shared/images/79271c9fb9-logo.png"
+      "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
+      "kind": "images",
+      "bytes": 23572,
+      "src": "/assets/shared/images/79271c9fb9-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon1.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon1.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg"
+      "file": "public/assets/shared/images/a507210a5c-lifeicon1.svg",
+      "publicUrl": "/assets/shared/images/a507210a5c-lifeicon1.svg",
+      "kind": "images",
+      "bytes": 4208,
+      "src": "/assets/shared/images/a507210a5c-lifeicon1.svg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage1.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage1.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png",
+      "kind": "images",
+      "bytes": 32447,
+      "src": "/assets/pages/life-at-inceptives-digital/images/ac75f9ae7d-lifeimage1.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon2.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon2.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg"
+      "file": "public/assets/shared/images/9ec0670bae-lifeicon2.svg",
+      "publicUrl": "/assets/shared/images/9ec0670bae-lifeicon2.svg",
+      "kind": "images",
+      "bytes": 4089,
+      "src": "/assets/shared/images/9ec0670bae-lifeicon2.svg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage2.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage2.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png",
+      "kind": "images",
+      "bytes": 35749,
+      "src": "/assets/pages/life-at-inceptives-digital/images/5cbadbef29-lifeimage2.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon3.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon3.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg"
+      "file": "public/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
+      "publicUrl": "/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
+      "kind": "images",
+      "bytes": 1990,
+      "src": "/assets/shared/images/a5fcfe2e77-lifeicon3.svg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage3.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage3.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png"
-    },
-    {
-      "sourceUrl": "/media/1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "src": "/media/1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png",
+      "kind": "images",
+      "bytes": 29441,
+      "src": "/assets/pages/life-at-inceptives-digital/images/3caa1dfe0f-lifeimage3.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon4.svg",
-      "src": "/wp-content/uploads/2026/08/lifeicon4.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg"
+      "file": "public/assets/shared/images/b958630927-lifeicon4.svg",
+      "publicUrl": "/assets/shared/images/b958630927-lifeicon4.svg",
+      "kind": "images",
+      "bytes": 1556,
+      "src": "/assets/shared/images/b958630927-lifeicon4.svg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeimage4.png",
-      "src": "/wp-content/uploads/2026/08/lifeimage4.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png",
+      "kind": "images",
+      "bytes": 33812,
+      "src": "/assets/pages/life-at-inceptives-digital/images/b142950d51-lifeimage4.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/chart-life.png",
-      "src": "/wp-content/uploads/2026/08/chart-life.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png"
-    },
-    {
-      "sourceUrl": "/media/ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "src": "/media/ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/chart-life-300x263.png",
-      "src": "/wp-content/uploads/2026/08/chart-life-300x263.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png"
-    },
-    {
-      "sourceUrl": "/media/f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "src": "/media/f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png",
+      "kind": "images",
+      "bytes": 37421,
+      "src": "/assets/pages/life-at-inceptives-digital/images/30f23bc829-chart-life.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/work-image.png",
-      "src": "/wp-content/uploads/2026/08/work-image.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png"
-    },
-    {
-      "sourceUrl": "/media/c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "src": "/media/c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/work-image-300x289.png",
-      "src": "/wp-content/uploads/2026/08/work-image-300x289.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
+      "kind": "images",
+      "bytes": 72189,
+      "src": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2.png",
-      "src": "/wp-content/uploads/2026/08/Mask-group-2.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2-150x150.png",
-      "src": "/wp-content/uploads/2026/08/Mask-group-2-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png",
+      "kind": "images",
+      "bytes": 14870,
+      "src": "/assets/pages/life-at-inceptives-digital/images/9f0c0719d6-Mask-group-2.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/sarim.png",
-      "src": "/wp-content/uploads/2026/08/sarim.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/sarim-150x150.png",
-      "src": "/wp-content/uploads/2026/08/sarim-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
+      "kind": "images",
+      "bytes": 13149,
+      "src": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/atif.png",
-      "src": "/wp-content/uploads/2026/08/atif.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/atif-150x150.png",
-      "src": "/wp-content/uploads/2026/08/atif-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png",
+      "kind": "images",
+      "bytes": 11855,
+      "src": "/assets/pages/life-at-inceptives-digital/images/0c8ab8e51f-atif.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png"
-    },
-    {
-      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "src": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "file": "public/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "publicUrl": "/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "file": "public/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "publicUrl": "/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png"
-    },
-    {
-      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "src": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "file": "public/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "publicUrl": "/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "file": "public/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "publicUrl": "/assets/shared/images/13e822d8df-footer-locations-150x150.png"
-    },
-    {
-      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "src": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "file": "public/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "publicUrl": "/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "file": "public/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "publicUrl": "/assets/shared/images/6beadecc9f-footer-locations-768x766.png"
-    },
-    {
-      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "src": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "file": "public/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "publicUrl": "/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "src": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
-      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "src": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "src": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "src": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
+      "kind": "images",
+      "bytes": 249155,
+      "src": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
-      "src": "/wp-content/uploads/2026/07/clutch.png",
       "file": "public/assets/shared/images/4f01106c4b-clutch.png",
-      "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png"
+      "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png",
+      "kind": "images",
+      "bytes": 1793,
+      "src": "/assets/shared/images/4f01106c4b-clutch.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/bark.png",
-      "src": "/wp-content/uploads/2026/07/bark.png",
       "file": "public/assets/shared/images/81180f1a05-bark.png",
-      "publicUrl": "/assets/shared/images/81180f1a05-bark.png"
+      "publicUrl": "/assets/shared/images/81180f1a05-bark.png",
+      "kind": "images",
+      "bytes": 1915,
+      "src": "/assets/shared/images/81180f1a05-bark.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/trustpilot.png",
-      "src": "/wp-content/uploads/2026/07/trustpilot.png",
       "file": "public/assets/shared/images/142de32fea-trustpilot.png",
-      "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png"
+      "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png",
+      "kind": "images",
+      "bytes": 1953,
+      "src": "/assets/shared/images/142de32fea-trustpilot.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "kind": "images",
+      "bytes": 722,
+      "src": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "src": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
+      "kind": "images",
+      "bytes": 450,
+      "src": "/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uk-icon.webp",
-      "src": "/wp-content/uploads/2026/07/uk-icon.webp",
       "file": "public/assets/shared/images/9887274571-uk-icon.webp",
-      "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp"
+      "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp",
+      "kind": "images",
+      "bytes": 1260,
+      "src": "/assets/shared/images/9887274571-uk-icon.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "src": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
+      "kind": "images",
+      "bytes": 646,
+      "src": "/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "src": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
+      "kind": "images",
+      "bytes": 731,
+      "src": "/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "src": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
+      "kind": "images",
+      "bytes": 402,
+      "src": "/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png"
     },
     {
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "src": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
-      "src": "/wp-content/uploads/2026/07/footer.mp4",
-      "file": "public/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "publicUrl": "/assets/shared/videos/a2092f5d0a-footer.mp4"
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "src": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "file": "public/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "publicUrl": "/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp"
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "src": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "file": "public/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "publicUrl": "/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
+      "kind": "images",
+      "bytes": 2222,
+      "src": "/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
       "file": "public/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
-      "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp"
+      "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
+      "kind": "images",
+      "bytes": 4856,
+      "src": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
-      "src": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
       "file": "public/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
-      "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png"
+      "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
+      "kind": "images",
+      "bytes": 11129,
+      "src": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
       "file": "public/assets/shared/images/279937e721-new-review-icon-add6.png",
-      "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png"
+      "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png",
+      "kind": "images",
+      "bytes": 12314,
+      "src": "/assets/shared/images/279937e721-new-review-icon-add6.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
-      "src": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
       "file": "public/assets/shared/images/040132a246-rightfirms-badge-company.png",
-      "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png"
+      "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
+      "kind": "images",
+      "bytes": 7084,
+      "src": "/assets/shared/images/040132a246-rightfirms-badge-company.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/top-rated-logo.png",
-      "src": "/wp-content/uploads/2026/10/top-rated-logo.png",
       "file": "public/assets/shared/images/06e3ce1148-top-rated-logo.png",
-      "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png"
+      "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
+      "kind": "images",
+      "bytes": 44177,
+      "src": "/assets/shared/images/06e3ce1148-top-rated-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
-      "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png"
+      "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
+      "kind": "images",
+      "bytes": 6320,
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
-      "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png"
+      "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
+      "kind": "images",
+      "bytes": 5369,
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png"
+      "file": "public/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "kind": "images",
+      "bytes": 5083,
+      "src": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
-      "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png"
+      "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
+      "kind": "images",
+      "bytes": 7066,
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
-      "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png"
+      "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
+      "kind": "images",
+      "bytes": 8470,
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
-      "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png"
+      "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
+      "kind": "images",
+      "bytes": 6762,
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
+      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "kind": "images",
+      "bytes": 4880,
+      "src": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png"
+    },
+    {
+      "sourceUrl": "/media/1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "kind": "images",
+      "bytes": 25894,
+      "src": "/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp"
+    },
+    {
+      "sourceUrl": "/media/ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "kind": "images",
+      "bytes": 19948,
+      "src": "/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/chart-life-300x263.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
+      "kind": "images",
+      "bytes": 13393,
+      "src": "/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png"
+    },
+    {
+      "sourceUrl": "/media/f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "kind": "images",
+      "bytes": 11376,
+      "src": "/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp"
+    },
+    {
+      "sourceUrl": "/media/c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "kind": "images",
+      "bytes": 35898,
+      "src": "/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/work-image-300x289.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
+      "kind": "images",
+      "bytes": 36576,
+      "src": "/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
+      "kind": "images",
+      "bytes": 7825,
+      "src": "/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/sarim-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
+      "kind": "images",
+      "bytes": 8021,
+      "src": "/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/atif-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
+      "kind": "images",
+      "bytes": 7654,
+      "src": "/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png"
+    },
+    {
+      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "kind": "images",
+      "bytes": 214310,
+      "src": "/assets/pages/life-at-inceptives-digital/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "kind": "images",
+      "bytes": 58672,
+      "src": "/assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png"
+    },
+    {
+      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "kind": "images",
+      "bytes": 41856,
+      "src": "/assets/pages/life-at-inceptives-digital/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png",
+      "kind": "images",
+      "bytes": 18370,
+      "src": "/assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png"
+    },
+    {
+      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "kind": "images",
+      "bytes": 13536,
+      "src": "/assets/pages/life-at-inceptives-digital/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png",
+      "kind": "images",
+      "bytes": 307727,
+      "src": "/assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png"
+    },
+    {
+      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "kind": "images",
+      "bytes": 233394,
+      "src": "/assets/pages/life-at-inceptives-digital/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
+      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
+      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
+      "kind": "images",
+      "bytes": 3303,
+      "src": "/assets/shared/images/722653dd1e-logo-300x83.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
+      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "kind": "images",
+      "bytes": 12642,
+      "src": "/assets/shared/images/19ce8de954-logo-1024x282.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
+      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "kind": "images",
+      "bytes": 9327,
+      "src": "/assets/shared/images/2ebc59a4d2-logo-768x212.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
+      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "kind": "images",
+      "bytes": 29928,
+      "src": "/assets/shared/images/6dd35eb579-logo-1536x423.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
+      "file": "public/assets/pages/life-at-inceptives-digital/videos/a2092f5d0a-footer.mp4",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/videos/a2092f5d0a-footer.mp4",
+      "kind": "videos",
+      "bytes": 388872,
+      "src": "/assets/pages/life-at-inceptives-digital/videos/a2092f5d0a-footer.mp4"
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "kind": "images",
+      "bytes": 7066,
+      "src": "/assets/pages/life-at-inceptives-digital/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp"
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "file": "public/assets/pages/life-at-inceptives-digital/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "kind": "videos",
+      "bytes": 176266,
+      "src": "/assets/pages/life-at-inceptives-digital/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4"
     },
     {
       "sourceUrl": "/media/adb51bc73fa1b4e86741.woff2",
-      "src": "/media/adb51bc73fa1b4e86741.woff2",
       "file": "public/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2",
-      "publicUrl": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2"
+      "publicUrl": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2",
+      "kind": "fonts",
+      "bytes": 22852,
+      "src": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2"
     },
     {
       "sourceUrl": "/media/e88cdb08566f9c4ffdf3.woff2",
-      "src": "/media/e88cdb08566f9c4ffdf3.woff2",
       "file": "public/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2",
-      "publicUrl": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2"
+      "publicUrl": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2",
+      "kind": "fonts",
+      "bytes": 23620,
+      "src": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2"
     },
     {
       "sourceUrl": "/media/2c991027972c013dad9c.woff2",
-      "src": "/media/2c991027972c013dad9c.woff2",
       "file": "public/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2",
-      "publicUrl": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2"
+      "publicUrl": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2",
+      "kind": "fonts",
+      "bytes": 23800,
+      "src": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2"
     },
     {
       "sourceUrl": "/media/6de289c2d8fc25087ada.woff2",
-      "src": "/media/6de289c2d8fc25087ada.woff2",
       "file": "public/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2",
-      "publicUrl": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2"
+      "publicUrl": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2",
+      "kind": "fonts",
+      "bytes": 23672,
+      "src": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2"
     },
     {
       "sourceUrl": "/media/a23cdb37ae8c8caeef49.woff2",
-      "src": "/media/a23cdb37ae8c8caeef49.woff2",
       "file": "public/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2",
-      "publicUrl": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2"
+      "publicUrl": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2",
+      "kind": "fonts",
+      "bytes": 23896,
+      "src": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2"
     },
     {
       "sourceUrl": "/media/5d56cc343e0005978238.woff2",
-      "src": "/media/5d56cc343e0005978238.woff2",
       "file": "public/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2",
-      "publicUrl": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2"
+      "publicUrl": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2",
+      "kind": "fonts",
+      "bytes": 24036,
+      "src": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2"
     },
     {
       "sourceUrl": "/media/bc868164334af9afed12.woff2",
-      "src": "/media/bc868164334af9afed12.woff2",
       "file": "public/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2",
-      "publicUrl": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2"
+      "publicUrl": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2",
+      "kind": "fonts",
+      "bytes": 23988,
+      "src": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2"
     },
     {
       "sourceUrl": "/media/810fea6932747c951324.woff2",
-      "src": "/media/810fea6932747c951324.woff2",
       "file": "public/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2",
-      "publicUrl": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2"
+      "publicUrl": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2",
+      "kind": "fonts",
+      "bytes": 23888,
+      "src": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2"
     },
     {
       "sourceUrl": "/media/9128c2e2476e05c8e558.woff2",
-      "src": "/media/9128c2e2476e05c8e558.woff2",
       "file": "public/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2",
-      "publicUrl": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2"
+      "publicUrl": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2",
+      "kind": "fonts",
+      "bytes": 23616,
+      "src": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2"
     },
     {
       "sourceUrl": "/media/8437d2e7ec22ac91bfcb.woff2",
-      "src": "/media/8437d2e7ec22ac91bfcb.woff2",
       "file": "public/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2",
-      "publicUrl": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2"
+      "publicUrl": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2",
+      "kind": "fonts",
+      "bytes": 21572,
+      "src": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2"
     },
     {
       "sourceUrl": "/media/85d033c96d62a2ad094b.woff2",
-      "src": "/media/85d033c96d62a2ad094b.woff2",
       "file": "public/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2",
-      "publicUrl": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2"
+      "publicUrl": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2",
+      "kind": "fonts",
+      "bytes": 22024,
+      "src": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2"
     },
     {
       "sourceUrl": "/media/426c272203176174caa9.woff2",
-      "src": "/media/426c272203176174caa9.woff2",
       "file": "public/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2",
-      "publicUrl": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2"
+      "publicUrl": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2",
+      "kind": "fonts",
+      "bytes": 22064,
+      "src": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2"
     },
     {
       "sourceUrl": "/media/c29b10834c390f65c7c8.woff2",
-      "src": "/media/c29b10834c390f65c7c8.woff2",
       "file": "public/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2",
-      "publicUrl": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2"
+      "publicUrl": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2",
+      "kind": "fonts",
+      "bytes": 21892,
+      "src": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2"
     },
     {
       "sourceUrl": "/media/0753679b919747d08ae2.woff2",
-      "src": "/media/0753679b919747d08ae2.woff2",
       "file": "public/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2",
-      "publicUrl": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2"
+      "publicUrl": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2",
+      "kind": "fonts",
+      "bytes": 22200,
+      "src": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2"
     },
     {
       "sourceUrl": "/media/4507cf55b66f34fafc60.woff2",
-      "src": "/media/4507cf55b66f34fafc60.woff2",
       "file": "public/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2",
-      "publicUrl": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2"
+      "publicUrl": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2",
+      "kind": "fonts",
+      "bytes": 22240,
+      "src": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2"
     },
     {
       "sourceUrl": "/media/0763584e25fc49160342.woff2",
-      "src": "/media/0763584e25fc49160342.woff2",
       "file": "public/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2",
-      "publicUrl": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2"
+      "publicUrl": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2",
+      "kind": "fonts",
+      "bytes": 22240,
+      "src": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2"
     },
     {
       "sourceUrl": "/media/8ac1c1c9d3f2b55e4492.woff2",
-      "src": "/media/8ac1c1c9d3f2b55e4492.woff2",
       "file": "public/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2",
-      "publicUrl": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2"
+      "publicUrl": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2",
+      "kind": "fonts",
+      "bytes": 22140,
+      "src": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2"
     },
     {
       "sourceUrl": "/media/f5356de1d7f63a783a8a.woff2",
-      "src": "/media/f5356de1d7f63a783a8a.woff2",
       "file": "public/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2",
-      "publicUrl": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2"
+      "publicUrl": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2",
+      "kind": "fonts",
+      "bytes": 21916,
+      "src": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2"
     },
     {
       "sourceUrl": "/media/ff202abd4481de801fe4.woff2",
-      "src": "/media/ff202abd4481de801fe4.woff2",
       "file": "public/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2",
-      "publicUrl": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2"
+      "publicUrl": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2",
+      "kind": "fonts",
+      "bytes": 24692,
+      "src": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2"
     },
     {
       "sourceUrl": "/media/bdc18eef5369bfc855dd.woff2",
-      "src": "/media/bdc18eef5369bfc855dd.woff2",
       "file": "public/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2",
-      "publicUrl": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2"
+      "publicUrl": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2",
+      "kind": "fonts",
+      "bytes": 25308,
+      "src": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2"
     },
     {
       "sourceUrl": "/media/223cdd8d3096c7614af3.woff2",
-      "src": "/media/223cdd8d3096c7614af3.woff2",
       "file": "public/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2",
-      "publicUrl": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2"
+      "publicUrl": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2",
+      "kind": "fonts",
+      "bytes": 25340,
+      "src": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2"
     },
     {
       "sourceUrl": "/media/44a0d91536ba5d02029c.woff2",
-      "src": "/media/44a0d91536ba5d02029c.woff2",
       "file": "public/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2",
-      "publicUrl": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2"
+      "publicUrl": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2",
+      "kind": "fonts",
+      "bytes": 25040,
+      "src": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2"
     },
     {
       "sourceUrl": "/media/723b804690ef33ffa300.woff2",
-      "src": "/media/723b804690ef33ffa300.woff2",
       "file": "public/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2",
-      "publicUrl": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2"
+      "publicUrl": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2",
+      "kind": "fonts",
+      "bytes": 25636,
+      "src": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2"
     },
     {
       "sourceUrl": "/media/9b00c4243120f679dae6.woff2",
-      "src": "/media/9b00c4243120f679dae6.woff2",
       "file": "public/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2",
-      "publicUrl": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2"
+      "publicUrl": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2",
+      "kind": "fonts",
+      "bytes": 25816,
+      "src": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2"
     },
     {
       "sourceUrl": "/media/13722ff98bf5417b0e88.woff2",
-      "src": "/media/13722ff98bf5417b0e88.woff2",
       "file": "public/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2",
-      "publicUrl": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2"
+      "publicUrl": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2",
+      "kind": "fonts",
+      "bytes": 25880,
+      "src": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2"
     },
     {
       "sourceUrl": "/media/ee32603ccc9ac657e370.woff2",
-      "src": "/media/ee32603ccc9ac657e370.woff2",
       "file": "public/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2",
-      "publicUrl": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2"
+      "publicUrl": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2",
+      "kind": "fonts",
+      "bytes": 25932,
+      "src": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2"
     },
     {
       "sourceUrl": "/media/9699f125c906cf10c4c4.woff2",
-      "src": "/media/9699f125c906cf10c4c4.woff2",
       "file": "public/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2",
-      "publicUrl": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2"
+      "publicUrl": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2",
+      "kind": "fonts",
+      "bytes": 25408,
+      "src": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2"
     },
     {
       "sourceUrl": "/media/92cbfcbfcc2758f032bc.woff2",
-      "src": "/media/92cbfcbfcc2758f032bc.woff2",
       "file": "public/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2",
-      "publicUrl": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2"
+      "publicUrl": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2",
+      "kind": "fonts",
+      "bytes": 23392,
+      "src": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2"
     },
     {
       "sourceUrl": "/media/6f5740f738cf20ec4da9.woff2",
-      "src": "/media/6f5740f738cf20ec4da9.woff2",
       "file": "public/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2",
-      "publicUrl": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2"
+      "publicUrl": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2",
+      "kind": "fonts",
+      "bytes": 23920,
+      "src": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2"
     },
     {
       "sourceUrl": "/media/2305f0853248f7120e55.woff2",
-      "src": "/media/2305f0853248f7120e55.woff2",
       "file": "public/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2",
-      "publicUrl": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2"
+      "publicUrl": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2",
+      "kind": "fonts",
+      "bytes": 23916,
+      "src": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2"
     },
     {
       "sourceUrl": "/media/7c761112b2acce3bd913.woff2",
-      "src": "/media/7c761112b2acce3bd913.woff2",
       "file": "public/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2",
-      "publicUrl": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2"
+      "publicUrl": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2",
+      "kind": "fonts",
+      "bytes": 23664,
+      "src": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2"
     },
     {
       "sourceUrl": "/media/0cc476d41debd170ce2d.woff2",
-      "src": "/media/0cc476d41debd170ce2d.woff2",
       "file": "public/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2",
-      "publicUrl": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2"
+      "publicUrl": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2",
+      "kind": "fonts",
+      "bytes": 24272,
+      "src": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2"
     },
     {
       "sourceUrl": "/media/196082c3f10834577ca3.woff2",
-      "src": "/media/196082c3f10834577ca3.woff2",
       "file": "public/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2",
-      "publicUrl": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2"
+      "publicUrl": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2",
+      "kind": "fonts",
+      "bytes": 24452,
+      "src": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2"
     },
     {
       "sourceUrl": "/media/8d3cb755fc28ebcb7cc8.woff2",
-      "src": "/media/8d3cb755fc28ebcb7cc8.woff2",
       "file": "public/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2",
-      "publicUrl": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2"
+      "publicUrl": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2",
+      "kind": "fonts",
+      "bytes": 24356,
+      "src": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2"
     },
     {
       "sourceUrl": "/media/46a87a5a69c501104a7d.woff2",
-      "src": "/media/46a87a5a69c501104a7d.woff2",
       "file": "public/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2",
-      "publicUrl": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2"
+      "publicUrl": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2",
+      "kind": "fonts",
+      "bytes": 24400,
+      "src": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2"
     },
     {
       "sourceUrl": "/media/676b2b417dc9628b3141.woff2",
-      "src": "/media/676b2b417dc9628b3141.woff2",
       "file": "public/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2",
-      "publicUrl": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2"
+      "publicUrl": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2",
+      "kind": "fonts",
+      "bytes": 23900,
+      "src": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2"
     },
     {
       "sourceUrl": "/media/32beb16fb99cef48704a.woff2",
-      "src": "/media/32beb16fb99cef48704a.woff2",
       "file": "public/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2",
-      "publicUrl": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2"
+      "publicUrl": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2",
+      "kind": "fonts",
+      "bytes": 13800,
+      "src": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2"
     },
     {
       "sourceUrl": "/media/6991953ff3fcc785f57a.woff2",
-      "src": "/media/6991953ff3fcc785f57a.woff2",
       "file": "public/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2",
-      "publicUrl": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2"
+      "publicUrl": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2",
+      "kind": "fonts",
+      "bytes": 14320,
+      "src": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2"
     },
     {
       "sourceUrl": "/media/d2b0d156a2b167df23fa.woff2",
-      "src": "/media/d2b0d156a2b167df23fa.woff2",
       "file": "public/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2",
-      "publicUrl": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2"
+      "publicUrl": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2",
+      "kind": "fonts",
+      "bytes": 14404,
+      "src": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2"
     },
     {
       "sourceUrl": "/media/4b62515a3a01a1f20814.woff2",
-      "src": "/media/4b62515a3a01a1f20814.woff2",
       "file": "public/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2",
-      "publicUrl": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2"
+      "publicUrl": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2",
+      "kind": "fonts",
+      "bytes": 14340,
+      "src": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2"
     },
     {
       "sourceUrl": "/media/d738b1920ffc60000ddd.woff2",
-      "src": "/media/d738b1920ffc60000ddd.woff2",
       "file": "public/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2",
-      "publicUrl": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2"
+      "publicUrl": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2",
+      "kind": "fonts",
+      "bytes": 14364,
+      "src": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2"
     },
     {
       "sourceUrl": "/media/160969dc106bd981a407.woff2",
-      "src": "/media/160969dc106bd981a407.woff2",
       "file": "public/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2",
-      "publicUrl": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2"
+      "publicUrl": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2",
+      "kind": "fonts",
+      "bytes": 14456,
+      "src": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2"
     },
     {
       "sourceUrl": "/media/c40bf310ea5de50d3b0c.woff2",
-      "src": "/media/c40bf310ea5de50d3b0c.woff2",
       "file": "public/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2",
-      "publicUrl": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2"
+      "publicUrl": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2",
+      "kind": "fonts",
+      "bytes": 13912,
+      "src": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2"
     },
     {
       "sourceUrl": "/media/c4a1fdb19c7c67c2aa4b.woff2",
-      "src": "/media/c4a1fdb19c7c67c2aa4b.woff2",
       "file": "public/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2",
-      "publicUrl": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2"
+      "publicUrl": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2",
+      "kind": "fonts",
+      "bytes": 30676,
+      "src": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2"
     },
     {
       "sourceUrl": "/media/562a2afbcba42a802eb8.woff2",
-      "src": "/media/562a2afbcba42a802eb8.woff2",
       "file": "public/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2",
-      "publicUrl": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2"
+      "publicUrl": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2",
+      "kind": "fonts",
+      "bytes": 30408,
+      "src": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2"
     },
     {
       "sourceUrl": "/media/6785230cfb887b7f1b91.woff2",
-      "src": "/media/6785230cfb887b7f1b91.woff2",
       "file": "public/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2",
-      "publicUrl": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2"
+      "publicUrl": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2",
+      "kind": "fonts",
+      "bytes": 30704,
+      "src": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2"
     },
     {
       "sourceUrl": "/media/44033c02517e5f0cd130.woff2",
-      "src": "/media/44033c02517e5f0cd130.woff2",
       "file": "public/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2",
-      "publicUrl": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2"
+      "publicUrl": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2",
+      "kind": "fonts",
+      "bytes": 30936,
+      "src": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2"
     },
     {
       "sourceUrl": "/media/a3fdf2a73e5e238bd007.woff2",
-      "src": "/media/a3fdf2a73e5e238bd007.woff2",
       "file": "public/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2",
-      "publicUrl": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2"
+      "publicUrl": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2",
+      "kind": "fonts",
+      "bytes": 29432,
+      "src": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/FontsFree-Net-SFProDisplay-Black.woff2",
-      "src": "/wp-content/uploads/2026/07/FontsFree-Net-SFProDisplay-Black.woff2",
       "file": "public/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2",
-      "publicUrl": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2"
+      "publicUrl": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2",
+      "kind": "fonts",
+      "bytes": 92464,
+      "src": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/SFPRODISPLAYREGULAR-2.woff2",
-      "src": "/wp-content/uploads/2026/07/SFPRODISPLAYREGULAR-2.woff2",
       "file": "public/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2",
-      "publicUrl": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2"
+      "publicUrl": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2",
+      "kind": "fonts",
+      "bytes": 89432,
+      "src": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/SFPRODISPLAYMEDIUM.woff2",
-      "src": "/wp-content/uploads/2026/07/SFPRODISPLAYMEDIUM.woff2",
       "file": "public/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2",
-      "publicUrl": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2"
+      "publicUrl": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2",
+      "kind": "fonts",
+      "bytes": 99716,
+      "src": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/life-incep-banner.png",
-      "src": "/wp-content/uploads/2026/08/life-incep-banner.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/aa8a829582-life-incep-banner.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/aa8a829582-life-incep-banner.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/aa8a829582-life-incep-banner.png",
+      "kind": "images",
+      "bytes": 148357,
+      "src": "/assets/pages/life-at-inceptives-digital/images/aa8a829582-life-incep-banner.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/life-banner2.png",
-      "src": "/wp-content/uploads/2026/08/life-banner2.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/07a1128f1f-life-banner2.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/07a1128f1f-life-banner2.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/07a1128f1f-life-banner2.png",
+      "kind": "images",
+      "bytes": 26694,
+      "src": "/assets/pages/life-at-inceptives-digital/images/07a1128f1f-life-banner2.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/live-banner3.png",
-      "src": "/wp-content/uploads/2026/08/live-banner3.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/e7ea81c610-live-banner3.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/e7ea81c610-live-banner3.png"
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/e7ea81c610-live-banner3.png",
+      "kind": "images",
+      "bytes": 94145,
+      "src": "/assets/pages/life-at-inceptives-digital/images/e7ea81c610-live-banner3.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/ID-logo.jpg",
-      "src": "/wp-content/uploads/2026/10/ID-logo.jpg",
       "file": "public/assets/shared/images/839103d20d-ID-logo.jpg",
-      "publicUrl": "/assets/shared/images/839103d20d-ID-logo.jpg"
+      "publicUrl": "/assets/shared/images/839103d20d-ID-logo.jpg",
+      "kind": "images",
+      "bytes": 20816,
+      "src": "/assets/shared/images/839103d20d-ID-logo.jpg"
     },
     {
       "sourceUrl": "/media/7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
-      "src": "/media/7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
       "file": "public/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
-      "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp"
+      "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
+      "kind": "images",
+      "bytes": 8774,
+      "src": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp"
     }
   ],
   "files": [
@@ -1290,13 +1620,6 @@
       "bytes": 6176
     },
     {
-      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "kind": "images",
-      "bytes": 4880
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
@@ -1305,8 +1628,8 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon1.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a507210a5c-lifeicon1.svg",
+      "file": "public/assets/shared/images/a507210a5c-lifeicon1.svg",
+      "publicUrl": "/assets/shared/images/a507210a5c-lifeicon1.svg",
       "kind": "images",
       "bytes": 4208
     },
@@ -1319,8 +1642,8 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon2.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9ec0670bae-lifeicon2.svg",
+      "file": "public/assets/shared/images/9ec0670bae-lifeicon2.svg",
+      "publicUrl": "/assets/shared/images/9ec0670bae-lifeicon2.svg",
       "kind": "images",
       "bytes": 4089
     },
@@ -1333,8 +1656,8 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon3.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/a5fcfe2e77-lifeicon3.svg",
+      "file": "public/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
+      "publicUrl": "/assets/shared/images/a5fcfe2e77-lifeicon3.svg",
       "kind": "images",
       "bytes": 1990
     },
@@ -1346,16 +1669,9 @@
       "bytes": 29441
     },
     {
-      "sourceUrl": "/media/1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
-      "kind": "images",
-      "bytes": 25894
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/08/lifeicon4.svg",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b958630927-lifeicon4.svg",
+      "file": "public/assets/shared/images/b958630927-lifeicon4.svg",
+      "publicUrl": "/assets/shared/images/b958630927-lifeicon4.svg",
       "kind": "images",
       "bytes": 1556
     },
@@ -1374,46 +1690,11 @@
       "bytes": 37421
     },
     {
-      "sourceUrl": "/media/ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
-      "kind": "images",
-      "bytes": 19948
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/chart-life-300x263.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
-      "kind": "images",
-      "bytes": 13393
-    },
-    {
-      "sourceUrl": "/media/f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
-      "kind": "images",
-      "bytes": 11376
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/08/work-image.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/406d540ae2-work-image.png",
       "kind": "images",
       "bytes": 72189
-    },
-    {
-      "sourceUrl": "/media/c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
-      "kind": "images",
-      "bytes": 35898
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/work-image-300x289.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
-      "kind": "images",
-      "bytes": 36576
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2.png",
@@ -1423,25 +1704,11 @@
       "bytes": 14870
     },
     {
-      "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
-      "kind": "images",
-      "bytes": 7825
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/08/sarim.png",
       "file": "public/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "publicUrl": "/assets/pages/life-at-inceptives-digital/images/361f9d9e77-sarim.png",
       "kind": "images",
       "bytes": 13149
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/sarim-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
-      "kind": "images",
-      "bytes": 8021
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/atif.png",
@@ -1451,95 +1718,11 @@
       "bytes": 11855
     },
     {
-      "sourceUrl": "/wp-content/uploads/2026/08/atif-150x150.png",
-      "file": "public/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
-      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
-      "kind": "images",
-      "bytes": 7654
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/7be5878291-footer-locations.png",
       "kind": "images",
       "bytes": 249155
-    },
-    {
-      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "file": "public/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "publicUrl": "/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "kind": "images",
-      "bytes": 214310
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "file": "public/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "publicUrl": "/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "kind": "images",
-      "bytes": 58672
-    },
-    {
-      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "file": "public/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "publicUrl": "/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "kind": "images",
-      "bytes": 41856
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "file": "public/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "publicUrl": "/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "kind": "images",
-      "bytes": 18370
-    },
-    {
-      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "file": "public/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "publicUrl": "/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "kind": "images",
-      "bytes": 13536
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "file": "public/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "publicUrl": "/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "kind": "images",
-      "bytes": 307727
-    },
-    {
-      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "file": "public/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "publicUrl": "/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "kind": "images",
-      "bytes": 233394
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
-      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
-      "kind": "images",
-      "bytes": 3303
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "kind": "images",
-      "bytes": 12642
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "kind": "images",
-      "bytes": 9327
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "kind": "images",
-      "bytes": 29928
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
@@ -1564,15 +1747,15 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bfd5b2a93f-united-states-1.png",
       "kind": "images",
       "bytes": 722
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f709717242-canda.png",
       "kind": "images",
       "bytes": 450
     },
@@ -1585,52 +1768,31 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/bbf86572d3-uae-flag.webp",
       "kind": "images",
       "bytes": 646
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/6cdb775a76-singa.png",
       "kind": "images",
       "bytes": 731
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/90bfc17e2f-pakistan.png",
       "kind": "images",
       "bytes": 402
     },
     {
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/827b171d84-9d198c1483e19a755794.png",
       "kind": "images",
       "bytes": 2222
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
-      "file": "public/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "publicUrl": "/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "kind": "videos",
-      "bytes": 388872
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "file": "public/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "publicUrl": "/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "kind": "images",
-      "bytes": 7066
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "file": "public/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "publicUrl": "/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "kind": "videos",
-      "bytes": 176266
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
@@ -1683,8 +1845,8 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/351608e619-googleslider.png",
       "kind": "images",
       "bytes": 5083
     },
@@ -1708,6 +1870,174 @@
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "kind": "images",
       "bytes": 6762
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
+      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "kind": "images",
+      "bytes": 4880
+    },
+    {
+      "sourceUrl": "/media/1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/20c789ea2e-1ff4b968a2c695d6655e30a185abe8b2b5415308-optimized.webp",
+      "kind": "images",
+      "bytes": 25894
+    },
+    {
+      "sourceUrl": "/media/ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f54c7ac282-ff9f6cd3f913aee1a5a41ad8286da46d53e1688c-optimized.webp",
+      "kind": "images",
+      "bytes": 19948
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/chart-life-300x263.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/b4f7871747-chart-life-300x263.png",
+      "kind": "images",
+      "bytes": 13393
+    },
+    {
+      "sourceUrl": "/media/f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/ce2fb3ad4f-f4d916cb758cf3ff63a436e515cd727e47bee02a-optimized.webp",
+      "kind": "images",
+      "bytes": 11376
+    },
+    {
+      "sourceUrl": "/media/c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/399a32178e-c23a53d9cddaeebec7790077993bdf16de47c832-optimized.webp",
+      "kind": "images",
+      "bytes": 35898
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/work-image-300x289.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/5252f9ed4e-work-image-300x289.png",
+      "kind": "images",
+      "bytes": 36576
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Mask-group-2-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/c954b62703-Mask-group-2-150x150.png",
+      "kind": "images",
+      "bytes": 7825
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/sarim-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/57082af1e2-sarim-150x150.png",
+      "kind": "images",
+      "bytes": 8021
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/atif-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/64c58c1b2f-atif-150x150.png",
+      "kind": "images",
+      "bytes": 7654
+    },
+    {
+      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "kind": "images",
+      "bytes": 214310
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "kind": "images",
+      "bytes": 58672
+    },
+    {
+      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "kind": "images",
+      "bytes": 41856
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/13e822d8df-footer-locations-150x150.png",
+      "kind": "images",
+      "bytes": 18370
+    },
+    {
+      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "kind": "images",
+      "bytes": 13536
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/6beadecc9f-footer-locations-768x766.png",
+      "kind": "images",
+      "bytes": 307727
+    },
+    {
+      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "kind": "images",
+      "bytes": 233394
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
+      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
+      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
+      "kind": "images",
+      "bytes": 3303
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
+      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "kind": "images",
+      "bytes": 12642
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
+      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "kind": "images",
+      "bytes": 9327
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
+      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "kind": "images",
+      "bytes": 29928
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
+      "file": "public/assets/pages/life-at-inceptives-digital/videos/a2092f5d0a-footer.mp4",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/videos/a2092f5d0a-footer.mp4",
+      "kind": "videos",
+      "bytes": 388872
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "file": "public/assets/pages/life-at-inceptives-digital/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "kind": "images",
+      "bytes": 7066
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "file": "public/assets/pages/life-at-inceptives-digital/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "publicUrl": "/assets/pages/life-at-inceptives-digital/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "kind": "videos",
+      "bytes": 176266
     },
     {
       "sourceUrl": "/media/adb51bc73fa1b4e86741.woff2",

@@ -1,3 +1,4 @@
+import {readSitemapXML} from './read-sitemap.mjs';
 import fs from "node:fs";
 import zlib from "node:zlib";
 import * as cheerio from "cheerio";
@@ -104,7 +105,7 @@ await Promise.all(
     }
   }),
 );
-const xml = await (await fetch(base + "/sitemap.xml")).text();
+const xml = await readSitemapXML(base);
 const sitemap = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
 const sitemapFailures = [];
 next = 0;

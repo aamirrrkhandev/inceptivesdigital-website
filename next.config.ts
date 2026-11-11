@@ -8,6 +8,9 @@ const config: NextConfig = {
   distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
   outputFileTracingIncludes: { "/*": ["./content/editable-runtime/**/*"] },
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "nextincep.wpenginepowered.com", pathname: "/wp-content/uploads/**" }],
+  },
   // Original images/video are emitted as static route bodies or public files.
   // Page functions need catalog parts and compact editable data, not media packs
   // or the uncompressed authoring copies of every page.

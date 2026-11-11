@@ -1,3 +1,4 @@
+import {readSitemapXML} from './read-sitemap.mjs';
 import fs from 'node:fs';
 import zlib from 'node:zlib';
 import * as cheerio from 'cheerio';
@@ -30,7 +31,7 @@ for(let i=0;i<routes.length;i+=8){await Promise.all(routes.slice(i,i+8).map(asyn
  }));}
 const missing=await fetch(base+'/migration-verification-nonexistent-page',{redirect:'manual'});
 const robots=await(await fetch(base+'/robots.txt')).text();
-const sitemap=await(await fetch(base+'/sitemap.xml')).text();
+const sitemap=await readSitemapXML(base);
 const output={base,checkedAt:new Date().toISOString(),pages:results,notFoundStatus:missing.status,robots,sitemapUrls:[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1])};
 write(auditRoot+'/http-verification.json',JSON.stringify(output,null,2));
 write('SEO_COMPARISON.csv',csv([['path','http_status','canonical','source_robots','staging_robots','result','differences'],...results.map(r=>[r.path,r.status,r.canonical,r.sourceRobots,r.previewRobots,r.errors.length?'FAIL':'PASS',r.errors.join('; ')])]));

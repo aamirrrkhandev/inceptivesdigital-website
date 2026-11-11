@@ -1,3 +1,4 @@
+import {readSitemapXML} from './read-sitemap.mjs';
 import fs from "node:fs";
 import assert from "node:assert/strict";
 import * as cheerio from "cheerio";
@@ -77,7 +78,7 @@ for (const item of JSON.parse(fs.readFileSync("content/redirects.json"))) {
   const final = await fetch(destination, { redirect: "manual" });
   assert.equal(final.status, 200, item.source + " one-hop target");
 }
-const xml = await (await fetch(base + "/sitemap.xml")).text();
+const xml = await readSitemapXML(base);
 const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
 assert.ok(urls.length >= 224);
 assert.ok(

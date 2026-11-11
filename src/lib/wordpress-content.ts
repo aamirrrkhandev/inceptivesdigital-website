@@ -11,7 +11,8 @@ import { approvedCanonical } from "./seo-policy";
 import savedRoutes from "../../content/routes.json";
 import blogSource from "../../content/wordpress-blog-source.json";
 import nonBlogSitemap from "../../content/non-blog-sitemap-snapshot.json";
-import { readCurrentArticleHTML } from "./blog-article-cache";
+import { beginColdArticleRead, readCurrentArticleHTML } from "./blog-article-cache";
+import { articleHTMLMatchesRecord } from "./article-coherence";
 
 const origin = blogSource.publicOrigin;
 const blogOrigin = blogSource.origin;
@@ -93,35 +94,18 @@ export async function getWordPressSitemapPosts() {
     .filter(Boolean);
 }
 
-export const getWordPressSitemapURLs = cache(async () => {
-  const urls: string[] = nonBlogSitemap.urls.map(url => approvedCanonical(url)!);
+export const getWordPressPageSitemapURLs = cache(async () => {
+  const canonicals = new Map(savedRoutes.map(route => [route.path, approvedCanonical(route.canonical)!]));
+  return [...new Set(nonBlogSitemap.urls.map(url => canonicals.get(new URL(url).pathname.replace(/\/$/, "") || "/") || approvedCanonical(url)!))];
+});
+export const getWordPressAuthorSitemapURLs = cache(async () => {
   const authors = JSON.parse(await read('/wp-json/wp/v2/users?has_published_posts=true&per_page=100&_fields=slug,yoast_head_json')) as {slug:string;yoast_head_json?:{robots?:{index?:string};canonical?:string}}[];
   if (!Array.isArray(authors)) throw new Error('Invalid blog authors response');
-  for (const author of authors) if (author.yoast_head_json?.robots?.index === 'index') urls.push(publicURL(author.yoast_head_json.canonical || blogOrigin+'/author/'+author.slug));
-  urls.push(...(await getWordPressSitemapPosts()));
-  if (!urls.length) throw new Error("Empty WordPress sitemap");
-  const canonicals = new Map(
-    savedRoutes.map((route) => [
-      route.path,
-      approvedCanonical(route.canonical)!,
-    ]),
-  );
-  for (const post of await getPublishedPosts()) {
-    canonicals.set(
-      new URL(post.link).pathname.replace(/\/$/, ""),
-      approvedCanonical(post.yoast_head_json?.canonical || post.link)!,
-    );
-  }
-  // Keep Yoast destinations and apply the user's explicit no-trailing-slash convention.
-  return [
-    ...new Set(
-      urls.map(
-        (url) =>
-          canonicals.get(new URL(url).pathname.replace(/\/$/, "") || "/") ||
-          url,
-      ),
-    ),
-  ];
+  return [...new Set(authors.filter(author => author.yoast_head_json?.robots?.index === 'index').map(author => publicURL(author.yoast_head_json?.canonical || blogOrigin+'/author/'+author.slug)))];
+});
+export const getWordPressSitemapURLs = cache(async () => {
+  const groups = await Promise.all([getWordPressPageSitemapURLs(), getWordPressAuthorSitemapURLs(), getWordPressSitemapPosts()]);
+  return [...new Set(groups.flat())];
 });
 
 function media(value: string) {
@@ -243,6 +227,7 @@ function convertDom($: cheerio.CheerioAPI, node: AnyNode): LayoutNode | null {
       autocomplete: "autoComplete",
       autoplay: "autoPlay",
       playsinline: "playsInline",
+      fetchpriority: "fetchPriority",
       "data-widget_type": "data-widget",
       itemprop: "itemProp",
       itemscope: "itemScope",
@@ -252,7 +237,7 @@ function convertDom($: cheerio.CheerioAPI, node: AnyNode): LayoutNode | null {
       value;
   }
   if (element.name === "img") {
-    props.loading = "lazy";
+    props.loading = props["data-article-hero"] === "true" ? "eager" : "lazy";
     props.decoding = "async";
     props.alt ??= "";
   }
@@ -499,12 +484,14 @@ export async function getWordPressBlogListing(options: BlogOptions) {
 
 export const getWordPressPage = cache(
   async (path: string, blogQuery = ""): Promise<SitePage | undefined> => {
-    const saved = getPage(path);
-    const archive = /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path);
     const articlePath = /^\/(?:blog|press-release)\/[^/]+$/.test(path);
+    const coldRead = articlePath ? beginColdArticleRead(path, () => read(path)) : undefined;
+    const profiles = articlePath ? read("/wp-json/wp/v2/users?per_page=100&_fields=id,name,slug,link,avatar_urls").then(value => { const users = JSON.parse(value); return Array.isArray(users) ? users as unknown[] : []; }).catch(() => []) : Promise.resolve([]);
+    const saved = getPage(path);
+    const archive = /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path) || /^\/\d{4}\/\d{2}\/\d{2}(?:\/page\/\d+)?$/.test(path);
     if (path !== "/blog" && path !== "/press-release" && !articlePath && !archive) return saved;
     try {
-      if (archive && !saved) {
+      if (archive && !saved && /^\/(?:author|category)\//.test(path)) {
         const [, kind, slug] = path.split("/");
         const endpoint = kind === "author" ? "users" : "categories";
         const matches = JSON.parse(await read(`/wp-json/wp/v2/${endpoint}?slug=${encodeURIComponent(slug)}&_fields=id`));
@@ -523,6 +510,8 @@ export const getWordPressPage = cache(
               (post) => new URL(post.link).pathname.replace(/\/$/, "") === path,
             );
       if (articlePath && !post) return undefined;
+      const users = await profiles;
+      const reviewer = post ? users.find(user => Number((user as any).id) === Number(post.meta?._flow_reviewer_id)) : undefined;
       const query = new URLSearchParams(blogQuery);
       const options = {
         page: Math.max(
@@ -539,7 +528,11 @@ export const getWordPressPage = cache(
         ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
         : blogQuery ? "?" + blogQuery : "");
       const [html, listingData] = await Promise.all([
-        post ? readCurrentArticleHTML(path, post, () => read(sourcePath)) : read(sourcePath),
+        post ? readCurrentArticleHTML(path, { post, reviewer }, async () => {
+          const candidate = await coldRead;
+          if (candidate?.html && articleHTMLMatchesRecord(candidate.html, post, users)) return candidate.html;
+          return read(sourcePath);
+        }) : read(sourcePath),
         path === "/blog" ? readBlogCards(options) : Promise.resolve(undefined),
       ]);
       const $ = cheerio.load(html);
@@ -563,6 +556,7 @@ export const getWordPressPage = cache(
           ? $("[data-elementor-type='single-post']").first()
           : $("main#content").first();
       if (!root.length) throw new Error("WordPress content template missing");
+      if (post) root.find(".id-featured-image img").first().attr({ loading: "eager", fetchpriority: "high", "data-article-hero": "true" });
       if (path === "/blog" && listingData) await updateBlogListing($, options, listingData);
       prepareSourceDom($, { key: page.key });
       appendSourceStyles($, root, page);

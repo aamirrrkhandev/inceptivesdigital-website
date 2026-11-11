@@ -4,6 +4,12 @@ import { createHash } from "node:crypto";
 // This stores HTML only after the caller has checked the current published REST
 // record. It is never a fallback for a deleted/unpublished or unavailable post.
 const html = new Map<string, { expires: number; value: Promise<string> }>();
+export function beginColdArticleRead(path: string, read: () => Promise<string>) {
+  if ([...html].some(([key, entry]) => key.startsWith(path + ":") && entry.expires > Date.now())) return undefined;
+  // Always settle speculative errors: deleted posts must not produce an
+  // unhandled rejection while the authoritative published-record check runs.
+  return read().then(value => ({ html: value }), () => ({ html: undefined }));
+}
 export function readCurrentArticleHTML(path: string, currentRecord: unknown, read: () => Promise<string>) {
   const key = path + ":" + createHash("sha256").update(JSON.stringify(currentRecord)).digest("hex");
   const existing = html.get(key);

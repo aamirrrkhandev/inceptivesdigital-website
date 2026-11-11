@@ -47,12 +47,10 @@ export const getEditablePage = cache((pathname: string): SitePage | undefined =>
   const sections = content.secondarySections?.map(expand) as LayoutNode[] | undefined;
   const images = new Map((assets.images as any[]).map(image => [image.id, image]));
   const replacements = (assets.backgrounds as { sourceUrl: string; src: string }[]).filter(asset => typeof asset.src === "string" && asset.src !== asset.sourceUrl);
+  const resourceURLs = new Map(replacements.map(asset => [asset.sourceUrl, asset.src]));
+  const resourcePattern = resourceURLs.size ? new RegExp("(?:" + [...resourceURLs.keys()].sort((a, b) => b.length - a.length).map(source => RegExp.escape(source)).join("|") + ")(?=[\\s\"'(),]|$)", "g") : undefined;
   const replace = (value: string) => {
-    for (const asset of replacements) {
-      const escaped = RegExp.escape(asset.sourceUrl);
-      value = value.replace(new RegExp(escaped + "(?=[\\s\"'(),]|$)", "g"), () => asset.src);
-    }
-    return value;
+    return resourcePattern ? value.replace(resourcePattern, source => resourceURLs.get(source)!) : value;
   };
   const visit = (node: LayoutNode) => {
     if (typeof node === "string") return;

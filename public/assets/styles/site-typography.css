@@ -1,0 +1,89 @@
+/* Approved site-wide typography and outer container system. */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/fonts/plus-jakarta-sans/plus-jakarta-sans-latin-variable.woff2") format("woff2");
+}
+:root {
+  --site-font: "Plus Jakarta Sans", Arial, sans-serif;
+  --site-container: 1600px;
+  --site-gutter: clamp(16px, 2.5vw, 40px);
+}
+html body,
+body .migrated-page,
+body .migrated-page :is(div, section, article, aside, header, footer, nav, main, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea, label, li, dt, dd, blockquote, figcaption, table, th, td, summary, small, strong, em),
+body .migrated-page span:not([class*="icon"]):not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab) {
+  font-family: var(--site-font) !important;
+}
+body .migrated-page :is(h1,h2,h3,h4,h5,h6,p,a,button,label,li) {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+body .migrated-page main h1 {
+  font-size: clamp(30px, 3.1vw, 56px) !important;
+  line-height: 1.18 !important;
+}
+body .migrated-page main h2 {
+  font-size: clamp(26px, 2.35vw, 44px) !important;
+  line-height: 1.25 !important;
+}
+body .migrated-page main h3 {
+  font-size: clamp(21px, 1.65vw, 30px) !important;
+  line-height: 1.35 !important;
+}
+body .migrated-page main p {
+  font-size: clamp(16px, .95vw, 18px);
+  line-height: 1.65;
+}
+body .migrated-page :is(button, input, select, textarea) {
+  max-width: 100%;
+}
+body .migrated-page :is(button, .migrated-button) {
+  min-height: 44px;
+  line-height: 1.4;
+}
+body .migrated-page .e-con.e-parent.e-con-boxed > .e-con-inner,
+body .migrated-page .header-containers > .e-con-inner,
+body .migrated-page .id-blog-wrap,
+body .migrated-page .id-schedule-container {
+  max-width: min(var(--site-container), calc(100vw - 2 * var(--site-gutter))) !important;
+  min-width: 0;
+  margin-inline: auto;
+}
+body .migrated-page .e-con.e-parent.e-con-boxed {
+  --container-max-width: var(--site-container);
+  --content-width: var(--site-container);
+}
+body .secondary-service-page :is([class*="max-w-[90%]"], .container, .max-w-7xl) {
+  width: min(100%, calc(100vw - 2 * var(--site-gutter)));
+  max-width: var(--site-container) !important;
+  margin-inline: auto;
+}
+body .migrated-page[data-source-path="/"] .green-position[data-id] h1 {
+  font-size: clamp(30px, 2.2vw, 42px) !important;
+  line-height: 1.22 !important;
+}
+body .migrated-page .sitekit-navbar-nav > li > a {
+  white-space: nowrap;
+}
+@media (min-width: 1025px) and (max-width: 1439px) {
+  body .migrated-page .sitekit-navbar-nav > li > a {
+    font-size: 14px !important;
+    padding-inline: clamp(8px, .9vw, 13px) !important;
+  }
+  body .migrated-page .header-containers .getintouch a {
+    font-size: 14px !important;
+    padding-inline: 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  body .migrated-page main h1 { font-size: clamp(28px, 7vw, 36px) !important; }
+  body .migrated-page main h2 { font-size: clamp(24px, 6vw, 30px) !important; }
+  body .migrated-page main h3 { font-size: clamp(20px, 5vw, 25px) !important; }
+  body .migrated-page main p { font-size: 16px; line-height: 1.65; }
+  body .migrated-page :is(.migrated-widget-container, .e-con, .e-con-inner) { min-width: 0; }
+  body .migrated-page .sitekit-menu-container a { white-space: normal; }
+  body .migrated-page :is(input, select, textarea) { font-size: 16px; }
+}

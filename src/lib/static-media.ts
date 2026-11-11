@@ -1,5 +1,6 @@
 import { readPackedFile } from "./packed-file";
 import index from "../../content/media-index.json";
+import pageAliases from "../../content/page-media-aliases.json";
 type Entry = {
   pack: number;
   offset: number;
@@ -11,7 +12,9 @@ type Entry = {
   poster?: string;
   mobileVideo?: string;
 };
-export const mediaIndex = index as Record<string, Entry>;
+// Keep original aliases for inbound links and API blogs. Page-owned public URLs
+// retain exactly the same dimensions, optimized variants and video posters.
+export const mediaIndex = { ...index, ...pageAliases } as Record<string, Entry>;
 export function mediaResponse(key: string) {
   const entry = mediaIndex[key] || mediaIndex[encodeURI(key)];
   if (!entry) return new Response("Not found", { status: 404 });

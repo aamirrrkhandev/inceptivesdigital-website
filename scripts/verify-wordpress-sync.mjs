@@ -1,3 +1,4 @@
+import {readSitemapXML} from './read-sitemap.mjs';
 import fs from "node:fs";
 import assert from "node:assert/strict";
 import * as cheerio from "cheerio";
@@ -38,7 +39,7 @@ results.push({
   status: response.status,
   titleCanonicalContentSchema: true,
 });
-const sitemap = await (await fetch(base + "/sitemap.xml")).text();
+const sitemap = await readSitemapXML(base);
 assert.ok(sitemap.includes(latest.yoast_head_json.canonical));
 assert.equal(
   (await fetch(base + "/blog/migration-qa-unpublished-nonexistent")).status,

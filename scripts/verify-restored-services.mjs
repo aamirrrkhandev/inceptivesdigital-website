@@ -1,3 +1,4 @@
+import {readSitemapXML} from './read-sitemap.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
@@ -59,7 +60,7 @@ try {
 }finally{await browser.close();}
 const links=[],failures=[];let cursor=0;const values=[...destinations.values()];
 await Promise.all(Array.from({length:6},async()=>{while(cursor<values.length){const item=values[cursor++];const response=await fetch(base+item.path,{redirect:'manual'});const location=response.headers.get('location');const held=item.path==='/startup-product-development';links.push({...item,status:response.status,location,held});if(held)assert.equal(response.status,404);else if(!(response.status===200||[301,308].includes(response.status)))failures.push({...item,status:response.status});if(location){const target=new URL(location,base);const final=await fetch(base+target.pathname,{redirect:'manual'});if(final.status!==200)failures.push({...item,location,finalStatus:final.status});}}}));
-const sitemap=await(await fetch(base+'/sitemap.xml')).text();for(const path of paths)assert.ok(sitemap.includes('https://inceptivesdigital.com'+path+'</loc>'));
+const sitemap=await readSitemapXML(base);for(const path of paths)assert.ok(sitemap.includes('https://inceptivesdigital.com'+path+'</loc>'));
 for(const path of ['/startup-product-development','/our-process','/our-manifesto']){assert.equal((await fetch(base+path,{redirect:'manual'})).status,404);assert.ok(!sitemap.includes('https://inceptivesdigital.com'+path+'</loc>'));}
 fs.writeFileSync('audit/secondary-vercel/qa-release/services.json',JSON.stringify({base,results,links,sitemapAllSix:true,excluded404:true,failures},null,2));console.log(JSON.stringify({base,views:results.length,checkedLinks:links.length,allSixInSitemap:true,excluded404:true,failures,pass:!failures.length}));
 

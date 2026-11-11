@@ -3,2356 +3,2924 @@
     {
       "id": "image-bcf9d7532b2d7c",
       "sourceUrl": "/wp-content/uploads/2026/08/update-logo.png",
-      "src": "/wp-content/uploads/2026/08/update-logo.png",
+      "src": "/assets/shared/images/a46f69e2c3-update-logo.png",
       "file": "public/assets/shared/images/a46f69e2c3-update-logo.png",
       "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png",
       "alt": "",
       "width": 154,
       "height": 46,
       "sourceSrcSet": "/wp-content/uploads/2026/08/update-logo.png 154w, /wp-content/uploads/2026/08/update-logo-150x46.png 150w",
-      "srcSet": "/wp-content/uploads/2026/08/update-logo.png 154w, /wp-content/uploads/2026/08/update-logo-150x46.png 150w"
+      "srcSet": "/assets/shared/images/a46f69e2c3-update-logo.png 154w, /assets/shared/images/a6cf57e7a0-update-logo-150x46.png 150w",
+      "kind": "images",
+      "bytes": 6176
     },
     {
       "id": "image-915e2dc5d0cf3d",
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
+      "src": "/assets/shared/images/79271c9fb9-logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
       "alt": "Inceptives Digital",
       "width": null,
       "height": null,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 23572
     },
     {
       "id": "image-174919135d0396",
       "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10.png",
-      "src": "/wp-content/uploads/2026/08/Group-1-10.png",
-      "file": "public/assets/shared/images/f0204b0836-Group-1-10.png",
-      "publicUrl": "/assets/shared/images/f0204b0836-Group-1-10.png",
+      "src": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
+      "file": "public/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
+      "publicUrl": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
       "alt": "",
       "width": 1340,
       "height": 806,
       "sourceSrcSet": "/wp-content/uploads/2026/08/Group-1-10.png 1340w, /wp-content/uploads/2026/08/Group-1-10-300x180.png 300w, /wp-content/uploads/2026/08/Group-1-10-1024x616.png 1024w, /wp-content/uploads/2026/08/Group-1-10-768x462.png 768w",
-      "srcSet": "/wp-content/uploads/2026/08/Group-1-10.png 1340w, /wp-content/uploads/2026/08/Group-1-10-300x180.png 300w, /wp-content/uploads/2026/08/Group-1-10-1024x616.png 1024w, /wp-content/uploads/2026/08/Group-1-10-768x462.png 768w"
+      "srcSet": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png 1340w, /assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png 300w, /assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png 1024w, /assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png 768w",
+      "kind": "images",
+      "bytes": 191491
     },
     {
       "id": "image-77ece789f488bc",
       "sourceUrl": "/wp-content/uploads/2026/08/location.png",
-      "src": "/wp-content/uploads/2026/08/location.png",
-      "file": "public/assets/shared/images/79dc167599-location.png",
-      "publicUrl": "/assets/shared/images/79dc167599-location.png",
+      "src": "/assets/pages/dropryde/images/79dc167599-location.png",
+      "file": "public/assets/pages/dropryde/images/79dc167599-location.png",
+      "publicUrl": "/assets/pages/dropryde/images/79dc167599-location.png",
       "alt": "",
       "width": 57,
       "height": 73,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 840
     },
     {
       "id": "image-9ba7e25447804f",
       "sourceUrl": "/wp-content/uploads/2026/08/offline.png",
-      "src": "/wp-content/uploads/2026/08/offline.png",
-      "file": "public/assets/shared/images/51b25e103c-offline.png",
-      "publicUrl": "/assets/shared/images/51b25e103c-offline.png",
+      "src": "/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "file": "public/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "publicUrl": "/assets/pages/dropryde/images/51b25e103c-offline.png",
       "alt": "",
       "width": 67,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 615
     },
     {
       "id": "image-4ab3702d0f6d17",
       "sourceUrl": "/wp-content/uploads/2026/08/emergy.png",
-      "src": "/wp-content/uploads/2026/08/emergy.png",
-      "file": "public/assets/shared/images/4441fac510-emergy.png",
-      "publicUrl": "/assets/shared/images/4441fac510-emergy.png",
+      "src": "/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "file": "public/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "publicUrl": "/assets/pages/dropryde/images/4441fac510-emergy.png",
       "alt": "",
       "width": 56,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 395
     },
     {
       "id": "image-d7ff3ba9ed8b8e",
       "sourceUrl": "/wp-content/uploads/2026/08/cardsinf.png",
-      "src": "/wp-content/uploads/2026/08/cardsinf.png",
-      "file": "public/assets/shared/images/7d0857a0e2-cardsinf.png",
-      "publicUrl": "/assets/shared/images/7d0857a0e2-cardsinf.png",
+      "src": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "file": "public/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "publicUrl": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
       "alt": "",
       "width": 64,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 658
     },
     {
       "id": "image-9676a541e3e86b",
       "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile.png",
-      "src": "/wp-content/uploads/2026/08/mytango-mobile.png",
-      "file": "public/assets/shared/images/5874e43d35-mytango-mobile.png",
-      "publicUrl": "/assets/shared/images/5874e43d35-mytango-mobile.png",
+      "src": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
+      "file": "public/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
+      "publicUrl": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
       "alt": "",
       "width": 670,
       "height": 652,
       "sourceSrcSet": "/wp-content/uploads/2026/08/mytango-mobile.png 670w, /wp-content/uploads/2026/08/mytango-mobile-300x292.png 300w",
-      "srcSet": "/wp-content/uploads/2026/08/mytango-mobile.png 670w, /wp-content/uploads/2026/08/mytango-mobile-300x292.png 300w"
+      "srcSet": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png 670w, /assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png 300w",
+      "kind": "images",
+      "bytes": 111990
     },
     {
       "id": "image-bdcf8adb96f6c4",
       "sourceUrl": "/wp-content/uploads/2026/08/card-1024x615.png",
-      "src": "/wp-content/uploads/2026/08/card-1024x615.png",
-      "file": "public/assets/shared/images/d8ab6a912a-card-1024x615.png",
-      "publicUrl": "/assets/shared/images/d8ab6a912a-card-1024x615.png",
+      "src": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
+      "file": "public/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
+      "publicUrl": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
       "alt": "",
       "width": 800,
       "height": 480,
       "sourceSrcSet": "/wp-content/uploads/2026/08/card-1024x615.png 1024w, /wp-content/uploads/2026/08/card-300x180.png 300w, /wp-content/uploads/2026/08/card-768x461.png 768w, /wp-content/uploads/2026/08/card-1536x923.png 1536w, /wp-content/uploads/2026/08/card.png 2034w",
-      "srcSet": "/wp-content/uploads/2026/08/card-1024x615.png 1024w, /wp-content/uploads/2026/08/card-300x180.png 300w, /wp-content/uploads/2026/08/card-768x461.png 768w, /wp-content/uploads/2026/08/card-1536x923.png 1536w, /wp-content/uploads/2026/08/card.png 2034w"
+      "srcSet": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png 1024w, /assets/pages/dropryde/images/e6dc86c890-card-300x180.png 300w, /assets/pages/dropryde/images/caef1da99c-card-768x461.png 768w, /assets/pages/dropryde/images/735299783a-card-1536x923.png 1536w, /assets/pages/dropryde/images/ae2d2d529a-card.png 2034w",
+      "kind": "images",
+      "bytes": 49430
     },
     {
       "id": "image-18e6f8994221c6",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo1.jpg",
+      "src": "/assets/shared/images/adc36b2890-delogo1.jpg",
       "file": "public/assets/shared/images/adc36b2890-delogo1.jpg",
       "publicUrl": "/assets/shared/images/adc36b2890-delogo1.jpg",
       "alt": "Web",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4763
     },
     {
       "id": "image-daac4fcc5ed0ce",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo2.jpg",
+      "src": "/assets/shared/images/08d021eb25-delogo2.jpg",
       "file": "public/assets/shared/images/08d021eb25-delogo2.jpg",
       "publicUrl": "/assets/shared/images/08d021eb25-delogo2.jpg",
       "alt": "GoDaddy",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4801
     },
     {
       "id": "image-18dc9ca1fd8c21",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo3.jpg",
+      "src": "/assets/shared/images/3d54a78e70-delogo3.jpg",
       "file": "public/assets/shared/images/3d54a78e70-delogo3.jpg",
       "publicUrl": "/assets/shared/images/3d54a78e70-delogo3.jpg",
       "alt": "Uno Platform",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3620
     },
     {
       "id": "image-b3b671a776fa32",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo4.jpg",
+      "src": "/assets/shared/images/7274d439c4-delogo4.jpg",
       "file": "public/assets/shared/images/7274d439c4-delogo4.jpg",
       "publicUrl": "/assets/shared/images/7274d439c4-delogo4.jpg",
       "alt": "Kotlin",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2608
     },
     {
       "id": "image-6f8191d5dcbfa5",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo5.jpg",
+      "src": "/assets/shared/images/df24ef6129-delogo5.jpg",
       "file": "public/assets/shared/images/df24ef6129-delogo5.jpg",
       "publicUrl": "/assets/shared/images/df24ef6129-delogo5.jpg",
       "alt": "Jetpack Compose",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3234
     },
     {
       "id": "image-ad31d88fcb3021",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo6.jpg",
+      "src": "/assets/shared/images/666d14b3f4-delogo6.jpg",
       "file": "public/assets/shared/images/666d14b3f4-delogo6.jpg",
       "publicUrl": "/assets/shared/images/666d14b3f4-delogo6.jpg",
       "alt": "Android SDK",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3080
     },
     {
       "id": "image-6802d0a8dee575",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo7.jpg",
+      "src": "/assets/shared/images/6b1a3daa6e-delogo7.jpg",
       "file": "public/assets/shared/images/6b1a3daa6e-delogo7.jpg",
       "publicUrl": "/assets/shared/images/6b1a3daa6e-delogo7.jpg",
       "alt": "Flutter",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2787
     },
     {
       "id": "image-e17f7be13f12b6",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo8.jpg",
+      "src": "/assets/shared/images/e067f4966b-delogo8.jpg",
       "file": "public/assets/shared/images/e067f4966b-delogo8.jpg",
       "publicUrl": "/assets/shared/images/e067f4966b-delogo8.jpg",
       "alt": "Dart",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3464
     },
     {
       "id": "image-76c30be1cd48ab",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo9.jpg",
+      "src": "/assets/shared/images/5616584370-delogo9.jpg",
       "file": "public/assets/shared/images/5616584370-delogo9.jpg",
       "publicUrl": "/assets/shared/images/5616584370-delogo9.jpg",
       "alt": "React",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4893
     },
     {
       "id": "image-9de4a22176aab7",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo10.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo10.jpg",
+      "src": "/assets/shared/images/2cf9d99245-delogo10.jpg",
       "file": "public/assets/shared/images/2cf9d99245-delogo10.jpg",
       "publicUrl": "/assets/shared/images/2cf9d99245-delogo10.jpg",
       "alt": "Expo",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2235
     },
     {
       "id": "image-a3a7398f2126d2",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo11.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo11.jpg",
+      "src": "/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "file": "public/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "publicUrl": "/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "alt": "Next.js",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3415
     },
     {
       "id": "image-15ed4a61a126e3",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo12.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo12.jpg",
+      "src": "/assets/shared/images/35b2c83a04-delogo12.jpg",
       "file": "public/assets/shared/images/35b2c83a04-delogo12.jpg",
       "publicUrl": "/assets/shared/images/35b2c83a04-delogo12.jpg",
       "alt": "HTML5",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3634
     },
     {
       "id": "image-096c3431dac45f",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo13.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo13.jpg",
+      "src": "/assets/shared/images/7abf035d80-delogo13.jpg",
       "file": "public/assets/shared/images/7abf035d80-delogo13.jpg",
       "publicUrl": "/assets/shared/images/7abf035d80-delogo13.jpg",
       "alt": "Tailwind CSS",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3548
     },
     {
       "id": "image-42ca3e2824e986",
       "sourceUrl": "/wp-content/uploads/2026/07/delogo11.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo11.jpg",
+      "src": "/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "file": "public/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "publicUrl": "/assets/shared/images/0b7ff6245c-delogo11.jpg",
       "alt": "Next.js",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3415
     },
     {
       "id": "image-7aebe840b52785",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo1.jpg",
+      "src": "/assets/shared/images/d3d5b85968-balogo1.jpg",
       "file": "public/assets/shared/images/d3d5b85968-balogo1.jpg",
       "publicUrl": "/assets/shared/images/d3d5b85968-balogo1.jpg",
       "alt": "NestJS",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3107
     },
     {
       "id": "image-6f3934f5d51fcf",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo2.jpg",
+      "src": "/assets/shared/images/fbff3442ea-balogo2.jpg",
       "file": "public/assets/shared/images/fbff3442ea-balogo2.jpg",
       "publicUrl": "/assets/shared/images/fbff3442ea-balogo2.jpg",
       "alt": "Express.js",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4322
     },
     {
       "id": "image-2a42f882167641",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo3.jpg",
+      "src": "/assets/shared/images/b22880917d-balogo3.jpg",
       "file": "public/assets/shared/images/b22880917d-balogo3.jpg",
       "publicUrl": "/assets/shared/images/b22880917d-balogo3.jpg",
       "alt": "Python",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3587
     },
     {
       "id": "image-cd4870492b060f",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo4.jpg",
+      "src": "/assets/shared/images/3a61997861-balogo4.jpg",
       "file": "public/assets/shared/images/3a61997861-balogo4.jpg",
       "publicUrl": "/assets/shared/images/3a61997861-balogo4.jpg",
       "alt": "GraphQL",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4075
     },
     {
       "id": "image-ef5a1dfc28bbf8",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo5.jpg",
+      "src": "/assets/shared/images/4cd1d7e5a7-balogo5.jpg",
       "file": "public/assets/shared/images/4cd1d7e5a7-balogo5.jpg",
       "publicUrl": "/assets/shared/images/4cd1d7e5a7-balogo5.jpg",
       "alt": "REST API",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3586
     },
     {
       "id": "image-470eb30e7d72d2",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo6.jpg",
+      "src": "/assets/shared/images/f5a1509d4d-balogo6.jpg",
       "file": "public/assets/shared/images/f5a1509d4d-balogo6.jpg",
       "publicUrl": "/assets/shared/images/f5a1509d4d-balogo6.jpg",
       "alt": "Spring Framework",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3296
     },
     {
       "id": "image-68f6259a1f7b61",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo7.jpg",
+      "src": "/assets/shared/images/e5fd399405-balogo7.jpg",
       "file": "public/assets/shared/images/e5fd399405-balogo7.jpg",
       "publicUrl": "/assets/shared/images/e5fd399405-balogo7.jpg",
       "alt": "Java logo",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3172
     },
     {
       "id": "image-22bc2ecce469e9",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo8.jpg",
+      "src": "/assets/shared/images/e4bc76b54f-balogo8.jpg",
       "file": "public/assets/shared/images/e4bc76b54f-balogo8.jpg",
       "publicUrl": "/assets/shared/images/e4bc76b54f-balogo8.jpg",
       "alt": ".NET",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2467
     },
     {
       "id": "image-f4c4999d87c577",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo9.jpg",
+      "src": "/assets/shared/images/590b8fa116-balogo9.jpg",
       "file": "public/assets/shared/images/590b8fa116-balogo9.jpg",
       "publicUrl": "/assets/shared/images/590b8fa116-balogo9.jpg",
       "alt": "FastAPI",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2673
     },
     {
       "id": "image-3f9792e0287d18",
       "sourceUrl": "/wp-content/uploads/2026/07/balogo10.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo10.jpg",
+      "src": "/assets/shared/images/762eeaaacf-balogo10.jpg",
       "file": "public/assets/shared/images/762eeaaacf-balogo10.jpg",
       "publicUrl": "/assets/shared/images/762eeaaacf-balogo10.jpg",
       "alt": "Django",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2823
     },
     {
       "id": "image-2b91292b51d318",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo1.jpg",
+      "src": "/assets/shared/images/3186495bbe-datalogo1.jpg",
       "file": "public/assets/shared/images/3186495bbe-datalogo1.jpg",
       "publicUrl": "/assets/shared/images/3186495bbe-datalogo1.jpg",
       "alt": "PostgreSQL",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4946
     },
     {
       "id": "image-73173c19762949",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo2.jpg",
+      "src": "/assets/shared/images/5ffcfd48d0-datalogo2.jpg",
       "file": "public/assets/shared/images/5ffcfd48d0-datalogo2.jpg",
       "publicUrl": "/assets/shared/images/5ffcfd48d0-datalogo2.jpg",
       "alt": "Cloud Storage",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3058
     },
     {
       "id": "image-9b163a6e07019f",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo3.jpg",
+      "src": "/assets/shared/images/019db13209-datalogo3.jpg",
       "file": "public/assets/shared/images/019db13209-datalogo3.jpg",
       "publicUrl": "/assets/shared/images/019db13209-datalogo3.jpg",
       "alt": "Redis",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4025
     },
     {
       "id": "image-b88d52f0241e84",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo4.jpg",
+      "src": "/assets/shared/images/70cb0724b3-datalogo4.jpg",
       "file": "public/assets/shared/images/70cb0724b3-datalogo4.jpg",
       "publicUrl": "/assets/shared/images/70cb0724b3-datalogo4.jpg",
       "alt": "Firebase",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2805
     },
     {
       "id": "image-2b05c346a57437",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo5.jpg",
+      "src": "/assets/shared/images/258126d249-datalogo5.jpg",
       "file": "public/assets/shared/images/258126d249-datalogo5.jpg",
       "publicUrl": "/assets/shared/images/258126d249-datalogo5.jpg",
       "alt": "MongoDB",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2232
     },
     {
       "id": "image-b20b19232d0264",
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo6.jpg",
+      "src": "/assets/shared/images/b777a7b031-datalogo6.jpg",
       "file": "public/assets/shared/images/b777a7b031-datalogo6.jpg",
       "publicUrl": "/assets/shared/images/b777a7b031-datalogo6.jpg",
       "alt": "MySQL",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3210
     },
     {
       "id": "image-bc610b317e59a6",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo4.jpg",
+      "src": "/assets/shared/images/12a70f128d-cloudlogo4.jpg",
       "file": "public/assets/shared/images/12a70f128d-cloudlogo4.jpg",
       "publicUrl": "/assets/shared/images/12a70f128d-cloudlogo4.jpg",
       "alt": "Amazon Web Services (AWS)",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4974
     },
     {
       "id": "image-5f2d07250e7650",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo5.jpg",
+      "src": "/assets/shared/images/f81387a4e2-cloudlogo5.jpg",
       "file": "public/assets/shared/images/f81387a4e2-cloudlogo5.jpg",
       "publicUrl": "/assets/shared/images/f81387a4e2-cloudlogo5.jpg",
       "alt": "Google Cloud Platform (GCP)",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3163
     },
     {
       "id": "image-fad232780f8204",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo3.jpg",
+      "src": "/assets/shared/images/b1528a4a75-cloudlogo3.jpg",
       "file": "public/assets/shared/images/b1528a4a75-cloudlogo3.jpg",
       "publicUrl": "/assets/shared/images/b1528a4a75-cloudlogo3.jpg",
       "alt": "Microsoft Azure",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3277
     },
     {
       "id": "image-2f503194b68fa6",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo6.jpg",
+      "src": "/assets/shared/images/c537d15255-cloudlogo6.jpg",
       "file": "public/assets/shared/images/c537d15255-cloudlogo6.jpg",
       "publicUrl": "/assets/shared/images/c537d15255-cloudlogo6.jpg",
       "alt": "Docker",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3164
     },
     {
       "id": "image-8f717fe012706b",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo7.jpg",
+      "src": "/assets/shared/images/02f6385ab5-cloudlogo7.jpg",
       "file": "public/assets/shared/images/02f6385ab5-cloudlogo7.jpg",
       "publicUrl": "/assets/shared/images/02f6385ab5-cloudlogo7.jpg",
       "alt": "Kubernetes",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3879
     },
     {
       "id": "image-c3501152788745",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo8.jpg",
+      "src": "/assets/shared/images/90a54c657d-cloudlogo8.jpg",
       "file": "public/assets/shared/images/90a54c657d-cloudlogo8.jpg",
       "publicUrl": "/assets/shared/images/90a54c657d-cloudlogo8.jpg",
       "alt": "CI/CD Pipeline",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5695
     },
     {
       "id": "image-751b7181d9ffb1",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo9.jpg",
+      "src": "/assets/shared/images/a4abba2338-cloudlogo9.jpg",
       "file": "public/assets/shared/images/a4abba2338-cloudlogo9.jpg",
       "publicUrl": "/assets/shared/images/a4abba2338-cloudlogo9.jpg",
       "alt": "Jenkins",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4984
     },
     {
       "id": "image-d976fd5769447e",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo1.jpg",
+      "src": "/assets/shared/images/a5462f91df-cloudlogo1.jpg",
       "file": "public/assets/shared/images/a5462f91df-cloudlogo1.jpg",
       "publicUrl": "/assets/shared/images/a5462f91df-cloudlogo1.jpg",
       "alt": "DevOps Automation",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4238
     },
     {
       "id": "image-d8bcbc8aeedead",
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo2.jpg",
+      "src": "/assets/shared/images/f913fbb745-cloudlogo2.jpg",
       "file": "public/assets/shared/images/f913fbb745-cloudlogo2.jpg",
       "publicUrl": "/assets/shared/images/f913fbb745-cloudlogo2.jpg",
       "alt": "Terraform",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3098
     },
     {
       "id": "image-d9424049863e63",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo11.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo11.jpg",
+      "src": "/assets/shared/images/27664ac8ad-Ailogo11.jpg",
       "file": "public/assets/shared/images/27664ac8ad-Ailogo11.jpg",
       "publicUrl": "/assets/shared/images/27664ac8ad-Ailogo11.jpg",
       "alt": "ChatGPT",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5500
     },
     {
       "id": "image-ded19914b5d973",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo1.jpg",
+      "src": "/assets/shared/images/35d992ce43-Ailogo1.jpg",
       "file": "public/assets/shared/images/35d992ce43-Ailogo1.jpg",
       "publicUrl": "/assets/shared/images/35d992ce43-Ailogo1.jpg",
       "alt": "TensorFlow",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2924
     },
     {
       "id": "image-db1e252a938258",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo2.jpg",
+      "src": "/assets/shared/images/1875252830-Ailogo2.jpg",
       "file": "public/assets/shared/images/1875252830-Ailogo2.jpg",
       "publicUrl": "/assets/shared/images/1875252830-Ailogo2.jpg",
       "alt": "PyTorch",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2927
     },
     {
       "id": "image-bd05741364303c",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo6.jpg",
+      "src": "/assets/shared/images/d248041ffc-Ailogo6.jpg",
       "file": "public/assets/shared/images/d248041ffc-Ailogo6.jpg",
       "publicUrl": "/assets/shared/images/d248041ffc-Ailogo6.jpg",
       "alt": "Scikit-learn",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3718
     },
     {
       "id": "image-108a191aad226b",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo5.jpg",
+      "src": "/assets/shared/images/f351be36e3-Ailogo5.jpg",
       "file": "public/assets/shared/images/f351be36e3-Ailogo5.jpg",
       "publicUrl": "/assets/shared/images/f351be36e3-Ailogo5.jpg",
       "alt": "Hugging Face",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3452
     },
     {
       "id": "image-f2debbb2a9ed22",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo3.jpg",
+      "src": "/assets/shared/images/4b5d97fa83-Ailogo3.jpg",
       "file": "public/assets/shared/images/4b5d97fa83-Ailogo3.jpg",
       "publicUrl": "/assets/shared/images/4b5d97fa83-Ailogo3.jpg",
       "alt": "PaddlePaddle",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2688
     },
     {
       "id": "image-4b794e68845621",
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo4.jpg",
+      "src": "/assets/shared/images/ccfcdb9998-Ailogo4.jpg",
       "file": "public/assets/shared/images/ccfcdb9998-Ailogo4.jpg",
       "publicUrl": "/assets/shared/images/ccfcdb9998-Ailogo4.jpg",
       "alt": "Computer Vision",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5539
     },
     {
       "id": "image-4b53b6677b2fc4",
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo1.jpg",
+      "src": "/assets/shared/images/99b6a52b46-uilogo1.jpg",
       "file": "public/assets/shared/images/99b6a52b46-uilogo1.jpg",
       "publicUrl": "/assets/shared/images/99b6a52b46-uilogo1.jpg",
       "alt": "Figma",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2440
     },
     {
       "id": "image-88e966cf941a2c",
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo2.jpg",
+      "src": "/assets/shared/images/bb380735b2-uilogo2.jpg",
       "file": "public/assets/shared/images/bb380735b2-uilogo2.jpg",
       "publicUrl": "/assets/shared/images/bb380735b2-uilogo2.jpg",
       "alt": "Adobe XD",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2696
     },
     {
       "id": "image-396d53dfd0c1a0",
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo4.jpg",
+      "src": "/assets/shared/images/b98220b790-uilogo4.jpg",
       "file": "public/assets/shared/images/b98220b790-uilogo4.jpg",
       "publicUrl": "/assets/shared/images/b98220b790-uilogo4.jpg",
       "alt": "Framer",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2191
     },
     {
       "id": "image-e1da826de67a21",
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo3.jpg",
+      "src": "/assets/shared/images/6c1fc0d290-uilogo3.jpg",
       "file": "public/assets/shared/images/6c1fc0d290-uilogo3.jpg",
       "publicUrl": "/assets/shared/images/6c1fc0d290-uilogo3.jpg",
       "alt": "Sketch.IO",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3360
     },
     {
       "id": "image-2ce57468bb806a",
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo5.jpg",
+      "src": "/assets/shared/images/37ba749e64-uilogo5.jpg",
       "file": "public/assets/shared/images/37ba749e64-uilogo5.jpg",
       "publicUrl": "/assets/shared/images/37ba749e64-uilogo5.jpg",
       "alt": "Miro",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4077
     },
     {
       "id": "image-d1d6b09c935fa7",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo1.jpg",
+      "src": "/assets/shared/images/85fdb24185-analogo1.jpg",
       "file": "public/assets/shared/images/85fdb24185-analogo1.jpg",
       "publicUrl": "/assets/shared/images/85fdb24185-analogo1.jpg",
       "alt": "Amplitude",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3803
     },
     {
       "id": "image-df98a02c744c5a",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo2.jpg",
+      "src": "/assets/shared/images/ce8a1e2b02-analogo2.jpg",
       "file": "public/assets/shared/images/ce8a1e2b02-analogo2.jpg",
       "publicUrl": "/assets/shared/images/ce8a1e2b02-analogo2.jpg",
       "alt": "Sentry",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4039
     },
     {
       "id": "image-2ec35c3c63e725",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo3.jpg",
+      "src": "/assets/shared/images/d003fced29-analogo3.jpg",
       "file": "public/assets/shared/images/d003fced29-analogo3.jpg",
       "publicUrl": "/assets/shared/images/d003fced29-analogo3.jpg",
       "alt": "New Relic",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3031
     },
     {
       "id": "image-02abcb4ca1b4c1",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo4.jpg",
+      "src": "/assets/shared/images/c11f840091-analogo4.jpg",
       "file": "public/assets/shared/images/c11f840091-analogo4.jpg",
       "publicUrl": "/assets/shared/images/c11f840091-analogo4.jpg",
       "alt": "Firebase Crashlytics",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3845
     },
     {
       "id": "image-a71a2b593acf22",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo5.jpg",
+      "src": "/assets/shared/images/a6983b6d5c-analogo5.jpg",
       "file": "public/assets/shared/images/a6983b6d5c-analogo5.jpg",
       "publicUrl": "/assets/shared/images/a6983b6d5c-analogo5.jpg",
       "alt": "Google Firebase",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2343
     },
     {
       "id": "image-ef37ddeaf0473e",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo6.jpg",
+      "src": "/assets/shared/images/d75fd5e0c2-analogo6.jpg",
       "file": "public/assets/shared/images/d75fd5e0c2-analogo6.jpg",
       "publicUrl": "/assets/shared/images/d75fd5e0c2-analogo6.jpg",
       "alt": "Mixpanel",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2757
     },
     {
       "id": "image-4ea5ee015f6e88",
       "sourceUrl": "/wp-content/uploads/2026/07/analogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo7.jpg",
+      "src": "/assets/shared/images/429f027308-analogo7.jpg",
       "file": "public/assets/shared/images/429f027308-analogo7.jpg",
       "publicUrl": "/assets/shared/images/429f027308-analogo7.jpg",
       "alt": "Google Analytics",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2382
     },
     {
       "id": "image-dab5060a4b904f",
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo1.jpg",
+      "src": "/assets/shared/images/b67a10905a-securitylogo1.jpg",
       "file": "public/assets/shared/images/b67a10905a-securitylogo1.jpg",
       "publicUrl": "/assets/shared/images/b67a10905a-securitylogo1.jpg",
       "alt": "OAuth",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 10405
     },
     {
       "id": "image-b19550e301e7f9",
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo2.jpg",
+      "src": "/assets/shared/images/000edd7c93-securitylogo2.jpg",
       "file": "public/assets/shared/images/000edd7c93-securitylogo2.jpg",
       "publicUrl": "/assets/shared/images/000edd7c93-securitylogo2.jpg",
       "alt": "GDPR",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 8031
     },
     {
       "id": "image-62b8e0e2c9c3a3",
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo3.jpg",
+      "src": "/assets/shared/images/24ab2b36d5-securitylogo3.jpg",
       "file": "public/assets/shared/images/24ab2b36d5-securitylogo3.jpg",
       "publicUrl": "/assets/shared/images/24ab2b36d5-securitylogo3.jpg",
       "alt": "OWASP",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5106
     },
     {
       "id": "image-74a49b7e370d45",
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo4.jpg",
+      "src": "/assets/shared/images/0bd0acbe52-securitylogo4.jpg",
       "file": "public/assets/shared/images/0bd0acbe52-securitylogo4.jpg",
       "publicUrl": "/assets/shared/images/0bd0acbe52-securitylogo4.jpg",
       "alt": "JSON Web Token (JWT)",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6542
     },
     {
       "id": "image-94d8872f636499",
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo5.jpg",
+      "src": "/assets/shared/images/183414f70c-securitylogo5.jpg",
       "file": "public/assets/shared/images/183414f70c-securitylogo5.jpg",
       "publicUrl": "/assets/shared/images/183414f70c-securitylogo5.jpg",
       "alt": "SSL Certificate",
       "width": 250,
       "height": 185,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 3881
     },
     {
       "id": "image-972f8fb307ba7e",
       "sourceUrl": "/wp-content/uploads/2026/08/location.png",
-      "src": "/wp-content/uploads/2026/08/location.png",
-      "file": "public/assets/shared/images/79dc167599-location.png",
-      "publicUrl": "/assets/shared/images/79dc167599-location.png",
+      "src": "/assets/pages/dropryde/images/79dc167599-location.png",
+      "file": "public/assets/pages/dropryde/images/79dc167599-location.png",
+      "publicUrl": "/assets/pages/dropryde/images/79dc167599-location.png",
       "alt": "",
       "width": 57,
       "height": 73,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 840
     },
     {
       "id": "image-92bc6703201b1d",
       "sourceUrl": "/wp-content/uploads/2026/08/offline.png",
-      "src": "/wp-content/uploads/2026/08/offline.png",
-      "file": "public/assets/shared/images/51b25e103c-offline.png",
-      "publicUrl": "/assets/shared/images/51b25e103c-offline.png",
+      "src": "/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "file": "public/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "publicUrl": "/assets/pages/dropryde/images/51b25e103c-offline.png",
       "alt": "",
       "width": 67,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 615
     },
     {
       "id": "image-743f6776ba8eb3",
       "sourceUrl": "/wp-content/uploads/2026/08/emergy.png",
-      "src": "/wp-content/uploads/2026/08/emergy.png",
-      "file": "public/assets/shared/images/4441fac510-emergy.png",
-      "publicUrl": "/assets/shared/images/4441fac510-emergy.png",
+      "src": "/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "file": "public/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "publicUrl": "/assets/pages/dropryde/images/4441fac510-emergy.png",
       "alt": "",
       "width": 56,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 395
     },
     {
       "id": "image-22f9f7b0f2255a",
       "sourceUrl": "/wp-content/uploads/2026/08/cardsinf.png",
-      "src": "/wp-content/uploads/2026/08/cardsinf.png",
-      "file": "public/assets/shared/images/7d0857a0e2-cardsinf.png",
-      "publicUrl": "/assets/shared/images/7d0857a0e2-cardsinf.png",
+      "src": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "file": "public/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "publicUrl": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
       "alt": "",
       "width": 64,
       "height": 54,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 658
     },
     {
       "id": "image-09e956cdf2b16a",
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png",
+      "src": "/assets/pages/dropryde/images/7be5878291-footer-locations.png",
+      "file": "public/assets/pages/dropryde/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/dropryde/images/7be5878291-footer-locations.png",
       "alt": "Locations",
       "width": 800,
       "height": 798,
       "sourceSrcSet": "/wp-content/uploads/2026/07/footer-locations.png 892w, /wp-content/uploads/2026/07/footer-locations-300x300.png 300w, /wp-content/uploads/2026/07/footer-locations-150x150.png 150w, /wp-content/uploads/2026/07/footer-locations-768x766.png 768w",
-      "srcSet": "/wp-content/uploads/2026/07/footer-locations.png 892w, /wp-content/uploads/2026/07/footer-locations-300x300.png 300w, /wp-content/uploads/2026/07/footer-locations-150x150.png 150w, /wp-content/uploads/2026/07/footer-locations-768x766.png 768w"
+      "srcSet": "/assets/pages/dropryde/images/7be5878291-footer-locations.png 892w, /assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png 300w, /assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png 150w, /assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png 768w",
+      "kind": "images",
+      "bytes": 249155
     },
     {
       "id": "image-ac1c43ac915ee2",
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
+      "src": "/assets/shared/images/79271c9fb9-logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
       "alt": "Inceptives Digital",
       "width": 1673,
       "height": 461,
       "sourceSrcSet": "/wp-content/uploads/2026/07/logo.png 1673w, /wp-content/uploads/2026/07/logo-300x83.png 300w, /wp-content/uploads/2026/07/logo-1024x282.png 1024w, /wp-content/uploads/2026/07/logo-768x212.png 768w, /wp-content/uploads/2026/07/logo-1536x423.png 1536w",
-      "srcSet": "/wp-content/uploads/2026/07/logo.png 1673w, /wp-content/uploads/2026/07/logo-300x83.png 300w, /wp-content/uploads/2026/07/logo-1024x282.png 1024w, /wp-content/uploads/2026/07/logo-768x212.png 768w, /wp-content/uploads/2026/07/logo-1536x423.png 1536w"
+      "srcSet": "/assets/shared/images/79271c9fb9-logo.png 1673w, /assets/shared/images/722653dd1e-logo-300x83.png 300w, /assets/shared/images/19ce8de954-logo-1024x282.png 1024w, /assets/shared/images/2ebc59a4d2-logo-768x212.png 768w, /assets/shared/images/6dd35eb579-logo-1536x423.png 1536w",
+      "kind": "images",
+      "bytes": 23572
     },
     {
       "id": "image-1daaef6df66468",
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
-      "src": "/wp-content/uploads/2026/07/clutch.png",
+      "src": "/assets/shared/images/4f01106c4b-clutch.png",
       "file": "public/assets/shared/images/4f01106c4b-clutch.png",
       "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png",
       "alt": "Clutch Review Badge",
       "width": 182,
       "height": 84,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1793
     },
     {
       "id": "image-9067101608dcfc",
       "sourceUrl": "/wp-content/uploads/2026/07/bark.png",
-      "src": "/wp-content/uploads/2026/07/bark.png",
+      "src": "/assets/shared/images/81180f1a05-bark.png",
       "file": "public/assets/shared/images/81180f1a05-bark.png",
       "publicUrl": "/assets/shared/images/81180f1a05-bark.png",
       "alt": "Bark Review Badge",
       "width": 183,
       "height": 87,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1915
     },
     {
       "id": "image-cb9c0d5af35491",
       "sourceUrl": "/wp-content/uploads/2026/07/trustpilot.png",
-      "src": "/wp-content/uploads/2026/07/trustpilot.png",
+      "src": "/assets/shared/images/142de32fea-trustpilot.png",
       "file": "public/assets/shared/images/142de32fea-trustpilot.png",
       "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png",
       "alt": "Trustpilot Review Badge",
       "width": 186,
       "height": 76,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1953
     },
     {
       "id": "image-672bb7c80b4fe5",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-81baad1aebfacd",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-9e8b1da7221e25",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-a71dc133c3078e",
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "src": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
       "alt": "United States",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 722
     },
     {
       "id": "image-1239d3f1f51fbd",
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "src": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png",
+      "src": "/assets/pages/dropryde/images/f709717242-canda.png",
+      "file": "public/assets/pages/dropryde/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/dropryde/images/f709717242-canda.png",
       "alt": "Canda",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 450
     },
     {
       "id": "image-2047652df69591",
       "sourceUrl": "/wp-content/uploads/2026/07/uk-icon.webp",
-      "src": "/wp-content/uploads/2026/07/uk-icon.webp",
+      "src": "/assets/shared/images/9887274571-uk-icon.webp",
       "file": "public/assets/shared/images/9887274571-uk-icon.webp",
       "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp",
       "alt": "united kingdom",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 1260
     },
     {
       "id": "image-6379de3ab6f222",
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "src": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp",
+      "src": "/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
+      "file": "public/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
       "alt": "",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 646
     },
     {
       "id": "image-cbb3fbbc4281da",
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "src": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png",
+      "src": "/assets/pages/dropryde/images/6cdb775a76-singa.png",
+      "file": "public/assets/pages/dropryde/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/dropryde/images/6cdb775a76-singa.png",
       "alt": "Singapore",
       "width": 36,
       "height": 36,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 731
     },
     {
       "id": "image-64d34aada8942e",
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "src": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png",
+      "src": "/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
+      "file": "public/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
       "alt": "Pakistan",
       "width": 33,
       "height": 33,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 402
     },
     {
       "id": "image-86bb155aca8f7c",
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "src": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
+      "src": "/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
+      "file": "public/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
       "alt": "DMCA.com Protection Status",
       "width": null,
       "height": null,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 2222
     },
     {
       "id": "image-1b81eae15cd6e4",
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
+      "src": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "file": "public/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
       "alt": "Inceptives Digital award badge 1",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 4856
     },
     {
       "id": "image-a6c76aefd2664a",
       "sourceUrl": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
-      "src": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
+      "src": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "file": "public/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
       "alt": "Top Mobile App Developers 2025",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 11129
     },
     {
       "id": "image-03b7c9f959da35",
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
+      "src": "/assets/shared/images/279937e721-new-review-icon-add6.png",
       "file": "public/assets/shared/images/279937e721-new-review-icon-add6.png",
       "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png",
       "alt": "Inceptives Digital award badge 3",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 12314
     },
     {
       "id": "image-1b05bfb2648565",
       "sourceUrl": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
-      "src": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
+      "src": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "file": "public/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
       "alt": "RightFirms company badge",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7084
     },
     {
       "id": "image-f271a3925e441a",
       "sourceUrl": "/wp-content/uploads/2026/10/top-rated-logo.png",
-      "src": "/wp-content/uploads/2026/10/top-rated-logo.png",
+      "src": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "file": "public/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
       "alt": "Inceptives Digital award badge 5",
       "width": 160,
       "height": 90,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 44177
     },
     {
       "id": "image-b58ceb7bad798a",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "alt": "Associated Press",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6320
     },
     {
       "id": "image-53bc08e3dfe1d8",
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
       "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "alt": "Trustpilot",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5369
     },
     {
       "id": "image-22f702e5409d98",
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "src": "/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/dropryde/images/351608e619-googleslider.png",
       "alt": "Google",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5083
     },
     {
       "id": "image-a5f40158329240",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "alt": "The New York Times",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7066
     },
     {
       "id": "image-9ee19fccd7bd18",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "alt": "The Globe and Mail",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 8470
     },
     {
       "id": "image-6b276a64938e44",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "alt": "USA Today",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6762
     },
     {
       "id": "image-ea55945e2039ee",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6320
     },
     {
       "id": "image-cde50dde82fc9a",
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
       "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5369
     },
     {
       "id": "image-1ee5bf843fc9d5",
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "src": "/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/dropryde/images/351608e619-googleslider.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 5083
     },
     {
       "id": "image-4357514f1b6779",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 7066
     },
     {
       "id": "image-e0580104fd5075",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 8470
     },
     {
       "id": "image-987013dbb8bc04",
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "alt": "",
       "width": 200,
       "height": 70,
       "sourceSrcSet": null,
-      "srcSet": null
+      "srcSet": null,
+      "kind": "images",
+      "bytes": 6762
     }
   ],
   "backgrounds": [
     {
       "sourceUrl": "/wp-content/uploads/2026/08/update-logo.png",
-      "src": "/wp-content/uploads/2026/08/update-logo.png",
       "file": "public/assets/shared/images/a46f69e2c3-update-logo.png",
-      "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "src": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png"
+      "publicUrl": "/assets/shared/images/a46f69e2c3-update-logo.png",
+      "kind": "images",
+      "bytes": 6176,
+      "src": "/assets/shared/images/a46f69e2c3-update-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
-      "src": "/wp-content/uploads/2026/07/logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
-      "publicUrl": "/assets/shared/images/79271c9fb9-logo.png"
+      "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
+      "kind": "images",
+      "bytes": 23572,
+      "src": "/assets/shared/images/79271c9fb9-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10.png",
-      "src": "/wp-content/uploads/2026/08/Group-1-10.png",
-      "file": "public/assets/shared/images/f0204b0836-Group-1-10.png",
-      "publicUrl": "/assets/shared/images/f0204b0836-Group-1-10.png"
-    },
-    {
-      "sourceUrl": "/media/a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "src": "/media/a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "file": "public/assets/shared/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "publicUrl": "/assets/shared/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-300x180.png",
-      "src": "/wp-content/uploads/2026/08/Group-1-10-300x180.png",
-      "file": "public/assets/shared/images/4e512c4cf1-Group-1-10-300x180.png",
-      "publicUrl": "/assets/shared/images/4e512c4cf1-Group-1-10-300x180.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-1024x616.png",
-      "src": "/wp-content/uploads/2026/08/Group-1-10-1024x616.png",
-      "file": "public/assets/shared/images/6a18eda841-Group-1-10-1024x616.png",
-      "publicUrl": "/assets/shared/images/6a18eda841-Group-1-10-1024x616.png"
-    },
-    {
-      "sourceUrl": "/media/1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "src": "/media/1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "file": "public/assets/shared/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "publicUrl": "/assets/shared/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-768x462.png",
-      "src": "/wp-content/uploads/2026/08/Group-1-10-768x462.png",
-      "file": "public/assets/shared/images/54f3936239-Group-1-10-768x462.png",
-      "publicUrl": "/assets/shared/images/54f3936239-Group-1-10-768x462.png"
-    },
-    {
-      "sourceUrl": "/media/ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "src": "/media/ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "file": "public/assets/shared/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "publicUrl": "/assets/shared/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp"
+      "file": "public/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
+      "publicUrl": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
+      "kind": "images",
+      "bytes": 191491,
+      "src": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/location.png",
-      "src": "/wp-content/uploads/2026/08/location.png",
-      "file": "public/assets/shared/images/79dc167599-location.png",
-      "publicUrl": "/assets/shared/images/79dc167599-location.png"
+      "file": "public/assets/pages/dropryde/images/79dc167599-location.png",
+      "publicUrl": "/assets/pages/dropryde/images/79dc167599-location.png",
+      "kind": "images",
+      "bytes": 840,
+      "src": "/assets/pages/dropryde/images/79dc167599-location.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/offline.png",
-      "src": "/wp-content/uploads/2026/08/offline.png",
-      "file": "public/assets/shared/images/51b25e103c-offline.png",
-      "publicUrl": "/assets/shared/images/51b25e103c-offline.png"
+      "file": "public/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "publicUrl": "/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "kind": "images",
+      "bytes": 615,
+      "src": "/assets/pages/dropryde/images/51b25e103c-offline.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/emergy.png",
-      "src": "/wp-content/uploads/2026/08/emergy.png",
-      "file": "public/assets/shared/images/4441fac510-emergy.png",
-      "publicUrl": "/assets/shared/images/4441fac510-emergy.png"
+      "file": "public/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "publicUrl": "/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "kind": "images",
+      "bytes": 395,
+      "src": "/assets/pages/dropryde/images/4441fac510-emergy.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/cardsinf.png",
-      "src": "/wp-content/uploads/2026/08/cardsinf.png",
-      "file": "public/assets/shared/images/7d0857a0e2-cardsinf.png",
-      "publicUrl": "/assets/shared/images/7d0857a0e2-cardsinf.png"
+      "file": "public/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "publicUrl": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "kind": "images",
+      "bytes": 658,
+      "src": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile.png",
-      "src": "/wp-content/uploads/2026/08/mytango-mobile.png",
-      "file": "public/assets/shared/images/5874e43d35-mytango-mobile.png",
-      "publicUrl": "/assets/shared/images/5874e43d35-mytango-mobile.png"
-    },
-    {
-      "sourceUrl": "/media/1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "src": "/media/1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "file": "public/assets/shared/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "publicUrl": "/assets/shared/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-300x292.png",
-      "src": "/wp-content/uploads/2026/08/mytango-mobile-300x292.png",
-      "file": "public/assets/shared/images/aebf4ba5cf-mytango-mobile-300x292.png",
-      "publicUrl": "/assets/shared/images/aebf4ba5cf-mytango-mobile-300x292.png"
+      "file": "public/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
+      "publicUrl": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
+      "kind": "images",
+      "bytes": 111990,
+      "src": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/card-1024x615.png",
-      "src": "/wp-content/uploads/2026/08/card-1024x615.png",
-      "file": "public/assets/shared/images/d8ab6a912a-card-1024x615.png",
-      "publicUrl": "/assets/shared/images/d8ab6a912a-card-1024x615.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-300x180.png",
-      "src": "/wp-content/uploads/2026/08/card-300x180.png",
-      "file": "public/assets/shared/images/e6dc86c890-card-300x180.png",
-      "publicUrl": "/assets/shared/images/e6dc86c890-card-300x180.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-768x461.png",
-      "src": "/wp-content/uploads/2026/08/card-768x461.png",
-      "file": "public/assets/shared/images/caef1da99c-card-768x461.png",
-      "publicUrl": "/assets/shared/images/caef1da99c-card-768x461.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-1536x923.png",
-      "src": "/wp-content/uploads/2026/08/card-1536x923.png",
-      "file": "public/assets/shared/images/735299783a-card-1536x923.png",
-      "publicUrl": "/assets/shared/images/735299783a-card-1536x923.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card.png",
-      "src": "/wp-content/uploads/2026/08/card.png",
-      "file": "public/assets/shared/images/ae2d2d529a-card.png",
-      "publicUrl": "/assets/shared/images/ae2d2d529a-card.png"
+      "file": "public/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
+      "publicUrl": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
+      "kind": "images",
+      "bytes": 49430,
+      "src": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo1.jpg",
       "file": "public/assets/shared/images/adc36b2890-delogo1.jpg",
-      "publicUrl": "/assets/shared/images/adc36b2890-delogo1.jpg"
+      "publicUrl": "/assets/shared/images/adc36b2890-delogo1.jpg",
+      "kind": "images",
+      "bytes": 4763,
+      "src": "/assets/shared/images/adc36b2890-delogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo2.jpg",
       "file": "public/assets/shared/images/08d021eb25-delogo2.jpg",
-      "publicUrl": "/assets/shared/images/08d021eb25-delogo2.jpg"
+      "publicUrl": "/assets/shared/images/08d021eb25-delogo2.jpg",
+      "kind": "images",
+      "bytes": 4801,
+      "src": "/assets/shared/images/08d021eb25-delogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo3.jpg",
       "file": "public/assets/shared/images/3d54a78e70-delogo3.jpg",
-      "publicUrl": "/assets/shared/images/3d54a78e70-delogo3.jpg"
+      "publicUrl": "/assets/shared/images/3d54a78e70-delogo3.jpg",
+      "kind": "images",
+      "bytes": 3620,
+      "src": "/assets/shared/images/3d54a78e70-delogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo4.jpg",
       "file": "public/assets/shared/images/7274d439c4-delogo4.jpg",
-      "publicUrl": "/assets/shared/images/7274d439c4-delogo4.jpg"
+      "publicUrl": "/assets/shared/images/7274d439c4-delogo4.jpg",
+      "kind": "images",
+      "bytes": 2608,
+      "src": "/assets/shared/images/7274d439c4-delogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo5.jpg",
       "file": "public/assets/shared/images/df24ef6129-delogo5.jpg",
-      "publicUrl": "/assets/shared/images/df24ef6129-delogo5.jpg"
+      "publicUrl": "/assets/shared/images/df24ef6129-delogo5.jpg",
+      "kind": "images",
+      "bytes": 3234,
+      "src": "/assets/shared/images/df24ef6129-delogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo6.jpg",
       "file": "public/assets/shared/images/666d14b3f4-delogo6.jpg",
-      "publicUrl": "/assets/shared/images/666d14b3f4-delogo6.jpg"
+      "publicUrl": "/assets/shared/images/666d14b3f4-delogo6.jpg",
+      "kind": "images",
+      "bytes": 3080,
+      "src": "/assets/shared/images/666d14b3f4-delogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo7.jpg",
       "file": "public/assets/shared/images/6b1a3daa6e-delogo7.jpg",
-      "publicUrl": "/assets/shared/images/6b1a3daa6e-delogo7.jpg"
+      "publicUrl": "/assets/shared/images/6b1a3daa6e-delogo7.jpg",
+      "kind": "images",
+      "bytes": 2787,
+      "src": "/assets/shared/images/6b1a3daa6e-delogo7.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo8.jpg",
       "file": "public/assets/shared/images/e067f4966b-delogo8.jpg",
-      "publicUrl": "/assets/shared/images/e067f4966b-delogo8.jpg"
+      "publicUrl": "/assets/shared/images/e067f4966b-delogo8.jpg",
+      "kind": "images",
+      "bytes": 3464,
+      "src": "/assets/shared/images/e067f4966b-delogo8.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo9.jpg",
       "file": "public/assets/shared/images/5616584370-delogo9.jpg",
-      "publicUrl": "/assets/shared/images/5616584370-delogo9.jpg"
+      "publicUrl": "/assets/shared/images/5616584370-delogo9.jpg",
+      "kind": "images",
+      "bytes": 4893,
+      "src": "/assets/shared/images/5616584370-delogo9.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo10.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo10.jpg",
       "file": "public/assets/shared/images/2cf9d99245-delogo10.jpg",
-      "publicUrl": "/assets/shared/images/2cf9d99245-delogo10.jpg"
+      "publicUrl": "/assets/shared/images/2cf9d99245-delogo10.jpg",
+      "kind": "images",
+      "bytes": 2235,
+      "src": "/assets/shared/images/2cf9d99245-delogo10.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo11.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo11.jpg",
       "file": "public/assets/shared/images/0b7ff6245c-delogo11.jpg",
-      "publicUrl": "/assets/shared/images/0b7ff6245c-delogo11.jpg"
+      "publicUrl": "/assets/shared/images/0b7ff6245c-delogo11.jpg",
+      "kind": "images",
+      "bytes": 3415,
+      "src": "/assets/shared/images/0b7ff6245c-delogo11.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo12.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo12.jpg",
       "file": "public/assets/shared/images/35b2c83a04-delogo12.jpg",
-      "publicUrl": "/assets/shared/images/35b2c83a04-delogo12.jpg"
+      "publicUrl": "/assets/shared/images/35b2c83a04-delogo12.jpg",
+      "kind": "images",
+      "bytes": 3634,
+      "src": "/assets/shared/images/35b2c83a04-delogo12.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo13.jpg",
-      "src": "/wp-content/uploads/2026/07/delogo13.jpg",
       "file": "public/assets/shared/images/7abf035d80-delogo13.jpg",
-      "publicUrl": "/assets/shared/images/7abf035d80-delogo13.jpg"
+      "publicUrl": "/assets/shared/images/7abf035d80-delogo13.jpg",
+      "kind": "images",
+      "bytes": 3548,
+      "src": "/assets/shared/images/7abf035d80-delogo13.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo1.jpg",
       "file": "public/assets/shared/images/d3d5b85968-balogo1.jpg",
-      "publicUrl": "/assets/shared/images/d3d5b85968-balogo1.jpg"
+      "publicUrl": "/assets/shared/images/d3d5b85968-balogo1.jpg",
+      "kind": "images",
+      "bytes": 3107,
+      "src": "/assets/shared/images/d3d5b85968-balogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo2.jpg",
       "file": "public/assets/shared/images/fbff3442ea-balogo2.jpg",
-      "publicUrl": "/assets/shared/images/fbff3442ea-balogo2.jpg"
+      "publicUrl": "/assets/shared/images/fbff3442ea-balogo2.jpg",
+      "kind": "images",
+      "bytes": 4322,
+      "src": "/assets/shared/images/fbff3442ea-balogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo3.jpg",
       "file": "public/assets/shared/images/b22880917d-balogo3.jpg",
-      "publicUrl": "/assets/shared/images/b22880917d-balogo3.jpg"
+      "publicUrl": "/assets/shared/images/b22880917d-balogo3.jpg",
+      "kind": "images",
+      "bytes": 3587,
+      "src": "/assets/shared/images/b22880917d-balogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo4.jpg",
       "file": "public/assets/shared/images/3a61997861-balogo4.jpg",
-      "publicUrl": "/assets/shared/images/3a61997861-balogo4.jpg"
+      "publicUrl": "/assets/shared/images/3a61997861-balogo4.jpg",
+      "kind": "images",
+      "bytes": 4075,
+      "src": "/assets/shared/images/3a61997861-balogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo5.jpg",
       "file": "public/assets/shared/images/4cd1d7e5a7-balogo5.jpg",
-      "publicUrl": "/assets/shared/images/4cd1d7e5a7-balogo5.jpg"
+      "publicUrl": "/assets/shared/images/4cd1d7e5a7-balogo5.jpg",
+      "kind": "images",
+      "bytes": 3586,
+      "src": "/assets/shared/images/4cd1d7e5a7-balogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo6.jpg",
       "file": "public/assets/shared/images/f5a1509d4d-balogo6.jpg",
-      "publicUrl": "/assets/shared/images/f5a1509d4d-balogo6.jpg"
+      "publicUrl": "/assets/shared/images/f5a1509d4d-balogo6.jpg",
+      "kind": "images",
+      "bytes": 3296,
+      "src": "/assets/shared/images/f5a1509d4d-balogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo7.jpg",
       "file": "public/assets/shared/images/e5fd399405-balogo7.jpg",
-      "publicUrl": "/assets/shared/images/e5fd399405-balogo7.jpg"
+      "publicUrl": "/assets/shared/images/e5fd399405-balogo7.jpg",
+      "kind": "images",
+      "bytes": 3172,
+      "src": "/assets/shared/images/e5fd399405-balogo7.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo8.jpg",
       "file": "public/assets/shared/images/e4bc76b54f-balogo8.jpg",
-      "publicUrl": "/assets/shared/images/e4bc76b54f-balogo8.jpg"
+      "publicUrl": "/assets/shared/images/e4bc76b54f-balogo8.jpg",
+      "kind": "images",
+      "bytes": 2467,
+      "src": "/assets/shared/images/e4bc76b54f-balogo8.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo9.jpg",
       "file": "public/assets/shared/images/590b8fa116-balogo9.jpg",
-      "publicUrl": "/assets/shared/images/590b8fa116-balogo9.jpg"
+      "publicUrl": "/assets/shared/images/590b8fa116-balogo9.jpg",
+      "kind": "images",
+      "bytes": 2673,
+      "src": "/assets/shared/images/590b8fa116-balogo9.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/balogo10.jpg",
-      "src": "/wp-content/uploads/2026/07/balogo10.jpg",
       "file": "public/assets/shared/images/762eeaaacf-balogo10.jpg",
-      "publicUrl": "/assets/shared/images/762eeaaacf-balogo10.jpg"
+      "publicUrl": "/assets/shared/images/762eeaaacf-balogo10.jpg",
+      "kind": "images",
+      "bytes": 2823,
+      "src": "/assets/shared/images/762eeaaacf-balogo10.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo1.jpg",
       "file": "public/assets/shared/images/3186495bbe-datalogo1.jpg",
-      "publicUrl": "/assets/shared/images/3186495bbe-datalogo1.jpg"
+      "publicUrl": "/assets/shared/images/3186495bbe-datalogo1.jpg",
+      "kind": "images",
+      "bytes": 4946,
+      "src": "/assets/shared/images/3186495bbe-datalogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo2.jpg",
       "file": "public/assets/shared/images/5ffcfd48d0-datalogo2.jpg",
-      "publicUrl": "/assets/shared/images/5ffcfd48d0-datalogo2.jpg"
+      "publicUrl": "/assets/shared/images/5ffcfd48d0-datalogo2.jpg",
+      "kind": "images",
+      "bytes": 3058,
+      "src": "/assets/shared/images/5ffcfd48d0-datalogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo3.jpg",
       "file": "public/assets/shared/images/019db13209-datalogo3.jpg",
-      "publicUrl": "/assets/shared/images/019db13209-datalogo3.jpg"
+      "publicUrl": "/assets/shared/images/019db13209-datalogo3.jpg",
+      "kind": "images",
+      "bytes": 4025,
+      "src": "/assets/shared/images/019db13209-datalogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo4.jpg",
       "file": "public/assets/shared/images/70cb0724b3-datalogo4.jpg",
-      "publicUrl": "/assets/shared/images/70cb0724b3-datalogo4.jpg"
+      "publicUrl": "/assets/shared/images/70cb0724b3-datalogo4.jpg",
+      "kind": "images",
+      "bytes": 2805,
+      "src": "/assets/shared/images/70cb0724b3-datalogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo5.jpg",
       "file": "public/assets/shared/images/258126d249-datalogo5.jpg",
-      "publicUrl": "/assets/shared/images/258126d249-datalogo5.jpg"
+      "publicUrl": "/assets/shared/images/258126d249-datalogo5.jpg",
+      "kind": "images",
+      "bytes": 2232,
+      "src": "/assets/shared/images/258126d249-datalogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/datalogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/datalogo6.jpg",
       "file": "public/assets/shared/images/b777a7b031-datalogo6.jpg",
-      "publicUrl": "/assets/shared/images/b777a7b031-datalogo6.jpg"
+      "publicUrl": "/assets/shared/images/b777a7b031-datalogo6.jpg",
+      "kind": "images",
+      "bytes": 3210,
+      "src": "/assets/shared/images/b777a7b031-datalogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo4.jpg",
       "file": "public/assets/shared/images/12a70f128d-cloudlogo4.jpg",
-      "publicUrl": "/assets/shared/images/12a70f128d-cloudlogo4.jpg"
+      "publicUrl": "/assets/shared/images/12a70f128d-cloudlogo4.jpg",
+      "kind": "images",
+      "bytes": 4974,
+      "src": "/assets/shared/images/12a70f128d-cloudlogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo5.jpg",
       "file": "public/assets/shared/images/f81387a4e2-cloudlogo5.jpg",
-      "publicUrl": "/assets/shared/images/f81387a4e2-cloudlogo5.jpg"
+      "publicUrl": "/assets/shared/images/f81387a4e2-cloudlogo5.jpg",
+      "kind": "images",
+      "bytes": 3163,
+      "src": "/assets/shared/images/f81387a4e2-cloudlogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo3.jpg",
       "file": "public/assets/shared/images/b1528a4a75-cloudlogo3.jpg",
-      "publicUrl": "/assets/shared/images/b1528a4a75-cloudlogo3.jpg"
+      "publicUrl": "/assets/shared/images/b1528a4a75-cloudlogo3.jpg",
+      "kind": "images",
+      "bytes": 3277,
+      "src": "/assets/shared/images/b1528a4a75-cloudlogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo6.jpg",
       "file": "public/assets/shared/images/c537d15255-cloudlogo6.jpg",
-      "publicUrl": "/assets/shared/images/c537d15255-cloudlogo6.jpg"
+      "publicUrl": "/assets/shared/images/c537d15255-cloudlogo6.jpg",
+      "kind": "images",
+      "bytes": 3164,
+      "src": "/assets/shared/images/c537d15255-cloudlogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo7.jpg",
       "file": "public/assets/shared/images/02f6385ab5-cloudlogo7.jpg",
-      "publicUrl": "/assets/shared/images/02f6385ab5-cloudlogo7.jpg"
+      "publicUrl": "/assets/shared/images/02f6385ab5-cloudlogo7.jpg",
+      "kind": "images",
+      "bytes": 3879,
+      "src": "/assets/shared/images/02f6385ab5-cloudlogo7.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo8.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo8.jpg",
       "file": "public/assets/shared/images/90a54c657d-cloudlogo8.jpg",
-      "publicUrl": "/assets/shared/images/90a54c657d-cloudlogo8.jpg"
+      "publicUrl": "/assets/shared/images/90a54c657d-cloudlogo8.jpg",
+      "kind": "images",
+      "bytes": 5695,
+      "src": "/assets/shared/images/90a54c657d-cloudlogo8.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo9.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo9.jpg",
       "file": "public/assets/shared/images/a4abba2338-cloudlogo9.jpg",
-      "publicUrl": "/assets/shared/images/a4abba2338-cloudlogo9.jpg"
+      "publicUrl": "/assets/shared/images/a4abba2338-cloudlogo9.jpg",
+      "kind": "images",
+      "bytes": 4984,
+      "src": "/assets/shared/images/a4abba2338-cloudlogo9.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo1.jpg",
       "file": "public/assets/shared/images/a5462f91df-cloudlogo1.jpg",
-      "publicUrl": "/assets/shared/images/a5462f91df-cloudlogo1.jpg"
+      "publicUrl": "/assets/shared/images/a5462f91df-cloudlogo1.jpg",
+      "kind": "images",
+      "bytes": 4238,
+      "src": "/assets/shared/images/a5462f91df-cloudlogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/cloudlogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/cloudlogo2.jpg",
       "file": "public/assets/shared/images/f913fbb745-cloudlogo2.jpg",
-      "publicUrl": "/assets/shared/images/f913fbb745-cloudlogo2.jpg"
+      "publicUrl": "/assets/shared/images/f913fbb745-cloudlogo2.jpg",
+      "kind": "images",
+      "bytes": 3098,
+      "src": "/assets/shared/images/f913fbb745-cloudlogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo11.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo11.jpg",
       "file": "public/assets/shared/images/27664ac8ad-Ailogo11.jpg",
-      "publicUrl": "/assets/shared/images/27664ac8ad-Ailogo11.jpg"
+      "publicUrl": "/assets/shared/images/27664ac8ad-Ailogo11.jpg",
+      "kind": "images",
+      "bytes": 5500,
+      "src": "/assets/shared/images/27664ac8ad-Ailogo11.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo1.jpg",
       "file": "public/assets/shared/images/35d992ce43-Ailogo1.jpg",
-      "publicUrl": "/assets/shared/images/35d992ce43-Ailogo1.jpg"
+      "publicUrl": "/assets/shared/images/35d992ce43-Ailogo1.jpg",
+      "kind": "images",
+      "bytes": 2924,
+      "src": "/assets/shared/images/35d992ce43-Ailogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo2.jpg",
       "file": "public/assets/shared/images/1875252830-Ailogo2.jpg",
-      "publicUrl": "/assets/shared/images/1875252830-Ailogo2.jpg"
+      "publicUrl": "/assets/shared/images/1875252830-Ailogo2.jpg",
+      "kind": "images",
+      "bytes": 2927,
+      "src": "/assets/shared/images/1875252830-Ailogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo6.jpg",
       "file": "public/assets/shared/images/d248041ffc-Ailogo6.jpg",
-      "publicUrl": "/assets/shared/images/d248041ffc-Ailogo6.jpg"
+      "publicUrl": "/assets/shared/images/d248041ffc-Ailogo6.jpg",
+      "kind": "images",
+      "bytes": 3718,
+      "src": "/assets/shared/images/d248041ffc-Ailogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo5.jpg",
       "file": "public/assets/shared/images/f351be36e3-Ailogo5.jpg",
-      "publicUrl": "/assets/shared/images/f351be36e3-Ailogo5.jpg"
+      "publicUrl": "/assets/shared/images/f351be36e3-Ailogo5.jpg",
+      "kind": "images",
+      "bytes": 3452,
+      "src": "/assets/shared/images/f351be36e3-Ailogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo3.jpg",
       "file": "public/assets/shared/images/4b5d97fa83-Ailogo3.jpg",
-      "publicUrl": "/assets/shared/images/4b5d97fa83-Ailogo3.jpg"
+      "publicUrl": "/assets/shared/images/4b5d97fa83-Ailogo3.jpg",
+      "kind": "images",
+      "bytes": 2688,
+      "src": "/assets/shared/images/4b5d97fa83-Ailogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/Ailogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/Ailogo4.jpg",
       "file": "public/assets/shared/images/ccfcdb9998-Ailogo4.jpg",
-      "publicUrl": "/assets/shared/images/ccfcdb9998-Ailogo4.jpg"
+      "publicUrl": "/assets/shared/images/ccfcdb9998-Ailogo4.jpg",
+      "kind": "images",
+      "bytes": 5539,
+      "src": "/assets/shared/images/ccfcdb9998-Ailogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo1.jpg",
       "file": "public/assets/shared/images/99b6a52b46-uilogo1.jpg",
-      "publicUrl": "/assets/shared/images/99b6a52b46-uilogo1.jpg"
+      "publicUrl": "/assets/shared/images/99b6a52b46-uilogo1.jpg",
+      "kind": "images",
+      "bytes": 2440,
+      "src": "/assets/shared/images/99b6a52b46-uilogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo2.jpg",
       "file": "public/assets/shared/images/bb380735b2-uilogo2.jpg",
-      "publicUrl": "/assets/shared/images/bb380735b2-uilogo2.jpg"
+      "publicUrl": "/assets/shared/images/bb380735b2-uilogo2.jpg",
+      "kind": "images",
+      "bytes": 2696,
+      "src": "/assets/shared/images/bb380735b2-uilogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo4.jpg",
       "file": "public/assets/shared/images/b98220b790-uilogo4.jpg",
-      "publicUrl": "/assets/shared/images/b98220b790-uilogo4.jpg"
+      "publicUrl": "/assets/shared/images/b98220b790-uilogo4.jpg",
+      "kind": "images",
+      "bytes": 2191,
+      "src": "/assets/shared/images/b98220b790-uilogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo3.jpg",
       "file": "public/assets/shared/images/6c1fc0d290-uilogo3.jpg",
-      "publicUrl": "/assets/shared/images/6c1fc0d290-uilogo3.jpg"
+      "publicUrl": "/assets/shared/images/6c1fc0d290-uilogo3.jpg",
+      "kind": "images",
+      "bytes": 3360,
+      "src": "/assets/shared/images/6c1fc0d290-uilogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uilogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/uilogo5.jpg",
       "file": "public/assets/shared/images/37ba749e64-uilogo5.jpg",
-      "publicUrl": "/assets/shared/images/37ba749e64-uilogo5.jpg"
+      "publicUrl": "/assets/shared/images/37ba749e64-uilogo5.jpg",
+      "kind": "images",
+      "bytes": 4077,
+      "src": "/assets/shared/images/37ba749e64-uilogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo1.jpg",
       "file": "public/assets/shared/images/85fdb24185-analogo1.jpg",
-      "publicUrl": "/assets/shared/images/85fdb24185-analogo1.jpg"
+      "publicUrl": "/assets/shared/images/85fdb24185-analogo1.jpg",
+      "kind": "images",
+      "bytes": 3803,
+      "src": "/assets/shared/images/85fdb24185-analogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo2.jpg",
       "file": "public/assets/shared/images/ce8a1e2b02-analogo2.jpg",
-      "publicUrl": "/assets/shared/images/ce8a1e2b02-analogo2.jpg"
+      "publicUrl": "/assets/shared/images/ce8a1e2b02-analogo2.jpg",
+      "kind": "images",
+      "bytes": 4039,
+      "src": "/assets/shared/images/ce8a1e2b02-analogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo3.jpg",
       "file": "public/assets/shared/images/d003fced29-analogo3.jpg",
-      "publicUrl": "/assets/shared/images/d003fced29-analogo3.jpg"
+      "publicUrl": "/assets/shared/images/d003fced29-analogo3.jpg",
+      "kind": "images",
+      "bytes": 3031,
+      "src": "/assets/shared/images/d003fced29-analogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo4.jpg",
       "file": "public/assets/shared/images/c11f840091-analogo4.jpg",
-      "publicUrl": "/assets/shared/images/c11f840091-analogo4.jpg"
+      "publicUrl": "/assets/shared/images/c11f840091-analogo4.jpg",
+      "kind": "images",
+      "bytes": 3845,
+      "src": "/assets/shared/images/c11f840091-analogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo5.jpg",
       "file": "public/assets/shared/images/a6983b6d5c-analogo5.jpg",
-      "publicUrl": "/assets/shared/images/a6983b6d5c-analogo5.jpg"
+      "publicUrl": "/assets/shared/images/a6983b6d5c-analogo5.jpg",
+      "kind": "images",
+      "bytes": 2343,
+      "src": "/assets/shared/images/a6983b6d5c-analogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo6.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo6.jpg",
       "file": "public/assets/shared/images/d75fd5e0c2-analogo6.jpg",
-      "publicUrl": "/assets/shared/images/d75fd5e0c2-analogo6.jpg"
+      "publicUrl": "/assets/shared/images/d75fd5e0c2-analogo6.jpg",
+      "kind": "images",
+      "bytes": 2757,
+      "src": "/assets/shared/images/d75fd5e0c2-analogo6.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/analogo7.jpg",
-      "src": "/wp-content/uploads/2026/07/analogo7.jpg",
       "file": "public/assets/shared/images/429f027308-analogo7.jpg",
-      "publicUrl": "/assets/shared/images/429f027308-analogo7.jpg"
+      "publicUrl": "/assets/shared/images/429f027308-analogo7.jpg",
+      "kind": "images",
+      "bytes": 2382,
+      "src": "/assets/shared/images/429f027308-analogo7.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo1.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo1.jpg",
       "file": "public/assets/shared/images/b67a10905a-securitylogo1.jpg",
-      "publicUrl": "/assets/shared/images/b67a10905a-securitylogo1.jpg"
+      "publicUrl": "/assets/shared/images/b67a10905a-securitylogo1.jpg",
+      "kind": "images",
+      "bytes": 10405,
+      "src": "/assets/shared/images/b67a10905a-securitylogo1.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo2.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo2.jpg",
       "file": "public/assets/shared/images/000edd7c93-securitylogo2.jpg",
-      "publicUrl": "/assets/shared/images/000edd7c93-securitylogo2.jpg"
+      "publicUrl": "/assets/shared/images/000edd7c93-securitylogo2.jpg",
+      "kind": "images",
+      "bytes": 8031,
+      "src": "/assets/shared/images/000edd7c93-securitylogo2.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo3.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo3.jpg",
       "file": "public/assets/shared/images/24ab2b36d5-securitylogo3.jpg",
-      "publicUrl": "/assets/shared/images/24ab2b36d5-securitylogo3.jpg"
+      "publicUrl": "/assets/shared/images/24ab2b36d5-securitylogo3.jpg",
+      "kind": "images",
+      "bytes": 5106,
+      "src": "/assets/shared/images/24ab2b36d5-securitylogo3.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo4.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo4.jpg",
       "file": "public/assets/shared/images/0bd0acbe52-securitylogo4.jpg",
-      "publicUrl": "/assets/shared/images/0bd0acbe52-securitylogo4.jpg"
+      "publicUrl": "/assets/shared/images/0bd0acbe52-securitylogo4.jpg",
+      "kind": "images",
+      "bytes": 6542,
+      "src": "/assets/shared/images/0bd0acbe52-securitylogo4.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/securitylogo5.jpg",
-      "src": "/wp-content/uploads/2026/07/securitylogo5.jpg",
       "file": "public/assets/shared/images/183414f70c-securitylogo5.jpg",
-      "publicUrl": "/assets/shared/images/183414f70c-securitylogo5.jpg"
+      "publicUrl": "/assets/shared/images/183414f70c-securitylogo5.jpg",
+      "kind": "images",
+      "bytes": 3881,
+      "src": "/assets/shared/images/183414f70c-securitylogo5.jpg"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png"
-    },
-    {
-      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "src": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "file": "public/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "publicUrl": "/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "file": "public/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "publicUrl": "/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png"
-    },
-    {
-      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "src": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "file": "public/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "publicUrl": "/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "file": "public/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "publicUrl": "/assets/shared/images/13e822d8df-footer-locations-150x150.png"
-    },
-    {
-      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "src": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "file": "public/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "publicUrl": "/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "src": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "file": "public/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "publicUrl": "/assets/shared/images/6beadecc9f-footer-locations-768x766.png"
-    },
-    {
-      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "src": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "file": "public/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "publicUrl": "/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "src": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
-      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "src": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "src": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "src": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png"
+      "file": "public/assets/pages/dropryde/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/dropryde/images/7be5878291-footer-locations.png",
+      "kind": "images",
+      "bytes": 249155,
+      "src": "/assets/pages/dropryde/images/7be5878291-footer-locations.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
-      "src": "/wp-content/uploads/2026/07/clutch.png",
       "file": "public/assets/shared/images/4f01106c4b-clutch.png",
-      "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png"
+      "publicUrl": "/assets/shared/images/4f01106c4b-clutch.png",
+      "kind": "images",
+      "bytes": 1793,
+      "src": "/assets/shared/images/4f01106c4b-clutch.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/bark.png",
-      "src": "/wp-content/uploads/2026/07/bark.png",
       "file": "public/assets/shared/images/81180f1a05-bark.png",
-      "publicUrl": "/assets/shared/images/81180f1a05-bark.png"
+      "publicUrl": "/assets/shared/images/81180f1a05-bark.png",
+      "kind": "images",
+      "bytes": 1915,
+      "src": "/assets/shared/images/81180f1a05-bark.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/trustpilot.png",
-      "src": "/wp-content/uploads/2026/07/trustpilot.png",
       "file": "public/assets/shared/images/142de32fea-trustpilot.png",
-      "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png"
+      "publicUrl": "/assets/shared/images/142de32fea-trustpilot.png",
+      "kind": "images",
+      "bytes": 1953,
+      "src": "/assets/shared/images/142de32fea-trustpilot.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "src": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png"
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "kind": "images",
+      "bytes": 722,
+      "src": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "src": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png"
+      "file": "public/assets/pages/dropryde/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/dropryde/images/f709717242-canda.png",
+      "kind": "images",
+      "bytes": 450,
+      "src": "/assets/pages/dropryde/images/f709717242-canda.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uk-icon.webp",
-      "src": "/wp-content/uploads/2026/07/uk-icon.webp",
       "file": "public/assets/shared/images/9887274571-uk-icon.webp",
-      "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp"
+      "publicUrl": "/assets/shared/images/9887274571-uk-icon.webp",
+      "kind": "images",
+      "bytes": 1260,
+      "src": "/assets/shared/images/9887274571-uk-icon.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "src": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp"
+      "file": "public/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
+      "kind": "images",
+      "bytes": 646,
+      "src": "/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "src": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png"
+      "file": "public/assets/pages/dropryde/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/dropryde/images/6cdb775a76-singa.png",
+      "kind": "images",
+      "bytes": 731,
+      "src": "/assets/pages/dropryde/images/6cdb775a76-singa.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "src": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png"
+      "file": "public/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
+      "kind": "images",
+      "bytes": 402,
+      "src": "/assets/pages/dropryde/images/90bfc17e2f-pakistan.png"
     },
     {
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "src": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png"
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
-      "src": "/wp-content/uploads/2026/07/footer.mp4",
-      "file": "public/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "publicUrl": "/assets/shared/videos/a2092f5d0a-footer.mp4"
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "src": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "file": "public/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "publicUrl": "/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp"
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "src": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "file": "public/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "publicUrl": "/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4"
+      "file": "public/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
+      "kind": "images",
+      "bytes": 2222,
+      "src": "/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
       "file": "public/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
-      "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp"
+      "publicUrl": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp",
+      "kind": "images",
+      "bytes": 4856,
+      "src": "/assets/shared/images/4bd3872290-new-review-icon-add2.webp"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
-      "src": "/wp-content/uploads/2026/07/badge-top-mobile-app-developers-2025.png",
       "file": "public/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
-      "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png"
+      "publicUrl": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png",
+      "kind": "images",
+      "bytes": 11129,
+      "src": "/assets/shared/images/6c805f53fe-badge-top-mobile-app-developers-2025.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
-      "src": "/wp-content/uploads/2026/07/new-review-icon-add6.png",
       "file": "public/assets/shared/images/279937e721-new-review-icon-add6.png",
-      "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png"
+      "publicUrl": "/assets/shared/images/279937e721-new-review-icon-add6.png",
+      "kind": "images",
+      "bytes": 12314,
+      "src": "/assets/shared/images/279937e721-new-review-icon-add6.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
-      "src": "/wp-content/uploads/2026/07/rightfirms-badge-company.png",
       "file": "public/assets/shared/images/040132a246-rightfirms-badge-company.png",
-      "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png"
+      "publicUrl": "/assets/shared/images/040132a246-rightfirms-badge-company.png",
+      "kind": "images",
+      "bytes": 7084,
+      "src": "/assets/shared/images/040132a246-rightfirms-badge-company.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/top-rated-logo.png",
-      "src": "/wp-content/uploads/2026/10/top-rated-logo.png",
       "file": "public/assets/shared/images/06e3ce1148-top-rated-logo.png",
-      "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png"
+      "publicUrl": "/assets/shared/images/06e3ce1148-top-rated-logo.png",
+      "kind": "images",
+      "bytes": 44177,
+      "src": "/assets/shared/images/06e3ce1148-top-rated-logo.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-01sec.png",
       "file": "public/assets/shared/images/7a072424a1-brandlogo-01sec.png",
-      "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png"
+      "publicUrl": "/assets/shared/images/7a072424a1-brandlogo-01sec.png",
+      "kind": "images",
+      "bytes": 6320,
+      "src": "/assets/shared/images/7a072424a1-brandlogo-01sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/trustpilotslider.png",
-      "src": "/wp-content/uploads/2026/10/trustpilotslider.png",
       "file": "public/assets/shared/images/8723b865c9-trustpilotslider.png",
-      "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png"
+      "publicUrl": "/assets/shared/images/8723b865c9-trustpilotslider.png",
+      "kind": "images",
+      "bytes": 5369,
+      "src": "/assets/shared/images/8723b865c9-trustpilotslider.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "src": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png"
+      "file": "public/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "kind": "images",
+      "bytes": 5083,
+      "src": "/assets/pages/dropryde/images/351608e619-googleslider.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-04sec.png",
       "file": "public/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
-      "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png"
+      "publicUrl": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png",
+      "kind": "images",
+      "bytes": 7066,
+      "src": "/assets/shared/images/c77e6dd4a5-brandlogo-04sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-06sec.png",
       "file": "public/assets/shared/images/1991c90a68-brandlogo-06sec.png",
-      "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png"
+      "publicUrl": "/assets/shared/images/1991c90a68-brandlogo-06sec.png",
+      "kind": "images",
+      "bytes": 8470,
+      "src": "/assets/shared/images/1991c90a68-brandlogo-06sec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
-      "src": "/wp-content/uploads/2026/09/brandlogo-07sec.png",
       "file": "public/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
-      "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png"
+      "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
+      "kind": "images",
+      "bytes": 6762,
+      "src": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
+      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "kind": "images",
+      "bytes": 4880,
+      "src": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png"
+    },
+    {
+      "sourceUrl": "/media/a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "kind": "images",
+      "bytes": 102554,
+      "src": "/assets/pages/dropryde/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-300x180.png",
+      "file": "public/assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png",
+      "publicUrl": "/assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png",
+      "kind": "images",
+      "bytes": 10219,
+      "src": "/assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-1024x616.png",
+      "file": "public/assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png",
+      "publicUrl": "/assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png",
+      "kind": "images",
+      "bytes": 113694,
+      "src": "/assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png"
+    },
+    {
+      "sourceUrl": "/media/1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "kind": "images",
+      "bytes": 61950,
+      "src": "/assets/pages/dropryde/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-768x462.png",
+      "file": "public/assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png",
+      "publicUrl": "/assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png",
+      "kind": "images",
+      "bytes": 60078,
+      "src": "/assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png"
+    },
+    {
+      "sourceUrl": "/media/ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "kind": "images",
+      "bytes": 45022,
+      "src": "/assets/pages/dropryde/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp"
+    },
+    {
+      "sourceUrl": "/media/1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "kind": "images",
+      "bytes": 68024,
+      "src": "/assets/pages/dropryde/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-300x292.png",
+      "file": "public/assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png",
+      "publicUrl": "/assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png",
+      "kind": "images",
+      "bytes": 28288,
+      "src": "/assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-300x180.png",
+      "file": "public/assets/pages/dropryde/images/e6dc86c890-card-300x180.png",
+      "publicUrl": "/assets/pages/dropryde/images/e6dc86c890-card-300x180.png",
+      "kind": "images",
+      "bytes": 7253,
+      "src": "/assets/pages/dropryde/images/e6dc86c890-card-300x180.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-768x461.png",
+      "file": "public/assets/pages/dropryde/images/caef1da99c-card-768x461.png",
+      "publicUrl": "/assets/pages/dropryde/images/caef1da99c-card-768x461.png",
+      "kind": "images",
+      "bytes": 29475,
+      "src": "/assets/pages/dropryde/images/caef1da99c-card-768x461.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-1536x923.png",
+      "file": "public/assets/pages/dropryde/images/735299783a-card-1536x923.png",
+      "publicUrl": "/assets/pages/dropryde/images/735299783a-card-1536x923.png",
+      "kind": "images",
+      "bytes": 97373,
+      "src": "/assets/pages/dropryde/images/735299783a-card-1536x923.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card.png",
+      "file": "public/assets/pages/dropryde/images/ae2d2d529a-card.png",
+      "publicUrl": "/assets/pages/dropryde/images/ae2d2d529a-card.png",
+      "kind": "images",
+      "bytes": 165149,
+      "src": "/assets/pages/dropryde/images/ae2d2d529a-card.png"
+    },
+    {
+      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "kind": "images",
+      "bytes": 214310,
+      "src": "/assets/pages/dropryde/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
+      "file": "public/assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "publicUrl": "/assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "kind": "images",
+      "bytes": 58672,
+      "src": "/assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png"
+    },
+    {
+      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "kind": "images",
+      "bytes": 41856,
+      "src": "/assets/pages/dropryde/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
+      "file": "public/assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png",
+      "publicUrl": "/assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png",
+      "kind": "images",
+      "bytes": 18370,
+      "src": "/assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png"
+    },
+    {
+      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "kind": "images",
+      "bytes": 13536,
+      "src": "/assets/pages/dropryde/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
+      "file": "public/assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png",
+      "publicUrl": "/assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png",
+      "kind": "images",
+      "bytes": 307727,
+      "src": "/assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png"
+    },
+    {
+      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "kind": "images",
+      "bytes": 233394,
+      "src": "/assets/pages/dropryde/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
+      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
+      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
+      "kind": "images",
+      "bytes": 3303,
+      "src": "/assets/shared/images/722653dd1e-logo-300x83.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
+      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "kind": "images",
+      "bytes": 12642,
+      "src": "/assets/shared/images/19ce8de954-logo-1024x282.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
+      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "kind": "images",
+      "bytes": 9327,
+      "src": "/assets/shared/images/2ebc59a4d2-logo-768x212.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
+      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "kind": "images",
+      "bytes": 29928,
+      "src": "/assets/shared/images/6dd35eb579-logo-1536x423.png"
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
+      "file": "public/assets/pages/dropryde/videos/a2092f5d0a-footer.mp4",
+      "publicUrl": "/assets/pages/dropryde/videos/a2092f5d0a-footer.mp4",
+      "kind": "videos",
+      "bytes": 388872,
+      "src": "/assets/pages/dropryde/videos/a2092f5d0a-footer.mp4"
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "file": "public/assets/pages/dropryde/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "publicUrl": "/assets/pages/dropryde/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "kind": "images",
+      "bytes": 7066,
+      "src": "/assets/pages/dropryde/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp"
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "file": "public/assets/pages/dropryde/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "publicUrl": "/assets/pages/dropryde/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "kind": "videos",
+      "bytes": 176266,
+      "src": "/assets/pages/dropryde/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4"
     },
     {
       "sourceUrl": "/media/adb51bc73fa1b4e86741.woff2",
-      "src": "/media/adb51bc73fa1b4e86741.woff2",
       "file": "public/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2",
-      "publicUrl": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2"
+      "publicUrl": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2",
+      "kind": "fonts",
+      "bytes": 22852,
+      "src": "/assets/shared/fonts/dbb3dd2ef6-adb51bc73fa1b4e86741.woff2"
     },
     {
       "sourceUrl": "/media/e88cdb08566f9c4ffdf3.woff2",
-      "src": "/media/e88cdb08566f9c4ffdf3.woff2",
       "file": "public/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2",
-      "publicUrl": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2"
+      "publicUrl": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2",
+      "kind": "fonts",
+      "bytes": 23620,
+      "src": "/assets/shared/fonts/44aabb915b-e88cdb08566f9c4ffdf3.woff2"
     },
     {
       "sourceUrl": "/media/2c991027972c013dad9c.woff2",
-      "src": "/media/2c991027972c013dad9c.woff2",
       "file": "public/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2",
-      "publicUrl": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2"
+      "publicUrl": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2",
+      "kind": "fonts",
+      "bytes": 23800,
+      "src": "/assets/shared/fonts/29e07e5b9b-2c991027972c013dad9c.woff2"
     },
     {
       "sourceUrl": "/media/6de289c2d8fc25087ada.woff2",
-      "src": "/media/6de289c2d8fc25087ada.woff2",
       "file": "public/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2",
-      "publicUrl": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2"
+      "publicUrl": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2",
+      "kind": "fonts",
+      "bytes": 23672,
+      "src": "/assets/shared/fonts/4bf5cf9f31-6de289c2d8fc25087ada.woff2"
     },
     {
       "sourceUrl": "/media/a23cdb37ae8c8caeef49.woff2",
-      "src": "/media/a23cdb37ae8c8caeef49.woff2",
       "file": "public/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2",
-      "publicUrl": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2"
+      "publicUrl": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2",
+      "kind": "fonts",
+      "bytes": 23896,
+      "src": "/assets/shared/fonts/edf374caed-a23cdb37ae8c8caeef49.woff2"
     },
     {
       "sourceUrl": "/media/5d56cc343e0005978238.woff2",
-      "src": "/media/5d56cc343e0005978238.woff2",
       "file": "public/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2",
-      "publicUrl": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2"
+      "publicUrl": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2",
+      "kind": "fonts",
+      "bytes": 24036,
+      "src": "/assets/shared/fonts/0d7aab7129-5d56cc343e0005978238.woff2"
     },
     {
       "sourceUrl": "/media/bc868164334af9afed12.woff2",
-      "src": "/media/bc868164334af9afed12.woff2",
       "file": "public/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2",
-      "publicUrl": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2"
+      "publicUrl": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2",
+      "kind": "fonts",
+      "bytes": 23988,
+      "src": "/assets/shared/fonts/8d721d232f-bc868164334af9afed12.woff2"
     },
     {
       "sourceUrl": "/media/810fea6932747c951324.woff2",
-      "src": "/media/810fea6932747c951324.woff2",
       "file": "public/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2",
-      "publicUrl": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2"
+      "publicUrl": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2",
+      "kind": "fonts",
+      "bytes": 23888,
+      "src": "/assets/shared/fonts/9e0d311eb4-810fea6932747c951324.woff2"
     },
     {
       "sourceUrl": "/media/9128c2e2476e05c8e558.woff2",
-      "src": "/media/9128c2e2476e05c8e558.woff2",
       "file": "public/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2",
-      "publicUrl": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2"
+      "publicUrl": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2",
+      "kind": "fonts",
+      "bytes": 23616,
+      "src": "/assets/shared/fonts/70badeaf64-9128c2e2476e05c8e558.woff2"
     },
     {
       "sourceUrl": "/media/8437d2e7ec22ac91bfcb.woff2",
-      "src": "/media/8437d2e7ec22ac91bfcb.woff2",
       "file": "public/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2",
-      "publicUrl": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2"
+      "publicUrl": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2",
+      "kind": "fonts",
+      "bytes": 21572,
+      "src": "/assets/shared/fonts/766f220d10-8437d2e7ec22ac91bfcb.woff2"
     },
     {
       "sourceUrl": "/media/85d033c96d62a2ad094b.woff2",
-      "src": "/media/85d033c96d62a2ad094b.woff2",
       "file": "public/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2",
-      "publicUrl": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2"
+      "publicUrl": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2",
+      "kind": "fonts",
+      "bytes": 22024,
+      "src": "/assets/shared/fonts/a1bc60387b-85d033c96d62a2ad094b.woff2"
     },
     {
       "sourceUrl": "/media/426c272203176174caa9.woff2",
-      "src": "/media/426c272203176174caa9.woff2",
       "file": "public/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2",
-      "publicUrl": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2"
+      "publicUrl": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2",
+      "kind": "fonts",
+      "bytes": 22064,
+      "src": "/assets/shared/fonts/2fe67cba0a-426c272203176174caa9.woff2"
     },
     {
       "sourceUrl": "/media/c29b10834c390f65c7c8.woff2",
-      "src": "/media/c29b10834c390f65c7c8.woff2",
       "file": "public/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2",
-      "publicUrl": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2"
+      "publicUrl": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2",
+      "kind": "fonts",
+      "bytes": 21892,
+      "src": "/assets/shared/fonts/ac94b63610-c29b10834c390f65c7c8.woff2"
     },
     {
       "sourceUrl": "/media/0753679b919747d08ae2.woff2",
-      "src": "/media/0753679b919747d08ae2.woff2",
       "file": "public/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2",
-      "publicUrl": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2"
+      "publicUrl": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2",
+      "kind": "fonts",
+      "bytes": 22200,
+      "src": "/assets/shared/fonts/c6be955b63-0753679b919747d08ae2.woff2"
     },
     {
       "sourceUrl": "/media/4507cf55b66f34fafc60.woff2",
-      "src": "/media/4507cf55b66f34fafc60.woff2",
       "file": "public/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2",
-      "publicUrl": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2"
+      "publicUrl": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2",
+      "kind": "fonts",
+      "bytes": 22240,
+      "src": "/assets/shared/fonts/054cedc051-4507cf55b66f34fafc60.woff2"
     },
     {
       "sourceUrl": "/media/0763584e25fc49160342.woff2",
-      "src": "/media/0763584e25fc49160342.woff2",
       "file": "public/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2",
-      "publicUrl": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2"
+      "publicUrl": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2",
+      "kind": "fonts",
+      "bytes": 22240,
+      "src": "/assets/shared/fonts/30178f9639-0763584e25fc49160342.woff2"
     },
     {
       "sourceUrl": "/media/8ac1c1c9d3f2b55e4492.woff2",
-      "src": "/media/8ac1c1c9d3f2b55e4492.woff2",
       "file": "public/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2",
-      "publicUrl": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2"
+      "publicUrl": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2",
+      "kind": "fonts",
+      "bytes": 22140,
+      "src": "/assets/shared/fonts/f685fa25f5-8ac1c1c9d3f2b55e4492.woff2"
     },
     {
       "sourceUrl": "/media/f5356de1d7f63a783a8a.woff2",
-      "src": "/media/f5356de1d7f63a783a8a.woff2",
       "file": "public/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2",
-      "publicUrl": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2"
+      "publicUrl": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2",
+      "kind": "fonts",
+      "bytes": 21916,
+      "src": "/assets/shared/fonts/e24fa7fdeb-f5356de1d7f63a783a8a.woff2"
     },
     {
       "sourceUrl": "/media/ff202abd4481de801fe4.woff2",
-      "src": "/media/ff202abd4481de801fe4.woff2",
       "file": "public/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2",
-      "publicUrl": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2"
+      "publicUrl": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2",
+      "kind": "fonts",
+      "bytes": 24692,
+      "src": "/assets/shared/fonts/96e8978817-ff202abd4481de801fe4.woff2"
     },
     {
       "sourceUrl": "/media/bdc18eef5369bfc855dd.woff2",
-      "src": "/media/bdc18eef5369bfc855dd.woff2",
       "file": "public/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2",
-      "publicUrl": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2"
+      "publicUrl": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2",
+      "kind": "fonts",
+      "bytes": 25308,
+      "src": "/assets/shared/fonts/af2f05a413-bdc18eef5369bfc855dd.woff2"
     },
     {
       "sourceUrl": "/media/223cdd8d3096c7614af3.woff2",
-      "src": "/media/223cdd8d3096c7614af3.woff2",
       "file": "public/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2",
-      "publicUrl": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2"
+      "publicUrl": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2",
+      "kind": "fonts",
+      "bytes": 25340,
+      "src": "/assets/shared/fonts/809c079b21-223cdd8d3096c7614af3.woff2"
     },
     {
       "sourceUrl": "/media/44a0d91536ba5d02029c.woff2",
-      "src": "/media/44a0d91536ba5d02029c.woff2",
       "file": "public/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2",
-      "publicUrl": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2"
+      "publicUrl": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2",
+      "kind": "fonts",
+      "bytes": 25040,
+      "src": "/assets/shared/fonts/a7fc757e07-44a0d91536ba5d02029c.woff2"
     },
     {
       "sourceUrl": "/media/723b804690ef33ffa300.woff2",
-      "src": "/media/723b804690ef33ffa300.woff2",
       "file": "public/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2",
-      "publicUrl": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2"
+      "publicUrl": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2",
+      "kind": "fonts",
+      "bytes": 25636,
+      "src": "/assets/shared/fonts/abeb71e671-723b804690ef33ffa300.woff2"
     },
     {
       "sourceUrl": "/media/9b00c4243120f679dae6.woff2",
-      "src": "/media/9b00c4243120f679dae6.woff2",
       "file": "public/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2",
-      "publicUrl": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2"
+      "publicUrl": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2",
+      "kind": "fonts",
+      "bytes": 25816,
+      "src": "/assets/shared/fonts/d650b11841-9b00c4243120f679dae6.woff2"
     },
     {
       "sourceUrl": "/media/13722ff98bf5417b0e88.woff2",
-      "src": "/media/13722ff98bf5417b0e88.woff2",
       "file": "public/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2",
-      "publicUrl": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2"
+      "publicUrl": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2",
+      "kind": "fonts",
+      "bytes": 25880,
+      "src": "/assets/shared/fonts/c0ab48c589-13722ff98bf5417b0e88.woff2"
     },
     {
       "sourceUrl": "/media/ee32603ccc9ac657e370.woff2",
-      "src": "/media/ee32603ccc9ac657e370.woff2",
       "file": "public/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2",
-      "publicUrl": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2"
+      "publicUrl": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2",
+      "kind": "fonts",
+      "bytes": 25932,
+      "src": "/assets/shared/fonts/a4dd15016f-ee32603ccc9ac657e370.woff2"
     },
     {
       "sourceUrl": "/media/9699f125c906cf10c4c4.woff2",
-      "src": "/media/9699f125c906cf10c4c4.woff2",
       "file": "public/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2",
-      "publicUrl": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2"
+      "publicUrl": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2",
+      "kind": "fonts",
+      "bytes": 25408,
+      "src": "/assets/shared/fonts/dfcddb2891-9699f125c906cf10c4c4.woff2"
     },
     {
       "sourceUrl": "/media/92cbfcbfcc2758f032bc.woff2",
-      "src": "/media/92cbfcbfcc2758f032bc.woff2",
       "file": "public/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2",
-      "publicUrl": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2"
+      "publicUrl": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2",
+      "kind": "fonts",
+      "bytes": 23392,
+      "src": "/assets/shared/fonts/89bd912267-92cbfcbfcc2758f032bc.woff2"
     },
     {
       "sourceUrl": "/media/6f5740f738cf20ec4da9.woff2",
-      "src": "/media/6f5740f738cf20ec4da9.woff2",
       "file": "public/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2",
-      "publicUrl": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2"
+      "publicUrl": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2",
+      "kind": "fonts",
+      "bytes": 23920,
+      "src": "/assets/shared/fonts/2b436686ee-6f5740f738cf20ec4da9.woff2"
     },
     {
       "sourceUrl": "/media/2305f0853248f7120e55.woff2",
-      "src": "/media/2305f0853248f7120e55.woff2",
       "file": "public/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2",
-      "publicUrl": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2"
+      "publicUrl": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2",
+      "kind": "fonts",
+      "bytes": 23916,
+      "src": "/assets/shared/fonts/d86c978979-2305f0853248f7120e55.woff2"
     },
     {
       "sourceUrl": "/media/7c761112b2acce3bd913.woff2",
-      "src": "/media/7c761112b2acce3bd913.woff2",
       "file": "public/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2",
-      "publicUrl": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2"
+      "publicUrl": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2",
+      "kind": "fonts",
+      "bytes": 23664,
+      "src": "/assets/shared/fonts/ad0ae5b11a-7c761112b2acce3bd913.woff2"
     },
     {
       "sourceUrl": "/media/0cc476d41debd170ce2d.woff2",
-      "src": "/media/0cc476d41debd170ce2d.woff2",
       "file": "public/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2",
-      "publicUrl": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2"
+      "publicUrl": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2",
+      "kind": "fonts",
+      "bytes": 24272,
+      "src": "/assets/shared/fonts/5ec48c714b-0cc476d41debd170ce2d.woff2"
     },
     {
       "sourceUrl": "/media/196082c3f10834577ca3.woff2",
-      "src": "/media/196082c3f10834577ca3.woff2",
       "file": "public/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2",
-      "publicUrl": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2"
+      "publicUrl": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2",
+      "kind": "fonts",
+      "bytes": 24452,
+      "src": "/assets/shared/fonts/74fa315218-196082c3f10834577ca3.woff2"
     },
     {
       "sourceUrl": "/media/8d3cb755fc28ebcb7cc8.woff2",
-      "src": "/media/8d3cb755fc28ebcb7cc8.woff2",
       "file": "public/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2",
-      "publicUrl": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2"
+      "publicUrl": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2",
+      "kind": "fonts",
+      "bytes": 24356,
+      "src": "/assets/shared/fonts/aa3d76044e-8d3cb755fc28ebcb7cc8.woff2"
     },
     {
       "sourceUrl": "/media/46a87a5a69c501104a7d.woff2",
-      "src": "/media/46a87a5a69c501104a7d.woff2",
       "file": "public/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2",
-      "publicUrl": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2"
+      "publicUrl": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2",
+      "kind": "fonts",
+      "bytes": 24400,
+      "src": "/assets/shared/fonts/ed318485ca-46a87a5a69c501104a7d.woff2"
     },
     {
       "sourceUrl": "/media/676b2b417dc9628b3141.woff2",
-      "src": "/media/676b2b417dc9628b3141.woff2",
       "file": "public/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2",
-      "publicUrl": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2"
+      "publicUrl": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2",
+      "kind": "fonts",
+      "bytes": 23900,
+      "src": "/assets/shared/fonts/6522ce24e8-676b2b417dc9628b3141.woff2"
     },
     {
       "sourceUrl": "/media/32beb16fb99cef48704a.woff2",
-      "src": "/media/32beb16fb99cef48704a.woff2",
       "file": "public/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2",
-      "publicUrl": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2"
+      "publicUrl": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2",
+      "kind": "fonts",
+      "bytes": 13800,
+      "src": "/assets/shared/fonts/c5161ac7ec-32beb16fb99cef48704a.woff2"
     },
     {
       "sourceUrl": "/media/6991953ff3fcc785f57a.woff2",
-      "src": "/media/6991953ff3fcc785f57a.woff2",
       "file": "public/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2",
-      "publicUrl": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2"
+      "publicUrl": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2",
+      "kind": "fonts",
+      "bytes": 14320,
+      "src": "/assets/shared/fonts/40cea0035e-6991953ff3fcc785f57a.woff2"
     },
     {
       "sourceUrl": "/media/d2b0d156a2b167df23fa.woff2",
-      "src": "/media/d2b0d156a2b167df23fa.woff2",
       "file": "public/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2",
-      "publicUrl": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2"
+      "publicUrl": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2",
+      "kind": "fonts",
+      "bytes": 14404,
+      "src": "/assets/shared/fonts/3209f6ee0d-d2b0d156a2b167df23fa.woff2"
     },
     {
       "sourceUrl": "/media/4b62515a3a01a1f20814.woff2",
-      "src": "/media/4b62515a3a01a1f20814.woff2",
       "file": "public/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2",
-      "publicUrl": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2"
+      "publicUrl": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2",
+      "kind": "fonts",
+      "bytes": 14340,
+      "src": "/assets/shared/fonts/3457987c07-4b62515a3a01a1f20814.woff2"
     },
     {
       "sourceUrl": "/media/d738b1920ffc60000ddd.woff2",
-      "src": "/media/d738b1920ffc60000ddd.woff2",
       "file": "public/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2",
-      "publicUrl": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2"
+      "publicUrl": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2",
+      "kind": "fonts",
+      "bytes": 14364,
+      "src": "/assets/shared/fonts/88a2f50b4c-d738b1920ffc60000ddd.woff2"
     },
     {
       "sourceUrl": "/media/160969dc106bd981a407.woff2",
-      "src": "/media/160969dc106bd981a407.woff2",
       "file": "public/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2",
-      "publicUrl": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2"
+      "publicUrl": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2",
+      "kind": "fonts",
+      "bytes": 14456,
+      "src": "/assets/shared/fonts/811f8fc156-160969dc106bd981a407.woff2"
     },
     {
       "sourceUrl": "/media/c40bf310ea5de50d3b0c.woff2",
-      "src": "/media/c40bf310ea5de50d3b0c.woff2",
       "file": "public/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2",
-      "publicUrl": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2"
+      "publicUrl": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2",
+      "kind": "fonts",
+      "bytes": 13912,
+      "src": "/assets/shared/fonts/de1fc64441-c40bf310ea5de50d3b0c.woff2"
     },
     {
       "sourceUrl": "/media/c4a1fdb19c7c67c2aa4b.woff2",
-      "src": "/media/c4a1fdb19c7c67c2aa4b.woff2",
       "file": "public/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2",
-      "publicUrl": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2"
+      "publicUrl": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2",
+      "kind": "fonts",
+      "bytes": 30676,
+      "src": "/assets/shared/fonts/5193ae3842-c4a1fdb19c7c67c2aa4b.woff2"
     },
     {
       "sourceUrl": "/media/562a2afbcba42a802eb8.woff2",
-      "src": "/media/562a2afbcba42a802eb8.woff2",
       "file": "public/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2",
-      "publicUrl": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2"
+      "publicUrl": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2",
+      "kind": "fonts",
+      "bytes": 30408,
+      "src": "/assets/shared/fonts/8185858fc8-562a2afbcba42a802eb8.woff2"
     },
     {
       "sourceUrl": "/media/6785230cfb887b7f1b91.woff2",
-      "src": "/media/6785230cfb887b7f1b91.woff2",
       "file": "public/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2",
-      "publicUrl": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2"
+      "publicUrl": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2",
+      "kind": "fonts",
+      "bytes": 30704,
+      "src": "/assets/shared/fonts/9390ef30b3-6785230cfb887b7f1b91.woff2"
     },
     {
       "sourceUrl": "/media/44033c02517e5f0cd130.woff2",
-      "src": "/media/44033c02517e5f0cd130.woff2",
       "file": "public/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2",
-      "publicUrl": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2"
+      "publicUrl": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2",
+      "kind": "fonts",
+      "bytes": 30936,
+      "src": "/assets/shared/fonts/0e5803e6f6-44033c02517e5f0cd130.woff2"
     },
     {
       "sourceUrl": "/media/a3fdf2a73e5e238bd007.woff2",
-      "src": "/media/a3fdf2a73e5e238bd007.woff2",
       "file": "public/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2",
-      "publicUrl": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2"
+      "publicUrl": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2",
+      "kind": "fonts",
+      "bytes": 29432,
+      "src": "/assets/shared/fonts/a9d0ea7728-a3fdf2a73e5e238bd007.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/FontsFree-Net-SFProDisplay-Black.woff2",
-      "src": "/wp-content/uploads/2026/07/FontsFree-Net-SFProDisplay-Black.woff2",
       "file": "public/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2",
-      "publicUrl": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2"
+      "publicUrl": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2",
+      "kind": "fonts",
+      "bytes": 92464,
+      "src": "/assets/shared/fonts/6c5ecfca7c-FontsFree-Net-SFProDisplay-Black.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/SFPRODISPLAYREGULAR-2.woff2",
-      "src": "/wp-content/uploads/2026/07/SFPRODISPLAYREGULAR-2.woff2",
       "file": "public/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2",
-      "publicUrl": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2"
+      "publicUrl": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2",
+      "kind": "fonts",
+      "bytes": 89432,
+      "src": "/assets/shared/fonts/391a9e7778-SFPRODISPLAYREGULAR-2.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/SFPRODISPLAYMEDIUM.woff2",
-      "src": "/wp-content/uploads/2026/07/SFPRODISPLAYMEDIUM.woff2",
       "file": "public/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2",
-      "publicUrl": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2"
+      "publicUrl": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2",
+      "kind": "fonts",
+      "bytes": 99716,
+      "src": "/assets/shared/fonts/2949522965-SFPRODISPLAYMEDIUM.woff2"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/leaderbanner2.png",
-      "src": "/wp-content/uploads/2026/08/leaderbanner2.png",
-      "file": "public/assets/shared/images/738ff22f65-leaderbanner2.png",
-      "publicUrl": "/assets/shared/images/738ff22f65-leaderbanner2.png"
+      "file": "public/assets/pages/dropryde/images/738ff22f65-leaderbanner2.png",
+      "publicUrl": "/assets/pages/dropryde/images/738ff22f65-leaderbanner2.png",
+      "kind": "images",
+      "bytes": 140454,
+      "src": "/assets/pages/dropryde/images/738ff22f65-leaderbanner2.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/bannersec.png",
-      "src": "/wp-content/uploads/2026/08/bannersec.png",
-      "file": "public/assets/shared/images/389bff87df-bannersec.png",
-      "publicUrl": "/assets/shared/images/389bff87df-bannersec.png"
+      "file": "public/assets/pages/dropryde/images/389bff87df-bannersec.png",
+      "publicUrl": "/assets/pages/dropryde/images/389bff87df-bannersec.png",
+      "kind": "images",
+      "bytes": 115760,
+      "src": "/assets/pages/dropryde/images/389bff87df-bannersec.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-2.png",
-      "src": "/wp-content/uploads/2026/08/mytango-mobile-2.png",
-      "file": "public/assets/shared/images/3818531fb9-mytango-mobile-2.png",
-      "publicUrl": "/assets/shared/images/3818531fb9-mytango-mobile-2.png"
+      "file": "public/assets/pages/dropryde/images/3818531fb9-mytango-mobile-2.png",
+      "publicUrl": "/assets/pages/dropryde/images/3818531fb9-mytango-mobile-2.png",
+      "kind": "images",
+      "bytes": 57917,
+      "src": "/assets/pages/dropryde/images/3818531fb9-mytango-mobile-2.png"
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/ID-logo.jpg",
-      "src": "/wp-content/uploads/2026/10/ID-logo.jpg",
       "file": "public/assets/shared/images/839103d20d-ID-logo.jpg",
-      "publicUrl": "/assets/shared/images/839103d20d-ID-logo.jpg"
+      "publicUrl": "/assets/shared/images/839103d20d-ID-logo.jpg",
+      "kind": "images",
+      "bytes": 20816,
+      "src": "/assets/shared/images/839103d20d-ID-logo.jpg"
     },
     {
       "sourceUrl": "/media/7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
-      "src": "/media/7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
       "file": "public/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
-      "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp"
+      "publicUrl": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp",
+      "kind": "images",
+      "bytes": 8774,
+      "src": "/assets/shared/images/a86c869767-7e5cce082a8901eb477d36608a2a2bd2678df8d7-optimized.webp"
     }
   ],
   "files": [
@@ -2364,13 +2932,6 @@
       "bytes": 6176
     },
     {
-      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
-      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
-      "kind": "images",
-      "bytes": 4880
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/07/logo.png",
       "file": "public/assets/shared/images/79271c9fb9-logo.png",
       "publicUrl": "/assets/shared/images/79271c9fb9-logo.png",
@@ -2379,136 +2940,52 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10.png",
-      "file": "public/assets/shared/images/f0204b0836-Group-1-10.png",
-      "publicUrl": "/assets/shared/images/f0204b0836-Group-1-10.png",
+      "file": "public/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
+      "publicUrl": "/assets/pages/dropryde/images/f0204b0836-Group-1-10.png",
       "kind": "images",
       "bytes": 191491
     },
     {
-      "sourceUrl": "/media/a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "file": "public/assets/shared/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "publicUrl": "/assets/shared/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
-      "kind": "images",
-      "bytes": 102554
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-300x180.png",
-      "file": "public/assets/shared/images/4e512c4cf1-Group-1-10-300x180.png",
-      "publicUrl": "/assets/shared/images/4e512c4cf1-Group-1-10-300x180.png",
-      "kind": "images",
-      "bytes": 10219
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-1024x616.png",
-      "file": "public/assets/shared/images/6a18eda841-Group-1-10-1024x616.png",
-      "publicUrl": "/assets/shared/images/6a18eda841-Group-1-10-1024x616.png",
-      "kind": "images",
-      "bytes": 113694
-    },
-    {
-      "sourceUrl": "/media/1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "file": "public/assets/shared/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "publicUrl": "/assets/shared/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
-      "kind": "images",
-      "bytes": 61950
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-768x462.png",
-      "file": "public/assets/shared/images/54f3936239-Group-1-10-768x462.png",
-      "publicUrl": "/assets/shared/images/54f3936239-Group-1-10-768x462.png",
-      "kind": "images",
-      "bytes": 60078
-    },
-    {
-      "sourceUrl": "/media/ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "file": "public/assets/shared/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "publicUrl": "/assets/shared/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
-      "kind": "images",
-      "bytes": 45022
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/08/location.png",
-      "file": "public/assets/shared/images/79dc167599-location.png",
-      "publicUrl": "/assets/shared/images/79dc167599-location.png",
+      "file": "public/assets/pages/dropryde/images/79dc167599-location.png",
+      "publicUrl": "/assets/pages/dropryde/images/79dc167599-location.png",
       "kind": "images",
       "bytes": 840
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/offline.png",
-      "file": "public/assets/shared/images/51b25e103c-offline.png",
-      "publicUrl": "/assets/shared/images/51b25e103c-offline.png",
+      "file": "public/assets/pages/dropryde/images/51b25e103c-offline.png",
+      "publicUrl": "/assets/pages/dropryde/images/51b25e103c-offline.png",
       "kind": "images",
       "bytes": 615
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/emergy.png",
-      "file": "public/assets/shared/images/4441fac510-emergy.png",
-      "publicUrl": "/assets/shared/images/4441fac510-emergy.png",
+      "file": "public/assets/pages/dropryde/images/4441fac510-emergy.png",
+      "publicUrl": "/assets/pages/dropryde/images/4441fac510-emergy.png",
       "kind": "images",
       "bytes": 395
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/cardsinf.png",
-      "file": "public/assets/shared/images/7d0857a0e2-cardsinf.png",
-      "publicUrl": "/assets/shared/images/7d0857a0e2-cardsinf.png",
+      "file": "public/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
+      "publicUrl": "/assets/pages/dropryde/images/7d0857a0e2-cardsinf.png",
       "kind": "images",
       "bytes": 658
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile.png",
-      "file": "public/assets/shared/images/5874e43d35-mytango-mobile.png",
-      "publicUrl": "/assets/shared/images/5874e43d35-mytango-mobile.png",
+      "file": "public/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
+      "publicUrl": "/assets/pages/dropryde/images/5874e43d35-mytango-mobile.png",
       "kind": "images",
       "bytes": 111990
     },
     {
-      "sourceUrl": "/media/1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "file": "public/assets/shared/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "publicUrl": "/assets/shared/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
-      "kind": "images",
-      "bytes": 68024
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-300x292.png",
-      "file": "public/assets/shared/images/aebf4ba5cf-mytango-mobile-300x292.png",
-      "publicUrl": "/assets/shared/images/aebf4ba5cf-mytango-mobile-300x292.png",
-      "kind": "images",
-      "bytes": 28288
-    },
-    {
       "sourceUrl": "/wp-content/uploads/2026/08/card-1024x615.png",
-      "file": "public/assets/shared/images/d8ab6a912a-card-1024x615.png",
-      "publicUrl": "/assets/shared/images/d8ab6a912a-card-1024x615.png",
+      "file": "public/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
+      "publicUrl": "/assets/pages/dropryde/images/d8ab6a912a-card-1024x615.png",
       "kind": "images",
       "bytes": 49430
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-300x180.png",
-      "file": "public/assets/shared/images/e6dc86c890-card-300x180.png",
-      "publicUrl": "/assets/shared/images/e6dc86c890-card-300x180.png",
-      "kind": "images",
-      "bytes": 7253
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-768x461.png",
-      "file": "public/assets/shared/images/caef1da99c-card-768x461.png",
-      "publicUrl": "/assets/shared/images/caef1da99c-card-768x461.png",
-      "kind": "images",
-      "bytes": 29475
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card-1536x923.png",
-      "file": "public/assets/shared/images/735299783a-card-1536x923.png",
-      "publicUrl": "/assets/shared/images/735299783a-card-1536x923.png",
-      "kind": "images",
-      "bytes": 97373
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/08/card.png",
-      "file": "public/assets/shared/images/ae2d2d529a-card.png",
-      "publicUrl": "/assets/shared/images/ae2d2d529a-card.png",
-      "kind": "images",
-      "bytes": 165149
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/delogo1.jpg",
@@ -2946,87 +3423,10 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/footer-locations.png",
-      "file": "public/assets/shared/images/7be5878291-footer-locations.png",
-      "publicUrl": "/assets/shared/images/7be5878291-footer-locations.png",
+      "file": "public/assets/pages/dropryde/images/7be5878291-footer-locations.png",
+      "publicUrl": "/assets/pages/dropryde/images/7be5878291-footer-locations.png",
       "kind": "images",
       "bytes": 249155
-    },
-    {
-      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "file": "public/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "publicUrl": "/assets/shared/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
-      "kind": "images",
-      "bytes": 214310
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
-      "file": "public/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "publicUrl": "/assets/shared/images/f7d7f5b2a6-footer-locations-300x300.png",
-      "kind": "images",
-      "bytes": 58672
-    },
-    {
-      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "file": "public/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "publicUrl": "/assets/shared/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
-      "kind": "images",
-      "bytes": 41856
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
-      "file": "public/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "publicUrl": "/assets/shared/images/13e822d8df-footer-locations-150x150.png",
-      "kind": "images",
-      "bytes": 18370
-    },
-    {
-      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "file": "public/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "publicUrl": "/assets/shared/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
-      "kind": "images",
-      "bytes": 13536
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
-      "file": "public/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "publicUrl": "/assets/shared/images/6beadecc9f-footer-locations-768x766.png",
-      "kind": "images",
-      "bytes": 307727
-    },
-    {
-      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "file": "public/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "publicUrl": "/assets/shared/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
-      "kind": "images",
-      "bytes": 233394
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
-      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
-      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
-      "kind": "images",
-      "bytes": 3303
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
-      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
-      "kind": "images",
-      "bytes": 12642
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
-      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
-      "kind": "images",
-      "bytes": 9327
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
-      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
-      "kind": "images",
-      "bytes": 29928
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/clutch.png",
@@ -3051,15 +3451,15 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/united-states-1.png",
-      "file": "public/assets/shared/images/bfd5b2a93f-united-states-1.png",
-      "publicUrl": "/assets/shared/images/bfd5b2a93f-united-states-1.png",
+      "file": "public/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
+      "publicUrl": "/assets/pages/dropryde/images/bfd5b2a93f-united-states-1.png",
       "kind": "images",
       "bytes": 722
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/canda.png",
-      "file": "public/assets/shared/images/f709717242-canda.png",
-      "publicUrl": "/assets/shared/images/f709717242-canda.png",
+      "file": "public/assets/pages/dropryde/images/f709717242-canda.png",
+      "publicUrl": "/assets/pages/dropryde/images/f709717242-canda.png",
       "kind": "images",
       "bytes": 450
     },
@@ -3072,52 +3472,31 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/uae-flag.webp",
-      "file": "public/assets/shared/images/bbf86572d3-uae-flag.webp",
-      "publicUrl": "/assets/shared/images/bbf86572d3-uae-flag.webp",
+      "file": "public/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
+      "publicUrl": "/assets/pages/dropryde/images/bbf86572d3-uae-flag.webp",
       "kind": "images",
       "bytes": 646
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/singa.png",
-      "file": "public/assets/shared/images/6cdb775a76-singa.png",
-      "publicUrl": "/assets/shared/images/6cdb775a76-singa.png",
+      "file": "public/assets/pages/dropryde/images/6cdb775a76-singa.png",
+      "publicUrl": "/assets/pages/dropryde/images/6cdb775a76-singa.png",
       "kind": "images",
       "bytes": 731
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/pakistan.png",
-      "file": "public/assets/shared/images/90bfc17e2f-pakistan.png",
-      "publicUrl": "/assets/shared/images/90bfc17e2f-pakistan.png",
+      "file": "public/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
+      "publicUrl": "/assets/pages/dropryde/images/90bfc17e2f-pakistan.png",
       "kind": "images",
       "bytes": 402
     },
     {
       "sourceUrl": "/media/9d198c1483e19a755794.png",
-      "file": "public/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
-      "publicUrl": "/assets/shared/images/827b171d84-9d198c1483e19a755794.png",
+      "file": "public/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
+      "publicUrl": "/assets/pages/dropryde/images/827b171d84-9d198c1483e19a755794.png",
       "kind": "images",
       "bytes": 2222
-    },
-    {
-      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
-      "file": "public/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "publicUrl": "/assets/shared/videos/a2092f5d0a-footer.mp4",
-      "kind": "videos",
-      "bytes": 388872
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "file": "public/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "publicUrl": "/assets/shared/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
-      "kind": "images",
-      "bytes": 7066
-    },
-    {
-      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "file": "public/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "publicUrl": "/assets/shared/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
-      "kind": "videos",
-      "bytes": 176266
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/07/new-review-icon-add2.webp",
@@ -3170,8 +3549,8 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/10/googleslider.png",
-      "file": "public/assets/shared/images/351608e619-googleslider.png",
-      "publicUrl": "/assets/shared/images/351608e619-googleslider.png",
+      "file": "public/assets/pages/dropryde/images/351608e619-googleslider.png",
+      "publicUrl": "/assets/pages/dropryde/images/351608e619-googleslider.png",
       "kind": "images",
       "bytes": 5083
     },
@@ -3195,6 +3574,195 @@
       "publicUrl": "/assets/shared/images/bf0ab66e78-brandlogo-07sec.png",
       "kind": "images",
       "bytes": 6762
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/update-logo-150x46.png",
+      "file": "public/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "publicUrl": "/assets/shared/images/a6cf57e7a0-update-logo-150x46.png",
+      "kind": "images",
+      "bytes": 4880
+    },
+    {
+      "sourceUrl": "/media/a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/bc74920d2f-a524941ebc02f5bc93596a3feb5fcd649429e079-optimized.webp",
+      "kind": "images",
+      "bytes": 102554
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-300x180.png",
+      "file": "public/assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png",
+      "publicUrl": "/assets/pages/dropryde/images/4e512c4cf1-Group-1-10-300x180.png",
+      "kind": "images",
+      "bytes": 10219
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-1024x616.png",
+      "file": "public/assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png",
+      "publicUrl": "/assets/pages/dropryde/images/6a18eda841-Group-1-10-1024x616.png",
+      "kind": "images",
+      "bytes": 113694
+    },
+    {
+      "sourceUrl": "/media/1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/c2fef3401d-1a88eba2841245d5c9e2f539709fe516d17f2c22-optimized.webp",
+      "kind": "images",
+      "bytes": 61950
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/Group-1-10-768x462.png",
+      "file": "public/assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png",
+      "publicUrl": "/assets/pages/dropryde/images/54f3936239-Group-1-10-768x462.png",
+      "kind": "images",
+      "bytes": 60078
+    },
+    {
+      "sourceUrl": "/media/ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/11384bc9b9-ddf1620137bce064ffdb73ecd35693f63faf5c24-optimized.webp",
+      "kind": "images",
+      "bytes": 45022
+    },
+    {
+      "sourceUrl": "/media/1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/af8f514987-1940f977bc28e47890db6974ca48cdfa2689ba09-optimized.webp",
+      "kind": "images",
+      "bytes": 68024
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-300x292.png",
+      "file": "public/assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png",
+      "publicUrl": "/assets/pages/dropryde/images/aebf4ba5cf-mytango-mobile-300x292.png",
+      "kind": "images",
+      "bytes": 28288
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-300x180.png",
+      "file": "public/assets/pages/dropryde/images/e6dc86c890-card-300x180.png",
+      "publicUrl": "/assets/pages/dropryde/images/e6dc86c890-card-300x180.png",
+      "kind": "images",
+      "bytes": 7253
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-768x461.png",
+      "file": "public/assets/pages/dropryde/images/caef1da99c-card-768x461.png",
+      "publicUrl": "/assets/pages/dropryde/images/caef1da99c-card-768x461.png",
+      "kind": "images",
+      "bytes": 29475
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card-1536x923.png",
+      "file": "public/assets/pages/dropryde/images/735299783a-card-1536x923.png",
+      "publicUrl": "/assets/pages/dropryde/images/735299783a-card-1536x923.png",
+      "kind": "images",
+      "bytes": 97373
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/08/card.png",
+      "file": "public/assets/pages/dropryde/images/ae2d2d529a-card.png",
+      "publicUrl": "/assets/pages/dropryde/images/ae2d2d529a-card.png",
+      "kind": "images",
+      "bytes": 165149
+    },
+    {
+      "sourceUrl": "/media/5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/9bb5dc4d1c-5c5be7501016d649e7792f738350697051008555-optimized.webp",
+      "kind": "images",
+      "bytes": 214310
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-300x300.png",
+      "file": "public/assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "publicUrl": "/assets/pages/dropryde/images/f7d7f5b2a6-footer-locations-300x300.png",
+      "kind": "images",
+      "bytes": 58672
+    },
+    {
+      "sourceUrl": "/media/ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/1e623be046-ac87336afb1c5ce37dcc3f2480f7d3b845ff42e3-optimized.webp",
+      "kind": "images",
+      "bytes": 41856
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-150x150.png",
+      "file": "public/assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png",
+      "publicUrl": "/assets/pages/dropryde/images/13e822d8df-footer-locations-150x150.png",
+      "kind": "images",
+      "bytes": 18370
+    },
+    {
+      "sourceUrl": "/media/cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/34c5201c1d-cd230e1ce302ed7e97e18fd13c8884b9cc989174-optimized.webp",
+      "kind": "images",
+      "bytes": 13536
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer-locations-768x766.png",
+      "file": "public/assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png",
+      "publicUrl": "/assets/pages/dropryde/images/6beadecc9f-footer-locations-768x766.png",
+      "kind": "images",
+      "bytes": 307727
+    },
+    {
+      "sourceUrl": "/media/4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "file": "public/assets/pages/dropryde/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "publicUrl": "/assets/pages/dropryde/images/fea4b3b987-4b1917becbe5fed181f8fa95e466f52575a2efa0-optimized.webp",
+      "kind": "images",
+      "bytes": 233394
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-300x83.png",
+      "file": "public/assets/shared/images/722653dd1e-logo-300x83.png",
+      "publicUrl": "/assets/shared/images/722653dd1e-logo-300x83.png",
+      "kind": "images",
+      "bytes": 3303
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1024x282.png",
+      "file": "public/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "publicUrl": "/assets/shared/images/19ce8de954-logo-1024x282.png",
+      "kind": "images",
+      "bytes": 12642
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-768x212.png",
+      "file": "public/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "publicUrl": "/assets/shared/images/2ebc59a4d2-logo-768x212.png",
+      "kind": "images",
+      "bytes": 9327
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/logo-1536x423.png",
+      "file": "public/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "publicUrl": "/assets/shared/images/6dd35eb579-logo-1536x423.png",
+      "kind": "images",
+      "bytes": 29928
+    },
+    {
+      "sourceUrl": "/wp-content/uploads/2026/07/footer.mp4",
+      "file": "public/assets/pages/dropryde/videos/a2092f5d0a-footer.mp4",
+      "publicUrl": "/assets/pages/dropryde/videos/a2092f5d0a-footer.mp4",
+      "kind": "videos",
+      "bytes": 388872
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "file": "public/assets/pages/dropryde/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "publicUrl": "/assets/pages/dropryde/images/234bf63796-d6e87bd1a4534fd3a26c598acef1275743a64c28-poster.webp",
+      "kind": "images",
+      "bytes": 7066
+    },
+    {
+      "sourceUrl": "/media/d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "file": "public/assets/pages/dropryde/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "publicUrl": "/assets/pages/dropryde/videos/1b7181c810-d6e87bd1a4534fd3a26c598acef1275743a64c28-mobile.mp4",
+      "kind": "videos",
+      "bytes": 176266
     },
     {
       "sourceUrl": "/media/adb51bc73fa1b4e86741.woff2",
@@ -3555,22 +4123,22 @@
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/leaderbanner2.png",
-      "file": "public/assets/shared/images/738ff22f65-leaderbanner2.png",
-      "publicUrl": "/assets/shared/images/738ff22f65-leaderbanner2.png",
+      "file": "public/assets/pages/dropryde/images/738ff22f65-leaderbanner2.png",
+      "publicUrl": "/assets/pages/dropryde/images/738ff22f65-leaderbanner2.png",
       "kind": "images",
       "bytes": 140454
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/bannersec.png",
-      "file": "public/assets/shared/images/389bff87df-bannersec.png",
-      "publicUrl": "/assets/shared/images/389bff87df-bannersec.png",
+      "file": "public/assets/pages/dropryde/images/389bff87df-bannersec.png",
+      "publicUrl": "/assets/pages/dropryde/images/389bff87df-bannersec.png",
       "kind": "images",
       "bytes": 115760
     },
     {
       "sourceUrl": "/wp-content/uploads/2026/08/mytango-mobile-2.png",
-      "file": "public/assets/shared/images/3818531fb9-mytango-mobile-2.png",
-      "publicUrl": "/assets/shared/images/3818531fb9-mytango-mobile-2.png",
+      "file": "public/assets/pages/dropryde/images/3818531fb9-mytango-mobile-2.png",
+      "publicUrl": "/assets/pages/dropryde/images/3818531fb9-mytango-mobile-2.png",
       "kind": "images",
       "bytes": 57917
     },

@@ -8,7 +8,7 @@ import formContracts from "../../content/form-contracts.json";
 const sourceAgent = new https.Agent({ keepAlive: true, maxSockets: 16 });
 
 export async function readWordPressBlogPage(path: string) {
-  if (!/^\/(?:wp-json\/wp\/v2\/(?:posts|categories|users)(?:\?|$)|(?:blog|press-release|category|author)(?:\/|\?|$))/.test(path))
+  if (!/^\/(?:wp-json\/wp\/v2\/(?:posts|categories|users)(?:\?|$)|(?:blog|press-release|category|author)(?:\/|\?|$)|\d{4}\/\d{2}\/\d{2}(?:\/page\/\d+)?\/?(?:\?|$))/.test(path))
     throw new Error("Invalid blog source path");
   const url = new URL(path, blogSource.origin);
   // Bust upstream page/API caches without changing the public URL or canonical.
