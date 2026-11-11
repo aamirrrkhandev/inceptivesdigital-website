@@ -67,7 +67,9 @@ export function createTurnstileProtection(root: HTMLElement, selector = "[data-c
         sitekey:
           window.location.hostname === "inceptives-homepage-review.vercel.app"
             ? process.env.NEXT_PUBLIC_STAGING_TURNSTILE_SITE_KEY || container.dataset.sitekey
-            : container.dataset.sitekey,
+            : ["inceptivesdigital.com", "www.inceptivesdigital.com"].includes(window.location.hostname)
+              ? process.env.NEXT_PUBLIC_PRODUCTION_TURNSTILE_SITE_KEY
+              : container.dataset.sitekey,
         theme: container.dataset.theme || "auto",
         size,
         appearance: "always",

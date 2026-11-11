@@ -41,7 +41,7 @@ export async function POST(request: Request) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.get("email")!))
     return fail("Please enter a valid email address.", 400);
   try {
-    if (!stagingFormsEnabled()) return fail("Form delivery is not configured for this environment.", 503);
+    if (!stagingFormsEnabled(request)) return fail("Form delivery is not configured for this environment.", 503);
     if (!(await verifyStagingTurnstile(request, String(input.get("cf-turnstile-response") || ""))))
       return fail("Security verification failed. Please retry.", 400);
     const result = evaluateIOSAssessment(fields);

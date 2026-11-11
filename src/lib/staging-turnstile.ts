@@ -1,14 +1,24 @@
 import "server-only";
 
-export const stagingFormsEnabled = () => process.env.STAGING_FORMS_DELIVERY === "ghl";
-const hostname = "inceptives-homepage-review.vercel.app";
+export const stagingFormsEnabled = (request?: Request) => {
+  const hostname = request && new URL(request.url).hostname;
+  return hostname && productionHosts.has(hostname)
+    ? process.env.PRODUCTION_FORMS_DELIVERY === "ghl"
+    : process.env.STAGING_FORMS_DELIVERY === "ghl";
+};
+const stagingHostname = "inceptives-homepage-review.vercel.app";
+const productionHosts = new Set(["inceptivesdigital.com", "www.inceptivesdigital.com"]);
 
-// The staging widget has its own secret. Never forward its token to WordPress,
-// whose independent widget/secret pair must remain unchanged.
+// Staging and future production use independent widget/secret pairs.
+// Never forward tokens to the original WordPress site or trust a client hostname.
 export async function verifyStagingTurnstile(request: Request, token: string) {
-  const secret = process.env.STAGING_TURNSTILE_SECRET_KEY;
-  if (!secret || new URL(request.url).hostname !== hostname)
-    throw new Error("Staging security verification is not configured for this hostname.");
+  const hostname = new URL(request.url).hostname;
+  const production = productionHosts.has(hostname);
+  const secret = production
+    ? process.env.PRODUCTION_TURNSTILE_SECRET_KEY
+    : hostname === stagingHostname ? process.env.STAGING_TURNSTILE_SECRET_KEY : undefined;
+  if (!secret || (production && process.env.PRODUCTION_FORMS_DELIVERY !== "ghl"))
+    throw new Error("Security verification is not configured for this hostname.");
   if (!token || token.length > 2048) return false;
   const response = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
     method: "POST",

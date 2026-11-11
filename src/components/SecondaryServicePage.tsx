@@ -19,7 +19,8 @@ function section(node: LayoutNode, key: number, path: string): React.ReactNode {
           ...child,
           props: {
             ...child.props,
-            id: "website-" + path.slice(1) + "-enquiry",
+            // Keep the existing CRM form identity when a public URL changes.
+            id: "website-" + (path === "/iot-app-development" ? "iot-development" : path.slice(1)) + "-enquiry",
           },
         },
         index,

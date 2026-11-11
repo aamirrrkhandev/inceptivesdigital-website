@@ -143,5 +143,20 @@
     "source": "/staff-augmentatione",
     "destination": "/staff-augmentation",
     "statusCode": 301
+  },
+  {
+    "source": "/iot-development",
+    "destination": "/iot-app-development",
+    "statusCode": 301
+  },
+  {
+    "source": "/iot-development/",
+    "destination": "/iot-app-development",
+    "statusCode": 301
+  },
+  {
+    "source": "/iot-app-development/",
+    "destination": "/iot-app-development",
+    "statusCode": 301
   }
 ]

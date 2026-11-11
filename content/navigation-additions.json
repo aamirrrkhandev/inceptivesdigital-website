@@ -26,7 +26,7 @@
     "after": "/rpa-development-services",
     "links": [
       {
-        "path": "/iot-development",
+        "path": "/iot-app-development",
         "label": "IoT Development"
       }
     ]

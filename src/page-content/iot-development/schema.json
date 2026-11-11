@@ -57,24 +57,24 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://inceptivesdigital.com/iot-development#webpage",
-        "url": "https://inceptivesdigital.com/iot-development",
+        "@id": "https://inceptivesdigital.com/iot-app-development#webpage",
+        "url": "https://inceptivesdigital.com/iot-app-development",
         "name": "IoT App Development Company | Inceptives Digital",
         "description": "Leading IoT development company delivering protected, future-proof, and performance driven IoT solutions that connect devices and drive data-driven growth.",
         "isPartOf": {
           "@id": "https://inceptivesdigital.com/#website"
         },
         "about": {
-          "@id": "https://inceptivesdigital.com/iot-development#service"
+          "@id": "https://inceptivesdigital.com/iot-app-development#service"
         },
         "breadcrumb": {
-          "@id": "https://inceptivesdigital.com/iot-development#breadcrumb"
+          "@id": "https://inceptivesdigital.com/iot-app-development#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://inceptivesdigital.com/iot-development#breadcrumb",
+        "@id": "https://inceptivesdigital.com/iot-app-development#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -86,30 +86,30 @@
             "@type": "ListItem",
             "position": 2,
             "name": "IoT Development Company",
-            "item": "https://inceptivesdigital.com/iot-development"
+            "item": "https://inceptivesdigital.com/iot-app-development"
           }
         ]
       },
       {
         "@type": "Service",
-        "@id": "https://inceptivesdigital.com/iot-development#service",
+        "@id": "https://inceptivesdigital.com/iot-app-development#service",
         "name": "IoT Development Company",
         "serviceType": "IoT Development Company",
         "description": "Leading IoT development company delivering protected, future-proof, and performance driven IoT solutions that connect devices and drive data-driven growth.",
-        "url": "https://inceptivesdigital.com/iot-development",
+        "url": "https://inceptivesdigital.com/iot-app-development",
         "provider": {
           "@id": "https://inceptivesdigital.com/#organization"
         },
         "mainEntityOfPage": {
-          "@id": "https://inceptivesdigital.com/iot-development#webpage"
+          "@id": "https://inceptivesdigital.com/iot-app-development#webpage"
         }
       },
       {
         "@type": "FAQPage",
-        "@id": "https://inceptivesdigital.com/iot-development#faq",
-        "url": "https://inceptivesdigital.com/iot-development",
+        "@id": "https://inceptivesdigital.com/iot-app-development#faq",
+        "url": "https://inceptivesdigital.com/iot-app-development",
         "isPartOf": {
-          "@id": "https://inceptivesdigital.com/iot-development#webpage"
+          "@id": "https://inceptivesdigital.com/iot-app-development#webpage"
         },
         "mainEntity": [
           {

@@ -73,7 +73,7 @@ export async function POST(request: Request) {
         return reply("Please enter a valid email address.", 400);
       for (const value of values) payload.append(field.name, value);
     }
-    if (stagingFormsEnabled()) {
+    if (stagingFormsEnabled(request)) {
       if (!(await verifyStagingTurnstile(request, token)))
         return reply("Security verification failed. Please retry.", 400);
       // This is validation, not a delivery acknowledgement. ContactForms waits
