@@ -16,7 +16,6 @@ async function page(path, source = false) {
 for (const path of [
   "/",
   "/blog",
-  "/blog/test",
   "/author/inceptivesdigital",
   "/category/mobile-game-development",
   "/blog/mobile-app-monetization-strategies",

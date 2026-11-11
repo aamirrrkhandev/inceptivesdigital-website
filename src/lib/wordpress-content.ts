@@ -513,7 +513,12 @@ export const getWordPressPage = cache(
         const matches = JSON.parse(await read(`/wp-json/wp/v2/${endpoint}?slug=${encodeURIComponent(slug)}&_fields=id`));
         if (!Array.isArray(matches) || !matches.length) return undefined;
       }
-      const posts = await getPublishedPosts();
+      // Article existence needs only its own published record, not a paginated
+      // download of every post. Listings/archives fetch their own cards below.
+      const posts: PostIndex[] = articlePath
+        ? JSON.parse(await read(`/wp-json/wp/v2/posts?status=publish&slug=${encodeURIComponent(path.split("/").pop()!)}&_fields=id,slug,link,modified_gmt,meta._flow_reviewer_id,meta._flow_review_status`))
+        : [];
+      if (!Array.isArray(posts)) throw new Error("Invalid WordPress post response");
       const post =
         path === "/blog" || path === "/press-release" || archive
           ? undefined
