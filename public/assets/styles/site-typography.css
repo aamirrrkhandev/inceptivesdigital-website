@@ -88,13 +88,37 @@ body .migrated-page .sitekit-navbar-nav > li > a {
   body .migrated-page :is(input, select, textarea) { font-size: 16px; }
 }
 @media (max-width: 1024px) {
+  body .migrated-page[data-source-path="/"] .home-container-sty {
+    --min-height: 0;
+    --padding-top: 20px;
+    --padding-right: 20px;
+    --padding-bottom: 20px;
+    --padding-left: 20px;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 20px !important;
+  }
+  body .migrated-page[data-source-path="/"] .home-container-sty .homecard-bottom {
+    height: auto !important;
+    min-height: 0 !important;
+    flex-grow: 0;
+    transform: none !important;
+  }
   /* The imported hero stretched a landscape image to 100% x 100% on phones. */
-  body .secondary-service-page[data-secondary-path="/mobile-game-development"] > div:first-child > div:first-child {
+  body .secondary-service-page[data-secondary-path="/mobile-game-development"] > div:first-of-type > div:first-of-type {
     height: auto !important;
     min-height: 0;
     background-size: 100% auto !important;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: clamp(180px, 52vw, 420px);
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body .migrated-page[data-source-path="/"] [data-id="17188440"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  body .migrated-page[data-source-path="/"] [data-id="17188440"] > .home-container-sty:last-child {
+    grid-column: 1 / -1;
   }
 }
