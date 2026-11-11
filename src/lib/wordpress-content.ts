@@ -506,11 +506,16 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
 export const getWordPressPage = cache(
   async (path: string, blogQuery = ""): Promise<SitePage | undefined> => {
     const saved = getPage(path);
-    const archive =
-      /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path) && !!saved;
+    const archive = /^\/(?:author|category)\/[^/]+(?:\/page\/\d+)?$/.test(path);
     const articlePath = /^\/(?:blog|press-release)\/[^/]+$/.test(path);
     if (path !== "/blog" && path !== "/press-release" && !articlePath && !archive) return saved;
     try {
+      if (archive && !saved) {
+        const [, kind, slug] = path.split("/");
+        const endpoint = kind === "author" ? "users" : "categories";
+        const matches = JSON.parse(await read(`/wp-json/wp/v2/${endpoint}?slug=${encodeURIComponent(slug)}&_fields=id`));
+        if (!Array.isArray(matches) || !matches.length) return undefined;
+      }
       const posts = await getPublishedPosts();
       const post =
         path === "/blog" || path === "/press-release" || archive
@@ -540,7 +545,7 @@ export const getWordPressPage = cache(
               : ""),
       );
       const $ = cheerio.load(html);
-      const template = saved || getPage("/blog/no-code-mvp-vs-custom-mvp")!;
+      const template = saved || getPage(archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;
       const page: SitePage = {
         ...template,
         path,
