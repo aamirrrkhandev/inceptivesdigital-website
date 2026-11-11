@@ -9,3 +9,8 @@ Assigning the known-working deployment to the custom domain failed with `cert_mi
 The local resolver also returned NXDOMAIN during checks. Live-domain visual and SSL validation remain pending; do not report production as fixed.
 
 Latest CSS change caps laptop outer containers at 1440px below 1600px viewport width and larger desktop containers at 1600px, with existing fluid gutters. Original favicon and mobile drawer corrections are included in the pending release. Content, URL paths and SEO values were not changed by these CSS fixes.
+
+## Domain alignment — verified
+User-corrected DNS now returns only 216.150.1.1. Vercel reports no conflicts and misconfigured:false. Custom apex was successfully mapped to dpl_GUszFTY3dx3KJZwt3hUFMHw44c2z, matching staging. Secure HTTPS returned200 with certificate validation intact. Desktop browser geometry at1920/1440/1366 matched between hosts. No horizontal overflow or same-host HTTP errors observed across four tested widths. Local OS DNS still lagged; browser used the publicly verified Vercel IP through an explicit resolver override, preserving hostname and TLS validation.
+
+Remaining launch issue: the preview deployment still returns X-Robots-Tag:noindex,nofollow,noarchive. Production indexing requires separate environment configuration; visual recovery is not full SEO launch certification.
