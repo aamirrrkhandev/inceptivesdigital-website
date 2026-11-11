@@ -1,0 +1,35 @@
+{
+  "staging": "https://inceptives-homepage-review.vercel.app",
+  "deployment": "dpl_B1NXaA7SnsEjM7ofeALNMdfMRPHQ",
+  "commit": "15719ba74475083f5cfb58d4d82a732c7929e7b6",
+  "rollback": "dpl_756M9PmwU5U6mgiiB4GrnZE4uSaE",
+  "snapshot": {
+    "nonBlogPages": 78,
+    "cssJSDependencies": 185,
+    "referencedUploads": 1417,
+    "additionalOriginals": 5,
+    "phpSnippets": [
+      23,
+      24,
+      25
+    ]
+  },
+  "verification": {
+    "sourceTextUnchangedFromPrior77": true,
+    "originalPHPCases": 81,
+    "matchingPHPCases": 81,
+    "localFormContracts": 157,
+    "offlineChecks": 13,
+    "primaryHostRequests": 0,
+    "remotePageParity": 80,
+    "posts": 142,
+    "categories": 15,
+    "indexableBlogAuthors": 9,
+    "sitemapURLs": 233,
+    "redirects": 29,
+    "realIOSGHL": true,
+    "realIOSThankYou": true,
+    "latestCallRailDashboard": "confirmed: event 835320901, 7/7 fields, correct form URL and source/medium; 2026-11-11 16:40 PKT"
+  },
+  "liveAndDNSChanged": false
+}

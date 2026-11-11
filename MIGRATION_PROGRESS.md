@@ -365,3 +365,7 @@ Final staging deployment: dpl_756M9PmwU5U6mgiiB4GrnZE4uSaE, code 3f4c233e5648b84
 
 
 Final non-blog pull: 78 current WordPress pages, 185 CSS/JS dependencies, 1417 referenced uploads (5 additional originals saved), source snippets 23/24/25 captured read-only. Exact original PHP 81-combination parity established. Local frozen form contracts/search/non-blog sitemap and iOS rule port replace all original-host runtime requests. Offline verification passes: 157 form contracts, iOS handler/security, 13 GET/browser checks; 80-page parity and blog pin/reviewer/Press Release checks pass. Staging deployment and real iOS check follow.
+
+
+### Final standalone iOS verification — 11 November 2026
+Runtime 15719ba is deployed to separate staging. At 16:40 PKT, real Turnstile-protected iOS assessment delivery was verified in GHL and CallRail event 835320901: all seven fields, correct form URL and source/medium, followed by thank-you. Earlier 16:27 lead is GHL-confirmed but CallRail-unconfirmed; replacement test verifies current tracking. No UI/SEO, live site or DNS changes were made during this verification. Evidence: audit/final-offline-release-2026-11-11/real-ios-verification.json and dashboard screenshots.

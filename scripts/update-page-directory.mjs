@@ -11,6 +11,11 @@ for(let page=1;page<=100;page++) {
   posts.forEach(post=>paths.add(new URL(post.link).pathname.replace(/\/$/,'')||'/'));
   if(posts.length<100)break;
 }
+for(const endpoint of ['users?has_published_posts=true','categories?hide_empty=false']) {
+ const response=await sourceFetch('https://nextincep.wpenginepowered.com/wp-json/wp/v2/'+endpoint+'&per_page=100&_fields=slug');
+ if(!response.ok)throw Error('Blog taxonomy inventory unavailable');
+ for(const item of await response.json()) paths.add('/'+(endpoint.startsWith('users')?'author':'category')+'/'+item.slug);
+}
 const rows=[['url','management','route_file','page_file','content_file','seo_file','schema_file','assets_file','asset_folder']];
 for(const path of [...paths].sort()) {
   const entry=index[path];
