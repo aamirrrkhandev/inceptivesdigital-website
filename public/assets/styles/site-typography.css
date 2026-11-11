@@ -140,6 +140,24 @@ body .migrated-page[data-source-path="/portfolio"] .position-relative .migrated-
   body .migrated-page :is(input, select, textarea) { font-size: 16px; }
 }
 @media (max-width: 1024px) {
+  body .migrated-page[data-source-path] .sitekit-menu-container {
+    padding: 0 0 calc(88px + env(safe-area-inset-bottom, 0px)) !important;
+    scroll-padding-top: 118px;
+    scroll-padding-bottom: 88px;
+    isolation: isolate;
+  }
+  body .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-nav-identity-panel {
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 25px 24px !important;
+    background: #202020 !important;
+    z-index: 1001 !important;
+  }
+  body .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-navbar-nav {
+    width: 100% !important;
+    padding-inline: 17px !important;
+  }
   body .migrated-page[data-source-path="/"] .home-container-sty {
     --min-height: 0;
     --padding-top: 20px;
@@ -165,6 +183,28 @@ body .migrated-page[data-source-path="/portfolio"] .position-relative .migrated-
     background-position: center bottom;
     padding-bottom: clamp(180px, 52vw, 420px);
   }
+}
+.site-chat-launcher {
+  position: fixed;
+  right: 16px;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 2147483000;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #06f;
+  color: #fff;
+  box-shadow: 0 3px 14px #0003;
+  cursor: pointer;
+}
+.site-chat-launcher:focus-visible { outline: 3px solid #00ce44; outline-offset: 4px; }
+html:not([data-chat-open="true"]) #chat-widget-container {
+  visibility: hidden !important;
+  pointer-events: none !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   body .migrated-page[data-source-path="/"] [data-id="17188440"] {

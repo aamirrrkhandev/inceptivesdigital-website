@@ -4,6 +4,7 @@ import { indexingAllowed } from "@/lib/seo-policy";
 import GhlTracking from "@/components/GhlTracking";
 import CallRailTracking from "@/components/CallRailTracking";
 import SourceAnalytics from "@/components/SourceAnalytics";
+import ChatLauncher from "@/components/ChatLauncher";
 export const metadata: Metadata = {
   metadataBase: new URL("https://inceptivesdigital.com"),
   robots: indexingAllowed
@@ -22,6 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <GhlTracking />
         <CallRailTracking />
+        <ChatLauncher />
         <SourceAnalytics />
       </body>
     </html>
