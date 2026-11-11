@@ -1,4 +1,5 @@
 "use client";
+import { captureWithAcknowledgement } from "./callrail-transport";
 
 export const CALLRAIL_SCRIPT =
   "https://cdn.callrail.com/companies/691547027/8acc5c6cc37011b7cee7/12/swap.js";
@@ -69,11 +70,11 @@ export async function captureCallRailSubmission(form: HTMLFormElement) {
   if (captured.get(form) === signature) return;
   let readinessTimer: ReturnType<typeof setTimeout> | undefined;
   try {
-    const deadline = Date.now() + 1500;
+    const deadline = Date.now() + 8000;
     const ready = await Promise.race([
       loadCallRail(),
       new Promise<boolean>((resolve) => {
-        readinessTimer = setTimeout(() => resolve(false), 1500);
+        readinessTimer = setTimeout(() => resolve(false), 8000);
       }),
     ]);
     if (!ready) {
@@ -87,11 +88,11 @@ export async function captureCallRailSubmission(form: HTMLFormElement) {
       form.dataset.callrailCapture = "unavailable";
       return;
     }
-    window.CallTrk.captureForm(form);
     captured.set(form, signature);
-    // The vendor owns transport/persisted retries; invocation is not an ACK.
-    form.dataset.callrailCapture = "queued";
+    form.dataset.callrailCapture = "sending";
+    form.dataset.callrailCapture = await captureWithAcknowledgement(form, () => window.CallTrk!.captureForm!(form));
   } catch {
+    captured.delete(form);
     form.dataset.callrailCapture = "unavailable";
     // Analytics blocking must not discard an already-confirmed lead.
   } finally {
