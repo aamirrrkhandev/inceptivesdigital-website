@@ -1,0 +1,53 @@
+{
+  "base": "https://inceptives-homepage-review.vercel.app",
+  "results": [
+    {
+      "path": "/api/blog-listing?blog_cat=all&blog_view=desktop",
+      "sample": 1,
+      "status": 200,
+      "ms": 7607,
+      "bytes": 18761,
+      "cache": "private, no-store"
+    },
+    {
+      "path": "/api/blog-listing?blog_cat=all&blog_view=desktop",
+      "sample": 2,
+      "status": 200,
+      "ms": 4839,
+      "bytes": 18761,
+      "cache": "private, no-store"
+    },
+    {
+      "path": "/blog",
+      "sample": 1,
+      "status": 200,
+      "ms": 8944,
+      "bytes": 1376537,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/blog",
+      "sample": 2,
+      "status": 200,
+      "ms": 5580,
+      "bytes": 1376537,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-austin",
+      "sample": 1,
+      "status": 200,
+      "ms": 4736,
+      "bytes": 1974825,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/blog/mobile-app-development-cost-austin",
+      "sample": 2,
+      "status": 200,
+      "ms": 4034,
+      "bytes": 1974825,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+    }
+  ]
+}
