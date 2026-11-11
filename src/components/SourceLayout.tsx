@@ -2,7 +2,7 @@ import Header from "./shared/Header";
 import Footer from "./shared/Footer";
 import { renderNode } from "./shared/SourceNode";
 export { renderNode } from "./shared/SourceNode";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import type { SitePage } from "@/lib/site-model";
 import SiteInteractions from "./SiteInteractions";
 import ArticleInteractions from "./ArticleInteractions";
@@ -41,7 +41,7 @@ export default function SourceLayout({
       {sharedStylesheet ? <link rel="stylesheet" href={sharedStylesheet} /> : <style>{css}</style>}
       {page.nodes.map((node, i) =>
         typeof node !== "string" && node.tag === "main" && mainContent
-          ? mainContent
+          ? <Fragment key={"main-" + i}>{mainContent}</Fragment>
           : typeof node !== "string" && /(?:ekit-template-content-header|migrated-location-header)/.test(String(node.props.className || ""))
             ? <Header key={i} node={node} index={i} homepage={homepageCaseStudySlider && page.path === "/"} />
           : typeof node !== "string" && (node.tag === "footer" || /migrated-location-footer/.test(String(node.props.className || "")))

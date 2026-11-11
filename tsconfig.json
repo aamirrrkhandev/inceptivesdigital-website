@@ -41,7 +41,11 @@
     ".next-home-review/types/**/*.ts",
     ".next-home-review/dev/types/**/*.ts",
     ".next-editable/types/**/*.ts",
-    ".next-editable/dev/types/**/*.ts"
+    ".next-editable/dev/types/**/*.ts",
+    ".next-local-review/types/**/*.ts",
+    ".next-local-review/dev/types/**/*.ts",
+    ".next-ux-audit/types/**/*.ts",
+    ".next-ux-audit/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

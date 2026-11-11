@@ -1,0 +1,50 @@
+User-agent: *
+
+# Tracking / URL parameters
+Disallow: *?__*
+Disallow: *?utm*
+
+# Utility / conversion pages
+Disallow: /thank-you/
+Disallow: /thankyou/
+
+# WordPress system paths
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+Disallow: /wp-content/cache/
+Disallow: /wp-json/
+
+# Block WordPress feeds
+Disallow: */feed/
+Disallow: */feed
+Disallow: /feed/
+Disallow: /comments/feed/
+
+# Block category/tag/author feeds
+Disallow: /category/*/feed/
+Disallow: /tag/*/feed/
+Disallow: /author/*/feed/
+
+# AI and search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+
+# Sitemap location
+Sitemap: https://inceptivesdigital.com/sitemap_index.xml

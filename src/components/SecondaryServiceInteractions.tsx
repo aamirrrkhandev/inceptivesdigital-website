@@ -9,6 +9,12 @@ export default function SecondaryServiceInteractions({
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".secondary-service-page");
     if (!root) return;
+    root.querySelectorAll<HTMLElement>(".overflow-auto,[data-secondary-carousel]").forEach(region => {
+      if (!region.hasAttribute("tabindex")) region.tabIndex = 0;
+    });
+    root.querySelectorAll<HTMLElement>('[data-secondary-arrow][aria-label="Next blog articles"]').forEach(button => {
+      if (/swipe/i.test(button.textContent || "")) button.setAttribute("aria-label", "Swipe to next blog articles");
+    });
     root.querySelectorAll<HTMLElement>("[data-secondary-faq]").forEach(control=>{
       control.querySelector("svg")?.classList.toggle("rotate-180",control.getAttribute("aria-expanded")==="true");
     });

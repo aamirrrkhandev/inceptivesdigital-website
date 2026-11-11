@@ -10,6 +10,7 @@ import { prepareSourceDom } from "./source-enhancements";
 import { approvedCanonical } from "./seo-policy";
 import savedRoutes from "../../content/routes.json";
 import blogSource from "../../content/wordpress-blog-source.json";
+import { recoveredBlogMedia } from "./recovered-blog-media";
 import nonBlogSitemap from "../../content/non-blog-sitemap-snapshot.json";
 import { beginColdArticleRead, readCurrentArticleHTML } from "./blog-article-cache";
 import { articleHTMLMatchesRecord } from "./article-coherence";
@@ -111,6 +112,7 @@ export const getWordPressSitemapURLs = cache(async () => {
 function media(value: string) {
   try {
     const url = new URL(value, origin);
+    if (recoveredBlogMedia[url.href]) return recoveredBlogMedia[url.href];
     return [origin, blogOrigin].includes(url.origin) && mediaIndex[url.pathname]
       ? url.pathname
       : url.href;

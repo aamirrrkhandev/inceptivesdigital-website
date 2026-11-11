@@ -53,7 +53,7 @@ export function createTurnstileProtection(root: HTMLElement, selector = "[data-c
       container.closest("form")?.getBoundingClientRect().width || 0,
       window.innerWidth - 32,
     ].filter((width) => width > 0);
-    return Math.min(...widths) < 300 ? "compact" : "normal";
+    return Math.min(...widths) < 300 ? "compact" : "flexible";
   };
   const render = async (container: HTMLElement) => {
     if (disposed || pending.has(container) || widgets.has(container)) return;
@@ -63,6 +63,7 @@ export function createTurnstileProtection(root: HTMLElement, selector = "[data-c
       await loadTurnstile();
       if (disposed || !root.contains(container) || !window.turnstile) return;
       const size = sizeFor(container);
+      container.dataset.verificationSize = size;
       const id = window.turnstile.render(container, {
         sitekey:
           window.location.hostname === "inceptives-homepage-review.vercel.app"

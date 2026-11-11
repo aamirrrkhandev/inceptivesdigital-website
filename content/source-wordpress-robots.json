@@ -1,0 +1,64 @@
+{
+  "rules": [
+    {
+      "userAgent": "*",
+      "disallow": [
+        "*?__*",
+        "*?utm*",
+        "/thank-you/",
+        "/thankyou/",
+        "/wp-admin/",
+        "/wp-login.php",
+        "/wp-includes/",
+        "/wp-content/cache/",
+        "/wp-json/",
+        "*/feed/",
+        "*/feed",
+        "/feed/",
+        "/comments/feed/",
+        "/category/*/feed/",
+        "/tag/*/feed/",
+        "/author/*/feed/"
+      ]
+    },
+    {
+      "userAgent": "Googlebot",
+      "allow": [
+        "/"
+      ]
+    },
+    {
+      "userAgent": "Bingbot",
+      "allow": [
+        "/"
+      ]
+    },
+    {
+      "userAgent": "GPTBot",
+      "allow": [
+        "/"
+      ]
+    },
+    {
+      "userAgent": "ChatGPT-User",
+      "allow": [
+        "/"
+      ]
+    },
+    {
+      "userAgent": "ClaudeBot",
+      "allow": [
+        "/"
+      ]
+    },
+    {
+      "userAgent": "PerplexityBot",
+      "allow": [
+        "/"
+      ]
+    }
+  ],
+  "sitemap": [
+    "https://inceptivesdigital.com/sitemap_index.xml"
+  ]
+}

@@ -9,6 +9,7 @@ type Entry = {
   width?: number;
   height?: number;
   optimized?: string;
+  optimizedWidth?: number;
   poster?: string;
   mobileVideo?: string;
 };

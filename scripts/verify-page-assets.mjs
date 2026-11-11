@@ -9,6 +9,7 @@ const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof v
 const {getEditablePage,editablePageIndex}=loadEditableModels();
 const aliases=read('content/page-media-aliases.json');
 const media=read('content/media-index.json');
+const overrides=fs.existsSync('content/media-optimization-overrides.json')?read('content/media-optimization-overrides.json'):{};
 const originalAssets=read('src/page-content/_shared/asset-map.json');
 let files=0,variants=0;const results=[];
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -30,7 +31,9 @@ for(const [url,entry]of Object.entries(editablePageIndex)){
   if(source){
    assert.equal(alias.width,source.width);assert.equal(alias.height,source.height);
    for(const key of ['optimized','poster','mobileVideo'])if(source[key]){
-    assert.equal(reverse.get(alias[key]),source[key],asset.publicUrl+' '+key);variants++;
+    const override=overrides[asset.publicUrl]?.[key];
+    if(override){assert.equal(alias[key],override.optimized);assert.ok(fs.existsSync('public'+override.original));assert.equal(fs.statSync('public'+override.optimized).size,override.optimizedBytes);assert.ok(override.optimizedBytes<override.sourceBytes);}
+    else assert.equal(reverse.get(alias[key]),source[key],asset.publicUrl+' '+key);variants++;
    }
   }
   files++;

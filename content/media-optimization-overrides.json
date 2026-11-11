@@ -1,0 +1,15 @@
+{
+  "/assets/pages/home/videos/2e77ebc9b3-comp-bannerhero.mp4": {
+    "mobileVideo": {
+      "original": "/assets/pages/home/videos/d77ce19a40-4067c98aec9aa0efc57b82f83ab18d16a122afa3-mobile.mp4",
+      "optimized": "/assets/pages/home/videos/home-hero-mobile-540.mp4",
+      "sourceBytes": 2227751,
+      "optimizedBytes": 521790,
+      "sourceDurationSeconds": 20.02,
+      "optimizedDurationSeconds": 20,
+      "dimensions": "540x304",
+      "framesPerSecond": 24,
+      "reason": "Preserve the complete hero loop while reducing mobile first-load video transfer."
+    }
+  }
+}

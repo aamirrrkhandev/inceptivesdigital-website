@@ -1,0 +1,893 @@
+{
+  "/": {
+    "folder": "home",
+    "file": "src/page-content/home/page.html",
+    "type": "static",
+    "htmlHash": "7d1cf04a43871a5299206699ba382a0060baad79ab1176861a102d78592bf2e2",
+    "sourceHashes": {
+      "content.json": "aed4b6c1ca65e0825bfb03c62607af2534ec098a1359d8bbbf7196583915e61e",
+      "layout.json": "a6dee93528b9701911f54be94c1cbcd25939b1730a0e0f706923ef5ff28bb3d3",
+      "assets.json": "074f2a6f9d77f3fe98e3603f44e91630980b96dbf2b083b9aff6bc86aae3f687"
+    }
+  },
+  "/ai-chatbot-development-services": {
+    "folder": "ai-chatbot-development-services",
+    "file": "src/page-content/ai-chatbot-development-services/page.html",
+    "type": "static",
+    "htmlHash": "aa42a6ac5cd4d51a001af92f8cef667ecc33d5096714a1fe1779abbc266be10e",
+    "sourceHashes": {
+      "content.json": "90d7ee68970c894d76fd80acdee01c47371bd91b25a0428452363e5af5330c2d",
+      "layout.json": "2b025d451c76b41cb0db1b4d235c6375478a1e0401a0fb7dfbcc3c2b6b919d6f",
+      "assets.json": "cfa716f38e831fc3a9961e186505b1d278fd29e28963f1fe9b5d6f90095cf207"
+    }
+  },
+  "/services": {
+    "folder": "services",
+    "file": "src/page-content/services/page.html",
+    "type": "static",
+    "htmlHash": "8b24fcee24de784723b896def75a5e9784e4b788b7208d9888a10f46f4548e61",
+    "sourceHashes": {
+      "content.json": "f3c04505166494736aa5ca4f53bfd23789ffd28385f848004c48640454df1946",
+      "layout.json": "e2c84f9ea5959a02111349030b739be43f6c0ea06e3ba84723534b1826a333fe",
+      "assets.json": "832847c0fe7e4e1ede1dc04a3ed0c618cda7c7ee0a56fdaee02f43d2fb702bd3"
+    }
+  },
+  "/computer-vision-development-services": {
+    "folder": "computer-vision-development-services",
+    "file": "src/page-content/computer-vision-development-services/page.html",
+    "type": "static",
+    "htmlHash": "62a1d08f1fc3273306ed83ee7a6026fe98f1355f2990368d5d091dc91429c6ab",
+    "sourceHashes": {
+      "content.json": "3e483050cdc1348d015f206ac27e7748de7e74dff15eb4c7284feaaad29067fa",
+      "layout.json": "71197fc857632cea037acdf1cf20879eb174fab5ebb1c0b94c30e20395eebbcf",
+      "assets.json": "f9dd4d0a4c6834f17bd95e56358f177e85500c6e3af355e4f9bba5e1f5b39971"
+    }
+  },
+  "/dating-app-development-company": {
+    "folder": "dating-app-development-company",
+    "file": "src/page-content/dating-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "f486f0f31c3c66bde8656eee8a4d36f8d3b94db4e1c0304cfb31fd50084e69e2",
+    "sourceHashes": {
+      "content.json": "0a11dc909304401a29e26b3e94c14b837b0f82f55204306b3509ef11d6710e7f",
+      "layout.json": "0ef380c011486069197e16d1bb31aed23966fe3e915ed8d66668e27d1d2b1ddd",
+      "assets.json": "f4d637e8df84bddfeb8aa7d3eae328844f2c3ebcfd8b2044ce01540c712e0cfe"
+    }
+  },
+  "/food-delivery-app-development": {
+    "folder": "food-delivery-app-development",
+    "file": "src/page-content/food-delivery-app-development/page.html",
+    "type": "static",
+    "htmlHash": "6ff248e905ab1530f0cffb6018ee2cd1575ec97ee8369c15f4a3574b69b4baaa",
+    "sourceHashes": {
+      "content.json": "dc0ad4f8a23915fb5ba05bc9192c15d07f000b0daed577e5e3d72e63ffd346eb",
+      "layout.json": "04990cba23c7002cf7e70c4e7fa641110f19a519f3afe55f1c5c623685ca7a45",
+      "assets.json": "a03e128d23bf623575cf88f6adb5d2d207772d9d3e96cf74d427c74b4c5b24a4"
+    }
+  },
+  "/dropryde": {
+    "folder": "dropryde",
+    "file": "src/page-content/dropryde/page.html",
+    "type": "static",
+    "htmlHash": "a8e5351544ee951cc8021d0304c7aa4cd1063b35b9223000ad5e9c1cd643d6ad",
+    "sourceHashes": {
+      "content.json": "2af3b0dde3dbca3d2690273cf87f831b91ce97113de703cf229b28971d12c61c",
+      "layout.json": "51d29db212ac2f90879ef78754ba940076f0287eff665638adb37b3f2d192550",
+      "assets.json": "366489157de025d14e8041fdfb01fba02d177e9be263e85b6d7a1aad72f25ba6"
+    }
+  },
+  "/founders-letter": {
+    "folder": "founders-letter",
+    "file": "src/page-content/founders-letter/page.html",
+    "type": "static",
+    "htmlHash": "1ee71655f21c7912a63b980254cfe7eaf9fb34bb1f0ab2555cbf6a80ce349aab",
+    "sourceHashes": {
+      "content.json": "1889a4a7f8cd601a83519842c0947ea5432680ef493e89f60ec9acaf473db6e5",
+      "layout.json": "85bf799f0628954c233fdcaaf55095513391d549a9fc9f1f8cebdf5873967fc9",
+      "assets.json": "8c9281dcc887d13974a890c46274c1e7ade88a48a1bd10028c8e0ff8aa805c0d"
+    }
+  },
+  "/mobile-app-development-new-york": {
+    "folder": "mobile-app-development-new-york",
+    "file": "src/page-content/mobile-app-development-new-york/page.html",
+    "type": "static",
+    "htmlHash": "597269464be53fcdb892c08ea3280ae68019ac246acec4f5a38d98971996ad4c",
+    "sourceHashes": {
+      "content.json": "8606b74fc1b540c5bc1b3b16bd4b537d1a35eb494c964ce93bd812efb75687ea",
+      "layout.json": "9d2ccc45369543527f9440f280c81113ddef29203608eb560232ae08e6be36b4",
+      "assets.json": "1d1419c3b24e052470155d0c6ca1cfa35d58a2e121341d6786e9bf108cc803ec"
+    }
+  },
+  "/partnership": {
+    "folder": "partnership",
+    "file": "src/page-content/partnership/page.html",
+    "type": "static",
+    "htmlHash": "4567a5cb3f48c5b5b045f817cbbe21eb055025c13fec5f86a5e388fd2b8e3c66",
+    "sourceHashes": {
+      "content.json": "ced64835cb275a250c315abbc292b1eed21d85518b61e8ffe8293274f2bfb154",
+      "layout.json": "f60f2db97eea323037421dd23344490c0e0eadc679fa08f243ff5ea40330a7a2",
+      "assets.json": "e34fb3bdf12cc1766909b78c55f80919772aa9f13ec30f7ceed499c1b5fadd37"
+    }
+  },
+  "/travel-app-development-company": {
+    "folder": "travel-app-development-company",
+    "file": "src/page-content/travel-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "e4b2469b175c92ae9a5fcecffcf63593988c38c6e7da3f6c5f2be9efaa108b06",
+    "sourceHashes": {
+      "content.json": "12ed1947144698e674cd07cdc88f8f9ee7cc3dcfe68e721b34cf3198ae29f701",
+      "layout.json": "62ea58ae3fc5749f27b7f344885f350c24e2d71259ef216de89a4a9424cd28a6",
+      "assets.json": "7822cb761028d05db2759c7a55afff70c3939f8e828f1270de3db0c6d39d99ca"
+    }
+  },
+  "/mobile-app-development-company-in-toronto-canada": {
+    "folder": "mobile-app-development-company-in-toronto-canada",
+    "file": "src/page-content/mobile-app-development-company-in-toronto-canada/page.html",
+    "type": "static",
+    "htmlHash": "ffe7799c77fe33fbbc4c20d29b099c1cd583ac7105b05f61dd9e757a8e9c47c9",
+    "sourceHashes": {
+      "content.json": "293b5d10da7489559a26566f49a2e1b9b8165a1466110952d74ebde86cd213b8",
+      "layout.json": "c0b817b3781b3ebfb732c4d4a224a88231a93a9f98321848510ed8caa459d343",
+      "assets.json": "be3ca193adf253fd119c10250191db990ce748dba63a05949e4537884e4ef16c"
+    }
+  },
+  "/life-at-inceptives-digital": {
+    "folder": "life-at-inceptives-digital",
+    "file": "src/page-content/life-at-inceptives-digital/page.html",
+    "type": "static",
+    "htmlHash": "4ff1ede0422ef60a5c458fb2033ba9ebee2a73b762c144ddae481c347a7589c3",
+    "sourceHashes": {
+      "content.json": "b60f8d7f68cb6144010770dd69d9d927bac62872f110c7884e79c74fd206092f",
+      "layout.json": "3fd082d4e34cd5bdfa2cb3e0959c2ca3ab0da844a7c1f5b26f6f0028f9e8147a",
+      "assets.json": "db661ee9c19b6c3844568af67f7e92e7595063290852e8b515438c1cf68b697e"
+    }
+  },
+  "/mobile-app-development-company-london-uk": {
+    "folder": "mobile-app-development-company-london-uk",
+    "file": "src/page-content/mobile-app-development-company-london-uk/page.html",
+    "type": "static",
+    "htmlHash": "5657705bf2f712e9b68906b66debd5a55634eded75d03bb9d5807dd953427dcb",
+    "sourceHashes": {
+      "content.json": "d3b5048570884adcda1bad88a5f9d695c1bed63cdeeb243931039c43894c2b55",
+      "layout.json": "06a7040864867abf3a192bef2ea61c67e9b2ecdaeb463a5cb6e0e9170bccf474",
+      "assets.json": "ef2c9f75ad281684a7884a31bf57f0d033d6aa580f689f138af84394b851f4a9"
+    }
+  },
+  "/mobile-app-development-san-francisco": {
+    "folder": "mobile-app-development-san-francisco",
+    "file": "src/page-content/mobile-app-development-san-francisco/page.html",
+    "type": "static",
+    "htmlHash": "2067ce2a199fa6eda36aaf2045bde653f1c52937a6257c418f47a5e5473dd6df",
+    "sourceHashes": {
+      "content.json": "423479131eb49b2f7e495cd435e9c067403532e9d2eb75527d954a113de484c5",
+      "layout.json": "874f8e4217b635fd08e2f6fd162407b23d428159f167da0e615a21af03ecb437",
+      "assets.json": "37208778a9605f0fdc7b00a3ff704bfbb6dc5e3a35114acdd615aad36f6d1f03"
+    }
+  },
+  "/mobile-app-development-austin": {
+    "folder": "mobile-app-development-austin",
+    "file": "src/page-content/mobile-app-development-austin/page.html",
+    "type": "static",
+    "htmlHash": "160a3ae427746326185ecbdf50987e12020112ee33482503c683ea66bac5f174",
+    "sourceHashes": {
+      "content.json": "35d6b66b6b05cb38b8051289961167e44ee9d6cea1096482a8ace83015bb2615",
+      "layout.json": "25cd7e980a06d36a9c5addfd5749a1b1db7cc02bd96a031664727aed47f9bcfb",
+      "assets.json": "a15099c8390e08afe4e2d4702887768a576e2e277d2485c22a57b48653043930"
+    }
+  },
+  "/healthcare-app-development": {
+    "folder": "healthcare-app-development",
+    "file": "src/page-content/healthcare-app-development/page.html",
+    "type": "static",
+    "htmlHash": "eade9d04da59eb5f4c4dc9ce2cbc43dcc447b0ec12dcd6bb433bfedd9134b170",
+    "sourceHashes": {
+      "content.json": "00d41468b942fe095dd3dd7b7aadcbea43de141c8e83f215ea23285733e20fb8",
+      "layout.json": "b4cea6e87ffc356267caef8c0544badb511a571312a5849f16768f9ad7bd0057",
+      "assets.json": "517e1aad3705d28fcb8b90713e99bc1963b26f77028e34dbf537a22a3432b444"
+    }
+  },
+  "/ui-ux-design": {
+    "folder": "ui-ux-design",
+    "file": "src/page-content/ui-ux-design/page.html",
+    "type": "static",
+    "htmlHash": "489ec9fcdf2f0bbc382cb5b1344d486d99dd9d314b9a6043597fbfa7f64e7202",
+    "sourceHashes": {
+      "content.json": "3377bd3b29df352885c3e24bceafdc9262857f50e7e48f660f007d6cd4cf3587",
+      "layout.json": "7f5201caf581f7a6585e1ecbeea058cba1a22338c16ac83d0970986b5e052d30",
+      "assets.json": "8dd5c68ad1191e0d122e7700ddab6a2be4b8f395d11788bc497dbc2cd4fd3435"
+    }
+  },
+  "/product-strategy-consulting": {
+    "folder": "product-strategy-consulting",
+    "file": "src/page-content/product-strategy-consulting/page.html",
+    "type": "static",
+    "htmlHash": "7e00a02017c16690665d052bd49110333cdd957c02729be981a453b9839d64ee",
+    "sourceHashes": {
+      "content.json": "c1fc1891c8578e857cfb6873935f08ed290f72cbc5a6ce202db776a6da09811c",
+      "layout.json": "5cb7e301b8f2a0c50a4431cfabcd802e6de40895c03fa1f8b1f4851a8af05180",
+      "assets.json": "a69b0800fd7b835aae8fea59876e68bd6a78f272386ef27c21f96cc328d28fbc"
+    }
+  },
+  "/product-rescue-scaling": {
+    "folder": "product-rescue-scaling",
+    "file": "src/page-content/product-rescue-scaling/page.html",
+    "type": "static",
+    "htmlHash": "331c04f2cd8e4fe2b0c6d6615c980a8ec0bb71b6ee5c1aa171f4e8e122fdfdec",
+    "sourceHashes": {
+      "content.json": "80b3a3d28550567ebf8fe006c8334ad8cc80e40d0e7f5bff09ce668ffcf668e9",
+      "layout.json": "1fd62c03e8eb3f5e7313d532c1a77ed4f5de2eba98f1343d3816a2561c2f7098",
+      "assets.json": "cb98c8c567967e7b4cf382e680e967b65be22434fdd761f46f12191e6eb15e9e"
+    }
+  },
+  "/digital-product-development": {
+    "folder": "digital-product-development",
+    "file": "src/page-content/digital-product-development/page.html",
+    "type": "static",
+    "htmlHash": "d1979dfc74342f47b9f3b4b2389248718070d3162b593daf76cf97bc1b3e0e3d",
+    "sourceHashes": {
+      "content.json": "0e1572ef330c8eea0614105b9e0f72498b5ecee4e01594bcc43d2c76f4c50386",
+      "layout.json": "0607912ecc5ea32d56d5ff5ec2df2009d7436feb0af9483f44e968fd19aab4e3",
+      "assets.json": "ce6c8aef386cae34f421cd1de6a7b725ff61f897a49b43cc717ea885b56f8f98"
+    }
+  },
+  "/discovery-sprint": {
+    "folder": "discovery-sprint",
+    "file": "src/page-content/discovery-sprint/page.html",
+    "type": "static",
+    "htmlHash": "6807596c4829d34ea174549b8529c51fae9ba7547610a00f0ce01b581a99dd21",
+    "sourceHashes": {
+      "content.json": "34ea2488687b27e3bdb8613e95854b48e634c5b62f133a9322e863c696e4e950",
+      "layout.json": "340b93ff80d0cacd0640e35302a6b79b7672fed7f82a69ec1ed8f4fb9c2c162f",
+      "assets.json": "3a40bfa898bdc328d3ee5429d160f4335edd94b31ec412e8a25cf399d264c596"
+    }
+  },
+  "/interactive-prototyping": {
+    "folder": "interactive-prototyping",
+    "file": "src/page-content/interactive-prototyping/page.html",
+    "type": "static",
+    "htmlHash": "b213ff8491980ba47b2a7887220f266aa06da0765c18df55324bff12608a1dfe",
+    "sourceHashes": {
+      "content.json": "246f1a20dfcdf6587da8474955dd13fba1d023c78543f9148171b4789bd03217",
+      "layout.json": "f96857cc52318009aa0c564b817a4e8db977b81aa5a2f714d4691800952de9b2",
+      "assets.json": "71d7e61604de39df37d3612c3c0c6ca7a97a481e135685410bfd7d058d8901fd"
+    }
+  },
+  "/mvp-development": {
+    "folder": "mvp-development",
+    "file": "src/page-content/mvp-development/page.html",
+    "type": "static",
+    "htmlHash": "51fc82659bdf86dc8fd20e694925ff78fb486ddefc2e66fb5262f2ac12ad070b",
+    "sourceHashes": {
+      "content.json": "6466b9df7277a4e4f8046b194824a6342b8062e6dbcc70549bfc8636342c8569",
+      "layout.json": "7e02c16858a976018e618060b22a411be2a5f8f26d2f1759368924dcff9b335f",
+      "assets.json": "d93989d831b33f32ba06566cb5a18de93d8330013ed23bcc0dc55809b1a21cf2"
+    }
+  },
+  "/custom-software-development": {
+    "folder": "custom-software-development",
+    "file": "src/page-content/custom-software-development/page.html",
+    "type": "static",
+    "htmlHash": "9b382d263e4184b15c65f6157a8a10dbbcef88dca1ae636227bd4168f5ec56bd",
+    "sourceHashes": {
+      "content.json": "357e35f4797f404e62098dfe2dc16729442d72d24e88caaccd29579774381b34",
+      "layout.json": "cd9337fed599818c9e22fe3f886455c80527833df039042e1d4ab35e784cdf76",
+      "assets.json": "ebb8359c90dd4405b2c94e7088224bfbb9d517e32fecf8461cf77114a0897e3b"
+    }
+  },
+  "/rpa-development-services": {
+    "folder": "rpa-development-services",
+    "file": "src/page-content/rpa-development-services/page.html",
+    "type": "static",
+    "htmlHash": "7edbd52e4c48749579151739bd02de22b64e6275dae14ad1d7a2b9033fd4fe3f",
+    "sourceHashes": {
+      "content.json": "eb7d94cc57323865ef8a14b8ebdc3285b2cbb85dba49ac1f6b00612fbc518b04",
+      "layout.json": "8be30fc565b7bf35fb2ca36d1c7a8dbd9c8b2ce125aa4f7d0efa9d3d0efbbbf9",
+      "assets.json": "df44763153b6e06ef79e3937beee011affdf64455671c8e4e997aa5a011a8c1b"
+    }
+  },
+  "/ai-app-development-services": {
+    "folder": "ai-app-development-services",
+    "file": "src/page-content/ai-app-development-services/page.html",
+    "type": "static",
+    "htmlHash": "5cd1f94dcf0316e3248505167d96564b358635b0704626afd1030f9fedf1f0dd",
+    "sourceHashes": {
+      "content.json": "51a6c0ad5c87840f9f55a9772a275b1fb2f713d6e46d2df5807de4a6f64862cf",
+      "layout.json": "bb0e06720ad527a97e88fb1f72175977179060533a148ce457850230f8e0d2c7",
+      "assets.json": "e559a531e02e35a03e439476785a365393a23b2e9d61cb52631f8668fad2a8d2"
+    }
+  },
+  "/system-integration-api-automation": {
+    "folder": "system-integration-api-automation",
+    "file": "src/page-content/system-integration-api-automation/page.html",
+    "type": "static",
+    "htmlHash": "0d999ceead322f2b1946ab5310f5cf801113f8ada1bf26e5c461041e0fcffcba",
+    "sourceHashes": {
+      "content.json": "c412370ade8b71f171f52ff37211fad9a8e0a4b47e62a107b3758b25dfe6a111",
+      "layout.json": "dd26d79fd3c58ba1853cc958605723b6fd3f1e804c2d7c4b11e9453dd48b9441",
+      "assets.json": "7dcbea350856a02bc6bc2b3912defc20ca2399c22bf2bb834922212d7c54b483"
+    }
+  },
+  "/post-launch-analytics-iteration": {
+    "folder": "post-launch-analytics-iteration",
+    "file": "src/page-content/post-launch-analytics-iteration/page.html",
+    "type": "static",
+    "htmlHash": "b89dbd71dd5d2fa932493326777aab0e0cca88dd1a2f01663d4a0db600baa301",
+    "sourceHashes": {
+      "content.json": "d9a34127eeace9953abbbf5b1bb7148532a6c4ad0f990e39bbffb3aa3ea0bc09",
+      "layout.json": "dbba5db7fee5afdfbb5cb5e84b99bdd8d92f5cce5af1399867ebb8cbfec3d239",
+      "assets.json": "1a9b99442b0103f271a4b8c373cd37aadf1c229ebe58cda5ba9d6cb228031989"
+    }
+  },
+  "/nlp-development-services": {
+    "folder": "nlp-development-services",
+    "file": "src/page-content/nlp-development-services/page.html",
+    "type": "static",
+    "htmlHash": "2e9c2d31b428a828fc8da9e8c48a49351394cf9fffceaa94a52f0839f7d1f51b",
+    "sourceHashes": {
+      "content.json": "a756dc9be573731fbc57f133885f392fe41d63f2368eda79c97087204f3bcca7",
+      "layout.json": "f296fb9f9a6c3b79d80e0b21d7b67212f390a7ea2b40ef3443a1efec6fe9a659",
+      "assets.json": "b7066c383bc5a492c8cbc60ee3c65d1da44e322a9dddda1e48c57556a7288292"
+    }
+  },
+  "/generative-ai-development-company": {
+    "folder": "generative-ai-development-company",
+    "file": "src/page-content/generative-ai-development-company/page.html",
+    "type": "static",
+    "htmlHash": "3e52923383129a6f75328e6ec07832fa3f2442eeab83c0c6fcb2b81445e4ef87",
+    "sourceHashes": {
+      "content.json": "81b00515a05b51565bb9b69722ebafc911f25481d25d6ab0d7941c3aedf7c663",
+      "layout.json": "37b7dd07894a14874cfca7a505a52088b8e01579c7fe9aff0d1eb30276cc7200",
+      "assets.json": "3011ff5f3347908e09302d86c08ec48926ad74a9933bc18d58143d5ccb945fea"
+    }
+  },
+  "/ai-agent-development": {
+    "folder": "ai-agent-development",
+    "file": "src/page-content/ai-agent-development/page.html",
+    "type": "static",
+    "htmlHash": "d5ecb9cbd87e61ff40e9f28a01a82f7d473476528e956ae2cb23687623d977c0",
+    "sourceHashes": {
+      "content.json": "e6ee56b00b5b78fa7a7693cbdb14071abfb3ef40b791b55ce1ce1e8ef01bd964",
+      "layout.json": "71d84c10926e98f5ec2b3b320b9c51bd22c69791f2cc41f522463a8c4fc5ce2a",
+      "assets.json": "f77130e5def7074b019fc290532d616da5765d6b80b7d372b355933b67333b2b"
+    }
+  },
+  "/machine-learning-development-services": {
+    "folder": "machine-learning-development-services",
+    "file": "src/page-content/machine-learning-development-services/page.html",
+    "type": "static",
+    "htmlHash": "49aa7a661569fcf6a2644561eb17aaf2dc0d977ad3eaad4ad11c80e9f7a72654",
+    "sourceHashes": {
+      "content.json": "b6f5887a7bf901bc58a0979c870ed6f7976c3321266abca082b9251fe240116d",
+      "layout.json": "656141e20beb739e8668cde01699b3b00c5ae3e19d4956bba1bdfd7959ac850c",
+      "assets.json": "acf60498a8bfd619d45ab56be0d8e404a7e3e6a2081d68eef4c75e2c87f7eda9"
+    }
+  },
+  "/mobile-app-development-company-singapore": {
+    "folder": "mobile-app-development-company-singapore",
+    "file": "src/page-content/mobile-app-development-company-singapore/page.html",
+    "type": "static",
+    "htmlHash": "ceb5e7375b2fb3c709f566edb2afb8df4e4011351c3b62422422a8e8b1bb427e",
+    "sourceHashes": {
+      "content.json": "d7b0713a873ae213276e05b0e857d7ab9f60a52416abc5e9b95e43023b7d5e76",
+      "layout.json": "e886c4f03b4957bd047240dff9367a2c5d811f9de0f4a814c0bec9a44ca677ae",
+      "assets.json": "527b0caa3c47213f0a2416b4ebd5d77f20ad08c7db187260cc65ca688de259c2"
+    }
+  },
+  "/about-us": {
+    "folder": "about-us",
+    "file": "src/page-content/about-us/page.html",
+    "type": "static",
+    "htmlHash": "c9288678a2d58ffb4e06a05d75bc1e735f8f31ce884651288a4aca95adcbaa1e",
+    "sourceHashes": {
+      "content.json": "a07ed2410a93f11c401a6be2dfa5b038db3225f8459fcc6d96d57b34d5408085",
+      "layout.json": "efd67e41313fa0edc36f9ffcc36a9d4b0329d6cab52ae783f4f3ccf8dca310e2",
+      "assets.json": "d349a94cd7debf16badca9eed0ee40b2f05ccf53a095a4699a334ffc2c41fb0c"
+    }
+  },
+  "/ai-development": {
+    "folder": "ai-development",
+    "file": "src/page-content/ai-development/page.html",
+    "type": "static",
+    "htmlHash": "b9de05f26a925150fc0f9b96067a8bd0912bb488e78198eb09fabf54038d6fb6",
+    "sourceHashes": {
+      "content.json": "9be189ef05d5db0a87865a8e6ffa9f30ada06337aec357680faa822ba6e377b4",
+      "layout.json": "dec011eeed204a06bc9f6f3c1d6a034fa06cbd604bf15b2bd93a197533f3878f",
+      "assets.json": "818e6bf718a39b2dd4396382d9810170a1efe075d7f204b78b601c9f569fced6"
+    }
+  },
+  "/mobile-app-development-company-dubai-uae": {
+    "folder": "mobile-app-development-company-dubai-uae",
+    "file": "src/page-content/mobile-app-development-company-dubai-uae/page.html",
+    "type": "static",
+    "htmlHash": "280103a7d3bc5d605e0e2058c146750b1473ee291022601d9c80d9e765fe01bb",
+    "sourceHashes": {
+      "content.json": "7e73b74a38c70720cd95ece1123aedc35299c4d815aeac1982988f2f8ddf88e4",
+      "layout.json": "06cba83b21d639226d10ace1800507fbd3533aa922e7834b173997f34ce8c42e",
+      "assets.json": "1b5222f2d6b7a6b66929771f4320b3fa0dc235eca04be8112de4e6a0f5368a16"
+    }
+  },
+  "/terms-and-conditions": {
+    "folder": "terms-and-conditions",
+    "file": "src/page-content/terms-and-conditions/page.html",
+    "type": "static",
+    "htmlHash": "a1acca56f247d932fff37f3d87206b9a52fb089688ed200721628b9c864769c1",
+    "sourceHashes": {
+      "content.json": "366de1c7fe42dfcdd67ccbda2e3d1efcce4b5400dcab7631d87f4a7ed15d449c",
+      "layout.json": "4021c31a99c2cfaf97550f4c7108d7286fec13670b47e3385daba23e48c8c03f",
+      "assets.json": "e53c930325fdc46af068c4d10b9bec196c5234284d4c181e55df7ed98155b55d"
+    }
+  },
+  "/blockchain-development": {
+    "folder": "blockchain-development",
+    "file": "src/page-content/blockchain-development/page.html",
+    "type": "static",
+    "htmlHash": "65dceb663ea700877fb7e42264babba6c0b207186fb249ecaa6362b74380541b",
+    "sourceHashes": {
+      "content.json": "d3321f4202bdd35970d7b923e118303ee08e44d92f474fbefa008576579b62c0",
+      "layout.json": "147296c369355bc66a70705fc74160b44a78411f1fbda5baa81fdc12f6b4f2b2",
+      "assets.json": "fab1d8acaa34694fb7e6f3cb08307acacb19c944af0308692dd0bd1c24ceffd2"
+    }
+  },
+  "/fintech-app-development": {
+    "folder": "fintech-app-development",
+    "file": "src/page-content/fintech-app-development/page.html",
+    "type": "static",
+    "htmlHash": "8a6fa5263959d97a9ffaac58950982db67f17ebc687d98805f99125b3ce113ab",
+    "sourceHashes": {
+      "content.json": "79095e360f39134bd26bb37131ebf2616de87f5a68bf605b3954b913ce321b10",
+      "layout.json": "a046f376fc83314c8e0464d4b0a2189b477520f68da27b4812ba5831127b521f",
+      "assets.json": "0c0ae1b7c40f873786082f5b0506cf241903012c5c8c7915c8b0a63f4d4969b4"
+    }
+  },
+  "/real-estate-app-development-company": {
+    "folder": "real-estate-app-development-company",
+    "file": "src/page-content/real-estate-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "e095bc3deaade9d8160dcda94cb2188b95b3a3371aab32c5b7a4ee4e4766933d",
+    "sourceHashes": {
+      "content.json": "b0906ea8cdcf05f917aa5f9d803b84e9a73794b7408cc9afeedd1e06e5b819b4",
+      "layout.json": "a3255dc99c200b356793fd505c7c23590f5f69873fafe7cf304c49a4596195a8",
+      "assets.json": "8e39b9d2cfc6606b41c5a3ea0d84d9527178a8afad33ad6b65e57f9dea1c5232"
+    }
+  },
+  "/privacy-policy": {
+    "folder": "privacy-policy",
+    "file": "src/page-content/privacy-policy/page.html",
+    "type": "static",
+    "htmlHash": "1b3ed2766578963353c901b234524bba3ba1ad3c560bed50dbf62d906c14220b",
+    "sourceHashes": {
+      "content.json": "54996852ffb022b2c9ab1ca14849c174fa27b79b6269d8c9ca3f0fc07b412eee",
+      "layout.json": "44b3e2440e511c6801d33cf58489e29718e2d4ef195a01190c5744eb334deac1",
+      "assets.json": "9b7fa1a8bbb157bd82a035399706387b78faea64da562ddf06aa83e60775eb5b"
+    }
+  },
+  "/react-native-app-development": {
+    "folder": "react-native-app-development",
+    "file": "src/page-content/react-native-app-development/page.html",
+    "type": "static",
+    "htmlHash": "4ddd1ece8db1e8baa990d98eb5acbcefc04f928d147e0a84f53075503c0991a8",
+    "sourceHashes": {
+      "content.json": "5a996bb817381992b0fee8a64ea1dfb3828b286d43dc23be2b4ac5511c11096d",
+      "layout.json": "23672f3d11a6e6b36118d79dd7ace9b5e5dcc9fd2f7ae01aa49a4cc80381d68f",
+      "assets.json": "08dc9140fd5336a2203e2b859da5f484af8c13a2077f57ba205d5ca6f04d1d5c"
+    }
+  },
+  "/education-app-development-company": {
+    "folder": "education-app-development-company",
+    "file": "src/page-content/education-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "2c858fcff5acc002c7a4995e4afa25afc9cbdcd80f97868f1ecd191a6606f700",
+    "sourceHashes": {
+      "content.json": "d15fbd06677b95acb5bf7979dc1a58e1cf798578ba899f7ef5ea925e2c91ab1d",
+      "layout.json": "6e7b603cf0301cd8a364e808ef4ad0d628e572107941d9edceccc893fb0aca24",
+      "assets.json": "fe64a334dda56131adf26e7d809e13d4141da2597f1952e60146d5dd4d519251"
+    }
+  },
+  "/flutter-app-development": {
+    "folder": "flutter-app-development",
+    "file": "src/page-content/flutter-app-development/page.html",
+    "type": "static",
+    "htmlHash": "c202e4b02ce1b5fbbf385c172bb9d8ed08d8a94b5c454b9798764583ceab9b3b",
+    "sourceHashes": {
+      "content.json": "0c0bd336b2190ff0bed2b2801aeb46e4af381615f5c636dd6d4c9b302bef9529",
+      "layout.json": "6bcaecd5cdc2ce7ec77dd99dbb8e05ceb991adf72ab1e23e9c204e8380eaa136",
+      "assets.json": "c1a29eea1e5399a820016dce706aa8ec6f4159987b70f8340f36a733253622db"
+    }
+  },
+  "/portfolio/state-of-the-art-chiropractic": {
+    "folder": "portfolio/state-of-the-art-chiropractic",
+    "file": "src/page-content/portfolio/state-of-the-art-chiropractic/page.html",
+    "type": "static",
+    "htmlHash": "c89f1e3cab101dcfe4cc7eb6a45156c53bf8e772cfce59fe7c7afe192b1f19c1",
+    "sourceHashes": {
+      "content.json": "04ae75009e1f759cce83b7aab1b629ad2de93ed8d7a496490e49750a4c04f826",
+      "layout.json": "8bd62cf3f827facbf16d11fc8b2a98186521896c4fbd305cb87ef6b86698df22",
+      "assets.json": "5e18e8bd5222893e005c3bcbe6f424bd9ed27d82c0da07526b18cb090d738ec7"
+    }
+  },
+  "/portfolio": {
+    "folder": "portfolio",
+    "file": "src/page-content/portfolio/page.html",
+    "type": "static",
+    "htmlHash": "7742aa1e164d5c7fae1023731ee94f7107a04ce23085d473d2ea6481e9eb1b90",
+    "sourceHashes": {
+      "content.json": "1047f34a7b66e1eab396fc7d0beda4bc890bce15753732fb214ebd12fd294d06",
+      "layout.json": "c20e63c4f3f2b1950e6a1ca3266b64bbbd666188aa22280bc97622c0b1cb0f5c",
+      "assets.json": "930334a88e861c8e60df412f4e317e62acf8665767d439aaec76feee079acfdf"
+    }
+  },
+  "/portfolio/halwar-connect": {
+    "folder": "portfolio/halwar-connect",
+    "file": "src/page-content/portfolio/halwar-connect/page.html",
+    "type": "static",
+    "htmlHash": "5fd25f6bdfd0c236afb0cf609a965ea84c890c9a0f0d9570fbfc41d0d10e9e24",
+    "sourceHashes": {
+      "content.json": "8a0dfc1ed6dc89bcd5f89263d5067402e037369edfe49c101b8ce37c43feb4fc",
+      "layout.json": "a85eb9eb2f77c3a2857e924dc49a539595980ff4d7078bc5437a85669e2e5be0",
+      "assets.json": "462c67d3bfcf84cbbf602a999e3c9de5010857764af9ec9bd415134064f5ffcb"
+    }
+  },
+  "/portfolio/family-entertainment-group": {
+    "folder": "portfolio/family-entertainment-group",
+    "file": "src/page-content/portfolio/family-entertainment-group/page.html",
+    "type": "static",
+    "htmlHash": "50b67a53fbf022352847238f9db753ba41be889d2a4ef3c0236d919d4e7b2f5d",
+    "sourceHashes": {
+      "content.json": "b3fa14b7cafbbb0547a109e7453eebce4dec8a1691530516623a41d9947c4cad",
+      "layout.json": "efca6ee0ef6738861af020f11b42ee0e682f69868afa6de6def4a3921ecbf1d8",
+      "assets.json": "5ae0818e594be941e246565d7c68684ac8b84f75280a312fafe206b7f6f440e7"
+    }
+  },
+  "/portfolio/pulse-check-timer": {
+    "folder": "portfolio/pulse-check-timer",
+    "file": "src/page-content/portfolio/pulse-check-timer/page.html",
+    "type": "static",
+    "htmlHash": "9b42b8d169a4b1108362adb29d1e66a2294124387b31b2768856be8f69c657c1",
+    "sourceHashes": {
+      "content.json": "60d4d6ec775eac4f1cf8e7ff0b92c8798854c8bc0285098bce77132a9a20af9e",
+      "layout.json": "88c36d99ac167e9054cba7cc7daa7111863cafe019482a2dd45d04ab8bb4bfda",
+      "assets.json": "ca28b3f94b08f47e89a17ae7c0114d94cdc1e41251d24c18848d79b0c8bfeb8d"
+    }
+  },
+  "/portfolio/dps-airem": {
+    "folder": "portfolio/dps-airem",
+    "file": "src/page-content/portfolio/dps-airem/page.html",
+    "type": "static",
+    "htmlHash": "dcd6bd9c1c0ad365a54eeff6f57d0535bfcb33408c9364b629d3cf528a82b469",
+    "sourceHashes": {
+      "content.json": "ab78c58ff6caea1b6cdfbc00ee4625189a5e47f771be20c84d65290b3d8fabe2",
+      "layout.json": "514e2ffe9b8a7c13ddf7fd363b5416db82b2422231a74377d4eb3d587ab7ad9d",
+      "assets.json": "966c6c5324c01e9cb60512cc727ee7e88d2b0c6e266ceebf21e5a833451be92f"
+    }
+  },
+  "/portfolio/zoom-read": {
+    "folder": "portfolio/zoom-read",
+    "file": "src/page-content/portfolio/zoom-read/page.html",
+    "type": "static",
+    "htmlHash": "0c846a1b265cdc4f12b0b645ae53990601da771651ad3aaa162fdebeb0f5d0fc",
+    "sourceHashes": {
+      "content.json": "2c51f223e87abd540fc022e6cc445b9135d989beb835c6ad29890f0296d6aa56",
+      "layout.json": "e4715e75b81c8033dec388d28791c252710b13b848f88958ebd10646764206f3",
+      "assets.json": "8d59a46fe13f2452858f6fed8544e8d84fc98ada5ea8e8641b364f85192f6a37"
+    }
+  },
+  "/portfolio/wordsmith-pro": {
+    "folder": "portfolio/wordsmith-pro",
+    "file": "src/page-content/portfolio/wordsmith-pro/page.html",
+    "type": "static",
+    "htmlHash": "0627d0d799245d5fb80fbdb96d5ed96bddf6a420dfe864c5c902510d0ffdf9eb",
+    "sourceHashes": {
+      "content.json": "61c2b2cde1122326dd0722b46614e09c0de7ef782a3a4c4741c3069d0732884e",
+      "layout.json": "88e8ab6f3525a8d76bff61101521292fa63d02dcb799882e65ab8d14152ee254",
+      "assets.json": "adddcc49d07a4daf6e92d40fcd6f9f7f699798d0e0a19df1ad5bbded1ab180fa"
+    }
+  },
+  "/portfolio/pets-b4-profit": {
+    "folder": "portfolio/pets-b4-profit",
+    "file": "src/page-content/portfolio/pets-b4-profit/page.html",
+    "type": "static",
+    "htmlHash": "4dba55dcb8acb674fabeabe1e8898d05ccbc7f0dc5e8577f6b2baa48909167b4",
+    "sourceHashes": {
+      "content.json": "3a20273ad8d9f5b471ed237b60027a1f5779dfd6869570e8d2c894085e9bcf09",
+      "layout.json": "5982dcbdaa4eb99c60b45c5577e604c88770d79af44b397962f4ca3eba639b9e",
+      "assets.json": "3ec060c4183241b7afa978ac7afa932adf11c2d3e284e629e40bafc7070662a4"
+    }
+  },
+  "/portfolio/stakbread": {
+    "folder": "portfolio/stakbread",
+    "file": "src/page-content/portfolio/stakbread/page.html",
+    "type": "static",
+    "htmlHash": "9cd95954e0645f55649d4a520d0f55a59c58a8e3952cf0a7b94f257254679456",
+    "sourceHashes": {
+      "content.json": "5802bb73b09b7e4059d545a139d51191212faaa50590c5f1cab0afc2e879face",
+      "layout.json": "e828d0d28bede6c5db81faad52375ccced43e4c86e2f1d16fcf4c6786852dfe8",
+      "assets.json": "f73ff14deb29e204b5a4426ea05ac1c76259ddc9143bc3eaf756e35797f08409"
+    }
+  },
+  "/portfolio/my-tango-event": {
+    "folder": "portfolio/my-tango-event",
+    "file": "src/page-content/portfolio/my-tango-event/page.html",
+    "type": "static",
+    "htmlHash": "054c1558ef7a36be9887af1fe808a61d9135976ceb735347474d8bc191cd3d14",
+    "sourceHashes": {
+      "content.json": "db28d27b8fa74c7033e135cbf8a8ad89ccdf5a885981ab9e358eaf9f6d1a6af8",
+      "layout.json": "5b677e95b7bffd76a61c514c19d505c84b718004e054803df67f6e516bad5d11",
+      "assets.json": "6c3e43fccdae8a5fea256949f0044540231ef77603a91e73ba251a1f8f66b17a"
+    }
+  },
+  "/ecommerce-app-development-company": {
+    "folder": "ecommerce-app-development-company",
+    "file": "src/page-content/ecommerce-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "cbe04892a9cc0998d42635df601e6d0767d37d0f797fa50e766bb9e0c72af575",
+    "sourceHashes": {
+      "content.json": "30a1b06ce5f738d5117dfa4bfc312d7bd2d3b77f45652632296c2255c076d5dd",
+      "layout.json": "2feb47421f9da4a308f1f7b7b4668025424a27dc39e31521d6c3cfe4f310c3e9",
+      "assets.json": "94ef1be5c1e5e3c25453f0ce365be035350fc4e38642426728dd00b99ae63ee3"
+    }
+  },
+  "/testimonial": {
+    "folder": "testimonial",
+    "file": "src/page-content/testimonial/page.html",
+    "type": "static",
+    "htmlHash": "49d9db2815ea8b3adabc47c3af9fd749de07e6bcd40e6d52c024d575f9d88cbf",
+    "sourceHashes": {
+      "content.json": "8f14698cc51c4fa742fa5a59efd2441591205802b4347c0eace04eb1c8033511",
+      "layout.json": "d89b2a5fb31b292f51c3441474bbaa1af28b1fa4301cd5b89440bc3ab880f2b5",
+      "assets.json": "703c1bd58abee8810786ef01a77c0aa16412159912c8c5ac65ce373fda4767fe"
+    }
+  },
+  "/leadership": {
+    "folder": "leadership",
+    "file": "src/page-content/leadership/page.html",
+    "type": "static",
+    "htmlHash": "f262bd97ba44c5a133498b08493c0ecef3ee8e7dc8a2f9f0dc1b1549b5eed961",
+    "sourceHashes": {
+      "content.json": "09a1984d2f4374c4c0f832f47450eba833ab94f017610921a598a84e339a3297",
+      "layout.json": "b5084c38117be55d3e70afc33eb26950baf39f483c0a047be47b70d4ef8720e8",
+      "assets.json": "d288644163952bc8beb1d1ca762ecfafdd9a1f7ac14760b1a79bcc07ef9e9849"
+    }
+  },
+  "/contact-us": {
+    "folder": "contact-us",
+    "file": "src/page-content/contact-us/page.html",
+    "type": "static",
+    "htmlHash": "2b74c4328dfc937d9edd8ee752a113f3977846af3e4e6bdf52b3aaa3ef1bf031",
+    "sourceHashes": {
+      "content.json": "abc93b2e34d98fc9d10464f1822e2582568fd311eb0d5941a7c72604e71b643f",
+      "layout.json": "03faea539664e09bea48ef93b6d7e4a016b0ec805083822ce882c7ae30726e19",
+      "assets.json": "3088eff2ca204e6691dc79c510e4476682b8c0ba644c5de20a1bba927eba28f9"
+    }
+  },
+  "/backend-api-development": {
+    "folder": "backend-api-development",
+    "file": "src/page-content/backend-api-development/page.html",
+    "type": "static",
+    "htmlHash": "e69c48d0a2929e18e74c3e5e6fdd8d497ce39bc1d38a50f57c774c401f15ff02",
+    "sourceHashes": {
+      "content.json": "b798adc0b80a5a7722382ce14e8b6c02fb449399a8d8eaaa14c9e0d9aaf928cb",
+      "layout.json": "cf7cd6a067ec702aff6bc75475b1900460ace8be68114bd015682ea490ba6983",
+      "assets.json": "bed1ff859f320cb9f55ee92906d204e6870f41398ccd9d2d334e0cbdc88c66c6"
+    }
+  },
+  "/app-store-optimization": {
+    "folder": "app-store-optimization",
+    "file": "src/page-content/app-store-optimization/page.html",
+    "type": "static",
+    "htmlHash": "bba6441b4d31e4d470a9e4ee324317aa0f9f1028372951409e906c614e81deda",
+    "sourceHashes": {
+      "content.json": "de0810c0960cc98120bc385f9f35b4e5e374743e313a50d6fcadddabeb7e1691",
+      "layout.json": "829571d4a6b394fda7ab7dc9f10eb8fa2f02e75f38caa8a685e2045e331d4b81",
+      "assets.json": "6270606a235c143ea2d6f1e95d7d1d136364295fc107df22e25469c1c38ce45d"
+    }
+  },
+  "/ai-automation-services": {
+    "folder": "ai-automation-services",
+    "file": "src/page-content/ai-automation-services/page.html",
+    "type": "static",
+    "htmlHash": "c3d3cb2e45ffada720fae13318d78dc12ab28cbd9ab6a84f23bbd9c6fa5aa798",
+    "sourceHashes": {
+      "content.json": "9ba4d8276477c2bc801423c062365228929dcd7832eb2a37d78b5c77a6da114f",
+      "layout.json": "07ff8c6eb2d7ffb8e9f587d81adc4e80bf19e6e84220560cbafa013b8b6818cb",
+      "assets.json": "753d4d8023e61002913ee767ce0a842996fbcd6340bb4755a6290b76a6dd4108"
+    }
+  },
+  "/mobile-app-development": {
+    "folder": "mobile-app-development",
+    "file": "src/page-content/mobile-app-development/page.html",
+    "type": "static",
+    "htmlHash": "8056f7a39a01f375f9818093dafc721f8de705e6d4008e27f31d402821042390",
+    "sourceHashes": {
+      "content.json": "3e22c7b6cb18c65aa8b5d1a703d97d53b8972fe77c6e9a98b74fc33044d726a3",
+      "layout.json": "411e94d948ea50df100d6f644cca0eca92fde0400f02a94145e5a0dabac8508f",
+      "assets.json": "e0593016901e9e6f84e36a535eb4ae32bef2525ea43c507866e2bf20fc3831c8"
+    }
+  },
+  "/product-launch-strategy": {
+    "folder": "product-launch-strategy",
+    "file": "src/page-content/product-launch-strategy/page.html",
+    "type": "static",
+    "htmlHash": "224c424f51161595ca36775645ef620ee70093f987e3e6d33c3411b80ead5c16",
+    "sourceHashes": {
+      "content.json": "8fea78d6ed75bdae0ceec1e4b2099dd6a3860ba95236edda6483aa47432fd32f",
+      "layout.json": "6043793269a90b514d6ccf803dcfcaf316a735360a08dcf9eed3373f9e20984f",
+      "assets.json": "5cf822389917c434ec4c1237d919b6447a97527f4491a199645fd00d11b41c6c"
+    }
+  },
+  "/kotlin-multiplatform-app-development": {
+    "folder": "kotlin-multiplatform-app-development",
+    "file": "src/page-content/kotlin-multiplatform-app-development/page.html",
+    "type": "static",
+    "htmlHash": "948043d8065748aba09d5c890fbcc2e0b753128a3f29a9816079a71b71279192",
+    "sourceHashes": {
+      "content.json": "e94d50bfdf4bfeb36fb4e191a34f7db9a1bc14ab959a529a170f5d56ab33d0f3",
+      "layout.json": "db2b1b7a317ad7864a360878432d69ffdab9aba7f508c0d207d263b9acde75b4",
+      "assets.json": "6d17bbeec4e9789854f6795c29a78b879a98de2fa458e247d259a0f72dfb92d3"
+    }
+  },
+  "/fitness-app-development": {
+    "folder": "fitness-app-development",
+    "file": "src/page-content/fitness-app-development/page.html",
+    "type": "static",
+    "htmlHash": "af20182d1e4d4d09d80ead76d7069673d21339e7055ec12de13103666f86ebc5",
+    "sourceHashes": {
+      "content.json": "36c5817cccf5286f81b0a12396b683851fd457c4b2fc1b8081201cecb75b10aa",
+      "layout.json": "94081975d23e1811493b88c054866bfd04db261aa40816a52ff500235f2bc86d",
+      "assets.json": "4c4a6777f09705bed068c003955b40c4f8bfd6aee4cbd3ff1cf6fb26d81665f0"
+    }
+  },
+  "/business-process-automation": {
+    "folder": "business-process-automation",
+    "file": "src/page-content/business-process-automation/page.html",
+    "type": "static",
+    "htmlHash": "e3c2cd4c6a7d4083cb44365702c7f81bea280331bb511df4859236528e478402",
+    "sourceHashes": {
+      "content.json": "6a2e6957a7967ad3a15bf1bd1696d913bea2b78258e4a1a8c98316f3975bc164",
+      "layout.json": "09e432b30eed9042616ea6fa5815a7e34754f91f740a567e6e294daddea810fa",
+      "assets.json": "9bf117e5617a65b06b9fca1897e1b4f180a53c97238891189d9c33bdf66917d6"
+    }
+  },
+  "/ai-mvp-development": {
+    "folder": "ai-mvp-development",
+    "file": "src/page-content/ai-mvp-development/page.html",
+    "type": "static",
+    "htmlHash": "fdb083763d12fb4ff02e0f0d07f4581ae8aed29acdedc290ce876446c33d9dbd",
+    "sourceHashes": {
+      "content.json": "f09cc7755f59612491528d50f0577072fceba7c3e16a0c4fd14b5d74633b73cb",
+      "layout.json": "44ed3fce05c2208c4894efa8ecfbb2ce92cba5d2c3072f2098f69f570ff17f09",
+      "assets.json": "6fbd337780fe6472803c76501b5f05b3e9dc743f05ee2fd20200146ef88f46f7"
+    }
+  },
+  "/android-app-development": {
+    "folder": "android-app-development",
+    "file": "src/page-content/android-app-development/page.html",
+    "type": "static",
+    "htmlHash": "7e63c6319d6f16504f5b4d05cacd123a7ce3115ad3a47e3c83c1935e62f33d8c",
+    "sourceHashes": {
+      "content.json": "44ab20294c00db8120128f648bc85c4e614ce5092eab27968d5b12ffd706fae6",
+      "layout.json": "99895b9589d892d851d20403e5717c1868c61bf96004e4f366cc21f79bd0d5c6",
+      "assets.json": "fa03b81a10b984d5f5d3f2c98329fe413bad9cfeb884be591cba8b1d8dee3237"
+    }
+  },
+  "/ai-development/ai-cost-estimator": {
+    "folder": "ai-development/ai-cost-estimator",
+    "file": "src/page-content/ai-development/ai-cost-estimator/page.html",
+    "type": "static",
+    "htmlHash": "e9cca94fe1a01df4c562e1bdca4b2db667ab35f4ee4dee7ad239b6f8c392b9ee",
+    "sourceHashes": {
+      "content.json": "89f7ceb6631cbbb467f257a73eb9393f4e04486759a97e9ecb7a008cd36b101b",
+      "layout.json": "21752478d9b594369a5c6125965bf97cc7d7cbd0cd02f9b43b5c4a01eebe178d",
+      "assets.json": "b0dee680bc39fca32f88ece585fff830d04be3a92d8044f882f004c373e07149"
+    }
+  },
+  "/cross-platform-app-development": {
+    "folder": "cross-platform-app-development",
+    "file": "src/page-content/cross-platform-app-development/page.html",
+    "type": "static",
+    "htmlHash": "e56ec3c86d0e93e34d4199b3192dccaade35a9b52af2cc3f6e666aee62473be5",
+    "sourceHashes": {
+      "content.json": "94866164753ed5fa0b1be178bb121a6e19a24aaa48ed55c569fa64163889cd30",
+      "layout.json": "2b697f7c43d08170de6d0d9c1df4262a148329f388c9d2aeafc4c48e17d9fdb5",
+      "assets.json": "4d3280f7be20b927e1eb204c6d9c434b88cbf0a8916b8dfc0ab2e3547a824a55"
+    }
+  },
+  "/web-app-development-company": {
+    "folder": "web-app-development-company",
+    "file": "src/page-content/web-app-development-company/page.html",
+    "type": "static",
+    "htmlHash": "738d4a46684df189c7d4d70d39f668281bfc6ad01d4caa7283fcc3c35254ff7d",
+    "sourceHashes": {
+      "content.json": "7b375af9a876b83a58d681bf99e33dc4784dad138ea8427708a53752799c0254",
+      "layout.json": "2f47bd296fe5e0a19f42a14e211914ef54c94054cb83a4e71c66b4be18c9bf48",
+      "assets.json": "31ffeb2e8014057d4ba4b16ec96f038769ab9a8865aaf9038056ab8ebcf2d218"
+    }
+  },
+  "/ios-app-development": {
+    "folder": "ios-app-development",
+    "file": "src/page-content/ios-app-development/page.html",
+    "type": "static",
+    "htmlHash": "c7eabcd9fc8102c9e2e3a45de3151b2e549b83a19ded4bc213e70f70b127c1b0",
+    "sourceHashes": {
+      "content.json": "f8920b78d244fde7d9728064b9e628024d0842d3b02f2becd41be35a5a0e39fb",
+      "layout.json": "298e86fe0354ac08900689f5b083d6bf50b8b4616e1b038015e4a4254cfadf78",
+      "assets.json": "56631341d7ca0a5ff2da519ad6c4d08332840aaf73e30789262c32ef6f1032a3"
+    }
+  },
+  "/web-development": {
+    "folder": "web-development",
+    "file": "src/page-content/web-development/page.html",
+    "type": "secondary",
+    "htmlHash": "e2b814362aceddc13fa07b5f66e81bbc40a1961cd2ab3025c5c8c293572edad2",
+    "sourceHashes": {
+      "content.json": "7f919e8987adf9b3abb1bf109270c3abfa0cbd36da95d210ce7a82c8a95cce10",
+      "layout.json": "27ea1b202b2e164f82bdf4836c0165146a0b6fd353ac51adaa279db8c20f95fb",
+      "assets.json": "c8d1a1e4bd705eaba399a5682ffad52a6609b6c3f6527a7e1c5d78716d3fb516"
+    }
+  },
+  "/staff-augmentation": {
+    "folder": "staff-augmentation",
+    "file": "src/page-content/staff-augmentation/page.html",
+    "type": "secondary",
+    "htmlHash": "49e09853ada8b98d96c6952da38683b5c9d76a21546a75742dfec36dea956782",
+    "sourceHashes": {
+      "content.json": "645c8a01c7a00c59077d5b50287b9285e01074622c2c76053655f5237a0b4651",
+      "layout.json": "fe7aa23841157a7152d7294149eb2b89ef9feb5541ecee9708df1a030658f369",
+      "assets.json": "0553bcc3f66bffe9678da647a486983c857d3c15dead84a6209839361d918417"
+    }
+  },
+  "/iot-app-development": {
+    "folder": "iot-development",
+    "file": "src/page-content/iot-development/page.html",
+    "type": "secondary",
+    "htmlHash": "edc5be09f13e9a29de91e4a987f59e745c10d04c21bc9cf1148ebafccaca0500",
+    "sourceHashes": {
+      "content.json": "dbd38072090d63b6deaee6ba351b58f75449167348693bdf63cba9d5878c80ff",
+      "layout.json": "75f0feb3c3212f0107e1f210e2deed826769a9c0d8fc938aae69004543df1c6d",
+      "assets.json": "f5aab3f627b4396ae3bc286226c14cd13b831276c884fbde72ca5f33f06a922a"
+    }
+  },
+  "/virtual-reality-development": {
+    "folder": "virtual-reality-development",
+    "file": "src/page-content/virtual-reality-development/page.html",
+    "type": "secondary",
+    "htmlHash": "65d2161b2739287d10ea241f3615ef5ee260892e610a4bd5c6ad47198576bab4",
+    "sourceHashes": {
+      "content.json": "383daf4d653715120763217f2eac1fb59bfe5a590cd419872a4a4a424403a99d",
+      "layout.json": "ecb13575b88d121da9fb1c75b70a381f4e7c74f4a443ab258fe46ea60440b02f",
+      "assets.json": "4756be07d463660454a6773dc4eadedd798659fe4c4fff6f0fa80318615f31a2"
+    }
+  },
+  "/ar-app-development": {
+    "folder": "ar-app-development",
+    "file": "src/page-content/ar-app-development/page.html",
+    "type": "secondary",
+    "htmlHash": "cd42e0950ad31352586a51391e5b2bb2d28734a54369330573f711f41135622d",
+    "sourceHashes": {
+      "content.json": "abc90af4044ca74c99ca425f0537bb5bd4db811f080a547737aa93bb2ef53805",
+      "layout.json": "c3a1bba035eddadff1bcfdda5151c124032c4b204d9acb64d84f932a56073678",
+      "assets.json": "5f15e64d8e71e6c2f043193094bffc41120775fedf4069c8f08ef76778330a23"
+    }
+  },
+  "/thank-you": {
+    "folder": "thank-you",
+    "file": "src/page-content/thank-you/page.html",
+    "type": "thank-you",
+    "htmlHash": "90c0a6d0d53fa20b225579a2d0292f0bb6bf6272afd418d84127e04de6f8377a",
+    "sourceHashes": {
+      "content.json": "27b879db3951329628dc5ee26d6a9153e58e24c08bd801128f9e5b4b0bb43d08",
+      "layout.json": "d23ef90552b2bc18cafd0af8455c105e09740c4db0b998bc50ba567538f035e8",
+      "assets.json": "621e618193facda2d8bfededdc69e814a0241124c82234f9ae56976695c32a22"
+    }
+  },
+  "/mobile-game-development": {
+    "folder": "mobile-game-development",
+    "file": "src/page-content/mobile-game-development/page.html",
+    "type": "secondary",
+    "htmlHash": "c0c63d979bdbe9e7641f4d916bd2d41e582edd0e2df669ed158f814b95442f77",
+    "sourceHashes": {
+      "content.json": "d32680f135e18e984041a506db7d8480c0980141603cbfe8980d7f8ba18357da",
+      "layout.json": "73d567d5efe3481a6ca362bb5a56492e830f7f5e73fd9d6ef93a6046aea89344",
+      "assets.json": "edd6c323ac9472ad6217fd7fdc2cc57e1f7eaf9590906658228e3c954952e318"
+    }
+  }
+}

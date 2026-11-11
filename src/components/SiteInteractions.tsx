@@ -1,11 +1,34 @@
 "use client";
 import { useEffect } from "react";
 import { initializeCalendarPopup } from "@/lib/calendar-popup";
+import { initializeAIEstimator } from "@/lib/ai-estimator";
+import { initializeContactTestimonials } from "@/lib/contact-testimonials";
 export default function SiteInteractions({ pageKey }: { pageKey: string }) {
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".migrated-page");
     if (!root) return;
     const cleanups: (() => void)[] = [];
+    cleanups.push(initializeAIEstimator(root));
+    const testimonials = initializeContactTestimonials(root);
+    cleanups.push(testimonials.dispose);
+    const headingColumns = new ResizeObserver(entries => {
+      for (const entry of entries) {
+        const column = entry.target as HTMLElement;
+        const width = Math.round(entry.contentRect.width);
+        if (width > 0 && column.style.getPropertyValue("--heading-column-width") !== `${width}px`)
+          column.style.setProperty("--heading-column-width", `${width}px`);
+      }
+    });
+    root.querySelectorAll(".migrated-widget-heading").forEach(column => headingColumns.observe(column));
+    cleanups.push(() => headingColumns.disconnect());
+    root.querySelectorAll<HTMLElement>(".scroll-sty").forEach(region => {
+      if (!region.hasAttribute("tabindex")) region.tabIndex = 0;
+      const heading = region.closest(".e-parent")?.querySelector("h2,h3");
+      if (heading && !region.hasAttribute("aria-label") && !region.hasAttribute("aria-labelledby")) {
+        region.setAttribute("role", "region");
+        region.setAttribute("aria-label", heading.textContent?.trim() || "Scrollable content");
+      }
+    });
     const calendar = initializeCalendarPopup(root);
     cleanups.push(calendar.dispose);
     const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -244,8 +267,9 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           ).toLocaleString();
       });
     root.querySelectorAll<HTMLElement>("[role=tablist]").forEach((list) => {
+      if (list.closest("#id-contact-popup")) return;
       const tabs = [...list.querySelectorAll<HTMLElement>("[role=tab]")];
-      const activate = (tab: HTMLElement) => {
+      const activate = (tab: HTMLElement, reveal = false) => {
         tabs.forEach((t) => {
           const selected = t === tab;
           t.setAttribute("aria-selected", String(selected));
@@ -262,10 +286,13 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
             panel.style.display = selected ? "" : "none";
           }
         });
+        if (reveal && list.closest(".patient-tab")) {
+          tab.scrollIntoView({ block: "nearest", inline: "nearest", behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+        }
       };
       const click = (e: Event) => {
         const tab = (e.target as Element).closest<HTMLElement>("[role=tab]");
-        if (tab && tabs.includes(tab)) activate(tab);
+        if (tab && tabs.includes(tab)) activate(tab, true);
       };
       const key = (e: KeyboardEvent) => {
         const current = (e.target as Element).closest<HTMLElement>(
@@ -282,7 +309,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         else if (e.key === "End") next = tabs.length - 1;
         else return;
         e.preventDefault();
-        activate(tabs[next]);
+        activate(tabs[next], true);
         tabs[next].focus();
       };
       list.addEventListener("click", click);
@@ -308,14 +335,21 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         if (!wrapper) return;
         const slides = [...wrapper.children] as HTMLElement[];
         if (!slides.length) return;
+        if (container.getAttribute("role") === "list") {
+          container.setAttribute("aria-live", wrapper.getAttribute("aria-live") || "off");
+          wrapper.removeAttribute("aria-live");
+          wrapper.setAttribute("role", "presentation");
+          slides.forEach(slide => slide.setAttribute("role", "listitem"));
+        }
         const widget = container.closest<HTMLElement>("[data-config]");
         let settings: Record<string, unknown> = {};
         try {
           settings = JSON.parse(widget?.dataset.config || "{}");
         } catch {}
         let current = 0;
-        const show = () => {
-          const n =
+        let interacted = false;
+        const slidesPerView = () =>
+          Math.max(1, Math.min(slides.length,
             innerWidth < 768
               ? Number(settings.slides_to_show_mobile || 1)
               : innerWidth < 1025
@@ -324,21 +358,24 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
                       settings.slides_to_show ||
                       1,
                   )
-                : Number(settings.slides_to_show || 1);
-          slides.forEach((s) => {
-            s.style.flex = "0 0 " + 100 / n + "%";
-            s.style.width = 100 / n + "%";
-          });
+                : Number(settings.slides_to_show || 1)));
+        const show = () => {
+          const n = slidesPerView();
+          const gap = parseFloat(getComputedStyle(wrapper).columnGap) || 0;
+          const slideWidth = Math.max(0, (container.clientWidth - gap * (n - 1)) / n);
           current = Math.min(current, Math.max(0, slides.length - n));
-          wrapper.style.transform = `translate3d(${(-current * container.clientWidth) / n}px,0,0)`;
+          slides.forEach((s, index) => {
+            s.style.flex = `0 0 ${slideWidth}px`;
+            s.style.width = `${slideWidth}px`;
+            s.inert = index < current || index >= current + n;
+            s.setAttribute("aria-hidden", String(s.inert));
+          });
+          wrapper.style.transform = `translate3d(${-current * (slideWidth + gap)}px,0,0)`;
           wrapper.style.transitionDuration =
-            Number(settings.speed || 500) + "ms";
+            (reduced ? 0 : Number(settings.speed || 500)) + "ms";
         };
         const advance = (direction: number) => {
-          const n =
-            innerWidth < 768
-              ? Number(settings.slides_to_show_mobile || 1)
-              : Number(settings.slides_to_show || 1);
+          const n = slidesPerView();
           current += direction;
           if (current > slides.length - n) current = 0;
           if (current < 0) current = Math.max(0, slides.length - n);
@@ -351,6 +388,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           );
           if (target) {
             e.preventDefault();
+            if (settings.pause_on_interaction === "yes") interacted = true;
             advance(
               target.getAttribute("aria-label") === "Previous slide" ||
                 target.className.toString().includes("prev")
@@ -360,6 +398,34 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           }
         };
         controls.addEventListener("click", onClick);
+        const onControlKey = (event: KeyboardEvent) => {
+          if (!["Enter", " "].includes(event.key)) return;
+          const arrow = (event.target as Element).closest<HTMLElement>(
+            '[aria-label="Next slide"],.swiper-button-next,.migrated-swiper-button-next,[aria-label="Previous slide"],.swiper-button-prev,.migrated-swiper-button-prev',
+          );
+          if (arrow && !arrow.matches("button,input,a")) {
+            event.preventDefault();
+            arrow.click();
+          }
+        };
+        controls.addEventListener("keydown", onControlKey);
+        let touch: { x: number; y: number } | null = null;
+        const touchStart = (event: TouchEvent) => {
+          touch = { x: event.touches[0].clientX, y: event.touches[0].clientY };
+        };
+        const touchEnd = (event: TouchEvent) => {
+          if (!touch) return;
+          const dx = event.changedTouches[0].clientX - touch.x;
+          const dy = event.changedTouches[0].clientY - touch.y;
+          touch = null;
+          if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+            if (settings.pause_on_interaction === "yes") interacted = true;
+            advance(dx < 0 ? 1 : -1);
+          }
+        };
+        container.style.touchAction = "pan-y pinch-zoom";
+        container.addEventListener("touchstart", touchStart, { passive: true });
+        container.addEventListener("touchend", touchEnd, { passive: true });
         const resize = new ResizeObserver(show);
         resize.observe(container);
         show();
@@ -372,7 +438,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           !reduced && settings.autoplay === "yes"
             ? setInterval(
                 () => {
-                  if (!hover && !document.hidden) advance(1);
+                  if (!hover && !interacted && !document.hidden && !controls.contains(document.activeElement)) advance(1);
                 },
                 Number(settings.autoplay_speed) || 5000,
               )
@@ -380,16 +446,19 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         cleanups.push(() => {
           resize.disconnect();
           controls.removeEventListener("click", onClick);
+          controls.removeEventListener("keydown", onControlKey);
+          container.removeEventListener("touchstart", touchStart);
+          container.removeEventListener("touchend", touchEnd);
           container.removeEventListener("mouseenter", enter);
           container.removeEventListener("mouseleave", leave);
           if (timer) clearInterval(timer);
         });
       });
     let previousFocus: HTMLElement | null = null;
-    const openPopup = (id: string) => {
+    const openPopup = (id: string, trigger?: HTMLElement) => {
       const popup = document.getElementById(id);
       if (!popup) return;
-      previousFocus = document.activeElement as HTMLElement;
+      previousFocus = trigger || document.activeElement as HTMLElement;
       popup.hidden = false;
       popup.classList.add("active", "is-open", "migration-visible");
       popup.setAttribute("aria-hidden", "false");
@@ -401,8 +470,10 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           if (!f.getAttribute("src")) f.src = f.dataset.embedSrc || "";
         });
       popup.querySelector<HTMLElement>("button,input,a")?.focus();
+      if (id === "id-contact-popup") testimonials.open();
     };
     const closePopups = () => {
+      testimonials.close();
       for (const id of ["schedulePopup", "id-contact-popup"]) {
         const popup = document.getElementById(id);
         if (popup) {
@@ -413,6 +484,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
       document.body.classList.remove("id-cp-lock");
       previousFocus?.focus();
+      previousFocus = null;
     };
     const click = (e: MouseEvent) => {
       const target = e.target as Element;
@@ -421,7 +493,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         !target.closest("#id-contact-popup")
       ) {
         e.preventDefault();
-        openPopup("id-contact-popup");
+        openPopup("id-contact-popup", target.closest<HTMLElement>(".getintouch") || undefined);
         return;
       }
       const card = target.closest<HTMLElement>("[data-cwa-index]");
@@ -459,6 +531,9 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
         );
         // This class supplies fixed positioning in both states; only `active` changes.
         menu?.classList.add("sitekit-menu-offcanvas-elements");
+        if (expanded && innerWidth < 1025) {
+          menu?.querySelector<HTMLElement>(".sitekit-menu-close, a[href], button")?.focus();
+        }
         if (!expanded) {
           menu?.querySelectorAll(".migration-menu-open").forEach((item) => {
             item.classList.remove("migration-menu-open");
@@ -474,7 +549,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       const button = target.closest<HTMLElement>("button,a");
       if (button && /schedule\s*a?\s*call/i.test(button.textContent || "")) {
         e.preventDefault();
-        openPopup("schedulePopup");
+        openPopup("schedulePopup", button);
         return;
       }
       if (
@@ -487,7 +562,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
           ["#", "#!"].includes(link.getAttribute("href") || ""))
       ) {
         e.preventDefault();
-        openPopup("id-contact-popup");
+        openPopup("id-contact-popup", button);
         return;
       }
       if (
@@ -516,14 +591,37 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
     };
     const key = (e: KeyboardEvent) => {
+      const action = (e.target as Element).closest<HTMLElement>('a[role="button"]');
+      if (action && (e.key === " " || (e.key === "Enter" && !action.hasAttribute("href")))) {
+        e.preventDefault();
+        action.click();
+        return;
+      }
       if (e.key === "Tab") {
+        const drawer = innerWidth < 1025
+          ? root.querySelector<HTMLElement>(".sitekit-menu-container.active")
+          : null;
+        if (drawer) {
+          const items = [...drawer.querySelectorAll<HTMLElement>(
+            'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex="0"]',
+          )].filter(el => el.tabIndex >= 0 && el.getClientRects().length &&
+            getComputedStyle(el).visibility !== "hidden" && !el.closest("[hidden],[inert]"));
+          const first = items[0], last = items.at(-1);
+          if (!drawer.contains(document.activeElement) || (e.shiftKey && document.activeElement === first)) {
+            e.preventDefault();
+            (e.shiftKey ? last : first)?.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first?.focus();
+          }
+        }
         const popup = document.querySelector<HTMLElement>(
           "#id-contact-popup.is-open,#schedulePopup.is-open",
         );
         if (popup) {
           const items = [
             ...popup.querySelectorAll<HTMLElement>(
-              'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex="0"]',
+              'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),iframe,[tabindex="0"]',
             ),
           ].filter(
             (el) => el.getClientRects().length && !el.closest("[inert]"),
@@ -558,6 +656,12 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
     };
     root.addEventListener("click", click);
+    const keepDialogFocus = (event: FocusEvent) => {
+      const popup = root.querySelector<HTMLElement>("#id-contact-popup.is-open,#schedulePopup.is-open");
+      if (popup && !popup.contains(event.target as Node))
+        popup.querySelector<HTMLElement>('button:not([disabled]),input:not([type="hidden"]),a[href],iframe')?.focus();
+    };
+    document.addEventListener("focusin", keepDialogFocus);
     const toggleDetails = (e: Event) => {
       const details = e.target as HTMLDetailsElement;
       if (!details.matches(".e-n-accordion details")) return;
@@ -582,6 +686,7 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       document.documentElement.classList.remove("migration-mobile-menu-open");
       delete root.dataset.interactionsReady;
       root.removeEventListener("click", click);
+      document.removeEventListener("focusin", keepDialogFocus);
       root.removeEventListener("toggle", toggleDetails, true);
       root.removeEventListener("keydown", key);
     });
