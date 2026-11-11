@@ -53,13 +53,13 @@ async function sourceRequest(url: string) {
         response.on("end", () =>
           response.statusCode === 200
             ? resolve(Buffer.concat(chunks).toString("utf8"))
-            : reject(new Error("Form service unavailable")),
+            : reject(Object.assign(new Error("Blog source unavailable"), { statusCode: response.statusCode })),
         );
         response.on("error", reject);
       },
     );
     request.on("timeout", () =>
-      request.destroy(new Error("Form service timed out")),
+      request.destroy(new Error("Blog source timed out")),
     );
     request.on("error", reject);
     request.end();

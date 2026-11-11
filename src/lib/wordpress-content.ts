@@ -583,6 +583,7 @@ export const getWordPressPage = cache(
       );
       return page;
     } catch (error) {
+      if (error && typeof error === "object" && "statusCode" in error && error.statusCode === 404) return undefined;
       console.error(
         "WordPress content refresh failed",
         path,
