@@ -341,7 +341,7 @@ function appendSourceStyles(
   page.css += "\n" + ast.toString();
 }
 
-async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
+async function readBlogPins() {
   // The custom WordPress pin checkbox is not the REST sticky field. Read its
   // authoritative rendered flags, while keeping post data/filtering API-driven.
   const pinned = new Map<string, number>();
@@ -356,21 +356,23 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
     });
     if (!pins.length || pins.length !== cards.length || cards.length < 15) break;
   }
+  return pinned;
+}
+
+async function readBlogCards(options: BlogOptions) {
   const query = new URLSearchParams({
     per_page: "100",
     _embed: "wp:featuredmedia,wp:term",
     _fields: "id,slug,link,title,excerpt,_links,_embedded",
   });
-  const press = JSON.parse(await read("/wp-json/wp/v2/categories?slug=press-release&_fields=id")) as { id: number }[];
+  const [pressText, categoryText] = await Promise.all([
+    read("/wp-json/wp/v2/categories?slug=press-release&_fields=id"),
+    options.category && options.category !== "all" ? read("/wp-json/wp/v2/categories?slug=" + encodeURIComponent(options.category) + "&_fields=id") : Promise.resolve("[]"),
+  ]);
+  const press = JSON.parse(pressText) as { id: number }[];
   if (press[0]) query.set("categories_exclude", String(press[0].id));
   if (options.category && options.category !== "all") {
-    const categories = JSON.parse(
-      await read(
-        "/wp-json/wp/v2/categories?slug=" +
-          encodeURIComponent(options.category) +
-          "&_fields=id",
-      ),
-    ) as { id: number }[];
+    const categories = JSON.parse(categoryText) as { id: number }[];
     query.set("categories", String(categories[0]?.id || 0));
     if (!categories.length) query.set("include", "0");
   }
@@ -386,6 +388,11 @@ async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions) {
     all.push(...batch);
     if (batch.length < 100) break;
   }
+  return all;
+}
+
+async function updateBlogListing($: cheerio.CheerioAPI, options: BlogOptions, data: [Map<string, number>, PostCard[]]) {
+  const [pinned, all] = data;
   const perPage =
     options.view === "mobile" ? 6 : options.view === "tablet" ? 9 : 15;
   all.sort((a, b) =>
@@ -538,14 +545,14 @@ export const getWordPressPage = cache(
           ? query.get("blog_view")!
           : "desktop",
       };
-      const html = await read(
+      const [html, listingData] = await Promise.all([read(
         path +
           (post
             ? "?migration_version=" + encodeURIComponent(post.modified_gmt) + "&reviewer=" + String(post.meta?._flow_reviewer_id || 0) + "&review_status=" + encodeURIComponent(post.meta?._flow_review_status || "")
             : blogQuery
               ? "?" + blogQuery
               : ""),
-      );
+      ), path === "/blog" ? Promise.all([readBlogPins(), readBlogCards(options)]) : Promise.resolve(undefined)]);
       const $ = cheerio.load(html);
       const template = saved || getPage(archive ? (path.startsWith("/author/") ? "/author/inceptivesdigital" : "/category/mobile-game-development") : "/blog/no-code-mvp-vs-custom-mvp")!;
       const page: SitePage = {
@@ -564,7 +571,7 @@ export const getWordPressPage = cache(
           ? $("[data-elementor-type='single-post']").first()
           : $("main#content").first();
       if (!root.length) throw new Error("WordPress content template missing");
-      if (path === "/blog") await updateBlogListing($, options);
+      if (path === "/blog" && listingData) await updateBlogListing($, options, listingData);
       prepareSourceDom($, { key: page.key });
       appendSourceStyles($, root, page);
       const converted = convertDom($, root[0]);
