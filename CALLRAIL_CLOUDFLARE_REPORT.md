@@ -46,3 +46,7 @@ Raw public scripts, generated payloads and private dashboard screenshots remain 
 - [Cloudflare error codes](https://developers.cloudflare.com/turnstile/troubleshooting/client-side-errors/error-codes/)
 - [Turnstile hostname management](https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/)
 - [Vercel proxy guidance](https://vercel.com/kb/guide/can-i-use-a-proxy-on-top-of-my-vercel-deployment)
+
+## Cloudflare account follow-up — 11 November 2026
+
+The user resumed hostname authorization and completed sign-in in the connected Chrome profile. The accessible account lists only one widget, **Inceptives Video Testimonial** (`0x4AAAAAAEX9rb9oH0Cg80Lh`), and one available account. The source WordPress and staging forms both use `0x4AAAAAAF2_MwH5-dBU2H8A`, which is not listed there. No unrelated widget was edited. The user is checking which account owns the original widget. Authorization and real protected-form delivery remain pending that access. A fresh preflight confirmed source/staging key parity and HTTP 400 rejection of a missing challenge. No Cloudflare hostname, live WordPress or DNS changes were made.

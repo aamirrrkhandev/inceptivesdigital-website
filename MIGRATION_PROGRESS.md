@@ -2,6 +2,8 @@
 
 Current staging: https://inceptives-homepage-review.vercel.app/ (deployment dpl_7FMvA7SDroaU8t9VJr5Wjjy8Wxk1, runtime source commit b8af4beb8d93bbf4aba1a0795331ea47cf47feba).
 
+Cloudflare follow-up, 11 November: connected-account sign-in succeeded, but the source/staging widget is absent from its single-widget account. Only the separate Video Testimonial widget is available. User is identifying the original widget owner/account; no hostname or DNS changes were made. Missing-challenge rejection (400) and source/staging key parity were verified.
+
 ## CallRail / Cloudflare batch — 11 November 2026
 
 The official source CallRail company snippet now loads from the shared root across staging. Business phone links use a swap-compatible E.164 URI, fixing the observed case where only display text changed. All ten enquiry/assessment types passed with native GHL/CallRail SDKs and intercepted delivery; challenge/hidden control values are excluded, and capture occurs after confirmed delivery. One actual CallRail QA submission received HTTP 200 with native session/landing data and one UUID; all four contact-page phone links matched the assigned display number. No real call was placed. WordPress/GHL endpoints were mocked in that live-CallRail transport test.
