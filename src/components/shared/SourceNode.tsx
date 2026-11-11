@@ -207,6 +207,12 @@ export function renderNode(
   if (tag === "img") {
     const src = String(props.src || "");
     const media = mediaIndex[src];
+    // Mark actual pictogram assets, not photographs, badges or brand wordmarks.
+    const iconName = /(?:^|[-_/])icon(?:[-_.\d]|$)/i.test(src);
+    const logoOrBadge = /logo|brand|review|award|badge|favicon|slider/i.test(src);
+    const width = Number(media?.width || props.width), height = Number(media?.height || props.height);
+    if (iconName && !logoOrBadge && width > 0 && height > 0 && width / height >= .6 && width / height <= 1.7)
+      safeProps["data-standard-icon"] = "true";
     if (media?.width && !safeProps.width) safeProps.width = media.width;
     if (media?.height && !safeProps.height) safeProps.height = media.height;
     if (typeof safeProps.srcSet === "string")
