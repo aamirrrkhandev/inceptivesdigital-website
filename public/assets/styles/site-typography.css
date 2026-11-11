@@ -140,13 +140,13 @@ body .migrated-page[data-source-path="/portfolio"] .position-relative .migrated-
   body .migrated-page :is(input, select, textarea) { font-size: 16px; }
 }
 @media (max-width: 1024px) {
-  body .migrated-page[data-source-path] .sitekit-menu-container {
+  html body .migrated-page[data-source-path] .header-containers .sitekit-menu-container {
     padding: 0 0 calc(88px + env(safe-area-inset-bottom, 0px)) !important;
     scroll-padding-top: 118px;
     scroll-padding-bottom: 88px;
     isolation: isolate;
   }
-  body .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-nav-identity-panel {
+  html body .migrated-page[data-source-path] .header-containers .sitekit-menu-container > .sitekit-nav-identity-panel {
     top: 0 !important;
     width: 100% !important;
     margin: 0 !important;
@@ -154,7 +154,7 @@ body .migrated-page[data-source-path="/portfolio"] .position-relative .migrated-
     background: #202020 !important;
     z-index: 1001 !important;
   }
-  body .migrated-page[data-source-path] .sitekit-menu-container > .sitekit-navbar-nav {
+  html body .migrated-page[data-source-path] .header-containers .sitekit-menu-container > .sitekit-navbar-nav {
     width: 100% !important;
     padding-inline: 17px !important;
   }
@@ -213,4 +213,13 @@ html:not([data-chat-open="true"]) #chat-widget-container {
   body .migrated-page[data-source-path="/"] [data-id="17188440"] > .home-container-sty:last-child {
     grid-column: 1 / -1;
   }
+}
+
+/* Fluid outer containers: laptop up to 1440px, larger desktops up to 1600px. */
+@media (min-width: 1025px) and (max-width: 1599px) {
+  :root { --site-container: 1440px; }
+}
+html body .migrated-page .e-con.e-parent.e-con-boxed > .e-con-inner {
+  width: 100% !important;
+  --container-max-width: var(--site-container) !important;
 }
