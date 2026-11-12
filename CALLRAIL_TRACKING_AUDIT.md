@@ -17,7 +17,7 @@
 - GA4, Meta, OpenAI and LiveChat ownership is GTM in inspected code/runtime. No duplicate direct installation of these libraries was identified in inspected documents. This is not a claim that every conversion trigger/property was end-to-end verified.
 - Direct Leadsy and GTM Leadfeeder are different products; direct GHL has no equivalent GTM tag. They remain installed.
 
-## Local changes (not deployed)
+## Tested changes (released 12 November 2026)
 
 - Shared CallRail coordinator waits for GTM's SDK instead of injecting swap.js; route-change swaps and acknowledged form capture remain.
 - Custom-mobile's three forms no longer import/render Cloudflare Turnstile. Other forms and reviews retain their verification.
@@ -37,4 +37,4 @@
 
 ## Release boundary
 
-Changes remain in the working tree. No Vercel deployment, GTM publication, DNS change or CallRail forwarding change was performed in this audit. Live duplicate script counts therefore remain unchanged until a release.
+User subsequently requested removal on the live landing page. Commit `4ea5783bf60dd43a73abccea56d315e92162519e` was released to production deployment `dpl_EGQoL54CpDZVyC8iyuPwVf22nrqR` on 12 November 2026. The live custom-mobile URL was reloaded in Chrome: all three forms have zero Turnstile controls, zero Cloudflare challenge scripts load, and exactly one CallRail swap.js installation remains. Canonical matches the original. The stable staging alias was restored to its existing preview. No GTM publication, DNS change or CallRail forwarding change was performed. Production enquiries were not submitted during this release check.
