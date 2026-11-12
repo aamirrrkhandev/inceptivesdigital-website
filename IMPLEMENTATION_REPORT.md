@@ -201,3 +201,16 @@ The following lists are generated from the exact review diffs. Source archive pr
 - Title: Healthcare App Development | HIPAA Compliant | Inceptives Digital
 - Description: HIPAA-compliant healthcare app development by Inceptives Digital. Telehealth platforms, patient portals, EHR integrations, and RPM systems. HIPAA-focused, U.S.-based engineering.
 - Canonical: https://inceptivesdigital.com/healthcare-app-development; destination HTTP: 200
+
+## Production release addendum
+
+The owner subsequently selected option 1 (deploy both tested branches) and deferred external Zapier verification. This supersedes the earlier pending-release status above.
+
+- Main production: deployment `dpl_F2EJsFXmChfeXwEqkzMKbYqhziB5`, source `867132dcfec12b40661a94907c0903aaff0e06f7`, READY; `inceptivesdigital.com` alias verified.
+- App production: deployment `dpl_3Pp3t7f23aRdFpinNTjZhfJNsWxk`, source `fb18d20f9b7e92d37fe66afc0ff8967624e5d490`, READY; `app.inceptivesdigital.com` alias verified.
+- Read-only HTTPS smoke: five app routes plus mobile-service and standalone custom-mobile routes returned 200; one raw H1 and intended canonical per route. Standalone budget and timeline fields present in production HTML.
+- Production Chromium smoke at 390px: app-development modal 111ms; iOS modal 98ms; each opened/closed and had one rendered H1. Third-party requests were blocked during this isolated interaction test; no submissions occurred.
+- Stable homepage-review staging alias restored to its pre-release deployment, preserving its separate review state.
+- DNS, main branches, GTM and advertising settings were not changed. Zapier-to-CRM mapping remains deferred at the owner's request. No claim of live CRM delivery verification is made.
+- Rollback deployment IDs: main `dpl_EGQoL54CpDZVyC8iyuPwVf22nrqR`; app `dpl_GgzEi7tmZUQSCt5nwPo67Cfv73TF`.
+- Evidence: local `audit/release-2026-11-12.json` and sibling app `audit/phase-a/production-smoke.json`.
