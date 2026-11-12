@@ -1,0 +1,2 @@
+/* The decorative overlay must not intercept the CTA's pointer events. */
+.id-mid-cta::before { pointer-events: none; }

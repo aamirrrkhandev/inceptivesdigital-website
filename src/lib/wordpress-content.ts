@@ -97,7 +97,10 @@ export async function getWordPressSitemapPosts() {
 
 export const getWordPressPageSitemapURLs = cache(async () => {
   const canonicals = new Map(savedRoutes.map(route => [route.path, approvedCanonical(route.canonical)!]));
-  return [...new Set(nonBlogSitemap.urls.map(url => canonicals.get(new URL(url).pathname.replace(/\/$/, "") || "/") || approvedCanonical(url)!))];
+  return [...new Set([
+    ...nonBlogSitemap.urls.map(url => canonicals.get(new URL(url).pathname.replace(/\/$/, "") || "/") || approvedCanonical(url)!),
+    "https://inceptivesdigital.com/custom-mobile-application-development",
+  ])];
 });
 export const getWordPressAuthorSitemapURLs = cache(async () => {
   const authors = JSON.parse(await read('/wp-json/wp/v2/users?has_published_posts=true&per_page=100&_fields=slug,yoast_head_json')) as {slug:string;yoast_head_json?:{robots?:{index?:string};canonical?:string}}[];

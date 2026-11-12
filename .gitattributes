@@ -1,3 +1,7 @@
 src/page-content/**/*.css text eol=lf
 # Keep the captured, content-hashed stylesheet byte-identical to its source.
 public/assets/styles/blog-*.css text eol=lf -whitespace
+# Preserve recovered independent HTML directories and legacy signature assets.
+public/custom-mobile-application-development/** -text -whitespace
+public/reviews/** -text -whitespace
+public/email-signature/** -text -whitespace

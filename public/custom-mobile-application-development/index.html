@@ -1,0 +1,3849 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<script>
+		(function () {
+			try {
+				var search = window.location.search;
+				var href = window.location.href;
+				var normalized = search && search.charAt(0) === '?' ? search : search ? '?' + search.slice(1) : '';
+				var domain = window.location.hostname.indexOf('inceptivesdigital.com') !== -1
+					? '; domain=.inceptivesdigital.com'
+					: '';
+
+				if (normalized) {
+					if (!sessionStorage.getItem('inceptivesdigital_landing_query')) {
+						sessionStorage.setItem('inceptivesdigital_landing_query', normalized);
+					}
+					if (!localStorage.getItem('inceptivesdigital_landing_query')) {
+						localStorage.setItem('inceptivesdigital_landing_query', normalized);
+					}
+					document.cookie = 'id_landing_query=' + encodeURIComponent(normalized) + '; path=/; max-age=2592000; SameSite=Lax' + domain;
+
+					if (!sessionStorage.getItem('inceptivesdigital_utm')) {
+						var params = new URLSearchParams(search);
+						var utm = {};
+						params.forEach(function (value, key) {
+							utm[key] = value;
+						});
+						if (Object.keys(utm).length) {
+							var serialized = JSON.stringify(utm);
+							sessionStorage.setItem('inceptivesdigital_utm', serialized);
+							localStorage.setItem('inceptivesdigital_utm', serialized);
+						}
+					}
+				}
+
+				if (href && !sessionStorage.getItem('inceptivesdigital_landing_href')) {
+					sessionStorage.setItem('inceptivesdigital_landing_href', href);
+				}
+				if (href && !localStorage.getItem('inceptivesdigital_landing_href')) {
+					localStorage.setItem('inceptivesdigital_landing_href', href);
+				}
+			} catch (e) {}
+		})();
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="/custom-mobile-application-development/">
+	<meta name="author" content="Inceptives Digital">
+	<meta name="description" content="Top-rated mobile app development company in USA. 700+ apps, $150M+ revenue generated. iOS, Android & Flutter. Fixed-fee, NDA first. Free quote.">
+	<meta name="keywords" content="mobile app development company, app development company usa, iOS app development, Android app development, Flutter app development">
+	<link rel="canonical" href="https://inceptivesdigital.com/custom-mobile-application-development" />
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Mobile App Development Company in USA | Inceptives Digital">
+	<meta property="og:description" content="Top-rated mobile app development company in USA. 700+ apps, $150M+ revenue generated. iOS, Android & Flutter. Fixed-fee, NDA first. Free quote.">
+	<meta property="og:url" content="https://inceptivesdigital.com/custom-mobile-application-development">
+	<meta property="og:image" content="https://inceptivesdigital.com/custom-mobile-application-development/images/inceptives/hero/hero-bg.webp">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Mobile App Development Company in USA | Inceptives Digital">
+	<meta name="twitter:description" content="Top-rated mobile app development company in USA. 700+ apps, $150M+ revenue generated. iOS, Android & Flutter. Fixed-fee, NDA first. Free quote.">
+	<meta name="twitter:image" content="https://inceptivesdigital.com/custom-mobile-application-development/images/inceptives/hero/hero-bg.webp">
+
+	<link href="css/css-assets.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="images/general-elements/favicon/favicon.ico">
+	<link rel="icon" type="image/webp" href="images/general-elements/favicon/favicon.webp">
+	<link rel="apple-touch-icon" href="images/general-elements/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/general-elements/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/general-elements/favicon/apple-touch-icon-114x114.png">
+
+	<title>Mobile App Development Company in USA | Inceptives Digital</title>
+	<link rel="preload" as="image" href="/custom-mobile-application-development/images/inceptives/hero/hero-bg.webp" fetchpriority="high">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+	<!-- Google Tag Manager -->
+	<script>
+window.addEventListener('DOMContentLoaded', function() {
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),
+        dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BV286F5');
+});
+	</script>
+	<!-- End Google Tag Manager -->
+
+	<style>
+		:root {
+			--id-green: #00d664;
+			--id-dark: #151515;
+			--id-text: #232323;
+			--id-muted: #666f7b;
+			--id-soft: #f6f8fb;
+			--id-line: #e7ebf0;
+		}
+
+		html,
+		body {
+			overflow-x: hidden;
+			background: #fff;
+		}
+
+		body {
+			color: var(--id-text);
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.id-header {
+			position: sticky;
+			top: 0;
+			z-index: 1000;
+			background: #fff;
+			box-shadow: 0 6px 26px rgba(0,0,0,.08);
+		}
+
+		.id-header .header-bar-wrap {
+			padding: 16px 0;
+		}
+
+		.id-header-row {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 18px;
+		}
+
+		.id-logo img {
+			width: 205px;
+			display: block;
+		}
+
+		.id-nav-actions {
+			display: flex;
+			align-items: center;
+			gap: 14px;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+		}
+
+		.id-contact-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 9px;
+			color: #111;
+			font-weight: 700;
+			font-size: 17px;
+		}
+
+		.id-contact-link:hover {
+			color: var(--id-green);
+		}
+
+		.id-contact-icon {
+			width: 42px;
+			height: 42px;
+			border: 1px solid var(--id-green);
+			border-radius: 50%;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			color: var(--id-green);
+			font-weight: 800;
+		}
+
+		.id-btn,
+		.id-form button,
+		.id-form input[type="submit"] {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 54px;
+			padding: 0 30px;
+			border-radius: 999px;
+			border: 0;
+			background: var(--id-green);
+			color: #07140c;
+			font-weight: 800;
+			letter-spacing: .2px;
+			box-shadow: 0 14px 28px rgba(0,214,100,.25);
+			transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+			cursor: pointer;
+			text-align: center;
+		}
+
+		.id-btn:hover,
+		.id-form button:hover,
+		.id-form input[type="submit"]:hover {
+			color: #07140c;
+			background: #10e876;
+			transform: translateY(-2px);
+			box-shadow: 0 18px 36px rgba(0,214,100,.32);
+		}
+
+		.id-hero {
+			position: relative;
+			min-height: 720px;
+			background: #080808 url("images/inceptives/hero/hero-bg.webp") center center / cover no-repeat;
+			overflow: hidden;
+		}
+
+		.id-hero:before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(90deg, rgba(0,0,0,.78), rgba(0,0,0,.55) 44%, rgba(0,0,0,.18));
+		}
+
+		.id-hero-content {
+			position: relative;
+			z-index: 2;
+			padding: 96px 0;
+		}
+
+		.id-eyebrow {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			color: var(--id-green);
+			font-weight: 800;
+			letter-spacing: 2.5px;
+			text-transform: uppercase;
+			font-size: 13px;
+			margin-bottom: 18px;
+		}
+
+		.id-eyebrow:before {
+			content: "";
+			width: 34px;
+			height: 2px;
+			background: var(--id-green);
+		}
+
+		.id-hero h1 {
+			color: #fff;
+			font-size: clamp(42px, 6vw, 78px);
+			line-height: .98;
+			font-weight: 800;
+			margin-bottom: 24px;
+			letter-spacing: -.5px;
+		}
+
+		.id-hero p {
+			color: rgba(255,255,255,.86);
+			font-size: clamp(18px, 2.1vw, 25px);
+			line-height: 1.5;
+			max-width: 660px;
+			margin-bottom: 28px;
+		}
+
+		.id-trust-inline {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+			margin: 28px 0 0;
+		}
+
+		.id-trust-inline span {
+			color: #fff;
+			border: 1px solid rgba(255,255,255,.25);
+			border-radius: 999px;
+			padding: 9px 14px;
+			background: rgba(255,255,255,.08);
+			backdrop-filter: blur(12px);
+			font-weight: 700;
+			font-size: 14px;
+		}
+
+		.id-form-card {
+			background: #fff;
+			border-radius: 26px;
+			padding: 34px;
+			box-shadow: 0 30px 80px rgba(0,0,0,.32);
+		}
+
+		.id-form-card h3 {
+			font-size: 28px;
+			line-height: 1.15;
+			font-weight: 800;
+			margin-bottom: 10px;
+			color: #151515;
+		}
+
+		.id-form-card p {
+			color: #637083;
+			font-size: 15px;
+			line-height: 1.55;
+			margin-bottom: 22px;
+		}
+
+		.id-form .form-control {
+			height: 54px;
+			border: 1px solid #dce2eb;
+			border-radius: 14px;
+			box-shadow: none;
+			font-size: 15px;
+			color: #111;
+			padding-left: 18px;
+		}
+
+		.id-form textarea.form-control {
+			height: 120px;
+			resize: vertical;
+			padding-top: 15px;
+		}
+
+		.id-form input[type="submit"],
+		.id-form button {
+			width: 100%;
+			border-radius: 14px;
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+
+		.id-form-note {
+			font-size: 12px;
+			color: #7a8391;
+			margin-top: 12px;
+			line-height: 1.45;
+		}
+
+		.id-section {
+			padding: 92px 0;
+		}
+
+		.id-section-soft {
+			background: var(--id-soft);
+		}
+
+		.id-section-dark {
+			background: var(--id-dark);
+			color: #fff;
+		}
+
+		.id-title {
+			text-align: center;
+			margin-bottom: 46px;
+		}
+
+		.id-title .id-eyebrow {
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.id-title .id-eyebrow:after {
+			content: "";
+			width: 34px;
+			height: 2px;
+			background: var(--id-green);
+		}
+
+		.id-title h2 {
+			font-size: clamp(34px, 4vw, 54px);
+			line-height: 1.06;
+			font-weight: 800;
+			margin: 0;
+			color: #171717;
+		}
+
+		.id-section-dark .id-title h2,
+		.id-section-dark .id-title p {
+			color: #fff;
+		}
+
+		.id-title p {
+			color: var(--id-muted);
+			font-size: 18px;
+			line-height: 1.65;
+			max-width: 760px;
+			margin: 18px auto 0;
+		}
+
+		.id-marquee-wrap {
+			display: grid;
+			gap: 22px;
+			overflow: hidden;
+		}
+
+		.id-marquee {
+			display: flex;
+			width: max-content;
+			gap: 22px;
+			animation: marquee-left 28s linear infinite;
+		}
+
+		.id-marquee.reverse {
+			animation-name: marquee-right;
+		}
+
+		.id-logo-pill {
+			width: 190px;
+			height: 74px;
+			background: #fff;
+			border: 1px solid var(--id-line);
+			border-radius: 18px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 22px;
+			box-shadow: 0 12px 28px rgba(0,0,0,.05);
+			flex: 0 0 auto;
+		}
+
+		.id-logo-pill img {
+			max-height: 42px;
+			object-fit: contain;
+		}
+
+		@keyframes marquee-left {
+			from { transform: translateX(0); }
+			to { transform: translateX(-50%); }
+		}
+
+		@keyframes marquee-right {
+			from { transform: translateX(-50%); }
+			to { transform: translateX(0); }
+		}
+
+		.id-portfolio-track {
+			display: flex;
+			gap: 26px;
+			width: max-content;
+			animation: portfolio-scroll 36s linear infinite;
+		}
+
+		.id-portfolio-viewport {
+			overflow: hidden;
+			padding: 8px 0 20px;
+		}
+
+		.id-project-card {
+			width: 370px;
+			background: #fff;
+			border: 1px solid var(--id-line);
+			border-radius: 22px;
+			overflow: hidden;
+			box-shadow: 0 18px 42px rgba(0,0,0,.08);
+			flex: 0 0 auto;
+		}
+
+		.id-project-image {
+			height: 235px;
+			background: #f2f4f7;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 22px;
+		}
+
+		.id-project-image img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+
+		.id-project-content {
+			padding: 25px;
+		}
+
+		.id-project-content small {
+			display: block;
+			color: var(--id-green);
+			text-transform: uppercase;
+			font-weight: 800;
+			letter-spacing: 1.5px;
+			margin-bottom: 10px;
+		}
+
+		.id-project-content h3 {
+			font-size: 23px;
+			line-height: 1.18;
+			margin-bottom: 12px;
+			font-weight: 800;
+		}
+
+		.id-project-content p {
+			color: #627080;
+			line-height: 1.6;
+			margin: 0;
+		}
+
+		@keyframes portfolio-scroll {
+			from { transform: translateX(0); }
+			to { transform: translateX(-50%); }
+		}
+
+		.id-figures {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 22px;
+		}
+
+		.id-figure-card {
+			background: #fff;
+			border-radius: 22px;
+			padding: 34px 22px;
+			text-align: center;
+			border: 1px solid var(--id-line);
+			box-shadow: 0 18px 36px rgba(0,0,0,.05);
+		}
+
+		.id-figure-card strong {
+			display: block;
+			font-size: clamp(36px, 4vw, 54px);
+			line-height: 1;
+			color: #111;
+			margin-bottom: 10px;
+			font-weight: 900;
+		}
+
+		.id-figure-card span {
+			color: #5e6875;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: .8px;
+			font-size: 13px;
+		}
+
+		.id-process-grid,
+		.id-industries-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 22px;
+		}
+
+		.id-process-card,
+		.id-industry-card {
+			background: #fff;
+			border: 1px solid var(--id-line);
+			border-radius: 22px;
+			padding: 28px;
+			box-shadow: 0 14px 34px rgba(0,0,0,.06);
+			transition: transform .18s ease, border-color .18s ease;
+		}
+
+		.id-process-card:hover,
+		.id-industry-card:hover {
+			transform: translateY(-4px);
+			border-color: var(--id-green);
+		}
+
+		.id-process-step {
+			width: 54px;
+			height: 54px;
+			border-radius: 50%;
+			background: #111;
+			color: var(--id-green);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: 900;
+			font-size: 20px;
+			margin-bottom: 18px;
+		}
+
+		.id-process-card h3,
+		.id-industry-card h3 {
+			font-size: 22px;
+			line-height: 1.2;
+			font-weight: 800;
+			margin-bottom: 12px;
+		}
+
+		.id-process-card p,
+		.id-industry-card p {
+			color: #627080;
+			line-height: 1.6;
+			margin: 0;
+		}
+
+		.id-awards-grid,
+		.id-clients-grid {
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			gap: 18px;
+			align-items: center;
+		}
+
+		.id-award-box,
+		.id-client-box {
+			background: #fff;
+			border: 1px solid var(--id-line);
+			border-radius: 18px;
+			height: 118px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 16px;
+			box-shadow: 0 12px 28px rgba(0,0,0,.05);
+		}
+
+		.id-award-box img,
+		.id-client-box img {
+			max-height: 84px;
+			object-fit: contain;
+		}
+
+		.id-mid-cta {
+			position: relative;
+			background: #111;
+			color: #fff;
+			border-radius: 34px;
+			padding: 58px;
+			display: grid;
+			grid-template-columns: 1.5fr auto;
+			gap: 28px;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		.id-mid-cta:before {
+			content: "";
+			position: absolute;
+			inset: auto -90px -140px auto;
+			width: 320px;
+			height: 320px;
+			background: rgba(0,214,100,.22);
+			border-radius: 50%;
+			filter: blur(20px);
+		}
+
+		.id-mid-cta h2 {
+			color: #fff;
+			font-size: clamp(30px, 4vw, 50px);
+			line-height: 1.08;
+			margin: 0 0 12px;
+			font-weight: 900;
+			position: relative;
+		}
+
+		.id-mid-cta p {
+			margin: 0;
+			color: rgba(255,255,255,.76);
+			font-size: 18px;
+			line-height: 1.6;
+			position: relative;
+		}
+
+		.id-testimonial-stage {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			border-radius: 28px;
+			overflow: hidden;
+			background: #f2f3f5;
+			box-shadow: 0 22px 60px rgba(0,0,0,.10);
+		}
+
+		.id-testimonial-photo {
+			position: relative;
+			min-height: 620px;
+			background: #111;
+			display: flex;
+			align-items: stretch;
+			justify-content: center;
+			overflow: hidden;
+		}
+
+		.id-testimonial-photo:after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.74));
+		}
+
+		.id-testimonial-photo img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			position: absolute;
+			inset: 0;
+		}
+
+		.id-person-label {
+			position: absolute;
+			left: 50px;
+			right: 50px;
+			bottom: 44px;
+			z-index: 2;
+			border: 1px solid rgba(255,255,255,.58);
+			border-radius: 24px;
+			padding: 28px;
+			color: #fff;
+		}
+
+		.id-person-label strong {
+			display: block;
+			font-size: 24px;
+			text-transform: uppercase;
+			letter-spacing: .8px;
+		}
+
+		.id-person-label span {
+			display: block;
+			color: rgba(255,255,255,.72);
+			margin-top: 6px;
+			font-size: 16px;
+		}
+
+		.id-testimonial-copy {
+			padding: clamp(38px, 6vw, 76px);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.id-testimonial-copy h3 {
+			font-size: clamp(30px, 4vw, 48px);
+			line-height: 1.18;
+			font-weight: 900;
+			margin-bottom: 34px;
+			color: #171717;
+		}
+
+		.id-testimonial-copy p {
+			font-size: 22px;
+			line-height: 1.65;
+			color: #5d6672;
+			margin-bottom: 36px;
+		}
+
+		.id-review-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 9px;
+			color: var(--id-green);
+			font-weight: 900;
+			margin-bottom: 34px;
+		}
+
+		.id-testimonial-thumbs {
+			display: flex;
+			gap: 14px;
+			align-items: center;
+		}
+
+		.id-testimonial-thumb {
+			width: 64px;
+			height: 64px;
+			border-radius: 50%;
+			border: 3px solid transparent;
+			padding: 0;
+			overflow: hidden;
+			background: #fff;
+			cursor: pointer;
+			transition: transform .18s ease, border-color .18s ease;
+		}
+
+		.id-testimonial-thumb img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.id-testimonial-thumb.active {
+			border-color: var(--id-green);
+			transform: translateY(-3px);
+		}
+
+		.id-faq {
+			max-width: 950px;
+			margin: 0 auto;
+		}
+
+		.id-faq-item {
+			background: #fff;
+			border: 1px solid var(--id-line);
+			border-radius: 18px;
+			margin-bottom: 14px;
+			overflow: hidden;
+		}
+
+		.id-faq-q {
+			width: 100%;
+			background: #fff;
+			border: 0;
+			text-align: left;
+			padding: 24px 28px;
+			font-weight: 900;
+			font-size: 19px;
+			color: #121212;
+			display: flex;
+			justify-content: space-between;
+			gap: 18px;
+			cursor: pointer;
+		}
+
+		.id-faq-q span:last-child {
+			color: var(--id-green);
+			font-size: 26px;
+			line-height: 1;
+		}
+
+		.id-faq-a {
+			display: none;
+			padding: 0 28px 24px;
+			color: #5f6875;
+			line-height: 1.7;
+			font-size: 16px;
+		}
+
+		.id-faq-item.open .id-faq-a {
+			display: block;
+		}
+
+		.id-footer-cta {
+			position: sticky;
+			bottom: 0;
+			z-index: 999;
+			background: #101010;
+			padding: 12px 0;
+			box-shadow: 0 -10px 28px rgba(0,0,0,.18);
+		}
+
+		.id-footer-cta .container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 18px;
+		}
+
+		.id-footer-cta strong {
+			color: #fff;
+			font-size: 18px;
+		}
+
+		.id-footer-cta .id-btn {
+			min-height: 48px;
+			padding-inline: 24px;
+		}
+
+		@media (max-width: 1199px) {
+			.id-process-grid,
+			.id-industries-grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.id-awards-grid,
+			.id-clients-grid {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+
+		@media (max-width: 991px) {
+			.id-header-row {
+				align-items: flex-start;
+			}
+			.id-contact-link span.label-text {
+				display: none;
+			}
+			.id-hero {
+				min-height: auto;
+			}
+			.id-hero-content {
+				padding: 72px 0;
+			}
+			.id-form-card {
+				margin-top: 36px;
+			}
+			.id-figures {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.id-testimonial-stage,
+			.id-mid-cta {
+				grid-template-columns: 1fr;
+			}
+			.id-testimonial-photo {
+				min-height: 520px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.id-header .header-bar-wrap {
+				padding: 12px 0;
+			}
+			.id-logo img {
+				width: 160px;
+			}
+			.id-nav-actions {
+				gap: 8px;
+			}
+			.id-contact-icon {
+				width: 36px;
+				height: 36px;
+				font-size: 13px;
+			}
+			.id-nav-actions .id-btn {
+				display: none;
+			}
+			.id-hero h1 {
+				font-size: 43px;
+			}
+			.id-hero p {
+				font-size: 18px;
+			}
+			.id-section {
+				padding: 64px 0;
+			}
+			.id-title {
+				margin-bottom: 32px;
+			}
+			.id-form-card {
+				padding: 24px;
+				border-radius: 22px;
+			}
+			.id-logo-pill {
+				width: 152px;
+				height: 64px;
+			}
+			.id-project-card {
+				width: 300px;
+			}
+			.id-project-image {
+				height: 210px;
+			}
+			.id-figures,
+			.id-process-grid,
+			.id-industries-grid {
+				grid-template-columns: 1fr;
+			}
+			.id-awards-grid,
+			.id-clients-grid {
+				grid-template-columns: repeat(3, 1fr);
+				gap: 12px;
+			}
+			.id-award-box,
+			.id-client-box {
+				height: 96px;
+				padding: 10px;
+				border-radius: 14px;
+			}
+			.id-award-box img,
+			.id-client-box img {
+				max-height: 72px;
+			}
+			.id-mid-cta {
+				padding: 34px 24px;
+				border-radius: 24px;
+			}
+			.id-testimonial-photo {
+				min-height: 430px;
+			}
+			.id-person-label {
+				left: 22px;
+				right: 22px;
+				bottom: 22px;
+				padding: 20px;
+			}
+			.id-testimonial-copy {
+				padding: 30px 24px;
+			}
+			.id-testimonial-copy p {
+				font-size: 18px;
+			}
+			.id-testimonial-thumb {
+				width: 54px;
+				height: 54px;
+			}
+			.id-footer-cta .container {
+				display: block;
+				text-align: center;
+			}
+			.id-footer-cta strong {
+				display: none;
+			}
+			.id-footer-cta .id-btn {
+				width: 100%;
+			}
+		}
+
+		@media (max-width: 380px) {
+			.id-hero h1 {
+				font-size: 37px;
+			}
+			.id-award-box,
+			.id-client-box {
+				height: 86px;
+			}
+			.id-award-box img,
+			.id-client-box img {
+				max-height: 60px;
+			}
+		}
+
+		/* Landing-page polish overrides */
+		.id-header {
+			background: #050505;
+			box-shadow: 0 8px 28px rgba(0,0,0,.22);
+		}
+
+		#header-bar-1,
+		#header-bar-1 .header-bar-wrap {
+			position: relative !important;
+			top: auto !important;
+			bottom: auto !important;
+			left: auto !important;
+			right: auto !important;
+			width: 100% !important;
+			transform: none !important;
+		}
+
+		.id-logo {
+			display: inline-flex;
+			align-items: center;
+			background: rgba(255,255,255,.94);
+			border-radius: 16px;
+			padding: 8px 12px;
+			box-shadow: 0 10px 24px rgba(0,0,0,.22);
+		}
+
+		.id-logo img {
+			width: 190px;
+		}
+
+		.id-contact-link,
+		.id-contact-link:hover {
+			color: #fff;
+		}
+
+		.id-nav-actions > .id-btn {
+			display: none;
+		}
+
+		.id-hero:before {
+			background: linear-gradient(90deg, rgba(0,0,0,.88), rgba(0,0,0,.70) 48%, rgba(0,0,0,.34));
+		}
+
+		.id-hero-content {
+			padding: 60px 0 52px;
+		}
+
+		.id-hero {
+			min-height: 640px;
+		}
+
+		.id-hero .id-eyebrow,
+		.id-trust-inline,
+		.id-title > .id-eyebrow {
+			display: none;
+		}
+
+		#hero-form > p,
+		.id-form-note {
+			display: none;
+		}
+
+		.id-form .form-control::placeholder {
+			color: #101010;
+			opacity: 1;
+		}
+
+		.id-form .form-control {
+			color: #101010;
+		}
+
+		.iti {
+			width: 100%;
+			display: block;
+			color: #101010;
+		}
+
+		.iti .form-control {
+			width: 100%;
+			padding-left: 58px !important;
+			padding-right: 18px !important;
+		}
+
+		.iti__country-container {
+			z-index: 20;
+		}
+
+		.iti__dropdown-content {
+			z-index: 99999;
+			max-height: 280px;
+			border-radius: 14px;
+			box-shadow: 0 18px 44px rgba(0,0,0,.18);
+			overflow: hidden;
+		}
+
+		.iti__country-list {
+			max-height: 260px;
+			margin: 0;
+			padding: 6px 0;
+			overflow-y: auto;
+			list-style: none;
+			background: #fff;
+			color: #111;
+		}
+
+		.iti__country {
+			color: #111;
+			font-size: 14px;
+			line-height: 1.35;
+		}
+
+		.iti__hide {
+			display: none !important;
+		}
+
+		.id-portfolio-shell {
+			position: relative;
+		}
+
+		.id-portfolio-actions {
+			display: flex;
+			justify-content: center;
+			gap: 14px;
+			margin-top: 24px;
+		}
+
+		.id-slider-btn {
+			width: 52px;
+			height: 52px;
+			border-radius: 50%;
+			border: 1px solid var(--id-line);
+			background: #fff;
+			color: #111;
+			font-weight: 900;
+			font-size: 22px;
+			box-shadow: 0 14px 28px rgba(0,0,0,.08);
+			cursor: pointer;
+		}
+
+		.id-portfolio-track {
+			animation-duration: 74s;
+		}
+
+		.id-success-section {
+			background: #070707;
+			color: #fff;
+			padding: 92px 0;
+		}
+
+		.id-success-main {
+			display: grid;
+			grid-template-columns: .7fr 1.3fr;
+			gap: 56px;
+			align-items: center;
+			margin-bottom: 58px;
+		}
+
+		.id-success-number {
+			font-size: clamp(132px, 19vw, 260px);
+			line-height: .8;
+			font-weight: 950;
+			color: var(--id-green);
+			letter-spacing: -8px;
+		}
+
+		.id-success-copy h2 {
+			color: #fff;
+			font-size: clamp(38px, 5vw, 72px);
+			line-height: 1.02;
+			margin: 0 0 22px;
+			font-weight: 950;
+		}
+
+		.id-success-copy h2 span {
+			color: var(--id-green);
+			display: block;
+		}
+
+		.id-success-copy p {
+			color: rgba(255,255,255,.78);
+			font-size: 19px;
+			line-height: 1.65;
+			margin: 0;
+		}
+
+		.id-success-metrics {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			border-top: 1px solid rgba(255,255,255,.14);
+		}
+
+		.id-success-metric {
+			padding: 34px 28px;
+			text-align: center;
+			border-right: 1px solid rgba(0,214,100,.46);
+		}
+
+		.id-success-metric:last-child {
+			border-right: 0;
+		}
+
+		.id-success-metric strong {
+			display: block;
+			color: #fff;
+			font-size: clamp(42px, 6vw, 78px);
+			line-height: 1;
+			font-weight: 950;
+			margin-bottom: 16px;
+		}
+
+		.id-success-metric span {
+			color: rgba(255,255,255,.86);
+			font-size: 18px;
+			line-height: 1.35;
+			font-weight: 700;
+		}
+
+		.id-mid-cta {
+			width: min(1280px, calc(100vw - 48px));
+			margin-left: 50%;
+			transform: translateX(-50%);
+			background: linear-gradient(90deg, rgba(6,12,20,.86), rgba(5,21,16,.86)), url("images/inceptives/cta/cta-section.webp") center / cover no-repeat;
+			border: 1px solid rgba(255,255,255,.12);
+		}
+
+		.id-process-grid {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+		}
+
+		.id-process-card {
+			padding: 0;
+			overflow: hidden;
+		}
+
+		.id-process-image {
+			height: 180px;
+			background: #eef3f8;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 16px;
+		}
+
+		.id-process-image img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+
+		.id-process-body {
+			padding: 24px;
+		}
+
+		.id-industries-carousel,
+		.id-build-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 20px;
+		}
+
+		.id-industry-card,
+		.id-build-card {
+			position: relative;
+			min-height: 310px;
+			overflow: hidden;
+			border-radius: 24px;
+			padding: 0;
+			background: #111;
+			box-shadow: 0 18px 42px rgba(0,0,0,.10);
+		}
+
+		.id-industry-card img,
+		.id-build-card img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			position: absolute;
+			inset: 0;
+			transition: transform .25s ease;
+		}
+
+		.id-industry-card:hover img,
+		.id-build-card:hover img {
+			transform: scale(1.05);
+		}
+
+		.id-industry-card:after,
+		.id-build-card:after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(180deg, rgba(0,0,0,.05), rgba(0,0,0,.78));
+		}
+
+		.id-industry-card .id-card-content,
+		.id-build-card .id-card-content {
+			position: absolute;
+			z-index: 2;
+			left: 22px;
+			right: 22px;
+			bottom: 22px;
+		}
+
+		.id-industry-card h3,
+		.id-build-card h3 {
+			color: #fff;
+			margin-bottom: 10px;
+		}
+
+		.id-industry-card p,
+		.id-build-card p {
+			color: rgba(255,255,255,.82);
+		}
+
+		.id-awards-showcase {
+			display: grid;
+			grid-template-columns: .92fr 1.08fr;
+			gap: 34px;
+			align-items: center;
+			margin-bottom: 32px;
+		}
+
+		.id-awards-feature {
+			background: #0c1420;
+			border-radius: 30px;
+			padding: 42px;
+			color: #fff;
+			min-height: 360px;
+			display: grid;
+			align-content: center;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.id-awards-feature:after {
+			content: "";
+			position: absolute;
+			width: 230px;
+			height: 230px;
+			right: -60px;
+			bottom: -70px;
+			background: rgba(0,214,100,.2);
+			border-radius: 50%;
+			filter: blur(18px);
+		}
+
+		.id-awards-feature h2 {
+			color: #fff;
+			font-size: clamp(36px, 5vw, 62px);
+			line-height: 1;
+			margin: 0 0 18px;
+		}
+
+		.id-awards-feature p {
+			color: rgba(255,255,255,.75);
+			font-size: 17px;
+			line-height: 1.65;
+			margin: 0;
+			position: relative;
+			z-index: 2;
+		}
+
+		.id-awards-hero-badge {
+			background: #fff;
+			border-radius: 28px;
+			padding: 26px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 20px 54px rgba(0,0,0,.10);
+		}
+
+		.id-awards-hero-badge img {
+			max-height: 300px;
+			object-fit: contain;
+		}
+
+		.id-awards-grid {
+			grid-template-columns: repeat(5, 1fr);
+		}
+
+		.id-testimonial-stage {
+			grid-template-columns: .92fr 1.08fr;
+			border-radius: 38px;
+		}
+
+		.id-testimonial-photo {
+			min-height: 540px;
+		}
+
+		.id-testimonial-photo:after {
+			background: linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.82));
+		}
+
+		.id-person-label {
+			background: rgba(5,12,18,.62);
+			backdrop-filter: blur(12px);
+		}
+
+		.id-person-label strong {
+			color: #fff;
+		}
+
+		#final-form {
+			background: linear-gradient(90deg, rgba(5,15,23,.88), rgba(5,15,23,.70)), url("images/inceptives/cta/final-form-bg.webp") center / cover no-repeat;
+			padding: 48px 0;
+		}
+
+		#final-form .banner-center-box {
+			padding: 0;
+		}
+
+		#final-form .id-form-card,
+		#final-form .id-form-card h3,
+		#final-form .id-form-card p {
+			color: #101010;
+		}
+
+		.id-faq {
+			max-width: 1040px;
+			background: #fff;
+			border-radius: 28px;
+			padding: 18px;
+			box-shadow: 0 20px 55px rgba(0,0,0,.08);
+		}
+
+		.id-faq-item {
+			border: 0;
+			border-bottom: 1px solid var(--id-line);
+			border-radius: 0;
+			margin: 0;
+		}
+
+		.id-faq-item:last-child {
+			border-bottom: 0;
+		}
+
+		.id-faq-q {
+			padding: 22px 18px;
+			align-items: center;
+		}
+
+		.lp-footer {
+			background: #050505;
+			color: #fff;
+			padding: 52px 0 28px;
+		}
+
+		.lp-footer-grid {
+			display: grid;
+			grid-template-columns: 1fr repeat(3, auto);
+			align-items: center;
+			gap: 28px;
+		}
+
+		.lp-footer-logo {
+			display: inline-flex;
+			background: #fff;
+			border-radius: 16px;
+			padding: 10px 14px;
+			width: fit-content;
+		}
+
+		.lp-footer-logo img {
+			width: 210px;
+		}
+
+		.lp-footer-link {
+			color: #fff;
+			display: inline-flex;
+			align-items: center;
+			gap: 12px;
+			font-weight: 800;
+		}
+
+		.lp-footer-icon {
+			width: 42px;
+			height: 42px;
+			border-radius: 50%;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid var(--id-green);
+			color: var(--id-green);
+		}
+
+		.lp-footer-copy {
+			color: rgba(255,255,255,.58);
+			margin-top: 34px;
+			font-size: 14px;
+		}
+
+		@media (max-width: 991px) {
+			.id-header-row {
+				align-items: center;
+			}
+			.id-hero-content {
+				padding: 38px 0 34px;
+			}
+			.id-hero h1 {
+				font-size: clamp(40px, 9vw, 62px);
+			}
+			.id-form-card {
+				margin-top: 18px;
+			}
+			.id-success-main,
+			.id-awards-showcase,
+			.id-testimonial-stage,
+			.lp-footer-grid {
+				grid-template-columns: 1fr;
+			}
+			.id-success-metrics,
+			.id-process-grid,
+			.id-industries-carousel,
+			.id-build-grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.id-success-metric:nth-child(2) {
+				border-right: 0;
+			}
+			.id-success-metric {
+				border-bottom: 1px solid rgba(0,214,100,.30);
+			}
+		}
+
+		@media (max-width: 767px) {
+			.id-logo {
+				padding: 6px 8px;
+				border-radius: 12px;
+			}
+			.id-logo img {
+				width: 145px;
+			}
+			.id-hero-content {
+				padding: 26px 0 26px;
+			}
+			.id-hero p {
+				margin-bottom: 16px;
+			}
+			.id-form-card {
+				padding: 20px;
+			}
+			.id-success-section {
+				padding: 60px 0;
+			}
+			.id-success-number {
+				font-size: 118px;
+				letter-spacing: -5px;
+			}
+			.id-success-metrics,
+			.id-process-grid,
+			.id-industries-carousel,
+			.id-build-grid {
+				grid-template-columns: 1fr;
+			}
+			.id-success-metric {
+				border-right: 0;
+			}
+			.id-mid-cta {
+				width: calc(100vw - 28px);
+				padding: 32px 22px;
+			}
+			.id-awards-grid {
+				grid-template-columns: repeat(3, 1fr);
+			}
+			.id-awards-feature {
+				min-height: auto;
+				padding: 32px 24px;
+			}
+			.id-testimonial-photo {
+				min-height: 360px;
+			}
+			.id-testimonial-copy h3 {
+				font-size: 28px;
+			}
+			.id-testimonial-copy p {
+				font-size: 16px;
+				line-height: 1.55;
+			}
+			#final-form {
+				padding: 36px 0;
+			}
+			.lp-footer {
+				padding-bottom: 88px;
+			}
+			.lp-footer-grid {
+				text-align: left;
+			}
+		}
+		/* Final premium spacing and annotation fixes */
+		.id-header {
+			background: #fff !important;
+			box-shadow: 0 8px 28px rgba(0,0,0,.08) !important;
+		}
+
+		.id-logo,
+		.lp-footer-logo {
+			background: transparent !important;
+			box-shadow: none !important;
+			border-radius: 0 !important;
+			padding: 0 !important;
+		}
+
+		.id-contact-link,
+		.id-contact-link:hover,
+		.lp-footer-link,
+		.lp-footer-link:hover {
+			color: #101010 !important;
+		}
+
+		.id-contact-icon img,
+		.lp-footer-icon img {
+			width: 20px;
+			height: 20px;
+			display: block;
+		}
+
+		.id-hero:before {
+			background: linear-gradient(90deg, rgba(0,0,0,.84), rgba(0,0,0,.64) 52%, rgba(0,0,0,.26)) !important;
+		}
+
+		.id-hero {
+			min-height: 620px;
+		}
+
+		.id-hero-content {
+			padding: 38px 0 42px !important;
+		}
+
+		.id-hero .row,
+		#final-form .row {
+			display: flex;
+			align-items: center;
+		}
+
+		.id-hero h1 {
+			font-size: clamp(48px, 5.4vw, 82px);
+			line-height: 1.04;
+			letter-spacing: -1px;
+		}
+
+		.id-hero p {
+			font-size: clamp(18px, 1.6vw, 24px);
+			line-height: 1.5;
+			max-width: 720px;
+		}
+
+		.id-form-card {
+			padding: 28px !important;
+			border-radius: 24px !important;
+		}
+
+		.id-form-card h3 {
+			font-size: 24px;
+			line-height: 1.2;
+			margin-bottom: 18px;
+		}
+
+		.id-form .form-group {
+			margin-bottom: 12px;
+		}
+
+		.id-form .form-control {
+			min-height: 52px;
+			padding: 13px 18px;
+			border-radius: 14px;
+			color: #101010;
+		}
+
+		.id-form textarea.form-control {
+			min-height: 104px;
+		}
+
+		.iti {
+			width: 100%;
+		}
+
+		.iti .form-control {
+			padding-left: 92px !important;
+		}
+
+		.iti__country-container {
+			left: 12px;
+			width: auto;
+			height: 100%;
+			z-index: 20;
+		}
+
+		.iti__selected-country {
+			background: transparent !important;
+			border: 0 !important;
+			border-radius: 0 !important;
+			min-width: auto !important;
+			padding: 0 8px 0 0 !important;
+			color: #101010 !important;
+			box-shadow: none !important;
+		}
+
+		.iti__selected-country-primary {
+			padding: 0 5px !important;
+		}
+
+		.iti__selected-dial-code {
+			color: #101010;
+			font-weight: 700;
+			font-size: 14px;
+		}
+
+		.id-section {
+			padding-top: 78px;
+			padding-bottom: 78px;
+		}
+
+		.id-title h2 span,
+		.id-success-copy h2 span {
+			color: var(--id-green);
+		}
+
+		.id-clients-grid {
+			display: flex !important;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 18px;
+		}
+
+		.id-client-box {
+			flex: 0 0 170px;
+			background: #fff;
+		}
+
+		.id-client-box img {
+			width: auto;
+			max-width: 86%;
+			max-height: 58px;
+			object-fit: contain;
+			mix-blend-mode: multiply;
+		}
+
+		.id-client-box:nth-child(7) img,
+		.id-client-box:nth-child(8) img,
+		.id-client-box:nth-child(11) img {
+			max-width: 80%;
+			filter: contrast(1.04) saturate(1.06);
+		}
+
+		.id-success-section {
+			padding: 82px 0;
+		}
+
+		.id-success-metric strong {
+			font-size: clamp(44px, 5vw, 72px);
+		}
+
+		.id-mid-cta {
+			width: min(1380px, calc(100vw - 32px)) !important;
+			padding: 58px 68px !important;
+			border-radius: 32px;
+		}
+
+		.id-process-step {
+			background: var(--id-green) !important;
+			color: #03140b !important;
+			border: 3px solid rgba(3,20,11,.10);
+			box-shadow: 0 12px 28px rgba(0,214,100,.26);
+		}
+
+		.id-industries-carousel,
+		.id-build-grid {
+			display: flex !important;
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+			-webkit-overflow-scrolling: touch;
+			gap: 20px;
+			padding: 6px 4px 18px;
+		}
+
+		.id-industries-carousel::-webkit-scrollbar,
+		.id-build-grid::-webkit-scrollbar {
+			height: 8px;
+		}
+
+		.id-industries-carousel::-webkit-scrollbar-thumb,
+		.id-build-grid::-webkit-scrollbar-thumb {
+			background: rgba(0,214,100,.65);
+			border-radius: 999px;
+		}
+
+		.id-industries-carousel .id-industry-card,
+		.id-build-grid .id-build-card {
+			flex: 0 0 310px;
+			scroll-snap-align: start;
+		}
+
+		.id-build-card.id-build-icon-card {
+			background: #fff;
+			border: 1px solid var(--id-line);
+			box-shadow: 0 16px 38px rgba(0,0,0,.08);
+			min-height: 250px;
+			padding: 26px;
+		}
+
+		.id-build-card.id-build-icon-card:after {
+			display: none;
+		}
+
+		.id-build-card.id-build-icon-card img {
+			position: static;
+			width: 58px;
+			height: 58px;
+			object-fit: contain;
+			margin-bottom: 24px;
+			transform: none !important;
+		}
+
+		.id-build-card.id-build-icon-card .id-card-content {
+			position: static;
+		}
+
+		.id-build-card.id-build-icon-card h3 {
+			color: #10263d;
+			font-size: 22px;
+		}
+
+		.id-build-card.id-build-icon-card p {
+			color: #5f6875;
+		}
+
+		.id-awards-showcase {
+			margin-top: 0;
+		}
+
+		.id-testimonial-stage {
+			grid-template-columns: .84fr 1.16fr;
+			border-radius: 28px;
+			max-width: 1120px;
+			margin: 0 auto;
+		}
+
+		.id-testimonial-photo {
+			min-height: 420px !important;
+		}
+
+		.id-testimonial-copy {
+			padding: 42px 48px !important;
+		}
+
+		.id-testimonial-copy h3 {
+			font-size: clamp(28px, 3vw, 42px) !important;
+			line-height: 1.18;
+		}
+
+		.id-testimonial-copy p {
+			font-size: 18px !important;
+			line-height: 1.55;
+		}
+
+		#final-form {
+			padding: 54px 0 !important;
+		}
+
+		#final-form .container {
+			width: min(1280px, calc(100vw - 40px));
+		}
+
+		#final-form .id-title h2 {
+			font-size: clamp(34px, 4vw, 52px);
+		}
+
+		#final-form .id-title p {
+			font-size: 17px;
+			line-height: 1.55;
+			max-width: 520px;
+		}
+
+		.id-faq {
+			max-width: 1120px !important;
+			background: #fff !important;
+			border-radius: 16px !important;
+			padding: 0 !important;
+			box-shadow: none !important;
+			border-top: 1px solid var(--id-line);
+		}
+
+		.id-faq-item {
+			border: 0 !important;
+			border-bottom: 1px solid var(--id-line) !important;
+			border-radius: 0 !important;
+			margin: 0 !important;
+		}
+
+		.id-faq-q {
+			padding: 18px 0 !important;
+			font-size: 17px;
+			align-items: center;
+		}
+
+		.id-faq-a {
+			padding: 0 0 18px !important;
+			font-size: 15px;
+			line-height: 1.6;
+		}
+
+		.lp-footer {
+			background: #fff !important;
+			color: #101010 !important;
+			border-top: 1px solid var(--id-line);
+		}
+
+		.lp-footer-copy {
+			color: rgba(16,16,16,.58) !important;
+		}
+
+		@media (max-width: 991px) {
+			.id-hero .row,
+			#final-form .row {
+				display: block;
+			}
+
+			.id-hero-content {
+				padding: 24px 0 24px !important;
+			}
+
+			.id-hero h1 {
+				font-size: clamp(40px, 10vw, 56px);
+			}
+
+			.id-form-card {
+				margin-top: 14px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.id-section {
+				padding-top: 54px;
+				padding-bottom: 54px;
+			}
+
+			.id-header .header-bar-wrap {
+				padding: 10px 0 !important;
+			}
+
+			.id-logo img {
+				width: 152px !important;
+			}
+
+			.id-contact-link span.label-text {
+				display: none;
+			}
+
+			.id-hero {
+				min-height: auto;
+			}
+
+			.id-hero .row {
+				display: block !important;
+				align-items: initial !important;
+			}
+
+			.id-hero-content {
+				padding: 4px 0 18px !important;
+			}
+
+			.id-hero h1 {
+				font-size: 33px !important;
+				line-height: 1.08;
+				margin: 0 0 12px;
+			}
+
+			.id-hero p {
+				font-size: 15.5px;
+				line-height: 1.38;
+				margin: 0 0 12px;
+			}
+
+			.id-form-card {
+				padding: 18px !important;
+				margin-top: 8px !important;
+			}
+
+			#hero-form h3 {
+				font-size: 21px;
+				margin-bottom: 12px;
+			}
+
+			.id-form .form-control {
+				min-height: 48px;
+				font-size: 14px;
+			}
+
+			.iti .form-control {
+				padding-left: 86px !important;
+			}
+
+			.id-client-box {
+				flex: 0 0 calc(33.333% - 12px);
+				height: 92px;
+			}
+
+			.id-client-box img {
+				max-height: 54px;
+			}
+
+			.id-mid-cta {
+				width: calc(100vw - 26px) !important;
+				padding: 36px 24px !important;
+				border-radius: 24px;
+			}
+
+			.id-industries-carousel .id-industry-card,
+			.id-build-grid .id-build-card {
+				flex-basis: 78vw;
+			}
+
+			.id-testimonial-stage {
+				border-radius: 22px;
+			}
+
+			.id-testimonial-photo {
+				min-height: 340px !important;
+			}
+
+			.id-testimonial-copy {
+				padding: 26px 22px !important;
+			}
+
+			.id-testimonial-copy h3 {
+				font-size: 26px !important;
+			}
+
+			#final-form .container {
+				width: min(100%, calc(100vw - 28px));
+			}
+
+			.lp-footer-grid {
+				gap: 18px;
+			}
+		}
+
+		/* Final premium scale pass: calmer spacing, tighter mobile hero, and requested logo/CTA polish */
+		.id-section {
+			padding-top: 70px !important;
+			padding-bottom: 70px !important;
+		}
+
+		.id-title {
+			margin-bottom: 34px !important;
+		}
+
+		.id-title h2 {
+			font-size: clamp(30px, 3.35vw, 46px) !important;
+			line-height: 1.08 !important;
+		}
+
+		.id-title p {
+			max-width: 760px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 16px !important;
+			line-height: 1.55 !important;
+		}
+
+		.id-hero-content {
+			padding-top: 34px !important;
+			padding-bottom: 24px !important;
+		}
+
+		.id-hero h1 {
+			font-size: clamp(44px, 5.2vw, 68px) !important;
+			line-height: 1.03 !important;
+			max-width: 720px;
+		}
+
+		.id-hero p {
+			font-size: clamp(17px, 1.65vw, 22px) !important;
+			line-height: 1.45 !important;
+			max-width: 760px;
+		}
+
+		.id-form-card {
+			padding: 24px !important;
+		}
+
+		.id-form-card h3 {
+			font-size: 23px !important;
+		}
+
+		.id-form .form-group {
+			margin-bottom: 12px !important;
+		}
+
+		.id-form .form-control {
+			min-height: 50px !important;
+		}
+
+		.id-mid-cta {
+			width: min(1480px, calc(100vw - 24px)) !important;
+			min-height: 230px;
+			padding: 52px 70px !important;
+			border-radius: 34px !important;
+			align-items: center;
+		}
+
+		.id-mid-cta h2 {
+			font-size: clamp(32px, 4vw, 58px) !important;
+		}
+
+		.id-mid-cta .id-btn {
+			min-width: 190px;
+		}
+
+		.id-awards-feature {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+
+		.id-awards-feature p {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 540px;
+			text-align: center;
+		}
+
+		.id-client-box:nth-child(6) img {
+			max-width: 96% !important;
+			max-height: 76px !important;
+		}
+
+		.id-client-box:nth-child(7) img,
+		.id-client-box:nth-child(8) img,
+		.id-client-box:nth-child(11) img {
+			max-width: 88% !important;
+			max-height: 70px !important;
+			mix-blend-mode: normal !important;
+			filter: none !important;
+		}
+
+		.id-testimonial-stage {
+			min-height: auto !important;
+			border-radius: 24px !important;
+		}
+
+		.id-testimonial-copy {
+			padding: clamp(24px, 4vw, 46px) !important;
+		}
+
+		.id-testimonial-copy h3 {
+			font-size: clamp(25px, 3vw, 42px) !important;
+			line-height: 1.16 !important;
+		}
+
+		.id-review-link {
+			display: none !important;
+		}
+
+		@media (max-width: 767px) {
+			.id-header .header-bar-wrap {
+				padding: 8px 0 !important;
+			}
+
+			.id-header .container {
+				width: calc(100% - 24px);
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			.id-logo img {
+				width: 132px !important;
+			}
+
+			.id-contact-link {
+				width: 42px !important;
+				height: 42px !important;
+				min-width: 42px !important;
+			}
+
+			.id-contact-icon img {
+				width: 18px !important;
+				height: 18px !important;
+			}
+
+			.id-hero-content {
+				padding-top: 0 !important;
+				padding-bottom: 8px !important;
+			}
+
+			.id-hero h1 {
+				font-size: clamp(32px, 8.7vw, 40px) !important;
+				line-height: 1.08 !important;
+				margin-bottom: 12px !important;
+			}
+
+			.id-hero p {
+				font-size: 15px !important;
+				line-height: 1.42 !important;
+				margin-bottom: 10px !important;
+			}
+
+			.id-form-card {
+				margin-top: 4px !important;
+				padding: 18px !important;
+				border-radius: 22px !important;
+			}
+
+			.id-form-card h3 {
+				font-size: 21px !important;
+				margin-bottom: 12px !important;
+			}
+
+			.id-section {
+				padding-top: 46px !important;
+				padding-bottom: 46px !important;
+			}
+
+			.id-title h2 {
+				font-size: clamp(30px, 8.3vw, 38px) !important;
+			}
+
+			.id-mid-cta {
+				width: calc(100vw - 18px) !important;
+				min-height: 250px;
+				padding: 34px 24px !important;
+				text-align: left;
+			}
+
+			.id-mid-cta h2 {
+				font-size: 32px !important;
+			}
+
+			.id-mid-cta .id-btn {
+				width: 100%;
+				justify-content: center;
+			}
+
+			.id-client-box {
+				flex: 0 0 calc(33.333% - 10px);
+				height: 86px !important;
+			}
+
+			.id-client-box:nth-child(6) img,
+			.id-client-box:nth-child(7) img,
+			.id-client-box:nth-child(8) img,
+			.id-client-box:nth-child(11) img {
+				max-width: 88% !important;
+				max-height: 58px !important;
+			}
+		}
+
+		/* Final CTA, sticky nav, hero, and testimonial refinements */
+		.id-header {
+			position: sticky !important;
+			top: 0 !important;
+			z-index: 9999 !important;
+			background: transparent !important;
+			box-shadow: none !important;
+			pointer-events: none;
+		}
+
+		#header-bar-1,
+		#header-bar-1 .header-bar-wrap {
+			position: static !important;
+		}
+
+		#header-bar-1 .header-bar-wrap {
+			width: min(1120px, calc(100vw - 40px));
+			margin: 10px auto 0;
+			padding: 8px 0 !important;
+			border-radius: 999px;
+			background: rgba(255,255,255,.94);
+			box-shadow: 0 12px 34px rgba(0,0,0,.12);
+			pointer-events: auto;
+		}
+
+		#header-bar-1 .container {
+			width: 100%;
+			max-width: none;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.id-header-row {
+			min-height: 54px;
+		}
+
+		.id-logo img {
+			width: 170px !important;
+		}
+
+		.id-hero {
+			margin-top: -78px;
+			padding-top: 78px;
+		}
+
+		.id-hero-content {
+			padding-top: 22px !important;
+			padding-bottom: 18px !important;
+		}
+
+		.id-hero .col-md-7 {
+			padding-right: 44px;
+		}
+
+		.id-hero .col-md-5 {
+			padding-left: 44px;
+		}
+
+		.id-hero h1 {
+			font-size: clamp(38px, 4vw, 56px) !important;
+			line-height: 1.08 !important;
+			max-width: 820px;
+		}
+
+		.id-hero h1 span {
+			display: block;
+		}
+
+		.id-hero p {
+			font-size: clamp(16px, 1.45vw, 20px) !important;
+			line-height: 1.5 !important;
+			max-width: 860px;
+		}
+
+		.id-form-card {
+			padding: clamp(24px, 3vw, 38px) !important;
+		}
+
+		button.id-btn {
+			border: 0;
+			cursor: pointer;
+			font: inherit;
+		}
+
+		.id-client-box:nth-child(6) img,
+		.id-client-box:nth-child(7) img {
+			max-width: 98% !important;
+			max-height: 82px !important;
+		}
+
+		.lp-footer-link:nth-of-type(4) .lp-footer-icon {
+			color: #101010 !important;
+			border-color: var(--id-green) !important;
+			background: #fff !important;
+		}
+
+		.id-testimonial-thumb span {
+			display: none;
+		}
+
+		.id-lead-modal {
+			position: fixed;
+			inset: 0;
+			z-index: 10000;
+			display: none;
+			align-items: center;
+			justify-content: center;
+			padding: 22px;
+		}
+
+		.id-lead-modal.is-open {
+			display: flex;
+		}
+
+		.id-modal-backdrop {
+			position: absolute;
+			inset: 0;
+			background: rgba(0,0,0,.62);
+			backdrop-filter: blur(6px);
+		}
+
+		.id-modal-panel {
+			position: relative;
+			width: min(540px, 100%);
+			max-height: calc(100vh - 44px);
+			overflow: auto;
+			border-radius: 28px;
+		}
+
+		.id-modal-close {
+			position: absolute;
+			top: 14px;
+			right: 14px;
+			z-index: 2;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			border: 1px solid rgba(0,0,0,.14);
+			background: #fff;
+			color: #101010;
+			font-size: 24px;
+			line-height: 1;
+			cursor: pointer;
+		}
+
+		body.id-modal-open {
+			overflow: hidden;
+		}
+
+		@media (max-width: 991px) {
+			#header-bar-1 .header-bar-wrap {
+				width: min(760px, calc(100vw - 28px));
+				margin-top: 8px;
+				border-radius: 26px;
+			}
+
+			.id-hero {
+				margin-top: -74px;
+				padding-top: 74px;
+			}
+
+			.id-hero .col-md-7,
+			.id-hero .col-md-5 {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+
+			.id-hero-content {
+				padding-top: 8px !important;
+				padding-bottom: 10px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			#header-bar-1 .header-bar-wrap {
+				width: calc(100vw - 20px);
+				margin-top: 6px;
+				border-radius: 22px;
+				padding: 6px 0 !important;
+			}
+
+			#header-bar-1 .container {
+				width: 100%;
+				padding-left: 14px;
+				padding-right: 14px;
+			}
+
+			.id-header-row {
+				min-height: 48px;
+			}
+
+			.id-logo img {
+				width: 128px !important;
+			}
+
+			.id-contact-link {
+				width: 42px !important;
+				height: 42px !important;
+			}
+
+			.id-hero {
+				margin-top: -62px;
+				padding-top: 62px;
+				min-height: auto !important;
+			}
+
+			.id-hero-content {
+				padding-top: 0 !important;
+				padding-bottom: 2px !important;
+			}
+
+			.id-hero h1 {
+				font-size: clamp(30px, 8.1vw, 38px) !important;
+				line-height: 1.08 !important;
+			}
+
+			.id-hero p {
+				font-size: 15px !important;
+				line-height: 1.45 !important;
+			}
+
+			#hero-form {
+				margin-top: 6px !important;
+			}
+
+			.id-testimonial-thumbs {
+				display: grid;
+				grid-template-columns: 1fr;
+				gap: 10px;
+				align-items: stretch;
+			}
+
+			.id-testimonial-thumb {
+				width: 100% !important;
+				height: auto !important;
+				border-radius: 16px !important;
+				padding: 8px;
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				text-align: left;
+				background: #fff;
+			}
+
+			.id-testimonial-thumb img {
+				width: 48px !important;
+				height: 48px !important;
+				flex: 0 0 48px;
+				border-radius: 50%;
+			}
+
+			.id-testimonial-thumb span {
+				display: block;
+				min-width: 0;
+			}
+
+			.id-testimonial-thumb strong,
+			.id-testimonial-thumb small {
+				display: block;
+				color: #101010;
+				line-height: 1.25;
+			}
+
+			.id-testimonial-thumb strong {
+				font-size: 14px;
+			}
+
+			.id-testimonial-thumb small {
+				font-size: 12px;
+				color: #5d6672;
+			}
+		}
+
+		/* Compact sticky header and tighter mobile hero final pass */
+		#header-bar-1 .header-bar-wrap {
+			width: min(980px, calc(100vw - 36px)) !important;
+			padding: 5px 0 !important;
+			margin-top: 8px !important;
+		}
+
+		.id-header-row {
+			min-height: 46px !important;
+		}
+
+		.id-logo img {
+			width: 150px !important;
+		}
+
+		.id-nav-actions {
+			gap: 10px !important;
+			flex: 0 0 auto;
+		}
+
+		.id-contact-icon,
+		.id-contact-link {
+			width: 38px !important;
+			height: 38px !important;
+		}
+
+		.id-contact-icon img {
+			width: 18px !important;
+			height: 18px !important;
+		}
+
+		.id-hero {
+			margin-top: -62px !important;
+			padding-top: 62px !important;
+		}
+
+		.id-hero-content {
+			padding-top: 16px !important;
+			padding-bottom: 12px !important;
+		}
+
+		@media (min-width: 992px) {
+			.id-hero .col-md-7 {
+				padding-right: 54px;
+			}
+
+			.id-hero .col-md-5 {
+				padding-left: 54px;
+			}
+		}
+
+		@media (max-width: 991px) {
+			#header-bar-1 .header-bar-wrap {
+				width: min(720px, calc(100vw - 24px)) !important;
+			}
+
+			.id-contact-link span.label-text {
+				display: none !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			html,
+			body {
+				overflow-x: hidden !important;
+			}
+
+			#header-bar-1 .header-bar-wrap {
+				width: calc(100vw - 16px) !important;
+				border-radius: 18px !important;
+				margin-top: 4px !important;
+				padding: 4px 0 !important;
+			}
+
+			#header-bar-1 .container {
+				padding-left: 10px !important;
+				padding-right: 10px !important;
+			}
+
+			.id-header-row {
+				min-height: 42px !important;
+			}
+
+			.id-logo img {
+				width: 112px !important;
+			}
+
+			.id-contact-icon,
+			.id-contact-link {
+				width: 34px !important;
+				height: 34px !important;
+			}
+
+			.id-nav-actions {
+				gap: 7px !important;
+			}
+
+			.id-hero {
+				margin-top: -50px !important;
+				padding-top: 50px !important;
+			}
+
+			.id-hero-content {
+				padding-top: 0 !important;
+				padding-bottom: 0 !important;
+			}
+
+			.id-hero .container {
+				width: 100% !important;
+				max-width: 100% !important;
+				padding-left: 16px !important;
+				padding-right: 16px !important;
+			}
+
+			.id-hero .row {
+				display: block !important;
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+			}
+
+			.id-hero .col-md-7,
+			.id-hero .col-md-5 {
+				width: 100% !important;
+				max-width: 100% !important;
+				float: none !important;
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+
+			.id-hero .banner-center-box {
+				max-width: 100% !important;
+				overflow-wrap: anywhere;
+			}
+
+			#hero-form,
+			.id-form-card {
+				width: 100% !important;
+				max-width: 100% !important;
+				box-sizing: border-box;
+			}
+
+			.id-hero h1 {
+				font-size: clamp(24px, 6.35vw, 27px) !important;
+				max-width: 100%;
+			}
+
+			.id-hero p {
+				font-size: 14px !important;
+				line-height: 1.42 !important;
+			}
+		}
+		/* Final desktop navbar polish */
+		.id-header {
+			position: sticky !important;
+			top: 0 !important;
+			z-index: 9999 !important;
+			background: #fff !important;
+			box-shadow: 0 8px 24px rgba(0,0,0,.08) !important;
+			pointer-events: auto !important;
+		}
+
+		#header-bar-1 .header-bar-wrap {
+			width: 100% !important;
+			max-width: none !important;
+			margin: 0 !important;
+			padding: 12px 0 !important;
+			border-radius: 0 !important;
+			background: #fff !important;
+			box-shadow: none !important;
+		}
+
+		#header-bar-1 .container {
+			width: calc(100% - 56px) !important;
+			max-width: 1240px !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.id-header-row {
+			display: flex !important;
+			align-items: center !important;
+			justify-content: space-between !important;
+			min-height: 56px !important;
+			gap: 34px !important;
+		}
+
+		.id-logo img {
+			width: 184px !important;
+			max-height: 54px !important;
+			object-fit: contain !important;
+		}
+
+		.id-nav-actions {
+			display: flex !important;
+			align-items: center !important;
+			gap: 18px !important;
+			flex-wrap: nowrap !important;
+			justify-content: flex-end !important;
+			margin-left: auto !important;
+		}
+
+		.id-contact-link,
+		.id-contact-link:hover {
+			display: inline-flex !important;
+			align-items: center !important;
+			gap: 9px !important;
+			width: auto !important;
+			height: auto !important;
+			min-height: 42px !important;
+			padding: 0 !important;
+			border: 0 !important;
+			border-radius: 0 !important;
+			background: transparent !important;
+			color: #101010 !important;
+			font-size: 16px !important;
+			font-weight: 900 !important;
+			line-height: 1 !important;
+			letter-spacing: 0 !important;
+			white-space: nowrap !important;
+			text-decoration: none !important;
+		}
+
+		.id-contact-link span.label-text {
+			display: inline !important;
+			color: #101010 !important;
+			font-weight: 900 !important;
+			text-transform: none !important;
+		}
+
+		.id-contact-link:hover span.label-text {
+			color: var(--id-green) !important;
+		}
+
+		.id-contact-icon {
+			width: 42px !important;
+			height: 42px !important;
+			min-width: 42px !important;
+			border: 1.5px solid var(--id-green) !important;
+			border-radius: 50% !important;
+			background: #fff !important;
+			color: #101010 !important;
+			display: inline-flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			font-size: 16px !important;
+			font-weight: 900 !important;
+		}
+
+		.id-contact-icon img {
+			width: 21px !important;
+			height: 21px !important;
+		}
+
+		.id-hero {
+			margin-top: 0 !important;
+			padding-top: 0 !important;
+		}
+
+		.lp-footer-link {
+			font-weight: 900 !important;
+		}
+
+		@media (max-width: 991px) {
+			#header-bar-1 .container {
+				width: calc(100% - 32px) !important;
+			}
+
+			.id-logo img {
+				width: 150px !important;
+			}
+
+			.id-nav-actions {
+				gap: 14px !important;
+			}
+
+			.id-contact-link,
+			.id-contact-link:hover {
+				font-size: 15px !important;
+			}
+
+			.id-email-link span.label-text {
+				display: none !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			#header-bar-1 .header-bar-wrap {
+				padding: 4px 0 !important;
+			}
+
+			#header-bar-1 .container {
+				width: calc(100% - 22px) !important;
+			}
+
+			.id-header-row {
+				min-height: 42px !important;
+				gap: 12px !important;
+			}
+
+			.id-logo img {
+				width: 116px !important;
+			}
+
+			.id-contact-link,
+			.id-contact-link:hover {
+				min-height: 34px !important;
+			}
+
+			.id-contact-link span.label-text {
+				display: none !important;
+			}
+
+			.id-contact-icon {
+				width: 34px !important;
+				height: 34px !important;
+				min-width: 34px !important;
+			}
+
+			.id-contact-icon img {
+				width: 16px !important;
+				height: 16px !important;
+			}
+
+			.id-hero h1 {
+				font-size: clamp(34px, 8.4vw, 44px) !important;
+				line-height: 1.08 !important;
+			}
+
+			.id-hero p {
+				font-size: 16px !important;
+				line-height: 1.5 !important;
+			}
+
+			.id-testimonial-photo {
+				display: none !important;
+			}
+
+			.id-testimonial-stage {
+				display: block !important;
+			}
+
+			.id-faq-q span:last-child {
+				margin-left: 18px !important;
+				padding-right: 10px !important;
+				flex: 0 0 auto;
+			}
+		}
+
+		/* Emergency navbar height lock */
+		.id-header,
+		#header-bar-1,
+		#header-bar-1 .header-bar-wrap,
+		#header-bar-1 .container {
+			min-height: 0 !important;
+		}
+
+		.id-header {
+			position: sticky !important;
+			top: 0 !important;
+			z-index: 99999 !important;
+			height: 56px !important;
+			max-height: 56px !important;
+			overflow: hidden !important;
+		}
+
+		#header-bar-1,
+		#header-bar-1 .header-bar-wrap {
+			height: 56px !important;
+			max-height: 56px !important;
+			padding: 0 !important;
+			overflow: hidden !important;
+		}
+
+		#header-bar-1 .container {
+			height: 56px !important;
+			max-height: 56px !important;
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+		}
+
+		.id-header-row {
+			min-height: 0 !important;
+			height: 56px !important;
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+		}
+
+		.id-logo img {
+			width: 150px !important;
+			max-height: 44px !important;
+			object-fit: contain !important;
+		}
+
+		.id-nav-actions {
+			gap: 22px !important;
+			flex-wrap: nowrap !important;
+		}
+
+		.id-contact-link {
+			height: 44px !important;
+			font-size: 16px !important;
+			font-weight: 900 !important;
+			line-height: 1 !important;
+			white-space: nowrap !important;
+		}
+
+		.id-contact-icon,
+		.id-contact-link {
+			width: auto !important;
+			min-width: 0 !important;
+		}
+
+		.id-contact-icon {
+			width: 36px !important;
+			height: 36px !important;
+			min-width: 36px !important;
+			min-height: 36px !important;
+		}
+
+		.id-contact-icon img {
+			width: 18px !important;
+			height: 18px !important;
+		}
+
+		@media (max-width: 767px) {
+			.id-header,
+			#header-bar-1,
+			#header-bar-1 .header-bar-wrap {
+				height: 44px !important;
+				max-height: 44px !important;
+				padding: 0 !important;
+			}
+
+			#header-bar-1 .container {
+				height: 44px !important;
+				max-height: 44px !important;
+			}
+
+			.id-header-row {
+				min-height: 34px !important;
+				height: 44px !important;
+			}
+
+			.id-logo img {
+				width: 96px !important;
+				max-height: 30px !important;
+			}
+
+			.id-nav-actions {
+				gap: 9px !important;
+			}
+
+			.id-contact-link .label-text {
+				display: none !important;
+			}
+
+			.id-contact-icon,
+			.id-contact-link {
+				width: 28px !important;
+				height: 28px !important;
+				min-width: 28px !important;
+				min-height: 28px !important;
+			}
+		}
+	</style>
+
+	<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Inceptives Digital","url":"https://inceptivesdigital.com/custom-mobile-application-development","telephone":"+1-469-788-8527","email":"info@inceptivesdigital.com","description":"Custom mobile app development company USA. iOS, Android and Flutter apps. Fixed-fee.","address":{"@type":"PostalAddress","streetAddress":"450 Century Parkway, Suite 250","addressLocality":"Allen","addressRegion":"TX","postalCode":"75013","addressCountry":"US"},"areaServed":["United States","United Kingdom","UAE"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"47"}}
+	</script>
+</head>
+
+<body class="homepage">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV286F5" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div id="full-container">
+		<header id="header" class="id-header">
+			<div id="header-bar-1" class="header-bar">
+				<div class="header-bar-wrap">
+					<div class="container">
+						<div class="id-header-row">
+							<a class="id-logo" href="https://inceptivesdigital.com/" aria-label="Inceptives Digital">
+								<img src="images/inceptives/brand/logo.webp" alt="Inceptives Digital">
+							</a>
+							<div class="id-nav-actions">
+								<a class="id-contact-link" href="tel:+14697888527" data-track-phone>
+									<span class="id-contact-icon"><img src="images/inceptives/icons/phone.svg" alt="" loading="lazy"></span>
+									<span class="label-text">+1 (469) 788-8527</span>
+								</a>
+								<a class="id-contact-link" href="https://wa.me/17373143410" data-track-whatsapp>
+									<span class="id-contact-icon"><img src="images/inceptives/icons/whatsapp.svg" alt="" loading="lazy"></span>
+									<span class="label-text">WhatsApp: +1 (737) 314-3410</span>
+								</a>
+								<a class="id-contact-link id-email-link" href="mailto:info@inceptivesdigital.com" data-track-email>
+									<span class="id-contact-icon id-email-icon">@</span>
+									<span class="label-text">info@inceptivesdigital.com</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="banner" class="id-hero" aria-label="mobile app development company usa" data-fetchpriority="high">
+			<img src="images/inceptives/hero/hero-bg.webp" alt="mobile app development company usa" fetchpriority="high" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none;filter:brightness(45%);" aria-hidden="true">
+			<div class="id-hero-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="banner-center-box text-white">
+								<h1><span>Mobile App Development</span> <span>Company in USA</span></h1>
+								<p>We design and develop custom iOS, Android, and cross-platform mobile apps for startups, enterprises, and growing businesses across the United States.</p>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="id-form-card" id="hero-form">
+								<h3>Get Your App Development Estimate</h3>
+								<form class="id-form lead-form" data-form-name="Hero Form">
+									<div class="form-group">
+										<input type="text" name="name" class="form-control" placeholder="Name *" required>
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" class="form-control" placeholder="Email *" required>
+									</div>
+									<div class="form-group">
+										<input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
+									</div>
+									<div class="form-group">
+										<textarea name="message" class="form-control" placeholder="Tell us briefly about your app idea"></textarea>
+									</div>
+									<div class="form-group">
+										<button type="submit">Get App Cost & Timeline</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-title">
+					<h2>As seen and Reported on</h2>
+				</div>
+				<div class="id-marquee-wrap" id="seen-marquees"></div>
+			</div>
+		</section>
+
+		<section class="id-section">
+			<div class="container">
+				<div class="id-title">
+					<span class="id-eyebrow">Portfolio</span>
+					<h2>Mobile Products Built for <span>Real Business Use</span></h2>
+					<p>Clear, modern apps for healthcare, security, marketplaces, entertainment, utilities and enterprise workflows.</p>
+				</div>
+			</div>
+			<div class="id-portfolio-shell">
+				<div class="id-portfolio-actions">
+					<button class="id-slider-btn" type="button" data-portfolio-dir="-1" aria-label="Previous portfolio">&lt;</button>
+					<button class="id-slider-btn" type="button" data-portfolio-dir="1" aria-label="Next portfolio">&gt;</button>
+				</div>
+				<div class="id-portfolio-viewport">
+					<div class="id-portfolio-track" id="portfolio-track"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-title">
+					<h2>From Startups to <span>Growing Enterprises</span></h2>
+				</div>
+				<div class="id-clients-grid" id="clients-grid"></div>
+			</div>
+		</section>
+
+		<section class="id-success-section">
+			<div class="container">
+				<div class="id-success-main">
+					<div class="id-success-number">8+</div>
+					<div class="id-success-copy">
+						<h2>Years of Building <span>Mobile App Success Stories</span></h2>
+						<p>We build product experiences for startups, growing companies, and enterprises, turning complex ideas into reliable mobile apps through clear strategy, focused design, and practical engineering.</p>
+					</div>
+				</div>
+				<div class="id-success-metrics">
+					<div class="id-success-metric"><strong>700+</strong><span>Apps Delivered</span></div>
+					<div class="id-success-metric"><strong>+15M</strong><span>Combined Downloads</span></div>
+					<div class="id-success-metric"><strong>$150M+</strong><span>Revenue Generated</span></div>
+					<div class="id-success-metric"><strong>93%</strong><span>Customer Retention Rate</span></div>
+				</div>
+				<p>As a mobile app development company USA businesses trust, we have delivered 700+ apps across 20+ industries.</p>
+			</div>
+		</section>
+
+		<section class="id-section">
+			<div class="container">
+				<div class="id-mid-cta">
+					<div>
+						<h2>Work With a Top Mobile App Development Company in the USA</h2>
+						<p>Book a free consultation and get a clear technical view on scope, timeline, and investment before you commit.</p>
+					</div>
+					<button class="id-btn" type="button" data-open-modal>Contact</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-title">
+					<h2>Our Step-by-Step <span>App Development Process</span></h2>
+				</div>
+				<div class="id-process-grid">
+					<div class="id-process-card">
+						<div class="id-process-image"><img src="images/inceptives/process/credit-card.webp" alt="App discovery and strategy planning" loading="lazy" width="400" height="300"></div>
+						<div class="id-process-body">
+							<div class="id-process-step">01</div>
+							<h3>Discover & Strategize</h3>
+							<p>We clarify your idea, users, goals, budget, and launch priorities before writing a line of code.</p>
+						</div>
+					</div>
+					<div class="id-process-card">
+						<div class="id-process-image"><img src="images/inceptives/process/home-sec-new-sec4-add-1.webp" alt="Mobile app interface prototyping" loading="lazy" width="400" height="300"></div>
+						<div class="id-process-body">
+							<div class="id-process-step">02</div>
+							<h3>Design & Prototype</h3>
+							<p>We shape intuitive screens and clickable flows so the product feels clear before development starts.</p>
+						</div>
+					</div>
+					<div class="id-process-card">
+						<div class="id-process-image"><img src="images/inceptives/process/mobile-img-green-bg.webp" alt="Mobile app development and testing" loading="lazy" width="400" height="300"></div>
+						<div class="id-process-body">
+							<div class="id-process-step">03</div>
+							<h3>Develop & Test</h3>
+							<p>We build scalable app features and test performance, usability, integrations, and release readiness.</p>
+						</div>
+					</div>
+					<div class="id-process-card">
+						<div class="id-process-image"><img src="images/inceptives/process/subimg.webp" alt="App launch and post release support" loading="lazy" width="400" height="300"></div>
+						<div class="id-process-body">
+							<div class="id-process-step">04</div>
+							<h3>Launch & Upgrade</h3>
+							<p>We support store submission, launch monitoring, improvements, and post-release growth needs.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section">
+			<div class="container">
+				<div class="id-title">
+					<h2>Industry Experience Across <span>20+ Verticals</span></h2>
+					<p>We build mobile apps for industries where speed, reliability, security, and user experience matter.</p>
+				</div>
+				<div class="id-industries-carousel">
+					<article class="id-industry-card"><img src="images/inceptives/industries/healthcare.webp" alt="Healthcare mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Healthcare</h3><p>Telehealth, patient portals, scheduling, treatment tracking, and secure medical workflows.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/fintech.webp" alt="Fintech mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Fintech</h3><p>Payment flows, account dashboards, compliance-aware interfaces, and customer self-service tools.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/ecommerce.webp" alt="Ecommerce mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>eCommerce</h3><p>Storefront apps, loyalty systems, subscriptions, order tracking, and mobile checkout experiences.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/education.webp" alt="Education mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Education</h3><p>Learning apps, assessments, content libraries, user progress, and admin dashboards.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/real-estate.webp" alt="Real estate mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Real Estate</h3><p>Listings, lead capture, virtual tours, agent tools, and property management workflows.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/on-demand.webp" alt="On-demand marketplace apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>On-Demand</h3><p>Marketplace apps, booking flows, dispatch, location tracking, and provider dashboards.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/images.webp" alt="Logistics mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Logistics</h3><p>Fleet visibility, route planning, delivery tracking, job assignment, and operations apps.</p></div></article>
+					<article class="id-industry-card"><img src="images/inceptives/industries/enterprise.webp" alt="Enterprise mobile apps" loading="lazy" width="64" height="64"><div class="id-card-content"><h3>Enterprise</h3><p>Internal tools, workflow automation, team apps, approval systems, and secure integrations.</p></div></article>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-title">
+					<h2>What We <span>Build</span></h2>
+					<p>Clear product types we can design, develop, launch, and improve for your business.</p>
+				</div>
+				<div class="id-build-grid">
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Enterprise App.png" alt="Enterprise mobile app icon" loading="lazy"><div class="id-card-content"><h3>Enterprise Mobile Apps</h3><p>Internal tools, dashboards, approval flows, and secure business workflows.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/AR Apps.png" alt="AR app icon" loading="lazy"><div class="id-card-content"><h3>AR Apps</h3><p>Camera-led product demos, immersive experiences, and spatial app features.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Social Network Apps.png" alt="Social network app icon" loading="lazy"><div class="id-card-content"><h3>Social Network Apps</h3><p>Profiles, feeds, messaging, communities, moderation, and engagement tools.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Smart Device & Wearable Apps.png" alt="Smart device app icon" loading="lazy"><div class="id-card-content"><h3>Smart Device & Wearable Apps</h3><p>Connected device experiences with alerts, tracking, and real-time data.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Messenger Apps.png" alt="Messenger app icon" loading="lazy"><div class="id-card-content"><h3>Messenger Apps</h3><p>Chat, media sharing, notifications, groups, and support communication flows.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Geo-Service Apps.png" alt="Geo-service app icon" loading="lazy"><div class="id-card-content"><h3>Geo-Service Apps</h3><p>Maps, dispatch, nearby providers, delivery tracking, and location-aware tools.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/Wearable App.png" alt="Wearable app icon" loading="lazy"><div class="id-card-content"><h3>Wearable App</h3><p>Companion apps for health, activity, notifications, and glanceable actions.</p></div></article>
+					<article class="id-build-card id-build-icon-card"><img src="images/inceptives/what-we-build-icons/cross Platform App.png" alt="Cross-platform app icon" loading="lazy"><div class="id-card-content"><h3>Cross Platform App</h3><p>Shared-code apps for iOS and Android using efficient cross-platform stacks.</p></div></article>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-awards-showcase">
+					<div class="id-awards-feature">
+						<h2>Awards & Recognitions</h2>
+						<p>Our work has been recognized across software development, app design, and client satisfaction platforms. These badges reflect the standards we bring to every discovery call, sprint, and launch.</p>
+					</div>
+					<div class="id-awards-hero-badge">
+						<img src="images/inceptives/awards-new/new-review-icon-add5.webp" alt="Inceptives Digital review award" loading="lazy">
+					</div>
+				</div>
+				<div class="id-awards-grid" id="awards-grid"></div>
+			</div>
+		</section>
+
+		<section class="id-section">
+			<div class="container">
+				<div class="id-title">
+					<h2>What Clients Say After Building With Us</h2>
+				</div>
+				<div class="id-testimonial-stage">
+					<div class="id-testimonial-photo">
+						<img id="testimonial-photo" src="images/inceptives/testimonials/dorrin.webp" alt="Dorrin Rosenfeld" loading="lazy">
+						<div class="id-person-label">
+							<strong id="testimonial-name">Dorrin Rosenfeld</strong>
+							<span id="testimonial-role">DC & Owner, State of the Art Chiropractic App</span>
+						</div>
+					</div>
+					<div class="id-testimonial-copy">
+						<h3 id="testimonial-quote">"Inceptives Digital has done everything we wanted."</h3>
+						<p id="testimonial-summary">Inceptives Digital delivered a system that works flawlessly and keeps the client on track and functioning. The team delivered on time and communicated through virtual meetings, emails, and messaging apps.</p>
+						<div class="id-testimonial-thumbs" id="testimonial-thumbs"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-dark" id="final-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="banner-center-box">
+							<div class="id-title text-left" style="text-align:left;margin-bottom:24px;">
+								<h2>Let's Talk About <span>Your App</span></h2>
+								<p style="margin-left: 0;">Share your details and we'll come back with the next best step for your mobile app idea.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-md-push-1">
+						<div class="id-form-card">
+							<h3>Get a Project Estimate</h3>
+							<p>Simple form. No pressure. NDA available before deep project discussion.</p>
+							<form class="id-form lead-form" data-form-name="Footer Form">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name *" required>
+								</div>
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="Email *" required>
+								</div>
+								<div class="form-group">
+									<input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
+								</div>
+								<div class="form-group">
+									<textarea name="message" class="form-control" placeholder="What are you building?"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit">Get a Free Quote</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="id-section id-section-soft">
+			<div class="container">
+				<div class="id-title">
+					<h2>Frequently Asked Questions</h2>
+				</div>
+				<div class="id-faq" style="padding: 0 20px !important;">
+					<div class="id-faq-item open">
+						<button class="id-faq-q" type="button"><span>Are you a US-based mobile app development company?</span><span>-</span></button>
+						<div class="id-faq-a">Yes. Inceptives Digital is headquartered in Allen, Texas, with a second US office in Austin, Texas. We work primarily with clients across the United States and structure every engagement around clear communication, accountability, and a dedicated point of contact.</div>
+					</div>
+					<div class="id-faq-item">
+						<button class="id-faq-q" type="button"><span>How much does it cost to build an app?</span><span>+</span></button>
+						<div class="id-faq-a">Cost depends on features, integrations, platform choice, design complexity, and launch requirements. After a discovery call, we provide a realistic scope and fixed-fee project estimate wherever possible.</div>
+					</div>
+					<div class="id-faq-item">
+						<button class="id-faq-q" type="button"><span>Should I build iOS, Android, or cross-platform?</span><span>+</span></button>
+						<div class="id-faq-a">We recommend the platform based on your audience, launch goals, budget, and roadmap. Many teams start with one platform or use Flutter/React Native when speed and shared code are important.</div>
+					</div>
+					<div class="id-faq-item">
+						<button class="id-faq-q" type="button"><span>Do you sign an NDA before we discuss our idea?</span><span>+</span></button>
+						<div class="id-faq-a">Yes. A mutual non-disclosure agreement can be executed before project discussion or requirements review.</div>
+					</div>
+					<div class="id-faq-item">
+						<button class="id-faq-q" type="button"><span>Do you handle App Store submission?</span><span>+</span></button>
+						<div class="id-faq-a">Yes, we handle the entire app store submission process, from setting up developer accounts to preparing app store listings and ensuring compliance with Google Play and Apple App Store guidelines.</div>
+					</div>
+					<div class="id-faq-item">
+						<button class="id-faq-q" type="button"><span>What post-launch support do you provide?</span><span>+</span></button>
+						<div class="id-faq-a">We support performance monitoring, maintenance, compatibility updates, incremental feature development, and structured post-launch improvement plans.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="lp-footer" role="contentinfo">
+			<div class="container">
+				<div class="lp-footer-grid">
+					<a class="lp-footer-logo" href="https://inceptivesdigital.com/" aria-label="Inceptives Digital">
+						<img src="images/inceptives/brand/logo.webp" alt="Inceptives Digital" loading="lazy">
+					</a>
+					<a class="lp-footer-link" href="tel:+14697888527" data-track-phone><span class="lp-footer-icon"><img src="images/inceptives/icons/phone.svg" alt="" loading="lazy"></span>+1 (469) 788-8527</a>
+					<a class="lp-footer-link" href="https://wa.me/17373143410" data-track-whatsapp><span class="lp-footer-icon"><img src="images/inceptives/icons/whatsapp.svg" alt="" loading="lazy"></span>WhatsApp</a>
+					<a class="lp-footer-link" href="mailto:info@inceptivesdigital.com" data-track-email><span class="lp-footer-icon">@</span>info@inceptivesdigital.com</a>
+				</div>
+				<div class="lp-footer-copy">Inceptives Digital (c) 2026 | All Rights Reserved</div>
+			</div>
+		</footer>
+
+		<div class="id-lead-modal" id="lead-modal" aria-hidden="true">
+			<div class="id-modal-backdrop" data-close-modal></div>
+			<div class="id-modal-panel" role="dialog" aria-modal="true" aria-labelledby="lead-modal-title">
+				<button class="id-modal-close" type="button" data-close-modal aria-label="Close form">×</button>
+				<div class="id-form-card">
+					<h3 id="lead-modal-title">Let's Discuss your Project</h3>
+					<form class="id-form lead-form" data-form-name="CTA Modal Form">
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" placeholder="Name *" required>
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Email *" required>
+						</div>
+						<div class="form-group">
+							<input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
+						</div>
+						<div class="form-group">
+							<textarea name="message" class="form-control" rows="4" placeholder="Tell us briefly about your app idea"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit">Get a Free Quote</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script defer src="js/jquery.fitvids.js"></script>
+	<script defer src="js/jquery.stellar.js"></script>
+	<script defer src="js/jquery.magnific-popup.min.js"></script>
+	<script defer src="js/jquery.waitforimages.min.js"></script>
+	<script defer src="js/jquery.waypoints.min.js"></script>
+	<script defer src="js/simple-scrollbar.min.js"></script>
+	<script defer src="js/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
+	<script>
+		(function () {
+			var webhookUrl = 'https://hooks.zapier.com/hooks/catch/21758852/uvxmcni/';
+			var thankYouUrl = 'https://inceptivesdigital.com/thank-you';
+			window.dataLayer = window.dataLayer || [];
+
+			// --- Attribution capture -------------------------------------------------
+			// Mirrors healthcare-landing-page/src/utils/landingPageUrl.js: same storage
+			// keys and the same .inceptivesdigital.com cookie, so first-touch ad params
+			// captured on any Inceptives property are still available here.
+			// gclid only exists on the FIRST landing URL, so it is persisted first-touch
+			// (never overwritten) and replayed into the Zapier payload on submit.
+			var LANDING_QUERY_KEY = 'inceptivesdigital_landing_query';
+			var LANDING_HREF_KEY = 'inceptivesdigital_landing_href';
+			var UTM_STORAGE_KEY = 'inceptivesdigital_utm';
+			var LANDING_QUERY_COOKIE = 'id_landing_query';
+			var CANONICAL_PATH = '/custom-mobile-application-development';
+
+			function normalizeSearch(search) {
+				if (!search) return '';
+				return search.charAt(0) === '?' ? search : '?' + search;
+			}
+
+			function readSession(key) {
+				try { return sessionStorage.getItem(key); } catch (e) { return null; }
+			}
+
+			function readLocal(key) {
+				try { return localStorage.getItem(key); } catch (e) { return null; }
+			}
+
+			function readCookie(name) {
+				try {
+					var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+					return match ? decodeURIComponent(match[1]) : '';
+				} catch (e) { return ''; }
+			}
+
+			function persistLandingQuery(search) {
+				if (!search) return;
+				var normalized = normalizeSearch(search);
+
+				// First-touch wins: only write when nothing is stored yet.
+				try {
+					if (!readSession(LANDING_QUERY_KEY)) sessionStorage.setItem(LANDING_QUERY_KEY, normalized);
+				} catch (e) { /* storage blocked */ }
+
+				try {
+					if (!readLocal(LANDING_QUERY_KEY)) localStorage.setItem(LANDING_QUERY_KEY, normalized);
+				} catch (e) { /* storage blocked */ }
+
+				try {
+					var domain = window.location.hostname.indexOf('inceptivesdigital.com') !== -1
+						? '; domain=.inceptivesdigital.com'
+						: '';
+					document.cookie = LANDING_QUERY_COOKIE + '=' + encodeURIComponent(normalized) +
+						'; path=/; max-age=2592000; SameSite=Lax' + domain;
+				} catch (e) { /* cookies blocked */ }
+
+				try {
+					if (!readSession(UTM_STORAGE_KEY)) {
+						var params = new URLSearchParams(normalized);
+						var utmData = {};
+						params.forEach(function (value, key) { utmData[key] = value; });
+						if (Object.keys(utmData).length) {
+							sessionStorage.setItem(UTM_STORAGE_KEY, JSON.stringify(utmData));
+							localStorage.setItem(UTM_STORAGE_KEY, JSON.stringify(utmData));
+						}
+					}
+				} catch (e) { /* storage blocked */ }
+			}
+
+			function persistLandingHref(href) {
+				if (!href) return;
+				try {
+					if (!readSession(LANDING_HREF_KEY)) sessionStorage.setItem(LANDING_HREF_KEY, href);
+				} catch (e) { /* storage blocked */ }
+				try {
+					if (!readLocal(LANDING_HREF_KEY)) localStorage.setItem(LANDING_HREF_KEY, href);
+				} catch (e) { /* storage blocked */ }
+			}
+
+			function captureLandingPageQueryString() {
+				if (window.location.search) persistLandingQuery(window.location.search);
+				if (window.location.href) persistLandingHref(window.location.href);
+			}
+
+			function buildQueryFromUtmStorage() {
+				var raw = readSession(UTM_STORAGE_KEY) || readLocal(UTM_STORAGE_KEY);
+				if (!raw) return '';
+				try {
+					var data = JSON.parse(raw);
+					var params = new URLSearchParams();
+					Object.keys(data).forEach(function (key) {
+						if (data[key]) params.set(key, data[key]);
+					});
+					var query = params.toString();
+					return query ? '?' + query : '';
+				} catch (e) { return ''; }
+			}
+
+			function resolveSearchString() {
+				var storedQuery = readSession(LANDING_QUERY_KEY) || readLocal(LANDING_QUERY_KEY) || readCookie(LANDING_QUERY_COOKIE);
+				if (storedQuery) return normalizeSearch(storedQuery);
+
+				var landingHref = readSession(LANDING_HREF_KEY) || readLocal(LANDING_HREF_KEY);
+				if (landingHref) {
+					try {
+						var landingSearch = new URL(landingHref).search;
+						if (landingSearch) return landingSearch;
+					} catch (e) { /* malformed href */ }
+				}
+
+				if (window.location.search) return window.location.search;
+				return buildQueryFromUtmStorage();
+			}
+
+			// Full landing URL for GTM / Zapier: origin + canonical path + preserved ad params.
+			function getSubmissionUrl() {
+				var origin = window.location.origin || 'https://inceptivesdigital.com';
+				var url = origin + CANONICAL_PATH + resolveSearchString();
+				window.__LANDING_SUBMISSION_URL__ = url;
+				return url;
+			}
+
+			// Flattened ad/UTM params, so the Sheet can have real columns instead of a parsed URL.
+			function getAttributionParams() {
+				var params = new URLSearchParams(resolveSearchString());
+				var keys = ['gclid', 'gbraid', 'wbraid', 'gad_source', 'msclkid', 'fbclid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+				var out = {};
+				keys.forEach(function (key) {
+					var value = params.get(key);
+					if (value) out[key] = value;
+				});
+				return out;
+			}
+
+			// GA4 cookie looks like _ga=GA1.1.1234567890.1699999999 -> client id is the last two parts.
+			function getGaClientId() {
+				var match = document.cookie.match(/(?:^|;\s*)_ga=GA\d+\.\d+\.(\d+\.\d+)/);
+				return match ? match[1] : '';
+			}
+
+			function appendAttribution(data) {
+				var attribution = getAttributionParams();
+				Object.keys(attribution).forEach(function (key) {
+					data.append(key, attribution[key]);
+				});
+				data.append('URL', getSubmissionUrl());
+				data.append('ga_client_id', getGaClientId());
+				data.append('referrer', document.referrer || '');
+			}
+
+			captureLandingPageQueryString();
+
+			function commonParams() {
+				return {
+					source_site: 'landing_page',
+					page_type: 'mobile_app_landing',
+					landing_slug: 'custom-mobile-application-development'
+				};
+			}
+
+			function pushEvent(eventName, params) {
+				window.dataLayer.push(Object.assign({ event: eventName }, commonParams(), params || {}));
+			}
+
+			function makeLogoPill(src, alt) {
+				return '<div class="id-logo-pill"><img src="' + src + '" alt="' + alt + '" loading="lazy"></div>';
+			}
+
+			var seenTop = [
+				['images/inceptives/seen/the-globe-and-mail-vector-logo.webp','The Globe and Mail'],
+				['images/inceptives/seen/logo-3.svg','Clutch'],
+				['images/inceptives/seen/logo-4.svg','GoodFirms'],
+				['images/inceptives/seen/usa-today-symbol.png','USA Today'],
+				['images/inceptives/seen/associated-press-logo.svg','Associated Press'],
+				['images/inceptives/seen/logo-5.svg','Benzinga']
+			];
+			var seenBottom = [
+				['images/inceptives/seen/logo-6.svg','Bark'],
+				['images/inceptives/seen/logo-7.svg','Business Insider'],
+				['images/inceptives/seen/logo-8.svg','Morning Brew'],
+				['images/inceptives/seen/logo-9.svg','RightFirms'],
+				['images/inceptives/seen/logo-10.svg','IBTimes']
+			];
+			var seenTopRow = seenTop.concat(seenTop, seenTop).map(function (item) { return makeLogoPill(item[0], item[1]); }).join('');
+			var seenBottomRow = seenBottom.concat(seenBottom, seenBottom).map(function (item) { return makeLogoPill(item[0], item[1]); }).join('');
+			document.getElementById('seen-marquees').innerHTML =
+				'<div class="id-marquee">' + seenTopRow + '</div><div class="id-marquee reverse">' + seenBottomRow + '</div>';
+
+			var clients = [
+				['images/inceptives/clients/brsk-logo.webp','BRSK'],
+				['images/inceptives/clients/cropped-big-logo.webp','CroppMetcalfe'],
+				['images/inceptives/clients/eng-ar-logo-orange-hor-e1724280425584.webp','Engineering House'],
+				['images/inceptives/clients/family-entertainment-group-logo.webp','Family Entertainment Group'],
+				['images/inceptives/clients/gda-capital.webp','GDA Capital'],
+				['images/inceptives/clients/kaefer-logo-transparent.png','KAEFER'],
+				['images/inceptives/clients-added/move-n-pick-logo.png','Movenpick'],
+				['images/inceptives/clients-added/mtv-logo.webp','MTV'],
+				['images/inceptives/clients-added/fanverse.webp','Fanverse'],
+				['images/inceptives/clients-added/binance.png','Binance'],
+				['images/inceptives/clients-added/about-us-client-dps-airem.avif','DPS Airem']
+			];
+			document.getElementById('clients-grid').innerHTML = clients.map(function (item) {
+				return '<div class="id-client-box"><img src="' + item[0] + '" alt="' + item[1] + '" loading="lazy"></div>';
+			}).join('');
+
+			var awards = [
+				'images/inceptives/awards-new/top-mobile-app-development-company-badge-1.webp',
+				'images/inceptives/awards-new/rightfirms-badge-company-1.webp',
+				'images/inceptives/awards-new/bfirms-certified-1.webp',
+				'images/inceptives/awards-new/badge-top-mobile-app-developers-2025.webp',
+				'images/inceptives/awards-new/31-original-1.webp',
+				'images/inceptives/awards-new/mobile-app-development.webp',
+				'images/inceptives/awards-new/new-review-icon-add2-2.webp',
+				'images/inceptives/awards-new/new-review-icon-add3-1.webp',
+				'images/inceptives/awards-new/new-review-icon-add4.webp',
+				'images/inceptives/awards-new/new-review-icon-add6.webp',
+				'images/inceptives/awards-new/new-review-icon-add7-1.webp',
+				'images/inceptives/awards-new/new-review-icon-add8-1.webp'
+			];
+			document.getElementById('awards-grid').innerHTML = awards.map(function (src, index) {
+				return '<div class="id-award-box"><img src="' + src + '" alt="Inceptives Digital award ' + (index + 1) + '" loading="lazy"></div>';
+			}).join('');
+
+			var projects = [
+				['images/inceptives/portfolio/state-of-the-art-chiropractic.webp','Healthcare / Telehealth','State of the Art Chiropractic','HIPAA-aware telehealth platform with appointment scheduling and secure patient progress workflows.'],
+				['images/inceptives/portfolio/dps-airem.webp','Enterprise / Security','DPS Airem','SaaS operations platform for shift workflows, permissions, reporting, and real-time team visibility.'],
+				['images/inceptives/portfolio/halwar-connect.webp','On-Demand / Marketplace','Halwar Connect','Dual-language marketplace with chat, task management, GPS tracking, and payment-ready flows.'],
+				['images/inceptives/portfolio/family-entertainment-group.webp','Entertainment','Family Entertainment Group','Event media, sharing, and customer experience app for entertainment venues and families.'],
+				['images/inceptives/portfolio/zoom-read.webp','Education / Productivity','Zoom Read','Reading and learning experience shaped for quick access, simple navigation, and user retention.'],
+				['images/inceptives/portfolio/pulse-check-timer.webp','Utilities / Health','Pulse Check Timer','Focused utility app with clean timer experiences and accurate on-device interactions.'],
+				['images/inceptives/new-portfolio/bikers-world.webp','Motorcycle Community / Lifestyle','Bikers World','Biker community app with clubs, events, SOS alerts, merchandise, donations, and bilingual access.'],
+				['images/inceptives/portfolio/halwar-connect.webp','On-Demand / Marketplace','Drai Connect','Local services marketplace with task posting, AI copilot, provider search, chat, payments, and ratings.'],
+				['images/inceptives/new-portfolio/evoltion-enterprises.webp','EV Services / On-Demand','Evoltion Enterprises','On-demand EV charging app with technician booking, SOS support, payments, and service tracking.'],
+				['images/inceptives/new-portfolio/pledge-and-play.webp','Fundraising / Event Engagement','Pledge and Play','Interactive fundraising platform with QR joining, donation-based voting, campaign tracking, and real-time results.'],
+				['images/inceptives/new-portfolio/tango-events.webp','Events / Community','My Tango Event','Tango event discovery app with organizer profiles, bookings, verified reviews, maps, and notifications.'],
+				['images/inceptives/new-portfolio/open-therapy.webp','Healthcare / AI Support','Open Therapy','AI-powered therapy support platform with emotional tracking, therapist booking, journaling, and secure sessions.'],
+				['images/inceptives/new-portfolio/bandnix.webp','AI Music / Creator Tools','BandNix','AI music creation platform with virtual bands, beat studio, song library, remixing, and collaboration tools.'],
+				['images/inceptives/new-portfolio/pets-before-profit.webp','Pet Health / AI Records','Pets Before Profit','AI-powered vet bill scanner with cost analysis, pet records, VetCheck directory, and subscriptions.']
+			];
+			document.getElementById('portfolio-track').innerHTML = projects.concat(projects).map(function (p, index) {
+				return '<article class="id-project-card"><div class="id-project-image"><img src="' + p[0] + '" alt="' + (index === 0 ? 'custom mobile app development company portfolio' : p[2] + ' mobile app portfolio') + '" loading="lazy"></div><div class="id-project-content"><small>' + p[1] + '</small><h3>' + p[2] + '</h3><p>' + p[3] + '</p></div></article>';
+			}).join('');
+
+			var testimonials = [
+				{
+					name: 'Dorrin Rosenfeld',
+					role: 'DC & Owner, State of the Art Chiropractic App',
+					quote: '"Inceptives Digital has done everything we wanted."',
+					summary: 'Inceptives Digital has delivered a system that works flawlessly and does what the old one did to keep the client on track and functioning. The team has delivered on time, and the client is impressed with their work. Inceptives Digital communicates via virtual meetings, emails, and messaging apps.',
+					image: 'images/inceptives/testimonials/dorrin.webp',
+					link: 'https://clutch.co/go-to-review/1a12f7f9-1160-4b18-9e52-3dd5f270724e/436006'
+				},
+				{
+					name: 'Shirley',
+					role: 'Owner, DPS',
+					quote: '"It was a pleasure doing business with Inceptives Digital."',
+					summary: 'It was a pleasure doing business with them. They took the concept for my mobile app and brought it to completion professionally, ahead of schedule and on budget.',
+					image: 'images/inceptives/testimonials/shirley.webp',
+					link: 'https://clutch.co/profile/inceptives-digital'
+				},
+				{
+					name: 'Northwind Logistics Group',
+					role: 'ERP + CRM Platform Client',
+					quote: 'Their ERP + CRM solution streamlined our entire workflow.',
+					summary: 'Honestly, the CRM/ERP system Inceptives Digital built for us made managing our operations way easier. We had a lot of moving parts, including IoT tracking and internal workflows, and their team handled everything really well. Communication was smooth, deadlines were respected, and the final product actually helped our team save time daily.',
+					image: 'images/inceptives/testimonials/northwind-logistics-group.webp',
+					link: 'https://clutch.co/profile/inceptives-digital'
+				},
+				{
+					name: 'NovaPlay Studios',
+					role: 'Blockchain Gaming Platform',
+					quote: 'The blockchain side was handled way better than we expected.',
+					summary: 'We worked with Inceptives Digital on a blockchain-based gaming platform with wallet integration and custom in-game asset features. The project had a lot of technical moving parts, but their team handled it professionally and kept things moving without overcomplicating the process. Really solid communication and development support throughout the project.',
+					image: 'images/inceptives/testimonials/novaplay-studios.webp',
+					link: 'https://clutch.co/profile/inceptives-digital'
+				},
+				{
+					name: 'Daniel Harper',
+					role: 'Founder, Harper Ridge Developments',
+					quote: 'Exactly the kind of system our business needed.',
+					summary: 'Working with Inceptives Digital was honestly a great experience. They helped us streamline our internal construction and property management operations with a custom CRM system that actually made day-to-day work easier for our team. Communication was clear, timelines were handled professionally, and the platform turned out better than we expected.',
+					image: 'images/inceptives/testimonials/daniel-harper-new.webp',
+					link: 'https://clutch.co/profile/inceptives-digital'
+				}
+			];
+
+			var thumbs = document.getElementById('testimonial-thumbs');
+			thumbs.innerHTML = testimonials.map(function (t, index) {
+				return '<button class="id-testimonial-thumb' + (index === 0 ? ' active' : '') + '" type="button" data-testimonial="' + index + '"><img src="' + t.image + '" alt="' + t.name + '" loading="lazy"><span><strong>' + t.name + '</strong><small>' + t.role + '</small></span></button>';
+			}).join('');
+
+			function setTestimonial(index) {
+				var t = testimonials[index];
+				document.getElementById('testimonial-photo').src = t.image;
+				document.getElementById('testimonial-photo').alt = t.name;
+				document.getElementById('testimonial-name').textContent = t.name;
+				document.getElementById('testimonial-role').textContent = t.role;
+				document.getElementById('testimonial-quote').textContent = t.quote;
+				document.getElementById('testimonial-summary').textContent = t.summary;
+				document.querySelectorAll('.id-testimonial-thumb').forEach(function (button) {
+					button.classList.toggle('active', Number(button.getAttribute('data-testimonial')) === index);
+				});
+			}
+
+			thumbs.addEventListener('click', function (event) {
+				var button = event.target.closest('[data-testimonial]');
+				if (!button) return;
+				setTestimonial(Number(button.getAttribute('data-testimonial')));
+			});
+
+			document.querySelectorAll('.id-faq-q').forEach(function (button) {
+				button.addEventListener('click', function () {
+					var item = button.closest('.id-faq-item');
+					var isOpen = item.classList.contains('open');
+					document.querySelectorAll('.id-faq-item').forEach(function (faq) {
+						faq.classList.remove('open');
+						faq.querySelector('.id-faq-q span:last-child').textContent = '+';
+					});
+					if (!isOpen) {
+						item.classList.add('open');
+						button.querySelector('span:last-child').textContent = '-';
+					}
+				});
+			});
+
+			var portfolioViewport = document.querySelector('.id-portfolio-viewport');
+			document.querySelectorAll('[data-portfolio-dir]').forEach(function (button) {
+				button.addEventListener('click', function () {
+					if (!portfolioViewport) return;
+					var direction = Number(button.getAttribute('data-portfolio-dir'));
+					portfolioViewport.scrollBy({ left: direction * Math.min(680, portfolioViewport.clientWidth), behavior: 'smooth' });
+				});
+			});
+
+			function initPhoneInputs() {
+				if (!window.intlTelInput) return;
+				document.querySelectorAll('input[name="phone"]').forEach(function (input) {
+					if (input._iti) return;
+					var instance = window.intlTelInput(input, {
+						initialCountry: 'us',
+						separateDialCode: true,
+						nationalMode: true,
+						utilsScript: 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/utils.js'
+					});
+					input._iti = instance;
+					if (instance && typeof instance.closeDropdown === 'function') {
+						instance.closeDropdown();
+					}
+				});
+			}
+			initPhoneInputs();
+
+			pushEvent('landing_page_view', { content_name: 'Mobile App Development Landing Page', audience_temperature: 'cold' });
+			pushEvent('page_view_enhanced', { content_name: 'Mobile App Development Landing Page', audience_temperature: 'cold' });
+
+			var firedScroll50 = false;
+			var firedScroll90 = false;
+			window.addEventListener('scroll', function () {
+				var scrollable = document.documentElement.scrollHeight - window.innerHeight;
+				if (scrollable <= 0) return;
+				var percent = Math.round((window.scrollY / scrollable) * 100);
+				if (!firedScroll50 && percent >= 50) {
+					firedScroll50 = true;
+					pushEvent('scroll_50', { audience_temperature: 'warm' });
+				}
+				if (!firedScroll90 && percent >= 90) {
+					firedScroll90 = true;
+					pushEvent('scroll_90', { audience_temperature: 'warm' });
+				}
+			}, { passive: true });
+
+			setTimeout(function () {
+				pushEvent('page_engaged_45s', { audience_temperature: 'warm' });
+			}, 45000);
+
+			document.querySelectorAll('[data-track-cta]').forEach(function (link) {
+				link.addEventListener('click', function () {
+					pushEvent('cta_click', { cta_text: link.getAttribute('data-track-cta'), audience_temperature: 'warm' });
+				});
+			});
+
+			var leadModal = document.getElementById('lead-modal');
+			function openLeadModal() {
+				if (!leadModal) return;
+				leadModal.classList.add('is-open');
+				leadModal.setAttribute('aria-hidden', 'false');
+				document.body.classList.add('id-modal-open');
+				pushEvent('cta_click', { cta_text: 'Contact Modal Open', audience_temperature: 'warm' });
+				setTimeout(function () {
+					var firstInput = leadModal.querySelector('input');
+					if (firstInput) firstInput.focus();
+				}, 80);
+			}
+			function closeLeadModal() {
+				if (!leadModal) return;
+				leadModal.classList.remove('is-open');
+				leadModal.setAttribute('aria-hidden', 'true');
+				document.body.classList.remove('id-modal-open');
+			}
+			document.querySelectorAll('[data-open-modal]').forEach(function (button) {
+				button.addEventListener('click', function (event) {
+					event.preventDefault();
+					openLeadModal();
+				});
+			});
+			document.querySelectorAll('[data-close-modal]').forEach(function (button) {
+				button.addEventListener('click', closeLeadModal);
+			});
+			document.addEventListener('keydown', function (event) {
+				if (event.key === 'Escape') closeLeadModal();
+			});
+
+			document.querySelectorAll('[data-track-phone]').forEach(function (link) {
+				link.addEventListener('click', function () {
+					pushEvent('phone_click', { phone_number: '+14697888527', audience_temperature: 'hot' });
+				});
+			});
+
+			document.querySelectorAll('[data-track-whatsapp]').forEach(function (link) {
+				link.addEventListener('click', function () {
+					pushEvent('whatsapp_click', { phone_number: '+17373143410', audience_temperature: 'hot' });
+				});
+			});
+
+			document.querySelectorAll('[data-track-email]').forEach(function (link) {
+				link.addEventListener('click', function () {
+					pushEvent('email_click', { email: 'info@inceptivesdigital.com', audience_temperature: 'hot' });
+				});
+			});
+
+			document.querySelectorAll('.lead-form').forEach(function (form) {
+				var started = false;
+				form.addEventListener('input', function () {
+					if (started) return;
+					started = true;
+					pushEvent('form_start', { source_form: form.getAttribute('data-form-name'), audience_temperature: 'warm' });
+				});
+				form.addEventListener('submit', function (event) {
+					event.preventDefault();
+					if (!form.checkValidity()) {
+						pushEvent('form_validation_failed', { source_form: form.getAttribute('data-form-name'), audience_temperature: 'warm' });
+						form.reportValidity();
+						return;
+					}
+					var data = new FormData(form);
+					var phoneInput = form.querySelector('input[name="phone"]');
+					if (phoneInput && phoneInput._iti) {
+						data.set('phone', phoneInput._iti.getNumber() || phoneInput.value);
+						data.append('phone_country', phoneInput._iti.getSelectedCountryData().iso2 || '');
+					}
+					data.append('source_form', form.getAttribute('data-form-name'));
+					data.append('page_url', window.location.href);
+					data.append('lead_type', 'lead_only');
+					appendAttribution(data);
+					pushEvent('lead_submit_attempt', { source_form: form.getAttribute('data-form-name'), audience_temperature: 'hot' });
+					fetch(webhookUrl, { method: 'POST', mode: 'no-cors', body: data })
+						.then(function () {
+							pushEvent('lead_submitted', { source_form: form.getAttribute('data-form-name'), lead_type: 'lead_only', audience_temperature: 'hot' });
+							window.location.href = thankYouUrl;
+						})
+						.catch(function () {
+							pushEvent('lead_submit_error', { source_form: form.getAttribute('data-form-name'), audience_temperature: 'hot' });
+							window.location.href = thankYouUrl;
+						});
+				});
+			});
+		})();
+	</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59154286b53516f',t:'MTc5NDQ0MjM4NA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59154286b53516f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

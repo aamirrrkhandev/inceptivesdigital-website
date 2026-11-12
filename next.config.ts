@@ -7,7 +7,11 @@ const indexingAllowed =
 const config: NextConfig = {
   distDir: process.env.MIGRATION_BUILD_DIR || ".next",
   skipTrailingSlashRedirect: true,
-  outputFileTracingIncludes: { "/*": ["./content/editable-runtime/**/*", "./content/page-catalog/**/*"] },
+  outputFileTracingIncludes: {
+    "/*": ["./content/editable-runtime/**/*", "./content/page-catalog/**/*"],
+    "/reviews": ["./public/reviews/index.html"],
+    "/custom-mobile-application-development": ["./public/custom-mobile-application-development/index.html"],
+  },
   images: {
     remotePatterns: [{ protocol: "https", hostname: "nextincep.wpenginepowered.com", pathname: "/wp-content/uploads/**" }],
   },
@@ -26,10 +30,15 @@ const config: NextConfig = {
   },
   async redirects() {
     // Keep historical links as single-hop redirects to their approved destination.
-    return redirects.map((r) => ({
+    return [
+      // Original HTML index aliases redirected to their landing directory.
+      { source: "/custom-mobile-application-development/index.html", destination: "/custom-mobile-application-development", statusCode: 301 as const },
+      { source: "/reviews/index.html", destination: "/reviews", statusCode: 301 as const },
+      ...redirects.map((r) => ({
       ...r,
       statusCode: r.statusCode as 301 | 302 | 303 | 307 | 308,
-    }));
+      })),
+    ];
   },
   async headers() {
     const immutableStyles = Object.values(sharedBlogStyles).map(source => ({

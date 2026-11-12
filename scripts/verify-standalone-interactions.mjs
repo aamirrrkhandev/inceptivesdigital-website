@@ -1,0 +1,54 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs/promises';
+const base=process.env.TEST_BASE_URL||'http://localhost:3101';
+const browser=await chromium.launch();
+const results=[];
+for(const width of [390,1440]) {
+ const context=await browser.newContext({viewport:{width,height:900}});
+ await context.route('**/*',route=>new URL(route.request().url()).origin===base?route.continue():route.abort());
+ const page=await context.newPage();
+ await page.goto(base+'/custom-mobile-application-development');
+ const checks=[];
+ await page.locator('[data-open-modal]').first().click();
+ await expect(page.locator('#lead-modal')).toHaveAttribute('aria-hidden','false');checks.push('CTA modal opens');
+ await page.keyboard.press('Escape');
+ await expect(page.locator('#lead-modal')).toHaveAttribute('aria-hidden','true');checks.push('Escape closes modal');
+ if(await page.locator('.id-faq-item').first().evaluate(e=>e.classList.contains('open')))await page.locator('.id-faq-q').first().click();
+ await page.locator('.id-faq-q').first().click();
+ await expect(page.locator('.id-faq-item').first()).toHaveClass(/open/);
+ await page.locator('.id-faq-q').first().click();
+ await expect(page.locator('.id-faq-item').first()).not.toHaveClass(/open/);checks.push('FAQ opens and closes');
+ await page.locator('[data-testimonial="1"]').click();
+ await expect(page.locator('[data-testimonial="1"]')).toHaveClass(/active/);checks.push('Testimonial selection');
+ await page.locator('[data-portfolio-dir="1"]').click();
+ await expect.poll(()=>page.locator('.id-portfolio-viewport').evaluate(e=>e.scrollLeft)).toBeGreaterThan(0);checks.push('Portfolio next arrow scrolls');
+ for(const form of await page.locator('.lead-form').all()) {
+  if(!await form.isVisible())continue;
+  if(await form.evaluate(e=>e.checkValidity()))throw Error('Empty required form accepted');
+ }
+ checks.push('Visible empty forms invalid');
+ results.push({page:'custom-mobile-application-development',width,checks});
+ await page.goto(base+'/reviews');
+ const reviewChecks=[];
+ await expect(page.locator('.platform-card')).toHaveCount(6);
+ const popupPromise=page.waitForEvent('popup');
+ await page.locator('.platform-link').first().click();
+ const popup=await popupPromise;await popup.close();
+ await page.locator('.complete-button').first().click();
+ await expect(page.locator('#completed-count')).toHaveText('1');
+ await page.reload();await expect(page.locator('#completed-count')).toHaveText('1');reviewChecks.push('Review progress persists');
+ await page.locator('#reset-progress').click();await expect(page.locator('#completed-count')).toHaveText('0');reviewChecks.push('Reset progress');
+ await page.locator('#video-file').setInputFiles({name:'invalid.txt',mimeType:'text/plain',buffer:Buffer.from('QA invalid file')});
+ await expect(page.locator('#video-error')).toContainText('Choose an MP4');reviewChecks.push('Invalid video rejected');
+ await page.locator('#video-file').setInputFiles({name:'qa-test.webm',mimeType:'video/webm',buffer:Buffer.from('synthetic QA file; not real customer media')});
+ await expect(page.locator('#testimonial-form')).toBeVisible();
+ await page.locator('[name="name"]').fill('Local QA');await page.locator('[name="consent"]').check();
+ await page.locator('.submit-video').click();await expect(page.locator('#video-error')).toContainText('security check');
+ await expect(page.locator('#video-success')).toBeHidden();reviewChecks.push('Missing security token prevents upload/success');
+ await page.locator('#clear-video').click();await expect(page.locator('#testimonial-form')).toBeHidden();reviewChecks.push('Clear selected video');
+ results.push({page:'reviews',width,checks:reviewChecks});
+ await context.close();
+}
+await browser.close();
+await fs.writeFile('audit/html-file-manager-2026-11-12/interaction-verification.json',JSON.stringify({results,externalRequestsBlocked:true,realSubmissions:false},null,2));
+console.log(JSON.stringify(results,null,2));
