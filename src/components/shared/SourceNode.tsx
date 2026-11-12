@@ -65,6 +65,7 @@ export function renderNode(
   const custom = customRender?.(node, index);
   if (custom !== undefined) return custom;
   const { tag, props, children } = node;
+  if (tag === 'meta' && String(props.name || props.property).toLowerCase() === 'generator' && /elementor/i.test(String(props.content || ''))) return null;
   const safeProps: Record<string, unknown> = { ...props, key: index };
   if (tag === "a" && props.role === "button" && !props.href && props.tabIndex === undefined)
     safeProps.tabIndex = 0;

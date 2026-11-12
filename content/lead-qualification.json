@@ -1,0 +1,4 @@
+{
+  "budgetOptions": ["Under $15,000", "$15,000 to $25,000", "$25,000 to $50,000", "$50,000 to $100,000", "Above $100,000", "Not decided yet"],
+  "timelineOptions": ["As soon as possible (within 1 month)", "1–3 months", "3–6 months", "6+ months or just researching"]
+}

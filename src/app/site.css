@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+/* Give the idle calendar its eventual layout without exposing a modal or
+   trapping focus. Calendly otherwise defers work inside display:none. */
+html body .migrated-page #schedulePopup.calendly-prewarming:not(.is-open) {
+  display: flex !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
 html,
 body {
   margin: 0;

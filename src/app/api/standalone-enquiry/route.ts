@@ -1,5 +1,6 @@
 import {stagingFormsEnabled} from "@/lib/staging-turnstile";
 import {createHash,randomUUID} from "node:crypto";
+import qualification from '../../../../content/lead-qualification.json';
 export const runtime="nodejs";
 export const dynamic="force-dynamic";
 const forms=new Set(["custom-mobile-hero-enquiry","custom-mobile-footer-enquiry","custom-mobile-modal-enquiry"]);
@@ -26,6 +27,8 @@ export async function POST(request:Request) {
  if(String(data.get('website_confirmation')||''))return reply("Invalid form submission.",400);
  for(const name of ["name","email","phone"])if(!String(data.get(name)||"").trim())return reply("Please complete all required fields.",400);
  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(data.get("email"))))return reply("Please enter a valid email address.",400);
+ if(!qualification.budgetOptions.includes(String(data.get('budget')||'')))return reply('Please choose your development budget.',400);
+ if(!qualification.timelineOptions.includes(String(data.get('timeline')||'')))return reply('Please choose when you want to start.',400);
  if(!stagingFormsEnabled(request))return reply("Form delivery is not configured for this environment.",503);
  if(limited(request))return reply("Too many attempts. Please wait a few minutes and retry.",429);
  return Response.json({success:true,delivery:"ghl-pending"},{headers:{"Cache-Control":"no-store"}});

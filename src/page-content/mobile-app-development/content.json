@@ -2415,7 +2415,7 @@
                                   "props": {
                                     "className": "migrated-counter-number",
                                     "data-duration": "2000",
-                                    "data-to-value": "3",
+                                    "data-to-value": "99.9",
                                     "data-from-value": "",
                                     "data-delimiter": ","
                                   },
@@ -2427,7 +2427,7 @@
                                     "className": "migrated-counter-number-suffix"
                                   },
                                   "children": [
-                                    "M+"
+                                    "%"
                                   ]
                                 }
                               ]
@@ -7144,7 +7144,7 @@
                                                                 "className": "migrated-heading-title migrated-size-default"
                                                               },
                                                               "children": [
-                                                                "Real-Time Workforce Operations Platform\n"
+                                                                "Social Commerce Platform\n"
                                                               ]
                                                             }
                                                           ]
@@ -7456,7 +7456,7 @@
                                                               "tag": "p",
                                                               "props": {},
                                                               "children": [
-                                                                "A real-time workforce management platform that cut manual paperwork by 90%, streamlining operations and improving accuracy."
+                                                                "Building the Infrastructure Behind a Global Dance Community"
                                                               ]
                                                             }
                                                           ]
@@ -7736,7 +7736,7 @@
                                                                 "className": "migrated-heading-title migrated-size-default"
                                                               },
                                                               "children": [
-                                                                "Automated Experience Capture and Delivery"
+                                                                "AI-Powered Veterinary Cost Transparency Platform"
                                                               ]
                                                             }
                                                           ]
@@ -8350,7 +8350,7 @@
                                             "className": "migrated-heading-title migrated-size-default"
                                           },
                                           "children": [
-                                            "Kirk Flaming"
+                                            "Kirk Fleming"
                                           ]
                                         }
                                       ]
@@ -13989,7 +13989,7 @@
                                                             "className": "migrated-heading-title migrated-size-default"
                                                           },
                                                           "children": [
-                                                            "SSL/TLSS"
+                                                            "SSL/TLS"
                                                           ]
                                                         }
                                                       ]

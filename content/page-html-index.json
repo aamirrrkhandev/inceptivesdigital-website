@@ -696,11 +696,11 @@
     "folder": "mobile-app-development",
     "file": "src/page-content/mobile-app-development/page.html",
     "type": "static",
-    "htmlHash": "8056f7a39a01f375f9818093dafc721f8de705e6d4008e27f31d402821042390",
+    "htmlHash": "e7b22eae0fdf8edca252a906f3ace038d39cfd7bbb31d2e46e0e004686437066",
     "sourceHashes": {
-      "content.json": "3e22c7b6cb18c65aa8b5d1a703d97d53b8972fe77c6e9a98b74fc33044d726a3",
-      "layout.json": "411e94d948ea50df100d6f644cca0eca92fde0400f02a94145e5a0dabac8508f",
-      "assets.json": "e0593016901e9e6f84e36a535eb4ae32bef2525ea43c507866e2bf20fc3831c8"
+      "content.json": "34235caf05d4461fc09e7b7797b4945b847496b37a3610f549708cb79e5f7c06",
+      "layout.json": "cd138ccebeb62f74d08d7a8289a30ec2c74fedb3cebcfc22370bf0046cd490ca",
+      "assets.json": "35c492a9116509d4c428c77ef05662411d72f61353418f707a3222b05f4e60a4"
     }
   },
   "/product-launch-strategy": {

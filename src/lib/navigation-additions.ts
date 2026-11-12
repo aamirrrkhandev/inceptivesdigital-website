@@ -26,7 +26,7 @@ function item(template: Element, link: {path:string;label:string}, category:stri
 // Add requested routes through one shared header adapter, including API-fed
 // blog pages, without overwriting page content or their stored source models.
 export function withAddedNavigation(node:LayoutNode):LayoutNode {
-  if(typeof node==='string')return node;
+  if(typeof node==='string')return node.replaceAll('AI Servicess','AI Services');
   const children=node.children.map(withAddedNavigation);
   if(node.tag!=='ul')return {...node,children};
   const present=new Set(children.map(child=>firstLink(child)?.props.href));

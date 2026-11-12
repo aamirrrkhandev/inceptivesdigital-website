@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { initializeCalendarPopup } from "@/lib/calendar-popup";
+import { isCalendarCTA, isUnwiredEnquiryCTA } from "@/lib/cta-intent";
 import { initializeAIEstimator } from "@/lib/ai-estimator";
 import { initializeContactTestimonials } from "@/lib/contact-testimonials";
 export default function SiteInteractions({ pageKey }: { pageKey: string }) {
@@ -547,9 +548,14 @@ export default function SiteInteractions({ pageKey }: { pageKey: string }) {
       }
       const link = target.closest<HTMLAnchorElement>("a");
       const button = target.closest<HTMLElement>("button,a");
-      if (button && /schedule\s*a?\s*call/i.test(button.textContent || "")) {
+      if (button && !button.closest('form') && isCalendarCTA(button.textContent || "")) {
         e.preventDefault();
         openPopup("schedulePopup", button);
+        return;
+      }
+      if (button && isUnwiredEnquiryCTA(button)) {
+        e.preventDefault();
+        openPopup('id-contact-popup', button);
         return;
       }
       if (

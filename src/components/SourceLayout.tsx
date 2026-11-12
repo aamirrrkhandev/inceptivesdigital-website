@@ -71,7 +71,8 @@ export default function SourceLayout({
             !["article:published_time", "article:modified_time"].includes(
               m.name,
             ) &&
-            m.name !== "google-site-verification",
+            m.name !== "google-site-verification" &&
+            !(m.name.toLowerCase() === 'generator' && /elementor/i.test(m.content)),
         )
         .map((m) => (
           <meta key={m.name} property={m.name} content={m.content} />
