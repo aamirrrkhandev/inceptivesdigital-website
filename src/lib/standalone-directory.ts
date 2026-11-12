@@ -17,7 +17,9 @@ export async function standaloneDirectory(directory: "reviews" | "custom-mobile-
     const ids:Record<string,string>={"Hero Form":"custom-mobile-hero-enquiry","Footer Form":"custom-mobile-footer-enquiry","CTA Modal Form":"custom-mobile-modal-enquiry"};
     html=html.replace(/<form class="id-form lead-form" data-form-name="([^"]+)">/g,(_match,name:string)=>{
       if(!ids[name])throw new Error("Unknown standalone enquiry form.");
-      return `<form class="id-form lead-form" data-contact-form id="${ids[name]}" data-form-name="${name}">`;
+      // Native SDK auto-capture fires on clicks before delivery validation.
+      // Use only our acknowledged-success capture, as on the main site's forms.
+      return `<form class="id-form lead-form" data-contact-form data-cr-no-capture id="${ids[name]}" data-form-name="${name}">`;
     });
     html=html.replace(/<\/body>/i,'<script type="module" src="/assets/standalone-forms/landing.js"></script></body>');
     // The production static-file matcher needs the literal ampersand URL-encoded.

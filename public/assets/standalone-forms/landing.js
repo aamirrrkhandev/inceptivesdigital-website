@@ -1,18 +1,16 @@
 import {ensureGhlTracking,isGhlReplay,recordGhlSubmission,ghlEnabled} from './ghl-tracking.js';
 import {loadCallRail,captureCallRailSubmission} from './callrail.js';
-import {createTurnstileProtection} from './turnstile.js';
 import {recordConfirmedLead} from './conversion-tracking.js';
 
 const forms=[...document.querySelectorAll('.lead-form')];
-const protection=createTurnstileProtection(document.body,'[data-contact-verification]');
 for(const form of forms) {
- const verification=document.createElement('div');
- verification.dataset.contactVerification='true';
- verification.dataset.theme='light';
+ const trap=document.createElement('input');
+ trap.name='website_confirmation';trap.type='text';trap.tabIndex=-1;trap.autocomplete='off';
+ trap.setAttribute('aria-hidden','true');trap.setAttribute('data-cr-no-capture','');
+ trap.style.cssText='position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden';
  const status=document.createElement('div');
  status.dataset.formStatus='true';status.setAttribute('role','status');status.setAttribute('aria-live','polite');
- const button=form.querySelector('button[type="submit"]');
- button.parentElement.before(verification);form.append(status);
+ form.append(trap,status);
 }
 void ensureGhlTracking().catch(()=>{});void loadCallRail();
 document.addEventListener('submit',async event=>{
@@ -22,8 +20,6 @@ document.addEventListener('submit',async event=>{
  if(!form.reportValidity()||form.dataset.sending==='true')return;
  const status=form.querySelector('[data-form-status]');
  const data=new FormData(form);
- const token=data.get('cf-turnstile-response');
- if(!token){protection.ensure(form);status.textContent='Please complete the security verification before sending your message.';return;}
  if(!ghlEnabled()){status.textContent='Submission delivery is available on the configured staging and production domains.';return;}
  const phone=form.querySelector('[name="phone"]');
  if(phone?._iti)data.set('phone',phone._iti.getNumber()||phone.value);
@@ -43,9 +39,8 @@ document.addEventListener('submit',async event=>{
   await recordGhlSubmission(form);
   await captureCallRailSubmission(form);
   await recordConfirmedLead(form);
-  form.reset();protection.reset(form);location.assign('/thank-you');
+  form.reset();location.assign('/thank-you');
  } catch(error) {
   status.textContent=error instanceof Error?error.message:'Your enquiry could not be sent. Please retry.';
-  protection.reset(form);
  } finally {delete form.dataset.sending;form.removeAttribute('aria-busy');button.disabled=false;}
 },true);

@@ -3,7 +3,6 @@ import { captureWithAcknowledgement } from "./callrail-transport";
 
 export const CALLRAIL_SCRIPT =
   "https://cdn.callrail.com/companies/691547027/8acc5c6cc37011b7cee7/12/swap.js";
-const SCRIPT_ID = "inceptives-callrail";
 const enabledHosts = new Set([
   "inceptives-homepage-review.vercel.app",
   "inceptivesdigital.com",
@@ -28,28 +27,26 @@ export function loadCallRail(): Promise<boolean> {
   if (window.CallTrk) return Promise.resolve(true);
   if (loading) return loading;
   loading = new Promise((resolve) => {
-    const script = document.createElement("script");
-    script.id = SCRIPT_ID;
-    script.src = CALLRAIL_SCRIPT;
-    script.async = true;
+    // GTM-5BV286F5 owns installation. Wait for its SDK instead of injecting
+    // a second swap.js; this helper only coordinates SPA swaps and form capture.
     let finished = false;
     const finish = (success: boolean) => {
       if (finished) return;
       finished = true;
       clearTimeout(timer);
+      clearInterval(poll);
       document.documentElement.dataset.callrail = success
         ? "ready"
         : "unavailable";
       if (!success) {
-        script.remove();
         loading = undefined;
       }
       resolve(success);
     };
-    const timer = setTimeout(() => finish(false), 8000);
-    script.onload = () => finish(Boolean(window.CallTrk));
-    script.onerror = () => finish(false);
-    document.body.append(script);
+    const poll = setInterval(() => {
+      if (window.CallTrk) finish(true);
+    }, 50);
+    const timer = setTimeout(() => finish(false), 12000);
   });
   return loading;
 }

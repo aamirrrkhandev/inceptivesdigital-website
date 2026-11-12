@@ -15,7 +15,7 @@ try {
   if(url.pathname.startsWith('/assets/standalone-forms/')) {
    const response=await route.fetch({url:local+url.pathname});return route.fulfill({response});
   }
-  return route.fulfill({contentType:'text/html',body:`<!doctype html><title>Authorized migration transport QA</title><h1>Migration QA — vendor delivery only</h1><div id="forms"></div><script type="module">import {ensureGhlTracking,recordGhlSubmission} from '/assets/standalone-forms/ghl-tracking.js';import {loadCallRail,captureCallRailSubmission} from '/assets/standalone-forms/callrail.js';window.probe={ensureGhlTracking,recordGhlSubmission,loadCallRail,captureCallRailSubmission};</script>`});
+  return route.fulfill({contentType:'text/html',body:`<!doctype html><title>Authorized migration transport QA</title><h1>Migration QA — vendor delivery only</h1><div id="forms"></div><script src="https://www.googletagmanager.com/gtm.js?id=GTM-5BV286F5"></script><script type="module">import {ensureGhlTracking,recordGhlSubmission} from '/assets/standalone-forms/ghl-tracking.js';import {loadCallRail,captureCallRailSubmission} from '/assets/standalone-forms/callrail.js';window.probe={ensureGhlTracking,recordGhlSubmission,loadCallRail,captureCallRailSubmission};</script>`});
  });
  const page=await context.newPage();
  page.on('response',response=>{const u=new URL(response.url());if(u.hostname==='backend.leadconnectorhq.com'&&u.pathname==='/external-tracking/events'||u.hostname.endsWith('.callrail.com')&&u.pathname.endsWith('/form_capture.json'))responses.push({variant,vendor:u.hostname.includes('callrail')?'CallRail':'GHL',method:response.request().method(),status:response.status(),at:new Date().toISOString()});});
@@ -24,7 +24,7 @@ try {
   const id=`custom-mobile-${variant}-enquiry`;
   const name=`Migration QA ${stamp} ${variant}`;
   const result=await page.evaluate(async ({id,name,index,stamp})=>{
-   const form=document.createElement('form');form.id=id;form.setAttribute('data-contact-form','');
+   const form=document.createElement('form');form.id=id;form.setAttribute('data-contact-form','');form.setAttribute('data-cr-no-capture','');
    for(const [key,value] of Object.entries({name,email:`migration-${stamp}-${index}@example.invalid`,phone:`+1202555019${index}`,message:'Authorized migration QA. Test record only. No follow-up requested.',source_path:'/custom-mobile-application-development'})){
     const input=document.createElement('input');input.name=key;input.value=value;input.type=key==='email'?'email':key==='phone'?'tel':'text';form.append(input);
    }
